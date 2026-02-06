@@ -3,6 +3,8 @@ const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
 const OPML_URL =
   "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b/raw/hn-popular-blogs-2025.opml";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+const CORS_PROXY_JSON = "https://api.allorigins.win/get?url=";
+const RSS_FEED_LIMIT = 36;
 
 const ABOUT_DATA = {
   origin: {
@@ -271,12 +273,34 @@ async function setupBlog() {
   });
 }
 
-async function fetchOPMLFeeds() {
-  const response = await fetch(`${CORS_PROXY}${encodeURIComponent(OPML_URL)}`);
-  if (!response.ok) {
-    throw new Error("Unable to load OPML list");
+
+function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+  return fetch(url, { ...options, signal: controller.signal }).finally(() => clearTimeout(id));
+}
+
+async function fetchTextViaProxy(targetUrl) {
+  const rawUrl = `${CORS_PROXY}${encodeURIComponent(targetUrl)}`;
+  try {
+    const response = await fetchWithTimeout(rawUrl);
+    if (response.ok) {
+      return await response.text();
+    }
+  } catch (error) {
+    // fall through to JSON proxy
   }
-  const text = await response.text();
+
+  const jsonUrl = `${CORS_PROXY_JSON}${encodeURIComponent(targetUrl)}`;
+  const response = await fetchWithTimeout(jsonUrl);
+  if (!response.ok) throw new Error("Proxy request failed");
+  const payload = await response.json();
+  if (!payload.contents) throw new Error("Proxy response empty");
+  return payload.contents;
+}
+
+async function fetchOPMLFeeds() {
+  const text = await fetchTextViaProxy(OPML_URL);
   const parser = new DOMParser();
   const xml = parser.parseFromString(text, "text/xml");
   const outlines = Array.from(xml.querySelectorAll("outline[xmlUrl]"));
@@ -287,9 +311,7 @@ async function fetchOPMLFeeds() {
 }
 
 async function fetchFeed(feed) {
-  const response = await fetch(`${CORS_PROXY}${encodeURIComponent(feed.url)}`);
-  if (!response.ok) throw new Error("Feed unavailable");
-  const text = await response.text();
+  const text = await fetchTextViaProxy(feed.url);
   const parser = new DOMParser();
   const xml = parser.parseFromString(text, "text/xml");
 
@@ -324,7 +346,7 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
-      const feeds = await fetchOPMLFeeds();
+      const feeds = (await fetchOPMLFeeds()).slice(0, RSS_FEED_LIMIT);
       const batches = [];
       const concurrency = 6;
 
@@ -333,13 +355,16 @@ async function setupRSS() {
       }
 
       const results = [];
+      let completed = 0;
       for (const batch of batches) {
         const batchResults = await Promise.allSettled(batch.map(fetchFeed));
         batchResults.forEach((result) => {
+          completed += 1;
           if (result.status === "fulfilled") {
             results.push(...result.value);
           }
         });
+        status.textContent = `Fetching feeds... ${completed}/${feeds.length}`;
       }
 
       items = results
@@ -350,6 +375,12 @@ async function setupRSS() {
         }))
         .sort((a, b) => b.dateValue - a.dateValue)
         .slice(0, 40);
+
+      if (!items.length) {
+        status.textContent = `No items loaded (0/${feeds.length} feeds). Try refresh.`;
+        list.innerHTML = "";
+        return;
+      }
 
       status.textContent = `Showing ${items.length} latest items from ${feeds.length} feeds`;
       renderList(items);
