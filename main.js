@@ -299,46 +299,51 @@ function clampText(text, max = 120) {
   return `${clean.slice(0, max - 1)}…`;
 }
 
+
 function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeoutMs);
   return fetch(url, { ...options, signal: controller.signal }).finally(() => clearTimeout(id));
 }
 
-async function fetchTextViaProxy(targetUrl) {
-  const rawUrl = `${CORS_PROXY}${encodeURIComponent(targetUrl)}`;
-  try {
-    const response = await fetchWithTimeout(rawUrl);
-    if (response.ok) {
+function getJinaUrl(targetUrl) {
+  const normalized = targetUrl.replace(/^https?:\/\//, "");
+  return `https://r.jina.ai/http://${normalized}`;
+}
+
+async function fetchTextWithFallbacks(targetUrl) {
+  const attempts = [
+    { label: "direct", url: targetUrl, type: "text" },
+    { label: "allorigins-raw", url: `${CORS_PROXY}${encodeURIComponent(targetUrl)}`, type: "text" },
+    { label: "allorigins-json", url: `${CORS_PROXY_JSON}${encodeURIComponent(targetUrl)}`, type: "json" },
+    { label: "jina", url: getJinaUrl(targetUrl), type: "text" },
+  ];
+
+  let lastError = null;
+  for (const attempt of attempts) {
+    try {
+      const response = await fetchWithTimeout(attempt.url, {}, 12000);
+      if (!response.ok) {
+        lastError = new Error(`${attempt.label}: ${response.status}`);
+        continue;
+      }
+      if (attempt.type === "json") {
+        const payload = await response.json();
+        if (!payload.contents) {
+          lastError = new Error(`${attempt.label}: empty response`);
+          continue;
+        }
+        return payload.contents;
+      }
       return await response.text();
+    } catch (error) {
+      lastError = new Error(`${attempt.label}: ${error.message}`);
     }
-  } catch (error) {
-    // fall through to JSON proxy
   }
-
-  const jsonUrl = `${CORS_PROXY_JSON}${encodeURIComponent(targetUrl)}`;
-  const response = await fetchWithTimeout(jsonUrl);
-  if (!response.ok) throw new Error("Proxy request failed");
-  const payload = await response.json();
-  if (!payload.contents) throw new Error("Proxy response empty");
-  return payload.contents;
+  throw lastError || new Error("Load failed");
 }
-
-
-async function fetchTextDirectOrProxy(targetUrl) {
-  try {
-    const directResponse = await fetchWithTimeout(targetUrl, {}, 8000);
-    if (directResponse.ok) {
-      return await directResponse.text();
-    }
-  } catch (error) {
-    // fall back to proxy
-  }
-  return fetchTextViaProxy(targetUrl);
-}
-
 async function fetchOPMLFeeds() {
-  const text = await fetchTextDirectOrProxy(OPML_URL);
+  const text = await fetchTextWithFallbacks(OPML_URL);
   const parser = new DOMParser();
   const xml = parser.parseFromString(text, "text/xml");
   const outlines = Array.from(xml.querySelectorAll("outline[xmlUrl]"));
@@ -349,7 +354,7 @@ async function fetchOPMLFeeds() {
 }
 
 async function fetchFeed(feed) {
-  const text = await fetchTextViaProxy(feed.url);
+  const text = await fetchTextWithFallbacks(feed.url);
   const parser = new DOMParser();
   const xml = parser.parseFromString(text, "text/xml");
 
@@ -380,6 +385,16 @@ async function fetchFeed(feed) {
   }));
 }
 
+
+async function fetchLocalRss() {
+  const cacheBust = `rss.json?ts=${Date.now()}`;
+  const response = await fetch(cacheBust);
+  if (!response.ok) return null;
+  const payload = await response.json();
+  if (!payload || !Array.isArray(payload.items)) return null;
+  return payload.items;
+}
+
 async function setupRSS() {
   const status = document.getElementById("rss-status");
   const list = document.getElementById("rss-list");
@@ -392,6 +407,20 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
+      const localItems = await fetchLocalRss();
+      if (localItems && localItems.length) {
+        items = localItems
+          .map((item) => ({
+            ...item,
+            dateValue: item.date ? new Date(item.date).getTime() : 0,
+          }))
+          .sort((a, b) => b.dateValue - a.dateValue)
+          .slice(0, 40);
+        status.textContent = `Showing ${items.length} latest items (cached)`;
+        renderList(items);
+        return;
+      }
+
       status.textContent = "Fetching feed list...";
       let feeds = [];
       try {

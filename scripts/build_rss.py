@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+import json
+import time
+import html
+import re
+from datetime import datetime
+from urllib.request import urlopen, Request
+import xml.etree.ElementTree as ET
+
+OPML_URL = "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b/raw/hn-popular-blogs-2025.opml"
+MAX_FEEDS = 36
+MAX_ITEMS = 40
+ITEMS_PER_FEED = 3
+
+
+def fetch_text(url: str) -> str:
+    req = Request(url, headers={"User-Agent": "RSS Builder/1.0"})
+    with urlopen(req, timeout=15) as resp:
+        return resp.read().decode("utf-8", errors="ignore")
+
+
+def parse_opml(text: str):
+    root = ET.fromstring(text)
+    feeds = []
+    for node in root.findall(".//outline"):
+        xml_url = node.attrib.get("xmlUrl")
+        title = node.attrib.get("title") or node.attrib.get("text")
+        if xml_url:
+            feeds.append({"title": title or "Feed", "url": xml_url})
+    return feeds
+
+
+def strip_html(value: str) -> str:
+    clean = re.sub(r"<[^>]+>", " ", value or "")
+    clean = html.unescape(clean)
+    clean = re.sub(r"\s+", " ", clean).strip()
+    return clean
+
+
+def parse_rss(text: str, source: str):
+    items = []
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        return items
+
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "Untitled").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        summary = item.findtext("description") or ""
+        items.append({
+            "title": title,
+            "link": link,
+            "date": pub_date,
+            "summary": strip_html(summary),
+            "source": source,
+        })
+
+    for entry in root.findall(".//{http://www.w3.org/2005/Atom}entry"):
+        title = (entry.findtext("{http://www.w3.org/2005/Atom}title") or "Untitled").strip()
+        link_el = entry.find("{http://www.w3.org/2005/Atom}link")
+        link = link_el.attrib.get("href", "") if link_el is not None else ""
+        updated = (entry.findtext("{http://www.w3.org/2005/Atom}updated") or "").strip()
+        summary = entry.findtext("{http://www.w3.org/2005/Atom}summary") or ""
+        items.append({
+            "title": title,
+            "link": link,
+            "date": updated,
+            "summary": strip_html(summary),
+            "source": source,
+        })
+
+    return items
+
+
+def date_value(item):
+    value = item.get("date", "")
+    if not value:
+        return 0
+    try:
+        return datetime.fromtimestamp(time.mktime(time.strptime(value, "%a, %d %b %Y %H:%M:%S %Z"))).timestamp()
+    except Exception:
+        try:
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+        except Exception:
+            return 0
+
+
+def main():
+    opml_text = fetch_text(OPML_URL)
+    feeds = parse_opml(opml_text)[:MAX_FEEDS]
+    results = []
+
+    for feed in feeds:
+        try:
+            feed_text = fetch_text(feed["url"])
+            items = parse_rss(feed_text, feed["title"])[:ITEMS_PER_FEED]
+            results.extend(items)
+        except Exception:
+            continue
+
+    results.sort(key=date_value, reverse=True)
+    results = [item for item in results if item.get("link")][:MAX_ITEMS]
+
+    payload = {
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "items": results,
+    }
+
+    with open("rss.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+if __name__ == "__main__":
+    main()
