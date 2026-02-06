@@ -6,6 +6,17 @@ const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 const CORS_PROXY_JSON = "https://api.allorigins.win/get?url=";
 const RSS_FEED_LIMIT = 36;
 
+const FALLBACK_FEEDS = [
+  { title: "simonwillison.net", url: "https://simonwillison.net/atom/everything/" },
+  { title: "jeffgeerling.com", url: "https://www.jeffgeerling.com/blog.xml" },
+  { title: "daringfireball.net", url: "https://daringfireball.net/feeds/main" },
+  { title: "overreacted.io", url: "https://overreacted.io/rss.xml" },
+  { title: "krebsonsecurity.com", url: "https://krebsonsecurity.com/feed/" },
+  { title: "mitchellh.com", url: "https://mitchellh.com/feed.xml" },
+  { title: "pluralistic.net", url: "https://pluralistic.net/feed/" },
+  { title: "devblogs.microsoft.com/oldnewthing", url: "https://devblogs.microsoft.com/oldnewthing/feed" }
+];
+
 const ABOUT_DATA = {
   origin: {
     title: "Origin",
@@ -274,6 +285,20 @@ async function setupBlog() {
 }
 
 
+
+function stripHtml(input) {
+  const div = document.createElement("div");
+  div.innerHTML = input || "";
+  return div.textContent || div.innerText || "";
+}
+
+function clampText(text, max = 120) {
+  if (!text) return "";
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  return `${clean.slice(0, max - 1)}…`;
+}
+
 function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeoutMs);
@@ -299,8 +324,21 @@ async function fetchTextViaProxy(targetUrl) {
   return payload.contents;
 }
 
+
+async function fetchTextDirectOrProxy(targetUrl) {
+  try {
+    const directResponse = await fetchWithTimeout(targetUrl, {}, 8000);
+    if (directResponse.ok) {
+      return await directResponse.text();
+    }
+  } catch (error) {
+    // fall back to proxy
+  }
+  return fetchTextViaProxy(targetUrl);
+}
+
 async function fetchOPMLFeeds() {
-  const text = await fetchTextViaProxy(OPML_URL);
+  const text = await fetchTextDirectOrProxy(OPML_URL);
   const parser = new DOMParser();
   const xml = parser.parseFromString(text, "text/xml");
   const outlines = Array.from(xml.querySelectorAll("outline[xmlUrl]"));
@@ -321,6 +359,10 @@ async function fetchFeed(feed) {
       title: item.querySelector("title")?.textContent || "Untitled",
       link: item.querySelector("link")?.textContent || "",
       date: item.querySelector("pubDate")?.textContent || "",
+      summary:
+        item.querySelector("description")?.textContent ||
+        item.querySelector("content:encoded")?.textContent ||
+        "",
       source: feed.title,
     }));
   }
@@ -330,6 +372,10 @@ async function fetchFeed(feed) {
     title: entry.querySelector("title")?.textContent || "Untitled",
     link: entry.querySelector("link")?.getAttribute("href") || "",
     date: entry.querySelector("updated")?.textContent || "",
+    summary:
+      entry.querySelector("summary")?.textContent ||
+      entry.querySelector("content")?.textContent ||
+      "",
     source: feed.title,
   }));
 }
@@ -346,7 +392,18 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
-      const feeds = (await fetchOPMLFeeds()).slice(0, RSS_FEED_LIMIT);
+      status.textContent = "Fetching feed list...";
+      let feeds = [];
+      try {
+        feeds = (await fetchOPMLFeeds()).slice(0, RSS_FEED_LIMIT);
+      } catch (error) {
+        feeds = FALLBACK_FEEDS.slice(0, RSS_FEED_LIMIT);
+        status.textContent = "Using fallback feeds...";
+      }
+      if (!feeds.length) {
+        feeds = FALLBACK_FEEDS.slice(0, RSS_FEED_LIMIT);
+      }
+
       const batches = [];
       const concurrency = 6;
 
@@ -395,6 +452,7 @@ async function setupRSS() {
         (item) => `
         <article class="rss-item">
           <a href="${item.link}" target="_blank" rel="noreferrer">${item.title}</a>
+          <p class="rss-summary">${clampText(stripHtml(item.summary)) || "No summary available."}</p>
           <small>${item.source}${item.date ? ` • ${new Date(item.date).toLocaleDateString()}` : ""}</small>
         </article>
       `
