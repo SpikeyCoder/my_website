@@ -3,50 +3,323 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Snake</title>
-    <meta name="description" content="Classic Snake game. Use arrow keys or WASD to play." />
-    <meta property="og:title" content="Snake" />
-    <meta property="og:description" content="Classic Snake game. Use arrow keys or WASD to play." />
+    <title>Kevin Armstrong — Product + iOS Portfolio</title>
+    <meta
+      name="description"
+      content="Kevin Armstrong — product leader and iOS engineer. Interactive portfolio, live blog, and RSS radar."
+    />
+    <meta property="og:title" content="Kevin Armstrong" />
+    <meta property="og:description" content="Interactive portfolio, live blog, and RSS radar." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="app">
-      <header class="header">
-        <h1>Snake</h1>
-        <div class="meta">
-          <span id="score">Score: 0</span>
-          <span id="status">Ready</span>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container hero reveal">
+        <div class="hero-main">
+          <p class="eyebrow">Kevin Armstrong</p>
+          <h1>
+            Product leader and iOS engineer shipping payment growth, retention, and high-trust consumer experiences.
+          </h1>
+          <p class="hero-sub">
+            Focus Area: <span id="focus-area">iOS commerce + payment systems + AI-assisted product ops</span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#portfolio">Explore Portfolio</a>
+            <a class="btn ghost" href="#blog">Read the Blog</a>
+          </div>
         </div>
-      </header>
+        <div class="hero-card">
+          <div class="stat">
+            <span class="stat-label">Now</span>
+            <span class="stat-value" id="now-status">Senior TPM, Amazon Prime Payments</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Highlights</span>
+            <span class="stat-value">0.5MM Prime members, $13.2MM annual GMS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Scope</span>
+            <span class="stat-value">10 teams, 40+ engineers</span>
+          </div>
+          <p class="card-note">
+            MBA (Chicago Booth). Built iOS + product systems across Amazon, Walgreens, and Capital One.
+          </p>
+        </div>
+      </div>
+    </header>
 
-      <section class="game">
-        <canvas id="board" width="400" height="400" aria-label="Snake game board"></canvas>
-        <div id="overlay" class="overlay" aria-live="polite">
-          <div class="overlay-card">
-            <p id="overlay-text">Ready</p>
-            <p class="overlay-hint">Press any arrow key to start</p>
+    <main>
+      <section id="about" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p>
+              A living profile that blends iOS craftsmanship with product strategy, analytics, and growth systems.
+            </p>
+          </div>
+          <div class="about-grid">
+            <div class="about-panel">
+              <div class="pill-row" id="about-tabs">
+                <button class="pill active" data-about="origin">Origin</button>
+                <button class="pill" data-about="craft">Craft</button>
+                <button class="pill" data-about="impact">Impact</button>
+                <button class="pill" data-about="now">Now</button>
+              </div>
+              <div class="about-card" id="about-card">
+                <h3 id="about-title">Origin</h3>
+                <p id="about-body">
+                  Electrical engineer turned iOS developer and product leader. I like building systems that are calm
+                  for customers and scalable for teams.
+                </p>
+              </div>
+            </div>
+            <div class="about-panel">
+              <h3>Interactive Resume Snapshot</h3>
+              <div class="timeline" id="timeline">
+                <button class="timeline-item active" data-timeline="0">
+                  <span class="year">2021–Now</span>
+                  <span class="title">Amazon Prime Payments</span>
+                </button>
+                <button class="timeline-item" data-timeline="1">
+                  <span class="year">2018–2021</span>
+                  <span class="title">Walgreens Product + iOS</span>
+                </button>
+                <button class="timeline-item" data-timeline="2">
+                  <span class="year">2013–2018</span>
+                  <span class="title">Capital One iOS + Product</span>
+                </button>
+              </div>
+              <div class="timeline-detail" id="timeline-detail">
+                Payment optimization and Prime expansion across 13 markets, plus AI workflows to streamline launches.
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="controls">
-        <div class="row">
-          <button data-dir="up" aria-label="Up">▲</button>
-        </div>
-        <div class="row">
-          <button data-dir="left" aria-label="Left">◀</button>
-          <button data-dir="down" aria-label="Down">▼</button>
-          <button data-dir="right" aria-label="Right">▶</button>
-        </div>
-        <div class="row">
-          <button id="pause">Pause</button>
-          <button id="restart">Restart</button>
+      <section id="portfolio" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>Interactive Portfolio</h2>
+            <p>Filter by focus. Each project card expands with a quick narrative and the decisions behind it.</p>
+          </div>
+          <div class="pill-row" id="portfolio-filters">
+            <button class="pill active" data-filter="all">All</button>
+            <button class="pill" data-filter="ios">iOS</button>
+            <button class="pill" data-filter="product">Product</button>
+            <button class="pill" data-filter="ai">AI</button>
+            <button class="pill" data-filter="systems">Systems</button>
+          </div>
+          <div class="portfolio-grid" id="portfolio-grid">
+            <article class="project-card" data-tags="product systems">
+              <div class="project-header">
+                <h3>Prime Payment Optimization</h3>
+                <span class="tag">Product</span>
+              </div>
+              <p>
+                Led payment strategy that acquired 0.5MM Prime members and $13.2MM annual GMS across two markets.
+              </p>
+              <button class="link" data-expand="0">Read the story</button>
+              <div class="project-detail" data-detail="0">
+                <p>
+                  Shipped bank-to-bank payments in Spain and scaled learnings across 13 markets using rapid MVPs and
+                  analytics-driven prioritization.
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-tags="product ai systems">
+              <div class="project-header">
+                <h3>AI-Powered Launch Workflow</h3>
+                <span class="tag">AI</span>
+              </div>
+              <p>
+                Simplified payment architecture and added AI workflows to accelerate documentation and launch prep.
+              </p>
+              <button class="link" data-expand="1">Read the story</button>
+              <div class="project-detail" data-detail="1">
+                <p>
+                  Coordinated 10 teams and 40+ engineers to reduce time from conception to launch by 60%.
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-tags="ios product">
+              <div class="project-header">
+                <h3>EU Prime Payment Switch Onboarding</h3>
+                <span class="tag">iOS</span>
+              </div>
+              <p>
+                Redesigned the Amazon app onboarding flow for EU Prime members switching payments, boosting retention.
+              </p>
+              <button class="link" data-expand="2">Read the story</button>
+              <div class="project-detail" data-detail="2">
+                <p>
+                  Paired UX clarity with real-time analytics to increase member retention by 30%.
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-tags="ios product">
+              <div class="project-header">
+                <h3>Walgreens Wallet</h3>
+                <span class="tag">iOS</span>
+              </div>
+              <p>
+                Engineered iOS and desktop wallet for 3MM users, delivering $13.7MM GMS.
+              </p>
+              <button class="link" data-expand="3">Read the story</button>
+              <div class="project-detail" data-detail="3">
+                <p>
+                  Balanced privacy, speed, and A/B tested UX improvements to lift NPS and reduce support volume.
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-tags="product systems">
+              <div class="project-header">
+                <h3>Rx Locker Delivery</h3>
+                <span class="tag">Systems</span>
+              </div>
+              <p>
+                Built Rx locker delivery innovation at Walgreens, creating $3.5MM GMS and reducing pickup friction.
+              </p>
+              <button class="link" data-expand="4">Read the story</button>
+              <div class="project-detail" data-detail="4">
+                <p>
+                  A/B tested pickup flows, optimized SMS architecture, and negotiated vendor savings.
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-tags="ios systems">
+              <div class="project-header">
+                <h3>Apply & Buy + Wallet Features</h3>
+                <span class="tag">iOS</span>
+              </div>
+              <p>
+                Launched Apply & Buy for 1MM customers and built iOS wallet features that reduced call volume.
+              </p>
+              <button class="link" data-expand="5">Read the story</button>
+              <div class="project-detail" data-detail="5">
+                <p>
+                  Combined credit decisioning UX with backend systems for real-time approvals and gift card reminders.
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <p class="hint">Use arrow keys or WASD. Space toggles pause. R restarts.</p>
+      <section id="blog" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>Live Blog</h2>
+            <p>Publish in real-time with Supabase. Admin-only publishing is enabled.</p>
+          </div>
+          <div class="blog-grid">
+            <div class="blog-panel">
+              <div class="panel-header">
+                <h3>Latest Posts</h3>
+                <span id="blog-status" class="status">Loading...</span>
+              </div>
+              <div id="blog-list" class="blog-list"></div>
+            </div>
+            <div class="blog-panel">
+              <div class="panel-header">
+                <h3>Admin Publish</h3>
+                <span class="status" id="blog-config">Waiting for Supabase keys</span>
+              </div>
+              <form id="auth-form" class="auth-form">
+                <label>
+                  Admin email
+                  <input type="email" id="auth-email" required placeholder="you@email.com" />
+                </label>
+                <label>
+                  Password
+                  <input type="password" id="auth-password" required placeholder="••••••••" />
+                </label>
+                <button class="btn ghost" type="submit">Sign in</button>
+                <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
+                <p class="helper" id="auth-status">Not signed in</p>
+              </form>
+              <form id="blog-form" class="blog-form">
+                <label>
+                  Title
+                  <input type="text" name="title" required placeholder="Post title" />
+                </label>
+                <label>
+                  Summary
+                  <input type="text" name="summary" required placeholder="Short hook" />
+                </label>
+                <label>
+                  Content
+                  <textarea name="content" rows="6" required placeholder="Write the post..."></textarea>
+                </label>
+                <label>
+                  Tags (comma-separated)
+                  <input type="text" name="tags" placeholder="ios, product, payments" />
+                </label>
+                <button class="btn primary" type="submit">Publish</button>
+                <p class="helper">
+                  Posts are stored in Supabase table <span class="mono">posts</span> with
+                  <span class="mono">title</span>, <span class="mono">summary</span>,
+                  <span class="mono">content</span>, <span class="mono">tags</span>,
+                  <span class="mono">published_at</span>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rss" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>RSS Radar</h2>
+            <p>
+              Live feed powered by the curated RSS list from the HN Popular Blogs OPML. Aggregated in real-time in
+              your browser.
+            </p>
+          </div>
+          <div class="rss-controls">
+            <input type="text" id="rss-search" placeholder="Filter by title or source" />
+            <button class="btn ghost" id="rss-refresh">Refresh</button>
+          </div>
+          <div id="rss-status" class="status">Loading feeds...</div>
+          <div id="rss-list" class="rss-list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container reveal contact">
+          <div>
+            <h2>Let’s Build Something</h2>
+            <p>
+              Open to product-focused iOS roles, collaborations, and small bets on ambitious ideas. Say hello and
+              share what you are building.
+            </p>
+          </div>
+          <div class="contact-card">
+            <p class="mono">kevinarmstrong.io</p>
+            <p>Email: kevinmarmstrong1990@gmail.com</p>
+            <p>GitHub: SpikeyCoder</p>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Kevin Armstrong. Built with iOS polish and a systems mindset.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module" src="main.js"></script>
   </body>
 </html>
