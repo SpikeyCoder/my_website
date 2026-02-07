@@ -1,3 +1,5 @@
+document.body.classList.add("js");
+
 const SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
 const OPML_URL =
