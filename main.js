@@ -86,15 +86,20 @@ const ABOUT_DATA = {
 
 const TIMELINE_DATA = [
   {
-    year: "2021–Now",
+    year: "2026–Now",
     text:
-      "Amazon: Led payment optimization strategy (0.5MM Prime members, $13.2MM annual GMS), added bank-to-bank payments in Spain, and drove Prime expansion across 13 markets.",
+      "Working to bring Starlink to businesses around the globe.",
+  },
+  {
+    year: "2021–2026",
+    text:
+     "Amazon: Led payment optimization strategy (0.5MM Prime members, $13.2MM annual GMS), added bank-to-bank payments in Spain, and drove Prime expansion across 13 markets.",
   },
   {
     year: "2018–2021",
     text:
       "Walgreens: Built iOS + desktop wallet for 3MM users, ran CX optimization sprints, and delivered Rx locker innovations generating $3.5MM GMS.",
-  },
+   },
   {
     year: "2013–2018",
     text:
