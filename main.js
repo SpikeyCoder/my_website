@@ -388,6 +388,30 @@ async function fetchFeed(feed) {
 }
 
 
+
+function loadCachedRss() {
+  try {
+    const raw = localStorage.getItem("rss-cache");
+    if (!raw) return null;
+    const payload = JSON.parse(raw);
+    if (!payload || !Array.isArray(payload.items)) return null;
+    return payload.items;
+  } catch (error) {
+    return null;
+  }
+}
+
+function saveCachedRss(items) {
+  try {
+    localStorage.setItem("rss-cache", JSON.stringify({
+      saved_at: new Date().toISOString(),
+      items
+    }));
+  } catch (error) {
+    // ignore
+  }
+}
+
 async function fetchLocalRss() {
   const cacheBust = `rss.json?ts=${Date.now()}`;
   const response = await fetch(cacheBust);
@@ -409,6 +433,19 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
+      const cachedItems = loadCachedRss();
+      if (cachedItems && cachedItems.length) {
+        items = cachedItems
+          .map((item) => ({
+            ...item,
+            dateValue: item.date ? new Date(item.date).getTime() : 0,
+          }))
+          .sort((a, b) => b.dateValue - a.dateValue)
+          .slice(0, 40);
+        status.textContent = `Showing ${items.length} latest items (cached)`;
+        renderList(items);
+      }
+
       const localItems = await fetchLocalRss();
       if (localItems && localItems.length) {
         items = localItems
@@ -420,6 +457,7 @@ async function setupRSS() {
           .slice(0, 40);
         status.textContent = `Showing ${items.length} latest items (cached)`;
         renderList(items);
+        saveCachedRss(items);
         return;
       }
 
