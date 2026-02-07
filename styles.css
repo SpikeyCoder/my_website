@@ -389,6 +389,21 @@ textarea {
   min-width: 42px;
 }
 
+.blog-editor-color {
+  width: 42px;
+  height: 36px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  cursor: pointer;
+}
+
+.blog-editor-color:focus {
+  outline: 2px solid rgba(88, 166, 255, 0.35);
+  outline-offset: 2px;
+}
+
 .blog-editor-select {
   border-radius: 8px;
   border: 1px solid var(--border);

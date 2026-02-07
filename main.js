@@ -260,6 +260,15 @@ function setupComposeToolbar(form) {
       select.value = "";
     });
   });
+
+  toolbar.querySelectorAll("input[type='color'][data-compose-action]").forEach((input) => {
+    if (!(input instanceof HTMLInputElement)) return;
+    input.addEventListener("change", () => {
+      const value = input.value;
+      if (!value) return;
+      applySpanStyle(textarea, `color:${value}`);
+    });
+  });
 }
 
 async function setupBlog() {
@@ -411,6 +420,7 @@ async function setupBlog() {
                   <button class="btn ghost" type="button" data-md="${post.id}" data-action="bold">B</button>
                   <button class="btn ghost" type="button" data-md="${post.id}" data-action="italic">I</button>
                   <button class="btn ghost" type="button" data-md="${post.id}" data-action="underline">U</button>
+                  <input class="blog-editor-color" type="color" data-md="${post.id}" data-action="color" aria-label="Font color" value="#d6deeb" />
                   <select class="blog-editor-select" data-md="${post.id}" data-action="size" aria-label="Font size">
                     <option value="">Size</option>
                     <option value="12px">12</option>
@@ -530,6 +540,20 @@ async function setupBlog() {
         select.value = "";
       });
     });
+
+    list.querySelectorAll("input[type='color'][data-md][data-action]").forEach((input) => {
+      if (!(input instanceof HTMLInputElement)) return;
+      input.addEventListener("change", () => {
+        const id = input.dataset.md;
+        const action = input.dataset.action;
+        const value = input.value;
+        const formEl = list.querySelector(`[data-form='${id}']`);
+        const textarea = formEl?.querySelector("textarea[name='content']");
+        if (!(textarea instanceof HTMLTextAreaElement)) return;
+        if (!value) return;
+        if (action === "color") applySpanStyle(textarea, `color:${value}`);
+      });
+    });
   }
 
   await loadPosts();
@@ -633,6 +657,13 @@ function renderMarkdown(content) {
           const prop = (propRaw || "").trim().toLowerCase();
           const value = valueParts.join(":").trim();
           if (!prop || !value) continue;
+
+          if (prop === "color") {
+            const m = value.match(/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/);
+            if (!m) continue;
+            out.push(`color:${value.toLowerCase()}`);
+            continue;
+          }
 
           if (prop === "font-size") {
             const m = value.match(/^([0-9]{1,2})(px)$/);
