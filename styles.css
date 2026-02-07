@@ -537,3 +537,7 @@ body.js .reveal.visible {
     gap: 10px;
   }
 }
+
+.admin-panel[hidden] {
+  display: none;
+}
