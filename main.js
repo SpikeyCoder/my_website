@@ -205,6 +205,61 @@ function setFormEnabled(form, enabled) {
   });
 }
 
+function wrapTextareaSelection(textarea, before, after) {
+  const start = textarea.selectionStart ?? 0;
+  const end = textarea.selectionEnd ?? 0;
+  const value = textarea.value ?? "";
+  const selected = value.slice(start, end) || "";
+  const next = value.slice(0, start) + before + selected + after + value.slice(end);
+  textarea.value = next;
+  const cursor = start + before.length + selected.length;
+  textarea.focus();
+  textarea.setSelectionRange(cursor, cursor);
+}
+
+function applySpanStyle(textarea, style) {
+  const start = textarea.selectionStart ?? 0;
+  const end = textarea.selectionEnd ?? 0;
+  const value = textarea.value ?? "";
+  const selected = value.slice(start, end) || "";
+  const before = `<span style="${style}">`;
+  const after = `</span>`;
+  const next = value.slice(0, start) + before + selected + after + value.slice(end);
+  textarea.value = next;
+  const cursor = start + before.length + selected.length + after.length;
+  textarea.focus();
+  textarea.setSelectionRange(cursor, cursor);
+}
+
+function setupComposeToolbar(form) {
+  const textarea = form?.querySelector("textarea[name='content']");
+  const toolbar = document.getElementById("blog-compose-toolbar");
+  if (!(textarea instanceof HTMLTextAreaElement)) return;
+  if (!toolbar) return;
+
+  toolbar.querySelectorAll("button[data-compose-action]").forEach((button) => {
+    if (!(button instanceof HTMLButtonElement)) return;
+    button.addEventListener("click", () => {
+      const action = button.dataset.composeAction;
+      if (action === "bold") wrapTextareaSelection(textarea, "<strong>", "</strong>");
+      if (action === "italic") wrapTextareaSelection(textarea, "<em>", "</em>");
+      if (action === "underline") wrapTextareaSelection(textarea, "<u>", "</u>");
+    });
+  });
+
+  toolbar.querySelectorAll("select[data-compose-action]").forEach((select) => {
+    if (!(select instanceof HTMLSelectElement)) return;
+    select.addEventListener("change", () => {
+      const action = select.dataset.composeAction;
+      const value = select.value;
+      if (!value) return;
+      if (action === "size") applySpanStyle(textarea, `font-size:${value}`);
+      if (action === "family") applySpanStyle(textarea, `font-family:${value}`);
+      select.value = "";
+    });
+  });
+}
+
 async function setupBlog() {
   const status = document.getElementById("blog-status");
   const configStatus = document.getElementById("blog-config");
@@ -227,6 +282,7 @@ async function setupBlog() {
   }
 
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  setupComposeToolbar(form);
   configStatus.textContent = "Supabase connected";
   setFormEnabled(form, false);
   if (publishPanel) publishPanel.style.display = "none";
@@ -341,6 +397,26 @@ async function setupBlog() {
               </label>
               <label>
                 Content
+                <div class="blog-editor-toolbar" data-toolbar="${post.id}">
+                  <button class="btn ghost" type="button" data-md="${post.id}" data-action="bold">B</button>
+                  <button class="btn ghost" type="button" data-md="${post.id}" data-action="italic">I</button>
+                  <button class="btn ghost" type="button" data-md="${post.id}" data-action="underline">U</button>
+                  <select class="blog-editor-select" data-md="${post.id}" data-action="size" aria-label="Font size">
+                    <option value="">Size</option>
+                    <option value="12px">12</option>
+                    <option value="14px">14</option>
+                    <option value="16px">16</option>
+                    <option value="18px">18</option>
+                    <option value="22px">22</option>
+                    <option value="26px">26</option>
+                  </select>
+                  <select class="blog-editor-select" data-md="${post.id}" data-action="family" aria-label="Font family">
+                    <option value="">Font</option>
+                    <option value="D-DIN">D-DIN</option>
+                    <option value="JetBrains Mono">JetBrains Mono</option>
+                    <option value="monospace">Monospace</option>
+                  </select>
+                </div>
                 <textarea name="content" rows="8">${escapeHtml(post.content || "")}</textarea>
               </label>
               <label>
@@ -401,6 +477,38 @@ async function setupBlog() {
         await loadPosts();
       });
     });
+
+    // Rich formatting toolbar actions for the edit textarea.
+    list.querySelectorAll("[data-md][data-action]").forEach((button) => {
+      if (!(button instanceof HTMLButtonElement)) return;
+      button.addEventListener("click", () => {
+        const id = button.dataset.md;
+        const action = button.dataset.action;
+        const formEl = list.querySelector(`[data-form='${id}']`);
+        const textarea = formEl?.querySelector("textarea[name='content']");
+        if (!(textarea instanceof HTMLTextAreaElement)) return;
+        if (action === "bold") wrapTextareaSelection(textarea, "<strong>", "</strong>");
+        if (action === "italic") wrapTextareaSelection(textarea, "<em>", "</em>");
+        if (action === "underline") wrapTextareaSelection(textarea, "<u>", "</u>");
+      });
+    });
+
+    list.querySelectorAll("select[data-md][data-action]").forEach((select) => {
+      if (!(select instanceof HTMLSelectElement)) return;
+      select.addEventListener("change", () => {
+        const id = select.dataset.md;
+        const action = select.dataset.action;
+        const value = select.value;
+        const formEl = list.querySelector(`[data-form='${id}']`);
+        const textarea = formEl?.querySelector("textarea[name='content']");
+        if (!(textarea instanceof HTMLTextAreaElement)) return;
+        if (!value) return;
+
+        if (action === "size") applySpanStyle(textarea, `font-size:${value}`);
+        if (action === "family") applySpanStyle(textarea, `font-family:${value}`);
+        select.value = \"\";
+      });
+    });
   }
 
   await loadPosts();
@@ -447,6 +555,97 @@ async function setupBlog() {
 function renderMarkdown(content) {
   if (!content) return "";
   if (window.marked && window.DOMPurify) {
+    // Allow a very small subset of inline HTML for formatting controls.
+    if (!window.__purifyConfigured) {
+      window.DOMPurify.setConfig({
+        ALLOWED_TAGS: [
+          "a",
+          "b",
+          "blockquote",
+          "br",
+          "code",
+          "em",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "i",
+          "li",
+          "ol",
+          "p",
+          "pre",
+          "span",
+          "strong",
+          "u",
+          "ul",
+        ],
+        ALLOWED_ATTR: ["href", "target", "rel", "style"],
+      });
+
+      window.DOMPurify.addHook("uponSanitizeAttribute", (node, data) => {
+        if (data.attrName !== "style") return;
+
+        const raw = String(data.attrValue || "");
+        const declarations = raw
+          .split(";")
+          .map((d) => d.trim())
+          .filter(Boolean);
+
+        const allowedFamilies = new Set([
+          "D-DIN",
+          "JetBrains Mono",
+          "SFMono-Regular",
+          "ui-monospace",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace",
+        ]);
+
+        const out = [];
+        for (const decl of declarations) {
+          const [propRaw, ...valueParts] = decl.split(":");
+          const prop = (propRaw || "").trim().toLowerCase();
+          const value = valueParts.join(":").trim();
+          if (!prop || !value) continue;
+
+          if (prop === "font-size") {
+            const m = value.match(/^([0-9]{1,2})(px)$/);
+            if (!m) continue;
+            const px = Number(m[1]);
+            if (px < 10 || px > 32) continue;
+            out.push(`font-size:${px}px`);
+            continue;
+          }
+
+          if (prop === "font-family") {
+            const families = value
+              .split(",")
+              .map((f) => f.trim().replaceAll('"', "").replaceAll("'", ""))
+              .filter(Boolean);
+            const safe = families.filter((f) => allowedFamilies.has(f));
+            if (!safe.length) continue;
+            out.push(`font-family:${safe.map((f) => `"${f}"`).join(",")}`);
+            continue;
+          }
+
+          if (prop === "text-decoration") {
+            if (value !== "underline") continue;
+            out.push("text-decoration:underline");
+            continue;
+          }
+        }
+
+        data.attrValue = out.join(";");
+      });
+
+      window.__purifyConfigured = true;
+    }
+
     const html = window.marked.parse(content, { breaks: true });
     return window.DOMPurify.sanitize(html);
   }

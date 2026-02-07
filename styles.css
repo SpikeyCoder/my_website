@@ -374,6 +374,36 @@ textarea {
   margin: 0;
 }
 
+.blog-editor-toolbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-editor-toolbar .btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  min-width: 42px;
+}
+
+.blog-editor-select {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  background: var(--panel-2);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.blog-editor-select:focus,
+.blog-editor-toolbar .btn:focus {
+  outline: 2px solid rgba(88, 166, 255, 0.35);
+  outline-offset: 2px;
+}
+
 .rss-controls {
   display: flex;
   gap: 12px;
@@ -403,11 +433,29 @@ textarea {
   padding: 14px;
   display: grid;
   gap: 6px;
+  color: var(--ink);
 }
 
 .rss-item a {
   color: var(--accent-2);
   font-weight: 600;
+}
+
+.rss-item a:hover {
+  text-decoration: underline;
+}
+
+#rss .section-title h2,
+#rss .status,
+#rss .rss-controls {
+  position: relative;
+  z-index: 1;
+}
+
+#rss-refresh.btn.ghost {
+  background: rgba(15, 23, 32, 0.9);
+  border-color: rgba(214, 222, 235, 0.28);
+  color: var(--ink);
 }
 
 .rss-summary {
