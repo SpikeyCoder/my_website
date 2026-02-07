@@ -506,7 +506,7 @@ async function setupBlog() {
 
         if (action === "size") applySpanStyle(textarea, `font-size:${value}`);
         if (action === "family") applySpanStyle(textarea, `font-family:${value}`);
-        select.value = \"\";
+        select.value = "";
       });
     });
   }
