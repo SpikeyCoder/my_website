@@ -110,8 +110,8 @@ textarea {
 .btn {
   border-radius: 6px;
   padding: 10px 16px;
-  border: 1px solid var(--border);
-  background: transparent;
+  border: 1px solid rgba(214, 222, 235, 0.22);
+  background: var(--panel-2);
   cursor: pointer;
   font-weight: 600;
   color: var(--ink);
@@ -126,6 +126,10 @@ textarea {
 
 .btn.ghost {
   background: var(--panel);
+}
+
+.btn:hover {
+  border-color: rgba(126, 231, 135, 0.5);
 }
 
 .hero-card {
@@ -437,17 +441,6 @@ textarea {
 }
 
 .reveal {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-body.js .reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-body.js .reveal.visible {
   opacity: 1;
   transform: translateY(0);
 }
