@@ -181,6 +181,7 @@ async function setupBlog() {
   const status = document.getElementById("blog-status");
   const configStatus = document.getElementById("blog-config");
   const list = document.getElementById("blog-list");
+  const publishPanel = document.getElementById("publish-panel");
   const form = document.getElementById("blog-form");
   const authForm = document.getElementById("auth-form");
   const authEmail = document.getElementById("auth-email");
@@ -199,6 +200,7 @@ async function setupBlog() {
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   configStatus.textContent = "Supabase connected";
   setFormEnabled(form, false);
+  if (publishPanel) publishPanel.style.display = "none";
   authLogout.style.display = "none";
 
   function setAuthState(session) {
@@ -206,10 +208,12 @@ async function setupBlog() {
       authStatus.textContent = `Signed in as ${session.user.email}`;
       authLogout.style.display = "inline-flex";
       setFormEnabled(form, true);
+      if (publishPanel) publishPanel.style.display = "grid";
     } else {
       authStatus.textContent = "Not signed in";
       authLogout.style.display = "none";
       setFormEnabled(form, false);
+      if (publishPanel) publishPanel.style.display = "none";
     }
   }
 
