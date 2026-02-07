@@ -12,10 +12,45 @@
     <meta property="og:description" content="Interactive portfolio, live blog, and RSS radar." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="" />
-    <link rel="stylesheet" href="styles.css?v=20260206f" />
+    <link rel="stylesheet" href="styles.css?v=20260206g" />
   </head>
   <body>
     <div class="ambient" aria-hidden="true"></div>
+  <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ka</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#rss">RSS</a>
+          <a href="#contact">Contact</a>
+          <button class="nav-admin" id="admin-toggle">Admin</button>
+        </div>
+      </div>
+    </nav>
+    <div class="admin-panel" id="admin-panel" hidden>
+      <div class="admin-card">
+        <div class="admin-header">
+          <h3>Admin Portal</h3>
+          <button class="btn ghost" id="admin-close">Close</button>
+        </div>
+        <form id="auth-form" class="auth-form">
+          <label>
+            Admin email
+            <input type="email" id="auth-email" required placeholder="you@email.com" />
+          </label>
+          <label>
+            Password
+            <input type="password" id="auth-password" required placeholder="••••••••" />
+          </label>
+          <button class="btn ghost" type="submit">Sign in</button>
+          <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
+          <p class="helper" id="auth-status">Not signed in</p>
+        </form>
+      </div>
+    </div>
+
     <header class="site-header">
       <div class="container hero reveal">
         <div class="hero-main">
@@ -232,19 +267,6 @@
                 <h3>Admin Publish</h3>
                 <span class="status" id="blog-config">Waiting for Supabase keys</span>
               </div>
-              <form id="auth-form" class="auth-form">
-                <label>
-                  Admin email
-                  <input type="email" id="auth-email" required placeholder="you@email.com" />
-                </label>
-                <label>
-                  Password
-                  <input type="password" id="auth-password" required placeholder="••••••••" />
-                </label>
-                <button class="btn ghost" type="submit">Sign in</button>
-                <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
-                <p class="helper" id="auth-status">Not signed in</p>
-              </form>
               <form id="blog-form" class="blog-form">
                 <label>
                   Title
@@ -319,7 +341,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script type="module" src="main.js?v=20260206f"></script>
+    <script type="module" src="main.js?v=20260206g"></script>
   <!-- RSS_SEED_START -->
 <script type="application/json" id="rss-seed">[]</script>
 <!-- RSS_SEED_END -->

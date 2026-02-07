@@ -1,5 +1,30 @@
 document.body.classList.add("js");
 
+
+const adminToggle = document.getElementById("admin-toggle");
+const adminPanel = document.getElementById("admin-panel");
+const adminClose = document.getElementById("admin-close");
+
+if (adminToggle && adminPanel) {
+  adminToggle.addEventListener("click", () => {
+    adminPanel.hidden = false;
+  });
+}
+
+if (adminClose && adminPanel) {
+  adminClose.addEventListener("click", () => {
+    adminPanel.hidden = true;
+  });
+}
+
+if (adminPanel) {
+  adminPanel.addEventListener("click", (event) => {
+    if (event.target === adminPanel) {
+      adminPanel.hidden = true;
+    }
+  });
+}
+
 const SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
 const OPML_URL =

@@ -461,3 +461,79 @@ body.js .reveal.visible {
     align-items: flex-start;
   }
 }
+
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(11, 15, 20, 0.9);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.nav-brand {
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.nav-admin {
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--ink);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-panel {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 9, 12, 0.75);
+  display: grid;
+  place-items: center;
+  z-index: 30;
+}
+
+.admin-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 12px;
+  width: min(420px, 92vw);
+  box-shadow: var(--shadow);
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 720px) {
+  .nav-links {
+    gap: 10px;
+  }
+}
