@@ -4,7 +4,7 @@ from pathlib import Path
 import time
 import html
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
@@ -131,7 +131,7 @@ def main():
     results = [item for item in results if item.get("link")][:MAX_ITEMS]
 
     payload = {
-        "generated_at": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "items": results,
     }
 
