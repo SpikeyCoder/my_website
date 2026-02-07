@@ -53,6 +53,8 @@ if (adminPanel) {
 
 const SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
+// Used for client-side gating only. The real enforcement must be Supabase RLS.
+const ADMIN_EMAIL = "kevinmarmstrong1990@gmail.com";
 const OPML_URL =
   "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b/raw/hn-popular-blogs-2025.opml";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
@@ -332,21 +334,29 @@ async function setupBlog() {
   });
 
   function canEdit() {
-    return Boolean(currentSession?.user);
+    const email = currentSession?.user?.email || "";
+    return Boolean(email) && email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
   }
 
   async function updatePost(id, patch) {
     if (!canEdit()) {
       status.textContent = "Sign in to edit posts";
-      return;
+      return { ok: false, error: new Error("Not authorized") };
     }
 
-    const { error } = await supabase.from("posts").update(patch).eq("id", id);
+    // Force PostgREST to return something so we can detect "no rows updated".
+    const { data, error } = await supabase.from("posts").update(patch).eq("id", id).select("id");
     if (error) {
       status.textContent = `Edit failed: ${error.message}`;
-      return;
+      return { ok: false, error };
+    }
+    if (!Array.isArray(data) || data.length === 0) {
+      const err = new Error("No rows updated (RLS policy may be blocking updates).");
+      status.textContent = `Edit failed: ${err.message}`;
+      return { ok: false, error: err };
     }
     status.textContent = "Saved";
+    return { ok: true, error: null };
   }
 
   async function loadPosts() {
@@ -427,6 +437,7 @@ async function setupBlog() {
                 <button class="btn ghost" data-cancel="${post.id}" type="button">Cancel</button>
                 <button class="btn primary" type="submit">Save</button>
               </div>
+              <p class="helper" data-edit-status="${post.id}"></p>
             </form>
             <small>${new Date(post.published_at).toLocaleString()}${tags ? ` • ${tags}` : ""}</small>
           </article>
@@ -460,21 +471,31 @@ async function setupBlog() {
       editForm.addEventListener("submit", async (event) => {
         event.preventDefault();
         const id = editForm.dataset.form;
+        const localStatus = list.querySelector(`[data-edit-status='${id}']`);
+        if (localStatus) localStatus.textContent = "Saving...";
+        const submit = editForm.querySelector("button[type='submit']");
+        if (submit) submit.disabled = true;
         const formData = new FormData(editForm);
         const tags = String(formData.get("tags") || "")
           .split(",")
           .map((t) => t.trim())
           .filter(Boolean);
 
-        await updatePost(id, {
+        const result = await updatePost(id, {
           title: formData.get("title"),
           summary: formData.get("summary"),
           content: formData.get("content"),
           tags,
         });
 
-        editForm.style.display = "none";
-        await loadPosts();
+        if (submit) submit.disabled = false;
+        if (result.ok) {
+          if (localStatus) localStatus.textContent = "";
+          editForm.style.display = "none";
+          await loadPosts();
+        } else {
+          if (localStatus) localStatus.textContent = `Save failed: ${result.error?.message || "Unknown error"}`;
+        }
       });
     });
 
