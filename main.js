@@ -8,12 +8,14 @@ const adminClose = document.getElementById("admin-close");
 if (adminToggle && adminPanel) {
   adminToggle.addEventListener("click", () => {
     adminPanel.hidden = false;
+    adminPanel.style.display = "grid";
   });
 }
 
 if (adminClose && adminPanel) {
   adminClose.addEventListener("click", () => {
     adminPanel.hidden = true;
+    adminPanel.style.display = "none";
   });
 }
 
@@ -21,6 +23,7 @@ if (adminPanel) {
   adminPanel.addEventListener("click", (event) => {
     if (event.target === adminPanel) {
       adminPanel.hidden = true;
+    adminPanel.style.display = "none";
     }
   });
 }
