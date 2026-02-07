@@ -602,3 +602,7 @@ body.js .reveal.visible {
   border-left: 3px solid var(--accent-2);
   color: var(--muted);
 }
+
+.btn:hover {
+  border-color: rgba(126, 231, 135, 0.5);
+}
