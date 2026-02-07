@@ -99,15 +99,21 @@ def update_index_seed(items):
     if start not in content or end not in content:
         return
     seed_json = json.dumps(items, ensure_ascii=False)
-    block = f"{start}
-<script type="application/json" id="rss-seed">{seed_json}</script>
-{end}"
+    block = (
+        start
+        + "\n"
+        + '<script type="application/json" id="rss-seed">'
+        + seed_json
+        + "</script>\n"
+        + end
+    )
     before = content.split(start)[0]
     after = content.split(end)[1]
     index_path.write_text(before + block + after, encoding="utf-8")
 
 
 def main():
+
     opml_text = fetch_text(OPML_URL)
     feeds = parse_opml(opml_text)[:MAX_FEEDS]
     results = []
