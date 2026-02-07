@@ -559,3 +559,46 @@ body.js .reveal.visible {
 .blog-content.open {
   display: block;
 }
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3 {
+  margin: 12px 0 8px;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.blog-content p {
+  margin: 8px 0;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 8px 0 8px 18px;
+}
+
+.blog-content pre {
+  background: #0b121a;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.blog-content code {
+  background: rgba(126, 231, 135, 0.08);
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.blog-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.blog-content blockquote {
+  margin: 10px 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent-2);
+  color: var(--muted);
+}

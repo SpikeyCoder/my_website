@@ -290,7 +290,7 @@ async function setupBlog() {
               <button class="link blog-toggle" data-post="${post.id}">Read</button>
             </div>
             <p>${post.summary}</p>
-            <div class="blog-content" data-content="${post.id}">${content}</div>
+            <div class="blog-content" data-content="${post.id}">${renderMarkdown(content)}</div>
             <small>${new Date(post.published_at).toLocaleString()}${tags ? ` • ${tags}` : ""}</small>
           </article>
         `;
@@ -338,6 +338,16 @@ async function setupBlog() {
 }
 
 
+
+
+function renderMarkdown(content) {
+  if (!content) return "";
+  if (window.marked && window.DOMPurify) {
+    const html = window.marked.parse(content, { breaks: true });
+    return window.DOMPurify.sanitize(html);
+  }
+  return content;
+}
 
 function stripHtml(input) {
   const div = document.createElement("div");
