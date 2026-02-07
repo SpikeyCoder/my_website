@@ -247,7 +247,7 @@ async function setupBlog() {
 
   async function loadPosts() {
 
-  function setupBlogPostTogglesInner() {
+  function setupBlogPostToggles(list) {
     list.querySelectorAll(".blog-toggle").forEach((button) => {
       button.addEventListener("click", () => {
         const id = button.dataset.post;
