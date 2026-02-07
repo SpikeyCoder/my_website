@@ -1,6 +1,20 @@
 document.body.classList.add("js");
 
 
+window.setupBlogPostToggles = function (list) {
+  if (!list) return;
+  list.querySelectorAll(".blog-toggle").forEach((button) => {
+    button.addEventListener("click", () => {
+      const id = button.dataset.post;
+      const contentEl = list.querySelector(`[data-content='${id}']`);
+      if (!contentEl) return;
+      contentEl.classList.toggle("open");
+      button.textContent = contentEl.classList.contains("open") ? "Close" : "Read";
+    });
+  });
+};
+
+
 const adminToggle = document.getElementById("admin-toggle");
 const adminPanel = document.getElementById("admin-panel");
 const adminClose = document.getElementById("admin-close");
@@ -296,7 +310,7 @@ async function setupBlog() {
         `;
       })
       .join("");
-    setupBlogPostToggles(list);
+    window.setupBlogPostToggles(list);
   }
 
   await loadPosts();
@@ -629,7 +643,7 @@ async function setupRSS() {
       `
       )
       .join("");
-    setupBlogPostToggles(list);
+    window.setupBlogPostToggles(list);
   }
 
   search.addEventListener("input", () => {
