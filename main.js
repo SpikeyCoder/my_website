@@ -246,6 +246,19 @@ async function setupBlog() {
   });
 
   async function loadPosts() {
+
+  function setupBlogPostToggles() {
+    list.querySelectorAll(".blog-toggle").forEach((button) => {
+      button.addEventListener("click", () => {
+        const id = button.dataset.post;
+        const contentEl = list.querySelector(`[data-content='${id}']`);
+        if (!contentEl) return;
+        contentEl.classList.toggle("open");
+        button.textContent = contentEl.classList.contains("open") ? "Close" : "Read";
+      });
+    });
+  }
+
     status.textContent = "Loading posts...";
     const { data, error } = await supabase
       .from("posts")
@@ -269,15 +282,21 @@ async function setupBlog() {
     list.innerHTML = data
       .map((post) => {
         const tags = post.tags?.length ? post.tags.join(", ") : "";
+        const content = post.content || "";
         return `
           <article class="blog-post">
-            <h4>${post.title}</h4>
+            <div class="blog-post-header">
+              <h4>${post.title}</h4>
+              <button class="link blog-toggle" data-post="${post.id}">Read</button>
+            </div>
             <p>${post.summary}</p>
+            <div class="blog-content" data-content="${post.id}">${content}</div>
             <small>${new Date(post.published_at).toLocaleString()}${tags ? ` • ${tags}` : ""}</small>
           </article>
         `;
       })
       .join("");
+    setupBlogPostToggles();
   }
 
   await loadPosts();
@@ -600,6 +619,7 @@ async function setupRSS() {
       `
       )
       .join("");
+    setupBlogPostToggles();
   }
 
   search.addEventListener("input", () => {

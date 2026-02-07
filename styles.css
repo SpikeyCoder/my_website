@@ -541,3 +541,21 @@ body.js .reveal.visible {
 .admin-panel[hidden] {
   display: none;
 }
+
+.blog-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog-content {
+  display: none;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.blog-content.open {
+  display: block;
+}
