@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from pathlib import Path
 import time
 import html
 import re
@@ -130,7 +131,7 @@ def main():
     results = [item for item in results if item.get("link")][:MAX_ITEMS]
 
     payload = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generated_at": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
         "items": results,
     }
 
