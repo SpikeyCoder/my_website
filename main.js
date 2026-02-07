@@ -395,7 +395,7 @@ function loadCachedRss() {
     if (!raw) return null;
     const payload = JSON.parse(raw);
     if (!payload || !Array.isArray(payload.items)) return null;
-    return payload.items;
+    return payload;
   } catch (error) {
     return null;
   }
@@ -421,6 +421,18 @@ async function fetchLocalRss() {
   return payload.items;
 }
 
+
+function renderRssTimestamp(target) {
+  const stamp = document.getElementById("rss-updated");
+  if (!stamp) return;
+  if (!target) {
+    stamp.textContent = "";
+    return;
+  }
+  const date = new Date(target);
+  stamp.textContent = `Last updated ${date.toLocaleString()}`;
+}
+
 async function setupRSS() {
   const status = document.getElementById("rss-status");
   const list = document.getElementById("rss-list");
@@ -433,9 +445,9 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
-      const cachedItems = loadCachedRss();
-      if (cachedItems && cachedItems.length) {
-        items = cachedItems
+      const cachedPayload = loadCachedRss();
+      if (cachedPayload && cachedPayload.items && cachedPayload.items.length) {
+        items = cachedPayload.items
           .map((item) => ({
             ...item,
             dateValue: item.date ? new Date(item.date).getTime() : 0,
@@ -444,6 +456,7 @@ async function setupRSS() {
           .slice(0, 40);
         status.textContent = `Showing ${items.length} latest items (cached)`;
         renderList(items);
+        renderRssTimestamp(cachedPayload.saved_at);
       }
 
       const localItems = await fetchLocalRss();
@@ -457,6 +470,7 @@ async function setupRSS() {
           .slice(0, 40);
         status.textContent = `Showing ${items.length} latest items (cached)`;
         renderList(items);
+        renderRssTimestamp(new Date().toISOString());
         saveCachedRss(items);
         return;
       }
