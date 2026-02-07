@@ -1,5 +1,14 @@
 document.body.classList.add("js");
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 
 window.setupBlogPostToggles = function (list) {
   if (!list) return;
@@ -207,6 +216,7 @@ async function setupBlog() {
   const authPassword = document.getElementById("auth-password");
   const authStatus = document.getElementById("auth-status");
   const authLogout = document.getElementById("auth-logout");
+  let currentSession = null;
 
   if (!supabaseReady()) {
     status.textContent = "Waiting for Supabase config";
@@ -223,6 +233,7 @@ async function setupBlog() {
   authLogout.style.display = "none";
 
   function setAuthState(session) {
+    currentSession = session;
     if (session?.user) {
       authStatus.textContent = `Signed in as ${session.user.email}`;
       authLogout.style.display = "inline-flex";
@@ -264,20 +275,25 @@ async function setupBlog() {
     setAuthState(session);
   });
 
-  async function loadPosts() {
-
-  function setupBlogPostToggles(list) {
-    list.querySelectorAll(".blog-toggle").forEach((button) => {
-      button.addEventListener("click", () => {
-        const id = button.dataset.post;
-        const contentEl = list.querySelector(`[data-content='${id}']`);
-        if (!contentEl) return;
-        contentEl.classList.toggle("open");
-        button.textContent = contentEl.classList.contains("open") ? "Close" : "Read";
-      });
-    });
+  function canEdit() {
+    return Boolean(currentSession?.user);
   }
 
+  async function updatePost(id, patch) {
+    if (!canEdit()) {
+      status.textContent = "Sign in to edit posts";
+      return;
+    }
+
+    const { error } = await supabase.from("posts").update(patch).eq("id", id);
+    if (error) {
+      status.textContent = `Edit failed: ${error.message}`;
+      return;
+    }
+    status.textContent = "Saved";
+  }
+
+  async function loadPosts() {
     status.textContent = "Loading posts...";
     const { data, error } = await supabase
       .from("posts")
@@ -302,20 +318,89 @@ async function setupBlog() {
       .map((post) => {
         const tags = post.tags?.length ? post.tags.join(", ") : "";
         const content = post.content || "";
+        const canUserEdit = canEdit();
         return `
           <article class="blog-post">
             <div class="blog-post-header">
               <h4>${post.title}</h4>
-              <button class="link blog-toggle" data-post="${post.id}">Read</button>
+              <div class="blog-post-actions">
+                <button class="link blog-toggle" data-post="${post.id}">Read</button>
+                ${canUserEdit ? `<button class="link blog-edit" data-edit="${post.id}">Edit</button>` : ""}
+              </div>
             </div>
             <p>${post.summary}</p>
             <div class="blog-content" data-content="${post.id}">${renderMarkdown(content)}</div>
+            <form class="blog-edit-form" data-form="${post.id}" style="display:none;">
+              <label>
+                Title
+                <input type="text" name="title" value="${escapeHtml(post.title || "")}" />
+              </label>
+              <label>
+                Summary
+                <input type="text" name="summary" value="${escapeHtml(post.summary || "")}" />
+              </label>
+              <label>
+                Content
+                <textarea name="content" rows="8">${escapeHtml(post.content || "")}</textarea>
+              </label>
+              <label>
+                Tags (comma-separated)
+                <input type="text" name="tags" value="${escapeHtml(tags)}" />
+              </label>
+              <div class="blog-edit-actions">
+                <button class="btn ghost" data-cancel="${post.id}" type="button">Cancel</button>
+                <button class="btn primary" type="submit">Save</button>
+              </div>
+            </form>
             <small>${new Date(post.published_at).toLocaleString()}${tags ? ` • ${tags}` : ""}</small>
           </article>
         `;
       })
       .join("");
+
     window.setupBlogPostToggles(list);
+
+    list.querySelectorAll(".blog-edit").forEach((button) => {
+      button.addEventListener("click", () => {
+        const id = button.dataset.edit;
+        const formEl = list.querySelector(`[data-form='${id}']`);
+        const contentEl = list.querySelector(`[data-content='${id}']`);
+        if (!formEl) return;
+        if (contentEl) contentEl.classList.remove("open");
+        formEl.style.display = "grid";
+      });
+    });
+
+    list.querySelectorAll("[data-cancel]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const id = button.dataset.cancel;
+        const formEl = list.querySelector(`[data-form='${id}']`);
+        if (!formEl) return;
+        formEl.style.display = "none";
+      });
+    });
+
+    list.querySelectorAll(".blog-edit-form").forEach((editForm) => {
+      editForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const id = editForm.dataset.form;
+        const formData = new FormData(editForm);
+        const tags = String(formData.get("tags") || "")
+          .split(",")
+          .map((t) => t.trim())
+          .filter(Boolean);
+
+        await updatePost(id, {
+          title: formData.get("title"),
+          summary: formData.get("summary"),
+          content: formData.get("content"),
+          tags,
+        });
+
+        editForm.style.display = "none";
+        await loadPosts();
+      });
+    });
   }
 
   await loadPosts();

@@ -542,6 +542,12 @@ textarea {
   gap: 12px;
 }
 
+.blog-post-actions {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .blog-content {
   display: none;
   color: var(--muted);
@@ -551,6 +557,27 @@ textarea {
 
 .blog-content.open {
   display: block;
+}
+
+.blog-edit-form {
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(17, 27, 38, 0.6);
+}
+
+.blog-edit-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.blog-edit-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
 }
 
 .blog-content h1,
