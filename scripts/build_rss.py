@@ -87,6 +87,26 @@ def date_value(item):
             return 0
 
 
+
+
+def update_index_seed(items):
+    index_path = Path("index.html")
+    if not index_path.exists():
+        return
+    content = index_path.read_text(encoding="utf-8")
+    start = "<!-- RSS_SEED_START -->"
+    end = "<!-- RSS_SEED_END -->"
+    if start not in content or end not in content:
+        return
+    seed_json = json.dumps(items, ensure_ascii=False)
+    block = f"{start}
+<script type="application/json" id="rss-seed">{seed_json}</script>
+{end}"
+    before = content.split(start)[0]
+    after = content.split(end)[1]
+    index_path.write_text(before + block + after, encoding="utf-8")
+
+
 def main():
     opml_text = fetch_text(OPML_URL)
     feeds = parse_opml(opml_text)[:MAX_FEEDS]
@@ -110,6 +130,8 @@ def main():
 
     with open("rss.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    update_index_seed(results)
 
 
 if __name__ == "__main__":

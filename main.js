@@ -389,6 +389,19 @@ async function fetchFeed(feed) {
 
 
 
+
+function loadSeedRss() {
+  const seedEl = document.getElementById("rss-seed");
+  if (!seedEl) return null;
+  try {
+    const data = JSON.parse(seedEl.textContent || "[]");
+    if (!Array.isArray(data) || !data.length) return null;
+    return data;
+  } catch (error) {
+    return null;
+  }
+}
+
 function loadCachedRss() {
   try {
     const raw = localStorage.getItem("rss-cache");
@@ -445,6 +458,20 @@ async function setupRSS() {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
+      const seedItems = loadSeedRss();
+      if (seedItems && seedItems.length) {
+        items = seedItems
+          .map((item) => ({
+            ...item,
+            dateValue: item.date ? new Date(item.date).getTime() : 0,
+          }))
+          .sort((a, b) => b.dateValue - a.dateValue)
+          .slice(0, 40);
+        status.textContent = `Showing ${items.length} latest items (seeded)`;
+        renderList(items);
+        renderRssTimestamp(new Date().toISOString());
+      }
+
       const cachedPayload = loadCachedRss();
       if (cachedPayload && cachedPayload.items && cachedPayload.items.length) {
         items = cachedPayload.items
