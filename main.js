@@ -247,7 +247,7 @@ async function setupBlog() {
 
   async function loadPosts() {
 
-  function setupBlogPostToggles() {
+  function setupBlogPostTogglesInner() {
     list.querySelectorAll(".blog-toggle").forEach((button) => {
       button.addEventListener("click", () => {
         const id = button.dataset.post;
@@ -296,7 +296,7 @@ async function setupBlog() {
         `;
       })
       .join("");
-    setupBlogPostToggles();
+    setupBlogPostToggles(list);
   }
 
   await loadPosts();
@@ -629,7 +629,7 @@ async function setupRSS() {
       `
       )
       .join("");
-    setupBlogPostToggles();
+    setupBlogPostToggles(list);
   }
 
   search.addEventListener("input", () => {
