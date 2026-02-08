@@ -166,8 +166,59 @@ function setupTimeline() {
 }
 
 function setupPortfolio() {
+  const tabs = document.getElementById("portfolio-tabs");
   const filters = document.getElementById("portfolio-filters");
-  const cards = Array.from(document.querySelectorAll(".project-card"));
+  const projectsView = document.getElementById("portfolio-projects");
+  const workView = document.getElementById("portfolio-work");
+  const projectsGrid = document.getElementById("projects-grid");
+  const workGrid = document.getElementById("work-grid");
+
+  if (!filters || !projectsView || !workView || !projectsGrid || !workGrid) return;
+
+  let activeView = "projects";
+  let activeFilter = "all";
+
+  function getActiveCards() {
+    const grid = activeView === "projects" ? projectsGrid : workGrid;
+    return Array.from(grid.querySelectorAll(".project-card"));
+  }
+
+  function applyFilter(filter) {
+    activeFilter = filter;
+    const cards = getActiveCards();
+    cards.forEach((card) => {
+      if (filter === "all" || String(card.dataset.tags || "").includes(filter)) {
+        card.style.display = "grid";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+
+  function setView(nextView) {
+    activeView = nextView;
+    projectsView.hidden = nextView !== "projects";
+    workView.hidden = nextView !== "work";
+
+    // Reset filter pills to "All" on view switch so the new grid doesn't appear empty.
+    filters.querySelectorAll(".pill").forEach((pill) => pill.classList.remove("active"));
+    const allPill = filters.querySelector("[data-filter='all']");
+    if (allPill) allPill.classList.add("active");
+    applyFilter("all");
+  }
+
+  if (tabs) {
+    tabs.addEventListener("click", (event) => {
+      const button = event.target.closest("button");
+      if (!button) return;
+      const view = button.dataset.view;
+      if (view !== "projects" && view !== "work") return;
+
+      tabs.querySelectorAll(".pill").forEach((pill) => pill.classList.remove("active"));
+      button.classList.add("active");
+      setView(view);
+    });
+  }
 
   filters.addEventListener("click", (event) => {
     const button = event.target.closest("button");
@@ -177,13 +228,7 @@ function setupPortfolio() {
     button.classList.add("active");
 
     const filter = button.dataset.filter;
-    cards.forEach((card) => {
-      if (filter === "all" || card.dataset.tags.includes(filter)) {
-        card.style.display = "grid";
-      } else {
-        card.style.display = "none";
-      }
-    });
+    applyFilter(filter);
   });
 
   document.querySelectorAll("[data-expand]").forEach((button) => {
@@ -195,6 +240,9 @@ function setupPortfolio() {
       button.textContent = detail.classList.contains("open") ? "Close" : "Read the story";
     });
   });
+
+  // Ensure the default view is Projects.
+  setView("projects");
 }
 
 function supabaseReady() {
