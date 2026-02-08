@@ -5,6 +5,7 @@ import time
 import html
 import re
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
@@ -75,17 +76,34 @@ def parse_rss(text: str, source: str):
     return items
 
 
-def date_value(item):
-    value = item.get("date", "")
+def parse_date(value: str):
     if not value:
-        return 0
+        return None
+    value = value.strip()
+    # RSS pubDate is often RFC 2822.
     try:
-        return datetime.fromtimestamp(time.mktime(time.strptime(value, "%a, %d %b %Y %H:%M:%S %Z"))).timestamp()
+        dt = parsedate_to_datetime(value)
+        if dt is not None:
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
     except Exception:
-        try:
-            return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
-        except Exception:
-            return 0
+        pass
+    # Atom updated is often ISO 8601.
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def date_value(item):
+    dt = parse_date(item.get("date", ""))
+    if dt is None:
+        return 0
+    return dt.timestamp()
 
 
 
@@ -126,6 +144,13 @@ def main():
             results.extend(items)
         except Exception:
             continue
+
+    # Normalize dates so the client can reliably sort and display newest first.
+    for item in results:
+        dt = parse_date(item.get("date", ""))
+        if dt is None:
+            continue
+        item["date"] = dt.isoformat().replace("+00:00", "Z")
 
     results.sort(key=date_value, reverse=True)
     results = [item for item in results if item.get("link")][:MAX_ITEMS]
