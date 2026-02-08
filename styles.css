@@ -192,6 +192,7 @@ textarea {
   display: grid;
   gap: 22px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: start;
 }
 
 .about-panel,
@@ -201,6 +202,11 @@ textarea {
   padding: 20px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+  align-self: start;
+}
+
+#publish-panel {
+  height: fit-content;
 }
 
 .pill-row {
