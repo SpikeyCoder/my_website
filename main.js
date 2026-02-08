@@ -842,10 +842,10 @@ function loadCachedRss() {
   }
 }
 
-function saveCachedRss(items) {
+function saveCachedRss(items, savedAt) {
   try {
     localStorage.setItem("rss-cache", JSON.stringify({
-      saved_at: new Date().toISOString(),
+      saved_at: savedAt || new Date().toISOString(),
       items
     }));
   } catch (error) {
@@ -859,7 +859,7 @@ async function fetchLocalRss() {
   if (!response.ok) return null;
   const payload = await response.json();
   if (!payload || !Array.isArray(payload.items)) return null;
-  return payload.items;
+  return payload;
 }
 
 
@@ -882,51 +882,60 @@ async function setupRSS() {
 
   let items = [];
 
-  async function loadFeeds() {
+  async function loadFeeds({ force } = { force: false }) {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
     try {
-      const seedItems = loadSeedRss();
-      if (seedItems && seedItems.length) {
-        items = seedItems
-          .map((item) => ({
-            ...item,
-            dateValue: item.date ? new Date(item.date).getTime() : 0,
-          }))
-          .sort((a, b) => b.dateValue - a.dateValue)
-          .slice(0, 40);
-        status.textContent = `Showing ${items.length} latest items (seeded)`;
-        renderList(items);
-        renderRssTimestamp(new Date().toISOString());
+      // Refresh should always try to pull newest from rss.json first.
+      if (force) {
+        try {
+          localStorage.removeItem("rss-cache");
+        } catch (error) {
+          // ignore
+        }
+      } else {
+        const seedItems = loadSeedRss();
+        if (seedItems && seedItems.length) {
+          items = seedItems
+            .map((item) => ({
+              ...item,
+              dateValue: item.date ? new Date(item.date).getTime() : 0,
+            }))
+            .sort((a, b) => b.dateValue - a.dateValue)
+            .slice(0, 40);
+          status.textContent = `Showing ${items.length} latest items (seeded)`;
+          renderList(items);
+          renderRssTimestamp(new Date().toISOString());
+        }
+
+        const cachedPayload = loadCachedRss();
+        if (cachedPayload && cachedPayload.items && cachedPayload.items.length) {
+          items = cachedPayload.items
+            .map((item) => ({
+              ...item,
+              dateValue: item.date ? new Date(item.date).getTime() : 0,
+            }))
+            .sort((a, b) => b.dateValue - a.dateValue)
+            .slice(0, 40);
+          status.textContent = `Showing ${items.length} latest items (cached)`;
+          renderList(items);
+          renderRssTimestamp(cachedPayload.saved_at);
+        }
       }
 
-      const cachedPayload = loadCachedRss();
-      if (cachedPayload && cachedPayload.items && cachedPayload.items.length) {
-        items = cachedPayload.items
+      const localPayload = await fetchLocalRss();
+      if (localPayload && localPayload.items && localPayload.items.length) {
+        items = localPayload.items
           .map((item) => ({
             ...item,
             dateValue: item.date ? new Date(item.date).getTime() : 0,
           }))
           .sort((a, b) => b.dateValue - a.dateValue)
           .slice(0, 40);
-        status.textContent = `Showing ${items.length} latest items (cached)`;
+        status.textContent = `Showing ${items.length} latest items`;
         renderList(items);
-        renderRssTimestamp(cachedPayload.saved_at);
-      }
-
-      const localItems = await fetchLocalRss();
-      if (localItems && localItems.length) {
-        items = localItems
-          .map((item) => ({
-            ...item,
-            dateValue: item.date ? new Date(item.date).getTime() : 0,
-          }))
-          .sort((a, b) => b.dateValue - a.dateValue)
-          .slice(0, 40);
-        status.textContent = `Showing ${items.length} latest items (cached)`;
-        renderList(items);
-        renderRssTimestamp(new Date().toISOString());
-        saveCachedRss(items);
+        renderRssTimestamp(localPayload.generated_at || new Date().toISOString());
+        saveCachedRss(items, localPayload.generated_at);
         return;
       }
 
@@ -1009,7 +1018,11 @@ async function setupRSS() {
     renderList(filtered);
   });
 
-  refresh.addEventListener("click", () => loadFeeds());
+  refresh.addEventListener("click", async () => {
+    refresh.disabled = true;
+    await loadFeeds({ force: true });
+    refresh.disabled = false;
+  });
 
   await loadFeeds();
 }
