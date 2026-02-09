@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-09T06:35:09.192870Z",
+  "generated_at": "2026-02-09T07:31:47.816536Z",
   "items": [
+    {
+      "title": "The pitch deck is dead. Write a pitch.md instead.",
+      "link": "https://www.joanwestenberg.com/the-pitch-deck-is-dead-write-a-pitch-md-instead/",
+      "date": "2026-02-09T06:49:33Z",
+      "summary": "Every week, thousands of founders open Canva or Google Slides or, God help them, PowerPoint, and begin the ritual. They agonize over fonts. They nudge logos three pixels to the left. They workshop whether the TAM slide should come before or after the team slide, as though the ordering of",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Kākāpō mug by Karen James",
       "link": "https://simonwillison.net/2026/Feb/8/kakapo-mug/#atom-everything",
@@ -273,13 +280,6 @@
       "date": "2026-01-31T13:02:52Z",
       "summary": "Welcome to the Reading List, a weekly roundup of news and links related to buildings, infrastructure, and industrial technology.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Automatic programming",
-      "link": "http://antirez.com/news/159",
-      "date": "2026-01-31T09:25:27Z",
-      "summary": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Automatic Programming\". In case you didn't notice, automatic programming produces vastly different results with the same LLMs depending on the human that is guiding the process with their intuition, design, continuous steering and idea of software. Please, stop saying \"Claude vibe coded this software for me\". Vibe coding is the process of generating software using AI without being part of the process at all. You describe what you want in very general terms, and the LLM will produce whatever happens to be the first idea/design/code it would spontaneously, given the training, the specific sampling that happened to dominate in that run, and so forth. The vibe coder will, at most, report things not working or not in line with what they expected. When the process is actual software production where you know what is going on, remember: it is the software *you* are producing. Moreover remember that the pre-training data, while not the only part where the LLM learns (RL has its big weight) was produced by humans, so we are not appropriating something else. We can pretend AI generated code is \"ours\", we have the right to do so. Pre-training is, actually, our collective gift that allows many individuals to do things they could otherwise never do, like if we are now linked in a collective mind, in a certain way. That said, if vibe coding is the process of producing software without much understanding of what is going on (which has a place, and democratizes software production, so it is totally ok with me), automatic programming is the process of producing software that attempts to be high quality and strictly following the producer's vision of the software (this vision is multi-level: can go from how to do, exactly, certain things, at a higher level, to stepping in and tell the AI how to write a certain function), with the help of AI assistance. Also a fundamental part of the process is, of course, *what* to do. I'm a programmer, and I use automatic programming. The code I generate in this way is mine. My code, my output, my production. I, and you, can be proud. If you are not completely convinced, think to Redis. In Redis there is not much technical novelty, especially at its start it was just a sum of basic data structures and networking code that every competent system programmer could write. So, why it became a very useful piece of software? Because of the ideas and visions it contained. Programming is now automatic, vision is not (yet). Comments",
-      "source": "antirez.com"
     }
   ]
 }
