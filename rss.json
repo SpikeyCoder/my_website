@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-10T01:43:36.652685Z",
+  "generated_at": "2026-02-10T03:12:49.194694Z",
   "items": [
+    {
+      "title": "[Sponsor] WorkOS Pipes: Ship Third-Party Integrations Without Rebuilding OAuth",
+      "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
+      "date": "2026-02-10T01:43:40Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Structured Context Engineering for File-Native Agentic Systems",
       "link": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
@@ -273,13 +280,6 @@
       "date": "2026-02-04T01:38:32Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Did Zendesk get popped?",
-      "link": "https://xeiaso.net/notes/2026/zendesk-popped/",
-      "date": "2026-02-04T00:00:00Z",
-      "summary": "I've got like 50 emails from Zendesk customers to activate an account.",
-      "source": "xeiaso.net"
     }
   ]
 }
