@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-09T23:19:27.536110Z",
+  "generated_at": "2026-02-10T00:52:48.517908Z",
   "items": [
+    {
+      "title": "Structured Context Engineering for File-Native Agentic Systems",
+      "link": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
+      "date": "2026-02-09T23:56:51Z",
+      "summary": "Structured Context Engineering for File-Native Agentic Systems New paper by Damon McMillan exploring challenging LLM context tasks involving large SQL schemas (up to 10,000 tables) across different models and file formats: Using SQL generation as a proxy for programmatic agent operations, we present a systematic study of context engineering for structured data, comprising 9,649 experiments across 11 models, 4 formats (YAML, Markdown, JSON, Token-Oriented Object Notation [TOON]), and schemas ranging from 10 to 10,000 tables. Unsurprisingly, the biggest impact was the models themselves - with frontier models (Opus 4.5, GPT-5.2, Gemini 2.5 Pro) beating the leading open source models (DeepSeek V3.2, Kimi K2, Llama 4). Those frontier models benefited from filesystem based context retrieval, but the open source models had much less convincing results with those, which reinforces my feeling that the filesystem coding agent loops aren't handled as well by open weight models just yet. The Terminal Bench 2.0 leaderboard is still dominated by Anthropic, OpenAI and Gemini. The \"grep tax\" result against TOON was an interesting detail. TOON is meant to represent structured data in as few tokens as possible, but it turns out the model's unfamiliarity with that format led to them spending significantly more tokens over multiple iterations trying to figure it out: Via @omarsar0 Tags: ai , prompt-engineering , generative-ai , llms , paper-review , context-engineering",
+      "source": "simonwillison.net"
+    },
     {
       "title": "AI Doesn’t Reduce Work—It Intensifies It",
       "link": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/#atom-everything",
@@ -84,13 +91,6 @@
       "date": "2026-02-08T12:34:02Z",
       "summary": "I bought this book for the title alone and I'm glad I did! I don't think I've seen any of Hayley Morris's comedy sketches. To be honest, you don't need to be a fan of her work to appreciate the humour and courage in this book. It could quite easily have been a cash-in celebrity autobiography - light on the details and full of charming anecdotes - and I'm sure her fans would have snapped it up. …",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Quoting Thomas Ptacek",
-      "link": "https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything",
-      "date": "2026-02-08T02:25:53Z",
-      "summary": "People on the orange site are laughing at this, assuming it's just an ad and that there's nothing to it. Vulnerability researchers I talk to do not think this is a joke. As an erstwhile vuln researcher myself: do not bet against LLMs on this. Axios: Anthropic's Claude Opus 4.6 uncovers 500 zero-day flaws in open-source I think vulnerability research might be THE MOST LLM-amenable software engineering problem. Pattern-driven. Huge corpus of operational public patterns. Closed loops. Forward progress from stimulus/response tooling. Search problems. Vulnerability research outcomes are in THE MODEL CARDS for frontier labs. Those companies have so much money they're literally distorting the economy. Money buys vuln research outcomes. Why would you think they were faking any of this? — Thomas Ptacek Tags: thomas-ptacek , anthropic , claude , security , generative-ai , ai , llms , open-source",
-      "source": "simonwillison.net"
     },
     {
       "title": "Large tech companies don't need heroes",
