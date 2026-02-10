@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-10T12:30:06.477354Z",
+  "generated_at": "2026-02-10T13:38:30.748302Z",
   "items": [
+    {
+      "title": "Book Review: Ashes To Admin - Tales from the Caseload of a Council Funeral Officer by Evie King ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-ashes-to-admin-tales-from-the-caseload-of-a-council-funeral-officer-by-evie-king/",
+      "date": "2026-02-10T12:34:05Z",
+      "summary": "Why am I reading so much about death lately? This is a wryly funny and cosily charming book about council funerals. Evie King conducts Section 46 funerals under the Public Health Act. If you die and there's no one else around who is able to arrange your funeral, the local council steps in. This could be a coldly bureaucratic process with no wiggle room for anything other than perfunctory…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Lockfiles Killed Vendoring",
       "link": "https://nesbitt.io/2026/02/10/lockfiles-killed-vendoring.html",
@@ -142,13 +149,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Reputation Scores for GitHub Accounts",
-      "link": "https://shkspr.mobi/blog/2026/02/reputation-scores-for-github-accounts/",
-      "date": "2026-02-07T12:34:52Z",
-      "summary": "The folks at GitHub know that Open Source maintainers are drowning in a sea of low-effort contributions. Even before Microsoft forced the unwanted Copilot assistant on millions of repos, it was always a gamble whether a new contributor would be helpful or just some witless jerk. Now it feels a million times worse. There are some discussions about what tools repository owners should have to help…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Pluralistic: End of the line for video essays (07 Feb 2026)",
       "link": "https://pluralistic.net/2026/02/07/aimsters-revenge/",
       "date": "2026-02-07T08:12:57Z",
@@ -275,11 +275,11 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Why Am I Doing the Thinking for You?",
-      "link": "https://terriblesoftware.org/2026/02/02/why-am-i-doing-the-thinking-for-you/",
-      "date": "2026-02-02T13:49:00Z",
-      "summary": "'What do you think?' without a position isn't a question — it's a task assignment. State your opinion first. Let people react to something concrete.",
-      "source": "terriblesoftware.org"
+      "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+      "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+      "date": "2026-02-02T16:15:16Z",
+      "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… Read More »",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
