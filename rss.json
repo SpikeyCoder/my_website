@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-02-10T06:35:51.257511Z",
+  "generated_at": "2026-02-10T07:31:39.677592Z",
   "items": [
-    {
-      "title": "A fun Python puzzle with circular imports",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/python/PythonCircularImportPuzzle",
-      "date": "2026-02-10T04:13:27Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
     {
       "title": "[Sponsor] WorkOS Pipes: Ship Third-Party Integrations Without Rebuilding OAuth",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
@@ -72,13 +65,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Systemd and blocking connections to localhost, including via 'any'",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdAndConnectToAny",
-      "date": "2026-02-09T04:22:04Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
       "title": "A Language For Agents",
       "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
       "date": "2026-02-09T00:00:00Z",
@@ -112,13 +98,6 @@
       "date": "2026-02-08T12:34:02Z",
       "summary": "I bought this book for the title alone and I'm glad I did! I don't think I've seen any of Hayley Morris's comedy sketches. To be honest, you don't need to be a fan of her work to appreciate the humour and courage in this book. It could quite easily have been a cash-in celebrity autobiography - light on the details and full of charming anecdotes - and I'm sure her fans would have snapped it up. …",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "The original vi is a product of its time (and its time has passed)",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/ViIsAProductOfItsTime",
-      "date": "2026-02-08T03:51:03Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Large tech companies don't need heroes",
@@ -280,6 +259,27 @@
       "date": "2026-02-04T01:38:32Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Did Zendesk get popped?",
+      "link": "https://xeiaso.net/notes/2026/zendesk-popped/",
+      "date": "2026-02-04T00:00:00Z",
+      "summary": "I've got like 50 emails from Zendesk customers to activate an account.",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "The Coherence Premium",
+      "link": "https://www.joanwestenberg.com/the-coherence-premium/",
+      "date": "2026-02-02T22:41:04Z",
+      "summary": "I don't necessarily believe in second brains. The notion (pun-intended) that you can offload your thinking to a perfectly organized system of notes and links has always struck me as a fantasy. The people I know who've built elaborate Notion databases or Obsidian vaults mostly end",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+      "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+      "date": "2026-02-02T16:15:16Z",
+      "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… Read More »",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
