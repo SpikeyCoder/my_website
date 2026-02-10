@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-10T16:47:47.685748Z",
+  "generated_at": "2026-02-10T17:29:48.633308Z",
   "items": [
+    {
+      "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
+      "date": "2026-02-10T15:00:00Z",
+      "summary": "Asking nicely, and asking a lot of people. The post How did Windows 95 get permission to put the Weezer video <I>Buddy Holly</I> on the CD? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Book Review: Ashes To Admin - Tales from the Caseload of a Council Funeral Officer by Evie King ★★★★★",
       "link": "https://shkspr.mobi/blog/2026/02/book-review-ashes-to-admin-tales-from-the-caseload-of-a-council-funeral-officer-by-evie-king/",
@@ -203,13 +210,6 @@
       "date": "2026-02-05T19:11:57Z",
       "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "How can I prevent the user from changing the widths of ListView columns in version 5 of the common controls?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260205-00/?p=112042",
-      "date": "2026-02-05T15:00:00Z",
-      "summary": "Deny changes to the width. The post How can I prevent the user from changing the widths of ListView columns in version 5 of the common controls? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Getting the main thing right",
