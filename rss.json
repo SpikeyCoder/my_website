@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T20:21:21.188250Z",
+  "generated_at": "2026-02-10T21:22:44.577223Z",
   "items": [
     {
       "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
@@ -42,6 +42,13 @@
       "date": "2026-02-10T01:43:40Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Humanity's last programming language",
+      "link": "https://xeiaso.net/blog/2026/markdownlang/",
+      "date": "2026-02-10T00:00:00Z",
+      "summary": "What if markdown was executable? You get markdownlang.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Structured Context Engineering for File-Native Agentic Systems",
@@ -261,13 +268,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Did Zendesk get popped?",
-      "link": "https://xeiaso.net/notes/2026/zendesk-popped/",
-      "date": "2026-02-04T00:00:00Z",
-      "summary": "I've got like 50 emails from Zendesk customers to activate an account.",
-      "source": "xeiaso.net"
-    },
-    {
       "title": "The Coherence Premium",
       "link": "https://www.joanwestenberg.com/the-coherence-premium/",
       "date": "2026-02-02T22:41:04Z",
@@ -275,11 +275,11 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Why Am I Doing the Thinking for You?",
-      "link": "https://terriblesoftware.org/2026/02/02/why-am-i-doing-the-thinking-for-you/",
-      "date": "2026-02-02T13:49:00Z",
-      "summary": "'What do you think?' without a position isn't a question — it's a task assignment. State your opinion first. Let people react to something concrete.",
-      "source": "terriblesoftware.org"
+      "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+      "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+      "date": "2026-02-02T16:15:16Z",
+      "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… Read More »",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
