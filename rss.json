@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-11T19:28:31.905954Z",
+  "generated_at": "2026-02-11T20:17:46.331691Z",
   "items": [
     {
       "title": "Skills in OpenAI API",
       "link": "https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything",
       "date": "2026-02-11T19:19:22Z",
-      "summary": "Skills in OpenAI API OpenAI's adoption of Skills continues to gain ground. You can now use Skills directly in the OpenAI API with their shell tool . You can zip skills up and upload them first, but I think an even neater interface is the ability to send skills with the JSON request as inline base64-encoded zip data, as seen in this script : r = OpenAI (). responses . create ( model = \"gpt-5.2\" , tools = [ { \"type\" : \"shell\" , \"environment\" : { \"type\" : \"container_auto\" , \"skills\" : [ { \"type\" : \"inline\" , \"name\" : \"wc\" , \"description\" : \"Count words in a file.\" , \"source\" : { \"type\" : \"base64\" , \"media_type\" : \"application/zip\" , \"data\" : b64_encoded_zip_file , }, } ], }, } ], input = \"Use the wc skill to count words in its own SKILL.md file.\" , ) print ( r . output_text ) I built that example script after first having Claude Code for web use Showboat to explore the API for me and create this report . My opening prompt for the research project was: Run uvx showboat --help - you will use this tool later Fetch https://developers.openai.com/cookbook/examples/skills_in_api.md to /tmp with curl, then read it Use the OpenAI API key you have in your environment variables Use showboat to build up a detailed demo of this, replaying the examples from the documents and then trying some experiments of your own Tags: ai , openai , generative-ai , llms , ai-assisted-programming , skills",
+      "summary": "Skills in OpenAI API OpenAI's adoption of Skills continues to gain ground. You can now use Skills directly in the OpenAI API with their shell tool . You can zip skills up and upload them first, but I think an even neater interface is the ability to send skills with the JSON request as inline base64-encoded zip data, as seen in this script : r = OpenAI (). responses . create ( model = \"gpt-5.2\" , tools = [ { \"type\" : \"shell\" , \"environment\" : { \"type\" : \"container_auto\" , \"skills\" : [ { \"type\" : \"inline\" , \"name\" : \"wc\" , \"description\" : \"Count words in a file.\" , \"source\" : { \"type\" : \"base64\" , \"media_type\" : \"application/zip\" , \"data\" : b64_encoded_zip_file , }, } ], }, } ], input = \"Use the wc skill to count words in its own SKILL.md file.\" , ) print ( r . output_text ) I built that example script after first having Claude Code for web use Showboat to explore the API for me and create this report . My opening prompt for the research project was: Run uvx showboat --help - you will use this tool later Fetch https://developers.openai.com/cookbook/examples/skills_in_api.md to /tmp with curl, then read it Use the OpenAI API key you have in your environment variables Use showboat to build up a detailed demo of this, replaying the examples from the documents and then trying some experiments of your own Tags: ai , openai , generative-ai , llms , ai-assisted-programming , skills , showboat",
       "source": "simonwillison.net"
     },
     {
@@ -21,6 +21,13 @@
       "date": "2026-02-11T17:34:40Z",
       "summary": "cysqlite - a new sqlite driver Charles Leifer has been maintaining pysqlite3 - a fork of the Python standard library's sqlite3 module that makes it much easier to run upgraded SQLite versions - since 2018. He's been working on a ground-up Cython rewrite called cysqlite for almost as long, but it's finally at a stage where it's ready for people to try out. The biggest change from the sqlite3 module involves transactions. Charles explains his discomfort with the sqlite3 implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself. I'm particularly excited about the support for custom virtual tables , a feature I'd love to see in sqlite3 itself. cysqlite provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I set Claude Code on it and it built me cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl , a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this: import micropip await micropip . install ( \"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl\" ) import cysqlite print ( cysqlite . connect ( \":memory:\" ). execute ( \"select sqlite_version()\" ). fetchone ()) (I also learned that wheels like this have to be built for the emscripten version used by that edition of Pyodide - my experimental wheel loads in Pyodide 0.25.1 but fails in 0.27.5 with a Wheel was built with Emscripten v3.1.46 but Pyodide was built with Emscripten v3.1.58 error.) You can try my wheel in this new Pyodide REPL i had Claude build as a mobile-friendly alternative to Pyodide's own hosted console . I also had Claude build this demo page that executes the original test suite in the browser and displays the results: Via lobste.rs Tags: python , sqlite , charles-leifer , webassembly , pyodide , ai-assisted-programming , claude-code",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -84,6 +91,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
@@ -266,20 +280,6 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "ratios will be ratios",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Life pro tip: a Steam Deck can be a bluetooth speaker",
-      "link": "https://xeiaso.net/notes/2026/steam-deck-bluetooth-speaker/",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "Your headphones may only let you get audio from one source at once, but Linux has no such limitations!",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "OpenAI’s Codex",
-      "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
-      "date": "2026-02-04T01:44:41Z",
-      "summary": "",
-      "source": "daringfireball.net"
     }
   ]
 }
