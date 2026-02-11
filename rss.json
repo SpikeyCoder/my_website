@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-11T16:30:57.678792Z",
+  "generated_at": "2026-02-11T17:28:03.809684Z",
   "items": [
+    {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "Aligning one matrix with another",
       "link": "https://www.johndcook.com/blog/2026/02/11/orthogonal-procrustes/",
@@ -56,6 +63,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
@@ -191,7 +205,7 @@
       "source": "seangoedecke.com"
     },
     {
-      "title": "Exploring a Modern SMTPE 2110 Broadcast Truck With My Dad",
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
       "link": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
       "date": "2026-02-07T15:00:00Z",
       "summary": "In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, and observe the massive team effort involved in putting together a modern digital sports broadcast. I wanted to explore the timing and digital side of a modern SMPTE 2110 mobile unit, and my Dad has been involved in studio and live broadcast for decades, so he enjoyed the experience as the engineer not on duty!",
@@ -266,20 +280,6 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "ratios will be ratios",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Life pro tip: a Steam Deck can be a bluetooth speaker",
-      "link": "https://xeiaso.net/notes/2026/steam-deck-bluetooth-speaker/",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "Your headphones may only let you get audio from one source at once, but Linux has no such limitations!",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "OpenAI’s Codex",
-      "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
-      "date": "2026-02-04T01:44:41Z",
-      "summary": "",
-      "source": "daringfireball.net"
     }
   ]
 }
