@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-11T20:17:46.331691Z",
+  "generated_at": "2026-02-11T21:18:30.869635Z",
   "items": [
+    {
+      "title": "Apple Creator Studio Usage Restrictions",
+      "link": "https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/",
+      "date": "2026-02-11T21:04:07Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Andrew Deck for Niemen Lab",
+      "link": "https://simonwillison.net/2026/Feb/11/manosphere-report/#atom-everything",
+      "date": "2026-02-11T20:59:03Z",
+      "summary": "An AI-generated report, delivered directly to the email inboxes of journalists, was an essential tool in the Times’ coverage. It was also one of the first signals that conservative media was turning against the administration [...] Built in-house and known internally as the “Manosphere Report,” the tool uses large language models (LLMs) to transcribe and summarize new episodes of dozens of podcasts. “The Manosphere Report gave us a really fast and clear signal that this was not going over well with that segment of the President’s base,” said Seward. “There was a direct link between seeing that and then diving in to actually cover it.” — Andrew Deck for Niemen Lab , How The New York Times uses a custom AI tool to track the “manosphere” Tags: generative-ai , new-york-times , journalism , ai , data-journalism , llms",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Skills in OpenAI API",
       "link": "https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything",
@@ -14,20 +28,6 @@
       "date": "2026-02-11T18:56:14Z",
       "summary": "GLM-5: From Vibe Coding to Agentic Engineering This is a huge new MIT-licensed model: 754B parameters and 1.51TB on Hugging Face twice the size of GLM-4.7 which was 368B and 717GB (4.5 and 4.6 were around that size too). It's interesting to see Z.ai take a position on what we should call professional software engineers building with LLMs - I've seen \"Agentic Engineering\" show up in a few other places recently. most notable from Andrej Karpathy and Addy Osmani . I ran my \"Generate an SVG of a pelican riding a bicycle\" prompt through GLM-5 via OpenRouter and got back a very good pelican on a disappointing bicycle frame : Via Hacker News Tags: definitions , ai , generative-ai , llms , ai-assisted-programming , pelican-riding-a-bicycle , llm-release , vibe-coding , openrouter , ai-in-china , glm",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "cysqlite - a new sqlite driver",
-      "link": "https://simonwillison.net/2026/Feb/11/cysqlite/#atom-everything",
-      "date": "2026-02-11T17:34:40Z",
-      "summary": "cysqlite - a new sqlite driver Charles Leifer has been maintaining pysqlite3 - a fork of the Python standard library's sqlite3 module that makes it much easier to run upgraded SQLite versions - since 2018. He's been working on a ground-up Cython rewrite called cysqlite for almost as long, but it's finally at a stage where it's ready for people to try out. The biggest change from the sqlite3 module involves transactions. Charles explains his discomfort with the sqlite3 implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself. I'm particularly excited about the support for custom virtual tables , a feature I'd love to see in sqlite3 itself. cysqlite provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I set Claude Code on it and it built me cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl , a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this: import micropip await micropip . install ( \"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl\" ) import cysqlite print ( cysqlite . connect ( \":memory:\" ). execute ( \"select sqlite_version()\" ). fetchone ()) (I also learned that wheels like this have to be built for the emscripten version used by that edition of Pyodide - my experimental wheel loads in Pyodide 0.25.1 but fails in 0.27.5 with a Wheel was built with Emscripten v3.1.46 but Pyodide was built with Emscripten v3.1.58 error.) You can try my wheel in this new Pyodide REPL i had Claude build as a mobile-friendly alternative to Pyodide's own hosted console . I also had Claude build this demo page that executes the original test suite in the browser and displays the results: Via lobste.rs Tags: python , sqlite , charles-leifer , webassembly , pyodide , ai-assisted-programming , claude-code",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -91,13 +91,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
@@ -280,6 +273,13 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "ratios will be ratios",
       "source": "dynomight.net"
+    },
+    {
+      "title": "Life pro tip: a Steam Deck can be a bluetooth speaker",
+      "link": "https://xeiaso.net/notes/2026/steam-deck-bluetooth-speaker/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "Your headphones may only let you get audio from one source at once, but Linux has no such limitations!",
+      "source": "xeiaso.net"
     }
   ]
 }
