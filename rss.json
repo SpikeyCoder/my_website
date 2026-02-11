@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-02-11T17:28:03.809684Z",
+  "generated_at": "2026-02-11T18:30:52.568913Z",
   "items": [
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
+      "title": "cysqlite - a new sqlite driver",
+      "link": "https://simonwillison.net/2026/Feb/11/cysqlite/#atom-everything",
+      "date": "2026-02-11T17:34:40Z",
+      "summary": "cysqlite - a new sqlite driver Charles Leifer has been maintaining pysqlite3 - a fork of the Python standard library's sqlite3 module that makes it much easier to run upgraded SQLite versions - since 2018. He's been working on a ground-up Cython rewrite called cysqlite for almost as long, but it's finally at a stage where it's ready for people to try out. The biggest change from the sqlite3 module involves transactions. Charles explains his discomfort with the sqlite3 implementation at length - that library provides two different variants neither of which exactly match the autocommit mechanism in SQLite itself. I'm particularly excited about the support for custom virtual tables , a feature I'd love to see in sqlite3 itself. cysqlite provides a Python extension compiled from C, which means it normally wouldn't be available in Pyodide. I set Claude Code on it and it built me cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl , a 688KB wheel file with a WASM build of the library that can be loaded into Pyodide like this: import micropip await micropip . install ( \"https://simonw.github.io/research/cysqlite-wasm-wheel/cysqlite-0.1.4-cp311-cp311-emscripten_3_1_46_wasm32.whl\" ) import cysqlite print ( cysqlite . connect ( \":memory:\" ). execute ( \"select sqlite_version()\" ). fetchone ()) (I also learned that wheels like this have to be built for the emscripten version used by that edition of Pyodide - my experimental wheel loads in Pyodide 0.25.1 but fails in 0.27.5 with a Wheel was built with Emscripten v3.1.46 but Pyodide was built with Emscripten v3.1.58 error.) You can try my wheel in this new Pyodide REPL i had Claude build as a mobile-friendly alternative to Pyodide's own hosted console . I also had Claude build this demo page that executes the original test suite in the browser and displays the results: Via lobste.rs Tags: python , sqlite , charles-leifer , webassembly , pyodide , ai-assisted-programming , claude-code",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
+      "date": "2026-02-11T15:00:00Z",
+      "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Aligning one matrix with another",
@@ -65,13 +72,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
       "link": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything",
       "date": "2026-02-10T17:45:29Z",
@@ -125,13 +125,6 @@
       "link": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
       "date": "2026-02-09T23:56:51Z",
       "summary": "Structured Context Engineering for File-Native Agentic Systems New paper by Damon McMillan exploring challenging LLM context tasks involving large SQL schemas (up to 10,000 tables) across different models and file formats: Using SQL generation as a proxy for programmatic agent operations, we present a systematic study of context engineering for structured data, comprising 9,649 experiments across 11 models, 4 formats (YAML, Markdown, JSON, Token-Oriented Object Notation [TOON]), and schemas ranging from 10 to 10,000 tables. Unsurprisingly, the biggest impact was the models themselves - with frontier models (Opus 4.5, GPT-5.2, Gemini 2.5 Pro) beating the leading open source models (DeepSeek V3.2, Kimi K2, Llama 4). Those frontier models benefited from filesystem based context retrieval, but the open source models had much less convincing results with those, which reinforces my feeling that the filesystem coding agent loops aren't handled as well by open weight models just yet. The Terminal Bench 2.0 leaderboard is still dominated by Anthropic, OpenAI and Gemini. The \"grep tax\" result against TOON was an interesting detail. TOON is meant to represent structured data in as few tokens as possible, but it turns out the model's unfamiliarity with that format led to them spending significantly more tokens over multiple iterations trying to figure it out: Via @omarsar0 Tags: ai , prompt-engineering , generative-ai , llms , paper-review , context-engineering",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "AI Doesn’t Reduce Work—It Intensifies It",
-      "link": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/#atom-everything",
-      "date": "2026-02-09T16:43:07Z",
-      "summary": "AI Doesn’t Reduce Work—It Intensifies It Aruna Ranganathan and Xingqi Maggie Ye from Berkeley Haas School of Business report initial findings in the HBR from their April to December 2025 study of 200 employees at a \"U.S.-based technology company\". This captures an effect I've been observing in my own work with LLMs: the productivity boost these things can provide is exhausting . AI introduced a new rhythm in which workers managed several active threads at once: manually writing code while AI generated an alternative version, running multiple agents in parallel, or reviving long-deferred tasks because AI could “handle them” in the background. They did this, in part, because they felt they had a “partner” that could help them move through their workload. While this sense of having a “partner” enabled a feeling of momentum, the reality was a continual switching of attention, frequent checking of AI outputs, and a growing number of open tasks. This created cognitive load and a sense of always juggling, even as the work felt productive. I'm frequently finding myself with work on two or three projects running parallel. I can get so much done , but after just an hour or two my mental energy for the day feels almost entirely depleted. I've had conversations with people recently who are losing sleep because they're finding building yet another feature with \"just one more prompt\" irresistible. The HBR piece calls for organizations to build an \"AI practice\" that structures how AI is used to help avoid burnout and counter effects that \"make it harder for organizations to distinguish genuine productivity gains from unsustainable intensity\". I think we've just disrupted decades of existing intuition about sustainable working practices. It's going to take a while and some discipline to find a good new balance. Via Hacker News Tags: careers , ai , generative-ai , llms , ai-assisted-programming , ai-ethics",
       "source": "simonwillison.net"
     },
     {
@@ -226,13 +219,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "How can I prevent the user from changing the widths of ListView columns in version 5 of the common controls?, part 2",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260206-00/?p=112045",
-      "date": "2026-02-06T15:00:00Z",
-      "summary": "Preventing the resize cursor from appearing. The post How can I prevent the user from changing the widths of ListView columns in version 5 of the common controls?, part 2 appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
       "title": "Reading List 02/06/2026",
       "link": "https://www.construction-physics.com/p/reading-list-02062026",
       "date": "2026-02-06T13:03:43Z",
@@ -280,6 +266,20 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "ratios will be ratios",
       "source": "dynomight.net"
+    },
+    {
+      "title": "Life pro tip: a Steam Deck can be a bluetooth speaker",
+      "link": "https://xeiaso.net/notes/2026/steam-deck-bluetooth-speaker/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "Your headphones may only let you get audio from one source at once, but Linux has no such limitations!",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "OpenAI’s Codex",
+      "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
+      "date": "2026-02-04T01:44:41Z",
+      "summary": "",
+      "source": "daringfireball.net"
     }
   ]
 }
