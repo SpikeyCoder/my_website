@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T23:21:01.163998Z",
+  "generated_at": "2026-02-11T00:51:43.088649Z",
   "items": [
     {
       "title": "On screwing up",
@@ -7,13 +7,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
@@ -280,6 +273,13 @@
       "date": "2026-02-04T01:38:32Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "The Coherence Premium",
+      "link": "https://www.joanwestenberg.com/the-coherence-premium/",
+      "date": "2026-02-02T22:41:04Z",
+      "summary": "I don't necessarily believe in second brains. The notion (pun-intended) that you can offload your thinking to a perfectly organized system of notes and links has always struck me as a fantasy. The people I know who've built elaborate Notion databases or Obsidian vaults mostly end",
+      "source": "joanwestenberg.com"
     }
   ]
 }
