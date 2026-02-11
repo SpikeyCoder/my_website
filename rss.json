@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T22:14:20.851176Z",
+  "generated_at": "2026-02-11T23:15:38.639434Z",
   "items": [
     {
       "title": "Apple Creator Studio Usage Restrictions",
@@ -79,13 +79,6 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "Moving to make many of my SSH logins not report things on login",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/MovingToSilentLogins",
-      "date": "2026-02-11T04:33:50Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
       "title": "Communities are not fungible",
       "link": "https://www.joanwestenberg.com/communities-are-not-fungible/",
       "date": "2026-02-11T04:18:45Z",
@@ -142,13 +135,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "A fun Python puzzle with circular imports",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/python/PythonCircularImportPuzzle",
-      "date": "2026-02-10T04:13:27Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
       "title": "[Sponsor] WorkOS Pipes: Ship Third-Party Integrations Without Rebuilding OAuth",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
       "date": "2026-02-10T01:43:40Z",
@@ -203,13 +189,6 @@
       "date": "2026-02-09T06:49:33Z",
       "summary": "Every week, thousands of founders open Canva or Google Slides or, God help them, PowerPoint, and begin the ritual. They agonize over fonts, nudge logos three pixels to the left and workshop whether the TAM slide should come before or after the team slide, as though the ordering of these",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Systemd and blocking connections to localhost, including via 'any'",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdAndConnectToAny",
-      "date": "2026-02-09T04:22:04Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "A Language For Agents",
@@ -280,6 +259,27 @@
       "date": "2026-02-06T00:00:00Z",
       "summary": "I wrote box, a thin wrapper around ssh for running commands on remote machines. I want a box-shaped interface for CI:",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "How to stop being boring",
+      "link": "https://www.joanwestenberg.com/how-to-stop-being-boring/",
+      "date": "2026-02-05T19:11:57Z",
+      "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Getting the main thing right",
+      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "link": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
     }
   ]
 }
