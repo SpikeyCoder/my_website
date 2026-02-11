@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T15:28:49.858231Z",
+  "generated_at": "2026-02-11T16:30:57.678792Z",
   "items": [
     {
       "title": "Aligning one matrix with another",
@@ -56,13 +56,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Introducing Showboat and Rodney, so agents can demo what they’ve built",
@@ -280,6 +273,13 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "Your headphones may only let you get audio from one source at once, but Linux has no such limitations!",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "OpenAI’s Codex",
+      "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
+      "date": "2026-02-04T01:44:41Z",
+      "summary": "",
+      "source": "daringfireball.net"
     }
   ]
 }
