@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-12T18:28:30.223274Z",
+  "generated_at": "2026-02-12T19:29:05.149315Z",
   "items": [
     {
       "title": "Gemini 3 Deep Think",
       "link": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/#atom-everything",
       "date": "2026-02-12T18:12:17Z",
-      "summary": "Gemini 3 Deep Think New from Google. They say it's \"built to push the frontier of intelligence and solve modern challenges across science, research, and engineering\". It drew me a really good SVG of a pelican riding a bicycle ! I think this is the best one I've seen so far - here's my previous collection . (And since it's an FAQ, here's my answer to What happens if AI labs train for pelicans riding bicycles? ) Via Hacker News Tags: google , ai , generative-ai , llms , gemini , pelican-riding-a-bicycle , llm-reasoning , llm-release",
+      "summary": "Gemini 3 Deep Think New from Google. They say it's \"built to push the frontier of intelligence and solve modern challenges across science, research, and engineering\". It drew me a really good SVG of a pelican riding a bicycle ! I think this is the best one I've seen so far - here's my previous collection . (And since it's an FAQ, here's my answer to What happens if AI labs train for pelicans riding bicycles? ) Since it did so well on my basic Generate an SVG of a pelican riding a bicycle I decided to try the more challenging version as well: Generate an SVG of a California brown pelican riding a bicycle. The bicycle must have spokes and a correctly shaped bicycle frame. The pelican must have its characteristic large pouch, and there should be a clear indication of feathers. The pelican must be clearly pedaling the bicycle. The image should show the full breeding plumage of the California brown pelican. Here's what I got : Via Hacker News Tags: google , ai , generative-ai , llms , gemini , pelican-riding-a-bicycle , llm-reasoning , llm-release",
       "source": "simonwillison.net"
     },
     {
@@ -35,6 +35,13 @@
       "date": "2026-02-12T16:47:04Z",
       "summary": "In my post about my Showboat project I used the term \"overseer\" to refer to the person who manages a coding agent. It turns out that's a term tied to slavery and plantation management . So that's gross! I've edited that post to use \"supervisor\" instead, and I'll be using that going forward. Tags: language",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059",
+      "date": "2026-02-12T15:00:00Z",
+      "summary": "Check whether it is an extended key. The post How can I distinguish between the numeric keypad 0 and the top-row 0 in the <CODE>WM_<WBR>KEY­DOWN</CODE> message? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Trends in US Construction Productivity",
@@ -84,13 +91,6 @@
       "date": "2026-02-11T21:40:45Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -163,13 +163,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
       "date": "2026-02-10T15:00:00Z",
@@ -203,13 +196,6 @@
       "date": "2026-02-10T00:00:00Z",
       "summary": "What if markdown was executable? You get markdownlang.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "What should I do if a wait call reports WAIT_ABANDONED?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260209-00/?p=112049",
-      "date": "2026-02-09T15:00:00Z",
-      "summary": "It's your one chance to make amends. The post What should I do if a wait call reports <CODE>WAIT_<WBR>ABANDONED</CODE>? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Microsoft Should Watch The Expanse",
@@ -280,6 +266,20 @@
       "date": "2026-02-06T00:00:00Z",
       "summary": "I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "How to stop being boring",
+      "link": "https://www.joanwestenberg.com/how-to-stop-being-boring/",
+      "date": "2026-02-05T19:11:57Z",
+      "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Getting the main thing right",
+      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
