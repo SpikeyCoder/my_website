@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T11:22:46.854781Z",
+  "generated_at": "2026-02-12T12:24:56.710589Z",
   "items": [
     {
       "title": "The Many Flavors of Ignore Files",
@@ -117,7 +117,7 @@
       "title": "Programming Aphorisms",
       "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
       "date": "2026-02-11T00:00:00Z",
-      "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
+      "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
     },
     {
@@ -250,7 +250,7 @@
       "title": "CI In a Box",
       "link": "https://matklad.github.io/2026/02/06/ci-in-a-box.html",
       "date": "2026-02-06T00:00:00Z",
-      "summary": "I wrote box, a thin wrapper around ssh for running commands on remote machines. I want a box-shaped interface for CI:",
+      "summary": "I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:",
       "source": "matklad.github.io"
     },
     {
