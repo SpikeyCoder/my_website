@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-12T19:29:05.149315Z",
+  "generated_at": "2026-02-12T20:16:52.262199Z",
   "items": [
+    {
+      "title": "Covering electricity price increases from our data centers",
+      "link": "https://simonwillison.net/2026/Feb/12/covering-electricity-price-increases/#atom-everything",
+      "date": "2026-02-12T20:01:23Z",
+      "summary": "Covering electricity price increases from our data centers One of the sub-threads of the AI energy usage discourse has been the impact new data centers have on the cost of electricity to nearby residents. Here's detailed analysis from Bloomberg in September reporting \"Wholesale electricity costs as much as 267% more than it did five years ago in areas near data centers\". Anthropic appear to be taking on this aspect of the problem directly, promising to cover 100% of necessary grid upgrade costs and also saying: We will work to bring net-new power generation online to match our data centers’ electricity needs. Where new generation isn’t online, we’ll work with utilities and external experts to estimate and cover demand-driven price effects from our data centers. I look forward to genuine energy industry experts picking this apart to judge if it will actually have the claimed impact on consumers. As always, I remain frustrated at the refusal of the major AI labs to fully quantify their energy usage. The best data we've had on this still comes from Mistral's report last July and even that lacked key data such as the breakdown between energy usage for training vs inference. Via @anthropicai Tags: ai , anthropic , ai-ethics , ai-energy-usage",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Gemini 3 Deep Think",
       "link": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/#atom-everything",
@@ -28,13 +35,6 @@
       "date": "2026-02-12T17:13:31Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Supervisor, not overseer",
-      "link": "https://simonwillison.net/2026/Feb/12/supervisor/#atom-everything",
-      "date": "2026-02-12T16:47:04Z",
-      "summary": "In my post about my Showboat project I used the term \"overseer\" to refer to the person who manages a coding agent. It turns out that's a term tied to slavery and plantation management . So that's gross! I've edited that post to use \"supervisor\" instead, and I'll be using that going forward. Tags: language",
-      "source": "simonwillison.net"
     },
     {
       "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
@@ -91,6 +91,13 @@
       "date": "2026-02-11T21:40:45Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -161,6 +168,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
@@ -266,20 +280,6 @@
       "date": "2026-02-06T00:00:00Z",
       "summary": "I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "How to stop being boring",
-      "link": "https://www.joanwestenberg.com/how-to-stop-being-boring/",
-      "date": "2026-02-05T19:11:57Z",
-      "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Getting the main thing right",
-      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
