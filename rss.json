@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T23:15:38.639434Z",
+  "generated_at": "2026-02-12T00:46:15.519758Z",
   "items": [
     {
       "title": "Apple Creator Studio Usage Restrictions",
@@ -91,6 +91,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Matrix ain't it chief",
+      "link": "https://xeiaso.net/notes/2026/dont-use-matrix/",
+      "date": "2026-02-11T00:00:00Z",
+      "summary": "Watch arathorn get in the replies for this one.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Programming Aphorisms",
@@ -273,13 +280,6 @@
       "date": "2026-02-05T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "My AI Adoption Journey",
-      "link": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
     }
   ]
 }
