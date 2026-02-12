@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-12T21:16:16.750377Z",
+  "generated_at": "2026-02-12T22:14:05.846841Z",
   "items": [
+    {
+      "title": "Introducing GPT‑5.3‑Codex‑Spark",
+      "link": "https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything",
+      "date": "2026-02-12T21:16:07Z",
+      "summary": "Introducing GPT‑5.3‑Codex‑Spark OpenAI announced a partnership with Cerebras on January 14th . Four weeks later they're already launching the first integration, \"an ultra-fast model for real-time coding in Codex\". Despite being named GPT-5.3-Codex-Spark it's not purely an accelerated alternative to GPT-5.3-Codex - the blog post calls it \"a smaller version of GPT‑5.3-Codex\" and clarifies that \"at launch, Codex-Spark has a 128k context window and is text-only.\" I had some preview access to this model and I can confirm that it's significantly faster than their other models. Here's what that speed looks like running in Codex CLI: That was the \"Generate an SVG of a pelican riding a bicycle\" prompt - here's the rendered result: Compare that to the speed of regular GPT-5.3 Codex medium: Significantly slower, but the pelican is a lot better: What's interesting about this model isn't the quality though, it's the speed . When a model responds this fast you can stay in flow state and iterate with the model much more productively. I showed a demo of Cerebras running Llama 3.1 70 B at 2,000 tokens/second against Val Town back in October 2024 . OpenAI claim 1,000 tokens/second for their new model, and I expect it will prove to be a ferociously useful partner for hands-on iterative coding sessions. It's not yet clear what the pricing will look like for this new model. Tags: ai , openai , generative-ai , llms , cerebras , pelican-riding-a-bicycle , llm-release , codex-cli",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Anthropic",
       "link": "https://simonwillison.net/2026/Feb/12/anthropic/#atom-everything",
@@ -13,13 +20,6 @@
       "link": "https://simonwillison.net/2026/Feb/12/covering-electricity-price-increases/#atom-everything",
       "date": "2026-02-12T20:01:23Z",
       "summary": "Covering electricity price increases from our data centers One of the sub-threads of the AI energy usage discourse has been the impact new data centers have on the cost of electricity to nearby residents. Here's detailed analysis from Bloomberg in September reporting \"Wholesale electricity costs as much as 267% more than it did five years ago in areas near data centers\". Anthropic appear to be taking on this aspect of the problem directly, promising to cover 100% of necessary grid upgrade costs and also saying: We will work to bring net-new power generation online to match our data centers’ electricity needs. Where new generation isn’t online, we’ll work with utilities and external experts to estimate and cover demand-driven price effects from our data centers. I look forward to genuine energy industry experts picking this apart to judge if it will actually have the claimed impact on consumers. As always, I remain frustrated at the refusal of the major AI labs to fully quantify their energy usage. The best data we've had on this still comes from Mistral's report last July and even that lacked key data such as the breakdown between energy usage for training vs inference. Via @anthropicai Tags: ai , anthropic , ai-ethics , ai-energy-usage",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Gemini 3 Deep Think",
-      "link": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/#atom-everything",
-      "date": "2026-02-12T18:12:17Z",
-      "summary": "Gemini 3 Deep Think New from Google. They say it's \"built to push the frontier of intelligence and solve modern challenges across science, research, and engineering\". It drew me a really good SVG of a pelican riding a bicycle ! I think this is the best one I've seen so far - here's my previous collection . (And since it's an FAQ, here's my answer to What happens if AI labs train for pelicans riding bicycles? ) Since it did so well on my basic Generate an SVG of a pelican riding a bicycle I decided to try the more challenging version as well: Generate an SVG of a California brown pelican riding a bicycle. The bicycle must have spokes and a correctly shaped bicycle frame. The pelican must have its characteristic large pouch, and there should be a clear indication of feathers. The pelican must be clearly pedaling the bicycle. The image should show the full breeding plumage of the California brown pelican. Here's what I got : Via Hacker News Tags: google , ai , generative-ai , llms , gemini , pelican-riding-a-bicycle , llm-reasoning , llm-release",
       "source": "simonwillison.net"
     },
     {
