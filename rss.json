@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T15:25:09.585715Z",
+  "generated_at": "2026-02-12T16:27:47.565239Z",
   "items": [
     {
       "title": "Trends in US Construction Productivity",
@@ -7,13 +7,6 @@
       "date": "2026-02-12T13:03:20Z",
       "summary": "(This is a chapter of a longer report I’m working on that summarizes and expands the last several years of my work on construction productivity.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Book Review: On the Calculation of Volume - Solvej Balle ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-on-the-calculation-of-volume-solvej-balle/",
-      "date": "2026-02-12T12:34:54Z",
-      "summary": "I had the most intense time reading this book. Do you ever see the date of a famous event and notice that it is also the date of your birthday? When I do, my brain gets a fun jolt of recognition. This book is set perennially on the 18th of November - my birthday. My poor little brain was exhausted and satiated from the repeated mentions. A most curious experience. It would be easy to dismiss…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Many Flavors of Ignore Files",
@@ -35,6 +28,13 @@
       "date": "2026-02-12T02:48:05Z",
       "summary": "I've been spending time looking through \"skills\" for LLMs, and I feel like I'm the only one panicking. Nobody else seems to care. .doparatgteersdfsd {display:none} Agent skills are supposed to be a way to teach your LLM how to handle specific tasks. For example, if you have a particular method for adding tasks to your calendar, you write a skill file with step-by-step instructions on how to retrieve a task from an email and export it. Once the agent reads the file, it knows exactly what to do, rather than guessing. This can be incredibly useful. But when people download and share skills from the internet, it becomes a massive attack vector. Whether it's a repository or a marketplace, there is ample room for attackers to introduce malicious instructions that users never bother to vet. It is happening . We are effectively back to the era of downloading .exe files from the internet and running them without a second thought. Congratulations are in order! While you were busy admiring how nicely this skill formats your bullet points, it quietly rummaged through your digital life, uploaded your browser history to a pastebin, and ordered fifteen pounds of unscented kitty litter to your workplace. You thought you were downloading a productivity tool, but you actually just installed a digital intern with a criminal record and a vendetta. It turns out, treating a text file like a harmless puppy was a mistake. You saw \"Markdown\" and assumed safety, but you forgot that to an LLM, these words are absolute law. While you were vetting the font choice, the skill was busy sending your crypto keys to a generous prince in a faraway land. You didn't just automate your workflow; you automated your own downfall. So, sit back, relax, and watch as your calendar deletes your meetings and replaces them with \"Time to Reflect on My Mistakes.\" You have officially been pawned. Next time, maybe read the instructions before you let the AI run your life.",
       "source": "idiallo.com"
+    },
+    {
+      "title": "The Discourse has been Automated",
+      "link": "https://xeiaso.net/notes/2026/the-discourse-has-been-automated/",
+      "date": "2026-02-12T00:00:00Z",
+      "summary": "An AI agent submitted a PR to matplotlib, got rejected, and then wrote a callout blogpost attacking the maintainer. I have no idea how to feel about this.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Apple Creator Studio Usage Restrictions",
@@ -65,13 +65,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -84,13 +77,6 @@
       "date": "2026-02-11T13:23:50Z",
       "summary": "Suppose you have two n × n matrices, A and B, and you would like to find a rotation matrix Ω that lines up B with A. That is, you’d like to find Ω such that A = ΩB. This is asking too much, except in the trivial case of A and B being 1 × 1 matrices. You could […] The post Aligning one matrix with another first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Gadget Review: Epomaker TH87 ISO Mechanical Keyboard ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-epomaker-th87-iso-mechanical-keyboard/",
-      "date": "2026-02-11T12:34:46Z",
-      "summary": "If I'm being brutally honest, I never really got the appeal of mechanical keyboards. There was always someone in the office who made a godawful racket hammering on their keyboard and then waxed lyrical about the merits of various switches. I'd mostly just dismissed them as cranks. I'm in love with my old Microsoft 4000 ergonomic keyboard. What use could I have a mechanical keyboard festooned with …",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Last year, all my non-programmer friends built apps",
@@ -142,25 +128,11 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
       "date": "2026-02-10T15:00:00Z",
       "summary": "Asking nicely, and asking a lot of people. The post How did Windows 95 get permission to put the Weezer video <I>Buddy Holly</I> on the CD? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: Ashes To Admin - Tales from the Caseload of a Council Funeral Officer by Evie King ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-ashes-to-admin-tales-from-the-caseload-of-a-council-funeral-officer-by-evie-king/",
-      "date": "2026-02-10T12:34:05Z",
-      "summary": "Why am I reading so much about death lately? This is a wryly funny and cosily charming book about council funerals. Evie King conducts Section 46 funerals under the Public Health Act. If you die and there's no one else around who is able to arrange your funeral, the local council steps in. This could be a coldly bureaucratic process with no wiggle room for anything other than perfunctory…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Lockfiles Killed Vendoring",
@@ -247,13 +219,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Zendesk, get your shit together please",
-      "link": "https://xeiaso.net/notes/2026/zendesk-get-shit-together/",
-      "date": "2026-02-07T00:00:00Z",
-      "summary": "BORN TO GET SPAMMED, WORLD IS A FUCK, SPAMHAUS THEM ALL 2026, I am inbox full man, 410,757,864,530 Zendesk emails",
-      "source": "xeiaso.net"
-    },
-    {
       "title": "The first good Raspberry Pi Laptop",
       "link": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
       "date": "2026-02-06T15:00:00Z",
@@ -280,6 +245,41 @@
       "date": "2026-02-05T19:11:57Z",
       "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Getting the main thing right",
+      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "link": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
+    },
+    {
+      "title": "Heritability of human life span is about 50% when heritability is redefined to be something different",
+      "link": "https://dynomight.net/lifespan/",
+      "date": "2026-02-05T00:00:00Z",
+      "summary": "ratios will be ratios",
+      "source": "dynomight.net"
+    },
+    {
+      "title": "OpenAI’s Codex",
+      "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
+      "date": "2026-02-04T01:44:41Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Why Am I Doing the Thinking for You?",
+      "link": "https://terriblesoftware.org/2026/02/02/why-am-i-doing-the-thinking-for-you/",
+      "date": "2026-02-02T13:49:00Z",
+      "summary": "'What do you think?' without a position isn't a question — it's a task assignment. State your opinion first. Let people react to something concrete.",
+      "source": "terriblesoftware.org"
     }
   ]
 }
