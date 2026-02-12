@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T14:28:35.700312Z",
+  "generated_at": "2026-02-12T15:25:09.585715Z",
   "items": [
     {
       "title": "Trends in US Construction Productivity",
@@ -63,6 +63,13 @@
       "date": "2026-02-11T18:56:14Z",
       "summary": "GLM-5: From Vibe Coding to Agentic Engineering This is a huge new MIT-licensed model: 754B parameters and 1.51TB on Hugging Face twice the size of GLM-4.7 which was 368B and 717GB (4.5 and 4.6 were around that size too). It's interesting to see Z.ai take a position on what we should call professional software engineers building with LLMs - I've seen \"Agentic Engineering\" show up in a few other places recently. most notable from Andrej Karpathy and Addy Osmani . I ran my \"Generate an SVG of a pelican riding a bicycle\" prompt through GLM-5 via OpenRouter and got back a very good pelican on a disappointing bicycle frame : Via Hacker News Tags: definitions , ai , generative-ai , llms , ai-assisted-programming , pelican-riding-a-bicycle , llm-release , vibe-coding , openrouter , ai-in-china , glm",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -133,6 +140,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
@@ -266,20 +280,6 @@
       "date": "2026-02-05T19:11:57Z",
       "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Getting the main thing right",
-      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "My AI Adoption Journey",
-      "link": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
     }
   ]
 }
