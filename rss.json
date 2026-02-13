@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-13T07:28:06.484899Z",
+  "generated_at": "2026-02-13T08:22:08.983116Z",
   "items": [
+    {
+      "title": "Members only: \"Won't Fix\" self help",
+      "link": "https://www.joanwestenberg.com/members-only-wont-fix-self-help/",
+      "date": "2026-02-13T08:18:24Z",
+      "summary": "Every major self-help framework of the last two decades falls into one of two camps. Camp one is Stoic Acceptance: your problems are features, not bugs, and the path to contentment runs through radical non-resistance. Camp two is Relentless Optimization: your problems are solvable if you wake up at 4:",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Testing Linux memory limits is a bit of a pain",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/MemoryLimitTestingPain",
+      "date": "2026-02-13T04:24:11Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
     {
       "title": "Expressing a prime as the sum of two squares",
       "link": "https://www.johndcook.com/blog/2026/02/12/pythagorean-primes/",
@@ -79,6 +93,13 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "Undo in Vi and its successors, and my views on the mess",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/ViUndoMyViews",
+      "date": "2026-02-12T04:20:16Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Markdown.exe",
       "link": "https://idiallo.com/byte-size/markdown-exe?src=feed",
       "date": "2026-02-12T02:48:05Z",
@@ -105,13 +126,6 @@
       "date": "2026-02-11T21:40:45Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -156,6 +170,13 @@
       "source": "nesbitt.io"
     },
     {
+      "title": "Moving to make many of my SSH logins not report things on login",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/MovingToSilentLogins",
+      "date": "2026-02-11T04:33:50Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Communities are not fungible",
       "link": "https://www.joanwestenberg.com/communities-are-not-fungible/",
       "date": "2026-02-11T04:18:45Z",
@@ -182,13 +203,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
@@ -266,20 +280,6 @@
       "date": "2026-02-07T15:00:00Z",
       "summary": "In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, and observe the massive team effort involved in putting together a modern digital sports broadcast. I wanted to explore the timing and digital side of a modern SMPTE 2110 mobile unit, and my Dad has been involved in studio and live broadcast for decades, so he enjoyed the experience as the engineer not on duty!",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The first good Raspberry Pi Laptop",
-      "link": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
-      "date": "2026-02-06T15:00:00Z",
-      "summary": "Ever since the Raspberry Pi Compute Module 5 was introduced, I wondered why nobody built a decent laptop chassis around it. You could swap out a low spec CM5 for a higher spec, and get an instant computer upgrade. Or, assuming a CM6 comes out someday in the same form factor, the laptop chassis could get an entirely new life with that upgrade.",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Reading List 02/06/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-02062026",
-      "date": "2026-02-06T13:03:43Z",
-      "summary": "Welcome to the reading list, a look at what happened this week in infrastructure, buildings, and building things.",
-      "source": "construction-physics.com"
     }
   ]
 }
