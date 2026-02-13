@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-13T01:42:06.019097Z",
+  "generated_at": "2026-02-13T03:12:43.830920Z",
   "items": [
+    {
+      "title": "Expressing a prime as the sum of two squares",
+      "link": "https://www.johndcook.com/blog/2026/02/12/pythagorean-primes/",
+      "date": "2026-02-13T02:34:58Z",
+      "summary": "I saw where Elon Musk posted Grok’s answer to the prompt “What are the most beautiful theorems.” I looked at the list, and there were no surprises, as you’d expect from a program that works by predicting the most likely sequence of words based on analyzing web pages. There’s only one theorem on the list […] The post Expressing a prime as the sum of two squares first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Introducing GPT‑5.3‑Codex‑Spark",
       "link": "https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything",
@@ -93,6 +100,13 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -163,6 +177,13 @@
       "source": "matklad.github.io"
     },
     {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
       "date": "2026-02-10T15:00:00Z",
@@ -226,13 +247,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Fibonacci numbers and time-space tradeoffs",
-      "link": "https://www.johndcook.com/blog/2026/02/08/time-space-tradeoffs/",
-      "date": "2026-02-08T13:51:08Z",
-      "summary": "A few days ago I wrote about Fibonacci numbers and certificates. As I pointed out in the article, there’s no need to certify Fibonacci numbers, but the point of the post was to illustrate the idea of a solution certificate in a simple context. Practical uses of certificates are more complicated. This time I want […] The post Fibonacci numbers and time-space tradeoffs first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Large tech companies don't need heroes",
       "link": "https://seangoedecke.com/heroism/",
       "date": "2026-02-08T00:00:00Z",
@@ -266,20 +280,6 @@
       "date": "2026-02-06T00:00:00Z",
       "summary": "I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "How to stop being boring",
-      "link": "https://www.joanwestenberg.com/how-to-stop-being-boring/",
-      "date": "2026-02-05T19:11:57Z",
-      "summary": "The most interesting people I know aren't trying to be interesting. Thank God. They're saying what they actually think and wearing what they actually like, pursuing hobbies that genuinely fascinate them, regardless of whether those hobbies are cool. The most mind-numbingly boring people I know are",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Getting the main thing right",
-      "link": "https://seangoedecke.com/getting-the-main-thing-right/",
-      "date": "2026-02-05T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
