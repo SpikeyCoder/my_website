@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T10:21:35.245925Z",
+  "generated_at": "2026-02-13T11:17:59.520617Z",
   "items": [
     {
       "title": "Pluralistic: Trump antitrust is dead (13 Feb 2026)",
@@ -21,6 +21,13 @@
       "date": "2026-02-13T02:34:58Z",
       "summary": "I saw where Elon Musk posted Grok’s answer to the prompt “What are the most beautiful theorems.” I looked at the list, and there were no surprises, as you’d expect from a program that works by predicting the most likely sequence of words based on analyzing web pages. There’s only one theorem on the list […] The post Expressing a prime as the sum of two squares first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Respectful Open Source",
+      "link": "https://nesbitt.io/2026/02/13/respectful-open-source.html",
+      "date": "2026-02-13T00:00:00Z",
+      "summary": "Maintainer attention as a finite resource.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Introducing GPT‑5.3‑Codex‑Spark",
@@ -121,6 +128,13 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -191,6 +205,13 @@
       "source": "matklad.github.io"
     },
     {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
       "date": "2026-02-10T15:00:00Z",
@@ -203,13 +224,6 @@
       "date": "2026-02-10T12:34:05Z",
       "summary": "Why am I reading so much about death lately? This is a wryly funny and cosily charming book about council funerals. Evie King conducts Section 46 funerals under the Public Health Act. If you die and there's no one else around who is able to arrange your funeral, the local council steps in. This could be a coldly bureaucratic process with no wiggle room for anything other than perfunctory…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Lockfiles Killed Vendoring",
-      "link": "https://nesbitt.io/2026/02/10/lockfiles-killed-vendoring.html",
-      "date": "2026-02-10T10:00:00Z",
-      "summary": "Why almost nobody vendors their dependencies anymore.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Humanity's last programming language",
@@ -266,20 +280,6 @@
       "date": "2026-02-06T15:00:00Z",
       "summary": "Ever since the Raspberry Pi Compute Module 5 was introduced, I wondered why nobody built a decent laptop chassis around it. You could swap out a low spec CM5 for a higher spec, and get an instant computer upgrade. Or, assuming a CM6 comes out someday in the same form factor, the laptop chassis could get an entirely new life with that upgrade.",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Reading List 02/06/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-02062026",
-      "date": "2026-02-06T13:03:43Z",
-      "summary": "Welcome to the reading list, a look at what happened this week in infrastructure, buildings, and building things.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "CI In a Box",
-      "link": "https://matklad.github.io/2026/02/06/ci-in-a-box.html",
-      "date": "2026-02-06T00:00:00Z",
-      "summary": "I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:",
-      "source": "matklad.github.io"
     }
   ]
 }
