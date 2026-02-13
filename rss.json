@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:22:13.062007Z",
+  "generated_at": "2026-02-13T19:22:15.382287Z",
   "items": [
     {
       "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
@@ -49,6 +49,13 @@
       "date": "2026-02-13T02:34:58Z",
       "summary": "I saw where Elon Musk posted Grok’s answer to the prompt “What are the most beautiful theorems.” I looked at the list, and there were no surprises, as you’d expect from a program that works by predicting the most likely sequence of words based on analyzing web pages. There’s only one theorem on the list […] The post Expressing a prime as the sum of two squares first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "The Final Bottleneck",
+      "link": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "date": "2026-02-13T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Good riddance, 4o",
@@ -273,13 +280,6 @@
       "date": "2026-02-08T13:51:25Z",
       "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Large tech companies don't need heroes",
-      "link": "https://seangoedecke.com/heroism/",
-      "date": "2026-02-08T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
