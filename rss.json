@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T13:33:41.003540Z",
+  "generated_at": "2026-02-13T14:23:26.536827Z",
   "items": [
     {
       "title": "Gadget Review: Topdon TS004 Thermal Monocular ★★★★⯪",
@@ -28,6 +28,13 @@
       "date": "2026-02-13T08:18:24Z",
       "summary": "Every major self-help framework of the last two decades falls into one of two camps. Camp one is Stoic Acceptance: your problems are features, not bugs, and the path to contentment runs through radical non-resistance. Camp two is Relentless Optimization: your problems are solvable if you wake up at 4:",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Testing Linux memory limits is a bit of a pain",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/MemoryLimitTestingPain",
+      "date": "2026-02-13T04:24:11Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Expressing a prime as the sum of two squares",
@@ -121,6 +128,13 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "Undo in Vi and its successors, and my views on the mess",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/ViUndoMyViews",
+      "date": "2026-02-12T04:20:16Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Markdown.exe",
       "link": "https://idiallo.com/byte-size/markdown-exe?src=feed",
       "date": "2026-02-12T02:48:05Z",
@@ -198,6 +212,13 @@
       "source": "nesbitt.io"
     },
     {
+      "title": "Moving to make many of my SSH logins not report things on login",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/MovingToSilentLogins",
+      "date": "2026-02-11T04:33:50Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Communities are not fungible",
       "link": "https://www.joanwestenberg.com/communities-are-not-fungible/",
       "date": "2026-02-11T04:18:45Z",
@@ -259,27 +280,6 @@
       "date": "2026-02-09T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Computing large Fibonacci numbers",
-      "link": "https://www.johndcook.com/blog/2026/02/08/computing-large-fibonacci-numbers/",
-      "date": "2026-02-08T13:51:25Z",
-      "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Large tech companies don't need heroes",
-      "link": "https://seangoedecke.com/heroism/",
-      "date": "2026-02-08T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
-      "link": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
-      "date": "2026-02-07T15:00:00Z",
-      "summary": "In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, and observe the massive team effort involved in putting together a modern digital sports broadcast. I wanted to explore the timing and digital side of a modern SMPTE 2110 mobile unit, and my Dad has been involved in studio and live broadcast for decades, so he enjoyed the experience as the engineer not on duty!",
-      "source": "jeffgeerling.com"
     }
   ]
 }
