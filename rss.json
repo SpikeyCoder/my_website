@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-14T00:44:57.844599Z",
+  "generated_at": "2026-02-14T01:40:45.094635Z",
   "items": [
+    {
+      "title": "AI twitter's favourite lie: everyone wants to be a developer",
+      "link": "https://www.joanwestenberg.com/ai-twitters-favourite-lie-everyone-wants-to-be-a-developer/",
+      "date": "2026-02-14T01:13:26Z",
+      "summary": "Twitter's latest consensus on inevitability: now that large language models can write code, everyone will become a software developer. People, you see, have problems, and software solves problems, and AI removes the barrier between people and software, therefore everyone will build their own software. It's a",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Anthropic's public benefit mission",
       "link": "https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything",
@@ -170,13 +177,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -247,25 +247,11 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "Humanity's last programming language",
       "link": "https://xeiaso.net/blog/2026/markdownlang/",
       "date": "2026-02-10T00:00:00Z",
       "summary": "What if markdown was executable? You get markdownlang.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "The pitch deck is dead. Write a pitch.md instead.",
-      "link": "https://www.joanwestenberg.com/the-pitch-deck-is-dead-write-a-pitch-md-instead/",
-      "date": "2026-02-09T06:49:33Z",
-      "summary": "Every week, thousands of founders open Canva or Google Slides or, God help them, PowerPoint, and begin the ritual. They agonize over fonts, nudge logos three pixels to the left and workshop whether the TAM slide should come before or after the team slide, as though the ordering of these",
-      "source": "joanwestenberg.com"
     },
     {
       "title": "A Language For Agents",
@@ -280,6 +266,20 @@
       "date": "2026-02-08T13:51:25Z",
       "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Large tech companies don't need heroes",
+      "link": "https://seangoedecke.com/heroism/",
+      "date": "2026-02-08T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
+      "link": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "date": "2026-02-07T15:00:00Z",
+      "summary": "In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, and observe the massive team effort involved in putting together a modern digital sports broadcast. I wanted to explore the timing and digital side of a modern SMPTE 2110 mobile unit, and my Dad has been involved in studio and live broadcast for decades, so he enjoyed the experience as the engineer not on duty!",
+      "source": "jeffgeerling.com"
     }
   ]
 }
