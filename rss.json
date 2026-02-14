@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T17:12:19.166367Z",
+  "generated_at": "2026-02-14T18:13:53.303690Z",
   "items": [
     {
       "title": "Instruction decoding in the Intel 8087 floating-point chip",
@@ -205,6 +205,13 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -261,25 +268,18 @@
       "source": "matklad.github.io"
     },
     {
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "date": "2026-02-10T21:49:53Z",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "Humanity's last programming language",
       "link": "https://xeiaso.net/blog/2026/markdownlang/",
       "date": "2026-02-10T00:00:00Z",
       "summary": "What if markdown was executable? You get markdownlang.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "A Language For Agents",
-      "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
-      "date": "2026-02-09T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Computing large Fibonacci numbers",
-      "link": "https://www.johndcook.com/blog/2026/02/08/computing-large-fibonacci-numbers/",
-      "date": "2026-02-08T13:51:25Z",
-      "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
-      "source": "johndcook.com"
     }
   ]
 }
