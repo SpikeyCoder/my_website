@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-14T22:09:25.282671Z",
+  "generated_at": "2026-02-14T23:10:59.461301Z",
   "items": [
+    {
+      "title": "Finding a square root of -1 mod p",
+      "link": "https://www.johndcook.com/blog/2026/02/14/square-root-minus-1-mod-p/",
+      "date": "2026-02-14T22:07:05Z",
+      "summary": "If p is an odd prime, there is a theorem that says x² = −1 mod p has a solution if and only if p = 1 mod 4. When a solution x exists, how do you find it? The previous two posts have discussed Stan Wagon’s algorithm for expressing an odd prime p as a […] The post Finding a square root of -1 mod p first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Finding a non-square mod p",
       "link": "https://www.johndcook.com/blog/2026/02/14/finding-a-non-square/",
@@ -219,18 +226,18 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
       "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Aligning one matrix with another",
-      "link": "https://www.johndcook.com/blog/2026/02/11/orthogonal-procrustes/",
-      "date": "2026-02-11T13:23:50Z",
-      "summary": "Suppose you have two n × n matrices, A and B, and you would like to find a rotation matrix Ω that lines up B with A. That is, you’d like to find Ω such that A = ΩB. This is asking too much, except in the trivial case of A and B being 1 × 1 matrices. You could […] The post Aligning one matrix with another first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Last year, all my non-programmer friends built apps",
@@ -273,13 +280,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Humanity's last programming language",
-      "link": "https://xeiaso.net/blog/2026/markdownlang/",
-      "date": "2026-02-10T00:00:00Z",
-      "summary": "What if markdown was executable? You get markdownlang.",
-      "source": "xeiaso.net"
     }
   ]
 }
