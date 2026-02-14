@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-14T04:39:05.681782Z",
+  "generated_at": "2026-02-14T05:25:13.111695Z",
   "items": [
+    {
+      "title": "Quoting Thoughtworks",
+      "link": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
+      "date": "2026-02-14T04:54:41Z",
+      "summary": "The retreat challenged the narrative that AI eliminates the need for junior developers. Juniors are more profitable than they have ever been. AI tools get them past the awkward initial net-negative phase faster. They serve as a call option on future productivity. And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption. The real concern is mid-level engineers who came up during the decade-long hiring boom and may not have developed the fundamentals needed to thrive in the new environment. This population represents the bulk of the industry by volume, and retraining them is genuinely difficult. The retreat discussed whether apprenticeship models, rotation programs and lifelong learning structures could address this gap, but acknowledged that no organization has solved it yet. — Thoughtworks , findings from a retreat concerning \"the future of software engineering\", conducted under Chatham House rules Tags: ai-assisted-programming , careers , ai",
+      "source": "simonwillison.net"
+    },
     {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
       "link": "https://www.joanwestenberg.com/ai-twitters-favourite-lie-everyone-wants-to-be-a-developer/",
@@ -91,13 +98,6 @@
       "date": "2026-02-13T00:00:00Z",
       "summary": "Maintainer attention as a finite resource.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Introducing GPT‑5.3‑Codex‑Spark",
-      "link": "https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything",
-      "date": "2026-02-12T21:16:07Z",
-      "summary": "Introducing GPT‑5.3‑Codex‑Spark OpenAI announced a partnership with Cerebras on January 14th . Four weeks later they're already launching the first integration, \"an ultra-fast model for real-time coding in Codex\". Despite being named GPT-5.3-Codex-Spark it's not purely an accelerated alternative to GPT-5.3-Codex - the blog post calls it \"a smaller version of GPT‑5.3-Codex\" and clarifies that \"at launch, Codex-Spark has a 128k context window and is text-only.\" I had some preview access to this model and I can confirm that it's significantly faster than their other models. Here's what that speed looks like running in Codex CLI: That was the \"Generate an SVG of a pelican riding a bicycle\" prompt - here's the rendered result: Compare that to the speed of regular GPT-5.3 Codex medium: Significantly slower, but the pelican is a lot better: What's interesting about this model isn't the quality though, it's the speed . When a model responds this fast you can stay in flow state and iterate with the model much more productively. I showed a demo of Cerebras running Llama 3.1 70 B at 2,000 tokens/second against Val Town back in October 2024 . OpenAI claim 1,000 tokens/second for their new model, and I expect it will prove to be a ferociously useful partner for hands-on iterative coding sessions. It's not yet clear what the pricing will look like for this new model. Tags: ai , openai , generative-ai , llms , cerebras , pelican-riding-a-bicycle , llm-release , codex-cli",
-      "source": "simonwillison.net"
     },
     {
       "title": "Gurman: New Siri Might Be Delayed Again",
