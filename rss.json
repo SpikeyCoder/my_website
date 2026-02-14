@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-14T21:11:10.152206Z",
+  "generated_at": "2026-02-14T22:09:25.282671Z",
   "items": [
+    {
+      "title": "Finding a non-square mod p",
+      "link": "https://www.johndcook.com/blog/2026/02/14/finding-a-non-square/",
+      "date": "2026-02-14T21:35:54Z",
+      "summary": "The previous post briefly mentioned Stan Wagon’s algorithm for expressing an odd prime p as a sum of two squares when it is possible (i.e. when p = 1 mod 4). Wagon’s algorithm requires first finding a non-square mod p, i.e. a number c such that c ≠ d² mod p for any d in 1, […] The post Finding a non-square mod p first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Instruction decoding in the Intel 8087 floating-point chip",
       "link": "http://www.righto.com/feeds/8201340188892833254/comments/default",
@@ -35,6 +42,13 @@
       "date": "2026-02-14T01:13:26Z",
       "summary": "Twitter's latest consensus on inevitability: now that large language models can write code, everyone will become a software developer. People, you see, have problems, and software solves problems, and AI removes the barrier between people and software, therefore everyone will build their own software. It's a",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Justifying text-wrap: pretty",
+      "link": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
+      "date": "2026-02-14T00:00:00Z",
+      "summary": "Something truly monumental happened in the world of software development in 2025. Safari shipped areasonable implementation of text-wrap: pretty:https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are gettingcloser and closer to the cutting-edge XV-century technology. Beautiful paragraphs!",
+      "source": "matklad.github.io"
     },
     {
       "title": "Package Management Namespaces",
@@ -205,13 +219,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -266,13 +273,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Humanity's last programming language",
