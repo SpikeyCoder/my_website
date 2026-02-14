@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T14:13:01.606375Z",
+  "generated_at": "2026-02-14T15:11:29.714982Z",
   "items": [
     {
       "title": "Reading list 02/14/26",
@@ -21,6 +21,13 @@
       "date": "2026-02-14T04:54:41Z",
       "summary": "The retreat challenged the narrative that AI eliminates the need for junior developers. Juniors are more profitable than they have ever been. AI tools get them past the awkward initial net-negative phase faster. They serve as a call option on future productivity. And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption. The real concern is mid-level engineers who came up during the decade-long hiring boom and may not have developed the fundamentals needed to thrive in the new environment. This population represents the bulk of the industry by volume, and retraining them is genuinely difficult. The retreat discussed whether apprenticeship models, rotation programs and lifelong learning structures could address this gap, but acknowledged that no organization has solved it yet. — Thoughtworks , findings from a retreat concerning \"the future of software engineering\", conducted under Chatham House rules Tags: ai-assisted-programming , careers , ai",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "The (very) old \"repaint mode\" GUI approach",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/tech/RepaintModeGUI",
+      "date": "2026-02-14T04:35:20Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
@@ -91,6 +98,13 @@
       "date": "2026-02-13T08:18:24Z",
       "summary": "Every major self-help framework of the last two decades falls into one of two camps. Camp one is Stoic Acceptance: your problems are features, not bugs, and the path to contentment runs through radical non-resistance. Camp two is Relentless Optimization: your problems are solvable if you wake up at 4:",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Testing Linux memory limits is a bit of a pain",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/MemoryLimitTestingPain",
+      "date": "2026-02-13T04:24:11Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Expressing a prime as the sum of two squares",
@@ -170,6 +184,13 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "Undo in Vi and its successors, and my views on the mess",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/ViUndoMyViews",
+      "date": "2026-02-12T04:20:16Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Markdown.exe",
       "link": "https://idiallo.com/byte-size/markdown-exe?src=feed",
       "date": "2026-02-12T02:48:05Z",
@@ -196,6 +217,13 @@
       "date": "2026-02-11T21:40:45Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -252,34 +280,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Humanity's last programming language",
-      "link": "https://xeiaso.net/blog/2026/markdownlang/",
-      "date": "2026-02-10T00:00:00Z",
-      "summary": "What if markdown was executable? You get markdownlang.",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "A Language For Agents",
-      "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
-      "date": "2026-02-09T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Computing large Fibonacci numbers",
-      "link": "https://www.johndcook.com/blog/2026/02/08/computing-large-fibonacci-numbers/",
-      "date": "2026-02-08T13:51:25Z",
-      "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Large tech companies don't need heroes",
-      "link": "https://seangoedecke.com/heroism/",
-      "date": "2026-02-08T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
