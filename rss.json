@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:13:53.303690Z",
+  "generated_at": "2026-02-14T19:12:33.128923Z",
   "items": [
     {
       "title": "Instruction decoding in the Intel 8087 floating-point chip",
@@ -14,13 +14,6 @@
       "date": "2026-02-14T13:01:32Z",
       "summary": "Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
-      "date": "2026-02-14T12:34:34Z",
-      "summary": "This is an excellent \"dipping\" book. There are nearly 200 articles ranging from short anecdotes, multi-page synopses of complex topics, and quirky little asides. Rather than a linear history of computing, each short chapter ends with a multiple-choice \"GOTO\". From there, you take a meandering wander throughout retro-computing lore. Some paths lead to dead-ends (a delightful little Game-Over…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Quoting Thoughtworks",
@@ -70,13 +63,6 @@
       "date": "2026-02-13T15:00:00Z",
       "summary": "See if it matches the scan code. The post How can I distinguish between the numeric keypad 0 and the top-row 0 in the <CODE>WM_<WBR>CHAR</CODE> message? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Gadget Review: Topdon TS004 Thermal Monocular ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-topdon-ts004-thermal-monocular/",
-      "date": "2026-02-13T12:34:17Z",
-      "summary": "I love thermal imaging cameras. They're great for spotting leaking pipes, inefficient appliances, and showing how full a septic tank is. The good folks at Topdon have sent me their latest thermal camera to review - it is specifically designed for spotting wildlife. This is the TS004 Thermal Monocular: Let's put it through its paces! Hardware This is a chunky bit of kit and fits nicely in…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Factional Drift: We cluster into factions online",
@@ -156,13 +142,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Book Review: On the Calculation of Volume - Solvej Balle ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-on-the-calculation-of-volume-solvej-balle/",
-      "date": "2026-02-12T12:34:54Z",
-      "summary": "I had the most intense time reading this book. Do you ever see the date of a famous event and notice that it is also the date of your birthday? When I do, my brain gets a fun jolt of recognition. This book is set perennially on the 18th of November - my birthday. My poor little brain was exhausted and satiated from the repeated mentions. A most curious experience. It would be easy to dismiss…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Many Flavors of Ignore Files",
       "link": "https://nesbitt.io/2026/02/12/the-many-flavors-of-ignore-files.html",
       "date": "2026-02-12T10:00:00Z",
@@ -203,13 +182,6 @@
       "date": "2026-02-11T21:40:45Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
@@ -268,18 +240,46 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "date": "2026-02-10T21:49:53Z",
-      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "Humanity's last programming language",
       "link": "https://xeiaso.net/blog/2026/markdownlang/",
       "date": "2026-02-10T00:00:00Z",
       "summary": "What if markdown was executable? You get markdownlang.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "A Language For Agents",
+      "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
+      "date": "2026-02-09T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "Computing large Fibonacci numbers",
+      "link": "https://www.johndcook.com/blog/2026/02/08/computing-large-fibonacci-numbers/",
+      "date": "2026-02-08T13:51:25Z",
+      "summary": "The previous post discussed two ways to compute the nth Fibonacci number. The first is to compute all the Fibonacci numbers up to the nth iteratively using the defining property of Fibonacci numbers Fn + 2 = Fn + Fn + 1 with extended integer arithmetic. The second approach is to use Binet’s formula Fn = […] The post Computing large Fibonacci numbers first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Large tech companies don't need heroes",
+      "link": "https://seangoedecke.com/heroism/",
+      "date": "2026-02-08T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
+      "link": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "date": "2026-02-07T15:00:00Z",
+      "summary": "In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, and observe the massive team effort involved in putting together a modern digital sports broadcast. I wanted to explore the timing and digital side of a modern SMPTE 2110 mobile unit, and my Dad has been involved in studio and live broadcast for decades, so he enjoyed the experience as the engineer not on duty!",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "The first good Raspberry Pi Laptop",
+      "link": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
+      "date": "2026-02-06T15:00:00Z",
+      "summary": "Ever since the Raspberry Pi Compute Module 5 was introduced, I wondered why nobody built a decent laptop chassis around it. You could swap out a low spec CM5 for a higher spec, and get an instant computer upgrade. Or, assuming a CM6 comes out someday in the same form factor, the laptop chassis could get an entirely new life with that upgrade.",
+      "source": "jeffgeerling.com"
     }
   ]
 }
