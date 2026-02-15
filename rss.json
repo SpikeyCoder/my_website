@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-15T17:11:10.276164Z",
+  "generated_at": "2026-02-15T18:14:58.167249Z",
   "items": [
+    {
+      "title": "Three months of OpenClaw",
+      "link": "https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything",
+      "date": "2026-02-15T17:23:28Z",
+      "summary": "It's wild that the first commit to OpenClaw was on November 25th 2025 , and less than three months later it's hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague Super Bowl commercial for AI.com . Quoting AI.com founder Kris Marszalek , purchaser of the most expensive domain in history for $70m: ai.com is the world’s first easy-to-use and secure implementation of OpenClaw, the open source agent framework that went viral two weeks ago; we made it easy to use without any technical skills, while hardening security to keep your data safe. Looks like vaporware to me - all you can do right now is reserve a handle - but it's still remarkable to see an open source project get to that level of hype in such a short space of time. Tags: ai-agents , openclaw , ai , open-source , domains",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Eric Meyer",
       "link": "https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything",
@@ -20,13 +27,6 @@
       "link": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
       "date": "2026-02-15T05:20:11Z",
       "summary": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt This piece by Margaret-Anne Storey is the best explanation of the term cognitive debt I've seen so far. Cognitive debt , a term gaining traction recently, instead communicates the notion that the debt compounded from going fast lives in the brains of the developers and affects their lived experiences and abilities to “go fast” or to make changes. Even if AI agents produce code that could be easy to understand, the humans involved may have simply lost the plot and may not understand what the program is supposed to do, how their intentions were implemented, or how to possibly change it. Margaret-Anne expands on this further with an anecdote about a student team she coached: But by weeks 7 or 8, one team hit a wall. They could no longer make even simple changes without breaking something unexpected. When I met with them, the team initially blamed technical debt: messy code, poor architecture, hurried implementations. But as we dug deeper, the real problem emerged: no one on the team could explain why certain design decisions had been made or how different parts of the system were supposed to work together. The code might have been messy, but the bigger issue was that the theory of the system, their shared understanding, had fragmented or disappeared entirely. They had accumulated cognitive debt faster than technical debt, and it paralyzed them. I've experienced this myself on some of my more ambitious vibe-code-adjacent projects. I've been experimenting with prompting entire new features into existence without reviewing their implementations and, while it works surprisingly well, I've found myself getting lost in my own projects. I no longer have a firm mental model of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next. Via Martin Fowler Tags: definitions , ai , generative-ai , llms , ai-assisted-programming , vibe-coding",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Launching Interop 2026",
-      "link": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
-      "date": "2026-02-15T04:33:22Z",
-      "summary": "Launching Interop 2026 Jake Archibald reports on Interop 2026, the initiative between Apple, Google, Igalia, Microsoft, and Mozilla to collaborate on ensuring a targeted set of web platform features reach cross-browser parity over the course of the year. I hadn't realized how influential and successful the Interop series has been. It started back in 2021 as Compat 2021 before being rebranded to Interop in 2022 . The dashboards for each year can be seen here, and they demonstrate how wildly effective the program has been: 2021 , 2022 , 2023 , 2024 , 2025 , 2026 . Here's the progress chart for 2025, which shows every browser vendor racing towards a 95%+ score by the end of the year: The feature I'm most excited about in 2026 is Cross-document View Transitions , building on the successful 2025 target of Same-Document View Transitions . This will provide fancy SPA-style transitions between pages on websites with no JavaScript at all. As a keen WebAssembly tinkerer I'm also intrigued by this one: JavaScript Promise Integration for Wasm allows WebAssembly to asynchronously 'suspend', waiting on the result of an external promise. This simplifies the compilation of languages like C/C++ which expect APIs to run synchronously. Tags: browsers , css , javascript , web-standards , webassembly , jake-archibald",
       "source": "simonwillison.net"
     },
     {
