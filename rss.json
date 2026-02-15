@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-15T18:14:58.167249Z",
+  "generated_at": "2026-02-15T19:13:43.200615Z",
   "items": [
+    {
+      "title": "Gwtar: a static efficient single-file HTML format",
+      "link": "https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything",
+      "date": "2026-02-15T18:26:08Z",
+      "summary": "Gwtar: a static efficient single-file HTML format Fascinating new project from Gwern Branwen and Said Achmiz that targets the challenge of combining large numbers of assets into a single archived HTML file without that file being inconvenient to view in a browser. The key trick it uses is to fire window.stop() early in the page to prevent the browser from downloading the whole thing, then following that call with inline tar uncompressed content. It can then make HTTP range requests to fetch content from that tar data on-demand when it is needed by the page. The JavaScript that has already loaded rewrites asset URLs to point to https://localhost/ purely so that they will fail to load. Then it uses a PerformanceObserver to catch those attempted loads: let perfObserver = new PerformanceObserver((entryList, observer) => { resourceURLStringsHandler(entryList.getEntries().map(entry => entry.name)); }); perfObserver.observe({ entryTypes: [ \"resource\" ] }); That resourceURLStringsHandler callback finds the resource if it is already loaded or fetches it with an HTTP range request otherwise and then inserts the resource in the right place using a blob: URL. Here's what the window.stop() portion of the document looks like if you view the source: Amusingly for an archive format it doesn't actually work if you open the file directly on your own computer. Here's what you see if you try to do that: You are seeing this message, instead of the page you should be seeing, because gwtar files cannot be opened locally (due to web browser security restrictions). To open this page on your computer, use the following shell command: perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' < foo.gwtar.html | tar --extract Then open the file foo.html in any web browser. Via Hacker News Tags: archiving , html , javascript",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Three months of OpenClaw",
       "link": "https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything",
@@ -21,13 +28,6 @@
       "date": "2026-02-15T12:34:23Z",
       "summary": "At the recent \"Protocols for Publishers\" event, a group of us were talking about news paywalls, social media promotion, and the embarrassment of having to ask for money. What if, we said, you could tip a journalist directly on social media? Or reward your favourite creator without leaving the platform? Or just say thanks by buying someone a pint? Here's a trivial mock-up: Of course, this…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
-      "link": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
-      "date": "2026-02-15T05:20:11Z",
-      "summary": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt This piece by Margaret-Anne Storey is the best explanation of the term cognitive debt I've seen so far. Cognitive debt , a term gaining traction recently, instead communicates the notion that the debt compounded from going fast lives in the brains of the developers and affects their lived experiences and abilities to “go fast” or to make changes. Even if AI agents produce code that could be easy to understand, the humans involved may have simply lost the plot and may not understand what the program is supposed to do, how their intentions were implemented, or how to possibly change it. Margaret-Anne expands on this further with an anecdote about a student team she coached: But by weeks 7 or 8, one team hit a wall. They could no longer make even simple changes without breaking something unexpected. When I met with them, the team initially blamed technical debt: messy code, poor architecture, hurried implementations. But as we dug deeper, the real problem emerged: no one on the team could explain why certain design decisions had been made or how different parts of the system were supposed to work together. The code might have been messy, but the bigger issue was that the theory of the system, their shared understanding, had fragmented or disappeared entirely. They had accumulated cognitive debt faster than technical debt, and it paralyzed them. I've experienced this myself on some of my more ambitious vibe-code-adjacent projects. I've been experimenting with prompting entire new features into existence without reviewing their implementations and, while it works surprisingly well, I've found myself getting lost in my own projects. I no longer have a firm mental model of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next. Via Martin Fowler Tags: definitions , ai , generative-ai , llms , ai-assisted-programming , vibe-coding",
-      "source": "simonwillison.net"
     },
     {
       "title": "The empire always falls",
