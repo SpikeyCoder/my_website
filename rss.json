@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-15T19:13:43.200615Z",
+  "generated_at": "2026-02-15T20:10:41.288311Z",
   "items": [
+    {
+      "title": "Race between primes of the forms 4k + 1 and 4k + 3",
+      "link": "https://www.johndcook.com/blog/2026/02/15/chebyshev-bias/",
+      "date": "2026-02-15T19:19:08Z",
+      "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Gwtar: a static efficient single-file HTML format",
       "link": "https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything",
@@ -37,6 +44,13 @@
       "source": "joanwestenberg.com"
     },
     {
+      "title": "Your feed reader is fetching from a limited network area",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-gen-http429.html",
+      "date": "2026-02-15T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
       "title": "Two different tricks for fast LLM inference",
       "link": "https://seangoedecke.com/fast-llm-inference/",
       "date": "2026-02-15T00:00:00Z",
@@ -62,13 +76,6 @@
       "link": "https://www.johndcook.com/blog/2026/02/14/square-root-minus-1-mod-p/",
       "date": "2026-02-14T22:07:05Z",
       "summary": "If p is an odd prime, there is a theorem that says x² = −1 mod p has a solution if and only if p = 1 mod 4. When a solution x exists, how do you find it? The previous two posts have discussed Stan Wagon’s algorithm for expressing an odd prime p as a […] The post Finding a square root of -1 mod p first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Finding a non-square mod p",
-      "link": "https://www.johndcook.com/blog/2026/02/14/finding-a-non-square/",
-      "date": "2026-02-14T21:35:54Z",
-      "summary": "The previous post briefly mentioned Stan Wagon’s algorithm for expressing an odd prime p as a sum of two squares when it is possible (i.e. when p = 1 mod 4). Wagon’s algorithm requires first finding a non-square mod p, i.e. a number c such that c ≠ d² mod p for any d in 1, […] The post Finding a non-square mod p first appeared on John D. Cook .",
       "source": "johndcook.com"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Matrix ain't it chief",
-      "link": "https://xeiaso.net/notes/2026/dont-use-matrix/",
-      "date": "2026-02-11T00:00:00Z",
-      "summary": "Watch arathorn get in the replies for this one.",
-      "source": "xeiaso.net"
     }
   ]
 }
