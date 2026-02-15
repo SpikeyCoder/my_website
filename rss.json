@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-02-15T04:45:32.354899Z",
+  "generated_at": "2026-02-15T05:32:08.430643Z",
   "items": [
+    {
+      "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
+      "link": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
+      "date": "2026-02-15T05:20:11Z",
+      "summary": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt This piece by Margaret-Anne Storey is the best explanation of the term cognitive debt I've seen so far. Cognitive debt , a term gaining traction recently, instead communicates the notion that the debt compounded from going fast lives in the brains of the developers and affects their lived experiences and abilities to “go fast” or to make changes. Even if AI agents produce code that could be easy to understand, the humans involved may have simply lost the plot and may not understand what the program is supposed to do, how their intentions were implemented, or how to possibly change it. Margaret-Anne expands on this further with an anecdote about a student team she coached: But by weeks 7 or 8, one team hit a wall. They could no longer make even simple changes without breaking something unexpected. When I met with them, the team initially blamed technical debt: messy code, poor architecture, hurried implementations. But as we dug deeper, the real problem emerged: no one on the team could explain why certain design decisions had been made or how different parts of the system were supposed to work together. The code might have been messy, but the bigger issue was that the theory of the system, their shared understanding, had fragmented or disappeared entirely. They had accumulated cognitive debt faster than technical debt, and it paralyzed them. I've experienced this myself on some of my more ambitious vibe-code-adjacent projects. I've been experimenting with prompting entire new features into existence without reviewing their implementations and, while it works surprisingly well, I've found myself getting lost in my own projects. I no longer have a firm mental model of what they can do and how they work, which means each additional feature becomes harder to reason about, eventually leading me to lose the ability to make confident decisions about where to go next. Via Martin Fowler Tags: definitions , ai , generative-ai , llms , ai-assisted-programming , vibe-coding",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Launching Interop 2026",
       "link": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
       "date": "2026-02-15T04:33:22Z",
-      "summary": "Launching Interop 2026 Jake Archibald reports on Interop 2026, the initiative between Apple, Google, Igalia, Microsoft, and Mozilla to collaborate on ensuring a targeted set of web platform features reach cross-browser parity over the course of the year. I hadn't realized how influential and successful the Interop series has been. It started back in 2021 as Compat 2021 before being rebranded to Interop in 2022 . The dashboards for each year can be seen here, and they demonstrate how wildly effective the program has been: 2021 , 2022 , 2023 , 2024 , 2025 , 2026 . Here's the progress chart for 2025, which shows every browser vendor racing towards a 95%+ score by the end of the year: The feature I'm most excited about in 2026 is Cross-document View Transitions , building on the successful 2025 target of Same-Document View Transitions . This will provide fancy SPA-style transitions between pages on websites with no JavaScript at all. As a keen WebAssembly tinkerer I'm also intrigued by this one: JavaScript Promise Integration for Wasm allows WebAssembly to asynchronously 'suspend', waiting on the result of an external promise. This simplifies the compilation of languages like C/C++ which expect APIs to run synchronously. Tags: browsers , css , web-standards , webassembly , jake-archibald",
+      "summary": "Launching Interop 2026 Jake Archibald reports on Interop 2026, the initiative between Apple, Google, Igalia, Microsoft, and Mozilla to collaborate on ensuring a targeted set of web platform features reach cross-browser parity over the course of the year. I hadn't realized how influential and successful the Interop series has been. It started back in 2021 as Compat 2021 before being rebranded to Interop in 2022 . The dashboards for each year can be seen here, and they demonstrate how wildly effective the program has been: 2021 , 2022 , 2023 , 2024 , 2025 , 2026 . Here's the progress chart for 2025, which shows every browser vendor racing towards a 95%+ score by the end of the year: The feature I'm most excited about in 2026 is Cross-document View Transitions , building on the successful 2025 target of Same-Document View Transitions . This will provide fancy SPA-style transitions between pages on websites with no JavaScript at all. As a keen WebAssembly tinkerer I'm also intrigued by this one: JavaScript Promise Integration for Wasm allows WebAssembly to asynchronously 'suspend', waiting on the result of an external promise. This simplifies the compilation of languages like C/C++ which expect APIs to run synchronously. Tags: browsers , css , javascript , web-standards , webassembly , jake-archibald",
       "source": "simonwillison.net"
     },
     {
@@ -70,13 +77,6 @@
       "date": "2026-02-14T12:34:34Z",
       "summary": "This is an excellent \"dipping\" book. There are nearly 200 articles ranging from short anecdotes, multi-page synopses of complex topics, and quirky little asides. Rather than a linear history of computing, each short chapter ends with a multiple-choice \"GOTO\". From there, you take a meandering wander throughout retro-computing lore. Some paths lead to dead-ends (a delightful little Game-Over…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Quoting Thoughtworks",
-      "link": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
-      "date": "2026-02-14T04:54:41Z",
-      "summary": "The retreat challenged the narrative that AI eliminates the need for junior developers. Juniors are more profitable than they have ever been. AI tools get them past the awkward initial net-negative phase faster. They serve as a call option on future productivity. And they are better at AI tools than senior engineers, having never developed the habits and assumptions that slow adoption. The real concern is mid-level engineers who came up during the decade-long hiring boom and may not have developed the fundamentals needed to thrive in the new environment. This population represents the bulk of the industry by volume, and retraining them is genuinely difficult. The retreat discussed whether apprenticeship models, rotation programs and lifelong learning structures could address this gap, but acknowledged that no organization has solved it yet. — Thoughtworks , findings from a retreat concerning \"the future of software engineering\", conducted under Chatham House rules Tags: ai-assisted-programming , careers , ai",
-      "source": "simonwillison.net"
     },
     {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
@@ -240,13 +240,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -280,6 +273,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "Watch arathorn get in the replies for this one.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "Programming Aphorisms",
+      "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
+      "date": "2026-02-11T00:00:00Z",
+      "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
+      "source": "matklad.github.io"
     }
   ]
 }
