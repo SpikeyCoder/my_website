@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-02-14T23:10:59.461301Z",
+  "generated_at": "2026-02-15T00:49:35.751177Z",
   "items": [
+    {
+      "title": "Two different tricks for fast LLM inference",
+      "link": "https://seangoedecke.com/fast-llm-inference/",
+      "date": "2026-02-15T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Quoting Boris Cherny",
+      "link": "https://simonwillison.net/2026/Feb/14/boris/#atom-everything",
+      "date": "2026-02-14T23:59:09Z",
+      "summary": "Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever. — Boris Cherny , Claude Code creator, on why Anthropic are still hiring developers Tags: careers , anthropic , ai , claude-code , llms , coding-agents , ai-assisted-programming , generative-ai",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Wagon’s algorithm in Python",
+      "link": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
+      "date": "2026-02-14T23:06:41Z",
+      "summary": "The last three posts have been about Stan Wagon’s algorithm for finding x and y satisfying x² + y² = p where p is an odd prime. The first post in the series gives Gauss’ formula for a solution, but shows why it is impractical for large p. The bottom of this post introduces Wagon’s […] The post Wagon’s algorithm in Python first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Finding a square root of -1 mod p",
       "link": "https://www.johndcook.com/blog/2026/02/14/square-root-minus-1-mod-p/",
@@ -72,13 +93,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "The evolution of OpenAI's mission statement",
-      "link": "https://simonwillison.net/2026/Feb/13/openai-mission-statement/#atom-everything",
-      "date": "2026-02-13T23:38:29Z",
-      "summary": "As a USA 501(c)(3) the OpenAI non-profit has to file a tax return each year with the IRS. One of the required fields on that tax return is to \"Briefly describe the organization’s mission or most significant activities\" - this has actual legal weight to it as the IRS can use it to evaluate if the organization is sticking to its mission and deserves to maintain its non-profit tax-exempt status. You can browse OpenAI's tax filings by year on ProPublica's excellent Nonprofit Explorer . I went through and extracted that mission statement for 2016 through 2024, then had Claude Code help me fake the commit dates to turn it into a git repository and share that as a Gist - which means that Gist's revisions page shows every edit they've made since they started filing their taxes! It's really interesting seeing what they've changed over time. The original 2016 mission reads as follows (and yes, the apostrophe in \"OpenAIs\" is missing in the original ): OpenAIs goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. We think that artificial intelligence technology will help shape the 21st century, and we want to help the world build safe AI technology and ensure that AI's benefits are as widely and evenly distributed as possible. Were trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way. In 2018 they dropped the part about \"trying to build AI as part of a larger community, and we want to openly share our plans and capabilities along the way.\" In 2020 they dropped the words \"as a whole\" from \"benefit humanity as a whole\". They're still \"unconstrained by a need to generate financial return\" though. Some interesting changes in 2021. They're still unconstrained by a need to generate financial return, but here we have the first reference to \"general-purpose artificial intelligence\" (replacing \"digital intelligence\"). They're more confident too: it's not \"most likely to benefit humanity\", it's just \"benefits humanity\". They previously wanted to \"help the world build safe AI technology\", but now they're going to do that themselves: \"the companys goal is to develop and responsibly deploy safe AI technology\". 2022 only changed one significant word: they added \"safely\" to \"build ... (AI) that safely benefits humanity\". They're still unconstrained by those financial returns! No changes in 2023... but then in 2024 they deleted almost the entire thing, reducing it to simply: OpenAIs mission is to ensure that artificial general intelligence benefits all of humanity. They've expanded \"humanity\" to \"all of humanity\", but there's no mention of safety any more and I guess they can finally start focusing on that need to generate financial returns! Update : I found loosely equivalent but much less interesting documents from Anthropic . Tags: ai , openai , ai-ethics , propublica",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
       "link": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
       "date": "2026-02-13T15:00:00Z",
@@ -119,13 +133,6 @@
       "date": "2026-02-13T08:18:24Z",
       "summary": "Every major self-help framework of the last two decades falls into one of two camps. Camp one is Stoic Acceptance: your problems are features, not bugs, and the path to contentment runs through radical non-resistance. Camp two is Relentless Optimization: your problems are solvable if you wake up at 4:",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Expressing a prime as the sum of two squares",
-      "link": "https://www.johndcook.com/blog/2026/02/12/pythagorean-primes/",
-      "date": "2026-02-13T02:34:58Z",
-      "summary": "I saw where Elon Musk posted Grok’s answer to the prompt “What are the most beautiful theorems.” I looked at the list, and there were no surprises, as you’d expect from a program that works by predicting the most likely sequence of words based on analyzing web pages. There’s only one theorem on the list […] The post Expressing a prime as the sum of two squares first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "The Final Bottleneck",
@@ -273,13 +280,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "Watch arathorn get in the replies for this one.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Programming Aphorisms",
-      "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
-      "date": "2026-02-11T00:00:00Z",
-      "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
-      "source": "matklad.github.io"
     }
   ]
 }
