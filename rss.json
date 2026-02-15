@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-15T13:23:34.015717Z",
+  "generated_at": "2026-02-15T14:13:50.476529Z",
   "items": [
+    {
+      "title": "Quoting Eric Meyer",
+      "link": "https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything",
+      "date": "2026-02-15T13:36:20Z",
+      "summary": "I saw yet another “CSS is a massively bloated mess” whine and I’m like. My dude. My brother in Chromium. It is trying as hard as it can to express the totality of visual presentation and layout design and typography and animation and digital interactivity and a few other things in a human-readable text format. It’s not bloated, it’s fantastically ambitious. Its reach is greater than most of us can hope to grasp. Put some respect on its name . — Eric Meyer Tags: css , web-standards , eric-meyer",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Social Media Payments and Perverse Incentives",
       "link": "https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/",
@@ -49,13 +56,6 @@
       "date": "2026-02-15T00:00:00Z",
       "summary": "Most package managers could separate download from install for better Docker layer caching.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Quoting Boris Cherny",
-      "link": "https://simonwillison.net/2026/Feb/14/boris/#atom-everything",
-      "date": "2026-02-14T23:59:09Z",
-      "summary": "Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever. — Boris Cherny , Claude Code creator, on why Anthropic are still hiring developers Tags: careers , anthropic , ai , claude-code , llms , coding-agents , ai-assisted-programming , generative-ai",
-      "source": "simonwillison.net"
     },
     {
       "title": "Wagon’s algorithm in Python",
