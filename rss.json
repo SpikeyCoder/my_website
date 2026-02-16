@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-16T21:13:06.486395Z",
+  "generated_at": "2026-02-16T22:12:29.414015Z",
   "items": [
+    {
+      "title": "AI is destroying Open Source, and it's not even good yet",
+      "link": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
+      "date": "2026-02-16T21:30:00Z",
+      "summary": "Over the weekend Ars Technica retracted an article because the AI a writer used hallucinated quotes from an open source library maintainer. The irony here is the maintainer in question, Scott Shambaugh, was harassed by someone's AI agent over not merging it's AI slop code. It's likely the bot was running through someone's local 'agentic AI' instance (likely using OpenClaw). The guy who built OpenClaw was just hired by OpenAI to \"work on bringing agents to everyone.\" You'll have to forgive me if I'm not enthusastic about that.",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Visualizing orbital velocity",
+      "link": "https://www.johndcook.com/blog/2026/02/16/hodograph/",
+      "date": "2026-02-16T21:24:45Z",
+      "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is it’s plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Rodney and Claude Code for Desktop",
       "link": "https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything",
@@ -58,20 +72,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "WorkOS Pipes",
-      "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
-      "date": "2026-02-15T23:39:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Joanna Stern Signs Off From The Wall Street Journal",
-      "link": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
-      "date": "2026-02-15T23:37:05Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Em dash",
       "link": "https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything",
       "date": "2026-02-15T21:40:46Z",
@@ -125,13 +125,6 @@
       "link": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
       "date": "2026-02-14T23:06:41Z",
       "summary": "The last three posts have been about Stan Wagon’s algorithm for finding x and y satisfying x² + y² = p where p is an odd prime. The first post in the series gives Gauss’ formula for a solution, but shows why it is impractical for large p. The bottom of this post introduces Wagon’s […] The post Wagon’s algorithm in Python first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Finding a square root of -1 mod p",
-      "link": "https://www.johndcook.com/blog/2026/02/14/square-root-minus-1-mod-p/",
-      "date": "2026-02-14T22:07:05Z",
-      "summary": "If p is an odd prime, there is a theorem that says x² = −1 mod p has a solution if and only if p = 1 mod 4. When a solution x exists, how do you find it? The previous two posts have discussed Stan Wagon’s algorithm for expressing an odd prime p as a […] The post Finding a square root of -1 mod p first appeared on John D. Cook .",
       "source": "johndcook.com"
     },
     {
@@ -226,13 +219,6 @@
       "source": "skyfall.dev"
     },
     {
-      "title": "Gurman: New Siri Might Be Delayed Again",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
-      "date": "2026-02-12T17:24:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059",
       "date": "2026-02-12T15:00:00Z",
@@ -275,11 +261,25 @@
       "source": "xeiaso.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
       "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "On screwing up",
+      "link": "https://seangoedecke.com/screwing-up/",
+      "date": "2026-02-11T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
