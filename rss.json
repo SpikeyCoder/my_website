@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-02-15T23:11:39.616146Z",
+  "generated_at": "2026-02-16T00:47:18.443348Z",
   "items": [
+    {
+      "title": "The AI Vampire",
+      "link": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "date": "2026-02-15T23:59:36Z",
+      "summary": "The AI Vampire Steve Yegge's take on agent fatigue, and its relationship to burnout. Let's pretend you're the only person at your company using AI. In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make everyone else look terrible by comparison. In that scenario, your employer captures 100% of the value from you adopting AI. You get nothing, or at any rate, it ain't gonna be 9x your salary. And everyone hates you now. And you're exhausted. You're tired, Boss. You got nothing for it. Congrats, you were just drained by a company. I've been drained to the point of burnout several times in my career, even at Google once or twice. But now with AI, it's oh, so much easier. Steve reports needing more sleep due to the cognitive burden involved in agentic engineering, and notes that four hours of agent work a day is a more realistic pace: I’ve argued that AI has turned us all into Jeff Bezos, by automating the easy work, and leaving us with all the difficult decisions, summaries, and problem-solving. I find that I am only really comfortable working at that pace for short bursts of a few hours once or occasionally twice a day, even with lots of practice. Via Tim Bray Tags: steve-yegge , ai , generative-ai , llms , ai-assisted-programming , ai-ethics , coding-agents",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "WorkOS Pipes",
+      "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
+      "date": "2026-02-15T23:39:15Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Joanna Stern Signs Off From The Wall Street Journal",
+      "link": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
+      "date": "2026-02-15T23:37:05Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Em dash",
       "link": "https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything",
@@ -21,13 +42,6 @@
       "date": "2026-02-15T19:19:08Z",
       "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Gwtar: a static efficient single-file HTML format",
-      "link": "https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything",
-      "date": "2026-02-15T18:26:08Z",
-      "summary": "Gwtar: a static efficient single-file HTML format Fascinating new project from Gwern Branwen and Said Achmiz that targets the challenge of combining large numbers of assets into a single archived HTML file without that file being inconvenient to view in a browser. The key trick it uses is to fire window.stop() early in the page to prevent the browser from downloading the whole thing, then following that call with inline tar uncompressed content. It can then make HTTP range requests to fetch content from that tar data on-demand when it is needed by the page. The JavaScript that has already loaded rewrites asset URLs to point to https://localhost/ purely so that they will fail to load. Then it uses a PerformanceObserver to catch those attempted loads: let perfObserver = new PerformanceObserver((entryList, observer) => { resourceURLStringsHandler(entryList.getEntries().map(entry => entry.name)); }); perfObserver.observe({ entryTypes: [ \"resource\" ] }); That resourceURLStringsHandler callback finds the resource if it is already loaded or fetches it with an HTTP range request otherwise and then inserts the resource in the right place using a blob: URL. Here's what the window.stop() portion of the document looks like if you view the source: Amusingly for an archive format it doesn't actually work if you open the file directly on your own computer. Here's what you see if you try to do that: You are seeing this message, instead of the page you should be seeing, because gwtar files cannot be opened locally (due to web browser security restrictions). To open this page on your computer, use the following shell command: perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' < foo.gwtar.html | tar --extract Then open the file foo.html in any web browser. Via Hacker News Tags: archiving , html , javascript",
-      "source": "simonwillison.net"
     },
     {
       "title": "Social Media Payments and Perverse Incentives",
@@ -191,13 +205,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "More MacOS 26.3 Finder Column View Silliness",
-      "link": "https://lapcatsoftware.com/articles/2026/2/4.html",
-      "date": "2026-02-12T17:13:31Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059",
       "date": "2026-02-12T15:00:00Z",
@@ -240,20 +247,6 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "Apple Creator Studio Usage Restrictions",
-      "link": "https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/",
-      "date": "2026-02-11T21:40:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -280,6 +273,13 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Matrix ain't it chief",
+      "link": "https://xeiaso.net/notes/2026/dont-use-matrix/",
+      "date": "2026-02-11T00:00:00Z",
+      "summary": "Watch arathorn get in the replies for this one.",
+      "source": "xeiaso.net"
     }
   ]
 }
