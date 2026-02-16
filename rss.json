@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T03:12:24.717683Z",
+  "generated_at": "2026-02-16T04:49:10.191948Z",
   "items": [
     {
       "title": "The AI Vampire",
@@ -247,6 +247,13 @@
       "source": "xeiaso.net"
     },
     {
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
       "date": "2026-02-11T15:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Matrix ain't it chief",
-      "link": "https://xeiaso.net/notes/2026/dont-use-matrix/",
-      "date": "2026-02-11T00:00:00Z",
-      "summary": "Watch arathorn get in the replies for this one.",
-      "source": "xeiaso.net"
     }
   ]
 }
