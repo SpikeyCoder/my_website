@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-16T12:23:55.122282Z",
+  "generated_at": "2026-02-16T13:35:27.852900Z",
   "items": [
+    {
+      "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-this-is-how-they-tell-me-the-world-ends-nicole-perlroth/",
+      "date": "2026-02-16T12:34:55Z",
+      "summary": "This cybersecurity book is badly written, contains multiple offensive stereotypes, is technically inaccurate, and spends more time focussing on the author's love affair with the New York Times than almost anything else. Seriously, if you take a drink every time the book mentions the NYT, you'll spend most of the chapters drunk. Which, to be fair, is probably the best way to experience it. The…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Programming is free",
       "link": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
@@ -184,13 +191,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Gadget Review: Topdon TS004 Thermal Monocular ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-topdon-ts004-thermal-monocular/",
-      "date": "2026-02-13T12:34:17Z",
-      "summary": "I love thermal imaging cameras. They're great for spotting leaking pipes, inefficient appliances, and showing how full a septic tank is. The good folks at Topdon have sent me their latest thermal camera to review - it is specifically designed for spotting wildlife. This is the TS004 Thermal Monocular: Let's put it through its paces! Hardware This is a chunky bit of kit and fits nicely in…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Factional Drift: We cluster into factions online",
       "link": "https://idiallo.com/blog/factional-drift-online?src=feed",
       "date": "2026-02-13T12:00:00Z",
@@ -275,11 +275,11 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
+      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
+      "date": "2026-02-11T15:00:00Z",
+      "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     }
   ]
 }
