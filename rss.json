@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T17:20:53.988134Z",
+  "generated_at": "2026-02-16T18:20:22.450215Z",
   "items": [
     {
       "title": "Rodney and Claude Code for Desktop",
@@ -275,11 +275,11 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
-      "date": "2026-02-11T15:00:00Z",
-      "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "date": "2026-02-11T16:08:11Z",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
