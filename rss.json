@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T00:47:18.443348Z",
+  "generated_at": "2026-02-16T01:41:59.221353Z",
   "items": [
     {
       "title": "The AI Vampire",
@@ -42,13 +42,6 @@
       "date": "2026-02-15T19:19:08Z",
       "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Social Media Payments and Perverse Incentives",
-      "link": "https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/",
-      "date": "2026-02-15T12:34:23Z",
-      "summary": "At the recent \"Protocols for Publishers\" event, a group of us were talking about news paywalls, social media promotion, and the embarrassment of having to ask for money. What if, we said, you could tip a journalist directly on social media? Or reward your favourite creator without leaving the platform? Or just say thanks by buying someone a pint? Here's a trivial mock-up: Of course, this…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The empire always falls",
@@ -107,13 +100,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
-      "date": "2026-02-14T12:34:34Z",
-      "summary": "This is an excellent \"dipping\" book. There are nearly 200 articles ranging from short anecdotes, multi-page synopses of complex topics, and quirky little asides. Rather than a linear history of computing, each short chapter ends with a multiple-choice \"GOTO\". From there, you take a meandering wander throughout retro-computing lore. Some paths lead to dead-ends (a delightful little Game-Over…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
       "link": "https://www.joanwestenberg.com/ai-twitters-favourite-lie-everyone-wants-to-be-a-developer/",
       "date": "2026-02-14T01:13:26Z",
@@ -147,13 +133,6 @@
       "date": "2026-02-13T15:00:00Z",
       "summary": "See if it matches the scan code. The post How can I distinguish between the numeric keypad 0 and the top-row 0 in the <CODE>WM_<WBR>CHAR</CODE> message? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Gadget Review: Topdon TS004 Thermal Monocular ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-topdon-ts004-thermal-monocular/",
-      "date": "2026-02-13T12:34:17Z",
-      "summary": "I love thermal imaging cameras. They're great for spotting leaking pipes, inefficient appliances, and showing how full a septic tank is. The good folks at Topdon have sent me their latest thermal camera to review - it is specifically designed for spotting wildlife. This is the TS004 Thermal Monocular: Let's put it through its paces! Hardware This is a chunky bit of kit and fits nicely in…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Factional Drift: We cluster into factions online",
@@ -280,6 +259,27 @@
       "date": "2026-02-11T00:00:00Z",
       "summary": "Watch arathorn get in the replies for this one.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "Programming Aphorisms",
+      "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
+      "date": "2026-02-11T00:00:00Z",
+      "summary": "A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.",
+      "source": "matklad.github.io"
+    },
+    {
+      "title": "Humanity's last programming language",
+      "link": "https://xeiaso.net/blog/2026/markdownlang/",
+      "date": "2026-02-10T00:00:00Z",
+      "summary": "What if markdown was executable? You get markdownlang.",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "A Language For Agents",
+      "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
+      "date": "2026-02-09T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     }
   ]
 }
