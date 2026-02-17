@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-17T03:09:29.571437Z",
+  "generated_at": "2026-02-17T04:43:33.068813Z",
   "items": [
+    {
+      "title": "Qwen3.5: Towards Native Multimodal Agents",
+      "link": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
+      "date": "2026-02-17T04:30:57Z",
+      "summary": "Qwen3.5: Towards Native Multimodal Agents Alibaba's Qwen just released the first two models in the Qwen 3.5 series - one open weights, one proprietary. Both are multi-modal for vision input. The open weight one is a Mixture of Experts model called Qwen3.5-397B-A17B. Interesting to see Qwen call out serving efficiency as a benefit of that architecture: Built on an innovative hybrid architecture that fuses linear attention (via Gated Delta Networks) with a sparse mixture-of-experts, the model attains remarkable inference efficiency: although it comprises 397 billion total parameters, just 17 billion are activated per forward pass, optimizing both speed and cost without sacrificing capability. It's 807GB on Hugging Face , and Unsloth have a collection of smaller GGUFs ranging in size from 94.2GB 1-bit to 462GB Q8_K_XL. I got this pelican from the OpenRouter hosted model ( transcript ): The proprietary hosted model is called Qwen3.5 Plus 2026-02-15, and is a little confusing. Qwen researcher Junyang Lin says : Qwen3-Plus is a hosted API version of 397B. As the model natively supports 256K tokens, Qwen3.5-Plus supports 1M token context length. Additionally it supports search and code interpreter, which you can use on Qwen Chat with Auto mode. Here's its pelican , which is similar in quality to the open weights model: Tags: ai , generative-ai , llms , vision-llms , qwen , pelican-riding-a-bicycle , llm-release , openrouter , ai-in-china",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Two new Showboat tools: Chartroom and datasette-showboat",
       "link": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
@@ -44,6 +51,13 @@
       "source": "simonwillison.net"
     },
     {
+      "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-this-is-how-they-tell-me-the-world-ends-nicole-perlroth/",
+      "date": "2026-02-16T12:34:55Z",
+      "summary": "This cybersecurity book is badly written, contains multiple offensive stereotypes, is technically inaccurate, and spends more time focussing on the author's love affair with the New York Times than almost anything else. Seriously, if you take a drink every time the book mentions the NYT, you'll spend most of the chapters drunk. Which, to be fair, is probably the best way to experience it. The…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Programming is free",
       "link": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
       "date": "2026-02-16T12:00:00Z",
@@ -79,13 +93,6 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "The AI Vampire",
-      "link": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
-      "date": "2026-02-15T23:59:36Z",
-      "summary": "The AI Vampire Steve Yegge's take on agent fatigue, and its relationship to burnout. Let's pretend you're the only person at your company using AI. In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make everyone else look terrible by comparison. In that scenario, your employer captures 100% of the value from you adopting AI. You get nothing, or at any rate, it ain't gonna be 9x your salary. And everyone hates you now. And you're exhausted. You're tired, Boss. You got nothing for it. Congrats, you were just drained by a company. I've been drained to the point of burnout several times in my career, even at Google once or twice. But now with AI, it's oh, so much easier. Steve reports needing more sleep due to the cognitive burden involved in agentic engineering, and notes that four hours of agent work a day is a more realistic pace: I’ve argued that AI has turned us all into Jeff Bezos, by automating the easy work, and leaving us with all the difficult decisions, summaries, and problem-solving. I find that I am only really comfortable working at that pace for short bursts of a few hours once or occasionally twice a day, even with lots of practice. Via Tim Bray Tags: steve-yegge , ai , generative-ai , llms , ai-assisted-programming , ai-ethics , coding-agents",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "WorkOS Pipes",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
       "date": "2026-02-15T23:39:15Z",
@@ -105,6 +112,13 @@
       "date": "2026-02-15T19:19:08Z",
       "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Social Media Payments and Perverse Incentives",
+      "link": "https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/",
+      "date": "2026-02-15T12:34:23Z",
+      "summary": "At the recent \"Protocols for Publishers\" event, a group of us were talking about news paywalls, social media promotion, and the embarrassment of having to ask for money. What if, we said, you could tip a journalist directly on social media? Or reward your favourite creator without leaving the platform? Or just say thanks by buying someone a pint? Here's a trivial mock-up: Of course, this…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "The empire always falls",
@@ -154,6 +168,13 @@
       "date": "2026-02-14T13:01:32Z",
       "summary": "Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
+      "date": "2026-02-14T12:34:34Z",
+      "summary": "This is an excellent \"dipping\" book. There are nearly 200 articles ranging from short anecdotes, multi-page synopses of complex topics, and quirky little asides. Rather than a linear history of computing, each short chapter ends with a multiple-choice \"GOTO\". From there, you take a meandering wander throughout retro-computing lore. Some paths lead to dead-ends (a delightful little Game-Over…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
@@ -259,27 +280,6 @@
       "date": "2026-02-12T00:00:00Z",
       "summary": "Just a heads up: this post is incomplete. However, it may be a while before I am able to finish it. I am publishing it early in hopes that you will still find it somewhat interesting. I've recently acquired this tiny contamination monitor: Just 4 cm wide! It's more sensitive then a Ludlum 44-9 despite being smaller then it's pancake style G-M tube. After removing four hex screws , the AlphaHound easily comes apart: Oooo This is very nice: Many similarly sized devices are difficult or impossible to open without damaging them. If it ever breaks, it won't be hard to get inside. The top half has the buzzer, display and buttons. It does have some SMD components, but it's just voltage regulators and decoupling capacitors: The display is a Crystalfontz CFAL128128A0-015W monochrome OLED: Neither the display or the PCB are mounted to anything: They are held in place by pressure. Because of this, the back side of the PCB must be blank to avoid breaking the OLED display: Wow, such component density. The buttons live on a tiny daughter board: These were a relatively late addition to the design, and are connected to the main PCB with a long ribbon cable. Unlike everything else, this board is actually screwed in to the case: The case itself is 3D printed stainless steel, which is a reasonable choice for small volume products. However, the resulting metal is porous and hard to clean. (it's still an improvement over plastic in my book) The black tape is my doing: This detector was one of the first (of this version) made and it had a loose screen: The tape takes up just enough space to keep things tight. The bottom half connects to the top with a short ribbon-cable: Most of the board space is taken up by the battery, which is held in place by an FDM printed bracket glued to the board: The battery is the LP552530 , a tiny 350 mA hour lithium polymer cell. This only provides a few hours of runtime, but there's only so much space in this thing. There are no components under the battery: all the detector's electronics are contained within the tiny 3x2 cm section above it. The detector is hidden underneath the board: Particles enter through the back, travel through both mylar sheets and hit the white square of scintillator material. The square converts the radiation's energy into a flash of light, which is detected by two photodiodes on the back side of the board. To keep out stray light, the scintillator is mounted in a ring of black rubber, which makes contact with black foam glued to the PCB and mylar. When assembled, the foam is compressed and creates a light-proof seal against the rubber. The scintillator is a sandwich of two different materials: Silver dopped zinc sulfide painted onto polyvinyltoluene mixed with an organic phosphor (EJ-212). The zinc sulfide detects alpha particles, and the plastic scintillator detects beta. Alphas will produce a bright flash with a slow decay , and betas produce a much faster and dimer flash. The detector takes both of these factors into account to tell the difference between the two types of radiation. The MICROFC-60035-SMT-TR photodiodes are very special: Instead of being a single photodiode, these SiPM's have an array of tiny reverse biased diodes: In practice, the capacitors are connected to a low-Z output. Each diode is run above its usual breakdown voltage, but they don't start conducting immediately. However, once a free electron-hole pair is created, the electron is accelerated by the electric field and slams into silicon atoms. These collisions are energetic enough to liberate more electrons: causing exponential \"avalanche\" breakdown. A single photon is enough to make the diode start conducting. It's a similar principle to a G-M tube, just for visible light. Just like a G-M counter, the diode includes a quenching resistor which causes the voltage to drop once the discharge starts. This resets the photodiode so it can continue detecting light. These detectors have quantum-limited performance > 1 gigahertz bandwidth: something that's ordinarily super difficult to do . A single avalanche diode isn't able to measure the intensity of a light flash, but the SiPM contains thousands of them: The amplitude of the output pulse depends on how many diodes are triggered, which is proportional to the brightness of the light. There's also a tiny LED which is used for a self test: If the SiPMs are able to pick up a dim LED flash, they should be able to pick up particle events. Ok, back to the board: A map of the hound The microcontroller is the ATSAMD21G18 , a 32-bit ARM processor capable of running at up to 48 MHz. That might sound slow, but it's actually quite powerful for an embedded system: It doesn't have to run chrome. The second largest chip is an ADXL335 accelerometer . In earlier versions, this was used to control the device, but is being phased out due to it's high cost. Most of the other chips are too small to have a full part number printed on, but they are mostly voltage regulators, comparators and opamps. The top left has a very standard boost converter: This converts 3.3 volts into ~30 volts which is used to run the photodiodes. I don't currently have a way to strip off the conformal coating covering it, so I can't trace out the pulse processing circuit. However, I'm quite confident it uses a peak detector circuit to measure the height of the pulse: Theoretical pulse detection scheme: Don't look too closely. This is a safe assumption because the microcontroller simply isn't fast enough to measure the 100 nanosecond scale pulses: The ADC is only able to measure a voltage every ~3000 nanoseconds. The pulse shape discrimination is likely done by using an opamp integrator to time how long the pulse stays over a given threshold: Theoretical PSD scheme: Don't look too closely. This method produces similar pulse scatter plots to the real detector — including the distinctive curve of the alpha cluster — and is relatively simple... ... but I don't know if this is actually how it works. This section will be updated soon™. TODO: Get scope traces of pulse detector/discriminator circuit. Betting it's using time-over-threshold. # Electronics Plastic decay time 2.4 ns, ZnS(Ag) 200 ns. G2L: AP2202 voltage reulgator ATSAMD21G18 -->",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "The Discourse has been Automated",
-      "link": "https://xeiaso.net/notes/2026/the-discourse-has-been-automated/",
-      "date": "2026-02-12T00:00:00Z",
-      "summary": "An AI agent submitted a PR to matplotlib, got rejected, and then wrote a callout blogpost attacking the maintainer. I have no idea how to feel about this.",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-      "date": "2026-02-11T16:08:11Z",
-      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
-      "date": "2026-02-11T15:00:00Z",
-      "summary": "You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     }
   ]
 }
