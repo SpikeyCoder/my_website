@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-17T14:26:50.885116Z",
+  "generated_at": "2026-02-17T15:24:39.246256Z",
   "items": [
+    {
+      "title": "Quoting ROUGH DRAFT 8/2/66",
+      "link": "https://simonwillison.net/2026/Feb/17/rough-draft-8266/#atom-everything",
+      "date": "2026-02-17T14:49:04Z",
+      "summary": "This is the story of the United Space Ship Enterprise. Assigned a five year patrol of our galaxy, the giant starship visits Earth colonies, regulates commerce, and explores strange new worlds and civilizations. These are its voyages... and its adventures. — ROUGH DRAFT 8/2/66 , before the Star Trek opening narration reached its final form Tags: screen-writing , science-fiction",
+      "source": "simonwillison.net"
+    },
     {
       "title": "First kākāpō chick in four years hatches on Valentine's Day",
       "link": "https://simonwillison.net/2026/Feb/17/first-kakapo-chick-in-four-years/#atom-everything",
@@ -35,13 +42,6 @@
       "date": "2026-02-17T10:00:00Z",
       "summary": "An M1 Mac is aarch64-apple-darwin, arm64-darwin, darwin/arm64, or macosx_11_0_arm64 depending on which tool you ask.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Nano Banana Pro diff to webcomic",
-      "link": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
-      "date": "2026-02-17T04:51:58Z",
-      "summary": "Given the threat of cognitive debt brought on by AI-accelerated software development leading to more projects and less deep understanding of how they work and what they actually do, it's interesting to consider artifacts that might be able to help. Nathan Baschez on Twitter : my current favorite trick for reducing \"cognitive debt\" (h/t @simonw ) is to ask the LLM to write two versions of the plan: The version for it (highly technical and detailed) The version for me (an entertaining essay designed to build my intuition) Works great This inspired me to try something new. I generated the diff between v0.5.0 and v0.6.0 of my Showboat project - which introduced the remote publishing feature - and dumped that into Nano Banana Pro with the prompt: Create a webcomic that explains the new feature as clearly and entertainingly as possible Here's what it produced : Good enough to publish with the release notes? I don't think so. I'm sharing it here purely to demonstrate the idea. Creating assets like this as a personal tool for thinking about novel ways to explain a feature feels worth exploring further. Tags: nano-banana , gemini , llms , cognitive-debt , generative-ai , ai , text-to-image , showboat , ai-assisted-programming",
-      "source": "simonwillison.net"
     },
     {
       "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
