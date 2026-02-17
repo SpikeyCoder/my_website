@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-17T04:43:33.068813Z",
+  "generated_at": "2026-02-17T05:34:14.717764Z",
   "items": [
+    {
+      "title": "Nano Banana Pro diff to webcomic",
+      "link": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+      "date": "2026-02-17T04:51:58Z",
+      "summary": "Given the threat of cognitive debt brought on by AI-accelerated software development leading to more projects and less deep understanding of how they work and what they actually do, it's interesting to consider artifacts that might be able to help. Nathan Baschez on Twitter : my current favorite trick for reducing \"cognitive debt\" (h/t @simonw ) is to ask the LLM to write two versions of the plan: The version for it (highly technical and detailed) The version for me (an entertaining essay designed to build my intuition) Works great This inspired me to try something new. I generated the diff between v0.5.0 and v0.6.0 of my Showboat project - which introduced the remote publishing feature - and dumped that into Nano Banana Pro with the prompt: Create a webcomic that explains the new feature as clearly and entertainingly as possible Here's what it produced : Good enough to publish with the release notes? I don't think so. I'm sharing it here purely to demonstrate the idea. Creating assets like this as a personal tool for thinking about novel ways to explain a feature feels worth exploring further. Tags: nano-banana , gemini , llms , cognitive-debt , generative-ai , ai , text-to-image , showboat , ai-assisted-programming",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Qwen3.5: Towards Native Multimodal Agents",
       "link": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
@@ -42,13 +49,6 @@
       "date": "2026-02-16T21:24:45Z",
       "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is it’s plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Rodney and Claude Code for Desktop",
-      "link": "https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything",
-      "date": "2026-02-16T16:38:57Z",
-      "summary": "I'm a very heavy user of Claude Code on the web , Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about. I don't use the web interface at all (hence my dislike of the name) - I access it exclusively through their native iPhone and Mac desktop apps. Something I particularly appreciate about the desktop app is that it lets you see images that Claude is \"viewing\" via its Read /path/to/image tool. Here's what that looks like: This means you can get a visual preview of what it's working on while it's working, without waiting for it to push code to GitHub for you to try out yourself later on. The prompt I used to trigger the above screenshot was: Run \"uvx rodney --help\" and then use Rodney to manually test the new pages and menu - look at screenshots from it and check you think they look OK I designed Rodney to have --help output that provides everything a coding agent needs to know in order to use the tool. The Claude iPhone app doesn't display opened images yet, so I requested it as a feature just now in a thread on Twitter. Tags: anthropic , claude , ai , claude-code , llms , async-coding-agents , coding-agents , generative-ai , projects , ai-assisted-programming",
-      "source": "simonwillison.net"
     },
     {
       "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
