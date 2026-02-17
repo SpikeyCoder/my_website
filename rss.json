@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-16T23:13:35.842274Z",
+  "generated_at": "2026-02-17T00:46:15.020869Z",
   "items": [
+    {
+      "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
+      "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
+      "date": "2026-02-17T00:02:28Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "AI is destroying Open Source, and it's not even good yet",
       "link": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
@@ -231,13 +238,6 @@
       "date": "2026-02-13T00:00:00Z",
       "summary": "It should've happened sooner.",
       "source": "skyfall.dev"
-    },
-    {
-      "title": "Gurman: New Siri Might Be Delayed Again",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
-      "date": "2026-02-12T17:24:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
