@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-17T12:23:38.387957Z",
+  "generated_at": "2026-02-17T13:35:19.521832Z",
   "items": [
+    {
+      "title": "Gadget Review: Epomaker Split 70 Mechanical Keyboard ★★★★⯪",
+      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-epomaker-split-70-mechanical-keyboard/",
+      "date": "2026-02-17T12:34:09Z",
+      "summary": "The good folks at Epomaker know that I love an ergonomic keyboard, so they've sent me their new \"Split 70\" model to review. This isn't your traditional ergonomic keyboard. Essentially, this is two separate halves joined by a USB-C cable; so you can position it however you like. Here's a quick video showing it in action: https://shkspr.mobi/blog/wp-content/uploads/2026/02/split-new.mp4 It is …",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: What's a \"gig work minimum wage\" (17 Feb 2026)",
       "link": "https://pluralistic.net/2026/02/17/no-piecework/",
@@ -61,7 +68,7 @@
       "title": "Visualizing orbital velocity",
       "link": "https://www.johndcook.com/blog/2026/02/16/hodograph/",
       "date": "2026-02-16T21:24:45Z",
-      "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is it’s plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
+      "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is its plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
       "source": "johndcook.com"
     },
     {
@@ -182,13 +189,6 @@
       "date": "2026-02-14T13:01:32Z",
       "summary": "Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
-      "date": "2026-02-14T12:34:34Z",
-      "summary": "This is an excellent \"dipping\" book. There are nearly 200 articles ranging from short anecdotes, multi-page synopses of complex topics, and quirky little asides. Rather than a linear history of computing, each short chapter ends with a multiple-choice \"GOTO\". From there, you take a meandering wander throughout retro-computing lore. Some paths lead to dead-ends (a delightful little Game-Over…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "AI twitter's favourite lie: everyone wants to be a developer",
