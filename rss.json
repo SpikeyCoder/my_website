@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T11:22:58.406634Z",
+  "generated_at": "2026-02-17T12:23:38.387957Z",
   "items": [
     {
       "title": "Pluralistic: What's a \"gig work minimum wage\" (17 Feb 2026)",
@@ -12,7 +12,7 @@
       "title": "Platform Strings",
       "link": "https://nesbitt.io/2026/02/17/platform-strings.html",
       "date": "2026-02-17T10:00:00Z",
-      "summary": "Every package manager names the same platforms differently, and every divergence made sense at the time.",
+      "summary": "An M1 Mac is aarch64-apple-darwin, arm64-darwin, darwin/arm64, or macosx_11_0_arm64 depending on which tool you ask.",
       "source": "nesbitt.io"
     },
     {
