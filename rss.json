@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-18T18:24:32.022092Z",
+  "generated_at": "2026-02-18T19:25:45.002865Z",
   "items": [
+    {
+      "title": "Typing without having to type",
+      "link": "https://simonwillison.net/2026/Feb/18/typing/#atom-everything",
+      "date": "2026-02-18T18:56:56Z",
+      "summary": "25+ years into my career as a programmer I think I may finally be coming around to preferring type hints or even strong typing. I resisted those in the past because they slowed down the rate at which I could iterate on code, especially in the REPL environments that were key to my productivity. But if a coding agent is doing all that typing for me, the benefits of explicitly defining all of those types are suddenly much more attractive. Tags: ai-assisted-programming , programming , programming-languages",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The A.I. Disruption We’ve Been Waiting for Has Arrived",
       "link": "https://simonwillison.net/2026/Feb/18/the-ai-disruption/#atom-everything",
@@ -70,13 +77,6 @@
       "date": "2026-02-18T00:00:00Z",
       "summary": "OCI's storage primitives applied to package management.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Introducing Claude Sonnet 4.6",
-      "link": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
-      "date": "2026-02-17T23:58:58Z",
-      "summary": "Introducing Claude Sonnet 4.6 Sonnet 4.6 is out today, and Anthropic claim it offers similar performance to November's Opus 4.5 while maintaining the Sonnet pricing of $3/million input and $15/million output tokens (the Opus models are $5/$25). Here's the system card PDF . Sonnet 4.6 has a \"reliable knowledge cutoff\" of August 2025, compared to Opus 4.6's May 2025 and Haiku 4.5's February 2025. Both Opus and Sonnet default to 200,000 max input tokens but can stretch to 1 million in beta and at a higher cost. I just released llm-anthropic 0.24 with support for both Sonnet 4.6 and Opus 4.6. Claude Code did most of the work - the new models had a fiddly amount of extra details around adaptive thinking and no longer supporting prefixes, as described in Anthropic's migration guide . Here's what I got from: uvx --with llm-anthropic llm 'Generate an SVG of a pelican riding a bicycle' -m claude-sonnet-4.6 The SVG comments include: <!-- Hat (fun accessory) --> I tried a second time and also got a top hat. Sonnet 4.6 apparently loves top hats! For comparison, here's the pelican Opus 4.5 drew me in November : And here's Anthropic's current best pelican, drawn by Opus 4.6 on February 5th : Opus 4.6 produces the best pelican beak/pouch. I do think the top hat from Sonnet 4.6 is a nice touch though. Via Hacker News Tags: ai , generative-ai , llms , llm , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , llm-release , claude-code",
-      "source": "simonwillison.net"
     },
     {
       "title": "How to Force Restart an iPhone",
