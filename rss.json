@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T08:22:13.028364Z",
+  "generated_at": "2026-02-18T09:24:18.353151Z",
   "items": [
     {
       "title": "The case for gatekeeping, or: why medieval guilds had it figured out",
@@ -14,6 +14,13 @@
       "date": "2026-02-18T00:11:23Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "What Package Registries Could Borrow from OCI",
+      "link": "https://nesbitt.io/2026/02/18/what-package-registries-could-borrow-from-oci.html",
+      "date": "2026-02-18T00:00:00Z",
+      "summary": "OCI's storage primitives applied to package management.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -182,13 +189,6 @@
       "date": "2026-02-15T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Separating Download from Install in Docker Builds",
-      "link": "https://nesbitt.io/2026/02/15/separating-download-from-install-in-docker-builds.html",
-      "date": "2026-02-15T00:00:00Z",
-      "summary": "Most package managers could separate download from install for better Docker layer caching.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Wagon’s algorithm in Python",
