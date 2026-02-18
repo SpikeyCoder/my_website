@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-18T20:18:51.821875Z",
+  "generated_at": "2026-02-18T21:19:15.009318Z",
   "items": [
+    {
+      "title": "Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’",
+      "link": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i",
+      "date": "2026-02-18T21:15:11Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Frigate with Hailo for object detection on a Raspberry Pi",
+      "link": "https://www.jeffgeerling.com/blog/2026/frigate-with-hailo-for-object-detection-on-a-raspberry-pi/",
+      "date": "2026-02-18T20:50:00Z",
+      "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "Typing without having to type",
       "link": "https://simonwillison.net/2026/Feb/18/typing/#atom-everything",
@@ -37,17 +51,10 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Book Review: All Systems Red - The Murderbot Diaries by Martha Wells ★★⯪☆☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-all-systems-red-the-murderbot-diaries-by-martha-wells/",
-      "date": "2026-02-18T12:34:05Z",
-      "summary": "Everyone raves about this series, so I thought I'd grab the first book. It's basically fine, I guess. It is moderately amusing having the Muderbot be an awkward teenage boy who just wants to watch videos and cringes when people stare at him. But it is a bit one-note. Similarly, evil corporations hiding details from exo-planet surveyors is a trope which has been a thousand times before. This…",
-      "source": "shkspr.mobi"
-    },
-    {
-      "title": "Taking Our Minds for Granted",
+      "title": "Thinking Improves Thinking",
       "link": "https://idiallo.com/blog/taking-our-mind-for-granted?src=feed",
       "date": "2026-02-18T12:00:00Z",
-      "summary": "How did we do it before ChatGPT? How did we write full sentences, connect ideas into a coherent arc, solve problems that had no obvious answer? We thought. That's it. We simply sat with discomfort long enough for something to emerge. I find this fascinating. You have a problem, so you sit down and think until you find a solution. Sometimes you're not even sitting down. You go for a walk, and your mind quietly wrestles with the idea while your feet carry you nowhere in particular. A solution emerges not because you forced it, but because you thought it through. What happened in that moment is remarkable: new information was created from the collision of existing ideas inside your head. No prompt. No query. Just you. I remember the hours I used to spend debugging a particularly stubborn problem at work. I would stare at the screen, type a few keystrokes, then delete them. I'd meet with our lead engineer and we would talk in circles. At home, I would lie in bed still turning the problem over. And then one night, somewhere around 3 a.m., I dreamt I was running the compiler, making a small change, watching it build, and suddenly it worked. I woke up knowing the answer before I had even tested it. I had to wait until morning to confirm what my sleeping mind had already solved. That's the mind doing what it was built to do. Writers know this feeling too. A sentence that won't cooperate in the afternoon sometimes writes itself during a morning shower. Scientists have described waking up with the solution to a problem they fell asleep wrestling with. Mendeleev wrote in his dairy that he saw the periodic table in a dream . The mind that keeps working when we stop forcing it. The mind can generate new ideas from its own reflection, something we routinely accuse large language models of being incapable of. LLMs recombine what already exists; the human mind makes unexpected leaps. But increasingly, it feels as though we are outsourcing those leaps before we ever attempt them. Why sit with a half-formed thought when you can just ask? Why let an idea marinate when a tool can hand you something polished in seconds? if (Math.random() > .4) { take_a_leap() } I won't say that AI is making us lazy, because it isn't laziness to reach for the calculator to do long divisions. However, we are slowly forgetting what it felt like to think hard. And soon we will stop believing that we are capable of it. The mind is like any muscle. Leave it unstrained and it weakens. Push it and it grows. The best ideas you will ever have are still inside you, waiting for the particular silence that only comes when you stop reaching for your phone. In the age of AI, the most radical thing you can do might simply be to think.",
+      "summary": "How did we do it before ChatGPT? How did we write full sentences, connect ideas into a coherent arc, solve problems that had no obvious answer? We thought. That's it. We simply sat with discomfort long enough for something to emerge. I find this fascinating. You have a problem, so you sit down and think until you find a solution. Sometimes you're not even sitting down. You go for a walk, and your mind quietly wrestles with the idea while your feet carry you nowhere in particular. A solution emerges not because you forced it, but because you thought it through. What happened in that moment is remarkable: new information was created from the collision of existing ideas inside your head. No prompt. No query. Just you. I remember the hours I used to spend debugging a particularly stubborn problem at work. I would stare at the screen, type a few keystrokes, then delete them. I'd meet with our lead engineer and we would talk in circles. At home, I would lie in bed still turning the problem over. And then one night, somewhere around 3 a.m., I dreamt I was running the compiler, making a small change, watching it build, and suddenly it worked. I woke up knowing the answer before I had even tested it. I had to wait until morning to confirm what my sleeping mind had already solved. That's the mind doing what it was built to do. Writers know this feeling too. A sentence that won't cooperate in the afternoon sometimes writes itself during a morning shower. Scientists have described waking up with the solution to a problem they fell asleep wrestling with. Mendeleev wrote in his dairy that he saw the periodic table in a dream . The mind that keeps working when we stop forcing it. The mind can generate new ideas from its own reflection, something we routinely accuse large language models of being incapable of. LLMs recombine what already exists; the human mind makes unexpected leaps. But increasingly, it feels as though we are outsourcing those leaps before we ever attempt them. Why sit with a half-formed thought when you can just ask? Why let an idea marinate when a tool can hand you something polished in seconds? if (Math.random() > .4) { take_a_leap() } I won't say that AI is making us lazy, because it isn't laziness to reach for the calculator to do long divisions. However, we are slowly forgetting what it felt like to think hard. And soon we will stop believing that we are capable of it. Thinking improves thinking. The mind is like any muscle. Leave it unstrained and it weakens. Push it and it grows. The best ideas you will ever have are still inside you, waiting for the particular silence that only comes when you stop reaching for your phone. In the age of AI, the most radical thing you can do might simply be to think.",
       "source": "idiallo.com"
     },
     {
@@ -79,25 +86,11 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "How to Force Restart an iPhone",
-      "link": "https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios",
-      "date": "2026-02-17T19:45:55Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Microspeak: Escrow",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
       "date": "2026-02-17T15:00:00Z",
       "summary": "Final build, final, final, final 2, ship this one. The post Microspeak: Escrow appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Gadget Review: Epomaker Split 70 Mechanical Keyboard ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/02/gadget-review-epomaker-split-70-mechanical-keyboard/",
-      "date": "2026-02-17T12:34:09Z",
-      "summary": "The good folks at Epomaker know that I love an ergonomic keyboard, so they've sent me their new \"Split 70\" model to review. This isn't your traditional ergonomic keyboard. Essentially, this is two separate halves joined by a USB-C cable; so you can position it however you like. Here's a quick video showing it in action: https://shkspr.mobi/blog/wp-content/uploads/2026/02/split-new.mp4 It is …",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: What's a \"gig work minimum wage\" (17 Feb 2026)",
@@ -140,13 +133,6 @@
       "date": "2026-02-16T15:00:00Z",
       "summary": "Is it really a trick when reading the file is the purpose of the program? The post It rather involved being on the other side of the airtight hatchway: Tricking(?) a program into reading files appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-this-is-how-they-tell-me-the-world-ends-nicole-perlroth/",
-      "date": "2026-02-16T12:34:55Z",
-      "summary": "This cybersecurity book is badly written, contains multiple offensive stereotypes, is technically inaccurate, and spends more time focussing on the author's love affair with the New York Times than almost anything else. Seriously, if you take a drink every time the book mentions the NYT, you'll spend most of the chapters drunk. Which, to be fair, is probably the best way to experience it. The…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Programming is free",
@@ -280,6 +266,20 @@
       "date": "2026-02-13T00:00:00Z",
       "summary": "It should've happened sooner.",
       "source": "skyfall.dev"
+    },
+    {
+      "title": "Trends in US Construction Productivity",
+      "link": "https://www.construction-physics.com/p/trends-in-us-construction-productivity",
+      "date": "2026-02-12T13:03:20Z",
+      "summary": "(This is a chapter of a longer report I’m working on that summarizes and expands the last several years of my work on construction productivity.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Inside an alpha-beta scintillator:",
+      "link": "https://maurycyz.com/misc/ah_teardown/",
+      "date": "2026-02-12T00:00:00Z",
+      "summary": "Just a heads up: this post is incomplete. However, it may be a while before I am able to finish it. I am publishing it early in hopes that you will still find it somewhat interesting. I've recently acquired this tiny contamination monitor: Just 4 cm wide! It's more sensitive then a Ludlum 44-9 despite being smaller then it's pancake style G-M tube. After removing four hex screws , the AlphaHound easily comes apart: Oooo This is very nice: Many similarly sized devices are difficult or impossible to open without damaging them. If it ever breaks, it won't be hard to get inside. The top half has the buzzer, display and buttons. It does have some SMD components, but it's just voltage regulators and decoupling capacitors: The display is a Crystalfontz CFAL128128A0-015W monochrome OLED: Neither the display or the PCB are mounted to anything: They are held in place by pressure. Because of this, the back side of the PCB must be blank to avoid breaking the OLED display: Wow, such component density. The buttons live on a tiny daughter board: These were a relatively late addition to the design, and are connected to the main PCB with a long ribbon cable. Unlike everything else, this board is actually screwed in to the case: The case itself is 3D printed stainless steel, which is a reasonable choice for small volume products. However, the resulting metal is porous and hard to clean. (it's still an improvement over plastic in my book) The black tape is my doing: This detector was one of the first (of this version) made and it had a loose screen: The tape takes up just enough space to keep things tight. The bottom half connects to the top with a short ribbon-cable: Most of the board space is taken up by the battery, which is held in place by an FDM printed bracket glued to the board: The battery is the LP552530 , a tiny 350 mA hour lithium polymer cell. This only provides a few hours of runtime, but there's only so much space in this thing. There are no components under the battery: all the detector's electronics are contained within the tiny 3x2 cm section above it. The detector is hidden underneath the board: Particles enter through the back, travel through both mylar sheets and hit the white square of scintillator material. The square converts the radiation's energy into a flash of light, which is detected by two photodiodes on the back side of the board. To keep out stray light, the scintillator is mounted in a ring of black rubber, which makes contact with black foam glued to the PCB and mylar. When assembled, the foam is compressed and creates a light-proof seal against the rubber. The scintillator is a sandwich of two different materials: Silver dopped zinc sulfide painted onto polyvinyltoluene mixed with an organic phosphor (EJ-212). The zinc sulfide detects alpha particles, and the plastic scintillator detects beta. Alphas will produce a bright flash with a slow decay , and betas produce a much faster and dimer flash. The detector takes both of these factors into account to tell the difference between the two types of radiation. The MICROFC-60035-SMT-TR photodiodes are very special: Instead of being a single photodiode, these SiPM's have an array of tiny reverse biased diodes: In practice, the capacitors are connected to a low-Z output. Each diode is run above its usual breakdown voltage, but they don't start conducting immediately. However, once a free electron-hole pair is created, the electron is accelerated by the electric field and slams into silicon atoms. These collisions are energetic enough to liberate more electrons: causing exponential \"avalanche\" breakdown. A single photon is enough to make the diode start conducting. It's a similar principle to a G-M tube, just for visible light. Just like a G-M counter, the diode includes a quenching resistor which causes the voltage to drop once the discharge starts. This resets the photodiode so it can continue detecting light. These detectors have quantum-limited performance > 1 gigahertz bandwidth: something that's ordinarily super difficult to do . A single avalanche diode isn't able to measure the intensity of a light flash, but the SiPM contains thousands of them: The amplitude of the output pulse depends on how many diodes are triggered, which is proportional to the brightness of the light. There's also a tiny LED which is used for a self test: If the SiPMs are able to pick up a dim LED flash, they should be able to pick up particle events. Ok, back to the board: A map of the hound The microcontroller is the ATSAMD21G18 , a 32-bit ARM processor capable of running at up to 48 MHz. That might sound slow, but it's actually quite powerful for an embedded system: It doesn't have to run chrome. The second largest chip is an ADXL335 accelerometer . In earlier versions, this was used to control the device, but is being phased out due to it's high cost. Most of the other chips are too small to have a full part number printed on, but they are mostly voltage regulators, comparators and opamps. The top left has a very standard boost converter: This converts 3.3 volts into ~30 volts which is used to run the photodiodes. I don't currently have a way to strip off the conformal coating covering it, so I can't trace out the pulse processing circuit. However, I'm quite confident it uses a peak detector circuit to measure the height of the pulse: Theoretical pulse detection scheme: Don't look too closely. This is a safe assumption because the microcontroller simply isn't fast enough to measure the 100 nanosecond scale pulses: The ADC is only able to measure a voltage every ~3000 nanoseconds. The pulse shape discrimination is likely done by using an opamp integrator to time how long the pulse stays over a given threshold: Theoretical PSD scheme: Don't look too closely. This method produces similar pulse scatter plots to the real detector — including the distinctive curve of the alpha cluster — and is relatively simple... ... but I don't know if this is actually how it works. This section will be updated soon™. TODO: Get scope traces of pulse detector/discriminator circuit. Betting it's using time-over-threshold. # Electronics Plastic decay time 2.4 ns, ZnS(Ag) 200 ns. G2L: AP2202 voltage reulgator ATSAMD21G18 -->",
+      "source": "maurycyz.com"
     }
   ]
 }
