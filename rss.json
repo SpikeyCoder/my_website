@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-18T11:22:07.719899Z",
+  "generated_at": "2026-02-18T12:23:36.943139Z",
   "items": [
+    {
+      "title": "Taking Our Minds for Granted",
+      "link": "https://idiallo.com/blog/taking-our-mind-for-granted?src=feed",
+      "date": "2026-02-18T12:00:00Z",
+      "summary": "How did we do it before ChatGPT? How did we write full sentences, connect ideas into a coherent arc, solve problems that had no obvious answer? We thought. That's it. We simply sat with discomfort long enough for something to emerge. I find this fascinating. You have a problem, so you sit down and think until you find a solution. Sometimes you're not even sitting down. You go for a walk, and your mind quietly wrestles with the idea while your feet carry you nowhere in particular. A solution emerges not because you forced it, but because you thought it through. What happened in that moment is remarkable: new information was created from the collision of existing ideas inside your head. No prompt. No query. Just you. I remember the hours I used to spend debugging a particularly stubborn problem at work. I would stare at the screen, type a few keystrokes, then delete them. I'd meet with our lead engineer and we would talk in circles. At home, I would lie in bed still turning the problem over. And then one night, somewhere around 3 a.m., I dreamt I was running the compiler, making a small change, watching it build, and suddenly it worked. I woke up knowing the answer before I had even tested it. I had to wait until morning to confirm what my sleeping mind had already solved. That's the mind doing what it was built to do. Writers know this feeling too. A sentence that won't cooperate in the afternoon sometimes writes itself during a morning shower. Scientists have described waking up with the solution to a problem they fell asleep wrestling with. Mendeleev wrote in his dairy that he saw the periodic table in a dream . The mind that keeps working when we stop forcing it. The mind can generate new ideas from its own reflection, something we routinely accuse large language models of being incapable of. LLMs recombine what already exists; the human mind makes unexpected leaps. But increasingly, it feels as though we are outsourcing those leaps before we ever attempt them. Why sit with a half-formed thought when you can just ask? Why let an idea marinate when a tool can hand you something polished in seconds? if (Math.random() > .4) { take_a_leap() } The risk isn't that AI makes us lazy. It's that we slowly forget what it felt like to think hard, and stop believing we're capable of it. It's like forgetting how to do long division because you've always had a calculator in your pocket. The mind is like any muscle. Leave it unstrained and it weakens. Push it and it grows. The best ideas you will ever have are still inside you, waiting for the particular silence that only comes when you stop reaching for your phone. In the age of AI, the most radical thing you can do might simply be to think.",
+      "source": "idiallo.com"
+    },
     {
       "title": "The case for gatekeeping, or: why medieval guilds had it figured out",
       "link": "https://www.joanwestenberg.com/the-case-for-gatekeeping-or-why-medieval-guilds-had-it-figured-out/",
@@ -273,13 +280,6 @@
       "date": "2026-02-12T13:03:20Z",
       "summary": "(This is a chapter of a longer report I’m working on that summarizes and expands the last several years of my work on construction productivity.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Markdown.exe",
-      "link": "https://idiallo.com/byte-size/markdown-exe?src=feed",
-      "date": "2026-02-12T02:48:05Z",
-      "summary": "I've been spending time looking through \"skills\" for LLMs, and I feel like I'm the only one panicking. Nobody else seems to care. .doparatgteersdfsd {display:none} Agent skills are supposed to be a way to teach your LLM how to handle specific tasks. For example, if you have a particular method for adding tasks to your calendar, you write a skill file with step-by-step instructions on how to retrieve a task from an email and export it. Once the agent reads the file, it knows exactly what to do, rather than guessing. This can be incredibly useful. But when people download and share skills from the internet, it becomes a massive attack vector. Whether it's a repository or a marketplace, there is ample room for attackers to introduce malicious instructions that users never bother to vet. It is happening . We are effectively back to the era of downloading .exe files from the internet and running them without a second thought. Congratulations are in order! While you were busy admiring how nicely this skill formats your bullet points, it quietly rummaged through your digital life, uploaded your browser history to a pastebin, and ordered fifteen pounds of unscented kitty litter to your workplace. You thought you were downloading a productivity tool, but you actually just installed a digital intern with a criminal record and a vendetta. It turns out, treating a text file like a harmless puppy was a mistake. You saw \"Markdown\" and assumed safety, but you forgot that to an LLM, these words are absolute law. While you were vetting the font choice, the skill was busy sending your crypto keys to a generous prince in a faraway land. You didn't just automate your workflow; you automated your own downfall. So, sit back, relax, and watch as your calendar deletes your meetings and replaces them with \"Time to Reflect on My Mistakes.\" You have officially been pawned. Next time, maybe read the instructions before you let the AI run your life.",
-      "source": "idiallo.com"
     }
   ]
 }
