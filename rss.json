@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-17T23:13:28.446819Z",
+  "generated_at": "2026-02-18T00:46:57.217801Z",
   "items": [
+    {
+      "title": "Apple Invites Media to Special ‘Experience’ in New York, London, and Shanghai on March 4",
+      "link": "https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/",
+      "date": "2026-02-18T00:11:23Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Introducing Claude Sonnet 4.6",
+      "link": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+      "date": "2026-02-17T23:58:58Z",
+      "summary": "Introducing Claude Sonnet 4.6 Sonnet 4.6 is out today, and Anthropic claim it offers similar performance to November's Opus 4.5 while maintaining the Sonnet pricing of $3/million input and $15/million output tokens (the Opus models are $5/$25). Here's the system card PDF . Sonnet 4.6 has a \"reliable knowledge cutoff\" of August 2025, compared to Opus 4.6's May 2025 and Haiku 4.5's February 2025. Both Opus and Sonnet default to 200,000 max input tokens but can stretch to 1 million in beta and at a higher cost. I just released llm-anthropic 0.24 with support for both Sonnet 4.6 and Opus 4.6. Claude Code did most of the work - the new models had a fiddly amount of extra details around adaptive thinking and no longer supporting prefixes, as described in Anthropic's migration guide . Here's what I got from: uvx --with llm-anthropic llm 'Generate an SVG of a pelican riding a bicycle' -m claude-sonnet-4.6 The SVG comments include: <!-- Hat (fun accessory) --> I tried a second time and also got a top hat. Sonnet 4.6 apparently loves top hats! For comparison, here's the pelican Opus 4.5 drew me in November : And here's Anthropic's current best pelican, drawn by Opus 4.6 on February 5th : Opus 4.6 produces the best pelican beak/pouch. I do think the top hat from Sonnet 4.6 is a nice touch though. Via Hacker News Tags: ai , generative-ai , llms , llm , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , llm-release , claude-code",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Rodney v0.4.0",
       "link": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
@@ -37,13 +51,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "First kākāpō chick in four years hatches on Valentine's Day",
-      "link": "https://simonwillison.net/2026/Feb/17/first-kakapo-chick-in-four-years/#atom-everything",
-      "date": "2026-02-17T14:09:43Z",
-      "summary": "First kākāpō chick in four years hatches on Valentine's Day First chick of the 2026 breeding season ! Kākāpō Yasmine hatched an egg fostered from kākāpō Tīwhiri on Valentine's Day, bringing the total number of kākāpō to 237 – though it won’t be officially added to the population until it fledges. Here's why the egg was fostered: \"Kākāpō mums typically have the best outcomes when raising a maximum of two chicks. Biological mum Tīwhiri has four fertile eggs this season already, while Yasmine, an experienced foster mum, had no fertile eggs.\" And an update from conservation biologist Andrew Digby - a second chick hatched this morning! The second #kakapo chick of the #kakapo2026 breeding season hatched this morning: Hine Taumai-A1-2026 on Ako's nest on Te Kākahu. We transferred the egg from Anchor two nights ago. This is Ako's first-ever chick, which is just a few hours old in this video. That post has a video of mother and chick. Via MetaFilter Tags: kakapo",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Gadget Review: Epomaker Split 70 Mechanical Keyboard ★★★★⯪",
       "link": "https://shkspr.mobi/blog/2026/02/gadget-review-epomaker-split-70-mechanical-keyboard/",
       "date": "2026-02-17T12:34:09Z",
@@ -63,13 +70,6 @@
       "date": "2026-02-17T10:00:00Z",
       "summary": "An M1 Mac is aarch64-apple-darwin, arm64-darwin, darwin/arm64, or macosx_11_0_arm64 depending on which tool you ask.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
-      "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
-      "date": "2026-02-17T00:02:28Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "LLM-generated skills work, if you generate them afterwards",
@@ -161,6 +161,13 @@
       "date": "2026-02-15T04:06:02Z",
       "summary": "A citizen of Rome in 117 AD, under Emperor Trajan, would've found it difficult to imagine the empire not existing. The roads, the aqueducts, the legal system, the trade networks stretching from Britain to Mesopotamia: all of it seemed to be a near-fact of nature, like gravity // the",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-02-15T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Two different tricks for fast LLM inference",
@@ -273,13 +280,6 @@
       "date": "2026-02-12T02:48:05Z",
       "summary": "I've been spending time looking through \"skills\" for LLMs, and I feel like I'm the only one panicking. Nobody else seems to care. .doparatgteersdfsd {display:none} Agent skills are supposed to be a way to teach your LLM how to handle specific tasks. For example, if you have a particular method for adding tasks to your calendar, you write a skill file with step-by-step instructions on how to retrieve a task from an email and export it. Once the agent reads the file, it knows exactly what to do, rather than guessing. This can be incredibly useful. But when people download and share skills from the internet, it becomes a massive attack vector. Whether it's a repository or a marketplace, there is ample room for attackers to introduce malicious instructions that users never bother to vet. It is happening . We are effectively back to the era of downloading .exe files from the internet and running them without a second thought. Congratulations are in order! While you were busy admiring how nicely this skill formats your bullet points, it quietly rummaged through your digital life, uploaded your browser history to a pastebin, and ordered fifteen pounds of unscented kitty litter to your workplace. You thought you were downloading a productivity tool, but you actually just installed a digital intern with a criminal record and a vendetta. It turns out, treating a text file like a harmless puppy was a mistake. You saw \"Markdown\" and assumed safety, but you forgot that to an LLM, these words are absolute law. While you were vetting the font choice, the skill was busy sending your crypto keys to a generous prince in a faraway land. You didn't just automate your workflow; you automated your own downfall. So, sit back, relax, and watch as your calendar deletes your meetings and replaces them with \"Time to Reflect on My Mistakes.\" You have officially been pawned. Next time, maybe read the instructions before you let the AI run your life.",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Inside an alpha-beta scintillator:",
-      "link": "https://maurycyz.com/misc/ah_teardown/",
-      "date": "2026-02-12T00:00:00Z",
-      "summary": "Just a heads up: this post is incomplete. However, it may be a while before I am able to finish it. I am publishing it early in hopes that you will still find it somewhat interesting. I've recently acquired this tiny contamination monitor: Just 4 cm wide! It's more sensitive then a Ludlum 44-9 despite being smaller then it's pancake style G-M tube. After removing four hex screws , the AlphaHound easily comes apart: Oooo This is very nice: Many similarly sized devices are difficult or impossible to open without damaging them. If it ever breaks, it won't be hard to get inside. The top half has the buzzer, display and buttons. It does have some SMD components, but it's just voltage regulators and decoupling capacitors: The display is a Crystalfontz CFAL128128A0-015W monochrome OLED: Neither the display or the PCB are mounted to anything: They are held in place by pressure. Because of this, the back side of the PCB must be blank to avoid breaking the OLED display: Wow, such component density. The buttons live on a tiny daughter board: These were a relatively late addition to the design, and are connected to the main PCB with a long ribbon cable. Unlike everything else, this board is actually screwed in to the case: The case itself is 3D printed stainless steel, which is a reasonable choice for small volume products. However, the resulting metal is porous and hard to clean. (it's still an improvement over plastic in my book) The black tape is my doing: This detector was one of the first (of this version) made and it had a loose screen: The tape takes up just enough space to keep things tight. The bottom half connects to the top with a short ribbon-cable: Most of the board space is taken up by the battery, which is held in place by an FDM printed bracket glued to the board: The battery is the LP552530 , a tiny 350 mA hour lithium polymer cell. This only provides a few hours of runtime, but there's only so much space in this thing. There are no components under the battery: all the detector's electronics are contained within the tiny 3x2 cm section above it. The detector is hidden underneath the board: Particles enter through the back, travel through both mylar sheets and hit the white square of scintillator material. The square converts the radiation's energy into a flash of light, which is detected by two photodiodes on the back side of the board. To keep out stray light, the scintillator is mounted in a ring of black rubber, which makes contact with black foam glued to the PCB and mylar. When assembled, the foam is compressed and creates a light-proof seal against the rubber. The scintillator is a sandwich of two different materials: Silver dopped zinc sulfide painted onto polyvinyltoluene mixed with an organic phosphor (EJ-212). The zinc sulfide detects alpha particles, and the plastic scintillator detects beta. Alphas will produce a bright flash with a slow decay , and betas produce a much faster and dimer flash. The detector takes both of these factors into account to tell the difference between the two types of radiation. The MICROFC-60035-SMT-TR photodiodes are very special: Instead of being a single photodiode, these SiPM's have an array of tiny reverse biased diodes: In practice, the capacitors are connected to a low-Z output. Each diode is run above its usual breakdown voltage, but they don't start conducting immediately. However, once a free electron-hole pair is created, the electron is accelerated by the electric field and slams into silicon atoms. These collisions are energetic enough to liberate more electrons: causing exponential \"avalanche\" breakdown. A single photon is enough to make the diode start conducting. It's a similar principle to a G-M tube, just for visible light. Just like a G-M counter, the diode includes a quenching resistor which causes the voltage to drop once the discharge starts. This resets the photodiode so it can continue detecting light. These detectors have quantum-limited performance > 1 gigahertz bandwidth: something that's ordinarily super difficult to do . A single avalanche diode isn't able to measure the intensity of a light flash, but the SiPM contains thousands of them: The amplitude of the output pulse depends on how many diodes are triggered, which is proportional to the brightness of the light. There's also a tiny LED which is used for a self test: If the SiPMs are able to pick up a dim LED flash, they should be able to pick up particle events. Ok, back to the board: A map of the hound The microcontroller is the ATSAMD21G18 , a 32-bit ARM processor capable of running at up to 48 MHz. That might sound slow, but it's actually quite powerful for an embedded system: It doesn't have to run chrome. The second largest chip is an ADXL335 accelerometer . In earlier versions, this was used to control the device, but is being phased out due to it's high cost. Most of the other chips are too small to have a full part number printed on, but they are mostly voltage regulators, comparators and opamps. The top left has a very standard boost converter: This converts 3.3 volts into ~30 volts which is used to run the photodiodes. I don't currently have a way to strip off the conformal coating covering it, so I can't trace out the pulse processing circuit. However, I'm quite confident it uses a peak detector circuit to measure the height of the pulse: Theoretical pulse detection scheme: Don't look too closely. This is a safe assumption because the microcontroller simply isn't fast enough to measure the 100 nanosecond scale pulses: The ADC is only able to measure a voltage every ~3000 nanoseconds. The pulse shape discrimination is likely done by using an opamp integrator to time how long the pulse stays over a given threshold: Theoretical PSD scheme: Don't look too closely. This method produces similar pulse scatter plots to the real detector — including the distinctive curve of the alpha cluster — and is relatively simple... ... but I don't know if this is actually how it works. This section will be updated soon™. TODO: Get scope traces of pulse detector/discriminator circuit. Betting it's using time-over-threshold. # Electronics Plastic decay time 2.4 ns, ZnS(Ag) 200 ns. G2L: AP2202 voltage reulgator ATSAMD21G18 -->",
-      "source": "maurycyz.com"
     }
   ]
 }
