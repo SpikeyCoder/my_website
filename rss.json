@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-19T15:22:41.659615Z",
+  "generated_at": "2026-02-19T16:25:17.681678Z",
   "items": [
+    {
+      "title": "Exploring the signals the dialog manager uses for dismissing a dialog",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260219-00/?p=112072",
+      "date": "2026-02-19T15:00:00Z",
+      "summary": "Summarizing the flow. The post Exploring the signals the dialog manager uses for dismissing a dialog appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Pluralistic: Six Years of Pluralistic (19 Feb 2026)",
       "link": "https://pluralistic.net/2026/02/19/now-we-are-six/",
@@ -175,13 +182,6 @@
       "date": "2026-02-16T21:24:45Z",
       "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is its plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "It rather involved being on the other side of the airtight hatchway: Tricking(?) a program into reading files",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260216-00/?p=112065",
-      "date": "2026-02-16T15:00:00Z",
-      "summary": "Is it really a trick when reading the file is the purpose of the program? The post It rather involved being on the other side of the airtight hatchway: Tricking(?) a program into reading files appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Programming is free",
