@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-19T00:47:11.272365Z",
+  "generated_at": "2026-02-19T01:41:27.301671Z",
   "items": [
+    {
+      "title": "LadybirdBrowser/ladybird: Abandon Swift adoption",
+      "link": "https://simonwillison.net/2026/Feb/19/ladybird/#atom-everything",
+      "date": "2026-02-19T01:25:33Z",
+      "summary": "LadybirdBrowser/ladybird: Abandon Swift adoption Back in August 2024 the Ladybird browser project announced an intention to adopt Swift as their memory-safe language of choice. As of this commit it looks like they've changed their mind: Everywhere: Abandon Swift adoption After making no progress on this for a very long time, let's acknowledge it's not going anywhere and remove it from the codebase. Via Hacker News Tags: ladybird , swift",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’",
       "link": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i",
@@ -27,13 +34,6 @@
       "link": "https://simonwillison.net/2026/Feb/18/the-ai-disruption/#atom-everything",
       "date": "2026-02-18T17:07:31Z",
       "summary": "The A.I. Disruption We’ve Been Waiting for Has Arrived New opinion piece from Paul Ford in the New York Times. Unsurprisingly for a piece by Paul it's packed with quoteworthy snippets, but a few stood out for me in particular. Paul describes the November moment that so many other programmers have observed, and highlights Claude Code's ability to revive old side projects: [Claude Code] was always a helpful coding assistant, but in November it suddenly got much better, and ever since I’ve been knocking off side projects that had sat in folders for a decade or longer. It’s fun to see old ideas come to life, so I keep a steady flow. Maybe it adds up to a half-hour a day of my time, and an hour of Claude’s. November was, for me and many others in tech, a great surprise. Before, A.I. coding tools were often useful, but halting and clumsy. Now, the bot can run for a full hour and make whole, designed websites and apps that may be flawed, but credible. I spent an entire session of therapy talking about it. And as the former CEO of a respected consultancy firm (Postlight) he's well positioned to evaluate the potential impact: When you watch a large language model slice through some horrible, expensive problem — like migrating data from an old platform to a modern one — you feel the earth shifting. I was the chief executive of a software services firm, which made me a professional software cost estimator. When I rebooted my messy personal website a few weeks ago, I realized: I would have paid $25,000 for someone else to do this. When a friend asked me to convert a large, thorny data set, I downloaded it, cleaned it up and made it pretty and easy to explore. In the past I would have charged $350,000. That last price is full 2021 retail — it implies a product manager, a designer, two engineers (one senior) and four to six months of design, coding and testing. Plus maintenance. Bespoke software is joltingly expensive. Today, though, when the stars align and my prompts work out, I can do hundreds of thousands of dollars worth of work for fun (fun for me) over weekends and evenings, for the price of the Claude $200-a-month plan. He also neatly captures the inherent community tension involved in exploring this technology: All of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited. Tags: new-york-times , paul-ford , careers , ai , generative-ai , llms , ai-assisted-programming , ai-ethics , coding-agents , claude-code",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Martin Fowler",
-      "link": "https://simonwillison.net/2026/Feb/18/martin-fowler/#atom-everything",
-      "date": "2026-02-18T16:50:07Z",
-      "summary": "LLMs are eating specialty skills. There will be less use of specialist front-end and back-end developers as the LLM-driving skills become more important than the details of platform usage. Will this lead to a greater recognition of the role of Expert Generalists ? Or will the ability of LLMs to write lots of code mean they code around the silos rather than eliminating them? — Martin Fowler , tidbits from the Thoughtworks Future of Software Development Retreat, via HN ) Tags: martin-fowler , careers , generative-ai , ai , llms , ai-assisted-programming",
       "source": "simonwillison.net"
     },
     {
