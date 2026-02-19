@@ -338,6 +338,15 @@ textarea {
 .blog-list {
   display: grid;
   gap: 12px;
+  max-height: 732px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-gutter: stable;
+}
+
+.blog-list:focus {
+  outline: 1px solid rgba(88, 166, 255, 0.5);
+  outline-offset: 4px;
 }
 
 .blog-post {
@@ -347,6 +356,7 @@ textarea {
   padding: 14px;
   display: grid;
   gap: 6px;
+  min-height: 136px;
 }
 
 .blog-post h4 {
