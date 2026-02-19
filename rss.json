@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-19T05:34:22.663816Z",
+  "generated_at": "2026-02-19T06:31:41.973912Z",
   "items": [
+    {
+      "title": "Experimenting with sponsorship for my blog and newsletter",
+      "link": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
+      "date": "2026-02-19T05:44:29Z",
+      "summary": "I've long been resistant to the idea of accepting sponsorship for my blog. I value my credibility as an independent voice, and I don't want to risk compromising that reputation. Then I learned about Troy Hunt's approach to sponsorship , which he first wrote about in 2016 . Troy runs with a simple text row in the page banner - no JavaScript, no cookies, unobtrusive while providing value to the sponsor. I can live with that! Accepting sponsorship in this way helps me maintain my independence while offsetting the opportunity cost of not taking a full-time job. To start with I'm selling sponsorship by the week. Sponsors get that unobtrusive banner across my blog and also their sponsored message at the top of my newsletter . I will not write content in exchange for sponsorship . I hope the sponsors I work with understand that my credibility as an independent voice is a key reason I have an audience, and compromising that trust would be bad for everyone. Freeman & Forrest helped me set up and sell my first slots. Thanks also to Theo Browne for helping me think through my approach. Tags: newsletter , blogging , troy-hunt",
+      "source": "simonwillison.net"
+    },
     {
       "title": "SWE-bench February 2026 leaderboard update",
       "link": "https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything",
@@ -35,13 +42,6 @@
       "date": "2026-02-18T20:50:00Z",
       "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Typing without having to type",
-      "link": "https://simonwillison.net/2026/Feb/18/typing/#atom-everything",
-      "date": "2026-02-18T18:56:56Z",
-      "summary": "25+ years into my career as a programmer I think I may finally be coming around to preferring type hints or even strong typing. I resisted those in the past because they slowed down the rate at which I could iterate on code, especially in the REPL environments that were key to my productivity. But if a coding agent is doing all that typing for me, the benefits of explicitly defining all of those types are suddenly much more attractive. Tags: ai-assisted-programming , programming , programming-languages , static-typing",
-      "source": "simonwillison.net"
     },
     {
       "title": "Could Write­Process­Memory be made faster by avoiding the intermediate buffer?",
