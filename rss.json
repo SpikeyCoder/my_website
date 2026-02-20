@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-02-20T22:10:26.628135Z",
+  "generated_at": "2026-02-20T23:13:20.122633Z",
   "items": [
+    {
+      "title": "The unbearable weight of cruft",
+      "link": "https://www.joanwestenberg.com/the-unbearable-weight-of-cruft/",
+      "date": "2026-02-20T22:54:49Z",
+      "summary": "",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
+      "link": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
+      "date": "2026-02-20T22:10:04Z",
+      "summary": "Taalas serves Llama 3.1 8B at 17,000 tokens/second This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from July 2024 ) that can run at a staggering 17,000 tokens/second. I was going to include a video of their demo but it's so fast it would look more like a screenshot. You can try it out at chatjimmy.ai . They describe their Silicon Llama as “aggressively quantized, combining 3-bit and 6-bit parameters.” Their next generation will use 4-bit - presumably they have quite a long lead time for baking out new models! Via Hacker News Tags: ai , generative-ai , llama , llms",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
       "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
@@ -70,13 +91,6 @@
       "date": "2026-02-20T00:00:00Z",
       "summary": "The federated protocol for announcing pub activities, first standardised in 1714 and still in use across 46,000 active instances.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Recovering lost code",
-      "link": "https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything",
-      "date": "2026-02-19T23:48:35Z",
-      "summary": "Reached the stage of parallel agent psychosis where I've lost a whole feature - I know I had it yesterday, but I can't seem to find the branch or worktree or cloud instance or checkout with it in. ... found it! Turns out I'd been hacking on a random prototype in /tmp and then my computer crashed and rebooted and I lost the code... but it's all still there in ~/.claude/projects/ session logs and Claude Code can extract it out and spin up the missing feature again. Tags: parallel-agents , coding-agents , claude-code , generative-ai , ai , llms",
-      "source": "simonwillison.net"
     },
     {
       "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
@@ -266,20 +280,6 @@
       "date": "2026-02-14T23:06:41Z",
       "summary": "The last three posts have been about Stan Wagon’s algorithm for finding x and y satisfying x² + y² = p where p is an odd prime. The first post in the series gives Gauss’ formula for a solution, but shows why it is impractical for large p. The bottom of this post introduces Wagon’s […] The post Wagon’s algorithm in Python first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Instruction decoding in the Intel 8087 floating-point chip",
-      "link": "http://www.righto.com/feeds/8201340188892833254/comments/default",
-      "date": "2026-02-14T16:48:29.085000Z",
-      "summary": "",
-      "source": "righto.com"
-    },
-    {
-      "title": "Reading list 02/14/26",
-      "link": "https://www.construction-physics.com/p/reading-list-021426",
-      "date": "2026-02-14T13:01:32Z",
-      "summary": "Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology.",
-      "source": "construction-physics.com"
     }
   ]
 }
