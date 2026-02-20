@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-20T04:40:49.522447Z",
+  "generated_at": "2026-02-20T05:30:48.248099Z",
   "items": [
+    {
+      "title": "Life Update: On medical leave",
+      "link": "https://xeiaso.net/notes/2026/life-update-medical-leave/",
+      "date": "2026-02-20T00:00:00Z",
+      "summary": "Taking some time off for medical reasons until early April",
+      "source": "xeiaso.net"
+    },
     {
       "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
       "link": "https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/",
@@ -273,13 +280,6 @@
       "date": "2026-02-14T00:00:00Z",
       "summary": "Something truly monumental happened in the world of software development in 2025. Safari shipped areasonable implementation of text-wrap: pretty:https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are gettingcloser and closer to the cutting-edge XV-century technology. Beautiful paragraphs!",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
-      "link": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
-      "date": "2026-02-13T15:00:00Z",
-      "summary": "When I saw Jensen Huang introduce the Reachy Mini at CES , I thought it was a gimmick. His keynote showed this little robot responding to human input, turning its head to look at a TODO list on the wall, sending emails, and turning drawings into architectural renderings with motion. HuggingFace and Pollen robotics sent me a Reachy Mini to test, and, well, at least if you're looking to replicate that setup in the keynote, it's not, as Jensen put it, \"utterly trivial now.\"",
-      "source": "jeffgeerling.com"
     }
   ]
 }
