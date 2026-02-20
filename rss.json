@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-20T19:20:46.039528Z",
+  "generated_at": "2026-02-20T20:13:09.596545Z",
   "items": [
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
       "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
@@ -273,13 +280,6 @@
       "date": "2026-02-14T13:01:32Z",
       "summary": "Welcome to the reading list, a weekly list of news and links related to buildings, infrastructure, and industrial technology.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "AI twitter's favourite lie: everyone wants to be a developer",
-      "link": "https://www.joanwestenberg.com/ai-twitters-favourite-lie-everyone-wants-to-be-a-developer/",
-      "date": "2026-02-14T01:13:26Z",
-      "summary": "Twitter's latest consensus on inevitability: now that large language models can write code, everyone will become a software developer. People, you see, have problems, and software solves problems, and AI removes the barrier between people and software, therefore everyone will build their own software. It's a",
-      "source": "joanwestenberg.com"
     }
   ]
 }
