@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-02-20T16:18:09.642815Z",
+  "generated_at": "2026-02-20T17:19:51.129613Z",
   "items": [
+    {
+      "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+      "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
+      "date": "2026-02-20T17:12:55Z",
+      "summary": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI I don't normally cover acquisition news like this, but I have some thoughts. It's hard to overstate the impact Georgi Gerganov has had on the local model space. Back in March 2023 his release of llama.cpp made it possible to run a local LLM on consumer hardware. The original README stated the goal as: The main goal is to run the model using 4-bit quantization on a MacBook. I wrote about trying llama.cpp out at the time in Large language models are having their Stable Diffusion moment : I used it to run the 7B LLaMA model on my laptop last night, and then this morning upgraded to the 13B model—the one that Facebook claim is competitive with GPT-3. Meta's original LLaMA release depended on PyTorch and their FairScale PyTorch extension for running on multiple GPUs, and required CUDA and NVIDIA hardware. Georgi's work opened that up to a much wider range of hardware and kicked off the local model movement that has continued to grow since then. Hugging Face are already responsible for the incredibly influential Transformers library used by the majority of LLM releases today. They've proven themselves a good steward for that open source project, which makes me optimistic for the future of llama.cpp and related projects. This section from the announcement looks particularly promising: Going forward, our joint efforts will be geared towards the following objectives: Towards seamless \"single-click\" integration with the transformers library. The transformers framework has established itself as the 'source of truth' for AI model definitions. Improving the compatibility between the transformers and the ggml ecosystems is essential for wider model support and quality control. Better packaging and user experience of ggml-based software. As we enter the phase in which local inference becomes a meaningful and competitive alternative to cloud inference, it is crucial to improve and simplify the way in which casual users deploy and access local models. We will work towards making llama.cpp ubiquitous and readily available everywhere, and continue partnering with great downstream projects. Given the influence of Transformers, this closer integration could lead to model releases that are compatible with the GGML ecosystem out of the box. That would be a big win for the local model ecosystem. I'm also excited to see investment in \"packaging and user experience of ggml-based software\". This has mostly been left to tools like Ollama and LM Studio . ggml-org released LlamaBarn last year - \"a macOS menu bar app for running local LLMs\" - and I'm hopeful that further investment in this area will result in more high quality open source tools for running local models from the team best placed to deliver them. Via @ggerganov Tags: open-source , transformers , ai , generative-ai , llama , llms , hugging-face , llama-cpp",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260220-01/?p=112076",
+      "date": "2026-02-20T15:00:01Z",
+      "summary": "The pocket reference guide for 2026/2027. The post The 2026/2027 Seattle Symphony subscription season at a glance appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260220-00/?p=112074",
+      "date": "2026-02-20T15:00:00Z",
+      "summary": "Sniffing the asynchronous keyboard state. The post Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Pluralistic: A perforated corporate veil (20 Feb 2026)",
       "link": "https://pluralistic.net/2026/02/20/karioca-konzernrecht/",
@@ -86,13 +107,6 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Experimenting with sponsorship for my blog and newsletter",
-      "link": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
-      "date": "2026-02-19T05:44:29Z",
-      "summary": "I've long been resistant to the idea of accepting sponsorship for my blog. I value my credibility as an independent voice, and I don't want to risk compromising that reputation. Then I learned about Troy Hunt's approach to sponsorship , which he first wrote about in 2016 . Troy runs with a simple text row in the page banner - no JavaScript, no cookies, unobtrusive while providing value to the sponsor. I can live with that! Accepting sponsorship in this way helps me maintain my independence while offsetting the opportunity cost of not taking a full-time job. To start with I'm selling sponsorship by the week. Sponsors get that unobtrusive banner across my blog and also their sponsored message at the top of my newsletter . I will not write content in exchange for sponsorship . I hope the sponsors I work with understand that my credibility as an independent voice is a key reason I have an audience, and compromising that trust would be bad for everyone. Freeman & Forrest helped me set up and sell my first slots. Thanks also to Theo Browne for helping me think through my approach. Tags: newsletter , blogging , troy-hunt",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Go Modules for Package Management Tooling",
       "link": "https://nesbitt.io/2026/02/19/go-modules-for-package-management-tooling.html",
       "date": "2026-02-19T00:00:00Z",
@@ -112,13 +126,6 @@
       "date": "2026-02-18T20:50:00Z",
       "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Could Write­Process­Memory be made faster by avoiding the intermediate buffer?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260218-00/?p=112069",
-      "date": "2026-02-18T15:00:00Z",
-      "summary": "I guess it could, but why bother? The post Could <CODE>Write­Process­Memory</CODE> be made faster by avoiding the intermediate buffer? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Book Review: All Systems Red - The Murderbot Diaries by Martha Wells ★★⯪☆☆",
@@ -161,13 +168,6 @@
       "date": "2026-02-18T00:00:00Z",
       "summary": "OCI's storage primitives applied to package management.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Microspeak: Escrow",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
-      "date": "2026-02-17T15:00:00Z",
-      "summary": "Final build, final, final, final 2, ship this one. The post Microspeak: Escrow appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: What's a \"gig work minimum wage\" (17 Feb 2026)",
