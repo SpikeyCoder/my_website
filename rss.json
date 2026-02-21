@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T10:10:47.048559Z",
+  "generated_at": "2026-02-21T11:09:45.687681Z",
   "items": [
     {
       "title": "Quoting Thibault Sottiaux",
@@ -16,6 +16,13 @@
       "source": "simonwillison.net"
     },
     {
+      "title": "Whale Fall",
+      "link": "https://nesbitt.io/2026/02/21/whale-fall.html",
+      "date": "2026-02-21T00:00:00Z",
+      "summary": "What happens when a large open source project dies.",
+      "source": "nesbitt.io"
+    },
+    {
       "title": "Adding TILs, releases, museums, tools and research to my blog",
       "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
       "date": "2026-02-20T23:47:10Z",
@@ -28,13 +35,6 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-      "date": "2026-02-20T20:00:30Z",
-      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -191,13 +191,6 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "What Package Registries Could Borrow from OCI",
-      "link": "https://nesbitt.io/2026/02/18/what-package-registries-could-borrow-from-oci.html",
-      "date": "2026-02-18T00:00:00Z",
-      "summary": "OCI's storage primitives applied to package management.",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Pluralistic: What's a \"gig work minimum wage\" (17 Feb 2026)",
       "link": "https://pluralistic.net/2026/02/17/no-piecework/",
       "date": "2026-02-17T10:56:49Z",
@@ -280,6 +273,13 @@
       "date": "2026-02-14T23:06:41Z",
       "summary": "The last three posts have been about Stan Wagon’s algorithm for finding x and y satisfying x² + y² = p where p is an odd prime. The first post in the series gives Gauss’ formula for a solution, but shows why it is impractical for large p. The bottom of this post introduces Wagon’s […] The post Wagon’s algorithm in Python first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Instruction decoding in the Intel 8087 floating-point chip",
+      "link": "http://www.righto.com/feeds/8201340188892833254/comments/default",
+      "date": "2026-02-14T16:48:29.085000Z",
+      "summary": "",
+      "source": "righto.com"
     }
   ]
 }
