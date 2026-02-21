@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T17:11:20.434878Z",
+  "generated_at": "2026-02-21T18:14:14.591463Z",
   "items": [
     {
       "title": "Reading List 02/21/26",
@@ -56,6 +56,13 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -273,13 +280,6 @@
       "date": "2026-02-15T03:54:10Z",
       "summary": "",
       "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Two different tricks for fast LLM inference",
-      "link": "https://seangoedecke.com/fast-llm-inference/",
-      "date": "2026-02-15T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
