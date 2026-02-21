@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-21T18:14:14.591463Z",
+  "generated_at": "2026-02-21T19:12:38.810926Z",
   "items": [
+    {
+      "title": "Computing big, certified Fibonacci numbers",
+      "link": "https://www.johndcook.com/blog/2026/02/21/big-certified-fibonacci/",
+      "date": "2026-02-21T18:13:13Z",
+      "summary": "I’ve written before about computing big Fibonacci numbers, and about creating a certificate to verify a Fibonacci number has been calculated correctly. This post will revisit both, giving a different approach to computing big Fibonacci numbers that produces a certificate along the way. As I’ve said before, I’m not aware of any practical reason to […] The post Computing big, certified Fibonacci numbers first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Reading List 02/21/26",
       "link": "https://www.construction-physics.com/p/reading-list-022126",
@@ -273,13 +280,6 @@
       "date": "2026-02-15T04:06:02Z",
       "summary": "A citizen of Rome in 117 AD, under Emperor Trajan, would've found it difficult to imagine the empire not existing. The roads, the aqueducts, the legal system, the trade networks stretching from Britain to Mesopotamia: all of it seemed to be a near-fact of nature, like gravity // the",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-02-15T03:54:10Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
     }
   ]
 }
