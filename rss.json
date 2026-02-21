@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-21T12:16:11.622613Z",
+  "generated_at": "2026-02-21T13:22:25.413713Z",
   "items": [
+    {
+      "title": "OpenBenches at FOSDEM",
+      "link": "https://shkspr.mobi/blog/2026/02/openbenches-at-fosdem/",
+      "date": "2026-02-21T12:34:03Z",
+      "summary": "At the recent FOSDEM, I did a very quick lightning talk about our OpenBenches project. Sadly, despite the best efforts of the AV team, the video had a missing section. I took my own audio recording and zipkid took some photos, so I was able to recreate it using the Flowblade video editor. Enjoy! Many thanks to Edward Betts for running the dev room and providing the display laptop. …",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Quoting Thibault Sottiaux",
       "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
@@ -168,13 +175,6 @@
       "date": "2026-02-18T20:50:00Z",
       "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Book Review: All Systems Red - The Murderbot Diaries by Martha Wells ★★⯪☆☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-all-systems-red-the-murderbot-diaries-by-martha-wells/",
-      "date": "2026-02-18T12:34:05Z",
-      "summary": "Everyone raves about this series, so I thought I'd grab the first book. It's basically fine, I guess. It is moderately amusing having the Muderbot be an awkward teenage boy who just wants to watch videos and cringes when people stare at him. But it is a bit one-note. Similarly, evil corporations hiding details from exo-planet surveyors is a trope which has been a thousand times before. This…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Thinking Improves Thinking",
