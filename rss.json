@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T11:09:45.687681Z",
+  "generated_at": "2026-02-21T12:16:11.622613Z",
   "items": [
     {
       "title": "Quoting Thibault Sottiaux",
@@ -14,6 +14,13 @@
       "date": "2026-02-21T00:37:45Z",
       "summary": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level. Looking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. [...] Anyway there are many others - e.g. nanobot, zeroclaw, ironclaw, picoclaw (lol @ prefixes). [...] Not 100% sure what my setup ends up looking like just yet but Claws are an awesome, exciting new layer of the AI stack. Andrej has an ear for fresh terminology (see vibe coding , agentic engineering ) and I think he's right about this one, too: \" Claw \" is becoming a term of art for the entire category of OpenClaw-like agent systems - AI agents that generally run on personal hardware, communicate via messaging protocols and can both act on direct instructions and schedule tasks. It even comes with an established emoji 🦞 Tags: definitions , ai , andrej-karpathy , generative-ai , llms , ai-agents , openclaw",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Wrapping Code Comments",
+      "link": "https://matklad.github.io/2026/02/21/wrapping-code-comments.html",
+      "date": "2026-02-21T00:00:00Z",
+      "summary": "I was today years old when I realized that:",
+      "source": "matklad.github.io"
     },
     {
       "title": "Whale Fall",
@@ -35,6 +42,13 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -266,20 +280,6 @@
       "date": "2026-02-15T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Wagon’s algorithm in Python",
-      "link": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
-      "date": "2026-02-14T23:06:41Z",
-      "summary": "The last three posts have been about Stan Wagon’s algorithm for finding x and y satisfying x² + y² = p where p is an odd prime. The first post in the series gives Gauss’ formula for a solution, but shows why it is impractical for large p. The bottom of this post introduces Wagon’s […] The post Wagon’s algorithm in Python first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Instruction decoding in the Intel 8087 floating-point chip",
-      "link": "http://www.righto.com/feeds/8201340188892833254/comments/default",
-      "date": "2026-02-14T16:48:29.085000Z",
-      "summary": "",
-      "source": "righto.com"
     }
   ]
 }
