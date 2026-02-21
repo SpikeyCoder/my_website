@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-21T03:02:40.485834Z",
+  "generated_at": "2026-02-21T04:37:46.396014Z",
   "items": [
     {
       "title": "Quoting Thibault Sottiaux",
       "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
       "date": "2026-02-21T01:30:21Z",
-      "summary": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai",
+      "summary": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
       "source": "simonwillison.net"
     },
     {
