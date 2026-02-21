@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T19:12:38.810926Z",
+  "generated_at": "2026-02-21T20:10:13.105225Z",
   "items": [
     {
       "title": "Computing big, certified Fibonacci numbers",
@@ -63,13 +63,6 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-      "date": "2026-02-20T20:00:30Z",
-      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -280,6 +273,13 @@
       "date": "2026-02-15T04:06:02Z",
       "summary": "A citizen of Rome in 117 AD, under Emperor Trajan, would've found it difficult to imagine the empire not existing. The roads, the aqueducts, the legal system, the trade networks stretching from Britain to Mesopotamia: all of it seemed to be a near-fact of nature, like gravity // the",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-02-15T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     }
   ]
 }
