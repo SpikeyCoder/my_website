@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T20:10:13.105225Z",
+  "generated_at": "2026-02-21T21:10:10.453192Z",
   "items": [
     {
       "title": "Computing big, certified Fibonacci numbers",
@@ -44,6 +44,13 @@
       "source": "matklad.github.io"
     },
     {
+      "title": "Track Zelda release anniversaries in your calendar",
+      "link": "https://evanhahn.com/zelda-anniversary-calendar/",
+      "date": "2026-02-21T00:00:00Z",
+      "summary": "The original Legend of Zelda came out 40 years ago today. With other birthdays on the horizon, like Twilight Princess ’s 20th in November, I wanted a calendar that showed the anniversary of every Zelda game. So I made one. Subscribe to this URL in your calendar app: https://evanhahn.com/tape/zelda_anniversaries.ics Once you do, you’ll get calendar events on the anniversary of each game’s release. For example, you’ll be able to see that the Oracle games turn 25 in less than a week…I feel old. If you want to build this file yourself, I wrote a little Python script that generates an ICS file from a CSV of release dates .",
+      "source": "evanhahn.com"
+    },
+    {
       "title": "Whale Fall",
       "link": "https://nesbitt.io/2026/02/21/whale-fall.html",
       "date": "2026-02-21T00:00:00Z",
@@ -63,6 +70,13 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -266,20 +280,6 @@
       "date": "2026-02-15T19:19:08Z",
       "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "The empire always falls",
-      "link": "https://www.joanwestenberg.com/the-empire-always-falls/",
-      "date": "2026-02-15T04:06:02Z",
-      "summary": "A citizen of Rome in 117 AD, under Emperor Trajan, would've found it difficult to imagine the empire not existing. The roads, the aqueducts, the legal system, the trade networks stretching from Britain to Mesopotamia: all of it seemed to be a near-fact of nature, like gravity // the",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-02-15T03:54:10Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
     }
   ]
 }
