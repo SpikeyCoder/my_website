@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-22T00:46:56.948384Z",
+  "generated_at": "2026-02-22T01:40:15.284020Z",
   "items": [
+    {
+      "title": "10,000,000th Fibonacci number",
+      "link": "https://www.johndcook.com/blog/2026/02/21/f10000000/",
+      "date": "2026-02-22T01:00:31Z",
+      "summary": "I’ve written a couple times about Fibonacci numbers and certificates. Here the certificate is auxiliary data that makes it faster to confirm that the original calculation was correct. This post puts some timing numbers to this. I calculated the 10 millionth Fibonacci number using code from this post. n = 10_000_000 F = fib_mpmath(n) This […] The post 10,000,000th Fibonacci number first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Nvidia was only invited to invest",
       "link": "https://idiallo.com/byte-size/nvidia-was-only-invited-to-invest?src=feed",
@@ -273,13 +280,6 @@
       "date": "2026-02-16T00:00:00Z",
       "summary": "This is an excellent video about modern UI/UX: \"The Hidden Cost of 'Clean' Design.\" I highly recommend watching it and checking out Ilia's other work. I agree with nearly everything in the video, including this standout quote: If you want to understand a generation, don't listen to what its witnesses say. Look at what it creates. Ilia compares Apple Music and Winamp. One is modern and \"clean\", the other feels \"dated\" to many people. Why does it feel dated? Because it has character. A distinctive style. It is visible . And modern interfaces are so devoid of character and look the same across companies and industries because designers tend to think that good UI should be invisible. This is where I disagree with... well, I’m not sure if it’s Ilia or the general sentiment. Do UX designers today really think their interfaces are invisible? I mean yeah, technically many of them are invisible in a literal sense: transparency and the lack of contrast dialed up to a fault. But I don't think this is what they mean. They mean \"invisible\" in the sense that you don't see the app; instead, you \"experience joy\" with music, \"get entertained\" by streaming, or \"relive memories\" through photos. Winamp and other \"old-school\" programs possess prominent visual features that reflect the personality of their creators. You could argue that such a distinct character adds a visual layer that distracts from the media itself. Yet, I find modern interfaces far more distracting. Not because of colors or shapes, but because in their pursuit of invisibility, designers have created unintuitive, multi-dimensional structures that we are forced to navigate. Structures with almost no connection to reality. Winamp never made me feel stupid. Modern apps make me feel like I'm losing my mind sometimes. Instead of looking at a single screen with many colorful, high-contrast buttons and sliders, I'm flying through ephereal spaces connected with counter-intuitive links that lack consistent visual cues, with animations that do not represent the spatial structure at all. For example, some screens slide from the bottom as if there's a 3D-structure, but another screen would jump out of an icon and completely break that model in my mind. Animations and visual elements no longer represent a coherent model. It all feels like a dream. Structures are fluid and don't really build up into a clear model, ever. (This reminds me of LLM's lack of world model. Perhaps we're training ourselves to be more aligned with AI.) So, on the surface it looks cleaner, but in my mind Apple Music is a lot more dirty, confusing, and disorienting. Like an attractive sociopath.",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Race between primes of the forms 4k + 1 and 4k + 3",
-      "link": "https://www.johndcook.com/blog/2026/02/15/chebyshev-bias/",
-      "date": "2026-02-15T19:19:08Z",
-      "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
-      "source": "johndcook.com"
     }
   ]
 }
