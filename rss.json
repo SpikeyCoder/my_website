@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-22T15:11:12.248171Z",
+  "generated_at": "2026-02-22T16:12:18.072927Z",
   "items": [
+    {
+      "title": "How I think about Codex",
+      "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+      "date": "2026-02-22T15:53:43Z",
+      "summary": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent, available through multiple interfaces, and an agent is a model plus instructions and tools, wrapped in a runtime that can execute tasks on your behalf. [...] At a high level, I see Codex as three parts working together: Codex = Model + Harness + Surfaces [...] Model + Harness = the Agent Surfaces = how you interact with the Agent He defines the harness as \"the collection of instructions and tools\", which is notably open source and lives in the openai/codex repository. Gabriel also provides the first acknowledgment I've seen from an OpenAI insider that the Codex model family are directly trained for the Codex harness: Codex models are trained in the presence of the harness. Tool use, execution loops, compaction, and iterative verification aren’t bolted on behaviors — they’re part of how the model learns to operate. The harness, in turn, is shaped around how the model plans, invokes tools, and recovers from failure. Tags: definitions , openai , generative-ai , llms , ai-assisted-programming , codex-cli",
+      "source": "simonwillison.net"
+    },
     {
       "title": "How close are we to a vision for 2010?",
       "link": "https://shkspr.mobi/blog/2026/02/how-close-are-we-to-a-vision-for-2010/",
@@ -91,13 +98,6 @@
       "date": "2026-02-21T00:00:00Z",
       "summary": "What happens when a large open source project dies.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Adding TILs, releases, museums, tools and research to my blog",
-      "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
-      "date": "2026-02-20T23:47:10Z",
-      "summary": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what beats look like: Those three are from the 30th December 2025 archive page. Beats are little inline links with badges that fit into different content timeline views around my site, including the homepage, search and archive pages. There are currently five types of beats: Releases are GitHub releases of my many different open source projects, imported from this JSON file that was constructed by GitHub Actions . TILs are the posts from my TIL blog , imported using a SQL query over JSON and HTTP against the Datasette instance powering that site. Museums are new posts on my niche-museums.com blog, imported from this custom JSON feed . Tools are HTML and JavaScript tools I've vibe-coded on my tools.simonwillison.net site, as described in Useful patterns for building HTML tools . Research is for AI-generated research projects, hosted in my simonw/research repo and described in Code research projects with async coding agents like Claude Code and Codex . That's five different custom integrations to pull in all of that data. The good news is that this kind of integration project is the kind of thing that coding agents really excel at. I knocked most of the feature out in a single morning while working in parallel on various other things. I didn't have a useful structured feed of my Research projects, and it didn't matter because I gave Claude Code a link to the raw Markdown README that lists them all and it spun up a parser regex . Since I'm responsible for both the source and the destination I'm fine with a brittle solution that would be too risky against a source that I don't control myself. Claude also handled all of the potentially tedious UI integration work with my site, making sure the new content worked on all of my different page types and was handled correctly by my faceted search engine . Prototyping with Claude Artifacts I actually prototyped the initial concept for beats in regular Claude - not Claude Code - taking advantage of the fact that it can clone public repos from GitHub these days. I started with: Clone simonw/simonwillisonblog and tell me about the models and views And then later in the brainstorming session said: use the templates and CSS in this repo to create a new artifact with all HTML and CSS inline that shows me my homepage with some of those inline content types mixed in After some iteration we got to this artifact mockup , which was enough to convince me that the concept had legs and was worth handing over to full Claude Code for web to implement. If you want to see how the rest of the build played out the most interesting PRs are Beats #592 which implemented the core feature and Add Museums Beat importer #595 which added the Museums content type. Tags: blogging , museums , ai , til , generative-ai , llms , ai-assisted-programming , claude-artifacts , claude-code",
-      "source": "simonwillison.net"
     },
     {
       "title": "The unbearable weight of cruft",
