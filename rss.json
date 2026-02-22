@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-22T10:10:51.506891Z",
+  "generated_at": "2026-02-22T11:09:58.050659Z",
   "items": [
+    {
+      "title": "Forge-Specific Repository Folders",
+      "link": "https://nesbitt.io/2026/02/22/forge-specific-repository-folders.html",
+      "date": "2026-02-22T10:00:00Z",
+      "summary": "Magic folders in git forges: what .github/, .gitlab/, .gitea/, .forgejo/ and .bitbucket/ do.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "10,000,000th Fibonacci number",
       "link": "https://www.johndcook.com/blog/2026/02/21/f10000000/",
@@ -189,13 +196,6 @@
       "date": "2026-02-19T12:34:33Z",
       "summary": "PC Gamer is reporting that the current demand by AI companies for computer chips is having a disastrous effect on the rest of the industry. In an interview, the CEO of Phison said: If NVIDIA Vera Rubin ships tens of millions of units, each requiring 20+TB SSDs, it will consume approximately 20% of last year's global NAND production capacity 駿HaYaO NAND is a type of microchip. Rather than b…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Go Modules for Package Management Tooling",
-      "link": "https://nesbitt.io/2026/02/19/go-modules-for-package-management-tooling.html",
-      "date": "2026-02-19T00:00:00Z",
-      "summary": "The Go modules behind git-pkgs, rebuilt from my Ruby supply chain libraries.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’",
