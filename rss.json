@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-21T23:11:04.831137Z",
+  "generated_at": "2026-02-22T00:46:56.948384Z",
   "items": [
+    {
+      "title": "Nvidia was only invited to invest",
+      "link": "https://idiallo.com/byte-size/nvidia-was-only-invited-to-invest?src=feed",
+      "date": "2026-02-21T23:35:48Z",
+      "summary": "Nvidia was only invited to invest. That is one reversal of commitment. Remember that graph that has been circling around for some time now? The one that shows the circular investment from AI companies: Basically Nvidia will invest $100 billion in OpenAI. OpenAI will then invest $300 billion in Oracle, then Oracle invests back into Nvidia. Now, Jensen Huang, the Nvidia CEO, is back tracking and saying he never made that commitment . “It was never a commitment. They invited us to invest up to $100 billion and of course, we were, we were very happy and honored that they invited us, but we will invest one step at a time.” So he never committed? Did we make up all these graphs in our head? Was it a misquote from a journalist somewhere that sparkled all this frenzy? Well, you can take a look in OpenAI press release in September of 2025 . They wrote: NVIDIA intends to invest up to $100 billion in OpenAI as the new NVIDIA systems are deployed. In fact, Jensen Huang went on to say: “NVIDIA and OpenAI have pushed each other for a decade, from the first DGX supercomputer to the breakthrough of ChatGPT. This investment and infrastructure partnership mark the next leap forward—deploying 10 gigawatts to power the next era of intelligence.” It sounds like Jensen is distancing himself from that $100 billion commitment. Did he take a peak inside OpenAI and change his mind? At the same time, OpenAI is experimenting with ads. Sam Altman stated before that they would only ever use ads as a last resort. It sounds like we are in the phase.",
+      "source": "idiallo.com"
+    },
     {
       "title": "Computing big, certified Fibonacci numbers",
       "link": "https://www.johndcook.com/blog/2026/02/21/big-certified-fibonacci/",
@@ -70,6 +77,13 @@
       "date": "2026-02-20T22:54:49Z",
       "summary": "",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
@@ -247,13 +261,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Programming is free",
-      "link": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
-      "date": "2026-02-16T12:00:00Z",
-      "summary": "A college student on his spring break contacted me for a meeting. At the time, I had my own startup and was navigating the world of startup school with Y Combinator and the publicity from TechCrunch. This student wanted to meet with me to gain insight on the project he was working on. We met in a cafe, and he went straight to business. He opened his MacBook Pro, and I glimpsed at the website he and his partner had created. It was a marketplace for college students. You could sell your items to other students in your dorm. I figured this was a real problem he'd experienced and wanted to solve. But after his presentation, I only had one question in mind, about something he had casually dropped into his pitch without missing a beat. He was paying $200 a month for a website with little to no functionality. To add to it, the website was slow. In fact, it was so slow that he reassured me the performance problems should disappear once they upgraded to the next tier. Let's back up for a minute. When I was getting started, I bought a laptop for $60. A defective PowerBook G4 that was destined for the landfill. I downloaded BBEdit, installed MAMP, and in little to no time I had clients on Craigslist. That laptop paid for itself at least 500 times over. Then a friend gave me her old laptop, a Dell Inspiron e1505. That one paved the way to a professional career that landed me jobs in Fortune 10 companies. I owe it all not only to the cheap devices I used to propel my career and make a living, but also to the free tools that were available. My IDE was Vim. My language was PHP, a language that ran on almost every server for the price of a shared hosting plan that cost less than a pizza. My cloud was a folder on that server. My AI pair programmer was a search engine and a hope that someone, somewhere, had the same problem I did and had posted the solution on a forum. The only barrier to entry was the desire to learn. Fast forward to today, every beginner is buying equipment that can simulate the universe. Before they start their first line of code, they have subscriptions to multiple paid services. It's not because the free tools have vanished, but because the entire narrative around how to get started is now dominated by paid tools and a new kind of gatekeeper: the influencer. When you get started with programming today, the question is \"which tool do I need to buy?\" The simple LAMP stack (Linux, Apache, MySQL, PHP) that launched my career and that of thousands of developers is now considered quaint. Now, beginners start with AWS. Some get the certification before they write a single line of code. Every class and bootcamp sells them on the cloud. It's AWS, it's Vercel, it's a dozen other platforms with complex pricing models designed for scale, not for someone building their first \"Hello, World!\" app. Want to build something modern? You'll need an API key for this service, a paid tier for that database, and a hosting plan that charges by the request. Even the code editor, once a simple download, is now often a SaaS product with a subscription. Are you going to use an IDE without an AI assistant? Are you a dinosaur? To be a productive programmer, you need a subscription to an AI. It may be a fruitless attempt, but I'll say it anyway. You don't need any paid tools to start learning programming and building your first side project. You never did. The free tools are still there. Git, VS Code (which is still free and excellent!), Python, JavaScript, Node.js, a million static site generators. They are all still completely, utterly free. New developers are not gravitating towards paid tools by accident. Other than code bootcamps selling them on the idea, the main culprit is their medium of learning. The attention economy. As a beginner, you're probably lost. When I was lost, I read documentation until my eyes bled. It was slow, frustrating, and boring. But it was active. I was engaging with the code, wrestling with it line by line. Today, when a learner is lost, they go to YouTube. A question I am often asked is: Do you know [YouTuber Name]? He makes some pretty good videos. And they're right. The YouTuber is great. They're charismatic, they break down complex topics, and they make it look easy. In between, they promote Hostinger or whichever paid tool is sponsoring them today. But the medium is the message, and the message of YouTube is passive consumption . You watch, you nod along, you feel like you're learning. And then the video ends. An algorithm, designed to keep you watching, instantly serves you the next shiny tutorial . You click. You watch. You never actually practice. Now instead of just paying money for the recommended tool, you are also paying an invisible cost. You are paying with your time and your focus. You're trading the deep, frustrating, but essential work of building for the shallow, easy dopamine hit of watching someone else build. The influencer's goal is to keep you watching. The platform's goal is to keep you scrolling. Your goal should be to stop watching and start typing. These goals are at odds. I told that student he was paying a high cost for his hobby project. A website with a dozen products and images shouldn't cost more than a $30 Shopify subscription. If you feel more daring and want to do the work yourself, a $5 VPS is a good start. You can install MySQL, Rails, Postgres, PHP, Python, Node, or whatever you want on your server. If your project gains popularity, scaling it wouldn't be too bad. If it fails, the financial cost is a drop in a bucket. His story stuck with me because it wasn't unique. It's the default path now: spend first, learn second. But it doesn't have to be. You don't need an AI subscription. You don't need a YouTuber. You need a text editor (free), a language runtime (free), and a problem you want to solve. You need to get bored enough to open a terminal and start tinkering. The greatest gift you can give yourself as a new programmer isn't a $20/month AI tool or a library of tutorial playlists. It's the willingness to stare at a blinking cursor and a cryptic error message until you figure it out yourself. Remember, my $60 defective laptop launched a career. That student's $200/month website taught him to wait for someone else to fix his problems. The only difference between us was our approach. The tools for learning are, and have always been, free. Don't let anyone convince you otherwise.",
-      "source": "idiallo.com"
-    },
-    {
       "title": "Diagnostics Factory",
       "link": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
       "date": "2026-02-16T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-02-15T19:19:08Z",
       "summary": "The last few posts have looked at expressing an odd prime p as a sum of two squares. This is possible if and only if p is of the form 4k + 1. I illustrated an algorithm for finding the squares with p = 2255 − 19, a prime that is used in cryptography. It is being […] The post Race between primes of the forms 4k + 1 and 4k + 3 first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "The empire always falls",
-      "link": "https://www.joanwestenberg.com/the-empire-always-falls/",
-      "date": "2026-02-15T04:06:02Z",
-      "summary": "A citizen of Rome in 117 AD, under Emperor Trajan, would've found it difficult to imagine the empire not existing. The roads, the aqueducts, the legal system, the trade networks stretching from Britain to Mesopotamia: all of it seemed to be a near-fact of nature, like gravity // the",
-      "source": "joanwestenberg.com"
     }
   ]
 }
