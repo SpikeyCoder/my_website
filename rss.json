@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-22T18:15:08.427606Z",
+  "generated_at": "2026-02-22T19:13:15.200249Z",
   "items": [
+    {
+      "title": "The Orality Theory of Everything",
+      "link": "https://www.theatlantic.com/ideas/2026/02/social-media-literacy-crisis/686076/?utm_source=feed",
+      "date": "2026-02-22T18:37:43Z",
+      "summary": "The decline of reading and the rise of social media are again transforming what it feels like to be a thinking person.",
+      "source": "derekthompson.org"
+    },
+    {
+      "title": "Exahash, Zettahash, Yottahash",
+      "link": "https://www.johndcook.com/blog/2026/02/22/zettahash/",
+      "date": "2026-02-22T18:30:40Z",
+      "summary": "When I first heard of cryptographic hash functions, they were called “one-way functions” and seemed like a mild curiosity. I had no idea that one day the world would compute a mind-boggling number of hashes every second. Because Bitcoin mining requires computing hash functions to solve proof-of-work problems, the world currently computes around 1,000,000,000,000,000,000,000 hashes, […] The post Exahash, Zettahash, Yottahash first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "How I think about Codex",
       "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
@@ -14,13 +28,6 @@
       "date": "2026-02-22T12:34:58Z",
       "summary": "Twenty five years ago today, the EU's IST advisory group published a paper about the future of \"Ambient Intelligence\". Way before the world got distracted with cryptoscams and AI slop, we genuinely thought that computers would be so pervasive and well-integrated that the dream of \"Ubiquitous Computing\" would become a reality. The ISTAG published an optimistic paper called \"Scenarios for ambient…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "The Orality Theory of Everything",
-      "link": "https://www.theatlantic.com/ideas/2026/02/social-media-literacy-crisis/686076/?utm_source=feed",
-      "date": "2026-02-22T12:01:56Z",
-      "summary": "The decline of reading and the rise of social media are again transforming what it feels like to be a thinking person.",
-      "source": "derekthompson.org"
     },
     {
       "title": "Forge-Specific Repository Folders",
@@ -266,13 +273,6 @@
       "date": "2026-02-16T21:30:00Z",
       "summary": "Over the weekend Ars Technica retracted an article because the AI a writer used hallucinated quotes from an open source library maintainer. The irony here is the maintainer in question, Scott Shambaugh, was harassed by someone's AI agent over not merging its AI slop code. It's likely the bot was running through someone's local 'agentic AI' instance (likely using OpenClaw). The guy who built OpenClaw was just hired by OpenAI to \"work on bringing agents to everyone.\" You'll have to forgive me if I'm not enthusastic about that.",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Visualizing orbital velocity",
-      "link": "https://www.johndcook.com/blog/2026/02/16/hodograph/",
-      "date": "2026-02-16T21:24:45Z",
-      "summary": "The shape of a planet’s orbit around a star is an ellipse. To put it another way, a plot of the position of a planet’s orbit over time forms an ellipse. What about the velocity? Is its plot also an ellipse? Surprisingly, a plot of the velocity forms a circle even if a plot of […] The post Visualizing orbital velocity first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Diagnostics Factory",
