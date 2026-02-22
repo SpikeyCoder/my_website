@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-22T19:13:15.200249Z",
+  "generated_at": "2026-02-22T20:10:32.086142Z",
   "items": [
+    {
+      "title": "Bitcoin mining difficulty",
+      "link": "https://www.johndcook.com/blog/2026/02/22/bitcoin-mining-difficulty/",
+      "date": "2026-02-22T19:17:58Z",
+      "summary": "The previous post looked at the Bitcoin network hash rate, currently around one zettahash per second, i.e. 1021 hashes per second. The difficulty of mining a Bitcoin block adjusts over time to keep the rate of block production relatively constant, around one block every 10 minutes. The plot below shows this in action. Notice the […] The post Bitcoin mining difficulty first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "The Orality Theory of Everything",
       "link": "https://www.theatlantic.com/ideas/2026/02/social-media-literacy-crisis/686076/?utm_source=feed",
@@ -49,13 +56,6 @@
       "date": "2026-02-21T23:35:48Z",
       "summary": "Nvidia was only invited to invest. That is one reversal of commitment. Remember that graph that has been circling around for some time now? The one that shows the circular investment from AI companies: Basically Nvidia will invest $100 billion in OpenAI. OpenAI will then invest $300 billion in Oracle, then Oracle invests back into Nvidia. Now, Jensen Huang, the Nvidia CEO, is back tracking and saying he never made that commitment . “It was never a commitment. They invited us to invest up to $100 billion and of course, we were, we were very happy and honored that they invited us, but we will invest one step at a time.” So he never committed? Did we make up all these graphs in our head? Was it a misquote from a journalist somewhere that sparkled all this frenzy? Well, you can take a look in OpenAI press release in September of 2025 . They wrote: NVIDIA intends to invest up to $100 billion in OpenAI as the new NVIDIA systems are deployed. In fact, Jensen Huang went on to say: “NVIDIA and OpenAI have pushed each other for a decade, from the first DGX supercomputer to the breakthrough of ChatGPT. This investment and infrastructure partnership mark the next leap forward—deploying 10 gigawatts to power the next era of intelligence.” It sounds like Jensen is distancing himself from that $100 billion commitment. Did he take a peak inside OpenAI and change his mind? At the same time, OpenAI is experimenting with ads. Sam Altman stated before that they would only ever use ads as a last resort. It sounds like we are in the phase.",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Computing big, certified Fibonacci numbers",
-      "link": "https://www.johndcook.com/blog/2026/02/21/big-certified-fibonacci/",
-      "date": "2026-02-21T18:13:13Z",
-      "summary": "I’ve written before about computing big Fibonacci numbers, and about creating a certificate to verify a Fibonacci number has been calculated correctly. This post will revisit both, giving a different approach to computing big Fibonacci numbers that produces a certificate along the way. As I’ve said before, I’m not aware of any practical reason to […] The post Computing big, certified Fibonacci numbers first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Reading List 02/21/26",
