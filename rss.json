@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-22T23:11:24.491827Z",
+  "generated_at": "2026-02-23T00:47:08.701097Z",
   "items": [
+    {
+      "title": "The Claude C Compiler: What It Reveals About the Future of Software",
+      "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
+      "date": "2026-02-22T23:58:43Z",
+      "summary": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He just published this review of the code. Some points that stood out to me: Good software depends on judgment, communication, and clear abstraction. AI has amplified this. AI coding is automation of implementation, so design and stewardship become more important. Manual rewrites and translation work are becoming AI-native tasks, automating a large category of engineering effort. Chris is generally impressed with CCC (the Claude C Compiler): Taken together, CCC looks less like an experimental research compiler and more like a competent textbook implementation, the sort of system a strong undergraduate team might build early in a project before years of refinement. That alone is remarkable. It's a long way from being a production-ready compiler though: Several design choices suggest optimization toward passing tests rather than building general abstractions like a human would. [...] These flaws are informative rather than surprising, suggesting that current AI systems excel at assembling known techniques and optimizing toward measurable success criteria, while struggling with the open-ended generalization required for production-quality systems. The project also leads to deep open questions about how agentic engineering interacts with licensing and IP for both open source and proprietary code: If AI systems trained on decades of publicly available code can reproduce familiar structures, patterns, and even specific implementations, where exactly is the boundary between learning and copying? Tags: c , compilers , open-source , ai , ai-assisted-programming , anthropic , claude , nicholas-carlini , coding-agents",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "London Stock Exchange: Raspberry Pi Holdings plc",
+      "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
+      "date": "2026-02-22T23:54:39Z",
+      "summary": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's tiny computers can be used to power a popular AI chatbot. Users have turned to Raspberry Pi's small computers to run a technology known as OpenClaw, a viral AI personal assistant . A flood of posts about the practice have been viewed millions of times since the weekend. Reuters also credit a stock purchase by CEO Eben Upton : Shares in Raspberry Pi rose as much as 42% on Tuesday in ‌a record two‑day rally after CEO Eben Upton bought ‌stock in the beaten‑down UK computer hardware firm, halting a months‑long slide, ​as chatter grew that its products could benefit from low‑cost artificial‑intelligence projects. Two London traders said the driver behind the surge was not clear, though the move followed a filing showing Upton bought ‌about 13,224 pounds ⁠worth of shares at around 282 pence each on Monday. Tags: ai , generative-ai , raspberry-pi , llms , ai-agents , openclaw",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Sentry",
       "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
@@ -77,20 +91,6 @@
       "date": "2026-02-21T12:34:03Z",
       "summary": "At the recent FOSDEM, I did a very quick lightning talk about our OpenBenches project. Sadly, despite the best efforts of the AV team, the video had a missing section. I took my own audio recording and zipkid took some photos, so I was able to recreate it using the Flowblade video editor. Enjoy! Many thanks to Edward Betts for running the dev room and providing the display laptop. …",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Quoting Thibault Sottiaux",
-      "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-      "date": "2026-02-21T01:30:21Z",
-      "summary": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Andrej Karpathy talks about \"Claws\"",
-      "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
-      "date": "2026-02-21T00:37:45Z",
-      "summary": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level. Looking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. [...] Anyway there are many others - e.g. nanobot, zeroclaw, ironclaw, picoclaw (lol @ prefixes). [...] Not 100% sure what my setup ends up looking like just yet but Claws are an awesome, exciting new layer of the AI stack. Andrej has an ear for fresh terminology (see vibe coding , agentic engineering ) and I think he's right about this one, too: \" Claw \" is becoming a term of art for the entire category of OpenClaw-like agent systems - AI agents that generally run on personal hardware, communicate via messaging protocols and can both act on direct instructions and schedule tasks. It even comes with an established emoji 🦞 Tags: definitions , ai , andrej-karpathy , generative-ai , llms , ai-agents , openclaw",
-      "source": "simonwillison.net"
     },
     {
       "title": "Wrapping Code Comments",
