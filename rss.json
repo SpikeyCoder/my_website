@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T16:27:06.842339Z",
+  "generated_at": "2026-02-23T17:31:04.530819Z",
   "items": [
     {
       "title": "Writing code is cheap now",
@@ -163,6 +163,13 @@
       "source": "joanwestenberg.com"
     },
     {
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "date": "2026-02-20T20:00:30Z",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "The 2026/2027 Seattle Symphony subscription season at a glance",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260220-01/?p=112076",
       "date": "2026-02-20T15:00:01Z",
@@ -273,13 +280,6 @@
       "date": "2026-02-17T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "AI is destroying Open Source, and it's not even good yet",
-      "link": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
-      "date": "2026-02-16T21:30:00Z",
-      "summary": "Over the weekend Ars Technica retracted an article because the AI a writer used hallucinated quotes from an open source library maintainer. The irony here is the maintainer in question, Scott Shambaugh, was harassed by someone's AI agent over not merging its AI slop code. It's likely the bot was running through someone's local 'agentic AI' instance (likely using OpenClaw). The guy who built OpenClaw was just hired by OpenAI to \"work on bringing agents to everyone.\" You'll have to forgive me if I'm not enthusastic about that.",
-      "source": "jeffgeerling.com"
     }
   ]
 }
