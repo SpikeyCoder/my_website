@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-23T20:20:28.399920Z",
+  "generated_at": "2026-02-23T21:23:10.966659Z",
   "items": [
+    {
+      "title": "Portable monitors are good",
+      "link": "https://xeiaso.net/blog/2026/portable-monitors-are-good/",
+      "date": "2026-02-24T00:00:00Z",
+      "summary": "A review of portable monitors for travel",
+      "source": "xeiaso.net"
+    },
     {
       "title": "Giant Steps",
       "link": "https://www.johndcook.com/blog/2026/02/23/giant-steps/",
@@ -88,6 +95,13 @@
     {
       "title": "Insider amnesia",
       "link": "https://seangoedecke.com/insider-amnesia/",
+      "date": "2026-02-23T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "What's so hard about continuous learning?",
+      "link": "https://seangoedecke.com/continuous-learning/",
       "date": "2026-02-23T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
@@ -266,20 +280,6 @@
       "date": "2026-02-18T00:00:00Z",
       "summary": "Mega update on Pebble Time 2, Pebble Round 2 and Index 01 Things are busy in Pebbleland! We’re getting close to shipping 3 new hardware…",
       "source": "ericmigi.com"
-    },
-    {
-      "title": "Anubis v1.25.0: Necron",
-      "link": "https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0",
-      "date": "2026-02-18T00:00:00Z",
-      "summary": "",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "LLM-generated skills work, if you generate them afterwards",
-      "link": "https://seangoedecke.com/generate-skills-afterwards/",
-      "date": "2026-02-17T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
