@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-24T01:41:40.754253Z",
+  "generated_at": "2026-02-24T03:09:27.181417Z",
   "items": [
+    {
+      "title": "Copy and paste law",
+      "link": "https://www.johndcook.com/blog/2026/02/23/copy-and-paste-law/",
+      "date": "2026-02-24T01:56:23Z",
+      "summary": "I was doing some research today and ran into a couple instances where part of one law was copied and pasted verbatim into another law. I suppose this is not uncommon, but I’m not a lawyer, so I don’t have that much experience comparing laws. I do, however, consult for lawyers and have to look […] The post Copy and paste law first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Agentic swarms are an org-chart delusion",
       "link": "https://www.joanwestenberg.com/agentic-swarms-are-an-org-chart-delusion/",
@@ -140,13 +147,6 @@
       "date": "2026-02-23T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Bitcoin mining difficulty",
-      "link": "https://www.johndcook.com/blog/2026/02/22/bitcoin-mining-difficulty/",
-      "date": "2026-02-22T19:17:58Z",
-      "summary": "The previous post looked at the Bitcoin network hash rate, currently around one zettahash per second, i.e. 1021 hashes per second. The difficulty of mining a Bitcoin block adjusts over time to keep the rate of block production relatively constant, around one block every 10 minutes. The plot below shows this in action. Notice the […] The post Bitcoin mining difficulty first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "How close are we to a vision for 2010?",
