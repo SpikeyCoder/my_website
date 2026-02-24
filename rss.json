@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-24T00:43:21.755885Z",
+  "generated_at": "2026-02-24T01:41:40.754253Z",
   "items": [
+    {
+      "title": "Agentic swarms are an org-chart delusion",
+      "link": "https://www.joanwestenberg.com/agentic-swarms-are-an-org-chart-delusion/",
+      "date": "2026-02-24T01:07:08Z",
+      "summary": "The \"agentic swarm\" vision of productivity is comfortingly familiar. Which should be an immediate red flag... You take the existing corporate hierarchy, you replace the bottom layers with a swarm of AI agents, and you keep humans around as supervisors. It's an org chart with robots",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "The Pants-Shitting Saga of Resizing Windows on MacOS 26 Tahoe Continues",
       "link": "https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/",
@@ -196,13 +203,6 @@
       "date": "2026-02-21T00:00:00Z",
       "summary": "What happens when a large open source project dies.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "The unbearable weight of cruft",
-      "link": "https://www.joanwestenberg.com/the-unbearable-weight-of-cruft/",
-      "date": "2026-02-20T22:54:49Z",
-      "summary": "",
-      "source": "joanwestenberg.com"
     },
     {
       "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
