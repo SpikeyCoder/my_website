@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-24T14:29:39.584696Z",
+  "generated_at": "2026-02-24T15:27:41.624836Z",
   "items": [
+    {
+      "title": "Customizing the ways the dialog manager dismisses itself: Isolating the Close pathway",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260224-00/?p=112082",
+      "date": "2026-02-24T15:00:00Z",
+      "summary": "Intercepting the flow in your message loop. The post Customizing the ways the dialog manager dismisses itself: Isolating the Close pathway appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Adding OpenStreetMap login to Auth0",
       "link": "https://shkspr.mobi/blog/2026/02/adding-openstreetmap-login-to-auth0/",
@@ -230,13 +237,6 @@
       "link": "https://devblogs.microsoft.com/oldnewthing/20260220-01/?p=112076",
       "date": "2026-02-20T15:00:01Z",
       "summary": "The pocket reference guide for 2026/2027. The post The 2026/2027 Seattle Symphony subscription season at a glance appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260220-00/?p=112074",
-      "date": "2026-02-20T15:00:00Z",
-      "summary": "Sniffing the asynchronous keyboard state. The post Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, first (failed) attempt appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
