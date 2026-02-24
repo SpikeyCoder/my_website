@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-24T16:30:45.727182Z",
+  "generated_at": "2026-02-24T17:28:53.692808Z",
   "items": [
+    {
+      "title": "Inside Microsoft’s Xbox Leadership Shake-Up",
+      "link": "https://www.theverge.com/tech/883015/microsoft-xbox-new-ceo-shakeup-notepad?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InRTTTJnMGhOeHUiLCJwIjoiL3RlY2gvODgzMDE1L21pY3Jvc29mdC14Ym94LW5ldy1jZW8tc2hha2V1cC1ub3RlcGFkIiwiZXhwIjoxNzcyMzg1MDQ2LCJpYXQiOjE3NzE5NTMwNDZ9.e7qs5kHGt3-WwS9kfU9b59hS8SP6Z1OLePryV76Mzu4",
+      "date": "2026-02-24T17:24:34Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "NetNewsWire 7 for Mac",
       "link": "https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html",
@@ -19,7 +26,7 @@
       "title": "go-size-analyzer",
       "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
       "date": "2026-02-24T16:10:06Z",
-      "summary": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev - which means you can open compiled Go binaries and analyze them directly in your browser. I tried it with a 8.1MB macOS compiled copy of my Go Showboat tool and got this: Tags: go , webassembly , showboat",
+      "summary": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev - which means you can open compiled Go binaries and analyze them directly in your browser. I tried it with a 8.1MB macOS compiled copy of my Go Showboat tool and got this: Via Datadog: How we reduced the size of our Agent Go binaries by up to 77% Tags: go , webassembly , showboat",
       "source": "simonwillison.net"
     },
     {
@@ -28,13 +35,6 @@
       "date": "2026-02-24T15:00:00Z",
       "summary": "Intercepting the flow in your message loop. The post Customizing the ways the dialog manager dismisses itself: Isolating the Close pathway appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Adding OpenStreetMap login to Auth0",
-      "link": "https://shkspr.mobi/blog/2026/02/adding-openstreetmap-login-to-auth0/",
-      "date": "2026-02-24T12:34:21Z",
-      "summary": "So you want to add OSM as an OAuth provider to Auth0? Here's a tip - you do not want to create a custom social connection! Instead, you need to create an \"OpenID Connect\" provider. Here's how. OpenSteetMap As per the OAuth documentation you will need to: Register a new app at https://www.openstreetmap.org/oauth2/applications/ Give it a name that users will recognise Give it a redirect of…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "First run the tests",
@@ -70,13 +70,6 @@
       "date": "2026-02-24T01:07:08Z",
       "summary": "The \"agentic swarm\" vision of productivity is comfortingly familiar. Which should be an immediate red flag... You take the existing corporate hierarchy, you replace the bottom layers with a swarm of AI agents, and you keep humans around as supervisors. It's an org chart with robots",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "The Pants-Shitting Saga of Resizing Windows on MacOS 26 Tahoe Continues",
-      "link": "https://noheger.at/blog/2026/02/12/resizing-windows-on-macos-tahoe-the-saga-continues/",
-      "date": "2026-02-24T00:31:00Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Portable monitors are good",
@@ -128,13 +121,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Book Review: A Geography of Time by Robert V. Levine ★★★☆☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-a-geography-of-time-by-robert-v-levine/",
-      "date": "2026-02-23T12:34:07Z",
-      "summary": "This book doesn't know what it wants to be. Is it a sociology textbook, travel guide, history book, or guide to the mysteries of the world? Subtitled \"the temporal misadventures of a social psychologist\" it veers between hard data and well-worn anecdotes until it becomes a sort of self-help book for the time-poor 1990s American executive. Despite being well-caveated against the \"dangers in…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Little Red Dot",
       "link": "https://idiallo.com/blog/little-red-dot?src=feed",
       "date": "2026-02-23T12:00:00Z",
@@ -182,13 +168,6 @@
       "date": "2026-02-23T00:00:00Z",
       "summary": "I get it : Large Language Models are interesting... but you really should not give \"Agentic AI\" access to your computer, accounts or wallet. To do away with the hype: Open Claw, Antigravity and Claude Code are just LLMs with shell access, and at it's core, an LLM is a weighted random number generator. You have no idea what it is going to do : It could post your credit card number on social media. This isn't a theoretical concern. There are multiple cases of LLMs wiping peoples computers [1] [2] , cloud accounts [3] , and even causing infrastructure outages [4] . All of these could have been prevented if a human reviewed the output before it was executed, but the whole premise of \"Agentic AI\" is to not do that. What's worse, LLMs have a nasty habit of lying about what they did. What should a good assistant say when asked if it did something? \"Yes\", and did it delete the data­base? \"Of course not.\" They don't have to be hacked to ruin your day. If you want to try these tools out , run them in a virtual machine. Don't give them access to any accounts that you wouldn't want to lose. Read generated code to make sure it didn't do anything stupid like forgetting to check passwords: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors, attribute/varable names, file names */ h-s {color: #AEE;} /* Comments */ h-c {color: #777;} h-e {color: #F6F;} [...] // TODO: Validate PDU signature // TODO: Check authorization [...] // TODO: Validate the join event [...] // TODO: Return actual auth chain [...] // TODO: Check power levels [...] // TODO: Check permissions [...] (These are real comments from Cloudflare's vibe coded chat server ) ... and keep an eye on them to make sure they aren't being assholes on your behalf . Ideally, don't give them internet accesses in the first place.",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "How close are we to a vision for 2010?",
-      "link": "https://shkspr.mobi/blog/2026/02/how-close-are-we-to-a-vision-for-2010/",
-      "date": "2026-02-22T12:34:58Z",
-      "summary": "Twenty five years ago today, the EU's IST advisory group published a paper about the future of \"Ambient Intelligence\". Way before the world got distracted with cryptoscams and AI slop, we genuinely thought that computers would be so pervasive and well-integrated that the dream of \"Ubiquitous Computing\" would become a reality. The ISTAG published an optimistic paper called \"Scenarios for ambient…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Forge-Specific Repository Folders",
@@ -280,6 +259,27 @@
       "date": "2026-02-18T20:50:00Z",
       "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "link": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00Z",
+      "summary": "Mega update on Pebble Time 2, Pebble Round 2 and Index 01 Things are busy in Pebbleland! We’re getting close to shipping 3 new hardware…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "Anubis v1.25.0: Necron",
+      "link": "https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0",
+      "date": "2026-02-18T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "LLM-generated skills work, if you generate them afterwards",
+      "link": "https://seangoedecke.com/generate-skills-afterwards/",
+      "date": "2026-02-17T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
