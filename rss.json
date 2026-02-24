@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T20:16:44.041628Z",
+  "generated_at": "2026-02-24T21:17:44.263613Z",
   "items": [
     {
       "title": "Apple Will Begin Manufacturing Mac Minis in Houston Later This Year",
@@ -30,13 +30,6 @@
       "source": "antirez.com"
     },
     {
-      "title": "go-size-analyzer",
-      "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
-      "date": "2026-02-24T16:10:06Z",
-      "summary": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev - which means you can open compiled Go binaries and analyze them directly in your browser. I tried it with a 8.1MB macOS compiled copy of my Go Showboat tool and got this: Via Datadog: How we reduced the size of our Agent Go binaries by up to 77% Tags: go , webassembly , showboat",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Customizing the ways the dialog manager dismisses itself: Isolating the Close pathway",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260224-00/?p=112082",
       "date": "2026-02-24T15:00:00Z",
@@ -49,13 +42,6 @@
       "date": "2026-02-24T12:34:21Z",
       "summary": "So you want to add OSM as an OAuth provider to Auth0? Here's a tip - you do not want to create a custom social connection! Instead, you need to create an \"OpenID Connect\" provider. Here's how. OpenSteetMap As per the OAuth documentation you will need to: Register a new app at https://www.openstreetmap.org/oauth2/applications/ Give it a name that users will recognise Give it a redirect of…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "First run the tests",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-      "date": "2026-02-24T12:30:05Z",
-      "summary": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents. The old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape in just a few minutes. They're also vital for ensuring AI-generated code does what it claims to do. If the code has never been executed it's pure luck if it actually works when deployed to production. Tests are also a great tool to help get an agent up to speed with an existing codebase. Watch what happens when you ask Claude Code or similar about an existing feature - the chances are high that they'll find and read the relevant tests. Agents are already biased towards testing, but the presence of an existing test suite will almost certainly push the agent into testing new changes that it makes. Any time I start a new session with an agent against an existing project I'll start by prompting a variant of the following: First run the tests For my Python projects I have pyproject.toml set up such that I can prompt this instead: Run \"uv run pytest\" These four word prompts serve several purposes: It tells the agent that there is a test suite and forces it to figure out how to run the tests. This makes it almost certain that the agent will run the tests in the future to ensure it didn't break anything. Most test harnesses will give the agent a rough indication of how many tests they are. This can act as a proxy for how large and complex the project is, and also hints that the agent should search the tests themselves if they want to learn more. It puts the agent in a testing mindset. Having run the tests it's natural for it to then expand them with its own tests later on. Similar to \"Use red/green TDD\" , \"First run the tests\" provides a four word prompt that encompasses a substantial amount of software engineering discipline that's already baked into the models. Tags: tdd , testing , llms , ai , generative-ai , ai-assisted-programming , coding-agents , agentic-engineering",
-      "source": "simonwillison.net"
     },
     {
       "title": "Reproducible Builds in Language Package Managers",
@@ -105,13 +91,6 @@
       "date": "2026-02-23T19:20:23Z",
       "summary": "John Coltrane’s song Giant Steps is known for its unusual and difficult chord changes. Although the chord progressions are complicated, there aren’t that many unique chords, only nine. And there is a simple pattern to the chords; the difficulty comes from the giant steps between the chords. If you wrap the chromatic scale around a […] The post Giant Steps first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Ladybird adopts Rust, with help from AI",
-      "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
-      "date": "2026-02-23T18:52:53Z",
-      "summary": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched tracks to Rust their memory-safe language of choice, starting with an AI-assisted port of a critical library: Our first target was LibJS , Ladybird's JavaScript engine. The lexer, parser, AST, and bytecode generator are relatively self-contained and have extensive test coverage through test262 , which made them a natural starting point. I used Claude Code and Codex for the translation. This was human-directed, not autonomous code generation. I decided what to port, in what order, and what the Rust code should look like. It was hundreds of small prompts, steering the agents where things needed to go. [...] The requirement from the start was byte-for-byte identical output from both pipelines. The result was about 25,000 lines of Rust, and the entire port took about two weeks. The same work would have taken me multiple months to do by hand. We’ve verified that every AST produced by the Rust parser is identical to the C++ one, and all bytecode generated by the Rust compiler is identical to the C++ compiler’s output. Zero regressions across the board. Having an existing conformance testing suite of the quality of test262 is a huge unlock for projects of this magnitude, and the ability to compare output with an existing trusted implementation makes agentic engineering much more of a safe bet. Via Hacker News Tags: browsers , javascript , ai , rust , generative-ai , llms , ai-assisted-programming , andreas-kling , ladybird , coding-agents , conformance-suites , agentic-engineering",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Orality Theory of Everything",
@@ -280,6 +259,27 @@
       "date": "2026-02-19T13:01:06Z",
       "summary": "A theme running through my book is the idea that efficiency improvements, and the various methods for making products cheaper over time, have historically been dependent on some degree of repetition, on running your production process over and over again.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Frigate with Hailo for object detection on a Raspberry Pi",
+      "link": "https://www.jeffgeerling.com/blog/2026/frigate-with-hailo-for-object-detection-on-a-raspberry-pi/",
+      "date": "2026-02-18T20:50:00Z",
+      "summary": "I run Frigate to record security cameras and detect people, cars, and animals when in view. My current Frigate server runs on a Raspberry Pi CM4 and a Coral TPU plugged in via USB. Raspberry Pi offers multiple AI HAT+'s for the Raspberry Pi 5 with built-in Hailo-8 or Hailo-8L AI coprocessors, and they're useful for low-power inference (like for image object detection) on the Pi. Hailo coprocessors can be used with other SBCs and computers too, if you buy an M.2 version .",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "link": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00Z",
+      "summary": "Mega update on Pebble Time 2, Pebble Round 2 and Index 01 Things are busy in Pebbleland! We’re getting close to shipping 3 new hardware…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "Anubis v1.25.0: Necron",
+      "link": "https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0",
+      "date": "2026-02-18T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
     }
   ]
 }
