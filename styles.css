@@ -439,6 +439,77 @@ textarea {
   outline-offset: 2px;
 }
 
+.career-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  align-items: start;
+}
+
+.career-video-panel,
+.career-booking-panel {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.loom-embed-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--panel-2);
+}
+
+.loom-embed-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.career-fallback-link {
+  display: inline-flex;
+  margin-top: 12px;
+}
+
+.career-pricing {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 14px;
+}
+
+.career-pricing p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.career-pricing strong {
+  color: var(--ink);
+}
+
+.booking-embed-wrap {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--panel-2);
+  margin-bottom: 12px;
+}
+
+#career-booking-iframe {
+  width: 100%;
+  min-height: 560px;
+  border: 0;
+  display: block;
+}
+
+#career-booking-link {
+  display: inline-flex;
+}
+
 .rss-controls {
   display: flex;
   gap: 12px;
@@ -526,6 +597,16 @@ textarea {
 .reveal {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .career-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #career-booking-iframe {
+    min-height: 520px;
+  }
 }
 
 @media (max-width: 720px) {
