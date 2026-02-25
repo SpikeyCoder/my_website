@@ -491,23 +491,14 @@ textarea {
   color: var(--ink);
 }
 
-.booking-embed-wrap {
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  overflow: hidden;
-  background: var(--panel-2);
-  margin-bottom: 12px;
-}
-
+.booking-embed-wrap,
 #career-booking-iframe {
-  width: 100%;
-  min-height: 560px;
-  border: 0;
-  display: block;
+  display: none !important;
 }
 
 #career-booking-link {
   display: inline-flex;
+  margin-top: 4px;
 }
 
 .rss-controls {
@@ -604,9 +595,6 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  #career-booking-iframe {
-    min-height: 520px;
-  }
 }
 
 @media (max-width: 720px) {
