@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-24T23:14:52.733628Z",
+  "generated_at": "2026-02-25T00:48:39.516936Z",
   "items": [
+    {
+      "title": "A curious trig identity",
+      "link": "https://www.johndcook.com/blog/2026/02/24/a-curious-trig-identity/",
+      "date": "2026-02-24T23:33:41Z",
+      "summary": "Here is an identity that doesn’t look correct but it is. For real x and y, I found the identity in [1]. The author’s proof is short. First of all, Then Taking square roots completes the proof. Now note that the statement at the top assumed x and y are real. You can see that this assumption is necessary […] The post A curious trig identity first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Upgrade: ‘The Shifting Sands of Liquid Glass’",
+      "link": "https://www.relay.fm/upgrade/604",
+      "date": "2026-02-24T23:29:31Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Apple in 2025: The Six Colors Report Card",
       "link": "https://sixcolors.com/post/2026/02/2025reportcard/",
@@ -12,13 +26,6 @@
       "title": "Apple Will Begin Manufacturing Mac Minis in Houston Later This Year",
       "link": "https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/",
       "date": "2026-02-24T19:35:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "PageMaker Pioneer Paul Brainerd Dies at 78",
-      "link": "https://www.geekwire.com/2026/pagemaker-pioneer-paul-brainerd-1947-2026-aldus-founder-devoted-his-second-chapter-to-the-planet/",
-      "date": "2026-02-24T19:27:07Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -126,13 +133,6 @@
       "date": "2026-02-23T15:00:00Z",
       "summary": "Sniffing the synchronous keyboard state is still not precise enough. The post Customizing the ways the dialog manager dismisses itself: Detecting the ESC key, second (failed) attempt appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Tritone substitution",
-      "link": "https://www.johndcook.com/blog/2026/02/23/tritone-sub/",
-      "date": "2026-02-23T12:50:12Z",
-      "summary": "Big moves in roots can correspond to small moves in chords. Imagine the 12 notes of a chromatic scale arranged around the hours of a clock: C at 12:00, C♯ at 1:00, D at 2:00, etc. The furthest apart two notes can be is 6 half steps, just as the furthest apart two times can […] The post Tritone substitution first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Book Review: A Geography of Time by Robert V. Levine ★★★☆☆",
