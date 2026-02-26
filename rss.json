@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T05:33:01.480574Z",
+  "generated_at": "2026-02-26T06:30:47.480187Z",
   "items": [
     {
       "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
@@ -254,13 +254,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Track Zelda release anniversaries in your calendar",
-      "link": "https://evanhahn.com/zelda-anniversary-calendar/",
-      "date": "2026-02-21T00:00:00Z",
-      "summary": "The original Legend of Zelda came out 40 years ago today. With other birthdays on the horizon, like Twilight Princess ’s 20th in November, I wanted a calendar that showed the anniversary of every Zelda game. So I made one. Subscribe to this URL in your calendar app: https://evanhahn.com/tape/zelda_anniversaries.ics Once you do, you’ll get calendar events on the anniversary of each game’s release. For example, you’ll be able to see that the Oracle games turn 25 in less than a week…I feel old. If you want to build this file yourself, I wrote a little Python script that generates an ICS file from a CSV of release dates .",
-      "source": "evanhahn.com"
-    },
-    {
       "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
       "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "date": "2026-02-20T20:00:30Z",
@@ -280,6 +273,13 @@
       "date": "2026-02-20T00:00:00Z",
       "summary": "Taking some time off for medical reasons until early April",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "Is the Future “AWS for Everything”?",
+      "link": "https://www.construction-physics.com/p/is-the-future-aws-for-everything",
+      "date": "2026-02-19T13:01:06Z",
+      "summary": "A theme running through my book is the idea that efficiency improvements, and the various methods for making products cheaper over time, have historically been dependent on some degree of repetition, on running your production process over and over again.",
+      "source": "construction-physics.com"
     }
   ]
 }
