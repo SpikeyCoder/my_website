@@ -26,18 +26,18 @@
         <div class="container reveal booking-card">
           <div class="section-title">
             <h1>Payment Received</h1>
-            <p>Your Stripe payment was successful. Next, book your session time in Google Calendar.</p>
+            <p>Redirecting you to Google Calendar to book your paid session now.</p>
           </div>
 
           <div class="booking-next-actions">
             <a
               id="paid-calendar-link"
               class="btn primary"
-              href="https://calendar.app.google/7Y1hm4xvidANDwiw6"
+              href="https://calendar.app.google/c61akTb1eUgpoBmh7"
               target="_blank"
               rel="noreferrer"
             >
-              Open paid booking calendar
+              If you are not redirected, open paid booking calendar
             </a>
             <a id="paid-confirm-link" class="link" href="/booking/success/?source=paid">I completed my calendar booking</a>
             <a class="link" href="/terms-and-conditions/">see Terms and Conditions policy</a>
@@ -50,6 +50,7 @@
 
     <script>
       (function () {
+        const redirectUrl = "https://calendar.app.google/c61akTb1eUgpoBmh7";
         const params = new URLSearchParams(window.location.search);
         const sessionId = params.get("session_id");
         const email = params.get("email") || localStorage.getItem("bookingEmail") || "";
@@ -71,6 +72,8 @@
           }
           confirm.href = url.toString();
         }
+
+        window.location.replace(redirectUrl);
       })();
     </script>
   </body>
