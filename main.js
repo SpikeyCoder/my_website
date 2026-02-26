@@ -67,6 +67,57 @@ const PAID_STRIPE_LINK = "https://buy.stripe.com/14A28j2RQ3YQ4a82d7ao800";
 const PAID_CAL_LINK = "https://calendar.app.google/7Y1hm4xvidANDwiw6";
 const FREE_CAL_LINK = "https://calendar.app.google/MZYoipmNPctrHqmP7";
 
+function updateAnchorOffsetFromHeader() {
+  const nav = document.querySelector(".site-nav");
+  const fallbackOffset = 88;
+  const navHeight = nav ? Math.ceil(nav.getBoundingClientRect().height) : 80;
+  const offset = Math.max(fallbackOffset, navHeight + 8);
+  document.documentElement.style.setProperty("--anchor-offset", `${offset}px`);
+  return offset;
+}
+
+function alignHashTargetToViewportTop() {
+  const rawHash = window.location.hash;
+  if (!rawHash) return;
+
+  let target = null;
+  try {
+    target = document.querySelector(decodeURIComponent(rawHash));
+  } catch (_error) {
+    return;
+  }
+
+  if (!target) return;
+
+  const offset = updateAnchorOffsetFromHeader();
+  const targetTop = target.getBoundingClientRect().top + window.scrollY - offset;
+  window.scrollTo({ top: Math.max(0, targetTop), behavior: "auto" });
+}
+
+function scheduleHashAlignment() {
+  if (!window.location.hash) return;
+  requestAnimationFrame(alignHashTargetToViewportTop);
+  setTimeout(alignHashTargetToViewportTop, 250);
+  setTimeout(alignHashTargetToViewportTop, 900);
+}
+
+window.addEventListener("resize", updateAnchorOffsetFromHeader);
+window.addEventListener("orientationchange", () => {
+  setTimeout(() => {
+    updateAnchorOffsetFromHeader();
+    scheduleHashAlignment();
+  }, 50);
+});
+window.addEventListener("hashchange", () => {
+  updateAnchorOffsetFromHeader();
+  scheduleHashAlignment();
+});
+window.addEventListener("load", () => {
+  updateAnchorOffsetFromHeader();
+  scheduleHashAlignment();
+});
+updateAnchorOffsetFromHeader();
+
 const FALLBACK_FEEDS = [
   { title: "simonwillison.net", url: "https://simonwillison.net/atom/everything/" },
   { title: "jeffgeerling.com", url: "https://www.jeffgeerling.com/blog.xml" },
@@ -575,6 +626,7 @@ async function setupBlog() {
   }
 
   await loadPosts();
+  scheduleHashAlignment();
   await refreshSession();
 
   supabase
