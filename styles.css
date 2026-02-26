@@ -26,10 +26,15 @@
   --warn: #f0b429;
   --border: rgba(214, 222, 235, 0.12);
   --shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  --anchor-offset: 88px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: var(--anchor-offset);
 }
 
 body {
@@ -167,6 +172,10 @@ textarea {
 
 .section {
   padding: 56px 0;
+}
+
+#career-acceleration {
+  scroll-margin-top: var(--anchor-offset);
 }
 
 .section-title {
