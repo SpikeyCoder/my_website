@@ -26,11 +26,11 @@ Frontend implementation:
 Core rules:
 1. Read first-party cookie `hasBooked=true` (364-day expiry) for immediate render.
 2. Capture/normalize email via booking intake form.
-3. Call Supabase function `booking-intake` to get canonical status.
+3. Call Supabase function `booking-status` to get canonical status.
 4. If `hasBooked=true`: show only paid Stripe link.
 5. If missing/false: show only free consult Google Calendar link.
 6. Store email + signed booking token in browser for subsequent checks.
-7. Reconcile with canonical status via `booking-status` endpoint.
+7. Use `booking-intake` on explicit backend capture flows and `booking-confirm` on completion.
 
 ## 5) Stripe integration steps (Checkout flow)
 Current paid CTA uses existing Stripe Payment Link:
@@ -41,6 +41,10 @@ Stripe dashboard configuration required:
    - `https://kevinarmstrong.io/booking/paid-success`
 2. Optional cancel URL:
    - `https://kevinarmstrong.io/booking/cancel`
+
+Paid success behavior:
+- `https://kevinarmstrong.io/booking/paid-success` auto-redirects immediately to
+  `https://calendar.app.google/c61akTb1eUgpoBmh7` with no on-page UI.
 3. Add webhook endpoint:
    - `https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/stripe-webhook`
 4. Subscribe webhook events:

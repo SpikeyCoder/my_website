@@ -64,7 +64,7 @@ const SUPABASE_FUNCTIONS_BASE = `${SUPABASE_URL}/functions/v1`;
 const BOOKING_COOKIE_NAME = "hasBooked";
 const BOOKING_COOKIE_MAX_AGE = 31449600; // 364 days
 const PAID_STRIPE_LINK = "https://buy.stripe.com/14A28j2RQ3YQ4a82d7ao800";
-const PAID_CAL_LINK = "https://calendar.app.google/7Y1hm4xvidANDwiw6";
+const PAID_CAL_LINK = "https://calendar.app.google/c61akTb1eUgpoBmh7";
 const FREE_CAL_LINK = "https://calendar.app.google/MZYoipmNPctrHqmP7";
 
 function updateAnchorOffsetFromHeader() {
