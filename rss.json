@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-26T18:24:10.658296Z",
+  "generated_at": "2026-02-26T19:23:13.459464Z",
   "items": [
+    {
+      "title": "Quoting Andrej Karpathy",
+      "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+      "date": "2026-02-26T19:03:27Z",
+      "summary": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work since - the models have significantly higher quality, long-term coherence and tenacity and they can power through large and long tasks, well past enough that it is extremely disruptive to the default programming workflow. [...] — Andrej Karpathy Tags: andrej-karpathy , coding-agents , ai-assisted-programming , generative-ai , agentic-engineering , ai , llms",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Prediction ‘Market’ Kalshi Accuses MrBeast Editor of Insider Trading",
+      "link": "https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions",
+      "date": "2026-02-26T18:45:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "‘Steve Jobs in Exile’",
       "link": "https://geoffreycain.net/steve-jobs-in-exile/",
@@ -12,13 +26,6 @@
       "title": "Microsoft Adds Additional Markdown Features to Windows Notepad",
       "link": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/",
       "date": "2026-02-26T17:50:09Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Prediction Market Kalshi Accuses MrBeast Editor of Insider Trading",
-      "link": "https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions",
-      "date": "2026-02-26T17:36:26Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -77,13 +84,6 @@
       "date": "2026-02-26T01:10:37Z",
       "summary": "The post A curious trig identity contained the theorem that for real x and y, This theorem also holds when sine is replaced with hyperbolic sine. The post Trig of inverse trig contained a table summarizing trig functions applied to inverse trig functions. You can make a very similar table for the hyperbolic counterparts. The following Python […] The post Hyperbolic versions of latest posts first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "tldraw issue: Move tests to closed source repo",
-      "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
-      "date": "2026-02-25T21:06:53Z",
-      "summary": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open source projects with commercial business models. Here's an example of a response: tldraw, the outstanding collaborative drawing library (see previous coverage ), are moving their test suite to a private repository - apparently in response to Cloudflare's project to port Next.js to use Vite in a week using AI . They also filed a joke issue, now closed to Translate source code to Traditional Chinese : The current tldraw codebase is in English, making it easy for external AI coding agents to replicate. It is imperative that we defend our intellectual property. Worth noting that tldraw aren't technically open source - their custom license requires a commercial license if you want to use it in \"production environments\". Via @steveruizok Tags: open-source , cloudflare , ai-ethics",
-      "source": "simonwillison.net"
     },
     {
       "title": "Intercepting messages before Is­Dialog­Message can process them",
