@@ -1,0 +1,2 @@
+-- Remote baseline migration placeholder.
+-- This file exists to align local migration history with the already-applied remote migration 20260224215544.
