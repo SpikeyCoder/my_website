@@ -449,46 +449,30 @@
                 <p>Sessions: 30 minutes • Availability: 9:00 AM–9:00 PM PT</p>
               </div>
 
-              <form id="booking-intake-form" class="booking-intake-form" novalidate>
+              <div id="booking-intake-form" class="booking-intake-form">
                 <label for="booking-email">Email used for booking</label>
-                <div class="booking-intake-row">
-                  <input
-                    id="booking-email"
-                    name="email"
-                    type="email"
-                    autocomplete="email"
-                    required
-                    placeholder="you@email.com"
-                  />
-                  <button id="booking-continue" class="btn ghost" type="submit">Continue</button>
-                </div>
-                <p class="helper" id="booking-intake-status">Enter your email to check the correct booking flow.</p>
-              </form>
-
-              <div class="booking-actions" id="booking-actions">
-                <a
-                  id="booking-link-free"
-                  class="btn primary"
-                  href="https://calendar.app.google/MZYoipmNPctrHqmP7"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Open booking page
-                </a>
-                <a
-                  id="booking-link-paid"
-                  class="btn primary"
-                  href="https://buy.stripe.com/14A28j2RQ3YQ4a82d7ao800"
-                  target="_blank"
-                  rel="noreferrer"
-                  hidden
-                >
-                  Open booking page
-                </a>
-                <p id="booking-mode-copy" class="booking-mode-copy">New client flow: free 30-minute consult booking.</p>
-                <a id="booking-confirm-link" class="link booking-confirm-link" href="/booking/success/">Already booked? Confirm your booking status</a>
-                <a id="booking-terms-link" class="link booking-terms-link" href="/terms-and-conditions/">see Terms and Conditions policy</a>
+                <input
+                  id="booking-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  placeholder="you@email.com"
+                />
+                <p class="helper" id="booking-email-validation">Enter a valid email address to enable booking.</p>
               </div>
+
+              <a
+                id="career-booking-link"
+                class="btn primary is-disabled"
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled="true"
+                tabindex="-1"
+              >
+                Open booking page
+              </a>
             </article>
           </div>
         </div>

@@ -13,13 +13,11 @@ This site is GitHub Pages static hosting, so routing is path-folder based:
 
 No server rewrite is required.
 
-## 3) Terms link under booking button
-Implemented in career booking panel in:
-- `/index.html`
-
-Link text and target:
-- `see Terms and Conditions policy`
+## 3) Terms access
+Terms page remains available at:
 - `/terms-and-conditions/`
+
+Booking UI is intentionally minimal and does not show additional inline policy/status links.
 
 ## 4) Returning-customer detection and link switching logic
 Frontend implementation:

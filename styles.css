@@ -517,37 +517,20 @@ textarea {
   font-weight: 600;
 }
 
-.booking-intake-row {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+#booking-email-validation {
+  margin: 0;
 }
 
-#booking-continue {
-  white-space: nowrap;
-}
-
-.booking-actions {
-  display: grid;
-  gap: 8px;
-}
-
-#booking-link-free,
-#booking-link-paid {
-  width: fit-content;
-}
-
-.booking-mode-copy {
-  margin: 2px 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.booking-confirm-link,
-.booking-terms-link {
+#career-booking-link {
   display: inline-flex;
   width: fit-content;
-  font-size: 0.9rem;
+}
+
+#career-booking-link.is-disabled,
+#career-booking-link[aria-disabled="true"] {
+  opacity: 0.55;
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 .rss-controls {
@@ -711,13 +694,7 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
   }
-  .booking-intake-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  #booking-continue,
-  #booking-link-free,
-  #booking-link-paid {
+  #career-booking-link {
     width: 100%;
   }
 }
