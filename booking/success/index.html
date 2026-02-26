@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Booking Success | Armstrong HoldCo LLC</title>
+    <meta name="description" content="Confirm your completed booking with Armstrong HoldCo LLC." />
+    <link rel="stylesheet" href="../../styles.css?v=20260226a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/terms-and-conditions/">Terms</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="booking-page">
+      <section class="section">
+        <div class="container reveal booking-card">
+          <div class="section-title">
+            <h1>Booking Confirmation</h1>
+            <p>Confirm after your Google Calendar event is created to unlock future returning-client paid bookings.</p>
+          </div>
+
+          <form id="booking-success-form" class="booking-confirm-form" novalidate>
+            <label for="booking-success-email">Email used for booking</label>
+            <input id="booking-success-email" type="email" placeholder="you@email.com" required />
+            <button class="btn primary" type="submit" id="booking-success-submit">Confirm booking completed</button>
+            <p class="helper" id="booking-success-status">Waiting for confirmation.</p>
+          </form>
+
+          <div class="booking-next-actions">
+            <a class="link" href="/">Return to home</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        const SUPABASE_FUNCTIONS_BASE = "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1";
+        const COOKIE_NAME = "hasBooked";
+        const COOKIE_MAX_AGE = 31449600; // 364 days
+        const emailInput = document.getElementById("booking-success-email");
+        const form = document.getElementById("booking-success-form");
+        const status = document.getElementById("booking-success-status");
+        const submit = document.getElementById("booking-success-submit");
+        const params = new URLSearchParams(window.location.search);
+
+        const savedEmail = localStorage.getItem("bookingEmail") || "";
+        const queryEmail = params.get("email") || "";
+        emailInput.value = (queryEmail || savedEmail).trim();
+
+        function normalizeEmail(value) {
+          return String(value || "").trim().toLowerCase();
+        }
+
+        function setHasBookedCookie() {
+          const secure = window.location.protocol === "https:" ? "; Secure" : "";
+          document.cookie = `${COOKIE_NAME}=true; Max-Age=${COOKIE_MAX_AGE}; Path=/; SameSite=Lax${secure}`;
+        }
+
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const email = normalizeEmail(emailInput.value);
+          if (!email) {
+            status.textContent = "Please enter the booking email.";
+            return;
+          }
+
+          submit.disabled = true;
+          status.textContent = "Confirming booking...";
+
+          const token = localStorage.getItem("bookingToken") || "";
+          const source = params.get("source") || "calendar_return";
+          const stripeSessionId = params.get("session_id") || null;
+
+          try {
+            const response = await fetch(`${SUPABASE_FUNCTIONS_BASE}/booking-confirm`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                ...(token ? { "x-booking-token": token } : {}),
+              },
+              credentials: "include",
+              body: JSON.stringify({ email, source, stripeSessionId }),
+            });
+
+            const payload = await response.json().catch(() => ({}));
+            if (!response.ok) {
+              throw new Error(payload.error || "Unable to confirm booking");
+            }
+
+            if (payload.token) {
+              localStorage.setItem("bookingToken", payload.token);
+            }
+            localStorage.setItem("bookingEmail", email);
+            setHasBookedCookie();
+            status.textContent = "Confirmed. You are now marked as a returning client for 364 days.";
+          } catch (error) {
+            status.textContent = `Confirmation failed: ${error.message}`;
+          } finally {
+            submit.disabled = false;
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

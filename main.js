@@ -60,6 +60,12 @@ const OPML_URL =
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 const CORS_PROXY_JSON = "https://api.allorigins.win/get?url=";
 const RSS_FEED_LIMIT = 36;
+const SUPABASE_FUNCTIONS_BASE = `${SUPABASE_URL}/functions/v1`;
+const BOOKING_COOKIE_NAME = "hasBooked";
+const BOOKING_COOKIE_MAX_AGE = 31449600; // 364 days
+const PAID_STRIPE_LINK = "https://buy.stripe.com/14A28j2RQ3YQ4a82d7ao800";
+const PAID_CAL_LINK = "https://calendar.app.google/7Y1hm4xvidANDwiw6";
+const FREE_CAL_LINK = "https://calendar.app.google/MZYoipmNPctrHqmP7";
 
 const FALLBACK_FEEDS = [
   { title: "simonwillison.net", url: "https://simonwillison.net/atom/everything/" },
@@ -729,6 +735,191 @@ function clampText(text, max = 120) {
   return `${clean.slice(0, max - 1)}…`;
 }
 
+function normalizeEmail(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function readCookie(name) {
+  const encoded = encodeURIComponent(name);
+  const item = document.cookie
+    .split("; ")
+    .find((part) => part.startsWith(`${encoded}=`));
+  if (!item) return "";
+  return decodeURIComponent(item.slice(encoded.length + 1));
+}
+
+function readHasBookedCookie() {
+  return readCookie(BOOKING_COOKIE_NAME) === "true";
+}
+
+function setHasBookedCookie(value) {
+  const secure = window.location.protocol === "https:" ? "; Secure" : "";
+  if (value) {
+    document.cookie = `${BOOKING_COOKIE_NAME}=true; Max-Age=${BOOKING_COOKIE_MAX_AGE}; Path=/; SameSite=Lax${secure}`;
+    return;
+  }
+  document.cookie = `${BOOKING_COOKIE_NAME}=; Max-Age=0; Path=/; SameSite=Lax${secure}`;
+}
+
+async function setupBooking() {
+  const form = document.getElementById("booking-intake-form");
+  const emailInput = document.getElementById("booking-email");
+  const continueButton = document.getElementById("booking-continue");
+  const status = document.getElementById("booking-intake-status");
+  const freeLink = document.getElementById("booking-link-free");
+  const paidLink = document.getElementById("booking-link-paid");
+  const modeCopy = document.getElementById("booking-mode-copy");
+  const confirmLink = document.getElementById("booking-confirm-link");
+
+  if (!(form instanceof HTMLFormElement)) return;
+  if (!(emailInput instanceof HTMLInputElement)) return;
+  if (!(continueButton instanceof HTMLButtonElement)) return;
+  if (!(freeLink instanceof HTMLAnchorElement)) return;
+  if (!(paidLink instanceof HTMLAnchorElement)) return;
+  if (!(confirmLink instanceof HTMLAnchorElement)) return;
+
+  const state = {
+    hasBooked: readHasBookedCookie(),
+    email: normalizeEmail(localStorage.getItem("bookingEmail") || ""),
+  };
+
+  if (state.email) {
+    emailInput.value = state.email;
+  }
+
+  function setStatus(message) {
+    if (status) status.textContent = message;
+  }
+
+  function refreshPaidHref() {
+    const paidUrl = new URL(PAID_STRIPE_LINK);
+    if (state.email) {
+      paidUrl.searchParams.set("prefilled_email", state.email);
+    }
+    paidLink.href = paidUrl.toString();
+  }
+
+  function refreshConfirmHref() {
+    const url = new URL("/booking/success/", window.location.origin);
+    if (state.email) {
+      url.searchParams.set("email", state.email);
+    }
+    confirmLink.href = url.toString();
+  }
+
+  function renderMode() {
+    freeLink.href = FREE_CAL_LINK;
+    paidLink.hidden = !state.hasBooked;
+    freeLink.hidden = state.hasBooked;
+
+    refreshPaidHref();
+    refreshConfirmHref();
+
+    if (modeCopy) {
+      modeCopy.textContent = state.hasBooked
+        ? "Returning client flow: payment first, then paid calendar booking."
+        : "New client flow: free 30-minute consult booking.";
+    }
+  }
+
+  async function callBookingFunction(path, { method = "GET", payload = null, email = "" } = {}) {
+    const url = new URL(`${SUPABASE_FUNCTIONS_BASE}/${path}`);
+    const normalized = normalizeEmail(email);
+    if (method === "GET" && normalized) {
+      url.searchParams.set("email", normalized);
+    }
+
+    const token = localStorage.getItem("bookingToken") || "";
+    const headers = {
+      ...(payload ? { "Content-Type": "application/json" } : {}),
+      ...(token ? { "x-booking-token": token } : {}),
+    };
+
+    const response = await fetch(url.toString(), {
+      method,
+      headers,
+      credentials: "include",
+      ...(payload ? { body: JSON.stringify(payload) } : {}),
+    });
+
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(data.error || `Request failed: ${response.status}`);
+    }
+
+    if (data.token) {
+      localStorage.setItem("bookingToken", data.token);
+    }
+    return data;
+  }
+
+  async function syncStatus(email) {
+    const normalized = normalizeEmail(email || state.email);
+    if (!normalized) return;
+
+    try {
+      const result = await callBookingFunction("booking-status", {
+        method: "GET",
+        email: normalized,
+      });
+
+      state.email = normalized;
+      state.hasBooked = Boolean(result.hasBooked);
+      localStorage.setItem("bookingEmail", normalized);
+      setHasBookedCookie(state.hasBooked);
+      renderMode();
+      setStatus(state.hasBooked
+        ? "Returning client detected. Continue to payment."
+        : "New client detected. Continue with free consult booking.");
+    } catch (error) {
+      renderMode();
+      setStatus(`Booking check unavailable: ${error.message}`);
+    }
+  }
+
+  renderMode();
+
+  if (state.hasBooked) {
+    setStatus("Returning client detected from cookie. You can proceed to payment.");
+  }
+
+  if (state.email) {
+    await syncStatus(state.email);
+  }
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const email = normalizeEmail(emailInput.value);
+    if (!email) {
+      setStatus("Please enter your email to continue.");
+      return;
+    }
+
+    continueButton.disabled = true;
+    setStatus("Checking booking profile...");
+
+    try {
+      const result = await callBookingFunction("booking-intake", {
+        method: "POST",
+        payload: { email },
+      });
+
+      state.email = email;
+      state.hasBooked = Boolean(result.hasBooked);
+      localStorage.setItem("bookingEmail", email);
+      setHasBookedCookie(state.hasBooked);
+      renderMode();
+
+      setStatus(state.hasBooked
+        ? "Returning client detected. Complete payment, then continue to the paid booking calendar."
+        : "New client detected. Use the free consult booking link.");
+    } catch (error) {
+      setStatus(`Unable to continue: ${error.message}`);
+    } finally {
+      continueButton.disabled = false;
+    }
+  });
+}
 
 function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   const controller = new AbortController();
@@ -1031,4 +1222,5 @@ setupAbout();
 setupTimeline();
 setupPortfolio();
 setupBlog();
+setupBooking();
 setupRSS();

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payment Success | Armstrong HoldCo LLC</title>
+    <meta name="description" content="Payment complete. Continue to schedule your paid session." />
+    <link rel="stylesheet" href="../../styles.css?v=20260226a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/terms-and-conditions/">Terms</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="booking-page">
+      <section class="section">
+        <div class="container reveal booking-card">
+          <div class="section-title">
+            <h1>Payment Received</h1>
+            <p>Your Stripe payment was successful. Next, book your session time in Google Calendar.</p>
+          </div>
+
+          <div class="booking-next-actions">
+            <a
+              id="paid-calendar-link"
+              class="btn primary"
+              href="https://calendar.app.google/7Y1hm4xvidANDwiw6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open paid booking calendar
+            </a>
+            <a id="paid-confirm-link" class="link" href="/booking/success/?source=paid">I completed my calendar booking</a>
+            <a class="link" href="/terms-and-conditions/">see Terms and Conditions policy</a>
+          </div>
+
+          <p class="helper" id="paid-session-hint"></p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const sessionId = params.get("session_id");
+        const email = params.get("email") || localStorage.getItem("bookingEmail") || "";
+        const hint = document.getElementById("paid-session-hint");
+        const confirm = document.getElementById("paid-confirm-link");
+
+        if (sessionId) {
+          hint.textContent = `Stripe session: ${sessionId}`;
+        } else {
+          hint.textContent = "If this page did not come from Stripe redirect, verify your payment in Stripe dashboard.";
+        }
+
+        if (email) {
+          const url = new URL(confirm.href, window.location.origin);
+          url.searchParams.set("source", "paid");
+          url.searchParams.set("email", email);
+          if (sessionId) {
+            url.searchParams.set("session_id", sessionId);
+          }
+          confirm.href = url.toString();
+        }
+      })();
+    </script>
+  </body>
+</html>

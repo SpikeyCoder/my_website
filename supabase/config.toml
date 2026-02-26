@@ -1,0 +1,13 @@
+project_id = "efrkjqbrfsynzdjbgqck"
+
+[functions.booking-intake]
+verify_jwt = false
+
+[functions.booking-status]
+verify_jwt = false
+
+[functions.booking-confirm]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false

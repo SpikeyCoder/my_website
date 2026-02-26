@@ -496,9 +496,58 @@ textarea {
   display: none !important;
 }
 
-#career-booking-link {
+#booking-email {
+  width: 100%;
+  min-width: 220px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  background: var(--panel-2);
+  color: var(--ink);
+}
+
+.booking-intake-form {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.booking-intake-form label {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.booking-intake-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#booking-continue {
+  white-space: nowrap;
+}
+
+.booking-actions {
+  display: grid;
+  gap: 8px;
+}
+
+#booking-link-free,
+#booking-link-paid {
+  width: fit-content;
+}
+
+.booking-mode-copy {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.booking-confirm-link,
+.booking-terms-link {
   display: inline-flex;
-  margin-top: 4px;
+  width: fit-content;
+  font-size: 0.9rem;
 }
 
 .rss-controls {
@@ -575,6 +624,63 @@ textarea {
   box-shadow: var(--shadow);
 }
 
+
+
+.legal-page,
+.booking-page {
+  padding: 56px 0 24px;
+}
+
+.legal-card,
+.booking-card {
+  background: var(--panel);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.legal-card h1,
+.booking-card h1 {
+  margin: 0;
+}
+
+.legal-list {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 14px;
+}
+
+.legal-list li {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.booking-confirm-form {
+  display: grid;
+  gap: 10px;
+  margin: 8px 0 12px;
+}
+
+.booking-confirm-form label {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.booking-confirm-form input {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  background: var(--panel-2);
+  color: var(--ink);
+}
+
+.booking-next-actions {
+  display: grid;
+  gap: 10px;
+}
+
 .footer {
   padding: 24px 0 40px;
   color: var(--muted);
@@ -604,6 +710,15 @@ textarea {
   .hero-actions {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .booking-intake-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #booking-continue,
+  #booking-link-free,
+  #booking-link-paid {
+    width: 100%;
   }
 }
 
