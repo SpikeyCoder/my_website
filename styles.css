@@ -542,6 +542,14 @@ textarea {
   cursor: not-allowed;
 }
 
+.rss-radar {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
 .rss-controls {
   display: flex;
   gap: 12px;
@@ -559,9 +567,47 @@ textarea {
   color: var(--ink);
 }
 
+.rss-carousel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.rss-scroll-buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.rss-arrow {
+  width: 42px;
+  min-height: 46px;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0;
+}
+
+.rss-arrow:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 .rss-list {
   display: grid;
   gap: 12px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+}
+
+.rss-list:focus {
+  outline: 1px solid rgba(88, 166, 255, 0.5);
+  outline-offset: 4px;
 }
 
 .rss-item {
@@ -572,6 +618,7 @@ textarea {
   display: grid;
   gap: 6px;
   color: var(--ink);
+  min-height: 136px;
 }
 
 .rss-item a {
@@ -585,7 +632,8 @@ textarea {
 
 #rss .section-title h2,
 #rss .status,
-#rss .rss-controls {
+#rss .rss-controls,
+#rss .rss-carousel {
   position: relative;
   z-index: 1;
 }
@@ -705,6 +753,17 @@ textarea {
   }
   #career-booking-link {
     width: 100%;
+  }
+  .rss-carousel {
+    grid-template-columns: 1fr;
+  }
+  .rss-scroll-buttons {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+  .rss-arrow {
+    width: 100%;
+    min-height: 40px;
   }
 }
 

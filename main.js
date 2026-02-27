@@ -60,6 +60,7 @@ const OPML_URL =
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 const CORS_PROXY_JSON = "https://api.allorigins.win/get?url=";
 const RSS_FEED_LIMIT = 36;
+const RSS_VISIBLE_ITEMS = 5;
 const SUPABASE_FUNCTIONS_BASE = `${SUPABASE_URL}/functions/v1`;
 const BOOKING_COOKIE_NAME = "hasBooked";
 const BOOKING_COOKIE_MAX_AGE = 31449600; // 364 days
@@ -1120,12 +1121,82 @@ async function setupRSS() {
   const list = document.getElementById("rss-list");
   const search = document.getElementById("rss-search");
   const refresh = document.getElementById("rss-refresh");
+  const scrollUp = document.getElementById("rss-scroll-up");
+  const scrollDown = document.getElementById("rss-scroll-down");
+
+  if (!(status instanceof HTMLElement)) return;
+  if (!(list instanceof HTMLElement)) return;
+  if (!(search instanceof HTMLInputElement)) return;
+  if (!(refresh instanceof HTMLButtonElement)) return;
 
   let items = [];
+
+  function getScrollStep() {
+    const first = list.querySelector(".rss-item");
+    if (!(first instanceof HTMLElement)) {
+      return 152;
+    }
+    const styles = window.getComputedStyle(list);
+    const gap = Number.parseFloat(styles.rowGap || styles.gap || "0") || 0;
+    return first.offsetHeight + gap;
+  }
+
+  function updateScrollButtons() {
+    if (!(scrollUp instanceof HTMLButtonElement) || !(scrollDown instanceof HTMLButtonElement)) {
+      return;
+    }
+
+    const maxTop = Math.max(0, list.scrollHeight - list.clientHeight);
+    const hasOverflow = maxTop > 1;
+
+    scrollUp.disabled = !hasOverflow || list.scrollTop <= 1;
+    scrollDown.disabled = !hasOverflow || list.scrollTop >= maxTop - 1;
+  }
+
+  function updateViewportHeight(resetScroll = false) {
+    const cards = Array.from(list.querySelectorAll(".rss-item"));
+    if (!cards.length) {
+      list.style.maxHeight = "";
+      updateScrollButtons();
+      return;
+    }
+
+    const styles = window.getComputedStyle(list);
+    const gap = Number.parseFloat(styles.rowGap || styles.gap || "0") || 0;
+    const visibleCount = Math.min(RSS_VISIBLE_ITEMS, cards.length);
+
+    let height = 0;
+    for (let i = 0; i < visibleCount; i += 1) {
+      const card = cards[i];
+      if (card instanceof HTMLElement) {
+        height += card.offsetHeight;
+      }
+    }
+    if (visibleCount > 1) {
+      height += gap * (visibleCount - 1);
+    }
+
+    list.style.maxHeight = `${Math.ceil(height)}px`;
+    if (resetScroll) {
+      list.scrollTop = 0;
+    }
+
+    updateScrollButtons();
+  }
+
+  function scrollList(direction) {
+    const step = getScrollStep();
+    list.scrollBy({
+      top: direction * step,
+      behavior: "smooth",
+    });
+  }
 
   async function loadFeeds({ force } = { force: false }) {
     status.textContent = "Loading feeds...";
     list.innerHTML = "";
+    updateViewportHeight(true);
+
     try {
       // Refresh should always try to pull newest from rss.json first.
       if (force) {
@@ -1144,7 +1215,7 @@ async function setupRSS() {
             }))
             .sort((a, b) => b.dateValue - a.dateValue)
             .slice(0, 40);
-          status.textContent = `Showing ${items.length} latest items (seeded)`;
+          status.textContent = `Showing latest ${Math.min(RSS_VISIBLE_ITEMS, items.length)} of ${items.length} items (seeded)`;
           renderList(items);
           renderRssTimestamp(new Date().toISOString());
         }
@@ -1158,7 +1229,7 @@ async function setupRSS() {
             }))
             .sort((a, b) => b.dateValue - a.dateValue)
             .slice(0, 40);
-          status.textContent = `Showing ${items.length} latest items (cached)`;
+          status.textContent = `Showing latest ${Math.min(RSS_VISIBLE_ITEMS, items.length)} of ${items.length} items (cached)`;
           renderList(items);
           renderRssTimestamp(cachedPayload.saved_at);
         }
@@ -1173,7 +1244,7 @@ async function setupRSS() {
           }))
           .sort((a, b) => b.dateValue - a.dateValue)
           .slice(0, 40);
-        status.textContent = `Showing ${items.length} latest items`;
+        status.textContent = `Showing latest ${Math.min(RSS_VISIBLE_ITEMS, items.length)} of ${items.length} items`;
         renderList(items);
         renderRssTimestamp(localPayload.generated_at || new Date().toISOString());
         saveCachedRss(items, localPayload.generated_at);
@@ -1224,13 +1295,16 @@ async function setupRSS() {
       if (!items.length) {
         status.textContent = `No items loaded (0/${feeds.length} feeds). Try refresh.`;
         list.innerHTML = "";
+        updateViewportHeight(true);
         return;
       }
 
-      status.textContent = `Showing ${items.length} latest items from ${feeds.length} feeds`;
+      status.textContent = `Showing latest ${Math.min(RSS_VISIBLE_ITEMS, items.length)} of ${items.length} items from ${feeds.length} feeds`;
       renderList(items);
     } catch (error) {
       status.textContent = `RSS load failed: ${error.message}`;
+      list.innerHTML = "";
+      updateViewportHeight(true);
     }
   }
 
@@ -1246,7 +1320,8 @@ async function setupRSS() {
       `
       )
       .join("");
-    window.setupBlogPostToggles(list);
+
+    updateViewportHeight(true);
   }
 
   search.addEventListener("input", () => {
@@ -1263,6 +1338,24 @@ async function setupRSS() {
     refresh.disabled = true;
     await loadFeeds({ force: true });
     refresh.disabled = false;
+  });
+
+  list.addEventListener("scroll", updateScrollButtons);
+
+  if (scrollUp instanceof HTMLButtonElement) {
+    scrollUp.addEventListener("click", () => {
+      scrollList(-1);
+    });
+  }
+
+  if (scrollDown instanceof HTMLButtonElement) {
+    scrollDown.addEventListener("click", () => {
+      scrollList(1);
+    });
+  }
+
+  window.addEventListener("resize", () => {
+    updateViewportHeight(false);
   });
 
   await loadFeeds();
