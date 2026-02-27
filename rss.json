@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-27T17:17:16.160098Z",
+  "generated_at": "2026-02-27T18:18:30.956447Z",
   "items": [
+    {
+      "title": "★ A Sometimes-Hidden Setting Controls What Happens When You Tap a Call in the iOS 26 Phone App",
+      "link": "https://daringfireball.net/2026/02/sometimes_hidden_setting_phone_app",
+      "date": "2026-02-27T18:12:54Z",
+      "summary": "Apple’s solution to this dilemma — to show the “Tap Recents to Call” in Settings if, and only if, Unified is the current view option in the Phone app — is lazy. And as a result, it’s quite confusing.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
+      "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
+      "date": "2026-02-27T17:50:54Z",
+      "summary": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided it would be fun to build something with them myself that used binary search against a large file to do something useful. So I brainstormed with Claude . The challenge was coming up with a use case for binary search where the data could be naturally sorted in a way that would benefit from binary search. One of Claude's suggestions was looking up information about unicode codepoints, which means searching through many MBs of metadata. I had Claude write me a spec to feed to Claude Code - visible here - then kicked off an asynchronous research project with Claude Code for web against my simonw/research repo to turn that into working code. Here's the resulting report and code . One interesting thing I learned is that Range request tricks aren't compatible with HTTP compression because they mess with the byte offset calculations. I added 'Accept-Encoding': 'identity' to the fetch() calls but this isn't actually necessary because Cloudflare and other CDNs automatically skip compression if a content-range header is present. I deployed the result to my tools.simonwillison.net site , after first tweaking it to query the data via range requests against a CORS-enabled 76.6MB file in an S3 bucket fronted by Cloudflare. The demo is fun to play with - type in a single character like ø or a hexadecimal codepoint indicator like 1F99C and it will binary search its way through the large file and show you the steps it takes along the way: Tags: algorithms , http , research , tools , unicode , ai , generative-ai , llms , ai-assisted-programming , http-range-requests",
+      "source": "simonwillison.net"
+    },
     {
       "title": "TUDUMB",
       "link": "https://spyglass.org/netflix-warner-bros-paramount-deal/",
@@ -35,13 +49,6 @@
       "date": "2026-02-27T10:00:00Z",
       "summary": "An interactive version of the dependency comic.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Apple Announces F1 Broadcast Details, and a Surprising Netflix Partnership",
-      "link": "https://sixcolors.com/post/2026/02/apple-announces-f1-details-and-a-surprising-netflix-partnership/",
-      "date": "2026-02-27T01:30:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Hoard things you know how to do",
@@ -91,13 +98,6 @@
       "date": "2026-02-26T10:00:00Z",
       "summary": "Instead of using git as a database, what if you used a database as a git?",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-      "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-      "date": "2026-02-26T04:28:55Z",
-      "summary": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access private files and make billable API requests, so they absolutely should not be shared. If you don't understand this it's very easy to accidentally enable Gemini billing on a previously public API key that exists in the wild already. What makes this a privilege escalation rather than a misconfiguration is the sequence of events. A developer creates an API key and embeds it in a website for Maps. (At that point, the key is harmless.) The Gemini API gets enabled on the same project. (Now that same key can access sensitive Gemini endpoints.) The developer is never warned that the keys' privileges changed underneath it. (The key went from public identifier to secret credential). Truffle Security found 2,863 API keys in the November 2025 Common Crawl that could access Gemini, verified by hitting the /models listing endpoint. This included several keys belonging to Google themselves, one of which had been deployed since February 2023 (according to the Internet Archive) hence predating the Gemini API that it could now access. Google are working to revoke affected keys but it's still a good idea to check that none of yours are affected by this. Via Hacker News Tags: api-keys , google , security , gemini",
-      "source": "simonwillison.net"
     },
     {
       "title": "Members Only: Your anonymity set has collapsed and you don't know it yet",
