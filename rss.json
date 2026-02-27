@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-27T22:09:49.516125Z",
+  "generated_at": "2026-02-27T23:11:48.276083Z",
   "items": [
+    {
+      "title": "Please, please, please stop using passkeys for encrypting user data",
+      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "date": "2026-02-27T22:49:32Z",
+      "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I’m begging you. Let them be great, phishing-resistant authentication credentials . Via lobste.rs Tags: security , usability , passkeys",
+      "source": "simonwillison.net"
+    },
     {
       "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
       "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
@@ -34,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
       "date": "2026-02-27T18:08:22Z",
       "summary": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public repo with 5,000+ GitHub stars or 1M+ monthly NPM downloads. You've made commits, releases, or PR reviews within the last 3 months. Don't quite fit the criteria If you maintain something the ecosystem quietly depends on, apply anyway and tell us about it. Also in the small print: \"Applications are reviewed on a rolling basis. We accept up to 10,000 contributors\". Via Hacker News Tags: open-source , ai , generative-ai , llms , anthropic , claude",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-      "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-      "date": "2026-02-27T17:50:54Z",
-      "summary": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided it would be fun to build something with them myself that used binary search against a large file to do something useful. So I brainstormed with Claude . The challenge was coming up with a use case for binary search where the data could be naturally sorted in a way that would benefit from binary search. One of Claude's suggestions was looking up information about unicode codepoints, which means searching through many MBs of metadata. I had Claude write me a spec to feed to Claude Code - visible here - then kicked off an asynchronous research project with Claude Code for web against my simonw/research repo to turn that into working code. Here's the resulting report and code . One interesting thing I learned is that Range request tricks aren't compatible with HTTP compression because they mess with the byte offset calculations. I added 'Accept-Encoding': 'identity' to the fetch() calls but this isn't actually necessary because Cloudflare and other CDNs automatically skip compression if a content-range header is present. I deployed the result to my tools.simonwillison.net site , after first tweaking it to query the data via range requests against a CORS-enabled 76.6MB file in an S3 bucket fronted by Cloudflare. The demo is fun to play with - type in a single character like ø or a hexadecimal codepoint indicator like 1F99C and it will binary search its way through the large file and show you the steps it takes along the way: Tags: algorithms , http , research , tools , unicode , ai , generative-ai , llms , ai-assisted-programming , vibe-coding , http-range-requests",
       "source": "simonwillison.net"
     },
     {
