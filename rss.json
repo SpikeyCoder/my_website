@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-02-26T23:14:28.328050Z",
+  "generated_at": "2026-02-27T00:45:54.197444Z",
   "items": [
+    {
+      "title": "Energym",
+      "link": "https://www.aicandy.be/giorgio-1",
+      "date": "2026-02-27T00:37:25Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Netflix Backs Out of Bid for Warner Bros., Paving Way for Paramount Takeover",
+      "link": "https://www.nytimes.com/2026/02/26/business/warner-bros-discovery-paramount-deal-netflix.html?unlocked_article_code=1.PVA.3639.2yWKES49z8Os",
+      "date": "2026-02-27T00:20:48Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "iPhone and iPad Approved to Handle Classified NATO Information",
       "link": "https://nr.apple.com/Do0I6B8WX0",
@@ -28,20 +42,6 @@
       "date": "2026-02-26T19:03:27Z",
       "summary": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work since - the models have significantly higher quality, long-term coherence and tenacity and they can power through large and long tasks, well past enough that it is extremely disruptive to the default programming workflow. [...] — Andrej Karpathy Tags: andrej-karpathy , coding-agents , ai-assisted-programming , generative-ai , agentic-engineering , ai , llms",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "‘Steve Jobs in Exile’",
-      "link": "https://geoffreycain.net/steve-jobs-in-exile/",
-      "date": "2026-02-26T18:04:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Microsoft Adds Additional Markdown Features to Windows Notepad",
-      "link": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/",
-      "date": "2026-02-26T17:50:09Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Intercepting messages inside Is­Dialog­Message, installing the message filter",
