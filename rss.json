@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-27T12:21:21.742592Z",
+  "generated_at": "2026-02-27T13:31:12.441810Z",
   "items": [
+    {
+      "title": "Book Review: Weird Things Customers Say in Bookshops by Jen Campbell ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-weird-things-customers-say-in-bookshops-by-jen-campbell/",
+      "date": "2026-02-27T12:34:11Z",
+      "summary": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)? This is a collection of Tweet-sized \"overheard in\" stories. All set in book shops. Isn't it funny that some people don't know how books work! ROFL! Aren't the general public strange? LOLOL! That's a bit harsh of me. It only rarely becomes mean-spirited. But in a book this…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "xkcd 2347",
       "link": "https://nesbitt.io/2026/02/27/xkcd-2347.html",
@@ -182,13 +189,6 @@
       "date": "2026-02-24T15:00:00Z",
       "summary": "Intercepting the flow in your message loop. The post Customizing the ways the dialog manager dismisses itself: Isolating the Close pathway appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Adding OpenStreetMap login to Auth0",
-      "link": "https://shkspr.mobi/blog/2026/02/adding-openstreetmap-login-to-auth0/",
-      "date": "2026-02-24T12:34:21Z",
-      "summary": "So you want to add OSM as an OAuth provider to Auth0? Here's a tip - you do not want to create a custom social connection! Instead, you need to create an \"OpenID Connect\" provider. Here's how. OpenSteetMap As per the OAuth documentation you will need to: Register a new app at https://www.openstreetmap.org/oauth2/applications/ Give it a name that users will recognise Give it a redirect of…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Socialist excellence in New York City (24 Feb 2026)",
