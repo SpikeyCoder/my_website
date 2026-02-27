@@ -96,3 +96,32 @@ Supabase files added:
 - `supabase/functions/booking-status/index.ts`
 - `supabase/functions/booking-confirm/index.ts`
 - `supabase/functions/stripe-webhook/index.ts`
+
+## Google Calendar background confirmation (silent)
+Implemented backend path for silent booking confirmation based on Google Calendar appointment events:
+
+- `POST /functions/v1/google-calendar-setup` (admin token required)
+  - Performs calendar sync
+  - Registers/renews Google push notification channel
+- `POST /functions/v1/google-calendar-sync` (admin token required)
+  - Manual or scheduled reconciliation sync
+- `POST /functions/v1/google-calendar-webhook` (Google push endpoint)
+  - Receives Google channel notifications
+  - Runs incremental sync and marks matching emails as booked
+
+State storage:
+- `public.google_calendar_watch_state`
+  - channel id/token/resource id
+  - expiration
+  - sync token
+  - last notification/sync timestamps
+
+Booking confirmation signal:
+- Events are filtered to appointment-schedule entries via:
+  - `sharedExtendedProperty=goo.createdBySet=default_cita`
+- For matching events with a non-owner attendee email:
+  - `booking_profiles.has_booked` is set to `true`
+  - `booking_events` records `booking.confirmed` with `google_event_id`
+
+Deduplication:
+- `booking_events.google_event_id` plus unique index prevents duplicate confirmations per email/event/source/type.
