@@ -800,10 +800,6 @@ function readCookie(name) {
   return decodeURIComponent(item.slice(encoded.length + 1));
 }
 
-function readHasBookedCookie() {
-  return readCookie(BOOKING_COOKIE_NAME) === "true";
-}
-
 function setHasBookedCookie(value) {
   const secure = window.location.protocol === "https:" ? "; Secure" : "";
   if (value) {
@@ -823,7 +819,7 @@ async function setupBooking() {
 
   const state = {
     email: normalizeEmail(localStorage.getItem("bookingEmail") || ""),
-    hasBooked: readHasBookedCookie(),
+    hasBooked: false,
     targetUrl: "",
     lookupId: 0,
   };
@@ -853,20 +849,37 @@ async function setupBooking() {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
+  async function sendBookingIntake(email) {
+    const token = localStorage.getItem("bookingToken") || "";
+    const response = await fetch(`${SUPABASE_FUNCTIONS_BASE}/booking-intake`, {
+      method: "POST",
+      credentials: "include",
+      headers: {
+        "Content-Type": "application/json",
+        ...(token ? { "x-booking-token": token } : {}),
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(payload.error || `Intake failed: ${response.status}`);
+    }
+    if (payload.token) {
+      localStorage.setItem("bookingToken", payload.token);
+    }
+  }
+
   async function resolveBookingTarget(email, lookupId) {
     const normalized = normalizeEmail(email);
     if (!normalized) {
       return;
     }
 
-    const localHasBooked = readHasBookedCookie();
-    if (localHasBooked) {
-      if (lookupId !== state.lookupId) return;
-      state.hasBooked = true;
-      state.targetUrl = buildStripeUrl(normalized);
-      setDisabled(false);
-      setValidation("Email valid. Booking ready.");
-      return;
+    try {
+      await sendBookingIntake(normalized);
+    } catch (error) {
+      console.warn("booking-intake failed", error);
     }
 
     try {
@@ -894,12 +907,13 @@ async function setupBooking() {
       state.targetUrl = state.hasBooked ? buildStripeUrl(normalized) : FREE_CAL_LINK;
       setDisabled(false);
       setValidation("Email valid. Booking ready.");
-    } catch (_error) {
+    } catch (error) {
       if (lookupId !== state.lookupId) return;
       state.hasBooked = false;
-      state.targetUrl = FREE_CAL_LINK;
-      setDisabled(false);
-      setValidation("Email valid. Booking ready.");
+      state.targetUrl = "";
+      setHasBookedCookie(false);
+      setDisabled(true);
+      setValidation("Could not verify booking status. Edit email and retry.");
     }
   }
 
