@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-28T18:12:56.365605Z",
+  "generated_at": "2026-02-28T19:09:39.813016Z",
   "items": [
+    {
+      "title": "Working with file extensions in bash scripts",
+      "link": "https://www.johndcook.com/blog/2026/02/28/file-extensions-bash/",
+      "date": "2026-02-28T18:20:37Z",
+      "summary": "I’ve never been good at shell scripting. I’d much rather write scripts in a general purpose language like Python. But occasionally a shell script can do something so simply that it’s worth writing a shell script. Sometimes a shell scripting feature is terse and cryptic precisely because it solves a common problem succinctly. One example […] The post Working with file extensions in bash scripts first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "That's it, I'm cancelling my ChatGPT",
       "link": "https://idiallo.com/byte-size/im-cancelling-my-chatgpt-openai-account?src=feed",
@@ -224,13 +231,6 @@
       "date": "2026-02-25T00:00:00Z",
       "summary": "Query based compilers are all the rage these days, so it feels only appropriate to chart some treacherous shoals in those waters.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "A curious trig identity",
-      "link": "https://www.johndcook.com/blog/2026/02/24/a-curious-trig-identity/",
-      "date": "2026-02-24T23:33:41Z",
-      "summary": "Here is an identity that doesn’t look correct but it is. For real x and y, I found the identity in [1]. The author’s proof is short. First of all, Then Taking square roots completes the proof. Now note that the statement at the top assumed x and y are real. You can see that this assumption is necessary […] The post A curious trig identity first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
