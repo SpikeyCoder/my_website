@@ -175,12 +175,12 @@ textarea {
 }
 
 #blog {
-  padding-bottom: 18px;
+  padding-bottom: 3px;
 }
 
 #career-acceleration {
   scroll-margin-top: var(--anchor-offset);
-  padding-top: 18px;
+  padding-top: 3px;
 }
 
 .section-title {
