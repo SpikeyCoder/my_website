@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T14:09:25.628917Z",
+  "generated_at": "2026-02-28T15:09:32.107120Z",
   "items": [
     {
       "title": "Reading List 02/28/26",
@@ -35,6 +35,13 @@
       "date": "2026-02-28T10:00:00Z",
       "summary": "A response to a GDPR data subject access request.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Notes from February 2026",
+      "link": "https://evanhahn.com/notes-from-february-2026/",
+      "date": "2026-02-28T00:00:00Z",
+      "summary": "Things I did and saw this February. Things I made I shipped my first feature at Ghost: Inbox Links . When a member enters their email to log in or sign up, we now show a button that takes them straight to their inbox. In addition to shipping a neat feature, I also enjoyed learning about MX records and RFC-compliant email address parsing. The source code for the main logic is here . I was surprised to learn that gzip streams encode which operating system did the compression. I built a little tool, “gzpeek”, to inspect this metadata (and more). The 40th anniversary of the original Legend of Zelda was this month, and I wanted a calendar feed for other game anniversaries, so I made one . Oracle of Ages and Oracle of Seasons just turned 25 yesterday! Speaking of, I wrote a few articles for Zelda Dungeon as usual. Cool links from online An incredible stunt: a game written in HTML and CSS . “No JavaScript or server-side code is used.” Best description of LLMs I’ve seen so far: “When you enter text into [ChatGPT], you’re asking ‘What would a response to this sound like?’” Seems like it’s better for your programming career to be bullish on AI, according to “AI skepticism is a quiet career killer” . “Countries are growing uneasy about their dependence on US technology firms” , which the US is trying to stop . We deserve to lose this battle. “The lack of European billion-dollar technology companies leads people to forget the technology invented here that instead embraced openness: the web, Linux, Raspberry Pi, Open StreetMap, the Fediverse.” Someone has decided to pick up a retro video game instead of doom scrolling . “This isn’t about paranoia. It’s about understanding the trade-offs we make when we leave wireless radios enabled on our devices. For some use cases, Bluetooth is essential. For others, it’s just convenience. Being aware of what you’re exposing is the first step to making informed decisions about which category your devices fall into.” From “What Your Bluetooth Devices Reveal About You” . “I want to break down how [Content Security Policy] actually works and, more importantly, where people screw it up.” “The research […] did not find a single example where popular tools such as Google’s Gemini or Microsoft’s Copilot were leading to a ‘material, verifiable, and substantial’ reduction in planet-heating emissions.” First read the term “openwashing”, which describes the process of using the word “open” as marketing. OpenAI and Android are examples of this. See “Acting ethically in an imperfect world” . Hope you had a good February.",
+      "source": "evanhahn.com"
     },
     {
       "title": "Please, please, please stop using passkeys for encrypting user data",
@@ -273,13 +280,6 @@
       "date": "2026-02-23T00:00:00Z",
       "summary": "I get it: Large Language Models are interesting... but you should not give \"Agentic AI\" access to your computer, accounts or wallet. To do away with the hype: \"AI Agents\" are just LLMs with shell access, and at it's core an LLM is a weighted random number generator. You have no idea what it will do It could post your credit card number on social media. This isn't a theoretical concern. There are multiple cases of LLMs wiping people's computers [1] [2] , cloud accounts [3] , and even causing infrastructure outages [4] . --> What's worse, LLMs have a nasty habit of lying about what they did. What should a good assistant say when asked if it did the thing? \"Yes\", and did it delete the data­base? \"Of course not.\" They don't have to be hacked to ruin your day. \"... but I tested it!\" you say. You rolled a die in testing, and rolled it again in production. It might work fine the first time — or the first hundred times — but that doesn't mean it won't misbehave in the future. If you want to try these tools out , run them in a virtual machine. Don't give them access to any accounts that you wouldn't want to lose. Read generated code to make sure it didn't do anything stupid like forgetting to check passwords: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors, attribute/varable names, file names */ h-s {color: #AEE;} /* Comments */ h-c {color: #777;} h-e {color: #F6F;} [...] // TODO: Validate PDU signature // TODO: Check authorization [...] // TODO: Validate the join event [...] // TODO: Return actual auth chain [...] // TODO: Check power levels [...] // TODO: Check permissions [...] (These are real comments from Cloudflare's vibe coded chat server ) ... and keep an eye on them to make sure they aren't being assholes on your behalf .",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Reading List 02/21/26",
-      "link": "https://www.construction-physics.com/p/reading-list-022126",
-      "date": "2026-02-21T13:37:44Z",
-      "summary": "Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure, and industrial technology.",
-      "source": "construction-physics.com"
     }
   ]
 }
