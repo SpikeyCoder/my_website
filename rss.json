@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T07:14:19.057644Z",
+  "generated_at": "2026-02-28T08:12:42.531869Z",
   "items": [
     {
       "title": "Please, please, please stop using passkeys for encrypting user data",
@@ -58,6 +58,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "Book Review: Weird Things Customers Say in Bookshops by Jen Campbell ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-weird-things-customers-say-in-bookshops-by-jen-campbell/",
+      "date": "2026-02-27T12:34:11Z",
+      "summary": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)? This is a collection of Tweet-sized \"overheard in\" stories. All set in book shops. Isn't it funny that some people don't know how books work! ROFL! Aren't the general public strange? LOLOL! That's a bit harsh of me. It only rarely becomes mean-spirited. But in a book this…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "We Need Process, But Process Gets in the Way",
       "link": "https://idiallo.com/blog/when-process-get-in-the-way?src=feed",
       "date": "2026-02-27T12:00:00Z",
@@ -84,6 +91,13 @@
       "date": "2026-02-26T15:00:00Z",
       "summary": "Using an Is­Dialog­Message extension point. The post Intercepting messages inside <CODE>Is­Dialog­Message</CODE>, installing the message filter appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "This time is different",
+      "link": "https://shkspr.mobi/blog/2026/02/this-time-is-different/",
+      "date": "2026-02-26T12:34:39Z",
+      "summary": "3D TV, AMP, Augmented Reality, Beanie Babies, Blockchain, Cartoon Avatars, Curved TVs, Frogans, Hoverboards, iBeacons, Jetpacks, Metaverse, NFTs, Physical Web, Quantum Computing, Quibi, Small and Safe Nuclear Reactors, Smart Glasses, Stadia, WiMAX. The problem is, the same dudes (and it was nearly always dudes) who were pumped for all of that bollocks now won't stop wanging on about Artificial…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: If you build it (and it works), Trump will come (and take it) (26 Feb 2026)",
@@ -126,6 +140,13 @@
       "date": "2026-02-25T15:00:00Z",
       "summary": "Process the message before you let Is­Dialog­Message see it. The post Intercepting messages before <CODE>Is­Dialog­Message</CODE> can process them appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Book Review: Of Monsters and Mainframes - Barbara Truelove ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-of-monsters-and-mainframes-barbara-truelove/",
+      "date": "2026-02-25T12:34:02Z",
+      "summary": "This is fun, silly, charming, and much better than The Murderbot Diaries despite being superficially similar. Imagine you are an interstellar ship and, of course, your AI is conscious. What would you do if your passengers were killed - not by a terrifying alien, but by Count Dracula??? What if, on the return journey, another set of your passengers were similarly slaughtered. Except, this…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "When access to knowledge is no longer the limitation",
@@ -259,27 +280,6 @@
       "date": "2026-02-21T00:00:00Z",
       "summary": "The original Legend of Zelda came out 40 years ago today. With other birthdays on the horizon, like Twilight Princess ’s 20th in November, I wanted a calendar that showed the anniversary of every Zelda game. So I made one. Subscribe to this URL in your calendar app: https://evanhahn.com/tape/zelda_anniversaries.ics Once you do, you’ll get calendar events on the anniversary of each game’s release. For example, you’ll be able to see that the Oracle games turn 25 in less than a week…I feel old. If you want to build this file yourself, I wrote a little Python script that generates an ICS file from a CSV of release dates .",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-      "date": "2026-02-20T20:00:30Z",
-      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
-      "link": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
-      "date": "2026-02-20T00:00:00Z",
-      "summary": "As mentioned in our software roadmap, we’ve been working on many improvements to Pebble’s already pretty awesome SDK and developer…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "Life Update: On medical leave",
-      "link": "https://xeiaso.net/notes/2026/life-update-medical-leave/",
-      "date": "2026-02-20T00:00:00Z",
-      "summary": "Taking some time off for medical reasons until early April",
-      "source": "xeiaso.net"
     }
   ]
 }
