@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-28T12:16:03.093873Z",
+  "generated_at": "2026-02-28T13:20:08.687966Z",
   "items": [
+    {
+      "title": "30 months to 3MWh - some more home battery stats",
+      "link": "https://shkspr.mobi/blog/2026/02/30-months-to-3mwh-some-more-home-battery-stats/",
+      "date": "2026-02-28T12:34:19Z",
+      "summary": "Back in August 2023, we installed a Moixa 4.8kWh Solar Battery to pair with our solar panels. For the last year and a half it has chugged away slurping up electrons and sending them back as needed. Its little fan whirrs and the lights on its Ethernet port flicker happily as it does its duty. I estimate that it has saved us around 3 MegaWatt hours since it was commissioned. In monetary terms,…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Who is the Kimwolf Botmaster “Dort”?",
       "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
@@ -161,13 +168,6 @@
       "date": "2026-02-25T15:00:00Z",
       "summary": "Process the message before you let Is­Dialog­Message see it. The post Intercepting messages before <CODE>Is­Dialog­Message</CODE> can process them appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: Of Monsters and Mainframes - Barbara Truelove ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-of-monsters-and-mainframes-barbara-truelove/",
-      "date": "2026-02-25T12:34:02Z",
-      "summary": "This is fun, silly, charming, and much better than The Murderbot Diaries despite being superficially similar. Imagine you are an interstellar ship and, of course, your AI is conscious. What would you do if your passengers were killed - not by a terrifying alien, but by Count Dracula??? What if, on the return journey, another set of your passengers were similarly slaughtered. Except, this…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "When access to knowledge is no longer the limitation",
