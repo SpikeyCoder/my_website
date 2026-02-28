@@ -722,8 +722,27 @@ textarea {
 }
 
 .footer {
-  padding: 24px 0 40px;
+  padding: 36px 0 44px;
   color: var(--muted);
+}
+
+.footer-content {
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+  text-align: center;
+}
+
+.footer-brand {
+  margin: 0;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-weight: 700;
+}
+
+.footer-copy {
+  margin: 0;
 }
 
 .mono {
@@ -781,7 +800,14 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 14px;
   padding: 12px 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .nav-brand {
@@ -812,6 +838,89 @@ textarea {
   cursor: pointer;
 }
 
+.social-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.social-row-nav {
+  margin-left: 6px;
+}
+
+.social-row-nav .social-share-label {
+  display: none;
+}
+
+.social-row-footer .social-share-label {
+  display: inline;
+}
+
+.social-icon-btn,
+.social-share-btn {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #93a3bd;
+  background: transparent;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.social-icon-btn svg,
+.social-share-btn svg {
+  width: 23px;
+  height: 23px;
+}
+
+.social-icon-btn:hover,
+.social-share-btn:hover {
+  color: var(--accent);
+  border-color: rgba(126, 231, 135, 0.44);
+  background: rgba(126, 231, 135, 0.12);
+}
+
+.social-icon-btn:focus-visible,
+.social-share-btn:focus-visible {
+  outline: 2px solid rgba(88, 166, 255, 0.75);
+  outline-offset: 2px;
+}
+
+.social-share-label {
+  font-weight: 600;
+}
+
+.social-separator {
+  width: 1px;
+  height: 34px;
+  background: var(--border);
+  margin: 0 2px;
+}
+
+.copy-feedback {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  font-size: 0.78rem;
+  color: var(--accent);
+  opacity: 0;
+  transform: translateY(-3px);
+  pointer-events: none;
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.copy-feedback.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .admin-panel {
   position: fixed;
   inset: 0;
@@ -838,8 +947,25 @@ textarea {
 }
 
 @media (max-width: 720px) {
+  .nav-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nav-right {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
   .nav-links {
     gap: 10px;
+  }
+
+  .social-row-nav {
+    margin-left: 0;
   }
 }
 
@@ -858,6 +984,123 @@ textarea {
   display: inline-flex;
   gap: 10px;
   align-items: center;
+}
+
+.blog-share {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.blog-share-trigger {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(17, 27, 38, 0.85);
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.blog-share-trigger svg {
+  width: 24px;
+  height: 24px;
+}
+
+.blog-share-trigger:hover,
+.blog-share-trigger:focus-visible,
+.blog-share.is-open .blog-share-trigger {
+  background: var(--accent);
+  color: #0b0f14;
+  border-color: transparent;
+}
+
+.blog-share-trigger:focus-visible {
+  outline: 2px solid rgba(88, 166, 255, 0.75);
+  outline-offset: 2px;
+}
+
+.share-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 10px);
+  min-width: 220px;
+  border-radius: 14px;
+  border: 1px solid rgba(88, 166, 255, 0.45);
+  background: #121d2d;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  z-index: 8;
+}
+
+.share-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.share-menu-title {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #9fb0c9;
+}
+
+.share-close {
+  border: none;
+  background: transparent;
+  color: #8093b2;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.share-close:hover,
+.share-close:focus-visible {
+  color: var(--ink);
+}
+
+.share-menu-items {
+  display: grid;
+}
+
+.share-menu-item {
+  border: none;
+  background: transparent;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.share-menu-item svg {
+  width: 22px;
+  height: 22px;
+  color: #9fb0c9;
+}
+
+.share-menu-item:hover,
+.share-menu-item:focus-visible {
+  background: rgba(88, 166, 255, 0.22);
+  color: #58a6ff;
+  outline: none;
+}
+
+.blog-share .copy-feedback {
+  right: 8px;
+  bottom: -20px;
 }
 
 .blog-content {

@@ -464,11 +464,40 @@ async function setupBlog() {
         const tags = post.tags?.length ? post.tags.join(", ") : "";
         const content = post.content || "";
         const canUserEdit = canEdit();
+        const postUrl = buildBlogPostUrl(post.id);
+        const linkedInShare = buildShareHref("linkedin", postUrl);
+        const xShare = buildShareHref("x", postUrl);
         return `
-          <article class="blog-post">
+          <article class="blog-post" id="blog-post-${post.id}">
             <div class="blog-post-header">
               <h4>${post.title}</h4>
               <div class="blog-post-actions">
+                <div class="blog-share" data-share-root data-share-url="${escapeHtml(postUrl)}">
+                  <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                    ${getShareIcon("share")}
+                  </button>
+                  <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                    <div class="share-menu-header">
+                      <h5 class="share-menu-title">Share Post</h5>
+                      <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                    </div>
+                    <div class="share-menu-items">
+                      <a class="share-menu-item" role="menuitem" data-share-network="linkedin" href="${linkedInShare}" target="_blank" rel="noreferrer noopener">
+                        ${getShareIcon("linkedin")}
+                        <span>LinkedIn</span>
+                      </a>
+                      <a class="share-menu-item" role="menuitem" data-share-network="x" href="${xShare}" target="_blank" rel="noreferrer noopener">
+                        ${getShareIcon("x")}
+                        <span>Twitter / X</span>
+                      </a>
+                      <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                        ${getShareIcon("copy")}
+                        <span>Copy Link</span>
+                      </button>
+                    </div>
+                  </div>
+                  <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+                </div>
                 <button class="link blog-toggle" data-post="${post.id}">Read</button>
                 ${canUserEdit ? `<button class="link blog-edit" data-edit="${post.id}">Edit</button>` : ""}
               </div>
@@ -526,6 +555,9 @@ async function setupBlog() {
       .join("");
 
     window.setupBlogPostToggles(list);
+    if (window.SocialShare?.setupShareMenus) {
+      window.SocialShare.setupShareMenus(list);
+    }
 
     list.querySelectorAll(".blog-edit").forEach((button) => {
       button.addEventListener("click", () => {
@@ -786,6 +818,41 @@ function clampText(text, max = 120) {
   const clean = text.replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
   return `${clean.slice(0, max - 1)}…`;
+}
+
+function buildShareHref(network, targetUrl) {
+  if (window.SocialShare?.buildShareHref) {
+    return window.SocialShare.buildShareHref(network, targetUrl);
+  }
+
+  const encoded = encodeURIComponent(targetUrl);
+  if (network === "linkedin") {
+    return `https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`;
+  }
+  if (network === "x") {
+    return `https://twitter.com/intent/tweet?url=${encoded}`;
+  }
+  return "#";
+}
+
+function buildBlogPostUrl(postId) {
+  const url = new URL(window.location.href);
+  url.hash = `blog-post-${postId}`;
+  return url.toString();
+}
+
+function getShareIcon(name) {
+  if (name === "linkedin") {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>`;
+  }
+  if (name === "x") {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>`;
+  }
+  if (name === "copy") {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>`;
+  }
+
+  return `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>`;
 }
 
 function normalizeEmail(value) {
