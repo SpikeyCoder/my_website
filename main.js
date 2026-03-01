@@ -489,7 +489,7 @@ async function setupBlog() {
     status.textContent = "Loading posts...";
     const { data, error } = await supabase
       .from("posts")
-      .select("id,title,summary,content,tags,published_at")
+      .select("id,slug,title,summary,content,tags,published_at")
       .order("published_at", { ascending: false })
       .limit(20);
 
@@ -726,7 +726,10 @@ async function setupBlog() {
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const formData = new FormData(form);
+    const postId = generateClientPostId();
     const payload = {
+      id: postId,
+      slug: buildStablePostSlug(formData.get("title"), postId),
       title: formData.get("title"),
       summary: formData.get("summary"),
       content: formData.get("content"),
@@ -882,7 +885,7 @@ function buildShareHref(network, targetUrl) {
     return `https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`;
   }
   if (network === "x") {
-    return `https://twitter.com/intent/tweet?url=${encoded}`;
+    return `https://x.com/intent/post?url=${encoded}`;
   }
   return "#";
 }
@@ -921,20 +924,35 @@ function slugifyPostTitle(value) {
   return slug || "post";
 }
 
+function getPostIdSuffix(value) {
+  return String(value || "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .slice(-8)
+    .toLowerCase();
+}
+
+function buildStablePostSlug(title, postId) {
+  const base = slugifyPostTitle(title);
+  const idSuffix = getPostIdSuffix(postId);
+  return idSuffix ? `${base}-${idSuffix}` : base;
+}
+
+function generateClientPostId() {
+  if (window.crypto?.randomUUID) return window.crypto.randomUUID();
+
+  const randomHex = () => Math.floor((1 + Math.random()) * 0x10000).toString(16).slice(1);
+  return `${randomHex()}${randomHex()}-${randomHex()}-${randomHex()}-${randomHex()}-${randomHex()}${randomHex()}${randomHex()}`;
+}
+
 function buildPostSlugMap(posts) {
   return posts.map((post) => {
-    const base = slugifyPostTitle(post.title);
-    const idSuffix = String(post.id || "")
-      .replace(/[^a-zA-Z0-9]/g, "")
-      .slice(-8)
-      .toLowerCase();
-    const slug = idSuffix ? `${base}-${idSuffix}` : base;
+    const slug = post.slug || buildStablePostSlug(post.title, post.id);
     return { ...post, shareSlug: slug };
   });
 }
 
 function buildBlogPostPath(slug) {
-  return `/#live-blog/${encodeURIComponent(slug)}`;
+  return `/blog/${encodeURIComponent(slug)}`;
 }
 
 function buildBlogPostUrl(slug) {

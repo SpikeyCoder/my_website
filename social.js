@@ -9,7 +9,7 @@
 
   const SHARE_ENDPOINTS = {
     linkedin: (url) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
-    x: (url) => `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`,
+    x: (url) => `https://x.com/intent/post?url=${encodeURIComponent(url)}`,
   };
 
   let activeShareRoot = null;
@@ -134,9 +134,25 @@
     });
   }
 
+
+  function applyShareUrl(root) {
+    if (!(root instanceof HTMLElement)) return "";
+    const shareUrl = String(root.dataset.shareUrl || "").trim();
+    if (!shareUrl) return "";
+
+    root.querySelectorAll("a[data-share-network]").forEach((link) => {
+      if (!(link instanceof HTMLAnchorElement)) return;
+      const key = String(link.dataset.shareNetwork || "").toLowerCase();
+      const build = SHARE_ENDPOINTS[key];
+      if (!build) return;
+      link.href = build(shareUrl);
+    });
+
+    return shareUrl;
+  }
+
   function setupShareRoot(root) {
     if (!(root instanceof HTMLElement)) return;
-    if (root.dataset.shareInit === "1") return;
 
     const trigger = root.querySelector("[data-share-trigger]");
     const menu = root.querySelector("[data-share-menu]");
@@ -145,16 +161,9 @@
 
     if (!(trigger instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) return;
 
-    const shareUrl = String(root.dataset.shareUrl || "").trim();
-    if (shareUrl) {
-      root.querySelectorAll("a[data-share-network]").forEach((link) => {
-        if (!(link instanceof HTMLAnchorElement)) return;
-        const key = String(link.dataset.shareNetwork || "").toLowerCase();
-        const build = SHARE_ENDPOINTS[key];
-        if (!build) return;
-        link.href = build(shareUrl);
-      });
-    }
+    applyShareUrl(root);
+
+    if (root.dataset.shareInit === "1") return;
 
     root.dataset.shareInit = "1";
     menu.hidden = true;
@@ -185,6 +194,7 @@
 
     if (copyButton instanceof HTMLButtonElement) {
       copyButton.addEventListener("click", async () => {
+        const shareUrl = String(root.dataset.shareUrl || "").trim();
         const ok = await copyText(shareUrl);
         showCopyFeedback(root, ok ? "Copied!" : "Copy failed");
         closeShareMenu(root, true);
@@ -231,7 +241,8 @@
     menu.querySelectorAll("a[role='menuitem']").forEach((link) => {
       if (!(link instanceof HTMLAnchorElement)) return;
       link.addEventListener("click", () => {
-        closeShareMenu(root);
+        // Defer menu teardown so browser navigation/open-in-new-tab isn't canceled.
+        window.setTimeout(() => closeShareMenu(root), 0);
       });
     });
 

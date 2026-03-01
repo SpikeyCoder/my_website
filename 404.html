@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var path = window.location.pathname || "/";
+        var basePath = path.indexOf("/my_website/") === 0 ? "/my_website" : "";
+        var relativePath = basePath && path.indexOf(basePath) === 0 ? path.slice(basePath.length) || "/" : path;
+        var match = relativePath.match(/^\/blog\/([^/?#]+)\/?$/i);
+
+        if (match && match[1]) {
+          var rawSlug = match[1];
+          var slug = rawSlug;
+          try {
+            slug = decodeURIComponent(rawSlug);
+          } catch (_error) {
+            slug = rawSlug;
+          }
+
+          var target = basePath + "/blog/?slug=" + encodeURIComponent(slug) + "&from=path";
+          window.location.replace(target);
+          return;
+        }
+
+        window.location.replace(basePath + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
