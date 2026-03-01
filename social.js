@@ -137,7 +137,7 @@
 
   function applyShareUrl(root) {
     if (!(root instanceof HTMLElement)) return "";
-    const shareUrl = String(root.dataset.shareUrl || "").trim();
+    const shareUrl = resolveShareUrl(root);
     if (!shareUrl) return "";
 
     root.querySelectorAll("a[data-share-network]").forEach((link) => {
@@ -149,6 +149,13 @@
     });
 
     return shareUrl;
+  }
+
+
+  function resolveShareUrl(root) {
+    if (!(root instanceof HTMLElement)) return window.location.href;
+    const direct = String(root.dataset.shareUrl || "").trim();
+    return direct || window.location.href;
   }
 
   function setupShareRoot(root) {
@@ -194,7 +201,7 @@
 
     if (copyButton instanceof HTMLButtonElement) {
       copyButton.addEventListener("click", async () => {
-        const shareUrl = String(root.dataset.shareUrl || "").trim();
+        const shareUrl = resolveShareUrl(root);
         const ok = await copyText(shareUrl);
         showCopyFeedback(root, ok ? "Copied!" : "Copy failed");
         closeShareMenu(root, true);
@@ -240,8 +247,11 @@
 
     menu.querySelectorAll("a[role='menuitem']").forEach((link) => {
       if (!(link instanceof HTMLAnchorElement)) return;
-      link.addEventListener("click", () => {
-        // Defer menu teardown so browser navigation/open-in-new-tab isn't canceled.
+      link.addEventListener("click", (event) => {
+        const href = link.href;
+        if (!href) return;
+        event.preventDefault();
+        window.open(href, "_blank", "noopener,noreferrer");
         window.setTimeout(() => closeShareMenu(root), 0);
       });
     });
