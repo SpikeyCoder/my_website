@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-01T12:17:04.156519Z",
+  "generated_at": "2026-03-01T13:21:32.804502Z",
   "items": [
+    {
+      "title": "Book Review: Under Fire - Black Britain in Wartime by Stephen Bourne ★★★★☆",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
+      "date": "2026-03-01T12:34:27Z",
+      "summary": "Everyone knows that Black people didn't exist in the UK until recently, right? Despite mountains of evidence of everything from Black Tudors and Victorian actors, some myths perniciously persist. What was the experience for Black Britons during the second world war? I find it fascinating how the US cultural hegemony rewrites history. I've heard people in the UK talk about \"Jim Crow laws\" as…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Quoting claude.com/import-memory",
       "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
@@ -65,6 +72,13 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "30 months to 3MWh - some more home battery stats",
+      "link": "https://shkspr.mobi/blog/2026/02/30-months-to-3mwh-some-more-home-battery-stats/",
+      "date": "2026-02-28T12:34:19Z",
+      "summary": "Back in August 2023, we installed a Moixa 4.8kWh Solar Battery to pair with our solar panels. For the last year and a half it has chugged away slurping up electrons and sending them back as needed. Its little fan whirrs and the lights on its Ethernet port flicker happily as it does its duty. I estimate that it has saved us around 3 MegaWatt hours since it was commissioned. In monetary terms,…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Who is the Kimwolf Botmaster “Dort”?",
       "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
       "date": "2026-02-28T12:01:57Z",
@@ -91,6 +105,13 @@
       "date": "2026-02-28T00:00:00Z",
       "summary": "There are a lot of nice programming languages, but files always seem like an afterthought. You usually only get read(), write() and some kind of serialization library. In C, you can access files exactly the same as data in memory: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors, attribute/varable names, file names */ h-s {color: #AEE;} /* Comments */ h-c {color: #777;} h-e {color: #F6F;} #include <sys/mman.h> #include <stdio.h> #include <stdint.h> #include <fcntl.h> #include <unistd.h> void main () { // Create/open a file containing 1000 unsigned integers // Initialized to all zeros. int len = 1000 * sizeof ( uint32_t ); int file = open ( \"numbers.u32\" , O_RDWR | O_CREAT , 0600 ); ftruncate ( file , len ); // Map it into memory. uint32_t * numbers = mmap ( NULL , len , PROT_READ | PROT_WRITE , MAP_SHARED , file , 0 ); // Do something: printf ( \"%d\\n\" , numbers [ 42 ]); numbers [ 42 ] = numbers [ 42 ] + 1 ; // Clean up munmap ( numbers , len ); close ( file ); } Memory mapping isn't the same as loading a file into memory: It still works if the file doesn't fit in RAM. Data is loaded as needed, so it won't take all day to open a terabyte file. It works with all datatypes and is automatically cached. This cache is cleared automatically if the system needs memory for something else. However, in other most languages , you have to read() in tiny chunks, parse, process, serialize and finally write() it back to the disk. This works, but is slow and needlessly limited to sequential access: Computers haven't used tape for decades. If you're lucky enough to have memory mapping , it will be limited to byte arrays, which still require explicit parsing/serialization. It ends up as just a nicer way to call read() and write() Considering that most languages already support custom allocators, adding a better way to access files seems very doable... but, as far as I'm aware, C is the only language that lets you specify a binary format and just use it. C's implemenation isn't even very good: Memory mapping comes some overhead (page faults, TLB flushes) and C does nothing to handle endianness — but it doesn't take much to beat nothing. Sure, you might want to do some parsing and validation , but this shouldn't be required every time data leaves the disk. When working with larger data, it's very common to run out of memory, making it impossible to just parse everything into RAM. Being able to just offload data without complicating the code is very useful. Just look at Python's pickle: it's a completely insecure serialization format. Loading a file can cause code execution even if you just wanted some numbers... but still very widely used because it fits with the mix-code-and-data model of python. A lot of files are not untrusted. File manipulation is similarly neglected. The filesystem is the original NoSQL database, but you seldom get more then a wrapper around C's readdir(). This usually results in people running another database, such as SQLite, on top of the filesystem, but relational databases never quite fit your program. ... and SQL integrates even worse than files: On top of having to serialize all your data, you have to write code in a whole separate language just to access it! Most programmers just use it as a key-value store, and implement their own metadata handling: creating a bizarre triple nested database. So to answer the title, I think it's a result of a bad assumption: That data being read from a file is coming from somewhere else and needs to be parsed... and that data being written to disk is being sent somewhere and needs to be serialized into a standard format. This simply isn't true on memory constrained systems — and with 100 GB files — every system is memory constrained.",
       "source": "maurycyz.com"
+    },
+    {
+      "title": "Notes from February 2026",
+      "link": "https://evanhahn.com/notes-from-february-2026/",
+      "date": "2026-02-28T00:00:00Z",
+      "summary": "Things I did and saw this February. Things I made I shipped my first feature at Ghost: Inbox Links . When a member enters their email to log in or sign up, we now show a button that takes them straight to their inbox. In addition to shipping a neat feature, I also enjoyed learning about MX records and RFC-compliant email address parsing. The source code for the main logic is here . I was surprised to learn that gzip streams encode which operating system did the compression. I built a little tool, “gzpeek”, to inspect this metadata (and more). The 40th anniversary of the original Legend of Zelda was this month, and I wanted a calendar feed for other game anniversaries, so I made one . Oracle of Ages and Oracle of Seasons just turned 25 yesterday! Speaking of, I wrote a few articles for Zelda Dungeon as usual. Cool links from online An incredible stunt: a game written in HTML and CSS . “No JavaScript or server-side code is used.” Best description of LLMs I’ve seen so far: “When you enter text into [ChatGPT], you’re asking ‘What would a response to this sound like?’” Seems like it’s better for your programming career to be bullish on AI, according to “AI skepticism is a quiet career killer” . “Countries are growing uneasy about their dependence on US technology firms” , which the US is trying to stop . We deserve to lose this battle. “The lack of European billion-dollar technology companies leads people to forget the technology invented here that instead embraced openness: the web, Linux, Raspberry Pi, Open StreetMap, the Fediverse.” Someone has decided to pick up a retro video game instead of doom scrolling . “This isn’t about paranoia. It’s about understanding the trade-offs we make when we leave wireless radios enabled on our devices. For some use cases, Bluetooth is essential. For others, it’s just convenience. Being aware of what you’re exposing is the first step to making informed decisions about which category your devices fall into.” From “What Your Bluetooth Devices Reveal About You” . “I want to break down how [Content Security Policy] actually works and, more importantly, where people screw it up.” “The research […] did not find a single example where popular tools such as Google’s Gemini or Microsoft’s Copilot were leading to a ‘material, verifiable, and substantial’ reduction in planet-heating emissions.” First read the term “openwashing”, which describes the process of using the word “open” as marketing. OpenAI and Android are examples of this. See “Acting ethically in an imperfect world” . Hope you had a good February.",
+      "source": "evanhahn.com"
     },
     {
       "title": "Please, please, please stop using passkeys for encrypting user data",
@@ -126,6 +147,13 @@
       "date": "2026-02-27T15:00:00Z",
       "summary": "Making sure it triggers when you need it, and not when you don't. The post Intercepting messages inside <CODE>Is­Dialog­Message</CODE>, fine-tuning the message filter appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Book Review: Weird Things Customers Say in Bookshops by Jen Campbell ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/02/book-review-weird-things-customers-say-in-bookshops-by-jen-campbell/",
+      "date": "2026-02-27T12:34:11Z",
+      "summary": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)? This is a collection of Tweet-sized \"overheard in\" stories. All set in book shops. Isn't it funny that some people don't know how books work! ROFL! Aren't the general public strange? LOLOL! That's a bit harsh of me. It only rarely becomes mean-spirited. But in a book this…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "We Need Process, But Process Gets in the Way",
@@ -175,6 +203,13 @@
       "date": "2026-02-26T01:10:37Z",
       "summary": "The post A curious trig identity contained the theorem that for real x and y, This theorem also holds when sine is replaced with hyperbolic sine. The post Trig of inverse trig contained a table summarizing trig functions applied to inverse trig functions. You can make a very similar table for the hyperbolic counterparts. The following Python […] The post Hyperbolic versions of latest posts first appeared on John D. Cook .",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Introducing gzpeek, a tool to parse gzip metadata",
+      "link": "https://evanhahn.com/introducing-gzpeek/",
+      "date": "2026-02-26T00:00:00Z",
+      "summary": "In short: gzip streams contain metadata, like the operating system that did the compression. I built a tool to read this metadata. I love reading specifications for file formats. They always have little surprises. I had assumed that the gzip format was strictly used for compression. My guess was: a few bytes of bookkeeping, the compressed data, and maybe a checksum. But then I read the spec . The gzip header holds more than I expected! What’s in gzip metadata? In addition to two bytes identifying the data as gzip, there’s also: The operating system that did the compression. This was super surprising to me! There’s a single byte that identifies the compressor’s OS: 0 for Windows, 1 for the Amiga, 3 for Unix, and many others I’d never heard of. Compressors can also set 255 for an “unknown” OS. Different tools set this value differently. zlib, the most popular gzip library, changes the flag based on the operating system . (It even defines some OSes that aren’t in the spec, like 18 for BeOS.) Many other libraries build atop zlib and inherit this behavior, such as .NET’s GZipStream , Ruby’s GzipWriter , and PHP’s gzencode . Java’s GZIPOutputStream , JavaScript’s CompressionStream , and Go’s compress/gzip set the OS to “unknown” regardless of operating system. Some, like Zopfli and Apache’s mod_deflate , hard-code it to “Unix” no matter what. All that to say: in practice, you can’t rely on this flag to determine the source OS, but it can give you a hint. Modification time for the data. This can be the time that compression started or the modification time of the file. It can also be set to 0 if you don’t want to communicate a time. This is represented as an unsigned 32-bit integer in the Unix format. That means it can represent any moment between January 1, 1970 and February 7, 2106. I hope we devise a better compression format in the next ~80 years, because we can only represent dates in that range. In my testing, many implementations set this to 0 . A few set it to the current time or the file’s modification time—the gzip command is one of these. FTEXT , a boolean flag vaguely indicating that the data is “probably ASCII text”. When I say vaguely, I mean it: the spec “deliberately [does] not specify the algorithm used to set this”. This is apparently for systems which have different storage formats for ASCII and binary data. In all my testing, nobody sets this flag to anything but 0 . An extra flag indicating how hard the compressor worked. 2 signals that it was compressed with max compression (e.g., gzip -9 ), 4 for the fastest algorithm, and 0 for everything else. In practice, zlib and many others set this correctly per the spec, but some tools hard-code it to 0 . And as far as I can tell, this byte is not used during decompression, so it doesn’t really matter. The original file name . For example, when I run gzip my_file.txt , the name is set to my_file.txt . This field is optional, so many tools don’t set it, but the gzip command line tool does. You can disable that with gzip --no-name . A comment . This optional field is seldom used, and many decompressors ignore it. But you could add a little comment if you want. Extra arbitrary data . If the other metadata wasn’t enough, you can stuff whatever you want into arbitrary subfields. Each subfield has a two-byte identifier and then 0 or more bytes of additional info. That’s way more info than I expected! gzpeek, a metadata explorer tool I was intrigued by this metadata and I’ve been wanting to learn Zig , so I wrote gzpeek . gzpeek is a command-line tool that lets you inspect the metadata of gzip streams. Here’s how to read metadata from a gzipped file: gzpeek my_file.gz # FTEXT: 0 # MTIME: 1591676406 # XFL: 2 # OS: 3 (Unix) # NAME: my_file.txt It extracts everything I listed above: the operating system, original file name, modification time, and more. I used it a bunch when surveying different gzip implementations. Give it a try, and let me know what gzip metadata you find.",
+      "source": "evanhahn.com"
     },
     {
       "title": "Intercepting messages before Is­Dialog­Message can process them",
@@ -245,41 +280,6 @@
       "date": "2026-02-23T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "What's so hard about continuous learning?",
-      "link": "https://seangoedecke.com/continuous-learning/",
-      "date": "2026-02-23T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "Be careful with LLM \"Agents\"",
-      "link": "https://maurycyz.com/misc/sandbox_llms/",
-      "date": "2026-02-23T00:00:00Z",
-      "summary": "I get it: Large Language Models are interesting... but you should not give \"Agentic AI\" access to your computer, accounts or wallet. To do away with the hype: \"AI Agents\" are just LLMs with shell access, and at it's core an LLM is a weighted random number generator. You have no idea what it will do It could post your credit card number on social media. This isn't a theoretical concern. There are multiple cases of LLMs wiping people's computers [1] [2] , cloud accounts [3] , and even causing infrastructure outages [4] . --> What's worse, LLMs have a nasty habit of lying about what they did. What should a good assistant say when asked if it did the thing? \"Yes\", and did it delete the data­base? \"Of course not.\" They don't have to be hacked to ruin your day. \"... but I tested it!\" you say. You rolled a die in testing, and rolled it again in production. It might work fine the first time — or the first hundred times — but that doesn't mean it won't misbehave in the future. If you want to try these tools out , run them in a virtual machine. Don't give them access to any accounts that you wouldn't want to lose. Read generated code to make sure it didn't do anything stupid like forgetting to check passwords: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors, attribute/varable names, file names */ h-s {color: #AEE;} /* Comments */ h-c {color: #777;} h-e {color: #F6F;} [...] // TODO: Validate PDU signature // TODO: Check authorization [...] // TODO: Validate the join event [...] // TODO: Return actual auth chain [...] // TODO: Check power levels [...] // TODO: Check permissions [...] (These are real comments from Cloudflare's vibe coded chat server ) ... and keep an eye on them to make sure they aren't being assholes on your behalf .",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "Reading List 02/21/26",
-      "link": "https://www.construction-physics.com/p/reading-list-022126",
-      "date": "2026-02-21T13:37:44Z",
-      "summary": "Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure, and industrial technology.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Wrapping Code Comments",
-      "link": "https://matklad.github.io/2026/02/21/wrapping-code-comments.html",
-      "date": "2026-02-21T00:00:00Z",
-      "summary": "I was today years old when I realized that:",
-      "source": "matklad.github.io"
-    },
-    {
-      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-      "date": "2026-02-20T20:00:30Z",
-      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
