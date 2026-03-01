@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T04:45:18.695203Z",
+  "generated_at": "2026-03-01T05:30:37.497413Z",
   "items": [
     {
       "title": "&ldquo;How old are you?&rdquo; Asked the OS",
@@ -49,13 +49,6 @@
       "date": "2026-02-28T12:34:19Z",
       "summary": "Back in August 2023, we installed a Moixa 4.8kWh Solar Battery to pair with our solar panels. For the last year and a half it has chugged away slurping up electrons and sending them back as needed. Its little fan whirrs and the lights on its Ethernet port flicker happily as it does its duty. I estimate that it has saved us around 3 MegaWatt hours since it was commissioned. In monetary terms,…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Who is the Kimwolf Botmaster “Dort”?",
-      "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
-      "date": "2026-02-28T12:01:57Z",
-      "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Pluralistic: California can stop Larry Ellison from buying Warners (28 Feb 2026)",
@@ -280,6 +273,13 @@
       "date": "2026-02-23T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Be careful with LLM \"Agents\"",
+      "link": "https://maurycyz.com/misc/sandbox_llms/",
+      "date": "2026-02-23T00:00:00Z",
+      "summary": "I get it: Large Language Models are interesting... but you should not give \"Agentic AI\" access to your computer, accounts or wallet. To do away with the hype: \"AI Agents\" are just LLMs with shell access, and at it's core an LLM is a weighted random number generator. You have no idea what it will do It could post your credit card number on social media. This isn't a theoretical concern. There are multiple cases of LLMs wiping people's computers [1] [2] , cloud accounts [3] , and even causing infrastructure outages [4] . --> What's worse, LLMs have a nasty habit of lying about what they did. What should a good assistant say when asked if it did the thing? \"Yes\", and did it delete the data­base? \"Of course not.\" They don't have to be hacked to ruin your day. \"... but I tested it!\" you say. You rolled a die in testing, and rolled it again in production. It might work fine the first time — or the first hundred times — but that doesn't mean it won't misbehave in the future. If you want to try these tools out , run them in a virtual machine. Don't give them access to any accounts that you wouldn't want to lose. Read generated code to make sure it didn't do anything stupid like forgetting to check passwords: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors, attribute/varable names, file names */ h-s {color: #AEE;} /* Comments */ h-c {color: #777;} h-e {color: #F6F;} [...] // TODO: Validate PDU signature // TODO: Check authorization [...] // TODO: Validate the join event [...] // TODO: Return actual auth chain [...] // TODO: Check power levels [...] // TODO: Check permissions [...] (These are real comments from Cloudflare's vibe coded chat server ) ... and keep an eye on them to make sure they aren't being assholes on your behalf .",
+      "source": "maurycyz.com"
     }
   ]
 }
