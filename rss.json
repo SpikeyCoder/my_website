@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-01T09:13:19.153045Z",
+  "generated_at": "2026-03-01T10:11:09.102570Z",
   "items": [
+    {
+      "title": "Redis patterns for coding",
+      "link": "http://antirez.com/news/161",
+      "date": "2026-03-01T09:55:09Z",
+      "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
+      "source": "antirez.com"
+    },
     {
       "title": "&ldquo;How old are you?&rdquo; Asked the OS",
       "link": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
@@ -270,13 +277,6 @@
     {
       "title": "Insider amnesia",
       "link": "https://seangoedecke.com/insider-amnesia/",
-      "date": "2026-02-23T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "What's so hard about continuous learning?",
-      "link": "https://seangoedecke.com/continuous-learning/",
       "date": "2026-02-23T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
