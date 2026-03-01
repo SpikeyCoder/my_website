@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-02-28T23:09:55.354714Z",
+  "generated_at": "2026-03-01T00:51:58.633787Z",
   "items": [
+    {
+      "title": "Interactive explanations",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+      "date": "2026-02-28T23:09:39Z",
+      "summary": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need to care. We can try out the new feature and make a very solid guess at how it works, then glance over the code to be sure. Often though the details really do matter. If the core of our application becomes a black box that we don't fully understand we can no longer confidently reason about it, which makes planning new features harder and eventually slows our progress in the same way that accumulated technical debt does. How do we pay down cognitive debt? By improving our understanding of how the code works. One of my favorite ways to do that is by building interactive explanations . Understanding word clouds In An AI agent coding skeptic tries AI agent coding, in excessive detail Max Woolf mentioned testing LLMs' Rust abilities with the prompt Create a Rust app that can create \"word cloud\" data visualizations given a long input text . This captured my imagination: I've always wanted to know how word clouds work, so I fired off an asynchronous research project - initial prompt here , code and report here - to explore the idea. This worked really well: Claude Code for web built me a Rust CLI tool that could produce images like this one: But how does it actually work? Claude's report said it uses \" Archimedean spiral placement with per-word random angular offset for natural-looking layouts\". This did not help me much! I requested a linear walkthrough of the codebase which helped me understand the Rust code in more detail - here's that walkthrough (and the prompt ). This helped me understand the structure of the Rust code but I still didn't have an intuitive understanding of how that \"Archimedean spiral placement\" part actually worked. So I asked for an animated explanation . I did this by pasting a link to that existing walkthrough.md document into a Claude Code session along with the following: Fetch https://raw.githubusercontent.com/simonw/research/refs/heads/main/rust-wordcloud/walkthrough.md to /tmp using curl so you can read the whole thing Inspired by that, build animated-word-cloud.html - a page that accepts pasted text (which it persists in the `#fragment` of the URL such that a page loaded with that `#` populated will use that text as input and auto-submit it) such that when you submit the text it builds a word cloud using the algorithm described in that document but does it animated, to make the algorithm as clear to understand. Include a slider for the animation which can be paused and the speed adjusted or even stepped through frame by frame while paused. At any stage the visible in-progress word cloud can be downloaded as a PNG. You can play with the result here . Here's an animated GIF demo: This was using Claude Opus 4.6, which turns out to have quite good taste when it comes to building explanatory animations. If you watch the animation closely you can see that for each word it attempts to place it somewhere on the page by showing a box, run checks if that box intersects an existing word. If so it continues to try to find a good spot, moving outward in a spiral from the center. I found that this animation really helped make the way the algorithm worked click for me. I have long been a fan of animations and interactive interfaces to help explain different concepts. A good coding agent can produce these on demand to help explain code - its own code or code written by others.",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Working with file extensions in bash scripts",
       "link": "https://www.johndcook.com/blog/2026/02/28/file-extensions-bash/",
@@ -91,13 +98,6 @@
       "date": "2026-02-27T19:20:14Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Free Claude Max for (large project) open source maintainers",
-      "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-      "date": "2026-02-27T18:08:22Z",
-      "summary": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public repo with 5,000+ GitHub stars or 1M+ monthly NPM downloads. You've made commits, releases, or PR reviews within the last 3 months. Don't quite fit the criteria If you maintain something the ecosystem quietly depends on, apply anyway and tell us about it. Also in the small print: \"Applications are reviewed on a rolling basis. We accept up to 10,000 contributors\". Via Hacker News Tags: open-source , ai , generative-ai , llms , anthropic , claude",
-      "source": "simonwillison.net"
     },
     {
       "title": "Upgrading my Open Source Pi Surveillance Server with Frigate",
