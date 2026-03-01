@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-01T21:10:17.585712Z",
+  "generated_at": "2026-03-01T22:09:59.059179Z",
   "items": [
+    {
+      "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
+      "link": "https://micahflee.com/why-hack-the-dhs-i-can-think-of-a-couple-pretti-good-reasons/",
+      "date": "2026-03-01T21:21:35Z",
+      "summary": "Today, DDoSecrets published data about ICE contracts hacked from DHS's Office of Industry Partnership. The hacker group, Department of Peace, published a statement that included: Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing",
+      "source": "micahflee.com"
+    },
     {
       "title": "Shell variable ~-",
       "link": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
@@ -273,13 +280,6 @@
       "date": "2026-02-24T01:07:08Z",
       "summary": "The \"agentic swarm\" vision of productivity is comfortingly familiar. Which should be an immediate red flag... You take the existing corporate hierarchy, you replace the bottom layers with a swarm of AI agents, and you keep humans around as supervisors. It's an org chart with robots",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Portable monitors are good",
-      "link": "https://xeiaso.net/blog/2026/portable-monitors-are-good/",
-      "date": "2026-02-24T00:00:00Z",
-      "summary": "A review of portable monitors for travel",
-      "source": "xeiaso.net"
     }
   ]
 }
