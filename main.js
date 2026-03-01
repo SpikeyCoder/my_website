@@ -353,6 +353,7 @@ async function setupBlog() {
   const authStatus = document.getElementById("auth-status");
   const authLogout = document.getElementById("auth-logout");
   let currentSession = null;
+  let renderedPosts = [];
 
   if (!supabaseReady()) {
     status.textContent = "Waiting for Supabase config";
@@ -417,6 +418,52 @@ async function setupBlog() {
     return Boolean(email) && email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
   }
 
+  function getBlogDeepLink() {
+    const raw = window.location.hash ? decodeURIComponent(window.location.hash) : "";
+    const match = raw.match(/^#live-blog\/([^/?#]+)/i);
+    if (match?.[1]) {
+      return { type: "slug", value: match[1].toLowerCase() };
+    }
+
+    const legacy = raw.match(/^#blog-post-(.+)$/i);
+    if (legacy?.[1]) {
+      return { type: "id", value: legacy[1] };
+    }
+
+    return null;
+  }
+
+  function openDeepLinkedPost() {
+    const route = getBlogDeepLink();
+    if (!route || !renderedPosts.length) return;
+
+    let target = null;
+    if (route.type === "slug") {
+      target = renderedPosts.find((post) => post.shareSlug.toLowerCase() === route.value);
+    } else if (route.type === "id") {
+      target = renderedPosts.find((post) => String(post.id) === route.value);
+    }
+
+    if (!target) return;
+
+    const contentEl = list.querySelector(`[data-content='${target.id}']`);
+    const toggleEl = list.querySelector(`.blog-toggle[data-post='${target.id}']`);
+    const articleEl = document.getElementById(`blog-post-${target.id}`);
+
+    if (contentEl) {
+      contentEl.classList.add("open");
+    }
+    if (toggleEl) {
+      toggleEl.textContent = "Close";
+    }
+
+    if (articleEl instanceof HTMLElement) {
+      articleEl.scrollIntoView({ block: "start", behavior: "auto" });
+    }
+  }
+
+  window.addEventListener("hashchange", openDeepLinkedPost);
+
   async function updatePost(id, patch) {
     if (!canEdit()) {
       status.textContent = "Sign in to edit posts";
@@ -447,24 +494,27 @@ async function setupBlog() {
       .limit(20);
 
     if (error) {
+      renderedPosts = [];
       status.textContent = "Unable to load posts";
       list.innerHTML = `<div class="blog-post">${error.message}</div>`;
       return;
     }
 
     if (!data.length) {
+      renderedPosts = [];
       status.textContent = "No posts yet";
       list.innerHTML = `<div class="blog-post">Publish your first post on the right.</div>`;
       return;
     }
 
-    status.textContent = `${data.length} posts`;
-    list.innerHTML = data
+    renderedPosts = buildPostSlugMap(data);
+    status.textContent = `${renderedPosts.length} posts`;
+    list.innerHTML = renderedPosts
       .map((post) => {
         const tags = post.tags?.length ? post.tags.join(", ") : "";
         const content = post.content || "";
         const canUserEdit = canEdit();
-        const postUrl = buildBlogPostUrl(post.id);
+        const postUrl = buildBlogPostUrl(post.shareSlug);
         const linkedInShare = buildShareHref("linkedin", postUrl);
         const xShare = buildShareHref("x", postUrl);
         return `
@@ -558,6 +608,8 @@ async function setupBlog() {
     if (window.SocialShare?.setupShareMenus) {
       window.SocialShare.setupShareMenus(list);
     }
+
+    openDeepLinkedPost();
 
     list.querySelectorAll(".blog-edit").forEach((button) => {
       button.addEventListener("click", () => {
@@ -835,10 +887,59 @@ function buildShareHref(network, targetUrl) {
   return "#";
 }
 
-function buildBlogPostUrl(postId) {
-  const url = new URL(window.location.href);
-  url.hash = `blog-post-${postId}`;
-  return url.toString();
+function getShareBaseUrl() {
+  const canonicalEl = document.querySelector("link[rel='canonical']");
+  if (canonicalEl?.href) {
+    try {
+      const canonical = new URL(canonicalEl.href, window.location.href);
+      canonical.hash = "";
+      canonical.search = "";
+      return canonical.toString();
+    } catch (_error) {
+      // Ignore invalid canonical links.
+    }
+  }
+
+  const current = new URL(window.location.href);
+  current.hash = "";
+  current.search = "";
+  return current.toString();
+}
+
+function slugifyPostTitle(value) {
+  const source = String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+
+  const slug = source
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-{2,}/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return slug || "post";
+}
+
+function buildPostSlugMap(posts) {
+  return posts.map((post) => {
+    const base = slugifyPostTitle(post.title);
+    const idSuffix = String(post.id || "")
+      .replace(/[^a-zA-Z0-9]/g, "")
+      .slice(-8)
+      .toLowerCase();
+    const slug = idSuffix ? `${base}-${idSuffix}` : base;
+    return { ...post, shareSlug: slug };
+  });
+}
+
+function buildBlogPostPath(slug) {
+  return `/#live-blog/${encodeURIComponent(slug)}`;
+}
+
+function buildBlogPostUrl(slug) {
+  const base = new URL(getShareBaseUrl());
+  return `${base.origin}${buildBlogPostPath(slug)}`;
 }
 
 function getShareIcon(name) {
