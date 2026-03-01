@@ -145,7 +145,7 @@
       const key = String(link.dataset.shareNetwork || "").toLowerCase();
       const build = SHARE_ENDPOINTS[key];
       if (!build) return;
-      link.href = build(shareUrl);
+      link.href = build(resolveNetworkShareUrl(root, key));
     });
 
     return shareUrl;
@@ -156,6 +156,28 @@
     if (!(root instanceof HTMLElement)) return window.location.href;
     const direct = String(root.dataset.shareUrl || "").trim();
     return direct || window.location.href;
+  }
+
+  function resolveNetworkShareUrl(root, network) {
+    if (!(root instanceof HTMLElement)) return window.location.href;
+
+    const key = String(network || "").toLowerCase();
+    if (key === "linkedin") {
+      const value = String(root.dataset.shareUrlLinkedin || "").trim();
+      if (value) return value;
+    }
+    if (key === "x") {
+      const value = String(root.dataset.shareUrlX || "").trim();
+      if (value) return value;
+    }
+
+    return resolveShareUrl(root);
+  }
+
+  function resolveCopyShareUrl(root) {
+    if (!(root instanceof HTMLElement)) return window.location.href;
+    const value = String(root.dataset.shareCopyUrl || "").trim();
+    return value || resolveShareUrl(root);
   }
 
   function setupShareRoot(root) {
@@ -201,7 +223,7 @@
 
     if (copyButton instanceof HTMLButtonElement) {
       copyButton.addEventListener("click", async () => {
-        const shareUrl = resolveShareUrl(root);
+        const shareUrl = resolveCopyShareUrl(root);
         const ok = await copyText(shareUrl);
         showCopyFeedback(root, ok ? "Copied!" : "Copy failed");
         closeShareMenu(root, true);
