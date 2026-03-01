@@ -515,15 +515,14 @@ async function setupBlog() {
         const content = post.content || "";
         const canUserEdit = canEdit();
         const postUrl = buildBlogPostUrl(post.shareSlug);
-        const postTransportUrl = buildBlogPostTransportUrl(post.shareSlug);
-        const linkedInShare = buildShareHref("linkedin", postTransportUrl);
+        const linkedInShare = buildShareHref("linkedin", postUrl);
         const xShare = buildShareHref("x", postUrl);
         return `
           <article class="blog-post" id="blog-post-${post.id}">
             <div class="blog-post-header">
               <h4>${post.title}</h4>
               <div class="blog-post-actions">
-                <div class="blog-share" data-share-root data-share-url="${escapeHtml(postUrl)}" data-share-url-linkedin="${escapeHtml(postTransportUrl)}">
+                <div class="blog-share" data-share-root data-share-url="${escapeHtml(postUrl)}">
                   <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
                     ${getShareIcon("share")}
                   </button>
@@ -956,18 +955,9 @@ function buildBlogPostPath(slug) {
   return `/blog/${encodeURIComponent(slug)}`;
 }
 
-function buildBlogPostTransportPath(slug) {
-  return `/blog/?slug=${encodeURIComponent(slug)}`;
-}
-
 function buildBlogPostUrl(slug) {
   const base = new URL(getShareBaseUrl());
   return `${base.origin}${buildBlogPostPath(slug)}`;
-}
-
-function buildBlogPostTransportUrl(slug) {
-  const base = new URL(getShareBaseUrl());
-  return `${base.origin}${buildBlogPostTransportPath(slug)}`;
 }
 
 function getShareIcon(name) {

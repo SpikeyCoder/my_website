@@ -68,15 +68,6 @@ function buildBlogUrl(slug) {
   return `${getCanonicalOrigin()}${buildCanonicalBlogPath(slug)}`;
 }
 
-function buildBlogTransportPath(slug) {
-  const basePath = getSiteBasePath();
-  return `${basePath}/blog/?slug=${encodeURIComponent(slug)}`;
-}
-
-function buildBlogTransportUrl(slug) {
-  return `${window.location.origin}${buildBlogTransportPath(slug)}`;
-}
-
 function blogListUrl() {
   const basePath = getSiteBasePath();
   return `${window.location.origin}${basePath}/#blog`;
@@ -164,12 +155,10 @@ function renderMarkdown(content) {
 
 function setCanonical(slug) {
   const canonicalHref = buildBlogUrl(slug);
-  const transportHref = buildBlogTransportUrl(slug);
   const canonicalEl = document.querySelector("link[rel='canonical']");
   if (canonicalEl) canonicalEl.setAttribute("href", canonicalHref);
   if (shareRootEl) {
     shareRootEl.dataset.shareUrl = canonicalHref;
-    shareRootEl.dataset.shareUrlLinkedin = transportHref;
   }
 }
 
