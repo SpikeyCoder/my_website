@@ -952,7 +952,7 @@ function buildPostSlugMap(posts) {
 }
 
 function buildBlogPostPath(slug) {
-  return `/blog/${encodeURIComponent(slug)}`;
+  return `/blog/${encodeURIComponent(slug)}/`;
 }
 
 function buildBlogPostUrl(slug) {

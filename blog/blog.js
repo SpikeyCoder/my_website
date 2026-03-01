@@ -57,11 +57,11 @@ function getCanonicalOrigin() {
 
 function buildRuntimeBlogPath(slug) {
   const basePath = getSiteBasePath();
-  return `${basePath}/blog/${encodeURIComponent(slug)}`;
+  return `${basePath}/blog/${encodeURIComponent(slug)}/`;
 }
 
 function buildCanonicalBlogPath(slug) {
-  return `/blog/${encodeURIComponent(slug)}`;
+  return `/blog/${encodeURIComponent(slug)}/`;
 }
 
 function buildBlogUrl(slug) {

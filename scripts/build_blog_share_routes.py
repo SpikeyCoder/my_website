@@ -53,7 +53,7 @@ def safe_summary(value: str) -> str:
 
 def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
     slug_q = quote(slug, safe="")
-    canonical_url = f"{CANONICAL_ORIGIN}/blog/{slug}"
+    canonical_url = f"{CANONICAL_ORIGIN}/blog/{slug}/"
     target = f"/blog/?slug={slug_q}&from=path"
     title_text = title or "Live Blog Article"
     desc_text = summary or "Live Blog article by Kevin Armstrong."
