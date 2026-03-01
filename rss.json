@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T16:11:09.372334Z",
+  "generated_at": "2026-03-01T17:10:00.557354Z",
   "items": [
     {
       "title": "Sentry",
@@ -42,6 +42,13 @@
       "date": "2026-03-01T01:43:17Z",
       "summary": "A new law passed in California to require every operating system to collect the user's age at account creation time. The law is AB-1043 . And it was passed in October of 2025. How does it work? Does it apply to offline systems? When I set up my Raspberry Pi at home, is this enforced? What if I give an incorrect age, am I breaking the law now? What if I set my account correctly, but then my kids use the device? What happens? There is no way to enforce this law, but I suspect that's not the point. It's similar to statements you find in IRS documents. The IRS requires you to report all income from illegal activities, such as bribes and scams. Obviously, if you are getting a bribe, you wouldn't report it, but by not reporting it you are breaking additional laws that can be used to get you prosecuted. When you don't report your age to your OS whether it's a windows device or a Tamagotchi, you are breaking the law. It's not enforced of course, but when you are suspected of any other crime, you can be arrested for the age violation first, then prosecuted for something else. What a world we live in.",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Killing my inner Necron",
+      "link": "https://xeiaso.net/blog/2026/killing-my-inner-necron/",
+      "date": "2026-03-01T00:00:00Z",
+      "summary": "On surviving surgery, confronting mortality, and finding peace on the other side.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Downstream Testing",
@@ -273,13 +280,6 @@
       "date": "2026-02-23T15:01:50Z",
       "summary": "The decline of reading and the rise of social media are again transforming what it feels like to be a thinking person.",
       "source": "derekthompson.org"
-    },
-    {
-      "title": "Insider amnesia",
-      "link": "https://seangoedecke.com/insider-amnesia/",
-      "date": "2026-02-23T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
