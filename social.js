@@ -247,21 +247,10 @@
 
     menu.querySelectorAll("a[role='menuitem']").forEach((link) => {
       if (!(link instanceof HTMLAnchorElement)) return;
-      link.addEventListener("click", (event) => {
-        const href = link.href;
-        if (!href) return;
-        event.preventDefault();
-        window.open(href, "_blank", "noopener,noreferrer");
+      link.addEventListener("click", () => {
+        // Let native anchor navigation happen for Safari reliability.
         window.setTimeout(() => closeShareMenu(root), 0);
       });
-    });
-
-    root.addEventListener("focusout", () => {
-      window.setTimeout(() => {
-        if (activeShareRoot !== root) return;
-        if (root.contains(document.activeElement)) return;
-        closeShareMenu(root);
-      }, 0);
     });
   }
 
