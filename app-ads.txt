@@ -1,1 +1,2 @@
+# app-ads.txt refreshed on 2026-03-02 to trigger crawler recrawl.
 google.com, pub-9389512970616997, DIRECT, f08c47fec0942fa0
