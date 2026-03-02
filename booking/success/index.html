@@ -43,6 +43,8 @@
       </section>
     </main>
 
+    <script defer src="../../analytics.js?v=20260302a"></script>
+
     <script>
       (function () {
         const SUPABASE_FUNCTIONS_BASE = "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1";
@@ -69,6 +71,7 @@
 
         form.addEventListener("submit", async (event) => {
           event.preventDefault();
+          window.siteAnalytics?.track("booking_submit_attempt", { title: "Booking submit attempt" });
           const email = normalizeEmail(emailInput.value);
           if (!email) {
             status.textContent = "Please enter the booking email.";
@@ -103,8 +106,10 @@
             }
             localStorage.setItem("bookingEmail", email);
             setHasBookedCookie();
+            window.siteAnalytics?.track("booking_submit_success", { title: "Booking submit success" });
             status.textContent = "Confirmed. You are now marked as a returning client for 364 days.";
           } catch (error) {
+            window.siteAnalytics?.track("booking_submit_error", { title: "Booking submit error" });
             status.textContent = `Confirmation failed: ${error.message}`;
           } finally {
             submit.disabled = false;

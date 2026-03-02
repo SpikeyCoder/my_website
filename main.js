@@ -1138,6 +1138,10 @@ async function setupBooking() {
     }
 
     if (state.targetUrl) {
+      const flow = state.hasBooked ? "paid" : "free";
+      window.siteAnalytics?.track(`open_booking_page_click:${flow}`, {
+        title: `Open booking page (${flow})`,
+      });
       bookingLink.href = state.targetUrl;
     }
   });
