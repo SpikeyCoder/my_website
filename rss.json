@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-03-02T21:16:32.804562Z",
+  "generated_at": "2026-03-02T22:13:01.853817Z",
   "items": [
     {
       "title": "ChangeTheHeaders",
       "link": "https://underpassapp.com/news/2025/3/4.html",
-      "date": "2026-03-02T21:11:05Z",
+      "date": "2026-03-02T21:21:15Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "I built a pint-sized Macintosh",
+      "link": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
+      "date": "2026-03-02T21:15:00Z",
+      "summary": "To kick off MARCHintosh , I built this tiny pint-sized Macintosh with a Raspberry Pi Pico: This is not my own doing—I just assembled the parts to run Matt Evans' Pico Micro Mac firmware on a Raspberry Pi Pico (with an RP2040). The version I built outputs to a 640x480 VGA display at 60 Hz, and allows you to plug in a USB keyboard and mouse. Since the original Pico's RAM is fairly constrained, you get a maximum of 208 KB of RAM with this setup—which is 63% more RAM than you got on the original '128K' Macintosh!",
+      "source": "jeffgeerling.com"
     },
     {
       "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
@@ -231,13 +238,6 @@
       "date": "2026-02-27T15:00:00Z",
       "summary": "Making sure it triggers when you need it, and not when you don't. The post Intercepting messages inside <CODE>Is­Dialog­Message</CODE>, fine-tuning the message filter appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "How to Securely Erase an old Hard Drive on macOS Tahoe",
-      "link": "https://www.jeffgeerling.com/blog/2026/securely-erase-hard-drive-macos-tahoe/",
-      "date": "2026-02-26T20:30:00Z",
-      "summary": "Apparently Apple thinks nobody with a modern Mac uses spinning rust (hard drives with platters) anymore. I plugged in a hard drive from an old iMac into my Mac Studio using my Sabrent USB to SATA Hard Drive enclosure, and opened up Disk Utility, clicked on the top-level disk in the sidebar, and clicked 'Erase'. Lo and behold, there's no 'Security Options' button on there, as there had been since—I believe—the very first version of Disk Utility in Mac OS X!",
-      "source": "jeffgeerling.com"
     },
     {
       "title": "Intercepting messages inside Is­Dialog­Message, installing the message filter",
