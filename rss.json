@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-03-02T17:22:35.526862Z",
+  "generated_at": "2026-03-02T18:22:33.048896Z",
   "items": [
     {
-      "title": "Apple Introduces iPhone 17e",
-      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
-      "date": "2026-03-02T17:09:17Z",
+      "title": "‘Anthropic and Alignment’",
+      "link": "https://stratechery.com/2026/anthropic-and-alignment/",
+      "date": "2026-03-02T18:21:47Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "WSJ: ‘Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails’",
+      "link": "https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9",
+      "date": "2026-03-02T18:01:59Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
+      "link": "https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/",
+      "date": "2026-03-02T17:53:00Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -84,20 +98,6 @@
       "date": "2026-03-01T18:15:16Z",
       "summary": "After writing the previous post, I poked around in the bash shell documentation and found a handy feature I’d never seen before, the shortcut ~-. I frequently use the command cd - to return to the previous working directory, but didn’t know about ~- as a shotrcut for the shell variable $OLDPWD which contains the […] The post Shell variable ~- first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Sentry",
-      "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
-      "date": "2026-03-01T15:44:23Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "The Talk Show: ‘Bad Dates’",
-      "link": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
-      "date": "2026-03-01T15:43:22Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Book Review: Under Fire - Black Britain in Wartime by Stephen Bourne ★★★★☆",
