@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-02T14:23:33.943134Z",
+  "generated_at": "2026-03-02T15:21:42.899946Z",
   "items": [
+    {
+      "title": "Apple Introduces iPhone 17e",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
+      "date": "2026-03-02T15:04:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "February sponsors-only newsletter",
+      "link": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+      "date": "2026-03-02T14:53:15Z",
+      "summary": "I just sent the February edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: More OpenClaw, and Claws in general I started a not-quite-a-book about Agentic Engineering StrongDM, Showboat and Rodney Kākāpō breeding season Model releases What I'm using, February 2026 edition Here's a copy of the January newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! I use Claude as a proofreader for spelling and grammar via this prompt which also asks it to \"Spot any logical errors or factual mistakes\". I'm delighted to report that Claude Opus 4.6 called me out on this one: Tags: newsletter , kakapo , claude",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Adding \"Log In With Mastodon\" to Auth0",
       "link": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
@@ -142,13 +156,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Trump’s Enormous Gamble on Regime Change in Iran",
-      "link": "https://www.theatlantic.com/ideas/2026/02/trumps-iran-regime-change-attack-gamble/686190/?gift=aQyUJR7AIw1mJWdQ6Ed6yOWB4bfod1kQqCyz2RXbHaY",
-      "date": "2026-02-28T16:06:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Reading List 02/28/26",
       "link": "https://www.construction-physics.com/p/reading-list-022826",
       "date": "2026-02-28T13:54:39Z",
@@ -196,13 +203,6 @@
       "date": "2026-02-28T00:00:00Z",
       "summary": "Things I did and saw this February. Things I made I shipped my first feature at Ghost: Inbox Links . When a member enters their email to log in or sign up, we now show a button that takes them straight to their inbox. In addition to shipping a neat feature, I also enjoyed learning about MX records and RFC-compliant email address parsing. The source code for the main logic is here . I was surprised to learn that gzip streams encode which operating system did the compression. I built a little tool, “gzpeek”, to inspect this metadata (and more). The 40th anniversary of the original Legend of Zelda was this month, and I wanted a calendar feed for other game anniversaries, so I made one . Oracle of Ages and Oracle of Seasons just turned 25 yesterday! Speaking of, I wrote a few articles for Zelda Dungeon as usual. Cool links from online An incredible stunt: a game written in HTML and CSS . “No JavaScript or server-side code is used.” Best description of LLMs I’ve seen so far: “When you enter text into [ChatGPT], you’re asking ‘What would a response to this sound like?’” Seems like it’s better for your programming career to be bullish on AI, according to “AI skepticism is a quiet career killer” . “Countries are growing uneasy about their dependence on US technology firms” , which the US is trying to stop . We deserve to lose this battle. “The lack of European billion-dollar technology companies leads people to forget the technology invented here that instead embraced openness: the web, Linux, Raspberry Pi, Open StreetMap, the Fediverse.” Someone has decided to pick up a retro video game instead of doom scrolling . “This isn’t about paranoia. It’s about understanding the trade-offs we make when we leave wireless radios enabled on our devices. For some use cases, Bluetooth is essential. For others, it’s just convenience. Being aware of what you’re exposing is the first step to making informed decisions about which category your devices fall into.” From “What Your Bluetooth Devices Reveal About You” . “I want to break down how [Content Security Policy] actually works and, more importantly, where people screw it up.” “The research […] did not find a single example where popular tools such as Google’s Gemini or Microsoft’s Copilot were leading to a ‘material, verifiable, and substantial’ reduction in planet-heating emissions.” First read the term “openwashing”, which describes the process of using the word “open” as marketing. OpenAI and Android are examples of this. See “Acting ethically in an imperfect world” . Hope you had a good February.",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "date": "2026-02-27T22:49:32Z",
-      "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I’m begging you. Let them be great, phishing-resistant authentication credentials . Via lobste.rs Tags: security , usability , passkeys",
-      "source": "simonwillison.net"
     },
     {
       "title": "Upgrading my Open Source Pi Surveillance Server with Frigate",
