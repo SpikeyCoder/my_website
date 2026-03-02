@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-02T12:22:16.696452Z",
+  "generated_at": "2026-03-02T13:33:09.895734Z",
   "items": [
+    {
+      "title": "Adding \"Log In With Mastodon\" to Auth0",
+      "link": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "date": "2026-03-02T12:34:48Z",
+      "summary": "I use Auth0 to provide social logins for the OpenBenches website. I don't want to deal with creating user accounts, managing passwords, or anything like that, so Auth0 is perfect for my needs. There are a wide range of social media logins provided by Auth0 - including the usual suspects like Facebook, Twitter, WordPress, Discord, etc. Sadly, there's no support for Mastodon. All is not lost…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Why we feel an aversion towards LLM articles",
       "link": "https://idiallo.com/blog/why-we-hate-llm-articles?src=feed",
@@ -210,13 +217,6 @@
       "date": "2026-02-27T15:00:00Z",
       "summary": "Making sure it triggers when you need it, and not when you don't. The post Intercepting messages inside <CODE>Is­Dialog­Message</CODE>, fine-tuning the message filter appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: Weird Things Customers Say in Bookshops by Jen Campbell ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/02/book-review-weird-things-customers-say-in-bookshops-by-jen-campbell/",
-      "date": "2026-02-27T12:34:11Z",
-      "summary": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)? This is a collection of Tweet-sized \"overheard in\" stories. All set in book shops. Isn't it funny that some people don't know how books work! ROFL! Aren't the general public strange? LOLOL! That's a bit harsh of me. It only rarely becomes mean-spirited. But in a book this…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "How to Securely Erase an old Hard Drive on macOS Tahoe",
