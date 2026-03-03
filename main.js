@@ -155,6 +155,11 @@ const ABOUT_DATA = {
 
 const TIMELINE_DATA = [
   {
+    year: "2024-Present",
+    text:
+      "focused on career development services and empowering non-profits to go farther with AI.",
+  },
+  {
     year: "2026–Now",
     text:
       "Working to bring Starlink to businesses around the globe.",
