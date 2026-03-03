@@ -149,7 +149,7 @@ const ABOUT_DATA = {
   now: {
     title: "Now",
     body:
-      "Leading Prime payments and expansion strategies, while exploring AI workflows that accelerate launch readiness and documentation.",
+      "Expanding Armstrong HoldCo LLC to focus on career development and empowering non-profits to go farther with AI. Leading eCommerce development for Starlink. Focused on expansion strategies, while exploring AI workflows that accelerate launch readiness and documentation.",
   },
 };
 
