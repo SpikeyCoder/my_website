@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-03T17:21:52.031063Z",
+  "generated_at": "2026-03-03T18:24:01.289132Z",
   "items": [
+    {
+      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+      "date": "2026-03-03T18:11:33Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
+      "link": "https://daringfireball.net/2026/03/hazeover",
+      "date": "2026-03-03T17:36:04Z",
+      "summary": "What HazeOver does is highlight the active window by dimming all background windows. That’s it. But it does this simple task with aplomb, and it makes a significant difference in the day-to-day usability of MacOS.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Game Review: Unravel Two ★★★⯪☆",
       "link": "https://shkspr.mobi/blog/2026/03/game-review-unravel-two/",
@@ -30,13 +44,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
-      "link": "https://daringfireball.net/2026/03/hazeover",
-      "date": "2026-03-03T01:04:00Z",
-      "summary": "What HazeOver does is highlight the active window by dimming all background windows. That’s it. But it does this simple task with aplomb, and it makes a significant difference in the day-to-day usability of MacOS.",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
       "date": "2026-03-03T00:20:22Z",
@@ -49,13 +56,6 @@
       "date": "2026-03-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Unsung Heroes: Flickr’s URLs Scheme",
-      "link": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
-      "date": "2026-03-02T23:09:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "I built a pint-sized Macintosh",
