@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T03:09:40.442377Z",
+  "generated_at": "2026-03-03T04:40:38.221111Z",
   "items": [
     {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
@@ -21,6 +21,13 @@
       "date": "2026-03-03T00:20:22Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Giving LLMs a personality is just good engineering",
+      "link": "https://seangoedecke.com/giving-llms-a-personality/",
+      "date": "2026-03-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Unsung Heroes: Flickr’s URLs Scheme",
@@ -273,13 +280,6 @@
       "date": "2026-02-25T01:39:00Z",
       "summary": "February is the month the internet decided we're all going to die. In the span of about two weeks, Matt Shumer's Something Big is Happening racked up over 80 million views on X with its breathless comparison of AI to the early days of COVID, telling",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Against Query Based Compilers",
-      "link": "https://matklad.github.io/2026/02/25/against-query-based-compilers.html",
-      "date": "2026-02-25T00:00:00Z",
-      "summary": "Query based compilers are all the rage these days, so it feels only appropriate to chart some treacherous shoals in those waters.",
-      "source": "matklad.github.io"
     }
   ]
 }
