@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-03T21:15:51.147436Z",
+  "generated_at": "2026-03-03T22:12:42.203213Z",
   "items": [
+    {
+      "title": "Gemini 3.1 Flash-Lite",
+      "link": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+      "date": "2026-03-03T21:53:54Z",
+      "summary": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro. It supports four different thinking levels, so I had it output four different pelicans : minimal low medium high Tags: google , ai , generative-ai , llms , llm , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
+      "date": "2026-03-03T21:39:23Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "New MacBook Air With M5",
       "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
@@ -19,13 +33,6 @@
       "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
       "link": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
       "date": "2026-03-03T20:59:44Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
-      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
-      "date": "2026-03-03T20:43:46Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -175,13 +182,6 @@
       "date": "2026-03-01T12:34:27Z",
       "summary": "Everyone knows that Black people didn't exist in the UK until recently, right? Despite mountains of evidence of everything from Black Tudors and Victorian actors, some myths perniciously persist. What was the experience for Black Britons during the second world war? I find it fascinating how the US cultural hegemony rewrites history. I've heard people in the UK talk about \"Jim Crow laws\" as…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Quoting claude.com/import-memory",
-      "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
-      "date": "2026-03-01T11:21:45Z",
-      "summary": "I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single code block so I can easily copy it. Format each entry as: [date saved, if available] - memory content. Make sure to cover all of the following — preserve my words verbatim where possible: Instructions I've given you about how to respond (tone, format, style, 'always do X', 'never do Y'). Personal details: name, location, job, family, interests. Projects, goals, and recurring topics. Tools, languages, and frameworks I use. Preferences and corrections I've made to your behavior. Any other stored context not covered above. Do not summarize, group, or omit any entries. After the code block, confirm whether that is the complete set or if any remain. — claude.com/import-memory , Anthropic's \"import your memories to Claude\" feature is a prompt Tags: prompt-engineering , llm-memory , anthropic , claude , generative-ai , ai , llms",
-      "source": "simonwillison.net"
     },
     {
       "title": "Redis patterns for coding",
