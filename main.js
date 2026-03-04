@@ -53,8 +53,7 @@ if (adminPanel) {
 
 const SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
-// Used for client-side gating only. The real enforcement must be Supabase RLS.
-const ADMIN_EMAIL = "kevinmarmstrong1990@gmail.com";
+// Admin identity is enforced exclusively by Supabase RLS — no email check in client code.
 const OPML_URL =
   "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b/raw/hn-popular-blogs-2025.opml";
 const CORS_PROXY = "https://api.allorigins.win/raw?url=";
@@ -419,8 +418,8 @@ async function setupBlog() {
   });
 
   function canEdit() {
-    const email = currentSession?.user?.email || "";
-    return Boolean(email) && email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+    // Authorization is enforced by Supabase RLS on every write; this gates UI only.
+    return Boolean(currentSession?.user?.email);
   }
 
   function getBlogDeepLink() {
@@ -864,7 +863,8 @@ function renderMarkdown(content) {
     const html = window.marked.parse(content, { breaks: true });
     return window.DOMPurify.sanitize(html);
   }
-  return content;
+  // Sanitizer libraries unavailable — fall back to plain-text escape to prevent XSS.
+  return escapeHtml(content);
 }
 
 function stripHtml(input) {
