@@ -56,8 +56,8 @@ const SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP";
 // Admin identity is enforced exclusively by Supabase RLS — no email check in client code.
 const OPML_URL =
   "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b/raw/hn-popular-blogs-2025.opml";
-const CORS_PROXY = "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/rss-proxy?url=";
-const CORS_PROXY_JSON = null; // Self-hosted proxy always returns raw text — no JSON wrapper needed
+const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+const CORS_PROXY_JSON = "https://api.allorigins.win/get?url=";
 const RSS_FEED_LIMIT = 36;
 const RSS_VISIBLE_ITEMS = 5;
 const SUPABASE_FUNCTIONS_BASE = `${SUPABASE_URL}/functions/v1`;
@@ -1181,7 +1181,8 @@ function getJinaUrl(targetUrl) {
 async function fetchTextWithFallbacks(targetUrl) {
   const attempts = [
     { label: "direct", url: targetUrl, type: "text" },
-    { label: "rss-proxy", url: `${CORS_PROXY}${encodeURIComponent(targetUrl)}`, type: "text" },
+    { label: "allorigins-raw", url: `${CORS_PROXY}${encodeURIComponent(targetUrl)}`, type: "text" },
+    { label: "allorigins-json", url: `${CORS_PROXY_JSON}${encodeURIComponent(targetUrl)}`, type: "json" },
     { label: "jina", url: getJinaUrl(targetUrl), type: "text" },
   ];
 
@@ -1192,6 +1193,14 @@ async function fetchTextWithFallbacks(targetUrl) {
       if (!response.ok) {
         lastError = new Error(`${attempt.label}: ${response.status}`);
         continue;
+      }
+      if (attempt.type === "json") {
+        const payload = await response.json();
+        if (!payload.contents) {
+          lastError = new Error(`${attempt.label}: empty response`);
+          continue;
+        }
+        return payload.contents;
       }
       return await response.text();
     } catch (error) {
