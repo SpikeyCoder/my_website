@@ -6,16 +6,19 @@ const ALLOWED_ORIGINS = new Set([
   "http://localhost:5173",
 ]);
 
-export function resolveOrigin(request: Request): string {
+export function resolveOrigin(request: Request): string | null {
   const origin = request.headers.get("origin") || "";
   if (ALLOWED_ORIGINS.has(origin)) return origin;
-  return "https://kevinarmstrong.io";
+  return null; // reject unlisted origins — no ACAO header will be set
 }
 
 export function corsHeaders(request: Request): Headers {
   const headers = new Headers();
-  headers.set("Access-Control-Allow-Origin", resolveOrigin(request));
-  headers.set("Access-Control-Allow-Credentials", "true");
+  const origin = resolveOrigin(request);
+  if (origin !== null) {
+    headers.set("Access-Control-Allow-Origin", origin);
+    headers.set("Access-Control-Allow-Credentials", "true");
+  }
   headers.set("Access-Control-Allow-Headers", "content-type, authorization, x-client-info, apikey, x-booking-token, stripe-signature");
   headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   headers.set("Vary", "Origin");

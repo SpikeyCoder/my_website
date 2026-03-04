@@ -524,7 +524,7 @@ async function setupBlog() {
         return `
           <article class="blog-post" id="blog-post-${post.id}">
             <div class="blog-post-header">
-              <h4>${post.title}</h4>
+              <h4>${escapeHtml(post.title)}</h4>
               <div class="blog-post-actions">
                 <div class="blog-share" data-share-root data-share-url="${escapeHtml(postUrl)}">
                   <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
@@ -556,7 +556,7 @@ async function setupBlog() {
                 ${canUserEdit ? `<button class="link blog-edit" data-edit="${post.id}">Edit</button>` : ""}
               </div>
             </div>
-            <p>${post.summary}</p>
+            <p>${escapeHtml(post.summary)}</p>
             <div class="blog-content" data-content="${post.id}">${renderMarkdown(content)}</div>
             <form class="blog-edit-form" data-form="${post.id}" style="display:none;">
               <label>
