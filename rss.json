@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-04T13:30:55.516702Z",
+  "generated_at": "2026-03-04T14:21:26.161046Z",
   "items": [
+    {
+      "title": "An AI Odyssey, Part 2: Prompting Peril",
+      "link": "https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/",
+      "date": "2026-03-04T14:04:30Z",
+      "summary": "I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improve the accuracy of API response by modifying the API call to increase the amount of reasoning performed. My colleague quickly asked ChatGPT if this was possible, […] The post An AI Odyssey, Part 2: Prompting Peril first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
+      "link": "https://sixcolors.com/post/2026/03/apple-gives-in-to-temptation-and-renames-its-cpu-cores/",
+      "date": "2026-03-04T13:42:47Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "How many hours do you need to work to afford a pint of beer?",
       "link": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
@@ -56,13 +70,6 @@
       "date": "2026-03-03T21:06:34Z",
       "summary": "By the summer of 1945, West Berlin had been reduced to rubble. Allied bombing, the Soviet ground assault and Hitler's insistence on Götterdämmerung had destroyed roughly a third of the city's buildings and left most of the rest damaged. There was no",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
-      "link": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
-      "date": "2026-03-03T20:59:44Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
@@ -196,13 +203,6 @@
       "date": "2026-03-01T21:21:35Z",
       "summary": "Today, DDoSecrets published data about ICE contracts hacked from DHS's Office of Industry Partnership. The hacker group, Department of Peace, published a statement that included: Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing",
       "source": "micahflee.com"
-    },
-    {
-      "title": "Shell variable ~-",
-      "link": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
-      "date": "2026-03-01T18:15:16Z",
-      "summary": "After writing the previous post, I poked around in the bash shell documentation and found a handy feature I’d never seen before, the shortcut ~-. I frequently use the command cd - to return to the previous working directory, but didn’t know about ~- as a shotrcut for the shell variable $OLDPWD which contains the […] The post Shell variable ~- first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Redis patterns for coding",
