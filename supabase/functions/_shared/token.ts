@@ -39,8 +39,8 @@ async function sign(input: string, secret: string): Promise<string> {
 }
 
 function getSecret(): string {
-  const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
-  if (!secret) throw new Error("Missing BOOKING_TOKEN_SECRET env var");
+  const secret = Deno.env.get("BOOKING_TOKEN_SECRET");
+  if (!secret) throw new Error("BOOKING_TOKEN_SECRET is not set — add it as a Supabase project secret (Settings → Edge Functions → Secrets)");
   return secret;
 }
 

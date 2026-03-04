@@ -21,3 +21,6 @@ verify_jwt = true
 
 [functions.google-calendar-webhook]
 verify_jwt = false
+
+[functions.rss-proxy]
+verify_jwt = false
