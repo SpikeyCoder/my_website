@@ -6,3 +6,5 @@ Allow: /
 
 User-agent: Applebot
 Allow: /
+
+Sitemap: https://kevinarmstrong.io/sitemap.xml

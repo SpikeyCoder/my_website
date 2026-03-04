@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Generate static blog slug route stubs for social scrapers.
-
-Each generated page returns HTTP 200 at /blog/<slug>/ so bots like LinkedIn
-can resolve the URL without executing JavaScript.
-"""
+"""Generate static blog slug routes with crawlable metadata and no redirect hop."""
 
 from __future__ import annotations
 
@@ -16,6 +12,7 @@ from urllib.request import Request, urlopen
 SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co"
 SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP"
 CANONICAL_ORIGIN = "https://kevinarmstrong.io"
+OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
 
@@ -54,10 +51,20 @@ def safe_summary(value: str) -> str:
 def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
     slug_q = quote(slug, safe="")
     canonical_url = f"{CANONICAL_ORIGIN}/blog/{slug}/"
-    target = f"/blog/?slug={slug_q}&from=path"
     title_text = title or "Live Blog Article"
     desc_text = summary or "Live Blog article by Kevin Armstrong."
     published = published_at or ""
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": title_text,
+        "description": desc_text,
+        "url": canonical_url,
+        "datePublished": published,
+        "author": {"@type": "Person", "name": "Kevin Armstrong"},
+        "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC"},
+        "image": OG_IMAGE_URL,
+    }
 
     return f"""<!doctype html>
 <html lang=\"en\">
@@ -72,14 +79,93 @@ def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
     <meta property=\"og:title\" content=\"{html.escape(title_text)}\" />
     <meta property=\"og:description\" content=\"{html.escape(desc_text)}\" />
     <meta property=\"og:url\" content=\"{html.escape(canonical_url)}\" />
+    <meta property=\"og:image\" content=\"{html.escape(OG_IMAGE_URL)}\" />
     <meta property=\"article:published_time\" content=\"{html.escape(published)}\" />
-    <meta http-equiv=\"refresh\" content=\"0; url={html.escape(target)}\" />
-    <script>
-      window.location.replace({json.dumps(target)});
-    </script>
+    <meta name=\"twitter:card\" content=\"summary_large_image\" />
+    <meta name=\"twitter:title\" content=\"{html.escape(title_text)}\" />
+    <meta name=\"twitter:description\" content=\"{html.escape(desc_text)}\" />
+    <meta name=\"twitter:image\" content=\"{html.escape(OG_IMAGE_URL)}\" />
+    <link rel=\"preconnect\" href=\"https://cdn.jsdelivr.net\" crossorigin />
+    <link rel=\"preconnect\" href=\"https://efrkjqbrfsynzdjbgqck.supabase.co\" crossorigin />
+    <link rel=\"preconnect\" href=\"https://gc.zgo.at\" crossorigin />
+    <link rel=\"stylesheet\" href=\"../../styles.css?v=20260301b\" />
+    <link rel=\"icon\" href=\"../../favicon.ico\" sizes=\"any\" />
+    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"../../favicon-32x32.png\" />
+    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"../../favicon-16x16.png\" />
+    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"../../apple-touch-icon.png\" />
+    <script type=\"application/ld+json\">{json.dumps(json_ld)}</script>
   </head>
   <body>
-    <p>Redirecting to article… <a href=\"{html.escape(target)}\">Continue</a></p>
+    <div class=\"ambient\" aria-hidden=\"true\"></div>
+
+    <nav class=\"site-nav\">
+      <div class=\"container nav-inner\">
+        <div class=\"nav-brand\">ARMSTRONG HOLDCO LLC</div>
+        <div class=\"nav-links\">
+          <a href=\"/\">Home</a>
+          <a href=\"/#blog\">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class=\"blog-article-page\">
+      <section class=\"section\">
+        <div class=\"container reveal blog-article-card\">
+          <p class=\"blog-article-status\" id=\"blog-article-status\">Loading post…</p>
+
+          <div id=\"blog-article-shell\" hidden>
+            <div class=\"blog-article-header\">
+              <h1 class=\"blog-article-title\" id=\"blog-article-title\"></h1>
+              <div class=\"blog-share\" id=\"blog-article-share\" data-share-root data-share-url=\"{html.escape(canonical_url)}\" data-share-copy-url=\"{html.escape(canonical_url)}\">
+                <button class=\"blog-share-trigger\" type=\"button\" data-share-trigger aria-haspopup=\"menu\" aria-expanded=\"false\" aria-label=\"Share post\">
+                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z\" fill=\"currentColor\"></path></svg>
+                </button>
+                <div class=\"share-menu\" data-share-menu role=\"menu\" aria-label=\"Share Post\" hidden>
+                  <div class=\"share-menu-header\">
+                    <h5 class=\"share-menu-title\">Share Post</h5>
+                    <button class=\"share-close\" type=\"button\" data-share-close aria-label=\"Close share menu\">×</button>
+                  </div>
+                  <div class=\"share-menu-items\">
+                    <a class=\"share-menu-item\" role=\"menuitem\" data-share-network=\"linkedin\" target=\"_blank\" rel=\"noopener noreferrer\">
+                      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z\" fill=\"currentColor\"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class=\"share-menu-item\" role=\"menuitem\" data-share-network=\"x\" target=\"_blank\" rel=\"noopener noreferrer\">
+                      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z\" fill=\"currentColor\"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class=\"share-menu-item\" role=\"menuitem\" type=\"button\" data-share-copy>
+                      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M16 1H4a2 2 0 0 0-2 2v12h2V3h12z\" fill=\"currentColor\"></path><path d=\"M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z\" fill=\"currentColor\"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class=\"copy-feedback\" data-copy-feedback aria-live=\"polite\"></span>
+              </div>
+            </div>
+
+            <p class=\"blog-article-summary\" id=\"blog-article-summary\">{html.escape(desc_text)}</p>
+            <p class=\"blog-article-meta\" id=\"blog-article-meta\"></p>
+            <article class=\"blog-article-content\" id=\"blog-article-content\"></article>
+            <a class=\"link\" id=\"blog-article-back\" href=\"/#blog\">Back to Live Blog</a>
+          </div>
+
+          <noscript>
+            <p>
+              JavaScript is required to render the full article content.
+              <a href=\"/blog/?slug={slug_q}&amp;from=path\">Open article viewer</a>
+            </p>
+          </noscript>
+        </div>
+      </section>
+    </main>
+
+    <script defer src=\"../../analytics.js?v=20260302a\"></script>
+    <script src=\"../../social.js?v=20260301e\"></script>
+    <script src=\"https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2\"></script>
+    <script src=\"https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js\"></script>
+    <script src=\"https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js\"></script>
+    <script type=\"module\" src=\"../blog.js?v=20260301e\"></script>
   </body>
 </html>
 """
