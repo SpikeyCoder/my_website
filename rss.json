@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T21:15:09.483453Z",
+  "generated_at": "2026-03-04T22:13:52.598563Z",
   "items": [
     {
       "title": "★ Thoughts and Observations on the MacBook Neo",
@@ -58,6 +58,13 @@
       "source": "johndcook.com"
     },
     {
+      "title": "How many hours do you need to work to afford a pint of beer?",
+      "link": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
+      "date": "2026-03-04T12:34:22Z",
+      "summary": "I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in London - so I only winced a little bit when the cost came to about twelve quid. Shocking, obviously. But as we supped on our pints and discussed the state of the world, I tried to remember how expensive it was to have a pint when I was a lad young…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Interruption-Driven Development",
       "link": "https://idiallo.com/blog/interruption-driven-development?src=feed",
       "date": "2026-03-04T12:00:00Z",
@@ -107,6 +114,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "Game Review: Unravel Two ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/03/game-review-unravel-two/",
+      "date": "2026-03-03T12:34:43Z",
+      "summary": "My new year's resolution is to play more video games. Specifically co-operative games. I hate playing competitively; it's rubbish to achieve victory at the expense of someone else. So I asked for recommendations and picked the cheapest thing that looked reasonable. Unravel Two is a little gem! It's a 2D platform puzzler dressed up in a 3D engine. You and your friend play little string…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Nobody Gets Promoted for Simplicity",
       "link": "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/",
       "date": "2026-03-03T12:22:26Z",
@@ -154,6 +168,13 @@
       "date": "2026-03-02T20:55:53Z",
       "summary": "You get notifications that might not make sense. The post What sort of horrible things happen if my dialog has a non-button with the control ID of <CODE>IDCANCEL</CODE>? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Adding \"Log In With Mastodon\" to Auth0",
+      "link": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "date": "2026-03-02T12:34:48Z",
+      "summary": "I use Auth0 to provide social logins for the OpenBenches website. I don't want to deal with creating user accounts, managing passwords, or anything like that, so Auth0 is perfect for my needs. There are a wide range of social media logins provided by Auth0 - including the usual suspects like Facebook, Twitter, WordPress, Discord, etc. Sadly, there's no support for Mastodon. All is not lost…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Mo Samuels wrote this post",
@@ -258,27 +279,6 @@
       "link": "https://evanhahn.com/notes-from-february-2026/",
       "date": "2026-02-28T00:00:00Z",
       "summary": "Things I did and saw this February. Things I made I shipped my first feature at Ghost: Inbox Links . When a member enters their email to log in or sign up, we now show a button that takes them straight to their inbox. In addition to shipping a neat feature, I also enjoyed learning about MX records and RFC-compliant email address parsing. The source code for the main logic is here . I was surprised to learn that gzip streams encode which operating system did the compression. I built a little tool, “gzpeek”, to inspect this metadata (and more). The 40th anniversary of the original Legend of Zelda was this month, and I wanted a calendar feed for other game anniversaries, so I made one . Oracle of Ages and Oracle of Seasons just turned 25 yesterday! Speaking of, I wrote a few articles for Zelda Dungeon as usual. Cool links from online An incredible stunt: a game written in HTML and CSS . “No JavaScript or server-side code is used.” Best description of LLMs I’ve seen so far: “When you enter text into [ChatGPT], you’re asking ‘What would a response to this sound like?’” Seems like it’s better for your programming career to be bullish on AI, according to “AI skepticism is a quiet career killer” . “Countries are growing uneasy about their dependence on US technology firms” , which the US is trying to stop . We deserve to lose this battle. “The lack of European billion-dollar technology companies leads people to forget the technology invented here that instead embraced openness: the web, Linux, Raspberry Pi, Open StreetMap, the Fediverse.” Someone has decided to pick up a retro video game instead of doom scrolling . “This isn’t about paranoia. It’s about understanding the trade-offs we make when we leave wireless radios enabled on our devices. For some use cases, Bluetooth is essential. For others, it’s just convenience. Being aware of what you’re exposing is the first step to making informed decisions about which category your devices fall into.” From “What Your Bluetooth Devices Reveal About You” . “I want to break down how [Content Security Policy] actually works and, more importantly, where people screw it up.” “The research […] did not find a single example where popular tools such as Google’s Gemini or Microsoft’s Copilot were leading to a ‘material, verifiable, and substantial’ reduction in planet-heating emissions.” First read the term “openwashing”, which describes the process of using the word “open” as marketing. OpenAI and Android are examples of this. See “Acting ethically in an imperfect world” . Hope you had a good February.",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Upgrading my Open Source Pi Surveillance Server with Frigate",
-      "link": "https://www.jeffgeerling.com/blog/2026/upgrading-my-open-source-pi-surveillance-server-frigate/",
-      "date": "2026-02-27T15:00:00Z",
-      "summary": "In 2024 I built a Pi Frigate NVR with Axzez's Interceptor 1U Case , and installed it in my 19\" rack. Using a Coral TPU for object detection, it's been dutifully surveilling my property—on my terms (100% local, no cloud integration or account required). I've wanted to downsize the setup while keeping cheap large hard drives 1 , and an AI accelerator.",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Members Only: Your anonymity set has collapsed and you don't know it yet",
-      "link": "https://www.joanwestenberg.com/members-only-your-anonymity-set-has-collapsed-and-you-dont-know-it-yet/",
-      "date": "2026-02-26T01:41:29Z",
-      "summary": "",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Introducing gzpeek, a tool to parse gzip metadata",
-      "link": "https://evanhahn.com/introducing-gzpeek/",
-      "date": "2026-02-26T00:00:00Z",
-      "summary": "In short: gzip streams contain metadata, like the operating system that did the compression. I built a tool to read this metadata. I love reading specifications for file formats. They always have little surprises. I had assumed that the gzip format was strictly used for compression. My guess was: a few bytes of bookkeeping, the compressed data, and maybe a checksum. But then I read the spec . The gzip header holds more than I expected! What’s in gzip metadata? In addition to two bytes identifying the data as gzip, there’s also: The operating system that did the compression. This was super surprising to me! There’s a single byte that identifies the compressor’s OS: 0 for Windows, 1 for the Amiga, 3 for Unix, and many others I’d never heard of. Compressors can also set 255 for an “unknown” OS. Different tools set this value differently. zlib, the most popular gzip library, changes the flag based on the operating system . (It even defines some OSes that aren’t in the spec, like 18 for BeOS.) Many other libraries build atop zlib and inherit this behavior, such as .NET’s GZipStream , Ruby’s GzipWriter , and PHP’s gzencode . Java’s GZIPOutputStream , JavaScript’s CompressionStream , and Go’s compress/gzip set the OS to “unknown” regardless of operating system. Some, like Zopfli and Apache’s mod_deflate , hard-code it to “Unix” no matter what. All that to say: in practice, you can’t rely on this flag to determine the source OS, but it can give you a hint. Modification time for the data. This can be the time that compression started or the modification time of the file. It can also be set to 0 if you don’t want to communicate a time. This is represented as an unsigned 32-bit integer in the Unix format. That means it can represent any moment between January 1, 1970 and February 7, 2106. I hope we devise a better compression format in the next ~80 years, because we can only represent dates in that range. In my testing, many implementations set this to 0 . A few set it to the current time or the file’s modification time—the gzip command is one of these. FTEXT , a boolean flag vaguely indicating that the data is “probably ASCII text”. When I say vaguely, I mean it: the spec “deliberately [does] not specify the algorithm used to set this”. This is apparently for systems which have different storage formats for ASCII and binary data. In all my testing, nobody sets this flag to anything but 0 . An extra flag indicating how hard the compressor worked. 2 signals that it was compressed with max compression (e.g., gzip -9 ), 4 for the fastest algorithm, and 0 for everything else. In practice, zlib and many others set this correctly per the spec, but some tools hard-code it to 0 . And as far as I can tell, this byte is not used during decompression, so it doesn’t really matter. The original file name . For example, when I run gzip my_file.txt , the name is set to my_file.txt . This field is optional, so many tools don’t set it, but the gzip command line tool does. You can disable that with gzip --no-name . A comment . This optional field is seldom used, and many decompressors ignore it. But you could add a little comment if you want. Extra arbitrary data . If the other metadata wasn’t enough, you can stuff whatever you want into arbitrary subfields. Each subfield has a two-byte identifier and then 0 or more bytes of additional info. That’s way more info than I expected! gzpeek, a metadata explorer tool I was intrigued by this metadata and I’ve been wanting to learn Zig , so I wrote gzpeek . gzpeek is a command-line tool that lets you inspect the metadata of gzip streams. Here’s how to read metadata from a gzipped file: gzpeek my_file.gz # FTEXT: 0 # MTIME: 1591676406 # XFL: 2 # OS: 3 (Unix) # NAME: my_file.txt It extracts everything I listed above: the operating system, original file name, modification time, and more. I used it a bunch when surveying different gzip implementations. Give it a try, and let me know what gzip metadata you find.",
       "source": "evanhahn.com"
     }
   ]
