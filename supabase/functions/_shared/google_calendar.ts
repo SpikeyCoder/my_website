@@ -19,6 +19,11 @@ interface JsonMap {
   [key: string]: unknown;
 }
 
+const DEFAULT_APPOINTMENT_SET_IDS = [
+  "HkJBHBLYUyLdCWvE6",
+  "5HhrJvMcF5euSMbm7",
+];
+
 let cachedToken: CachedToken | null = null;
 
 function toBase64Url(bytes: Uint8Array): string {
@@ -89,6 +94,25 @@ export function getGoogleCalendarId(): string {
 
 export function getAppointmentSetId(): string {
   return String(Deno.env.get("GOOGLE_APPOINTMENT_SET_KEY") || "default_cita").trim();
+}
+
+export function getAppointmentSetIds(): string[] {
+  const values = new Set<string>(DEFAULT_APPOINTMENT_SET_IDS);
+
+  const csv = String(Deno.env.get("GOOGLE_APPOINTMENT_SET_KEYS") || "").trim();
+  if (csv) {
+    for (const entry of csv.split(",")) {
+      const normalized = entry.trim();
+      if (normalized) values.add(normalized);
+    }
+  }
+
+  const single = getAppointmentSetId();
+  if (single && single !== "default_cita") {
+    values.add(single);
+  }
+
+  return Array.from(values);
 }
 
 export function getWebhookTtlSeconds(): number {

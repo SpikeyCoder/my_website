@@ -1062,11 +1062,13 @@ async function setupBooking() {
     }
   }
 
-  async function resolveBookingTarget(email, lookupId) {
+  async function resolveBookingTarget(email, lookupId, options = {}) {
     const normalized = normalizeEmail(email);
     if (!normalized) {
       return;
     }
+
+    const forceRefresh = Boolean(options.forceRefresh);
 
     try {
       await sendBookingIntake(normalized);
@@ -1077,6 +1079,9 @@ async function setupBooking() {
     try {
       const url = new URL(`${SUPABASE_FUNCTIONS_BASE}/booking-status`);
       url.searchParams.set("email", normalized);
+      if (forceRefresh) {
+        url.searchParams.set("refresh", "1");
+      }
       const token = localStorage.getItem("bookingToken") || "";
       const response = await fetch(url.toString(), {
         method: "GET",
@@ -1136,19 +1141,37 @@ async function setupBooking() {
     await resolveBookingTarget(email, state.lookupId);
   }
 
-  bookingLink.addEventListener("click", (event) => {
+  bookingLink.addEventListener("click", async (event) => {
     if (bookingLink.getAttribute("aria-disabled") === "true") {
       event.preventDefault();
       return;
     }
 
-    if (state.targetUrl) {
-      const flow = state.hasBooked ? "paid" : "free";
-      window.siteAnalytics?.track(`open_booking_page_click:${flow}`, {
-        title: `Open booking page (${flow})`,
-      });
-      bookingLink.href = state.targetUrl;
+    event.preventDefault();
+
+    const email = normalizeEmail(state.email || emailInput.value);
+    if (!isValidEmailFormat(email)) {
+      setDisabled(true);
+      setValidation("Please enter a valid email address.");
+      return;
     }
+
+    setDisabled(true);
+    setValidation("Checking latest booking history...");
+    state.lookupId += 1;
+    const clickLookupId = state.lookupId;
+    await resolveBookingTarget(email, clickLookupId, { forceRefresh: true });
+
+    if (clickLookupId !== state.lookupId || !state.targetUrl) {
+      return;
+    }
+
+    const flow = state.hasBooked ? "paid" : "free";
+    window.siteAnalytics?.track(`open_booking_page_click:${flow}`, {
+      title: `Open booking page (${flow})`,
+    });
+    bookingLink.href = state.targetUrl;
+    window.location.assign(state.targetUrl);
   });
 
   emailInput.addEventListener("input", () => {

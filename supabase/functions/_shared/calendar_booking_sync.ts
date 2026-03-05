@@ -1,6 +1,6 @@
 import { isValidEmail, normalizeEmail } from "./booking.ts";
 import {
-  getAppointmentSetId,
+  getAppointmentSetIds,
   getGoogleCalendarId,
   getServiceAccountEmail,
   getWebhookTtlSeconds,
@@ -84,8 +84,12 @@ function pickEventStart(event: CalendarEvent): string | null {
 }
 
 function eventMatchesAppointmentSet(event: CalendarEvent): boolean {
+  const appointmentSetIds = getAppointmentSetIds();
+  if (!appointmentSetIds.length) return false;
+
   const shared = event.extendedProperties?.shared || {};
-  return shared.goo_createdBySet === getAppointmentSetId() || shared["goo.createdBySet"] === getAppointmentSetId();
+  const eventSetId = String(shared.goo_createdBySet || shared["goo.createdBySet"] || "").trim();
+  return Boolean(eventSetId) && appointmentSetIds.includes(eventSetId);
 }
 
 function guestEmailsFromEvent(event: CalendarEvent): string[] {

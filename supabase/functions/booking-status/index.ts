@@ -1,4 +1,6 @@
 import { adminClient } from "../_shared/client.ts";
+import { getGoogleCalendarId } from "../_shared/google_calendar.ts";
+import { getWatchState, syncCalendarBookings, upsertWatchState } from "../_shared/calendar_booking_sync.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { bookingTokenCookie, isValidEmail, normalizeEmail } from "../_shared/booking.ts";
 import { jsonResponse, tokenFromRequest } from "../_shared/http.ts";
@@ -29,6 +31,31 @@ Deno.serve(async (request) => {
     }
 
     const supabase = adminClient();
+
+    const forceRefresh = ["1", "true", "yes"].includes(
+      String(url.searchParams.get("refresh") || "").trim().toLowerCase(),
+    );
+
+    let syncError: string | null = null;
+    if (forceRefresh) {
+      try {
+        const state = await getWatchState(supabase);
+        const syncResult = await syncCalendarBookings(supabase, state, "booking_status_refresh", false);
+        await upsertWatchState(supabase, {
+          calendar_id: getGoogleCalendarId(),
+          channel_id: state?.channel_id || null,
+          channel_token: state?.channel_token || null,
+          resource_id: state?.resource_id || null,
+          expiration: state?.expiration || null,
+          sync_token: syncResult.nextSyncToken,
+          last_sync_at: new Date().toISOString(),
+          last_notification_at: state?.last_notification_at || null,
+        });
+      } catch (error) {
+        syncError = error instanceof Error ? error.message : "Calendar refresh failed";
+      }
+    }
+
     const { data, error } = await supabase
       .from("booking_profiles")
       .select("has_booked")
@@ -49,6 +76,7 @@ Deno.serve(async (request) => {
         hasBooked: Boolean(data?.has_booked),
         token,
         email,
+        ...(syncError ? { syncError } : {}),
       },
       {
         "Set-Cookie": bookingTokenCookie(token),
