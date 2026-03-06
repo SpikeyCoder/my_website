@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T10:17:18.051420Z",
+  "generated_at": "2026-03-06T11:14:38.678144Z",
   "items": [
     {
       "title": ".gitlocal",
@@ -28,6 +28,13 @@
       "date": "2026-03-06T00:18:13Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "I don't know if my job will still exist in ten years",
+      "link": "https://seangoedecke.com/will-my-job-still-exist/",
+      "date": "2026-03-06T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Introducing GPT‑5.4",
@@ -273,13 +280,6 @@
       "date": "2026-02-28T13:54:39Z",
       "summary": "LA permitting costs, trickle-down housing, Panasonic stops making TVs, robotaxi remote operators, geothermal progress.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Who is the Kimwolf Botmaster “Dort”?",
-      "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
-      "date": "2026-02-28T12:01:57Z",
-      "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
