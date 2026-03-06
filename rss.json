@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-06T09:19:24.945687Z",
+  "generated_at": "2026-03-06T10:17:18.051420Z",
   "items": [
+    {
+      "title": ".gitlocal",
+      "link": "https://nesbitt.io/2026/03/06/gitlocal.html",
+      "date": "2026-03-06T10:00:00Z",
+      "summary": "Git Should Let Files Ignore Themselves",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Agentic manual testing",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
@@ -168,13 +175,6 @@
       "date": "2026-03-03T12:22:26Z",
       "summary": "We reward complexity and ignore simplicity. In interviews, design reviews, and promotions. Here's how to fix it.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "Package Management is Naming All the Way Down",
-      "link": "https://nesbitt.io/2026/03/03/package-management-is-naming-all-the-way-down.html",
-      "date": "2026-03-03T10:00:00Z",
-      "summary": "There are two hard problems in computer science, and package managers found at least eight of them.",
-      "source": "nesbitt.io"
     },
     {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
