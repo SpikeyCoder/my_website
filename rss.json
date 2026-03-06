@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T00:48:38.286252Z",
+  "generated_at": "2026-03-06T01:40:53.148099Z",
   "items": [
     {
       "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
@@ -12,7 +12,7 @@
       "title": "Introducing GPT‑5.4",
       "link": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
       "date": "2026-03-05T23:56:09Z",
-      "summary": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 million token context window. Priced slightly higher than the GPT-5.2 family with a bump in price for both models if you go above 272,000 tokens. 5.4 beats coding specialist GPT-5.3-Codex on all of the relevant benchmarks. I wonder if we'll get a 5.4 Codex or if that model line has now been merged into main? Given Claude's recent focus on business applications it's interesting to see OpenAI highlight this in their announcement of GPT-5.4: We put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of 87.3% , compared to 68.4% for GPT‑5.2. Tags: ai , openai , generative-ai , llms , llm-release",
+      "summary": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 million token context window. Priced slightly higher than the GPT-5.2 family with a bump in price for both models if you go above 272,000 tokens. 5.4 beats coding specialist GPT-5.3-Codex on all of the relevant benchmarks. I wonder if we'll get a 5.4 Codex or if that model line has now been merged into main? Given Claude's recent focus on business applications it's interesting to see OpenAI highlight this in their announcement of GPT-5.4: We put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of 87.3% , compared to 68.4% for GPT‑5.2. Here's a pelican on a bicycle drawn by GPT-5.4 : And here's one by GPT-5.4 Pro, which took 4m45s and cost me $1.55 : Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , llm-release",
       "source": "simonwillison.net"
     },
     {
@@ -68,7 +68,7 @@
       "title": "JJ LSP Follow Up",
       "link": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
       "date": "2026-03-05T00:00:00Z",
-      "summary": "In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol.",
+      "summary": "In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol. I've learned today that the upcoming 3.18 version of LSP has a feature to make this massively less hacky: Text Document Content Request",
       "source": "matklad.github.io"
     },
     {
