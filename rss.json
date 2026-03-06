@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-03-06T20:14:01.860341Z",
+  "generated_at": "2026-03-06T21:13:32.113375Z",
   "items": [
     {
-      "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
-      "link": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
-      "date": "2026-03-06T20:08:39Z",
+      "title": "‘The Window Chrome of Our Discontent’",
+      "link": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
+      "date": "2026-03-06T20:49:48Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
-      "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
-      "date": "2026-03-06T17:36:16Z",
+      "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "date": "2026-03-06T20:32:47Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
+      "link": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+      "date": "2026-03-06T20:08:39Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -21,13 +28,6 @@
       "date": "2026-03-06T17:26:50Z",
       "summary": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and ongoing Pentagon/OpenAI/Anthropic contract situation. AI models are increasingly commodified. The top-tier offerings have about the same performance, and there is little to differentiate one from the other. The latest models from Anthropic, OpenAI and Google, in particular, tend to leapfrog each other with minor hops forward in quality every few months. [...] In this sort of market, branding matters a lot. Anthropic and its CEO, Dario Amodei, are positioning themselves as the moral and trustworthy AI provider. That has market value for both consumers and enterprise clients. Tags: bruce-schneier , ai , openai , generative-ai , llms , anthropic , ai-ethics",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "The MacBook Neo’s Price, Looking to the Past and Future",
-      "link": "https://x.com/ethan_is_online/status/2029331836137291941?s=42",
-      "date": "2026-03-06T17:22:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "A PTP Wall Clock is impractical and a little too precise",
@@ -56,6 +56,13 @@
       "date": "2026-03-06T12:34:43Z",
       "summary": "Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few minor bugs and contacted the manufacturer to see if there was an update. For some reason, lots of Chinese manufacturers don't like publishing updates on their websites. Instead they supplied me with a link to a Google Drive containing an instruction…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "It Depends",
+      "link": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
+      "date": "2026-03-06T12:00:00Z",
+      "summary": "That's the answer I would always get from the lead developer on my team, many years ago. I wanted clear, concise answers from someone with experience, yet he never said \"Yes\" or \"No.\" It was always \"It depends.\" Isn't it better to upgrade MySQL to the latest version? \"It depends.\" Isn't it better to upgrade our Ubuntu version to the one that was just released? \"It depends.\" Our PHP instance is reaching end-of-life, isn't it better to upgrade it right away? \"It depends.\" At the time, that felt like the wrong answer. The correct answer was obviously \"Yes.\" Of course it's better to do all those things. But there was so much that I couldn't see yet. Have you considered that the main application using this instance can't be easily updated? It doesn't support newer MySQL drivers, which means we'd have to go through the process of upgrading the application first before touching the database. So yes, upgrading is better in theory. But it depends on whether we can allocate the time to do it in the right order. It's great to move to the latest version of Ubuntu, but our policy was to stay on LTS releases for stability. Yes, a newer version means new features, but it also means risking breaking changes in a production environment. When you're responsible for systems other people depend on, latest isn't always safest. At the time I asked this question, we were running PHP 4.x. PHP 5 was already out and receiving patches. Yes, upgrading would have improved performance and closed critical vulnerabilities. But we also ran several forums that had never been tested on PHP 5. In hindsight, they were completely incompatible. A hasty upgrade would have taken them offline. My lead developer had been doing this for years longer than me. He'd already watched systems break after rushed upgrades. He'd seen obvious improvements cause cascading failures nobody anticipated. When he said \"it depends,\" he wasn't being evasive. He knew there was a list of variables I didn't even know to ask about yet. I heard a non-answer. He was actually giving me the most honest answer possible. The more I've worked as a software engineer, the less I give black-and-white answers, and the more I understand why. When a product team asks if it's possible to build a feature, the answer is never a simple yes or no. It depends on the timeline. It depends on what else we're working on. It depends on team bandwidth, technical debt, third-party dependencies, and a dozen other factors that aren't visible from the outside. My friends who are learning to program often ask me: \"What's the best programming language?\" I'm always tempted to just say \"machine code\" and leave it at that. But the real answer is that \"best\" is meaningless without context. Best for what? Best for whom? I could say Python, but what if they're building an iOS app? I could say JavaScript, but what if they're writing data pipelines? The question assumes a universal answer exists. It doesn't. A doctor doesn't say \"exercise is always good\" without asking about your heart condition. A lawyer doesn't say \"you should sue\" without reviewing the facts of the case. A structural engineer doesn't say \"that wall can come down\" without checking whether it's load-bearing. Expertise in any field means learning which questions to ask before answering. And understanding how much the answer can shift depending on the variables. The more you learn and specialize, the more you see the variables that others miss. And the more you see those variables, the harder it becomes to answer a simple question simply. Because you know it's never actually simple.",
+      "source": "idiallo.com"
     },
     {
       "title": ".gitlocal",
@@ -273,13 +280,6 @@
       "date": "2026-03-01T09:55:09Z",
       "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
       "source": "antirez.com"
-    },
-    {
-      "title": "&ldquo;How old are you?&rdquo; Asked the OS",
-      "link": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
-      "date": "2026-03-01T01:43:17Z",
-      "summary": "A new law passed in California to require every operating system to collect the user's age at account creation time. The law is AB-1043 . And it was passed in October of 2025. How does it work? Does it apply to offline systems? When I set up my Raspberry Pi at home, is this enforced? What if I give an incorrect age, am I breaking the law now? What if I set my account correctly, but then my kids use the device? What happens? There is no way to enforce this law, but I suspect that's not the point. It's similar to statements you find in IRS documents. The IRS requires you to report all income from illegal activities, such as bribes and scams. Obviously, if you are getting a bribe, you wouldn't report it, but by not reporting it you are breaking additional laws that can be used to get you prosecuted. When you don't report your age to your OS whether it's a windows device or a Tamagotchi, you are breaking the law. It's not enforced of course, but when you are suspected of any other crime, you can be arrested for the age violation first, then prosecuted for something else. What a world we live in.",
-      "source": "idiallo.com"
     }
   ]
 }
