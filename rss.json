@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-06T14:19:27.693226Z",
+  "generated_at": "2026-03-06T15:18:45.576343Z",
   "items": [
+    {
+      "title": "A PTP Wall Clock is impractical and a little too precise",
+      "link": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
+      "date": "2026-03-06T15:00:00Z",
+      "summary": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock he used live to demonstrate PTP clock sync: I pinged him on LinkedIn inquiring about the build (I wasn't the only one!), and shortly thereafter, he published Gemini2350/ptp-wallclock , a repository with rough instructions for the build, and his C++ application to display PTP time (if available on the network) on a set of two LED matrix displays, using a Raspberry Pi.",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "A History of Operation Breakthrough",
       "link": "https://www.construction-physics.com/p/a-history-of-operation-breakthrough",
       "date": "2026-03-06T13:03:16Z",
       "summary": "Many who look at the high and rising cost of housing see the problem as fundamentally one of production methods; more specifically, that homes could be built more cheaply if they were made using factories and industrialized processes, instead of assembling them on site using manual labor and hand-held tools.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
-      "link": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
-      "date": "2026-03-06T12:34:43Z",
-      "summary": "Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few minor bugs and contacted the manufacturer to see if there was an update. For some reason, lots of Chinese manufacturers don't like publishing updates on their websites. Instead they supplied me with a link to a Google Drive containing an instruction…",
-      "source": "shkspr.mobi"
     },
     {
       "title": ".gitlocal",
@@ -86,13 +86,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
-      "date": "2026-03-05T12:34:44Z",
-      "summary": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way to graduate was to descend into hell and bring him back? In a terrible sort of way, I'm glad that Kuang had such a miserable time at University. Being able to mine that psychotrauma has led to the brilliant Babel and now the excellent Katabasis.…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Package Manager Magic Files",
       "link": "https://nesbitt.io/2026/03/05/package-manager-magic-files.html",
       "date": "2026-03-05T10:00:00Z",
@@ -140,13 +133,6 @@
       "date": "2026-03-04T14:04:30Z",
       "summary": "I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improve the accuracy of API response by modifying the API call to increase the amount of reasoning performed. My colleague quickly asked ChatGPT if this was possible, […] The post An AI Odyssey, Part 2: Prompting Peril first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "How many hours do you need to work to afford a pint of beer?",
-      "link": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
-      "date": "2026-03-04T12:34:22Z",
-      "summary": "I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in London - so I only winced a little bit when the cost came to about twelve quid. Shocking, obviously. But as we supped on our pints and discussed the state of the world, I tried to remember how expensive it was to have a pint when I was a lad young…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Interruption-Driven Development",
@@ -280,6 +266,20 @@
       "date": "2026-03-01T00:00:00Z",
       "summary": "On surviving surgery, confronting mortality, and finding peace on the other side.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "The two kinds of error",
+      "link": "https://evanhahn.com/the-two-kinds-of-error/",
+      "date": "2026-03-01T00:00:00Z",
+      "summary": "In short: in my mind, errors are divided into two categories. Expected errors (think “user entered invalid data”), which are part of normal operation, aren’t the developer’s fault, and should be handled. Unexpected errors (think “null pointer exception”) are the developer’s fault, likely indicate a bug, and are allowed to crash. Error handling is an important, but often neglected, part of programming and user experience. Over the years, I’ve developed an opinion about the two types of error in software. This is primarily informed by a career in web and application development, but I hope these learnings are widely applicable. In my mind, errors are divided into two categories: expected and unexpected . Expected errors Expected errors happen during normal operation. Examples: Validation errors when the user enters invalid data. You can’t control what the user types! Network errors when the user’s network fails. It’s not your fault if the user turns their Internet off or has a slow connection! Permission errors when your program isn’t allowed to do something. You can’t magically read forbidden files, fix a user’s password, or steal webcam privileges! The developer hasn’t made a mistake when these happen, and there’s often little they can do to prevent it. The existence of these errors is not a bug (though failing to handle them can be). These aren’t the programmer’s fault. Expected errors are recoverable. This might mean logging a warning, showing a message to the user, or using a fallback. Expected errors should not throw , raise , or panic . Instead, they should return an error result. This works differently in every language, but is often a Result type, a union of null and the success value, or an error code. This pattern pushes you toward handling the error, which you should if you want to make your software reliable. Expected errors should use WARN or INFO log messages because this isn’t a problem to solve. You may want to set up an alert if you start getting lots of warnings. Unexpected errors Unexpected errors should never happen. If they do, you’ve got a bug! Examples: Assertion errors. For example, a function must be called with a non-empty string, and someone violated the contract if they didn’t. Logic errors. If Thing A depends on Thing B, but Thing B isn’t properly initialized, that’s unexpected. Null pointer exceptions are also typically a surprise. Invalid data errors. You can usually assume your database will give back valid data. If it doesn’t, you’ve probably got a bug somewhere. You should generally not try to recover these errors. It’s okay to explode—crash, panic , and throw . To get even more radical: I often think unexpected errors should completely crash the program . It’s disruptive in the short term, but I find crashes make software feel more reliable in the long run. You’re more likely to hear about these problems from annoyed users—if not your own testing. Unexpected errors should use ERROR or FATAL log messages because they indicate a real problem. At best, they indicate an incorrect assumption. At worst, there’s a serious bug somewhere. Drawing the line The line between “expected” and “unexpected” depends on the task. At one extreme: if you’re making a prototype or quick script, I reckon all errors are unexpected. You might decide not to handle problems with the network, filesystem, or user input. Who cares? This is just a little script or idea. At the other extreme: if you’re coding for a space probe on a 50-year mission, almost all errors are expected, including catastrophic hardware failures . Most programs lie somewhere in between, and you have to decide which errors are unexpected. For example, are memory allocation errors expected in your program? It depends. In my experience, if you want to make your stuff more reliable, you’ll trend toward expecting more and more errors. Lots can go wrong on a normal day! For example, my team recently had to deal with a memory allocation error, even though we’re writing a Node.js app. Some programming languages, like Rust and Zig, classify many errors as expected. Others, like JavaScript and Python, classify them as unexpected. For example, when you parse JSON in Go, the compiler makes you handle the error; not so in Ruby. I tend to prefer stricter compilers for production software and looser languages for scripts and prototypes, in part because of their philosophy about errors. (The Rustaceans among you probably notice that this whole post is very similar to Rust’s error philosophy .) To be clear: this is just what I think. I’ve found it useful to categorize errors this way. If you think about errors differently, (1) I’d love to hear it (2) I’m glad you’re thinking about error handling in software.",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Reading List 02/28/26",
+      "link": "https://www.construction-physics.com/p/reading-list-022826",
+      "date": "2026-02-28T13:54:39Z",
+      "summary": "LA permitting costs, trickle-down housing, Panasonic stops making TVs, robotaxi remote operators, geothermal progress.",
+      "source": "construction-physics.com"
     }
   ]
 }
