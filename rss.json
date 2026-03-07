@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T15:10:01.452876Z",
+  "generated_at": "2026-03-07T16:11:11.218160Z",
   "items": [
     {
       "title": "Reading List 03/07/2026",
@@ -21,6 +21,13 @@
       "date": "2026-03-07T10:00:00Z",
       "summary": "The Open Source Foundations Consortium announces seven new working groups.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Using Clankers to Help Me Process Surgery",
+      "link": "https://xeiaso.net/blog/2026/surgery-recovery-clankers/",
+      "date": "2026-03-07T00:00:00Z",
+      "summary": "At 4 AM in recovery, the machines that never sleep turned out to be exactly the right company.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
@@ -273,13 +280,6 @@
       "date": "2026-03-01T22:00:00Z",
       "summary": "After migrating this blog from a static site generator into Drupal in 2009 , I noted: As a sad side-effect, all the blog comments are gone. Forever. Wiped out. But have no fear, we can start new discussions on many new posts! I archived all the comments from the old 'Thingamablog' version of the blog, but can't repost them here (at least, not with my time constraints... it would just take a nice import script, but I don't have the time for that now).",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
-      "link": "https://micahflee.com/why-hack-the-dhs-i-can-think-of-a-couple-pretti-good-reasons/",
-      "date": "2026-03-01T21:21:35Z",
-      "summary": "Today, DDoSecrets published data about ICE contracts hacked from DHS's Office of Industry Partnership. The hacker group, Department of Peace, published a statement that included: Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing",
-      "source": "micahflee.com"
     }
   ]
 }
