@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-07T12:16:03.132003Z",
+  "generated_at": "2026-03-07T13:21:07.294420Z",
   "items": [
+    {
+      "title": "Reading List 03/07/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-03072026",
+      "date": "2026-03-07T13:03:12Z",
+      "summary": "Data centers disconnecting from the grid, solar PV efficiency records, repairs for the Strategic Petroleum Reserve, Ford’s EV missteps, former OpenAI CTO’s new startup.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Book Review: The Electronic Criminals by Robert Farr (1975) ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "date": "2026-03-07T12:34:04Z",
+      "summary": "What can a fifty-year-old book teach us about cybersecurity? Written just as computing was beginning to enter the mainstream, The Electronic Criminals takes us into a terrifying new world of crime! Fraud over Telex! Ransomware of physical tapes! Stealing passwords and hacking into mainframes! The books has a strong start, but gently runs out of steam because there simply weren't many…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Announcing New Working Groups",
       "link": "https://nesbitt.io/2026/03/07/announcing-new-working-groups.html",
@@ -170,13 +184,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "How many hours do you need to work to afford a pint of beer?",
-      "link": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
-      "date": "2026-03-04T12:34:22Z",
-      "summary": "I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in London - so I only winced a little bit when the cost came to about twelve quid. Shocking, obviously. But as we supped on our pints and discussed the state of the world, I tried to remember how expensive it was to have a pint when I was a lad young…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Interruption-Driven Development",
       "link": "https://idiallo.com/blog/interruption-driven-development?src=feed",
       "date": "2026-03-04T12:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-01T21:21:35Z",
       "summary": "Today, DDoSecrets published data about ICE contracts hacked from DHS's Office of Industry Partnership. The hacker group, Department of Peace, published a statement that included: Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing",
       "source": "micahflee.com"
-    },
-    {
-      "title": "Redis patterns for coding",
-      "link": "http://antirez.com/news/161",
-      "date": "2026-03-01T09:55:09Z",
-      "summary": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actual people, as well :) I'm posting this to make sure search engines will index it. Comments",
-      "source": "antirez.com"
     }
   ]
 }
