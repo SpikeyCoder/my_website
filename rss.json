@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-07T21:08:48.706726Z",
+  "generated_at": "2026-03-07T22:09:29.140390Z",
   "items": [
+    {
+      "title": "‘The Window Chrome of Our Discontent’",
+      "link": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
+      "date": "2026-03-07T21:19:41Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
       "link": "https://daringfireball.net/feeds/sponsors/",
@@ -70,13 +77,6 @@
       "date": "2026-03-06T21:58:33Z",
       "summary": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in the last 90 days that wasn’t caught by tests?” Questions for the CTO/EM: “What feature has been blocked for over a year?” “Do you have real-time error visibility right now?” “What was the last feature that took significantly longer than estimated?” Questions for business stakeholders: “Are there features that got quietly turned off and never came back?” “Are there things you’ve stopped promising customers?” — Ally Piechowski , How to Audit a Rails Codebase Tags: technical-debt , software-engineering , rails",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "‘The Window Chrome of Our Discontent’",
-      "link": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
-      "date": "2026-03-06T20:49:48Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Anthropic and the Pentagon",
