@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-08T17:10:34.678693Z",
+  "generated_at": "2026-03-08T18:13:38.665703Z",
   "items": [
+    {
+      "title": "How much certainty is worthwhile?",
+      "link": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
+      "date": "2026-03-08T18:09:48Z",
+      "summary": "A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making mistakes and doing better My initial version of the table above had some errors that have been corrected. When I wrote a followup post on the hyperbolic counterparts of these […] The post How much certainty is worthwhile? first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
+      "link": "https://simonwillison.net/2026/Mar/5/chardet/",
+      "date": "2026-03-08T17:59:10Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Donald Knuth on Claude Opus Solving a Computer Science Problem",
+      "link": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "date": "2026-03-08T17:49:08Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Steve Lemay Hits Apple’s Leadership Page",
       "link": "https://www.apple.com/leadership/steve-lemay/",
@@ -42,20 +63,6 @@
       "date": "2026-03-08T00:00:00Z",
       "summary": "LLM is a popular CLI tool for talking with language models. I built llm-eliza , a plugin to chat with the ELIZA language model. Usage: llm install llm-eliza llm -m eliza \"I'm worried about computers.\" # => What do you think machines have to do with your problem? ELIZA, released in 1966, is a state-of-the-art language model. It offers zero-GPU inference with sub-millisecond semantic throughput, and scores highly on EQ measurements (emotional intelligence). Source code here.",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "‘npx workos’",
-      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
-      "date": "2026-03-07T22:16:39Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Daring Fireball Weekly Sponsorship Openings",
-      "link": "https://daringfireball.net/feeds/sponsors/",
-      "date": "2026-03-07T19:12:57Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Codex for Open Source",
@@ -252,13 +259,6 @@
       "date": "2026-03-03T12:22:26Z",
       "summary": "We reward complexity and ignore simplicity. In interviews, design reviews, and promotions. Here's how to fix it.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "An AI Odyssey, Part 1: Correctness Conundrum",
-      "link": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
-      "date": "2026-03-03T02:40:22Z",
-      "summary": "I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in professional financial management tasks. However, I pointed out that though this is true, these tools do not guarantee correctness, so one has to be very careful letting them manage critical assets such as […] The post An AI Odyssey, Part 1: Correctness Conundrum first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "Giving LLMs a personality is just good engineering",
