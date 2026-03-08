@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-08T14:10:39.933590Z",
+  "generated_at": "2026-03-08T15:10:31.204428Z",
   "items": [
+    {
+      "title": "Quoting Joseph Weizenbaum",
+      "link": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
+      "date": "2026-03-08T14:59:48Z",
+      "summary": "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people. — Joseph Weizenbaum , creator of ELIZA, in 1976 ( via ) Tags: ai-ethics , ai , computer-history , internet-archive",
+      "source": "simonwillison.net"
+    },
     {
       "title": "What's the source of Einstein's \"citizen of the world\" quip?",
       "link": "https://shkspr.mobi/blog/2026/03/whats-the-source-of-einsteins-citizen-of-the-world-quip/",
@@ -90,13 +97,6 @@
       "link": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "date": "2026-03-06T21:58:33Z",
       "summary": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in the last 90 days that wasn’t caught by tests?” Questions for the CTO/EM: “What feature has been blocked for over a year?” “Do you have real-time error visibility right now?” “What was the last feature that took significantly longer than estimated?” Questions for business stakeholders: “Are there features that got quietly turned off and never came back?” “Are there things you’ve stopped promising customers?” — Ally Piechowski , How to Audit a Rails Codebase Tags: technical-debt , software-engineering , rails",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Anthropic and the Pentagon",
-      "link": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
-      "date": "2026-03-06T17:26:50Z",
-      "summary": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and ongoing Pentagon/OpenAI/Anthropic contract situation. AI models are increasingly commodified. The top-tier offerings have about the same performance, and there is little to differentiate one from the other. The latest models from Anthropic, OpenAI and Google, in particular, tend to leapfrog each other with minor hops forward in quality every few months. [...] In this sort of market, branding matters a lot. Anthropic and its CEO, Dario Amodei, are positioning themselves as the moral and trustworthy AI provider. That has market value for both consumers and enterprise clients. Tags: bruce-schneier , ai , openai , generative-ai , llms , anthropic , ai-ethics",
       "source": "simonwillison.net"
     },
     {
