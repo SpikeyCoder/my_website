@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-08T12:17:18.721421Z",
+  "generated_at": "2026-03-08T13:21:31.511813Z",
   "items": [
+    {
+      "title": "What's the source of Einstein's \"citizen of the world\" quip?",
+      "link": "https://shkspr.mobi/blog/2026/03/whats-the-source-of-einsteins-citizen-of-the-world-quip/",
+      "date": "2026-03-08T12:34:03Z",
+      "summary": "I like digging through old archives and tracing my way through quotes. Here's a particularly good one from Albert Einstein which is often peppered around the Internet without any sources. If my theory of relativity is proven successful, Germany will claim me as a German and France will declare that I am a citizen of the world. Should my theory prove untrue, France will say that I am a German…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "If It Quacks Like a Package Manager",
       "link": "https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html",
@@ -161,13 +168,6 @@
       "date": "2026-03-05T15:00:00Z",
       "summary": "Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
-      "date": "2026-03-05T12:34:44Z",
-      "summary": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way to graduate was to descend into hell and bring him back? In a terrible sort of way, I'm glad that Kuang had such a miserable time at University. Being able to mine that psychotrauma has led to the brilliant Babel and now the excellent Katabasis.…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "AI And The Ship of Theseus",
