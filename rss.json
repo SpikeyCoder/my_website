@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-08T10:10:42.268162Z",
+  "generated_at": "2026-03-08T11:09:37.686350Z",
   "items": [
+    {
+      "title": "If It Quacks Like a Package Manager",
+      "link": "https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html",
+      "date": "2026-03-08T10:00:00Z",
+      "summary": "Some tools waddle like package managers without learning to swim.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "‘npx workos’",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
@@ -161,13 +168,6 @@
       "date": "2026-03-05T12:34:44Z",
       "summary": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way to graduate was to descend into hell and bring him back? In a terrible sort of way, I'm glad that Kuang had such a miserable time at University. Being able to mine that psychotrauma has led to the brilliant Babel and now the excellent Katabasis.…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Package Manager Magic Files",
-      "link": "https://nesbitt.io/2026/03/05/package-manager-magic-files.html",
-      "date": "2026-03-05T10:00:00Z",
-      "summary": "Package manager magic files and where to find them: .npmrc, MANIFEST.in, Directory.Packages.props, .pnpmfile.cjs, and more.",
-      "source": "nesbitt.io"
     },
     {
       "title": "AI And The Ship of Theseus",
