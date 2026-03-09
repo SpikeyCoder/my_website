@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-09T21:14:58.354361Z",
+  "generated_at": "2026-03-09T22:12:56.110887Z",
   "items": [
+    {
+      "title": "★ The iPhone 17e",
+      "link": "https://daringfireball.net/2026/03/the_iphone_17e",
+      "date": "2026-03-09T21:58:08Z",
+      "summary": "Apple could have stopped with the addition of MagSafe alone, and the 17e would’ve been a successful year-over-year update over the 16e. But there’s even more.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
       "link": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
@@ -98,13 +105,6 @@
       "date": "2026-03-08T18:09:48Z",
       "summary": "A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making mistakes and doing better My initial version of the table above had some errors that have been corrected. When I wrote a followup post on the hyperbolic counterparts of these […] The post How much certainty is worthwhile? first appeared on John D. Cook .",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
-      "link": "https://simonwillison.net/2026/Mar/5/chardet/",
-      "date": "2026-03-08T17:59:10Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "GNU and the AI reimplementations",
