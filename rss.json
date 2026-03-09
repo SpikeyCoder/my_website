@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T23:10:36.762223Z",
+  "generated_at": "2026-03-09T00:46:38.105810Z",
   "items": [
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
@@ -7,6 +7,20 @@
       "date": "2026-03-09T00:00:00Z",
       "summary": "I needed to ship this before my surgery, so I vibe coded it. It turned out well enough.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "The Noble Path",
+      "link": "https://www.joanwestenberg.com/the-noble-path/",
+      "date": "2026-03-08T23:56:18Z",
+      "summary": "It is a truth universally acknowledged that an indie hacker in possession of a widget must be in want of a business model... Every tool is a startup now. Every script is a SaaS product. Every neat little hack you cobbled together on a Sunday afternoon to solve your own",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+      "date": "2026-03-08T23:35:42Z",
+      "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "How much certainty is worthwhile?",
@@ -266,20 +280,6 @@
       "date": "2026-03-03T12:22:26Z",
       "summary": "We reward complexity and ignore simplicity. In interviews, design reviews, and promotions. Here's how to fix it.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "Giving LLMs a personality is just good engineering",
-      "link": "https://seangoedecke.com/giving-llms-a-personality/",
-      "date": "2026-03-03T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "I built a pint-sized Macintosh",
-      "link": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
-      "date": "2026-03-02T21:15:00Z",
-      "summary": "To kick off MARCHintosh , I built this tiny pint-sized Macintosh with a Raspberry Pi Pico: This is not my own doing—I just assembled the parts to run Matt Evans' Pico Micro Mac firmware on a Raspberry Pi Pico (with an RP2040). The version I built outputs to a 640x480 VGA display at 60 Hz, and allows you to plug in a USB keyboard and mouse. Since the original Pico's RAM is fairly constrained, you get a maximum of 208 KB of RAM with this setup—which is 63% more RAM than you got on the original '128K' Macintosh!",
-      "source": "jeffgeerling.com"
     }
   ]
 }
