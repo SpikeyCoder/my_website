@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-03-09T22:12:56.110887Z",
+  "generated_at": "2026-03-09T23:12:42.268163Z",
   "items": [
     {
       "title": "★ The iPhone 17e",
       "link": "https://daringfireball.net/2026/03/the_iphone_17e",
-      "date": "2026-03-09T21:58:08Z",
+      "date": "2026-03-09T22:53:17Z",
       "summary": "Apple could have stopped with the addition of MagSafe alone, and the 17e would’ve been a successful year-over-year update over the 16e. But there’s even more.",
       "source": "daringfireball.net"
     },
     {
-      "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
-      "link": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
-      "date": "2026-03-09T19:37:58Z",
+      "title": "[Sponsor] Finalist",
+      "link": "https://www.finalist.works/finalist-36/",
+      "date": "2026-03-09T22:44:03Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe",
+      "link": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
+      "date": "2026-03-09T22:24:21Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Trig composition table",
+      "link": "https://www.johndcook.com/blog/2026/03/09/trig-composition-table/",
+      "date": "2026-03-09T22:16:09Z",
+      "summary": "I’ve written a couple posts that reference the table below. You could make a larger table, 6 × 6, by including sec, csc, cot, and their inverses, as Baker did in his article [1]. Note that rows 4, 5, and 6 are the reciprocals of rows 1, 2, and 3. Returning to the theme of […] The post Trig composition table first appeared on John D. Cook .",
+      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: Billionaires are a danger to themselves and (especially) us (09 Mar 2026)",
@@ -28,13 +42,6 @@
       "date": "2026-03-09T15:05:15Z",
       "summary": "Production query plans without production data Radim Marek describes the new pg_restore_relation_stats() and pg_restore_attribute_stats() functions that were introduced in PostgreSQL 18 in September 2025. The PostgreSQL query planner makes use of internal statistics to help it decide how to best execute a query. These statistics often differ between production data and development environments, which means the query plans used in production may not be replicable in development. PostgreSQL's new features now let you copy those statistics down to your development environment, allowing you to simulate the plans for production workloads without needing to copy in all of that data first. I found this illustrative example useful: SELECT pg_restore_attribute_stats( 'schemaname', 'public', 'relname', 'test_orders', 'attname', 'status', 'inherited', false::boolean, 'null_frac', 0.0::real, 'avg_width', 9::integer, 'n_distinct', 5::real, 'most_common_vals', '{delivered,shipped,cancelled,pending,returned}'::text, 'most_common_freqs', '{0.95,0.015,0.015,0.015,0.005}'::real[] ); This simulates statistics for a status column that is 95% delivered . Based on these statistics PostgreSQL can decide to use an index for status = 'shipped' but to instead perform a full table scan for status = 'delivered' . These statistics are pretty small. Radim says: Statistics dumps are tiny. A database with hundreds of tables and thousands of columns produces a statistics dump under 1MB. The production data might be hundreds of GB. The statistics that describe it fit in a text file. I posted on the SQLite user forum asking if SQLite could offer a similar feature and D. Richard Hipp promptly replied that it has one already : All of the data statistics used by the query planner in SQLite are available in the sqlite_stat1 table (or also in the sqlite_stat4 table if you happen to have compiled with SQLITE_ENABLE_STAT4). That table is writable. You can inject whatever alternative statistics you like. This approach to controlling the query planner is mentioned in the documentation: https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables . See also https://sqlite.org/lang_analyze.html#fixed_results_of_analyze . The \".fullschema\" command in the CLI outputs both the schema and the content of the sqlite_statN tables, exactly for the reasons outlined above - so that we can reproduce query problems for testing without have to load multi-terabyte database files. Via Lobste.rs Tags: databases , postgresql , sql , sqlite , d-richard-hipp",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Low-Wage Contractors in Kenya See What Users See While Using Meta’s AI Smart Glasses",
-      "link": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
-      "date": "2026-03-09T14:16:20Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
@@ -251,13 +258,6 @@
       "link": "https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/",
       "date": "2026-03-04T14:15:02Z",
       "summary": "It is sometimes said that neural networks are “just” logistic regression. (Remember neural networks? LLMs are neural networks, but nobody talks about neural networks anymore.) In some sense a neural network is logistic regression with more parameters, a lot more parameters, but more is different. New phenomena emerge at scale that could not have been anticipated at […] The post From logistic regression to AI first appeared on John D. Cook .",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "An AI Odyssey, Part 2: Prompting Peril",
-      "link": "https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/",
-      "date": "2026-03-04T14:04:30Z",
-      "summary": "I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improve the accuracy of API response by modifying the API call to increase the amount of reasoning performed. My colleague quickly asked ChatGPT if this was possible, […] The post An AI Odyssey, Part 2: Prompting Peril first appeared on John D. Cook .",
       "source": "johndcook.com"
     },
     {
