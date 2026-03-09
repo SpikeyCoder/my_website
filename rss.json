@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-09T07:29:11.505070Z",
+  "generated_at": "2026-03-09T08:22:32.082224Z",
   "items": [
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
@@ -77,6 +77,13 @@
       "date": "2026-03-08T10:00:00Z",
       "summary": "Some tools waddle like package managers without learning to swim.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Some Thorns Have Roses",
+      "link": "https://xeiaso.net/blog/2026/some-thorns-have-roses/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Introducing llm-eliza",
@@ -189,13 +196,6 @@
       "date": "2026-03-06T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Advice for staying in the hospital for a week",
-      "link": "https://xeiaso.net/blog/2026/hospital-advice/",
-      "date": "2026-03-06T00:00:00Z",
-      "summary": "Hard-won wisdom from a week of fluorescent lights and beeping machines.",
-      "source": "xeiaso.net"
     },
     {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
