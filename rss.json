@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-10T12:22:55.354624Z",
+  "generated_at": "2026-03-10T13:35:00.226832Z",
   "items": [
+    {
+      "title": "Unstructured Data and the Joy of having Something Else think for you",
+      "link": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
+      "date": "2026-03-10T12:34:59Z",
+      "summary": "I'm sure we have all met a person like this: People who have an AI habit use it by default. I have watched someone ask ChatGPT the weather for tomorrow rather than simply open the weather app. Another time, they asked AI the question even after I had shown them the website with the same information. It's a crutch.— Ibster (@ibster.bsky.social) 9 March 2026 at 09:46 At a recent tech event, I b…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Just Use Postgres",
       "link": "https://nesbitt.io/2026/03/10/just-use-postgres.html",
@@ -175,13 +182,6 @@
       "date": "2026-03-07T13:03:12Z",
       "summary": "Data centers disconnecting from the grid, solar PV efficiency records, repairs for the Strategic Petroleum Reserve, Ford’s EV missteps, former OpenAI CTO’s new startup.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Book Review: The Electronic Criminals by Robert Farr (1975) ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
-      "date": "2026-03-07T12:34:04Z",
-      "summary": "What can a fifty-year-old book teach us about cybersecurity? Written just as computing was beginning to enter the mainstream, The Electronic Criminals takes us into a terrifying new world of crime! Fraud over Telex! Ransomware of physical tapes! Stealing passwords and hacking into mainframes! The books has a strong start, but gently runs out of steam because there simply weren't many…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Remove annoying banners",
