@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-10T10:20:36.908134Z",
+  "generated_at": "2026-03-10T11:17:56.956758Z",
   "items": [
+    {
+      "title": "Just Use Postgres",
+      "link": "https://nesbitt.io/2026/03/10/just-use-postgres.html",
+      "date": "2026-03-10T10:00:00Z",
+      "summary": "Taking 'just use Postgres' to its logical endpoint: git push to deploy into a single Postgres process.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "★ The iPhone 17e",
       "link": "https://daringfireball.net/2026/03/the_iphone_17e",
@@ -175,13 +182,6 @@
       "date": "2026-03-07T12:34:04Z",
       "summary": "What can a fifty-year-old book teach us about cybersecurity? Written just as computing was beginning to enter the mainstream, The Electronic Criminals takes us into a terrifying new world of crime! Fraud over Telex! Ransomware of physical tapes! Stealing passwords and hacking into mainframes! The books has a strong start, but gently runs out of steam because there simply weren't many…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Announcing New Working Groups",
-      "link": "https://nesbitt.io/2026/03/07/announcing-new-working-groups.html",
-      "date": "2026-03-07T10:00:00Z",
-      "summary": "The Open Source Foundations Consortium announces seven new working groups.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Remove annoying banners",
