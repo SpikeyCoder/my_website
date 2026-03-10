@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-10T16:29:06.682004Z",
+  "generated_at": "2026-03-10T17:23:12.963247Z",
   "items": [
+    {
+      "title": "Simplifying expressions in SymPy",
+      "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
+      "date": "2026-03-10T16:08:15Z",
+      "summary": "The previous post looked at why Mathematica does not simplify the expression Sinh[ArcCosh[x]] the way you might think it should. This post will be a sort of Python analog of the previous post. SymPy is a Python library that among other things will simplify mathematical expressions. As before, we seek to verify the entries in […] The post Simplifying expressions in SymPy first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/10/ice-tech/",
@@ -133,13 +140,6 @@
       "date": "2026-03-08T23:35:42Z",
       "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "How much certainty is worthwhile?",
-      "link": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
-      "date": "2026-03-08T18:09:48Z",
-      "summary": "A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making mistakes and doing better My initial version of the table above had some errors that have been corrected. When I wrote a followup post on the hyperbolic counterparts of these […] The post How much certainty is worthwhile? first appeared on John D. Cook .",
-      "source": "johndcook.com"
     },
     {
       "title": "GNU and the AI reimplementations",
