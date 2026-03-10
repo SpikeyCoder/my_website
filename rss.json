@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T18:25:03.902281Z",
+  "generated_at": "2026-03-10T19:21:38.849800Z",
   "items": [
     {
       "title": "Simplifying expressions in SymPy",
@@ -28,6 +28,13 @@
       "date": "2026-03-10T14:47:37Z",
       "summary": "Apple could have stopped with the addition of MagSafe alone, and the 17e would’ve been a successful year-over-year update over the 16e. But there’s even more.",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "A snappy answer when asked about dressing casually at IBM",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131",
+      "date": "2026-03-10T14:00:00Z",
+      "summary": "Oh, this old thing? The post A snappy answer when asked about dressing casually at IBM appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Unstructured Data and the Joy of having Something Else think for you",
@@ -217,13 +224,6 @@
       "date": "2026-03-06T15:00:00Z",
       "summary": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock he used live to demonstrate PTP clock sync: I pinged him on LinkedIn inquiring about the build (I wasn't the only one!), and shortly thereafter, he published Gemini2350/ptp-wallclock , a repository with rough instructions for the build, and his C++ application to display PTP time (if available on the network) on a set of two LED matrix displays, using a Raspberry Pi.",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "When Read­Directory­ChangesW reports that a deletion occurred, how can I learn more about the deleted thing?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
-      "date": "2026-03-06T15:00:00Z",
-      "summary": "It's already gone. If you need more information, you should have been remembering it. The post When <CODE>Read­Directory­ChangesW</CODE> reports that a deletion occurred, how can I learn more about the deleted thing? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "A History of Operation Breakthrough",
