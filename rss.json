@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-11T10:20:38.347498Z",
+  "generated_at": "2026-03-11T11:18:14.414995Z",
   "items": [
+    {
+      "title": "git-pkgs/actions",
+      "link": "https://nesbitt.io/2026/03/11/git-pkgs-actions.html",
+      "date": "2026-03-11T10:00:00Z",
+      "summary": "How to add git-pkgs to your GitHub Actions workflows.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "★ The MacBook Neo",
       "link": "https://daringfireball.net/2026/03/the_macbook_neo",
@@ -189,13 +196,6 @@
       "date": "2026-03-08T12:34:03Z",
       "summary": "I like digging through old archives and tracing my way through quotes. Here's a particularly good one from Albert Einstein which is often peppered around the Internet without any sources. If my theory of relativity is proven successful, Germany will claim me as a German and France will declare that I am a citizen of the world. Should my theory prove untrue, France will say that I am a German…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "If It Quacks Like a Package Manager",
-      "link": "https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html",
-      "date": "2026-03-08T10:00:00Z",
-      "summary": "Some tools waddle like package managers without learning to swim.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Some Thorns Have Roses",
