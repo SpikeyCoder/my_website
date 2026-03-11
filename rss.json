@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-11T13:34:43.558927Z",
+  "generated_at": "2026-03-11T14:25:04.345516Z",
   "items": [
     {
-      "title": "Game Review: It Takes Two ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/game-review-it-takes-two/",
-      "date": "2026-03-11T12:34:02Z",
-      "summary": "A couple is facing the devastating prospect of divorce. Their young daughter is understandably distraught. In her fear, she doses both parents with a powerful hallucinogenic drug in the hope that tripping through therapy will save their marriage. Well, OK, that's not exactly what the game's about - but it might as well be! My aim this year is to play more co-operative games with my wife. So she …",
-      "source": "shkspr.mobi"
+      "title": "★ The MacBook Neo",
+      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
+      "date": "2026-03-11T14:23:55Z",
+      "summary": "May the MacBook Neo live so long that its name becomes inapt.",
+      "source": "daringfireball.net"
     },
     {
       "title": "Where did you think the training data was coming from?",
@@ -21,13 +21,6 @@
       "date": "2026-03-11T10:00:00Z",
       "summary": "How to add git-pkgs to your GitHub Actions workflows.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "★ The MacBook Neo",
-      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
-      "date": "2026-03-11T02:14:52Z",
-      "summary": "May the MacBook Neo live so long that its name becomes inapt.",
-      "source": "daringfireball.net"
     },
     {
       "title": "The Server Older than my Kids!",
@@ -93,13 +86,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Unstructured Data and the Joy of having Something Else think for you",
-      "link": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
-      "date": "2026-03-10T12:34:59Z",
-      "summary": "I'm sure we have all met a person like this: People who have an AI habit use it by default. I have watched someone ask ChatGPT the weather for tomorrow rather than simply open the weather app. Another time, they asked AI the question even after I had shown them the website with the same information. It's a crutch.— Ibster (@ibster.bsky.social) 9 March 2026 at 09:46 At a recent tech event, I b…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Just Use Postgres",
       "link": "https://nesbitt.io/2026/03/10/just-use-postgres.html",
       "date": "2026-03-10T10:00:00Z",
@@ -154,13 +140,6 @@
       "date": "2026-03-09T13:37:45Z",
       "summary": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for new, better tools to break through the noise. This was certainly the case a couple of years ago, when asking models for help with Python or JavaScript appeared to give much better results than questions about less widely used languages. With the latest models running in good coding agent harnesses I'm not sure this continues to hold up. I'm seeing excellent results with my brand new tools where I start by prompting \"use uvx showboat --help / rodney --help / chartroom --help to learn about these tools\" - the context length of these new models is long enough that they can consume quite a lot of documentation before they start working on a problem. Drop a coding agent into any existing codebase that uses libraries and tools that are too private or too new to feature in the training data and my experience is that it works just fine - the agent will consult enough of the existing examples to understand patterns, then iterate and test its own output to fill in the gaps. This is a surprising result. I thought coding agents would prove to be the ultimate embodiment of the Choose Boring Technology approach, but in practice they don't seem to be affecting my technology choices in that way at all. Update : A few follow-on thoughts: The issue of what technology LLMs recommend is a separate one. What Claude Code Actually Chooses is an interesting recent study where Edwin Ong and Alex Vikati where they proved Claude Code over 2,000 times and found a strong bias towards build-over-buy but also identified a preferred technical stack, with GitHub Actions, Stripe, and shadcn/ui seeing a \"near monopoly\" in their respective categories. For the sake of this post my interest is in what happens when the human makes a technology choice that differs from those preferred by the model harness. The Skills mechanism that is being rapidly embraced by most coding agent tools is super-relevant here. We are already seeing projects release official skills to help agents use them - here are examples from Remotion , Supabase , Vercel , and Prisma . Tags: ai , generative-ai , llms , ai-assisted-programming , boring-technology , coding-agents , agentic-engineering , november-2025-inflection",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Book Review: There Is No Antimemetics Division by qntm ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-there-is-no-antimemetics-division-by-qntm/",
-      "date": "2026-03-09T12:34:47Z",
-      "summary": "Apparently I reviewed the previous version of this book four years ago but have no real memory of it. Did you ever have a dream which was vividly realistic yet somehow slightly askew from reality? Obviously there is no antimemetics division, nor could anyone write a book about it. If they did, their mind would instantly be liquefied and their mere existence would be purged. So, why is there a …",
-      "source": "shkspr.mobi"
     },
     {
       "title": "100 Posts",
@@ -280,6 +259,27 @@
       "date": "2026-03-04T00:00:00Z",
       "summary": "Inventors and impacts",
       "source": "dynomight.net"
+    },
+    {
+      "title": "A soft-landing manual for the second gilded age",
+      "link": "https://www.joanwestenberg.com/a-soft-landing-manual-for-the-second-gilded-age/",
+      "date": "2026-03-03T21:06:34Z",
+      "summary": "By the summer of 1945, West Berlin had been reduced to rubble. Allied bombing, the Soviet ground assault and Hitler's insistence on Götterdämmerung had destroyed roughly a third of the city's buildings and left most of the rest damaged. There was no",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Nobody Gets Promoted for Simplicity",
+      "link": "https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/",
+      "date": "2026-03-03T12:22:26Z",
+      "summary": "We reward complexity and ignore simplicity. In interviews, design reviews, and promotions. Here's how to fix it.",
+      "source": "terriblesoftware.org"
+    },
+    {
+      "title": "Giving LLMs a personality is just good engineering",
+      "link": "https://seangoedecke.com/giving-llms-a-personality/",
+      "date": "2026-03-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
