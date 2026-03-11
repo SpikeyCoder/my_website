@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T07:25:26.199741Z",
+  "generated_at": "2026-03-11T08:19:54.667913Z",
   "items": [
     {
       "title": "★ The MacBook Neo",
@@ -205,6 +205,13 @@
       "source": "xeiaso.net"
     },
     {
+      "title": "Introducing llm-eliza",
+      "link": "https://evanhahn.com/llm-eliza/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "LLM is a popular CLI tool for talking with language models. I built llm-eliza , a plugin to chat with the ELIZA language model. Usage: llm install llm-eliza llm -m eliza \"I'm worried about computers.\" # => What do you think machines have to do with your problem? ELIZA, released in 1966, is a state-of-the-art language model. It offers zero-GPU inference with sub-millisecond semantic throughput, and scores highly on EQ measurements (emotional intelligence). Source code here.",
+      "source": "evanhahn.com"
+    },
+    {
       "title": "Pluralistic: The web is bearable with RSS (07 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/07/reader-mode/",
       "date": "2026-03-07T18:02:49Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-04T00:00:00Z",
       "summary": "Inventors and impacts",
       "source": "dynomight.net"
-    },
-    {
-      "title": "A soft-landing manual for the second gilded age",
-      "link": "https://www.joanwestenberg.com/a-soft-landing-manual-for-the-second-gilded-age/",
-      "date": "2026-03-03T21:06:34Z",
-      "summary": "By the summer of 1945, West Berlin had been reduced to rubble. Allied bombing, the Soviet ground assault and Hitler's insistence on Götterdämmerung had destroyed roughly a third of the city's buildings and left most of the rest damaged. There was no",
-      "source": "joanwestenberg.com"
     }
   ]
 }
