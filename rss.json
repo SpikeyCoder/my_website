@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-03-10T23:12:34.707827Z",
+  "generated_at": "2026-03-11T00:42:34.391202Z",
   "items": [
+    {
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "date": "2026-03-11T00:32:51Z",
+      "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "★ The MacBook Neo",
       "link": "https://daringfireball.net/2026/03/the_macbook_neo",
-      "date": "2026-03-10T23:11:11Z",
+      "date": "2026-03-11T00:32:06Z",
       "summary": "May the MacBook Neo live so long that its name becomes inapt.",
       "source": "daringfireball.net"
     },
@@ -273,13 +280,6 @@
       "date": "2026-03-04T00:00:00Z",
       "summary": "Inventors and impacts",
       "source": "dynomight.net"
-    },
-    {
-      "title": "A soft-landing manual for the second gilded age",
-      "link": "https://www.joanwestenberg.com/a-soft-landing-manual-for-the-second-gilded-age/",
-      "date": "2026-03-03T21:06:34Z",
-      "summary": "By the summer of 1945, West Berlin had been reduced to rubble. Allied bombing, the Soviet ground assault and Hitler's insistence on Götterdämmerung had destroyed roughly a third of the city's buildings and left most of the rest damaged. There was no",
-      "source": "joanwestenberg.com"
     }
   ]
 }
