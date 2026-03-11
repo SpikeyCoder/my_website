@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-11T01:40:27.337717Z",
+  "generated_at": "2026-03-11T03:04:50.119633Z",
   "items": [
+    {
+      "title": "★ The MacBook Neo",
+      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
+      "date": "2026-03-11T02:14:52Z",
+      "summary": "May the MacBook Neo live so long that its name becomes inapt.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "The Server Older than my Kids!",
       "link": "https://idiallo.com/byte-size/my-server-is-older-than-my-kids?src=feed",
@@ -14,13 +21,6 @@
       "date": "2026-03-11T00:32:51Z",
       "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "★ The MacBook Neo",
-      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
-      "date": "2026-03-11T00:32:06Z",
-      "summary": "May the MacBook Neo live so long that its name becomes inapt.",
-      "source": "daringfireball.net"
     },
     {
       "title": "AI should help us produce better code",
