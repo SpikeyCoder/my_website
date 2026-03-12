@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-12T15:26:39.920034Z",
+  "generated_at": "2026-03-12T16:30:24.904639Z",
   "items": [
+    {
+      "title": "Software Proprioception",
+      "link": "https://unsung.aresluna.org/software-proprioception/",
+      "date": "2026-03-12T16:10:51Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Historic Energy Price Cap Data (FOI success!)",
       "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
@@ -34,13 +41,6 @@
       "link": "https://daringfireball.net/2006/05/web_kit_vs_webkit",
       "date": "2026-03-12T00:26:23Z",
       "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "★ Modifier Key Order for Keyboard Shortcuts",
-      "link": "https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts",
-      "date": "2026-03-12T00:15:21Z",
-      "summary": "The correct order is Fn, Control, Option, Shift, Command — regardless if you’re using the words or the glyphs.",
       "source": "daringfireball.net"
     },
     {
