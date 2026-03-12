@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-12T12:21:54.330524Z",
+  "generated_at": "2026-03-12T13:33:58.477944Z",
   "items": [
+    {
+      "title": "Historic Energy Price Cap Data (FOI success!)",
+      "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
+      "date": "2026-03-12T12:34:01Z",
+      "summary": "Ofgem, the UK's energy regulator, publishes the current energy price cap per region. Note that it is only the current price cap. I couldn't find the complete historic data on their site. So I sent a quick email asking for it which they treated as a Freedom of Information request. Please can you supply me with a complete list of all previous electricity price cap figures? I have searched your…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "The Elusive Cost Savings of the Prefabricated Home",
       "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
@@ -203,13 +210,6 @@
       "date": "2026-03-09T14:00:01Z",
       "summary": "Think fast, no pressure. The post The fine print giveth and the bold print taketh away: The countdown timer appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: There Is No Antimemetics Division by qntm ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-there-is-no-antimemetics-division-by-qntm/",
-      "date": "2026-03-09T12:34:47Z",
-      "summary": "Apparently I reviewed the previous version of this book four years ago but have no real memory of it. Did you ever have a dream which was vividly realistic yet somehow slightly askew from reality? Obviously there is no antimemetics division, nor could anyone write a book about it. If they did, their mind would instantly be liquefied and their mere existence would be purged. So, why is there a …",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
