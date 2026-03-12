@@ -485,6 +485,45 @@ textarea {
   display: block;
 }
 
+.loom-facade {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #1a1a2e;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s;
+}
+
+.loom-facade:hover,
+.loom-facade:focus-visible {
+  background: #232340;
+}
+
+.loom-play-icon {
+  width: 72px;
+  height: 72px;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,.4));
+  transition: transform 0.15s;
+}
+
+.loom-facade:hover .loom-play-icon,
+.loom-facade:focus-visible .loom-play-icon {
+  transform: scale(1.08);
+}
+
+.loom-facade-label {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,.75);
+  font-family: inherit;
+  pointer-events: none;
+}
+
 .career-fallback-link {
   display: inline-flex;
   margin-top: 12px;
