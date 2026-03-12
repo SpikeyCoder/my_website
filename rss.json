@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T22:10:48.772614Z",
+  "generated_at": "2026-03-12T23:12:23.202035Z",
   "items": [
     {
       "title": "MALUS - Clean Room as a Service",
@@ -49,6 +49,13 @@
       "date": "2026-03-12T16:10:51Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136",
+      "date": "2026-03-12T14:00:00Z",
+      "summary": "One of the weirdest calling conventions you'll see. The post Windows stack limit checking retrospective: x86-32, also known as i386 appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Historic Energy Price Cap Data (FOI success!)",
@@ -224,13 +231,6 @@
       "date": "2026-03-09T16:46:33Z",
       "summary": "Today's links Billionaires are a danger to themselves and (especially) us: A billionaire is a machine for producing policy failures at scale. Hey look at this: Delights to delectate. Object…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "The fine print giveth and the bold print taketh away: The countdown timer",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
-      "date": "2026-03-09T14:00:01Z",
-      "summary": "Think fast, no pressure. The post The fine print giveth and the bold print taketh away: The countdown timer appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
