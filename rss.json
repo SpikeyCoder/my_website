@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-12T10:21:12.913262Z",
+  "generated_at": "2026-03-12T11:17:57.724545Z",
   "items": [
+    {
+      "title": "Reviewing ENISA’s Package Manager Advisory",
+      "link": "https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+      "date": "2026-03-12T10:00:00Z",
+      "summary": "Notes on ENISA's Technical Advisory for Secure Use of Package Managers.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
       "link": "https://sixcolors.com/post/2026/03/ill-take-beach-reading-for-1000-ken/",
@@ -189,13 +196,6 @@
       "date": "2026-03-09T12:34:47Z",
       "summary": "Apparently I reviewed the previous version of this book four years ago but have no real memory of it. Did you ever have a dream which was vividly realistic yet somehow slightly askew from reality? Obviously there is no antimemetics division, nor could anyone write a book about it. If they did, their mind would instantly be liquefied and their mere existence would be purged. So, why is there a …",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "100 Posts",
-      "link": "https://nesbitt.io/2026/03/09/100-posts.html",
-      "date": "2026-03-09T10:00:00Z",
-      "summary": "This is post number 100.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
