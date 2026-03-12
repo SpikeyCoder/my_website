@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T14:25:06.840172Z",
+  "generated_at": "2026-03-12T15:26:39.920034Z",
   "items": [
     {
       "title": "Historic Energy Price Cap Data (FOI success!)",
@@ -49,6 +49,13 @@
       "date": "2026-03-12T00:00:00Z",
       "summary": "thinking and bluffing",
       "source": "dynomight.net"
+    },
+    {
+      "title": "How I use generative AI on this blog",
+      "link": "https://evanhahn.com/how-i-use-gen-ai-on-this-blog/",
+      "date": "2026-03-12T00:00:00Z",
+      "summary": "Inspired by others, I’m publishing how I use generative AI to write this little blog. General feelings on generative AI Generative AI, like any technology, has tradeoffs. I think the cons far outweigh the pros. In other words, the world would be better off without generative AI. Despite this belief, I use it. I’m effectively forced at work, but I also use LLMs to help write this personal blog. I think they can produce better writing if used correctly. Also: I want to be critical of this technology. Specifically, I want to change the minds of “AI maxxers”, not preach to those who already hate it. If I never used this stuff, AI lovers wouldn’t listen to me. These people are more likely to respect criticism from a daily user who’s sympathetic to the benefits. I think there’s space for critique from a user of a technology they wish didn’t exist. I feel discomfort and tension about this, which I hope comes through. With that, let’s get to the specifics. The specifics My main rule of thumb: the final product must be word-for-word what I would’ve written without AI , given enough time. I use it in two main ways: Like a thesaurus. For example, I recently asked, “What’s another way to say that a book was overly positive, not critical of its subject matter?” I used one of its suggestions, “flattering”, in my final draft. Quick brainstorming for specifics. For example, I was listing types of software error in a recent post and asked it for more examples. I plucked one of its many answers—null pointer exceptions—and discarded the rest. I prefer local models that run on my phone and laptop. I’ll keep this post updated.",
+      "source": "evanhahn.com"
     },
     {
       "title": "Sorting algorithms",
@@ -273,13 +280,6 @@
       "date": "2026-03-06T15:00:00Z",
       "summary": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock he used live to demonstrate PTP clock sync: I pinged him on LinkedIn inquiring about the build (I wasn't the only one!), and shortly thereafter, he published Gemini2350/ptp-wallclock , a repository with rough instructions for the build, and his C++ application to display PTP time (if available on the network) on a set of two LED matrix displays, using a Raspberry Pi.",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "A History of Operation Breakthrough",
-      "link": "https://www.construction-physics.com/p/a-history-of-operation-breakthrough",
-      "date": "2026-03-06T13:03:16Z",
-      "summary": "Many who look at the high and rising cost of housing see the problem as fundamentally one of production methods; more specifically, that homes could be built more cheaply if they were made using factories and industrialized processes, instead of assembling them on site using manual labor and hand-held tools.",
-      "source": "construction-physics.com"
     }
   ]
 }
