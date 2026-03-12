@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-11T23:11:44.401561Z",
+  "generated_at": "2026-03-12T00:39:46.593193Z",
   "items": [
+    {
+      "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
+      "link": "https://daringfireball.net/2006/05/web_kit_vs_webkit",
+      "date": "2026-03-12T00:26:23Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ Modifier Key Order for Keyboard Shortcuts",
+      "link": "https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts",
+      "date": "2026-03-12T00:15:21Z",
+      "summary": "The correct order is Fn, Control, Option, Shift, Command — regardless if you’re using the words or the glyphs.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
       "link": "https://x.com/ClassicII_MrMac/status/2028869838870069447",
@@ -12,22 +26,15 @@
       "title": "Sorting algorithms",
       "link": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
       "date": "2026-03-11T22:58:06Z",
-      "summary": "Sorting algorithms Today in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts : Interactive animated demos of the most common sorting algorithms This gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort. Add timsort, look up details in a clone of python/cpython from GitHub Regular Claude chat can clone repos from GitHub these days. In the transcript you can see it clone the repo and then consult Objects/listsort.txt and Objects/listobject.c . I don't like the dark color scheme on the buttons, do better Also add a \"run all\" button which shows smaller animated charts for every algorithm at once in a grid and runs them all at the same time It came up with a color scheme I liked better, \"do better\" is a fun prompt, and now the \"Run all\" button produces this effect: Tags: algorithms , computer-science , javascript , sorting , ai , explorables , generative-ai , llms , claude , vibe-coding",
+      "summary": "Sorting algorithms Today in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts : Interactive animated demos of the most common sorting algorithms This gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort. Add timsort, look up details in a clone of python/cpython from GitHub Let's add Python's Timsort ! Regular Claude chat can clone repos from GitHub these days. In the transcript you can see it clone the repo and then consult Objects/listsort.txt and Objects/listobject.c . (I should note that when I asked GPT-5.4 Thinking to review Claude's implementation it picked holes in it and said the code \"is a simplified, Timsort-inspired adaptive mergesort\".) I don't like the dark color scheme on the buttons, do better Also add a \"run all\" button which shows smaller animated charts for every algorithm at once in a grid and runs them all at the same time It came up with a color scheme I liked better, \"do better\" is a fun prompt, and now the \"Run all\" button produces this effect: Tags: algorithms , computer-science , javascript , sorting , ai , explorables , generative-ai , llms , claude , vibe-coding",
       "source": "simonwillison.net"
     },
     {
-      "title": "We desperately need a Reality Literacy",
+      "title": "Members Only: We desperately need a Reality Literacy",
       "link": "https://www.joanwestenberg.com/we-desperately-need-a-reality-literacy/",
       "date": "2026-03-11T22:47:17Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "From the DF Archive: ‘And Oranges’",
-      "link": "https://daringfireball.net/2006/06/and_oranges",
-      "date": "2026-03-11T19:26:13Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pluralistic: AI \"journalists\" prove that media bosses don't give a shit (11 Mar 2026)",
@@ -49,13 +56,6 @@
       "date": "2026-03-11T14:47:09Z",
       "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive. — John Carmack , a tweet in June 2021 Tags: john-carmack , software-engineering , yagni",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "★ The MacBook Neo",
-      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
-      "date": "2026-03-11T14:23:55Z",
-      "summary": "May the MacBook Neo live so long that its name becomes inapt.",
-      "source": "daringfireball.net"
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
