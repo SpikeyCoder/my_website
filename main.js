@@ -1,5 +1,26 @@
 document.body.classList.add("js");
 
+// Dynamically inject a script tag and resolve when loaded.
+// Used to defer heavy third-party libraries until they're actually needed.
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    if (document.querySelector(`script[src="${src}"]`)) { resolve(); return; }
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+async function loadBlogDeps() {
+  await Promise.all([
+    loadScript("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"),
+    loadScript("https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"),
+    loadScript("https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"),
+  ]);
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -346,6 +367,9 @@ function setupComposeToolbar(form) {
 }
 
 async function setupBlog() {
+  // Load Supabase, DOMPurify, and Marked on demand — not on initial page load.
+  await loadBlogDeps();
+
   const status = document.getElementById("blog-status");
   const configStatus = document.getElementById("blog-config");
   const list = document.getElementById("blog-list");
@@ -1582,6 +1606,24 @@ async function setupRSS() {
 setupAbout();
 setupTimeline();
 setupPortfolio();
-setupBlog();
-setupBooking();
-setupRSS();
+
+// Lazy-init heavy sections only when they scroll into view.
+// This prevents Supabase/DOMPurify/Marked from blocking the main thread on load.
+function lazySection(sectionId, setupFn) {
+  const el = document.getElementById(sectionId);
+  if (!el) return;
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting) {
+        observer.disconnect();
+        setupFn();
+      }
+    },
+    { rootMargin: "200px" }
+  );
+  observer.observe(el);
+}
+
+lazySection("blog", setupBlog);
+lazySection("booking", setupBooking);
+lazySection("rss", setupRSS);
