@@ -871,11 +871,11 @@ textarea {
 }
 
 .nav-admin {
-  border: 1px solid var(--border);
-  background: var(--panel-2);
+  background: none;
+  border: none;
   color: var(--ink);
-  padding: 6px 12px;
-  border-radius: 8px;
+  font-size: 0.9rem;
+  padding: 0;
   cursor: pointer;
 }
 
