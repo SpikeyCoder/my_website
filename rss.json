@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-12T19:22:52.684661Z",
+  "generated_at": "2026-03-12T20:15:15.047579Z",
   "items": [
+    {
+      "title": "MALUS - Clean Room as a Service",
+      "link": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
+      "date": "2026-03-12T20:08:55Z",
+      "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing ( previously ): Finally, liberation from open source license obligations. Our proprietary AI robots independently recreate any open source project from scratch. The result? Legally distinct code with corporate-friendly licensing. No attribution. No copyleft. No problems.. I admit it took me a moment to confirm that this was a joke. Just too on-the-nose. Via Hacker News Tags: open-source , ai , generative-ai , llms , ai-ethics",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Coding After Coders: The End of Computer Programming as We Know It",
+      "link": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
+      "date": "2026-03-12T19:23:44Z",
+      "summary": "Coding After Coders: The End of Computer Programming as We Know It Epic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software developers from companies like Google, Amazon, Microsoft, Apple, plus other individuals including Anil Dash, Thomas Ptacek, Steve Yegge, and myself. I think the piece accurately and clearly captures what's going on in our industry right now in terms appropriate for a wider audience. I talked to Clive a few weeks ago. Here's the quote from me that made it into the piece. Given A.I.’s penchant to hallucinate, it might seem reckless to let agents push code out into the real world. But software developers point out that coding has a unique quality: They can tether their A.I.s to reality, because they can demand the agents test the code to see if it runs correctly. “I feel like programmers have it easy,” says Simon Willison, a tech entrepreneur and an influential blogger about how to code using A.I. “If you’re a lawyer, you’re screwed, right?” There’s no way to automatically check a legal brief written by A.I. for hallucinations — other than face total humiliation in court. The piece does raise the question of what this means for the future of our chosen line of work, but the general attitude from the developers interviewed was optimistic - there's even a mention of the possibility that the Jevons paradox might increase demand overall. One critical voice came from an Apple engineer: A few programmers did say that they lamented the demise of hand-crafting their work. “I believe that it can be fun and fulfilling and engaging, and having the computer do it for you strips you of that,” one Apple engineer told me. (He asked to remain unnamed so he wouldn’t get in trouble for criticizing Apple’s embrace of A.I.) That request to remain anonymous is a sharp reminder that corporate dynamics may be suppressing an unknown number of voices on this topic. Tags: new-york-times , careers , ai , generative-ai , llms , ai-assisted-programming , press-quotes , deep-blue",
+      "source": "simonwillison.net"
+    },
     {
       "title": "MacBook Neo Teardown",
       "link": "https://www.youtube.com/watch?v=5k7Lv7f-5CQ",
@@ -26,7 +40,7 @@
       "title": "Quoting Les Orchard",
       "link": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
       "date": "2026-03-12T16:28:07Z",
-      "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible. Before AI, both camps were doing the same thing every day. Writing code by hand. Using the same editors, the same languages, the same pull request workflows. The craft-lovers and the make-it-go people sat next to each other, shipped the same products, looked indistinguishable. The motivation behind the work was invisible because the process was identical. Now there's a fork in the road. You can let the machine write the code and focus on directing what gets built, or you can insist on hand-crafting it. And suddenly the reason you got into this in the first place becomes visible, because the two camps are making different choices at that fork. — Les Orchard , Grief and the AI Split Tags: les-orchard , ai-assisted-programming , generative-ai , ai , llms , careers",
+      "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible. Before AI, both camps were doing the same thing every day. Writing code by hand. Using the same editors, the same languages, the same pull request workflows. The craft-lovers and the make-it-go people sat next to each other, shipped the same products, looked indistinguishable. The motivation behind the work was invisible because the process was identical. Now there's a fork in the road. You can let the machine write the code and focus on directing what gets built, or you can insist on hand-crafting it. And suddenly the reason you got into this in the first place becomes visible, because the two camps are making different choices at that fork. — Les Orchard , Grief and the AI Split Tags: les-orchard , ai-assisted-programming , generative-ai , ai , llms , careers , deep-blue",
       "source": "simonwillison.net"
     },
     {
@@ -86,13 +100,6 @@
       "source": "rakhim.exotext.com"
     },
     {
-      "title": "Sorting algorithms",
-      "link": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
-      "date": "2026-03-11T22:58:06Z",
-      "summary": "Sorting algorithms Today in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts : Interactive animated demos of the most common sorting algorithms This gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort. Add timsort, look up details in a clone of python/cpython from GitHub Let's add Python's Timsort ! Regular Claude chat can clone repos from GitHub these days. In the transcript you can see it clone the repo and then consult Objects/listsort.txt and Objects/listobject.c . (I should note that when I asked GPT-5.4 Thinking to review Claude's implementation it picked holes in it and said the code \"is a simplified, Timsort-inspired adaptive mergesort\".) I don't like the dark color scheme on the buttons, do better Also add a \"run all\" button which shows smaller animated charts for every algorithm at once in a grid and runs them all at the same time It came up with a color scheme I liked better, \"do better\" is a fun prompt, and now the \"Run all\" button produces this effect: Tags: algorithms , computer-science , javascript , sorting , ai , explorables , generative-ai , llms , claude , vibe-coding",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Members Only: We desperately need a Reality Literacy",
       "link": "https://www.joanwestenberg.com/we-desperately-need-a-reality-literacy/",
       "date": "2026-03-11T22:47:17Z",
@@ -112,13 +119,6 @@
       "date": "2026-03-11T16:20:13Z",
       "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency.",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Quoting John Carmack",
-      "link": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
-      "date": "2026-03-11T14:47:09Z",
-      "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive. — John Carmack , a tweet in June 2021 Tags: john-carmack , software-engineering , yagni",
-      "source": "simonwillison.net"
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
