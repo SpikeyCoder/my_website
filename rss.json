@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-12T11:17:57.724545Z",
+  "generated_at": "2026-03-12T12:21:54.330524Z",
   "items": [
+    {
+      "title": "The Elusive Cost Savings of the Prefabricated Home",
+      "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
+      "date": "2026-03-12T12:03:45Z",
+      "summary": "It’s long been believed the constantly rising costs of new home construction, and lackluster improvements in construction productivity more generally, are fundamentally a problem of production methods.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "Reviewing ENISA’s Package Manager Advisory",
       "link": "https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html",
@@ -28,6 +35,13 @@
       "date": "2026-03-12T00:15:21Z",
       "summary": "The correct order is Fn, Control, Option, Shift, Command — regardless if you’re using the words or the glyphs.",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "The modern formatting addiction in writing",
+      "link": "https://dynomight.net/formatting/",
+      "date": "2026-03-12T00:00:00Z",
+      "summary": "thinking and bluffing",
+      "source": "dynomight.net"
     },
     {
       "title": "Sorting algorithms",
@@ -266,20 +280,6 @@
       "date": "2026-03-06T13:03:16Z",
       "summary": "Many who look at the high and rising cost of housing see the problem as fundamentally one of production methods; more specifically, that homes could be built more cheaply if they were made using factories and industrialized processes, instead of assembling them on site using manual labor and hand-held tools.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "I don't know if my job will still exist in ten years",
-      "link": "https://seangoedecke.com/will-my-job-still-exist/",
-      "date": "2026-03-06T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "AI And The Ship of Theseus",
-      "link": "https://lucumr.pocoo.org/2026/3/5/theseus/",
-      "date": "2026-03-05T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
