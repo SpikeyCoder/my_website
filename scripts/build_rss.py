@@ -13,6 +13,7 @@ OPML_URL = "https://gist.githubusercontent.com/emschwartz/e6d2bf860ccc367fe37ff9
 MAX_FEEDS = 36
 MAX_ITEMS = 40
 ITEMS_PER_FEED = 3
+MAX_SUMMARY_CHARS = 200  # Truncate summaries to keep rss.json and HTML seed small
 
 
 def fetch_text(url: str) -> str:
@@ -36,6 +37,8 @@ def strip_html(value: str) -> str:
     clean = re.sub(r"<[^>]+>", " ", value or "")
     clean = html.unescape(clean)
     clean = re.sub(r"\s+", " ", clean).strip()
+    if len(clean) > MAX_SUMMARY_CHARS:
+        clean = clean[:MAX_SUMMARY_CHARS].rsplit(" ", 1)[0] + "…"
     return clean
 
 
