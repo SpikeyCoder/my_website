@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-13T03:06:40.251911Z",
+  "generated_at": "2026-03-13T04:40:01.501997Z",
   "items": [
+    {
+      "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+      "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+      "date": "2026-03-13T03:44:34Z",
+      "summary": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations PR from Shopify CEO Tobias Lütke against Liquid, Shopify's open source Ruby template engine that was somewhat inspired by…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Everything's Casino",
       "link": "https://www.joanwestenberg.com/everythings-casino/",
@@ -63,13 +70,6 @@
       "date": "2026-03-12T16:37:46Z",
       "summary": "In the previous two posts, we looked at why Mathematica and SymPy did not simplify sinh(arccosh(x)) to √(x² − 1) as one might expect. After understanding why sinh(arccosh(x)) doesn’t simplify nicely,…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quoting Les Orchard",
-      "link": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
-      "date": "2026-03-12T16:28:07Z",
-      "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible. Before AI, both camps were doing the same thing every day.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
