@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-13T01:40:30.663638Z",
+  "generated_at": "2026-03-13T03:06:40.251911Z",
   "items": [
+    {
+      "title": "Everything's Casino",
+      "link": "https://www.joanwestenberg.com/everythings-casino/",
+      "date": "2026-03-13T02:38:03Z",
+      "summary": "On the evening of February 28, 2026, American B-2 bombers lifted off from Whiteman Air Force Base in Missouri. By the time they reached Iranian airspace, Tomahawk missiles were already in flight from…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Pluralistic: Three more AI psychoses (12 Mar 2026)",
+      "link": "https://pluralistic.net/2026/03/12/normal-technology/",
+      "date": "2026-03-13T02:17:20Z",
+      "summary": "Today's links Three more AI psychoses: Everybody calm down. Hey look at this: Delights to delectate. Object permanence: \"Jules, Penny and the Rooster\"; Superinjunction; Harper Lee's kids v cheap…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "Accents",
       "link": "https://mahdi.jp/apps/accents",
@@ -84,6 +98,13 @@
       "date": "2026-03-12T10:00:00Z",
       "summary": "Notes on ENISA's Technical Advisory for Secure Use of Package Managers.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "The web in 1000 lines of C",
+      "link": "https://maurycyz.com/projects/tinyweb/",
+      "date": "2026-03-12T00:00:00Z",
+      "summary": "Modern browsers are hugely complex: Chromium (the open source portion of google chrome) currently has 49 millions lines of code, making it bigger then any other program on my machine. ... but how…",
+      "source": "maurycyz.com"
     },
     {
       "title": "The modern formatting addiction in writing",
@@ -226,13 +247,6 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "Pluralistic: Billionaires are a danger to themselves and (especially) us (09 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/09/autocrats-of-trade-2/",
-      "date": "2026-03-09T16:46:33Z",
-      "summary": "Today's links Billionaires are a danger to themselves and (especially) us: A billionaire is a machine for producing policy failures at scale. Hey look at this: Delights to delectate. Object…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
       "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
       "date": "2026-03-09T00:00:00Z",
@@ -266,20 +280,6 @@
       "date": "2026-03-08T00:00:00Z",
       "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Introducing llm-eliza",
-      "link": "https://evanhahn.com/llm-eliza/",
-      "date": "2026-03-08T00:00:00Z",
-      "summary": "LLM is a popular CLI tool for talking with language models. I built llm-eliza , a plugin to chat with the ELIZA language model. Usage: llm install llm-eliza llm -m eliza \"I'm worried about…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 03/07/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-03072026",
-      "date": "2026-03-07T13:03:12Z",
-      "summary": "Data centers disconnecting from the grid, solar PV efficiency records, repairs for the Strategic Petroleum Reserve, Ford’s EV missteps, former OpenAI CTO’s new startup.",
-      "source": "construction-physics.com"
     }
   ]
 }
