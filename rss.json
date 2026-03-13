@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-13T12:21:36.684157Z",
+  "generated_at": "2026-03-13T13:32:28.516075Z",
   "items": [
+    {
+      "title": "An odd font rendering bug in Firefox and Safari",
+      "link": "https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/",
+      "date": "2026-03-13T12:34:09Z",
+      "summary": "First up, you should go and watch The Importance of Being Earnest with Ncuti Gatwa. It is a brilliant set of performances and a joy to see. While perusing the programme on the National Theatre…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "It's Work that taught me how to think",
       "link": "https://idiallo.com/blog/work-taught-me-how-to-think?src=feed",
@@ -238,13 +245,6 @@
       "date": "2026-03-10T14:00:00Z",
       "summary": "Oh, this old thing? The post A snappy answer when asked about dressing casually at IBM appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Unstructured Data and the Joy of having Something Else think for you",
-      "link": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
-      "date": "2026-03-10T12:34:59Z",
-      "summary": "I'm sure we have all met a person like this: People who have an AI habit use it by default. I have watched someone ask ChatGPT the weather for tomorrow rather than simply open the weather app.…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
