@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-13T13:32:28.516075Z",
+  "generated_at": "2026-03-13T14:23:33.251131Z",
   "items": [
+    {
+      "title": "‘Grief and the AI Split’",
+      "link": "https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/",
+      "date": "2026-03-13T14:21:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Restoring an Xserve G5: When Apple built real servers",
+      "link": "https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/",
+      "date": "2026-03-13T14:00:00Z",
+      "summary": "Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—and bottom—of it's PowerPC era. This isn't the…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Windows stack limit checking retrospective: MIPS",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138",
+      "date": "2026-03-13T14:00:00Z",
+      "summary": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "An odd font rendering bug in Firefox and Safari",
       "link": "https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/",
@@ -54,13 +75,6 @@
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
       "link": "https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1",
       "date": "2026-03-13T00:00:48Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
-      "link": "https://www.hollywoodreporter.com/tv/tv-news/apple-tv-formula-1-ratings-eddy-cue-strong-start-1236529359/",
-      "date": "2026-03-12T23:41:08Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -240,13 +254,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "A snappy answer when asked about dressing casually at IBM",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131",
-      "date": "2026-03-10T14:00:00Z",
-      "summary": "Oh, this old thing? The post A snappy answer when asked about dressing casually at IBM appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
       "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
       "date": "2026-03-09T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-08T16:08:41Z",
       "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Some Thorns Have Roses",
-      "link": "https://xeiaso.net/blog/2026/some-thorns-have-roses/",
-      "date": "2026-03-08T00:00:00Z",
-      "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
-      "source": "xeiaso.net"
     }
   ]
 }
