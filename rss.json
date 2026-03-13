@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-13T10:17:29.239869Z",
+  "generated_at": "2026-03-13T11:16:42.006783Z",
   "items": [
+    {
+      "title": "Forge",
+      "link": "https://nesbitt.io/2026/03/13/forge.html",
+      "date": "2026-03-13T10:00:00Z",
+      "summary": "A unified CLI for GitHub, GitLab, Gitea, Forgejo, and Bitbucket.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
       "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
@@ -79,13 +86,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Historic Energy Price Cap Data (FOI success!)",
-      "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
-      "date": "2026-03-12T12:34:01Z",
-      "summary": "Ofgem, the UK's energy regulator, publishes the current energy price cap per region. Note that it is only the current price cap. I couldn't find the complete historic data on their site. So I sent a…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Elusive Cost Savings of the Prefabricated Home",
       "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
       "date": "2026-03-12T12:03:45Z",
@@ -154,13 +154,6 @@
       "date": "2026-03-11T14:00:00Z",
       "summary": "Don't take steps that are too large. The post How do compilers ensure that large stack allocations do not skip over the guard page? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Game Review: It Takes Two ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/game-review-it-takes-two/",
-      "date": "2026-03-11T12:34:02Z",
-      "summary": "A couple is facing the devastating prospect of divorce. Their young daughter is understandably distraught. In her fear, she doses both parents with a powerful hallucinogenic drug in the hope that…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Where did you think the training data was coming from?",
@@ -233,20 +226,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Unstructured Data and the Joy of having Something Else think for you",
-      "link": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
-      "date": "2026-03-10T12:34:59Z",
-      "summary": "I'm sure we have all met a person like this: People who have an AI habit use it by default. I have watched someone ask ChatGPT the weather for tomorrow rather than simply open the weather app.…",
-      "source": "shkspr.mobi"
-    },
-    {
-      "title": "Just Use Postgres",
-      "link": "https://nesbitt.io/2026/03/10/just-use-postgres.html",
-      "date": "2026-03-10T10:00:00Z",
-      "summary": "Taking 'just use Postgres' to its logical endpoint: git push to deploy into a single Postgres process.",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
       "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
       "date": "2026-03-09T00:00:00Z",
@@ -280,6 +259,27 @@
       "date": "2026-03-08T00:00:00Z",
       "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "Introducing llm-eliza",
+      "link": "https://evanhahn.com/llm-eliza/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "LLM is a popular CLI tool for talking with language models. I built llm-eliza , a plugin to chat with the ELIZA language model. Usage: llm install llm-eliza llm -m eliza \"I'm worried about…",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Reading List 03/07/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-03072026",
+      "date": "2026-03-07T13:03:12Z",
+      "summary": "Data centers disconnecting from the grid, solar PV efficiency records, repairs for the Strategic Petroleum Reserve, Ford’s EV missteps, former OpenAI CTO’s new startup.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Remove annoying banners",
+      "link": "https://maurycyz.com/projects/fixsite/",
+      "date": "2026-03-07T00:00:00Z",
+      "summary": "This is a small javascript snippet that removes most annoying website elements: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-v {color: #B8F;} /* CSS selectors,…",
+      "source": "maurycyz.com"
     }
   ]
 }
