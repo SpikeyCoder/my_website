@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-13T17:18:28.917185Z",
+  "generated_at": "2026-03-13T18:19:07.334684Z",
   "items": [
+    {
+      "title": "Quoting Craig Mod",
+      "link": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
+      "date": "2026-03-13T17:14:29Z",
+      "summary": "Simply put: It’s a big mess, and no off-the-shelf accounting software does what I need. So after years of pain, I finally sat down last week and started to build my own. It took me about five days. I…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "NYT: ‘Meta Delays Rollout of New AI Model After Performance Concerns’",
       "link": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html?unlocked_article_code=1.S1A.vI_6.4j717gwtFem0",
@@ -90,13 +97,6 @@
       "link": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
       "date": "2026-03-12T20:08:55Z",
       "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing ( previously ): Finally, liberation from open source license obligations. Our proprietary AI robots…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Coding After Coders: The End of Computer Programming as We Know It",
-      "link": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
-      "date": "2026-03-12T19:23:44Z",
-      "summary": "Coding After Coders: The End of Computer Programming as We Know It Epic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software…",
       "source": "simonwillison.net"
     },
     {
