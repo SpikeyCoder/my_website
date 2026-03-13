@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T21:15:27.000746Z",
+  "generated_at": "2026-03-13T22:13:23.562615Z",
   "items": [
     {
       "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
@@ -58,13 +58,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "An odd font rendering bug in Firefox and Safari",
-      "link": "https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/",
-      "date": "2026-03-13T12:34:09Z",
-      "summary": "First up, you should go and watch The Importance of Being Earnest with Ncuti Gatwa. It is a brilliant set of performances and a joy to see. While perusing the programme on the National Theatre…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "It's Work that taught me how to think",
       "link": "https://idiallo.com/blog/work-taught-me-how-to-think?src=feed",
       "date": "2026-03-13T12:00:00Z",
@@ -119,13 +112,6 @@
       "date": "2026-03-12T14:00:00Z",
       "summary": "One of the weirdest calling conventions you'll see. The post Windows stack limit checking retrospective: x86-32, also known as i386 appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Historic Energy Price Cap Data (FOI success!)",
-      "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
-      "date": "2026-03-12T12:34:01Z",
-      "summary": "Ofgem, the UK's energy regulator, publishes the current energy price cap per region. Note that it is only the current price cap. I couldn't find the complete historic data on their site. So I sent a…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Elusive Cost Savings of the Prefabricated Home",
@@ -196,13 +182,6 @@
       "date": "2026-03-11T14:00:00Z",
       "summary": "Don't take steps that are too large. The post How do compilers ensure that large stack allocations do not skip over the guard page? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Game Review: It Takes Two ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/game-review-it-takes-two/",
-      "date": "2026-03-11T12:34:02Z",
-      "summary": "A couple is facing the devastating prospect of divorce. Their young daughter is understandably distraught. In her fear, she doses both parents with a powerful hallucinogenic drug in the hope that…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Where did you think the training data was coming from?",
@@ -280,6 +259,27 @@
       "date": "2026-03-08T16:08:41Z",
       "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of…",
       "source": "antirez.com"
+    },
+    {
+      "title": "Some Thorns Have Roses",
+      "link": "https://xeiaso.net/blog/2026/some-thorns-have-roses/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "Introducing llm-eliza",
+      "link": "https://evanhahn.com/llm-eliza/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "LLM is a popular CLI tool for talking with language models. I built llm-eliza , a plugin to chat with the ELIZA language model. Usage: llm install llm-eliza llm -m eliza \"I'm worried about…",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Reading List 03/07/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-03072026",
+      "date": "2026-03-07T13:03:12Z",
+      "summary": "Data centers disconnecting from the grid, solar PV efficiency records, repairs for the Strategic Petroleum Reserve, Ford’s EV missteps, former OpenAI CTO’s new startup.",
+      "source": "construction-physics.com"
     }
   ]
 }
