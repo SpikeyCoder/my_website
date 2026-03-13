@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-12T23:12:23.202035Z",
+  "generated_at": "2026-03-13T00:45:13.705531Z",
   "items": [
+    {
+      "title": "Accents",
+      "link": "https://mahdi.jp/apps/accents",
+      "date": "2026-03-13T00:23:16Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
+      "link": "https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1",
+      "date": "2026-03-13T00:00:48Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/apple-tv-formula-1-ratings-eddy-cue-strong-start-1236529359/",
+      "date": "2026-03-12T23:41:08Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "MALUS - Clean Room as a Service",
       "link": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
@@ -14,13 +35,6 @@
       "date": "2026-03-12T19:23:44Z",
       "summary": "Coding After Coders: The End of Computer Programming as We Know It Epic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "MacBook Neo Teardown",
-      "link": "https://www.youtube.com/watch?v=5k7Lv7f-5CQ",
-      "date": "2026-03-12T18:51:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -42,13 +56,6 @@
       "date": "2026-03-12T16:28:07Z",
       "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible. Before AI, both camps were doing the same thing every day.…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Software Proprioception",
-      "link": "https://unsung.aresluna.org/software-proprioception/",
-      "date": "2026-03-12T16:10:51Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -77,13 +84,6 @@
       "date": "2026-03-12T10:00:00Z",
       "summary": "Notes on ENISA's Technical Advisory for Secure Use of Package Managers.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Jason Snell Is on Jeopardy Next Week",
-      "link": "https://sixcolors.com/post/2026/03/ill-take-beach-reading-for-1000-ken/",
-      "date": "2026-03-12T00:46:59Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The modern formatting addiction in writing",
