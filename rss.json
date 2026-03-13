@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-13T18:19:07.334684Z",
+  "generated_at": "2026-03-13T19:18:33.915340Z",
   "items": [
+    {
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "link": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+      "date": "2026-03-13T18:29:13Z",
+      "summary": "1M context is now generally available for Opus 4.6 and Sonnet 4.6 Here's what surprised me: Standard pricing now applies across the full 1M window for both models, with no long-context premium.…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Craig Mod",
       "link": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
@@ -91,13 +98,6 @@
       "date": "2026-03-13T02:17:20Z",
       "summary": "Today's links Three more AI psychoses: Everybody calm down. Hey look at this: Delights to delectate. Object permanence: \"Jules, Penny and the Rooster\"; Superinjunction; Harper Lee's kids v cheap…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "MALUS - Clean Room as a Service",
-      "link": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
-      "date": "2026-03-12T20:08:55Z",
-      "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing ( previously ): Finally, liberation from open source license obligations. Our proprietary AI robots…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
