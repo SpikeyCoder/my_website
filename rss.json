@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-03-13T14:23:33.251131Z",
+  "generated_at": "2026-03-13T15:22:30.566119Z",
   "items": [
+    {
+      "title": "‘Software Bonkers’",
+      "link": "https://craigmod.com/essays/software_bonkers/",
+      "date": "2026-03-13T15:09:51Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "‘Grief and the AI Split’",
       "link": "https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/",
-      "date": "2026-03-13T14:21:54Z",
+      "date": "2026-03-13T14:41:29Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -68,13 +75,6 @@
       "title": "Accents",
       "link": "https://mahdi.jp/apps/accents",
       "date": "2026-03-13T00:23:16Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
-      "link": "https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1",
-      "date": "2026-03-13T00:00:48Z",
       "summary": "",
       "source": "daringfireball.net"
     },
