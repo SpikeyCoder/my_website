@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-14T18:16:14.229322Z",
+  "generated_at": "2026-03-14T19:14:04.211966Z",
   "items": [
+    {
+      "title": "Quoting Jannis Leidel",
+      "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "date": "2026-03-14T18:41:25Z",
+      "summary": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "link": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "date": "2026-03-14T18:19:38Z",
+      "summary": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about agentic engineering hosted by Eric Lui from Statsig. The video is available…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Tim Cook: ‘50 Years of Thinking Different’",
       "link": "https://www.apple.com/50-years-of-thinking-different/",
@@ -65,17 +79,17 @@
       "source": "seangoedecke.com"
     },
     {
+      "title": "human.json",
+      "link": "https://evanhahn.com/human-dot-json/",
+      "date": "2026-03-14T00:00:00Z",
+      "summary": "To quote the human.json Protocol : human.json is a protocol for humans to assert authorship of their site content and vouch for the humanity of others. It uses URL ownership as identity, and trust…",
+      "source": "evanhahn.com"
+    },
+    {
       "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
       "link": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
       "date": "2026-03-13T18:29:13Z",
       "summary": "1M context is now generally available for Opus 4.6 and Sonnet 4.6 Here's what surprised me: Standard pricing now applies across the full 1M window for both models, with no long-context premium.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Craig Mod",
-      "link": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
-      "date": "2026-03-13T17:14:29Z",
-      "summary": "Simply put: It’s a big mess, and no off-the-shelf accounting software does what I need. So after years of pain, I finally sat down last week and started to build my own. It took me about five days. I…",
       "source": "simonwillison.net"
     },
     {
@@ -119,13 +133,6 @@
       "date": "2026-03-13T10:00:00Z",
       "summary": "A unified CLI for GitHub, GitLab, Gitea, Forgejo, and Bitbucket.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
-      "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
-      "date": "2026-03-13T03:44:34Z",
-      "summary": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations PR from Shopify CEO Tobias Lütke against Liquid, Shopify's open source Ruby template engine that was somewhat inspired by…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Everything's Casino",
@@ -273,13 +280,6 @@
       "date": "2026-03-09T00:00:00Z",
       "summary": "I needed to ship this before my surgery, so I vibe coded it. It turned out well enough.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "The Noble Path",
-      "link": "https://www.joanwestenberg.com/the-noble-path/",
-      "date": "2026-03-08T23:56:18Z",
-      "summary": "It is a truth universally acknowledged that an indie hacker in possession of a widget must be in want of a business model... Every tool is a startup now. Every script is a SaaS product. Every neat…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
