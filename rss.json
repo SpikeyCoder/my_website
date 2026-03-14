@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-14T17:12:28.805492Z",
+  "generated_at": "2026-03-14T18:16:14.229322Z",
   "items": [
+    {
+      "title": "Tim Cook: ‘50 Years of Thinking Different’",
+      "link": "https://www.apple.com/50-years-of-thinking-different/",
+      "date": "2026-03-14T17:22:48Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
+      "link": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
+      "date": "2026-03-14T17:22:05Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Lil Finder Guy",
       "link": "https://basicappleguy.com/basicappleblog/lil-finder-guy",
@@ -44,13 +58,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Tim Cook: ‘50 Years of Thinking Different’",
-      "link": "https://www.apple.com/50-years-of-thinking-different/",
-      "date": "2026-03-14T02:27:22Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Big tech engineers need big egos",
       "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
       "date": "2026-03-14T00:00:00Z",
@@ -70,13 +77,6 @@
       "date": "2026-03-13T17:14:29Z",
       "summary": "Simply put: It’s a big mess, and no off-the-shelf accounting software does what I need. So after years of pain, I finally sat down last week and started to build my own. It took me about five days. I…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "NYT: ‘Meta Delays Rollout of New AI Model After Performance Concerns’",
-      "link": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html?unlocked_article_code=1.S1A.vI_6.4j717gwtFem0",
-      "date": "2026-03-13T17:05:23Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Typesetting sheet music with AI",
