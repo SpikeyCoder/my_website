@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-14T10:12:27.495013Z",
+  "generated_at": "2026-03-14T11:11:02.299032Z",
   "items": [
+    {
+      "title": "What’s Going On with FAIR Package Manager",
+      "link": "https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html",
+      "date": "2026-03-14T10:00:00Z",
+      "summary": "Federated FAIR pivots from WordPress to TYPO3",
+      "source": "nesbitt.io"
+    },
     {
       "title": "You Digg?",
       "link": "https://idiallo.com/byte-size/digg-is-gone-again?src=feed",
@@ -224,13 +231,6 @@
       "date": "2026-03-11T12:00:00Z",
       "summary": "When the news broke that Meta's smart glasses were feeding data directly into their Facebook servers , I wondered what all the fuss was about. Who thought AI glasses used to secretly record people…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "git-pkgs/actions",
-      "link": "https://nesbitt.io/2026/03/11/git-pkgs-actions.html",
-      "date": "2026-03-11T10:00:00Z",
-      "summary": "How to add git-pkgs to your GitHub Actions workflows.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Microsoft Patch Tuesday, March 2026 Edition",
