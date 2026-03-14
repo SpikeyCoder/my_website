@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-14T11:11:02.299032Z",
+  "generated_at": "2026-03-14T12:18:09.017431Z",
   "items": [
+    {
+      "title": "Reading List 03/14/26",
+      "link": "https://www.construction-physics.com/p/reading-list-031426",
+      "date": "2026-03-14T12:02:30Z",
+      "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "What’s Going On with FAIR Package Manager",
       "link": "https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html",
@@ -273,13 +280,6 @@
       "date": "2026-03-08T23:56:18Z",
       "summary": "It is a truth universally acknowledged that an indie hacker in possession of a widget must be in want of a business model... Every tool is a startup now. Every script is a SaaS product. Every neat…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "date": "2026-03-08T23:35:42Z",
-      "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
