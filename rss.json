@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-14T12:18:09.017431Z",
+  "generated_at": "2026-03-14T13:24:04.776419Z",
   "items": [
+    {
+      "title": "How Can Governments Pay Open Source Maintainers?",
+      "link": "https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/",
+      "date": "2026-03-14T12:34:42Z",
+      "summary": "When I worked for the UK Government I was once asked if we could find a way to pay for all the Open Source Software we were using. It is a surprisingly hard problem and I want to talk about some of…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Reading List 03/14/26",
       "link": "https://www.construction-physics.com/p/reading-list-031426",
@@ -212,13 +219,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
-      "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-      "date": "2026-03-11T16:20:13Z",
-      "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports…",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260311-00/?p=112134",
       "date": "2026-03-11T14:00:00Z",
@@ -226,25 +226,11 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Game Review: It Takes Two ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/game-review-it-takes-two/",
-      "date": "2026-03-11T12:34:02Z",
-      "summary": "A couple is facing the devastating prospect of divorce. Their young daughter is understandably distraught. In her fear, she doses both parents with a powerful hallucinogenic drug in the hope that…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Where did you think the training data was coming from?",
       "link": "https://idiallo.com/blog/where-did-the-training-data-come-from-meta-ai-rayban-glasses?src=feed",
       "date": "2026-03-11T12:00:00Z",
       "summary": "When the news broke that Meta's smart glasses were feeding data directly into their Facebook servers , I wondered what all the fuss was about. Who thought AI glasses used to secretly record people…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Microsoft Patch Tuesday, March 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
-      "date": "2026-03-11T00:32:51Z",
-      "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to…",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "I don't know if I like working at higher levels of abstraction",
@@ -280,6 +266,20 @@
       "date": "2026-03-08T23:56:18Z",
       "summary": "It is a truth universally acknowledged that an indie hacker in possession of a widget must be in want of a business model... Every tool is a startup now. Every script is a SaaS product. Every neat…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "GNU and the AI reimplementations",
+      "link": "http://antirez.com/news/162",
+      "date": "2026-03-08T16:08:41Z",
+      "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of…",
+      "source": "antirez.com"
+    },
+    {
+      "title": "Some Thorns Have Roses",
+      "link": "https://xeiaso.net/blog/2026/some-thorns-have-roses/",
+      "date": "2026-03-08T00:00:00Z",
+      "summary": "Recovery gave me things I didn't ask for and I'm not ready to give them back.",
+      "source": "xeiaso.net"
     }
   ]
 }
