@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-14T15:11:58.950902Z",
+  "generated_at": "2026-03-14T16:12:57.516738Z",
   "items": [
+    {
+      "title": "Pluralistic: Corrupt anticorruption (14 Mar 2026)",
+      "link": "https://pluralistic.net/2026/03/14/ill-have-what-xis-having/",
+      "date": "2026-03-14T15:15:42Z",
+      "summary": "Today's links Corrupt anticorruption: Notes from a target-rich environment. Hey look at this: Delights to delectate. Object permanence: Tentacle sphere; EU Venn; Obama v cryptography; Trump v…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "How Can Governments Pay Open Source Maintainers?",
       "link": "https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/",
@@ -259,13 +266,6 @@
       "date": "2026-03-10T16:08:15Z",
       "summary": "The previous post looked at why Mathematica does not simplify the expression Sinh[ArcCosh[x]] the way you might think it should. This post will be a sort of Python analog of the previous post. SymPy…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/10/ice-tech/",
-      "date": "2026-03-10T15:23:43Z",
-      "summary": "Today's links Ad-tech is fascist tech: Surveillance advertising is just surveillance. Hey look at this: Delights to delectate. Object permanence: Washpo v Bernie; Activists v Saif Gadaffi's London…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
