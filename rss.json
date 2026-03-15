@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-14T23:12:23.115902Z",
+  "generated_at": "2026-03-15T00:52:39.496737Z",
   "items": [
+    {
+      "title": "Matt Mullenweg Documents a Dastardly Clever Apple Account Phishing Scam",
+      "link": "https://ma.tt/2026/03/gone-almost-phishin/",
+      "date": "2026-03-15T00:41:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "iFixit’s MacBook Neo Teardown",
       "link": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
@@ -28,13 +35,6 @@
       "date": "2026-03-14T18:19:38Z",
       "summary": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about Agentic Engineering hosted by Eric Lui from Statsig. The video is available…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
-      "link": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
-      "date": "2026-03-14T17:22:05Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pluralistic: Corrupt anticorruption (14 Mar 2026)",
