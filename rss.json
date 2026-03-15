@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-15T19:15:02.270479Z",
+  "generated_at": "2026-03-15T20:12:21.266365Z",
   "items": [
+    {
+      "title": "Langford series",
+      "link": "https://www.johndcook.com/blog/2026/03/15/langford-series/",
+      "date": "2026-03-15T19:49:13Z",
+      "summary": "Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear twice. Between the two 1s there is one number.…",
+      "source": "johndcook.com"
+    },
     {
       "title": "‘This Is Not the Computer for You’",
       "link": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
@@ -266,13 +273,6 @@
       "date": "2026-03-11T00:00:00Z",
       "summary": "AI tools push us to higher abstraction. I'm not sure I like what that costs us.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Simplifying expressions in SymPy",
-      "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
-      "date": "2026-03-10T16:08:15Z",
-      "summary": "The previous post looked at why Mathematica does not simplify the expression Sinh[ArcCosh[x]] the way you might think it should. This post will be a sort of Python analog of the previous post. SymPy…",
-      "source": "johndcook.com"
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
