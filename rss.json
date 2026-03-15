@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-15T10:13:07.976090Z",
+  "generated_at": "2026-03-15T11:12:07.631425Z",
   "items": [
+    {
+      "title": "Guided Meditation for Developers",
+      "link": "https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html",
+      "date": "2026-03-15T10:00:00Z",
+      "summary": "A practice for finding peace in your dependency tree.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Matt Mullenweg Documents a Dastardly Clever Apple Account Phishing Scam",
       "link": "https://ma.tt/2026/03/gone-almost-phishin/",
@@ -182,13 +189,6 @@
       "date": "2026-03-12T12:03:45Z",
       "summary": "It’s long been believed the constantly rising costs of new home construction, and lackluster improvements in construction productivity more generally, are fundamentally a problem of production…",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Reviewing ENISA’s Package Manager Advisory",
-      "link": "https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html",
-      "date": "2026-03-12T10:00:00Z",
-      "summary": "Notes on ENISA's Technical Advisory for Secure Use of Package Managers.",
-      "source": "nesbitt.io"
     },
     {
       "title": "The web in 1000 lines of C",
