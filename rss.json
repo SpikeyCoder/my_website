@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-15T12:19:46.156491Z",
+  "generated_at": "2026-03-15T13:25:31.182252Z",
   "items": [
+    {
+      "title": "Book Review: Robots in Space - The Secret Lives of Our Planetary Explorers by Dr Ezzy Pearson ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson/",
+      "date": "2026-03-15T12:34:48Z",
+      "summary": "Mars is the only planet entirely populated by robots. This book is a catalogue of the history of robotic explorers. Nary a human-crewed mission is mentioned, except in passing. Instead, we get to…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Guided Meditation for Developers",
       "link": "https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html",
@@ -175,13 +182,6 @@
       "date": "2026-03-12T14:00:00Z",
       "summary": "One of the weirdest calling conventions you'll see. The post Windows stack limit checking retrospective: x86-32, also known as i386 appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Historic Energy Price Cap Data (FOI success!)",
-      "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
-      "date": "2026-03-12T12:34:01Z",
-      "summary": "Ofgem, the UK's energy regulator, publishes the current energy price cap per region. Note that it is only the current price cap. I couldn't find the complete historic data on their site. So I sent a…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Elusive Cost Savings of the Prefabricated Home",
