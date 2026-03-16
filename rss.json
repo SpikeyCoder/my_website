@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-03-16T19:28:55.827843Z",
+  "generated_at": "2026-03-16T20:18:27.243752Z",
   "items": [
     {
-      "title": "‘The Last Quiet Thing’",
-      "link": "https://www.terrygodier.com/the-last-quiet-thing",
-      "date": "2026-03-16T17:58:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "Coding agents for data analysis",
+      "link": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
+      "date": "2026-03-16T20:12:32Z",
+      "summary": "Coding agents for data analysis Here's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aimed at data journalists demonstrating ways that…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Apple Introduces AirPods Max 2",
       "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
-      "date": "2026-03-16T17:57:39Z",
+      "date": "2026-03-16T19:52:35Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "‘The Last Quiet Thing’",
+      "link": "https://www.terrygodier.com/the-last-quiet-thing",
+      "date": "2026-03-16T17:58:08Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -49,6 +56,13 @@
       "date": "2026-03-16T12:34:57Z",
       "summary": "I couple of years ago, I developed ActivityBot - the simplest way to build Mastodon Bots. It is a single PHP file which can run an entire ActivityPub server and it is less than 80KB. It works! You…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "The Loyalty Oath Crusade",
+      "link": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
+      "date": "2026-03-16T12:00:00Z",
+      "summary": "In chapter 11 of Catch-22 , two captains create a complex set of rules to ensure security in the military. Among them are some absurd requirements just to get food in the mess hall. Everyone knows…",
+      "source": "idiallo.com"
     },
     {
       "title": "Shower Thought: Git Teleportation",
@@ -105,13 +119,6 @@
       "date": "2026-03-15T03:54:10Z",
       "summary": "",
       "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Quoting Jannis Leidel",
-      "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
-      "date": "2026-03-14T18:41:25Z",
-      "summary": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Corrupt anticorruption (14 Mar 2026)",
@@ -182,13 +189,6 @@
       "date": "2026-03-13T14:00:00Z",
       "summary": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "It's Work that taught me how to think",
-      "link": "https://idiallo.com/blog/work-taught-me-how-to-think?src=feed",
-      "date": "2026-03-13T12:00:00Z",
-      "summary": "On the first day of my college CS class, the professor walked in holding a Texas Instruments calculator above his head like Steve Jobs unveiling the first iPhone. The students sighed. They had…",
-      "source": "idiallo.com"
     },
     {
       "title": "Forge",
