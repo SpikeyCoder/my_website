@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-16T22:16:41.810522Z",
+  "generated_at": "2026-03-16T23:14:18.989691Z",
   "items": [
+    {
+      "title": "Use subagents and custom agents in Codex",
+      "link": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+      "date": "2026-03-16T23:03:56Z",
+      "summary": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag. They're very similar to the…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator",
+      "link": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
+      "date": "2026-03-16T22:58:31Z",
+      "summary": "“What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen.”",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Quoting A member of Anthropic’s alignment-science team",
       "link": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
@@ -16,13 +30,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Coding agents for data analysis",
-      "link": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
-      "date": "2026-03-16T20:12:32Z",
-      "summary": "Coding agents for data analysis Here's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aimed at data journalists demonstrating ways that…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Apple Introduces AirPods Max 2",
       "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
       "date": "2026-03-16T19:52:35Z",
@@ -34,13 +41,6 @@
       "link": "https://www.terrygodier.com/the-last-quiet-thing",
       "date": "2026-03-16T17:58:08Z",
       "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator",
-      "link": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
-      "date": "2026-03-16T17:27:59Z",
-      "summary": "“What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen.”",
       "source": "daringfireball.net"
     },
     {
