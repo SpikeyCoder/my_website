@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-16T21:19:46.558793Z",
+  "generated_at": "2026-03-16T22:16:41.810522Z",
   "items": [
+    {
+      "title": "Quoting A member of Anthropic’s alignment-science team",
+      "link": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
+      "date": "2026-03-16T21:38:55Z",
+      "summary": "The point of the blackmail exercise was to have something to describe to policymakers—results that are visceral enough to land with people, and make misalignment risk actually salient in practice for…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Guilherme Rambo",
       "link": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
@@ -35,13 +42,6 @@
       "date": "2026-03-16T17:27:59Z",
       "summary": "“What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen.”",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "How coding agents work",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
-      "date": "2026-03-16T14:01:41Z",
-      "summary": "Agentic Engineering Patterns > As with any tool, understanding how coding agents work under the hood can help you make better decisions about how to apply them. A coding agent is a piece of software…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Windows stack limit checking retrospective: PowerPC",
