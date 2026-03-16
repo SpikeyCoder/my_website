@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-16T20:18:27.243752Z",
+  "generated_at": "2026-03-16T21:19:46.558793Z",
   "items": [
+    {
+      "title": "Quoting Guilherme Rambo",
+      "link": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
+      "date": "2026-03-16T20:34:13Z",
+      "summary": "Tidbit: the software-based camera indicator light in the MacBook Neo runs in the secure exclave¹ part of the chip, so it is almost as secure as the hardware indicator light. What that means in…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Coding agents for data analysis",
       "link": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
@@ -77,13 +84,6 @@
       "date": "2026-03-15T23:39:20Z",
       "summary": "Atonal music is difficult to compose because it defies human instincts. It takes discipline to write something so unpleasant to listen to. One technique that composers use to keep their music from…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "What is agentic engineering?",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
-      "date": "2026-03-15T22:41:57Z",
-      "summary": "Agentic Engineering Patterns > I use the term agentic engineering to describe the practice of developing software with the assistance of coding agents. What are coding agents ? They're agents that…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The optimized self and the life that got away",
