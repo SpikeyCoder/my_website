@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-16T17:29:33.143273Z",
+  "generated_at": "2026-03-16T18:29:41.497860Z",
   "items": [
+    {
+      "title": "‘The Last Quiet Thing’",
+      "link": "https://www.terrygodier.com/the-last-quiet-thing",
+      "date": "2026-03-16T17:58:08Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple Introduces AirPods Max 2",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+      "date": "2026-03-16T17:57:39Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator",
+      "link": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
+      "date": "2026-03-16T17:27:59Z",
+      "summary": "“What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen.”",
+      "source": "daringfireball.net"
+    },
     {
       "title": "How coding agents work",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
@@ -258,27 +279,6 @@
       "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
       "date": "2026-03-11T00:32:51Z",
       "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "I don't know if I like working at higher levels of abstraction",
-      "link": "https://xeiaso.net/blog/2026/ai-abstraction/",
-      "date": "2026-03-11T00:00:00Z",
-      "summary": "AI tools push us to higher abstraction. I'm not sure I like what that costs us.",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "Vibe Coding Trip Report: Making a sponsor panel",
-      "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
-      "date": "2026-03-09T00:00:00Z",
-      "summary": "I needed to ship this before my surgery, so I vibe coded it. It turned out well enough.",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "date": "2026-03-08T23:35:42Z",
-      "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers…",
       "source": "krebsonsecurity.com"
     }
   ]
