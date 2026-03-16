@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T05:00:48.395515Z",
+  "generated_at": "2026-03-16T06:43:28.974863Z",
   "items": [
     {
       "title": "Shower Thought: Git Teleportation",
@@ -14,20 +14,6 @@
       "date": "2026-03-15T23:39:20Z",
       "summary": "Atonal music is difficult to compose because it defies human instincts. It takes discipline to write something so unpleasant to listen to. One technique that composers use to keep their music from…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Finalist 3.6",
-      "link": "https://www.finalist.works/finalist-36/",
-      "date": "2026-03-15T23:13:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "CHM Live: Apple at 50",
-      "link": "https://www.youtube.com/live/eCSNJgI2LFI",
-      "date": "2026-03-15T23:00:54Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "What is agentic engineering?",
@@ -49,13 +35,6 @@
       "date": "2026-03-15T19:49:13Z",
       "summary": "Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear twice. Between the two 1s there is one number.…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "‘This Is Not the Computer for You’",
-      "link": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
-      "date": "2026-03-15T17:48:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Book Review: Robots in Space - The Secret Lives of Our Planetary Explorers by Dr Ezzy Pearson ★★★⯪☆",
@@ -280,6 +259,27 @@
       "date": "2026-03-11T00:00:00Z",
       "summary": "AI tools push us to higher abstraction. I'm not sure I like what that costs us.",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "Vibe Coding Trip Report: Making a sponsor panel",
+      "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
+      "date": "2026-03-09T00:00:00Z",
+      "summary": "I needed to ship this before my surgery, so I vibe coded it. It turned out well enough.",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+      "date": "2026-03-08T23:35:42Z",
+      "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "GNU and the AI reimplementations",
+      "link": "http://antirez.com/news/162",
+      "date": "2026-03-08T16:08:41Z",
+      "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of…",
+      "source": "antirez.com"
     }
   ]
 }
