@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-16T12:28:53.050542Z",
+  "generated_at": "2026-03-16T13:40:01.085611Z",
   "items": [
+    {
+      "title": "Some updates to ActivityBot",
+      "link": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
+      "date": "2026-03-16T12:34:57Z",
+      "summary": "I couple of years ago, I developed ActivityBot - the simplest way to build Mastodon Bots. It is a single PHP file which can run an entire ActivityPub server and it is less than 80KB. It works! You…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Shower Thought: Git Teleportation",
       "link": "https://idiallo.com/byte-size/git-teleportation?src=feed",
@@ -70,6 +77,13 @@
       "date": "2026-03-15T10:00:00Z",
       "summary": "A practice for finding peace in your dependency tree.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-03-15T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Quoting Jannis Leidel",
@@ -154,13 +168,6 @@
       "date": "2026-03-13T14:00:00Z",
       "summary": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "An odd font rendering bug in Firefox and Safari",
-      "link": "https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/",
-      "date": "2026-03-13T12:34:09Z",
-      "summary": "First up, you should go and watch The Importance of Being Earnest with Ncuti Gatwa. It is a brilliant set of performances and a joy to see. While perusing the programme on the National Theatre…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "It's Work that taught me how to think",
@@ -273,13 +280,6 @@
       "date": "2026-03-11T00:32:51Z",
       "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "I don't know if I like working at higher levels of abstraction",
-      "link": "https://xeiaso.net/blog/2026/ai-abstraction/",
-      "date": "2026-03-11T00:00:00Z",
-      "summary": "AI tools push us to higher abstraction. I'm not sure I like what that costs us.",
-      "source": "xeiaso.net"
     }
   ]
 }
