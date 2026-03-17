@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-03-17T14:33:55.341291Z",
+  "generated_at": "2026-03-17T15:31:14.134892Z",
   "items": [
+    {
+      "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
+      "link": "https://pluralistic.net/2026/03/17/technopolitics/",
+      "date": "2026-03-17T15:07:57Z",
+      "summary": "Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object permanence: Prison for spamming; Dotcom layoffs;…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "Samsung Discontinues Its Galaxy Z TriFold After Just Three Months",
+      "link": "https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out",
+      "date": "2026-03-17T14:56:10Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Windows stack limit checking retrospective: x86-32 also known as i386, second try",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
       "date": "2026-03-17T14:00:00Z",
       "summary": "Appeasing the invisible return address predictor. The post Windows stack limit checking retrospective: x86-32 also known as i386, second try appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Samsung Discontinues Its Galaxy Z TriFold After Just Three Months",
-      "link": "https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out",
-      "date": "2026-03-17T13:49:54Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "[Sponsor] Mux — Video API for Developers",
@@ -49,6 +56,13 @@
       "date": "2026-03-17T12:32:28Z",
       "summary": "Agentic Engineering Patterns > LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "My homelab will be down for at least 20 days",
+      "link": "https://xeiaso.net/notes/2026/homelab-is-down/",
+      "date": "2026-03-17T00:00:00Z",
+      "summary": "Dang, guess I have to suffer.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Introducing Mistral Small 4",
@@ -212,13 +226,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Pluralistic: Three more AI psychoses (12 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/12/normal-technology/",
-      "date": "2026-03-13T02:17:20Z",
-      "summary": "Today's links Three more AI psychoses: Everybody calm down. Hey look at this: Delights to delectate. Object permanence: \"Jules, Penny and the Rooster\"; Superinjunction; Harper Lee's kids v cheap…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Can the MacBook Neo replace my M4 Air?",
       "link": "https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/",
       "date": "2026-03-12T17:50:00Z",
@@ -272,13 +279,6 @@
       "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
       "date": "2026-03-11T16:20:13Z",
       "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Microsoft Patch Tuesday, March 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
-      "date": "2026-03-11T00:32:51Z",
-      "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to…",
       "source": "krebsonsecurity.com"
     }
   ]
