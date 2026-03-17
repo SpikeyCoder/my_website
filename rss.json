@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-03-17T13:39:08.292065Z",
+  "generated_at": "2026-03-17T14:33:55.341291Z",
   "items": [
+    {
+      "title": "Windows stack limit checking retrospective: x86-32 also known as i386, second try",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
+      "date": "2026-03-17T14:00:00Z",
+      "summary": "Appeasing the invisible return address predictor. The post Windows stack limit checking retrospective: x86-32 also known as i386, second try appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Samsung Discontinues Its Galaxy Z TriFold After Just Three Months",
+      "link": "https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out",
+      "date": "2026-03-17T13:49:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "[Sponsor] Mux — Video API for Developers",
+      "link": "https://www.mux.com/?utm_campaign=fireball&utm_source=DF",
+      "date": "2026-03-17T13:42:00Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Lil Finder Guy Wallpapers",
+      "link": "https://512pixels.net/2026/03/lil-finder-5k-wallpapers/",
+      "date": "2026-03-17T13:41:21Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Powers don’t clear fractions",
       "link": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
@@ -23,13 +51,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "[Sponsor] Mux — Video API for Developers",
-      "link": "https://www.mux.com/video-api?utm_campaign=fireball&utm_source=DF",
-      "date": "2026-03-16T23:47:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Introducing Mistral Small 4",
       "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
       "date": "2026-03-16T23:41:17Z",
@@ -42,20 +63,6 @@
       "date": "2026-03-16T23:03:56Z",
       "summary": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag. They're very similar to the…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Apple Introduces AirPods Max 2",
-      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
-      "date": "2026-03-16T19:52:35Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘The Last Quiet Thing’",
-      "link": "https://www.terrygodier.com/the-last-quiet-thing",
-      "date": "2026-03-16T17:58:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Windows stack limit checking retrospective: PowerPC",
@@ -217,13 +224,6 @@
       "date": "2026-03-12T17:50:00Z",
       "summary": "Many of us wonder if the MacBook Neo is 'the one'. Because I have a faster desktop (currently a M4 Max Mac Studio), I've always used a lower-end Mac laptop, like the iBook or MacBook Air, for travel.…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136",
-      "date": "2026-03-12T14:00:00Z",
-      "summary": "One of the weirdest calling conventions you'll see. The post Windows stack limit checking retrospective: x86-32, also known as i386 appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Elusive Cost Savings of the Prefabricated Home",
