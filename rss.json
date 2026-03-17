@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-17T15:31:14.134892Z",
+  "generated_at": "2026-03-17T16:33:07.143237Z",
   "items": [
+    {
+      "title": "Quoting Tim Schilling",
+      "link": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+      "date": "2026-03-17T16:13:37Z",
+      "summary": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...] For a…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/17/technopolitics/",
@@ -69,13 +76,6 @@
       "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
       "date": "2026-03-16T23:41:17Z",
       "summary": "Introducing Mistral Small 4 Big new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this: Mistral…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Use subagents and custom agents in Codex",
-      "link": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
-      "date": "2026-03-16T23:03:56Z",
-      "summary": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag. They're very similar to the…",
       "source": "simonwillison.net"
     },
     {
