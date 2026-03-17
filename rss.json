@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-17T12:27:49.216327Z",
+  "generated_at": "2026-03-17T13:39:08.292065Z",
   "items": [
+    {
+      "title": "Powers don’t clear fractions",
+      "link": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
+      "date": "2026-03-17T13:26:13Z",
+      "summary": "If a number has a finite but nonzero fractional part, so do all its powers. I recently ran across a proof in [1] that is shorter than I expected. Theorem: Suppose r is a real number that is not an…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Tone row operations",
+      "link": "https://www.johndcook.com/blog/2026/03/17/tone-row-operations/",
+      "date": "2026-03-17T13:22:39Z",
+      "summary": "The previous post introduced the idea of a twelve-tone row, a permutation of the twelve pitch classes of a chromatic scale. The earlier post also introduced a group of operations on a tone row with…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Subagents",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "date": "2026-03-17T12:32:28Z",
+      "summary": "Agentic Engineering Patterns > LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "[Sponsor] Mux — Video API for Developers",
       "link": "https://www.mux.com/video-api?utm_campaign=fireball&utm_source=DF",
@@ -20,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
       "date": "2026-03-16T23:03:56Z",
       "summary": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag. They're very similar to the…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting A member of Anthropic’s alignment-science team",
-      "link": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
-      "date": "2026-03-16T21:38:55Z",
-      "summary": "The point of the blackmail exercise was to have something to describe to policymakers—results that are visceral enough to land with people, and make misalignment risk actually salient in practice for…",
       "source": "simonwillison.net"
     },
     {
@@ -91,13 +105,6 @@
       "date": "2026-03-15T22:25:26Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Langford series",
-      "link": "https://www.johndcook.com/blog/2026/03/15/langford-series/",
-      "date": "2026-03-15T19:49:13Z",
-      "summary": "Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear twice. Between the two 1s there is one number.…",
-      "source": "johndcook.com"
     },
     {
       "title": "Book Review: Robots in Space - The Secret Lives of Our Planetary Explorers by Dr Ezzy Pearson ★★★⯪☆",
@@ -168,13 +175,6 @@
       "date": "2026-03-14T00:00:00Z",
       "summary": "To quote the human.json Protocol : human.json is a protocol for humans to assert authorship of their site content and vouch for the humanity of others. It uses URL ownership as identity, and trust…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Typesetting sheet music with AI",
-      "link": "https://www.johndcook.com/blog/2026/03/13/typesetting-sheet-music-with-ai/",
-      "date": "2026-03-13T15:15:50Z",
-      "summary": "Lilypond is a TeX-like typesetting language for sheet music. I’ve had good results asking AI to generate Lilypond code, which is surprising given the obscurity of the language. There can’t be that…",
-      "source": "johndcook.com"
     },
     {
       "title": "Restoring an Xserve G5: When Apple built real servers",
