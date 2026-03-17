@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-17T19:29:08.132331Z",
+  "generated_at": "2026-03-17T20:18:21.065726Z",
   "items": [
+    {
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "date": "2026-03-17T19:39:17Z",
+      "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Fox Sports to Broadcast U.S.-Venezuela World Baseball Classic Final in Immersive 3D — But Not on Vision Pro",
       "link": "https://x.com/mlbonfox/status/2033902946174271992?s=46",
@@ -70,13 +77,6 @@
       "date": "2026-03-17T00:00:00Z",
       "summary": "Dang, guess I have to suffer.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Introducing Mistral Small 4",
-      "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
-      "date": "2026-03-16T23:41:17Z",
-      "summary": "Introducing Mistral Small 4 Big new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this: Mistral…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Windows stack limit checking retrospective: PowerPC",
