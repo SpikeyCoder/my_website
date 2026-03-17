@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-17T21:18:55.246633Z",
+  "generated_at": "2026-03-17T22:16:08.299912Z",
   "items": [
+    {
+      "title": "Quoting Ken Jin",
+      "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "date": "2026-03-17T21:48:26Z",
+      "summary": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
       "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
@@ -63,13 +70,6 @@
       "date": "2026-03-17T13:22:39Z",
       "summary": "The previous post introduced the idea of a twelve-tone row, a permutation of the twelve pitch classes of a chromatic scale. The earlier post also introduced a group of operations on a tone row with…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Subagents",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
-      "date": "2026-03-17T12:32:28Z",
-      "summary": "Agentic Engineering Patterns > LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past…",
-      "source": "simonwillison.net"
     },
     {
       "title": "My homelab will be down for at least 20 days",
