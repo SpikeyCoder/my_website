@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-18T19:25:58.191813Z",
+  "generated_at": "2026-03-18T20:18:38.821154Z",
   "items": [
     {
-      "title": "Meta Is Dropping VR Support From Horizon Worlds",
-      "link": "https://www.uploadvr.com/meta-horizon-worlds-dropping-vr-support/",
-      "date": "2026-03-18T18:53:10Z",
+      "title": "David Zaslav Set to Receive Up to $887 Million if Paramount Acquisition of Warner Bros Closes",
+      "link": "https://finance.yahoo.com/news/warner-bros-discovery-ceo-david-zaslav-set-to-receive-up-to-887-million-if-paramount-deal-closes-144501826.html",
+      "date": "2026-03-18T19:34:40Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "David Zaslav Set to Receive Up to $887 Million if Paramount Acquisition of Warner Bros Closes",
-      "link": "https://finance.yahoo.com/news/warner-bros-discovery-ceo-david-zaslav-set-to-receive-up-to-887-million-if-paramount-deal-closes-144501826.html",
-      "date": "2026-03-18T18:30:16Z",
+      "title": "Meta Is Dropping VR Support From Horizon Worlds",
+      "link": "https://www.uploadvr.com/meta-horizon-worlds-dropping-vr-support/",
+      "date": "2026-03-18T18:53:10Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,13 +28,6 @@
       "date": "2026-03-18T14:00:00Z",
       "summary": "Double the size, double the fun. The post Windows stack limit checking retrospective: Alpha AXP appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Finding the right Bottom Hole paper",
-      "link": "https://shkspr.mobi/blog/2026/03/finding-the-right-bottom-hole-paper/",
-      "date": "2026-03-18T12:34:37Z",
-      "summary": "On the 6th of January 1995, viewers of BBC Two were treated to a new series of Waiting for Godot Bottom. Stuck at the top of a Ferris wheel, Vyvyan and the People's Poet Eddie and Ritchie wait to see…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Communication Is Surveillance by Design",
@@ -149,13 +142,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Some updates to ActivityBot",
-      "link": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
-      "date": "2026-03-16T12:34:57Z",
-      "summary": "I couple of years ago, I developed ActivityBot - the simplest way to build Mastodon Bots. It is a single PHP file which can run an entire ActivityPub server and it is less than 80KB. It works! You…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Loyalty Oath Crusade",
       "link": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
       "date": "2026-03-16T12:00:00Z",
@@ -175,13 +161,6 @@
       "date": "2026-03-15T22:25:26Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Book Review: Robots in Space - The Secret Lives of Our Planetary Explorers by Dr Ezzy Pearson ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson/",
-      "date": "2026-03-15T12:34:48Z",
-      "summary": "Mars is the only planet entirely populated by robots. This book is a catalogue of the history of robotic explorers. Nary a human-crewed mission is mentioned, except in passing. Instead, we get to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Guided Meditation for Developers",
@@ -280,6 +259,27 @@
       "date": "2026-03-12T00:00:00Z",
       "summary": "Inspired by others, I’m publishing how I use generative AI to write this little blog. General feelings on generative AI Generative AI, like any technology, has tradeoffs. I think the cons far…",
       "source": "evanhahn.com"
+    },
+    {
+      "title": "Windows 11 after two decades of macOS: okay, but also awful",
+      "link": "https://rakhim.exotext.com/windows-11-experience",
+      "date": "2026-03-12T00:00:00Z",
+      "summary": "Recently my partner's trusty old 5K iMac died after 8.5 years of service (Radeon gpu is fried). At first I thought it was finally time to get one of those cool little M4 Mac Minis, but then decided…",
+      "source": "rakhim.exotext.com"
+    },
+    {
+      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "date": "2026-03-11T16:20:13Z",
+      "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "date": "2026-03-11T00:32:51Z",
+      "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to…",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
