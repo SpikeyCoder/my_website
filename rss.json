@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-18T17:29:40.861388Z",
+  "generated_at": "2026-03-18T18:29:13.940086Z",
   "items": [
+    {
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+      "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+      "date": "2026-03-18T17:43:49Z",
+      "summary": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Windows stack limit checking retrospective: Alpha AXP",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260318-00/?p=112146",
@@ -83,13 +90,6 @@
       "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
       "date": "2026-03-17T19:39:17Z",
       "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Tim Schilling",
-      "link": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
-      "date": "2026-03-17T16:13:37Z",
-      "summary": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...] For a…",
       "source": "simonwillison.net"
     },
     {
