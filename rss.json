@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T14:37:34.672876Z",
+  "generated_at": "2026-03-18T15:35:13.227243Z",
   "items": [
     {
       "title": "Finding the right Bottom Hole paper",
@@ -14,6 +14,13 @@
       "date": "2026-03-18T12:00:00Z",
       "summary": "In the very last scene of The Bourne Supremacy , Jason Bourne calls the CIA from what they presume is a public phone. Landy, who answers the call, instructs her team to trace it. Bourne says he wants…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Git Remote Helpers",
+      "link": "https://nesbitt.io/2026/03/18/git-remote-helpers.html",
+      "date": "2026-03-18T10:00:00Z",
+      "summary": "Git can talk to anything if you write the right helper.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Marc Andreessen is wrong about introspection",
@@ -231,13 +238,6 @@
       "date": "2026-03-13T14:00:00Z",
       "summary": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Forge",
-      "link": "https://nesbitt.io/2026/03/13/forge.html",
-      "date": "2026-03-13T10:00:00Z",
-      "summary": "A unified CLI for GitHub, GitLab, Gitea, Forgejo, and Bitbucket.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Everything's Casino",
