@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T13:39:43.857408Z",
+  "generated_at": "2026-03-18T14:37:34.672876Z",
   "items": [
     {
       "title": "Finding the right Bottom Hole paper",
@@ -42,6 +42,20 @@
       "date": "2026-03-18T00:33:37Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "LLMs predict my coffee",
+      "link": "https://dynomight.net/coffee/",
+      "date": "2026-03-18T00:00:00Z",
+      "summary": "Why not benchmark with physical experiments?",
+      "source": "dynomight.net"
+    },
+    {
+      "title": "Homelab downtime update: The fight for DNS supremacy",
+      "link": "https://xeiaso.net/notes/2026/dns-fight/",
+      "date": "2026-03-18T00:00:00Z",
+      "summary": "Turns out everything DID NOT go offline somehow. Yay!",
+      "source": "xeiaso.net"
     },
     {
       "title": "Quoting Ken Jin",
@@ -266,20 +280,6 @@
       "date": "2026-03-12T00:00:00Z",
       "summary": "Inspired by others, I’m publishing how I use generative AI to write this little blog. General feelings on generative AI Generative AI, like any technology, has tradeoffs. I think the cons far…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Windows 11 after two decades of macOS: okay, but also awful",
-      "link": "https://rakhim.exotext.com/windows-11-experience",
-      "date": "2026-03-12T00:00:00Z",
-      "summary": "Recently my partner's trusty old 5K iMac died after 8.5 years of service (Radeon gpu is fried). At first I thought it was finally time to get one of those cool little M4 Mac Minis, but then decided…",
-      "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
-      "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-      "date": "2026-03-11T16:20:13Z",
-      "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
