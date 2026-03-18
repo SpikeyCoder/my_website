@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-18T15:35:13.227243Z",
+  "generated_at": "2026-03-18T16:32:17.498565Z",
   "items": [
+    {
+      "title": "Windows stack limit checking retrospective: Alpha AXP",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260318-00/?p=112146",
+      "date": "2026-03-18T14:00:00Z",
+      "summary": "Double the size, double the fun. The post Windows stack limit checking retrospective: Alpha AXP appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Finding the right Bottom Hole paper",
       "link": "https://shkspr.mobi/blog/2026/03/finding-the-right-bottom-hole-paper/",
@@ -231,13 +238,6 @@
       "date": "2026-03-13T14:00:00Z",
       "summary": "Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—and bottom—of it's PowerPC era. This isn't the…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Windows stack limit checking retrospective: MIPS",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138",
-      "date": "2026-03-13T14:00:00Z",
-      "summary": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Everything's Casino",
