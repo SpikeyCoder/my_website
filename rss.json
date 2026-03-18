@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-18T01:41:36.303671Z",
+  "generated_at": "2026-03-18T03:12:34.679457Z",
   "items": [
+    {
+      "title": "Tighter bounds on alternating series remainder",
+      "link": "https://www.johndcook.com/blog/2026/03/17/alternating-series-remainder/",
+      "date": "2026-03-18T02:50:12Z",
+      "summary": "The alternating series test is part of the standard calculus curriculum. It says that if you truncate an alternating series, the remainder is bounded by the first term that was left out. This fact…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Fox Sports to Broadcast U.S.-Venezuela World Baseball Classic Final in Immersive 3D — But Not on Vision Pro",
       "link": "https://x.com/mlbonfox/status/2033902946174271992?s=46",
@@ -112,13 +119,6 @@
       "date": "2026-03-16T00:23:04Z",
       "summary": "In many sci-fi shows, spaceships have a teleportation mechanism on board. They can teleport from inside their ship to somewhere on a planet. This way, the ship can remain in orbit while its crew…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Twelve-tone composition",
-      "link": "https://www.johndcook.com/blog/2026/03/15/twelve-tone-composition/",
-      "date": "2026-03-15T23:39:20Z",
-      "summary": "Atonal music is difficult to compose because it defies human instincts. It takes discipline to write something so unpleasant to listen to. One technique that composers use to keep their music from…",
-      "source": "johndcook.com"
     },
     {
       "title": "The optimized self and the life that got away",
