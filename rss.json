@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-19T15:26:51.029247Z",
+  "generated_at": "2026-03-19T16:26:57.837716Z",
   "items": [
+    {
+      "title": "★ ‘Your Frustration Is the Product’",
+      "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
+      "date": "2026-03-19T16:13:26Z",
+      "summary": "The people making these decisions for these websites are like ocean liner captains who are *trying* to hit icebergs.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Talk Show: ‘The Pogue Feature’",
+      "link": "https://daringfireball.net/thetalkshow/2026/03/18/ep-443",
+      "date": "2026-03-19T16:13:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Pluralistic: Love of corporate bullshit is correlated with bad judgment (19 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/19/jargon-watch/",
@@ -21,13 +35,6 @@
       "date": "2026-03-19T10:00:00Z",
       "summary": "Every tool that makes automated decisions about dependencies invented its own policy format. There are standards for describing software components but none for writing rules about them.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "★ ‘Your Frustration Is the Product’",
-      "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
-      "date": "2026-03-19T02:24:26Z",
-      "summary": "The people making these decisions for these websites are like ocean liner captains who are *trying* to hit icebergs.",
-      "source": "daringfireball.net"
     },
     {
       "title": "A lesser-known characterization of the gamma function",
@@ -56,13 +63,6 @@
       "date": "2026-03-18T23:56:46Z",
       "summary": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "The Talk Show: ‘The Pogue Feature’",
-      "link": "https://daringfireball.net/thetalkshow/2026/03/18/ep-443",
-      "date": "2026-03-18T23:41:02Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "How to Identify Your Apple Keyboard Layout by Country or Region",
