@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-19T11:19:35.394716Z",
+  "generated_at": "2026-03-19T12:23:04.254548Z",
   "items": [
+    {
+      "title": "How Much Computing Power is in a Data Center?",
+      "link": "https://www.construction-physics.com/p/how-much-computing-power-is-in-a",
+      "date": "2026-03-19T12:01:33Z",
+      "summary": "Every day there’s some new story about the enormous amounts of investment in building AI data centers.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "The Fragmented World of Dependency Policy",
       "link": "https://nesbitt.io/2026/03/19/the-fragmented-world-of-dependency-policy.html",
@@ -273,13 +280,6 @@
       "date": "2026-03-12T00:00:00Z",
       "summary": "Modern browsers are hugely complex: Chromium (the open source portion of google chrome) currently has 49 millions lines of code, making it bigger then any other program on my machine. ... but how…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "The modern formatting addiction in writing",
-      "link": "https://dynomight.net/formatting/",
-      "date": "2026-03-12T00:00:00Z",
-      "summary": "thinking and bluffing",
-      "source": "dynomight.net"
     }
   ]
 }
