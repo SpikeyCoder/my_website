@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-19T16:26:57.837716Z",
+  "generated_at": "2026-03-19T17:27:46.731601Z",
   "items": [
+    {
+      "title": "★ AppleScript: ‘Save MarsEdit Document to Text File’",
+      "link": "https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file",
+      "date": "2026-03-19T16:50:56Z",
+      "summary": "When something in your workflow is bugging you, you should figure out a way to address it. Why I didn’t write (and share) this script years ago is a mystery for the ages.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "date": "2026-03-19T16:45:15Z",
+      "summary": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ ‘Your Frustration Is the Product’",
       "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
@@ -65,13 +79,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "How to Identify Your Apple Keyboard Layout by Country or Region",
-      "link": "https://support.apple.com/en-us/102743",
-      "date": "2026-03-18T21:29:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
       "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
       "date": "2026-03-18T17:43:49Z",
@@ -133,13 +140,6 @@
       "date": "2026-03-18T00:00:00Z",
       "summary": "Turns out everything DID NOT go offline somehow. Yay!",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Quoting Ken Jin",
-      "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
-      "date": "2026-03-17T21:48:26Z",
-      "summary": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
