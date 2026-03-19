@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-19T10:21:23.325624Z",
+  "generated_at": "2026-03-19T11:19:35.394716Z",
   "items": [
+    {
+      "title": "The Fragmented World of Dependency Policy",
+      "link": "https://nesbitt.io/2026/03/19/the-fragmented-world-of-dependency-policy.html",
+      "date": "2026-03-19T10:00:00Z",
+      "summary": "Every tool that makes automated decisions about dependencies invented its own policy format. There are standards for describing software components but none for writing rules about them.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "★ ‘Your Frustration Is the Product’",
       "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
@@ -14,6 +21,13 @@
       "date": "2026-03-19T01:21:53Z",
       "summary": "The gamma function Γ(z) extends the factorial function from integers to complex numbers. (Technically, Γ(z + 1) extends factorial.) There are other ways to extend the factorial function, so what…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Consensus Board Game",
+      "link": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to…",
+      "source": "matklad.github.io"
     },
     {
       "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
@@ -212,13 +226,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "What’s Going On with FAIR Package Manager",
-      "link": "https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html",
-      "date": "2026-03-14T10:00:00Z",
-      "summary": "Federated FAIR pivots from WordPress to TYPO3",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Big tech engineers need big egos",
       "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
       "date": "2026-03-14T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-12T00:00:00Z",
       "summary": "thinking and bluffing",
       "source": "dynomight.net"
-    },
-    {
-      "title": "How I use generative AI on this blog",
-      "link": "https://evanhahn.com/how-i-use-gen-ai-on-this-blog/",
-      "date": "2026-03-12T00:00:00Z",
-      "summary": "Inspired by others, I’m publishing how I use generative AI to write this little blog. General feelings on generative AI Generative AI, like any technology, has tradeoffs. I think the cons far…",
-      "source": "evanhahn.com"
     }
   ]
 }
