@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-19T00:48:04.857555Z",
+  "generated_at": "2026-03-19T01:42:20.735375Z",
   "items": [
+    {
+      "title": "A lesser-known characterization of the gamma function",
+      "link": "https://www.johndcook.com/blog/2026/03/18/a-lesser-known-characterization-of-the-gamma-function/",
+      "date": "2026-03-19T01:21:53Z",
+      "summary": "The gamma function Γ(z) extends the factorial function from integers to complex numbers. (Technically, Γ(z + 1) extends factorial.) There are other ways to extend the factorial function, so what…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
       "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
@@ -118,13 +125,6 @@
       "link": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
       "date": "2026-03-17T13:26:13Z",
       "summary": "If a number has a finite but nonzero fractional part, so do all its powers. I recently ran across a proof in [1] that is shorter than I expected. Theorem: Suppose r is a real number that is not an…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Tone row operations",
-      "link": "https://www.johndcook.com/blog/2026/03/17/tone-row-operations/",
-      "date": "2026-03-17T13:22:39Z",
-      "summary": "The previous post introduced the idea of a twelve-tone row, a permutation of the twelve pitch classes of a chromatic scale. The earlier post also introduced a group of operations on a tone row with…",
       "source": "johndcook.com"
     },
     {
