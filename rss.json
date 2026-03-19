@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-19T12:23:04.254548Z",
+  "generated_at": "2026-03-19T13:37:11.946083Z",
   "items": [
+    {
+      "title": "Pluralistic: Love of corporate bullshit is correlated with bad judgment (19 Mar 2026)",
+      "link": "https://pluralistic.net/2026/03/19/jargon-watch/",
+      "date": "2026-03-19T12:47:06Z",
+      "summary": "Today's links Love of corporate bullshit is correlated with bad judgment: Synergizing the strategic inflection points on the global data network. Hey look at this: Delights to delectate. Object…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "How Much Computing Power is in a Data Center?",
       "link": "https://www.construction-physics.com/p/how-much-computing-power-is-in-a",
@@ -35,6 +42,13 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to…",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "Related UI elements should not appear unrelated",
+      "link": "https://rakhim.exotext.com/related-ui-elements-should-not-appear-unrelated",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "I know, I know, this sounds controversial. But hear me out. A few years ago a new trend in UI design emerged where related elements would appear more and more detached and unrelated to the things…",
+      "source": "rakhim.exotext.com"
     },
     {
       "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
@@ -219,13 +233,6 @@
       "source": "utcc.utoronto.ca/~cks"
     },
     {
-      "title": "Pluralistic: Corrupt anticorruption (14 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/14/ill-have-what-xis-having/",
-      "date": "2026-03-14T15:15:42Z",
-      "summary": "Today's links Corrupt anticorruption: Notes from a target-rich environment. Hey look at this: Delights to delectate. Object permanence: Tentacle sphere; EU Venn; Obama v cryptography; Trump v…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Reading List 03/14/26",
       "link": "https://www.construction-physics.com/p/reading-list-031426",
       "date": "2026-03-14T12:02:30Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-12T12:03:45Z",
       "summary": "It’s long been believed the constantly rising costs of new home construction, and lackluster improvements in construction productivity more generally, are fundamentally a problem of production…",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "The web in 1000 lines of C",
-      "link": "https://maurycyz.com/projects/tinyweb/",
-      "date": "2026-03-12T00:00:00Z",
-      "summary": "Modern browsers are hugely complex: Chromium (the open source portion of google chrome) currently has 49 millions lines of code, making it bigger then any other program on my machine. ... but how…",
-      "source": "maurycyz.com"
     }
   ]
 }
