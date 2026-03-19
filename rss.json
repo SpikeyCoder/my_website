@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-03-19T01:42:20.735375Z",
+  "generated_at": "2026-03-19T03:12:32.947620Z",
   "items": [
     {
+      "title": "★ ‘Your Frustration Is the Product’",
+      "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
+      "date": "2026-03-19T02:24:26Z",
+      "summary": "The people making these decisions for these websites are like ocean liner captains who are *trying* to hit icebergs.",
+      "source": "daringfireball.net"
+    },
+    {
       "title": "A lesser-known characterization of the gamma function",
-      "link": "https://www.johndcook.com/blog/2026/03/18/a-lesser-known-characterization-of-the-gamma-function/",
+      "link": "https://www.johndcook.com/blog/2026/03/18/wielandt/",
       "date": "2026-03-19T01:21:53Z",
       "summary": "The gamma function Γ(z) extends the factorial function from integers to complex numbers. (Technically, Γ(z + 1) extends factorial.) There are other ways to extend the factorial function, so what…",
       "source": "johndcook.com"
@@ -20,13 +27,6 @@
       "link": "https://daringfireball.net/thetalkshow/2026/03/18/ep-443",
       "date": "2026-03-18T23:41:02Z",
       "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "★ ‘Your Frustration Is the Product’",
-      "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
-      "date": "2026-03-18T23:39:57Z",
-      "summary": "The people making these decisions for these websites are like ocean liner captains who are *trying* to hit icebergs.",
       "source": "daringfireball.net"
     },
     {
