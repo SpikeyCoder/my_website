@@ -1,24 +1,31 @@
 {
-  "generated_at": "2026-03-18T23:14:16.744729Z",
+  "generated_at": "2026-03-19T00:48:04.857555Z",
   "items": [
+    {
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "date": "2026-03-18T23:56:46Z",
+      "summary": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The Talk Show: ‘The Pogue Feature’",
       "link": "https://daringfireball.net/thetalkshow/2026/03/18/ep-443",
-      "date": "2026-03-18T21:57:14Z",
+      "date": "2026-03-18T23:41:02Z",
       "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ ‘Your Frustration Is the Product’",
+      "link": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
+      "date": "2026-03-18T23:39:57Z",
+      "summary": "The people making these decisions for these websites are like ocean liner captains who are *trying* to hit icebergs.",
       "source": "daringfireball.net"
     },
     {
       "title": "How to Identify Your Apple Keyboard Layout by Country or Region",
       "link": "https://support.apple.com/en-us/102743",
       "date": "2026-03-18T21:29:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Jony Ive on Redesigning the Christie’s Rostrum",
-      "link": "https://www.youtube.com/watch?v=HLXDxx06_EM",
-      "date": "2026-03-18T21:25:51Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -90,13 +97,6 @@
       "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
       "date": "2026-03-17T21:48:26Z",
       "summary": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
-      "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
-      "date": "2026-03-17T19:39:17Z",
-      "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous…",
       "source": "simonwillison.net"
     },
     {
