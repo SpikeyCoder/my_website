@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-20T01:41:12.798404Z",
+  "generated_at": "2026-03-20T03:07:38.929828Z",
   "items": [
+    {
+      "title": "‘Everyone but Trump Understands What He’s Done’",
+      "link": "https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I",
+      "date": "2026-03-20T02:25:25Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
       "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
@@ -26,13 +33,6 @@
       "title": "Actual Headline in the Actual New York Times: ‘Trump Jokes About Pearl Harbor in Meeting With Japan’s Leader’",
       "link": "https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot",
       "date": "2026-03-19T21:01:52Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘Everyone but Trump Understands What He’s Done’",
-      "link": "https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I",
-      "date": "2026-03-19T20:27:50Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -77,6 +77,13 @@
       "date": "2026-03-19T01:21:53Z",
       "summary": "The gamma function Γ(z) extends the factorial function from integers to complex numbers. (Technically, Γ(z + 1) extends factorial.) There are other ways to extend the factorial function, so what…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Life TV: Video with 2 bits to spare",
+      "link": "https://maurycyz.com/projects/lifetv/",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted sideways,…",
+      "source": "maurycyz.com"
     },
     {
       "title": "Consensus Board Game",
@@ -272,13 +279,6 @@
       "link": "https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/",
       "date": "2026-03-13T14:00:00Z",
       "summary": "Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—and bottom—of it's PowerPC era. This isn't the…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Can the MacBook Neo replace my M4 Air?",
-      "link": "https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/",
-      "date": "2026-03-12T17:50:00Z",
-      "summary": "Many of us wonder if the MacBook Neo is 'the one'. Because I have a faster desktop (currently a M4 Max Mac Studio), I've always used a lower-end Mac laptop, like the iBook or MacBook Air, for travel.…",
       "source": "jeffgeerling.com"
     }
   ]
