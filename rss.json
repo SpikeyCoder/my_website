@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-20T13:32:34.556874Z",
+  "generated_at": "2026-03-20T14:23:40.421064Z",
   "items": [
+    {
+      "title": "The best laptop Apple ever made",
+      "link": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
+      "date": "2026-03-20T14:00:00Z",
+      "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "I'm OK being left behind, thanks!",
       "link": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
@@ -273,13 +280,6 @@
       "date": "2026-03-14T00:00:00Z",
       "summary": "To quote the human.json Protocol : human.json is a protocol for humans to assert authorship of their site content and vouch for the humanity of others. It uses URL ownership as identity, and trust…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Restoring an Xserve G5: When Apple built real servers",
-      "link": "https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/",
-      "date": "2026-03-13T14:00:00Z",
-      "summary": "Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—and bottom—of it's PowerPC era. This isn't the…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
