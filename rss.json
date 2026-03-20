@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-20T10:18:49.968056Z",
+  "generated_at": "2026-03-20T11:16:19.384550Z",
   "items": [
+    {
+      "title": "Package Manager Mirroring",
+      "link": "https://nesbitt.io/2026/03/20/package-manager-mirroring.html",
+      "date": "2026-03-20T10:00:00Z",
+      "summary": "Every mirroring tool I could find, and the protocols underneath them.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "‘Everyone but Trump Understands What He’s Done’",
       "link": "https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I",
@@ -238,13 +245,6 @@
       "date": "2026-03-15T12:34:48Z",
       "summary": "Mars is the only planet entirely populated by robots. This book is a catalogue of the history of robotic explorers. Nary a human-crewed mission is mentioned, except in passing. Instead, we get to…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Guided Meditation for Developers",
-      "link": "https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html",
-      "date": "2026-03-15T10:00:00Z",
-      "summary": "A practice for finding peace in your dependency tree.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Your feed reader User-Agent is generic",
