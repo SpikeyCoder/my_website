@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-03-20T20:13:33.779554Z",
+  "generated_at": "2026-03-20T21:13:51.257033Z",
   "items": [
+    {
+      "title": "Google Search Is Now Using AI to Rewrite Headlines",
+      "link": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&utm_medium=gift-link",
+      "date": "2026-03-20T21:00:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Perhaps Bluesky’s Revelation of an 11-Month Ago $100 Million Investment Was, in Fact, an Act of Transparency",
+      "link": "https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j",
+      "date": "2026-03-20T20:49:08Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Bluesky Raised $100M a Year Ago but for Some Reason Only Disclosed It Now",
       "link": "https://bsky.social/about/blog/03-19-2026-series-b",
-      "date": "2026-03-20T19:24:32Z",
+      "date": "2026-03-20T20:40:21Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Kimi.ai @Kimi_Moonshot",
+      "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+      "date": "2026-03-20T20:29:23Z",
+      "summary": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining &…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Embedded regex flags",
@@ -14,13 +35,6 @@
       "date": "2026-03-20T16:58:42Z",
       "summary": "The hardest part of using regular expressions is not crafting regular expressions per se. In my opinion, the two hardest parts are minor syntax variations between implementations, and all the…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quiche Browser",
-      "link": "https://quiche.industries/browser/",
-      "date": "2026-03-20T16:15:13Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The best laptop Apple ever made",
@@ -63,13 +77,6 @@
       "date": "2026-03-20T00:23:59Z",
       "summary": "Nikolai Kardashev believed we could classify civilisations by the eneregy they harness. The Soviet Astrophysicist proposed three “Types” of civilisation - Type I controls the energy budget of its…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "StopTheMadness Pro and StopTheScript Extensions for Safari",
-      "link": "https://mastodon.social/@lapcatsoftware/116252960395480568",
-      "date": "2026-03-19T21:32:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
@@ -117,7 +124,7 @@
       "title": "Life TV: Video with 2 bits to spare",
       "link": "https://maurycyz.com/projects/lifetv/",
       "date": "2026-03-19T00:00:00Z",
-      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted sideways,…",
+      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except that it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted…",
       "source": "maurycyz.com"
     },
     {
@@ -139,13 +146,6 @@
       "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
       "date": "2026-03-18T23:56:46Z",
       "summary": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
-      "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
-      "date": "2026-03-18T17:43:49Z",
-      "summary": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the…",
       "source": "simonwillison.net"
     },
     {
