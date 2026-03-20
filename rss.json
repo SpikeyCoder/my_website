@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-20T16:21:30.851096Z",
+  "generated_at": "2026-03-20T17:20:16.856783Z",
   "items": [
+    {
+      "title": "Embedded regex flags",
+      "link": "https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/",
+      "date": "2026-03-20T16:58:42Z",
+      "summary": "The hardest part of using regular expressions is not crafting regular expressions per se. In my opinion, the two hardest parts are minor syntax variations between implementations, and all the…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Bluesky Raised $100M a Year Ago but for Some Reason Only Disclosed It Now",
+      "link": "https://bsky.social/about/blog/03-19-2026-series-b",
+      "date": "2026-03-20T16:51:25Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Quiche Browser",
       "link": "https://quiche.industries/browser/",
@@ -54,13 +68,6 @@
       "title": "StopTheMadness Pro and StopTheScript Extensions for Safari",
       "link": "https://mastodon.social/@lapcatsoftware/116252960395480568",
       "date": "2026-03-19T21:32:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Actual Headline in the Actual New York Times: ‘Trump Jokes About Pearl Harbor in Meeting With Japan’s Leader’",
-      "link": "https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot",
-      "date": "2026-03-19T21:01:52Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -210,13 +217,6 @@
       "date": "2026-03-17T14:00:00Z",
       "summary": "Appeasing the invisible return address predictor. The post Windows stack limit checking retrospective: x86-32 also known as i386, second try appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Powers don’t clear fractions",
-      "link": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
-      "date": "2026-03-17T13:26:13Z",
-      "summary": "If a number has a finite but nonzero fractional part, so do all its powers. I recently ran across a proof in [1] that is shorter than I expected. Theorem: Suppose r is a real number that is not an…",
-      "source": "johndcook.com"
     },
     {
       "title": "My homelab will be down for at least 20 days",
