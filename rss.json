@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-20T00:45:46.458041Z",
+  "generated_at": "2026-03-20T01:41:12.798404Z",
   "items": [
+    {
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "date": "2026-03-20T00:49:19Z",
+      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "Members Only: How do we define our own flourishing?",
       "link": "https://www.joanwestenberg.com/members-only-how-do-we-define-our-own-flourishing/",
@@ -273,13 +280,6 @@
       "date": "2026-03-12T17:50:00Z",
       "summary": "Many of us wonder if the MacBook Neo is 'the one'. Because I have a faster desktop (currently a M4 Max Mac Studio), I've always used a lower-end Mac laptop, like the iBook or MacBook Air, for travel.…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The Elusive Cost Savings of the Prefabricated Home",
-      "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
-      "date": "2026-03-12T12:03:45Z",
-      "summary": "It’s long been believed the constantly rising costs of new home construction, and lackluster improvements in construction productivity more generally, are fundamentally a problem of production…",
-      "source": "construction-physics.com"
     }
   ]
 }
