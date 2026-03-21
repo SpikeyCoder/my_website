@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:10:22.651965Z",
+  "generated_at": "2026-03-21T21:11:30.144072Z",
   "items": [
     {
       "title": "Reading List 03/21/26",
@@ -91,13 +91,6 @@
       "date": "2026-03-20T10:00:00Z",
       "summary": "Every mirroring tool I could find, and the protocols underneath them.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-      "date": "2026-03-20T00:49:19Z",
-      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Members Only: How do we define our own flourishing?",
@@ -280,6 +273,13 @@
       "date": "2026-03-14T12:02:30Z",
       "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Big tech engineers need big egos",
+      "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
+      "date": "2026-03-14T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
