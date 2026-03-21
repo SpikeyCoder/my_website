@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-20T23:13:07.408587Z",
+  "generated_at": "2026-03-21T00:43:35.974888Z",
   "items": [
+    {
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "date": "2026-03-20T23:59:14Z",
+      "summary": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Google Search Is Now Using AI to Rewrite Headlines",
       "link": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&utm_medium=gift-link",
@@ -147,13 +154,6 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "I know, I know, this sounds controversial. But hear me out. A few years ago a new trend in UI design emerged where related elements would appear more and more detached and unrelated to the things…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
-      "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
-      "date": "2026-03-18T23:56:46Z",
-      "summary": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Windows stack limit checking retrospective: Alpha AXP",
