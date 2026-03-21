@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T18:15:09.086201Z",
+  "generated_at": "2026-03-21T19:12:00.057940Z",
   "items": [
     {
       "title": "Reading List 03/21/26",
@@ -7,6 +7,13 @@
       "date": "2026-03-21T12:03:50Z",
       "summary": "Damage to the Ras Laffan LNG facility, housing bubble risks, North Korea’s naval production, Bezos’ $100 billion for manufacturing automation, and more.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "How to Attract AI Bots to Your Open Source Project",
+      "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "date": "2026-03-21T10:00:00Z",
+      "summary": "A practical guide to getting the engagement your project deserves.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Turbo Pascal 3.02A, deconstructed",
@@ -189,13 +196,6 @@
       "date": "2026-03-18T12:00:00Z",
       "summary": "In the very last scene of The Bourne Supremacy , Jason Bourne calls the CIA from what they presume is a public phone. Landy, who answers the call, instructs her team to trace it. Bourne says he wants…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Git Remote Helpers",
-      "link": "https://nesbitt.io/2026/03/18/git-remote-helpers.html",
-      "date": "2026-03-18T10:00:00Z",
-      "summary": "Git can talk to anything if you write the right helper.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Marc Andreessen is wrong about introspection",
