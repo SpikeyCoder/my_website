@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-21T21:11:30.144072Z",
+  "generated_at": "2026-03-21T22:09:51.995425Z",
   "items": [
+    {
+      "title": "Using Git with coding agents",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "date": "2026-03-21T22:08:24Z",
+      "summary": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Reading List 03/21/26",
       "link": "https://www.construction-physics.com/p/reading-list-032126",
@@ -93,6 +100,13 @@
       "source": "nesbitt.io"
     },
     {
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "date": "2026-03-20T00:49:19Z",
+      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "Members Only: How do we define our own flourishing?",
       "link": "https://www.joanwestenberg.com/members-only-how-do-we-define-our-own-flourishing/",
       "date": "2026-03-20T00:23:59Z",
@@ -105,13 +119,6 @@
       "date": "2026-03-20T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
-      "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
-      "date": "2026-03-19T16:45:15Z",
-      "summary": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Windows stack limit checking retrospective: amd64, also known as x86-64",
@@ -273,13 +280,6 @@
       "date": "2026-03-14T12:02:30Z",
       "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Big tech engineers need big egos",
-      "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
-      "date": "2026-03-14T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
