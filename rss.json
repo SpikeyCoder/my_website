@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T09:14:11.706622Z",
+  "generated_at": "2026-03-21T10:11:37.303262Z",
   "items": [
     {
       "title": "Turbo Pascal 3.02A, deconstructed",
@@ -58,6 +58,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "I'm OK being left behind, thanks!",
+      "link": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
+      "date": "2026-03-20T12:34:02Z",
+      "summary": "Many years ago, someone tried to get me into cryptocurrencies. \"They're the future of money!\" they said. I replied saying that I'd rather wait until they were more useful, less volatile, easier to…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Why Is Everyone Supposed to Die If Machines Can Think?",
       "link": "https://idiallo.com/blog/everyone-is-supposed-to-die-when-machines-can-think?src=feed",
       "date": "2026-03-20T12:00:00Z",
@@ -84,6 +91,13 @@
       "date": "2026-03-20T00:23:59Z",
       "summary": "Nikolai Kardashev believed we could classify civilisations by the eneregy they harness. The Soviet Astrophysicist proposed three “Types” of civilisation - Type I controls the energy budget of its…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Some Things Just Take Time",
+      "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "date": "2026-03-20T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
@@ -156,6 +170,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "Finding the right Bottom Hole paper",
+      "link": "https://shkspr.mobi/blog/2026/03/finding-the-right-bottom-hole-paper/",
+      "date": "2026-03-18T12:34:37Z",
+      "summary": "On the 6th of January 1995, viewers of BBC Two were treated to a new series of Waiting for Godot Bottom. Stuck at the top of a Ferris wheel, Vyvyan and the People's Poet Eddie and Ritchie wait to see…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Communication Is Surveillance by Design",
       "link": "https://idiallo.com/blog/communication-is-surveillance-by-design?src=feed",
       "date": "2026-03-18T12:00:00Z",
@@ -219,6 +240,13 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "Some updates to ActivityBot",
+      "link": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
+      "date": "2026-03-16T12:34:57Z",
+      "summary": "I couple of years ago, I developed ActivityBot - the simplest way to build Mastodon Bots. It is a single PHP file which can run an entire ActivityPub server and it is less than 80KB. It works! You…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "The Loyalty Oath Crusade",
       "link": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
       "date": "2026-03-16T12:00:00Z",
@@ -252,34 +280,6 @@
       "date": "2026-03-14T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "human.json",
-      "link": "https://evanhahn.com/human-dot-json/",
-      "date": "2026-03-14T00:00:00Z",
-      "summary": "To quote the human.json Protocol : human.json is a protocol for humans to assert authorship of their site content and vouch for the humanity of others. It uses URL ownership as identity, and trust…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Restoring an Xserve G5: When Apple built real servers",
-      "link": "https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/",
-      "date": "2026-03-13T14:00:00Z",
-      "summary": "Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—and bottom—of it's PowerPC era. This isn't the…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Can the MacBook Neo replace my M4 Air?",
-      "link": "https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/",
-      "date": "2026-03-12T17:50:00Z",
-      "summary": "Many of us wonder if the MacBook Neo is 'the one'. Because I have a faster desktop (currently a M4 Max Mac Studio), I've always used a lower-end Mac laptop, like the iBook or MacBook Air, for travel.…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The Elusive Cost Savings of the Prefabricated Home",
-      "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
-      "date": "2026-03-12T12:03:45Z",
-      "summary": "It’s long been believed the constantly rising costs of new home construction, and lackluster improvements in construction productivity more generally, are fundamentally a problem of production…",
-      "source": "construction-physics.com"
     }
   ]
 }
