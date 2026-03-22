@@ -21,7 +21,7 @@
       content="Track vegan streaks, nutrition, and environmental impact with GoingVegan. Free on iOS."
     />
     <meta property="og:url" content="https://kevinarmstrong.io/goingvegan/" />
-    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="og:image" content="https://kevinarmstrong.io/assets/goingvegan/og-goingvegan.png" />
     <meta property="og:site_name" content="GoingVegan" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="GoingVegan: Track Your Plant-Based Journey" />
@@ -29,11 +29,11 @@
       name="twitter:description"
       content="Track vegan streaks, nutrition, and environmental impact. Free on iOS."
     />
-    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/assets/goingvegan/og-goingvegan.png" />
 
     <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
     <link rel="preconnect" href="https://apps.apple.com" crossorigin />
-    <link rel="stylesheet" href="../styles.css?v=20260321a" />
+    <link rel="stylesheet" href="../styles.css?v=20260321b" />
     <link rel="icon" href="../favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
@@ -169,6 +169,10 @@
     <header class="site-header">
       <div class="container hero reveal gv-hero">
         <div class="hero-main">
+          <div class="gv-brand-chip">
+            <img src="../assets/goingvegan/goingveganicon.png" alt="GoingVegan app icon" />
+            <span>GoingVegan</span>
+          </div>
           <p class="eyebrow">GoingVegan: Vegan Tracker</p>
           <h1>Track Your Vegan Journey, One Day at a Time</h1>
           <p class="hero-sub">
@@ -191,11 +195,14 @@
           </div>
           <p class="helper">App Store link opens in a new tab.</p>
         </div>
-        <div class="gv-device-frame" role="img" aria-label="GoingVegan dashboard preview placeholder">
-          <div class="asset-placeholder">
-            <strong>App Screenshot Placeholder</strong>
-            <span>Add an iPhone dashboard screenshot in /assets/goingvegan/hero-dashboard.png</span>
-          </div>
+        <div class="gv-device-frame">
+          <img
+            class="gv-device-image"
+            src="../assets/goingvegan/hero-dashboard.png"
+            alt="GoingVegan iOS dashboard screen"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </header>
@@ -231,8 +238,13 @@
           </div>
           <div class="gv-features-grid">
             <article class="gv-feature-row">
-              <div class="gv-shot-placeholder" role="img" aria-label="Daily streak screenshot placeholder">
-                <strong>Daily Streak Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-01-streak.png"
+                  alt="Daily streak tracker screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>Your Streak, Your Motivation</h3>
@@ -244,8 +256,13 @@
             </article>
 
             <article class="gv-feature-row gv-feature-row-reverse">
-              <div class="gv-shot-placeholder" role="img" aria-label="Meal logging screenshot placeholder">
-                <strong>Meal Logging Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-02-meal-log.png"
+                  alt="Meal logging screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>Log Meals in Seconds</h3>
@@ -256,8 +273,13 @@
             </article>
 
             <article class="gv-feature-row">
-              <div class="gv-shot-placeholder" role="img" aria-label="Nutrition dashboard screenshot placeholder">
-                <strong>Nutrition Dashboard Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-03-nutrition.png"
+                  alt="Nutrition dashboard screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>Nutrition You Can Actually Understand</h3>
@@ -268,8 +290,13 @@
             </article>
 
             <article class="gv-feature-row gv-feature-row-reverse">
-              <div class="gv-shot-placeholder" role="img" aria-label="Environmental impact screenshot placeholder">
-                <strong>Impact Dashboard Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-04-impact.png"
+                  alt="Environmental impact stats screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>See the Difference You're Making</h3>
@@ -280,8 +307,13 @@
             </article>
 
             <article class="gv-feature-row">
-              <div class="gv-shot-placeholder" role="img" aria-label="Recipe suggestions screenshot placeholder">
-                <strong>Recipes Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-05-recipes.png"
+                  alt="Recipes and meal ideas screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>Never Run Out of Ideas</h3>
@@ -292,8 +324,13 @@
             </article>
 
             <article class="gv-feature-row gv-feature-row-reverse">
-              <div class="gv-shot-placeholder" role="img" aria-label="Progress history screenshot placeholder">
-                <strong>Progress History Screenshot</strong>
+              <div class="gv-shot-placeholder">
+                <img
+                  src="../assets/goingvegan/feature-06-history.png"
+                  alt="Progress history screen in GoingVegan"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div>
                 <h3>Your Journey, Visualized</h3>
@@ -588,6 +625,6 @@
 
     <script defer src="../analytics.js?v=20260302a"></script>
     <script defer src="../social.js?v=20260301e"></script>
-    <script defer src="./goingvegan.js?v=20260321a"></script>
+    <script defer src="./goingvegan.js?v=20260321b"></script>
   </body>
 </html>
