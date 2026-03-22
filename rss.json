@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-22T12:17:44.204332Z",
+  "generated_at": "2026-03-22T13:23:14.270106Z",
   "items": [
+    {
+      "title": "Bored of eating your own dogfood? Try smelling your own farts!",
+      "link": "https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/",
+      "date": "2026-03-22T12:34:07Z",
+      "summary": "I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my account online? And would I like to receive a link…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’",
       "link": "https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/",
@@ -245,13 +252,6 @@
       "date": "2026-03-16T13:53:43Z",
       "summary": "Today's links Tools vs uses: Don't fall for it. Hey look at this: Delights to delectate. Object permanence: Amazon coders x Amazon warehouse workers; Bruces's ETECH speech; Steven King x unions;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Some updates to ActivityBot",
-      "link": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
-      "date": "2026-03-16T12:34:57Z",
-      "summary": "I couple of years ago, I developed ActivityBot - the simplest way to build Mastodon Bots. It is a single PHP file which can run an entire ActivityPub server and it is less than 80KB. It works! You…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Loyalty Oath Crusade",
