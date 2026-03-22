@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T15:11:34.630715Z",
+  "generated_at": "2026-03-22T16:12:11.653648Z",
   "items": [
     {
       "title": "Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’",
@@ -14,6 +14,20 @@
       "date": "2026-03-22T12:34:07Z",
       "summary": "I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my account online? And would I like to receive a link…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "All tests pass: a short story",
+      "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
+      "date": "2026-03-22T00:00:00Z",
+      "summary": "One night, I wrote a simple tool to pick a random programming language . After shuffling a few times, I landed on Arturo . I decided to try it for fun. What’s Arturo? Best I understand, Arturo is a…",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Little web app to pick a random programming language",
+      "link": "https://evanhahn.com/random-programming-language/",
+      "date": "2026-03-22T00:00:00Z",
+      "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
+      "source": "evanhahn.com"
     },
     {
       "title": "Profiling Hacker News users based on their comments",
@@ -266,20 +280,6 @@
       "date": "2026-03-15T22:25:26Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-03-15T03:54:10Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Reading List 03/14/26",
-      "link": "https://www.construction-physics.com/p/reading-list-031426",
-      "date": "2026-03-14T12:02:30Z",
-      "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
