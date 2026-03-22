@@ -12,7 +12,7 @@ from urllib.request import Request, urlopen
 SUPABASE_URL = "https://efrkjqbrfsynzdjbgqck.supabase.co"
 SUPABASE_ANON_KEY = "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP"
 CANONICAL_ORIGIN = "https://kevinarmstrong.io"
-OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
+DEFAULT_OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
 
@@ -48,7 +48,14 @@ def safe_summary(value: str) -> str:
     return text[:220]
 
 
-def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
+def resolve_og_image_url(repo_root: Path, slug: str) -> str:
+    candidate = repo_root / "assets" / "blog-og" / f"{slug}.png"
+    if candidate.exists():
+        return f"{CANONICAL_ORIGIN}/assets/blog-og/{quote(slug, safe='')}.png"
+    return DEFAULT_OG_IMAGE_URL
+
+
+def build_page(slug: str, title: str, summary: str, published_at: str, og_image_url: str) -> str:
     slug_q = quote(slug, safe="")
     canonical_url = f"{CANONICAL_ORIGIN}/blog/{slug}/"
     title_text = title or "Live Blog Article"
@@ -63,7 +70,7 @@ def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
         "datePublished": published,
         "author": {"@type": "Person", "name": "Kevin Armstrong"},
         "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC"},
-        "image": OG_IMAGE_URL,
+        "image": og_image_url,
     }
 
     return f"""<!doctype html>
@@ -79,12 +86,12 @@ def build_page(slug: str, title: str, summary: str, published_at: str) -> str:
     <meta property=\"og:title\" content=\"{html.escape(title_text)}\" />
     <meta property=\"og:description\" content=\"{html.escape(desc_text)}\" />
     <meta property=\"og:url\" content=\"{html.escape(canonical_url)}\" />
-    <meta property=\"og:image\" content=\"{html.escape(OG_IMAGE_URL)}\" />
+    <meta property=\"og:image\" content=\"{html.escape(og_image_url)}\" />
     <meta property=\"article:published_time\" content=\"{html.escape(published)}\" />
     <meta name=\"twitter:card\" content=\"summary_large_image\" />
     <meta name=\"twitter:title\" content=\"{html.escape(title_text)}\" />
     <meta name=\"twitter:description\" content=\"{html.escape(desc_text)}\" />
-    <meta name=\"twitter:image\" content=\"{html.escape(OG_IMAGE_URL)}\" />
+    <meta name=\"twitter:image\" content=\"{html.escape(og_image_url)}\" />
     <link rel=\"preconnect\" href=\"https://cdn.jsdelivr.net\" crossorigin />
     <link rel=\"preconnect\" href=\"https://efrkjqbrfsynzdjbgqck.supabase.co\" crossorigin />
     <link rel=\"preconnect\" href=\"https://gc.zgo.at\" crossorigin />
@@ -219,6 +226,7 @@ def main() -> None:
             title=str(post.get("title") or ""),
             summary=safe_summary(post.get("summary") or ""),
             published_at=str(post.get("published_at") or ""),
+            og_image_url=resolve_og_image_url(repo_root, slug),
         )
         (target_dir / "index.html").write_text(page, encoding="utf-8")
         generated += 1
