@@ -846,6 +846,34 @@ textarea {
   font-size: 1rem;
 }
 
+#blog .section-title p,
+#blog .panel-header h3,
+#blog .status,
+#blog .blog-post,
+#blog .blog-post h4,
+#blog .blog-post p,
+#blog .blog-post small,
+#blog .helper,
+#blog .blog-content,
+#blog .blog-content h1,
+#blog .blog-content h2,
+#blog .blog-content h3,
+#blog .blog-content p,
+#blog .blog-content li,
+#blog .blog-content blockquote,
+#blog .blog-form label,
+#blog .auth-form label,
+#blog .link {
+  color: #ffffff;
+}
+
+#blog .blog-form input,
+#blog .blog-form textarea,
+#blog .auth-form input,
+#blog .blog-editor-select {
+  color: #ffffff;
+}
+
 .blog-form,
 .auth-form {
   display: grid;
@@ -1237,34 +1265,47 @@ textarea {
   margin: 0;
   font-size: clamp(1.8rem, 3.6vw, 2.6rem);
   line-height: 1.2;
+  color: #ffffff;
 }
 
 .blog-article-summary {
   margin: 0;
-  color: var(--muted);
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.55;
 }
 
 .blog-article-meta {
   margin: 0;
-  color: var(--muted);
+  color: #ffffff;
   font-size: 0.95rem;
 }
 
 .blog-article-content {
-  color: var(--ink);
+  color: #ffffff;
   line-height: 1.65;
 }
 
 .blog-article-content p {
   margin: 0 0 14px;
-  color: var(--muted);
+  color: #ffffff;
+}
+
+.blog-article-content h1,
+.blog-article-content h2,
+.blog-article-content h3,
+.blog-article-content li,
+.blog-article-content blockquote,
+.blog-article-card .link,
+.blog-article-card .share-menu-title,
+.blog-article-card .share-close,
+.blog-article-card .share-menu-item {
+  color: #ffffff;
 }
 
 .blog-article-status {
   margin: 0;
-  color: var(--muted);
+  color: #ffffff;
 }
 
 @media (max-width: 720px) {
