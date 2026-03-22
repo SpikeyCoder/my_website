@@ -458,6 +458,14 @@ textarea {
   display: grid;
 }
 
+.gv-founder-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+}
+
 .gv-founder-copy {
   background: var(--panel);
   border: 1px solid var(--border);
