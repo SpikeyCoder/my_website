@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-21T23:11:15.178054Z",
+  "generated_at": "2026-03-22T00:49:14.151329Z",
   "items": [
+    {
+      "title": "Profiling Hacker News users based on their comments",
+      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "date": "2026-03-21T23:59:47Z",
+      "summary": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Using Git with coding agents",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
@@ -49,13 +56,6 @@
       "date": "2026-03-20T20:40:21Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Quoting Kimi.ai @Kimi_Moonshot",
-      "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
-      "date": "2026-03-20T20:29:23Z",
-      "summary": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining &…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Embedded regex flags",
