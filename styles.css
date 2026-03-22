@@ -35,6 +35,7 @@
 
 html {
   scroll-padding-top: var(--anchor-offset);
+  overflow-x: hidden;
 }
 
 body {
@@ -46,6 +47,7 @@ body {
     radial-gradient(circle at 85% 10%, rgba(126, 231, 135, 0.08), transparent 45%),
     var(--bg);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
@@ -1273,6 +1275,7 @@ textarea {
   padding: 24px;
   display: grid;
   gap: 18px;
+  max-width: 100%;
 }
 
 .blog-article-header {
