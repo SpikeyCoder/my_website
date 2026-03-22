@@ -11,7 +11,9 @@
         var path = window.location.pathname || "/";
         var basePath = path.indexOf("/my_website/") === 0 ? "/my_website" : "";
         var relativePath = basePath && path.indexOf(basePath) === 0 ? path.slice(basePath.length) || "/" : path;
-        var match = relativePath.match(/^\/blog\/([^/?#]+)\/?$/i);
+        var blogMatch = relativePath.match(/^\/blog\/([^/?#]+)\/?$/i);
+        var goingVeganMatch = relativePath.match(/^\/goingvegan\/blog\/([^/?#]+)\/?$/i);
+        var match = goingVeganMatch || blogMatch;
 
         if (match && match[1]) {
           var rawSlug = match[1];
@@ -22,7 +24,8 @@
             slug = rawSlug;
           }
 
-          var target = basePath + "/blog/?slug=" + encodeURIComponent(slug) + "&from=path";
+          var targetBase = goingVeganMatch ? "/goingvegan/blog/" : "/blog/";
+          var target = basePath + targetBase + "?slug=" + encodeURIComponent(slug) + "&from=path";
           window.location.replace(target);
         }
       })();

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate static blog slug routes with crawlable metadata and no redirect hop."""
+"""Generate static blog slug routes with crawlable metadata."""
 
 from __future__ import annotations
 
@@ -16,12 +16,20 @@ CANONICAL_ORIGIN = "https://kevinarmstrong.io"
 DEFAULT_OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
+SCRIPT_VERSION = "20260322a"
+
+GOINGVEGAN_CLEAN_SLUGS = {
+    "how-many-animals-does-going-vegan-save-per-year",
+    "the-psychology-of-vegan-streaks-why-tracking-your-plant-based-days-works",
+    "going-vegan-without-losing-muscle-a-practical-guide",
+}
+GOINGVEGAN_TAGS = {"goingvegan", "vegan"}
 
 
 def fetch_posts() -> list[dict]:
     endpoint = (
         f"{SUPABASE_URL}/rest/v1/posts"
-        f"?select=slug,title,summary,published_at"
+        f"?select=slug,title,summary,published_at,tags"
         f"&order=published_at.desc"
         f"&limit={MAX_POSTS}"
     )
@@ -53,6 +61,21 @@ def strip_hash_suffix(slug: str) -> str:
     return re.sub(r"-[a-f0-9]{8}$", "", slug, flags=re.IGNORECASE)
 
 
+def normalize_tags(raw_tags: object) -> set[str]:
+    if isinstance(raw_tags, list):
+        return {str(tag or "").strip().lower() for tag in raw_tags if str(tag or "").strip()}
+    if isinstance(raw_tags, str):
+        return {tag.strip().lower() for tag in raw_tags.split(",") if tag.strip()}
+    return set()
+
+
+def is_goingvegan_post(post: dict, canonical_slug: str) -> bool:
+    if canonical_slug in GOINGVEGAN_CLEAN_SLUGS:
+        return True
+    tags = normalize_tags(post.get("tags"))
+    return any(tag in GOINGVEGAN_TAGS for tag in tags)
+
+
 def resolve_og_image_url(repo_root: Path, slug: str) -> str:
     candidate = repo_root / "assets" / "blog-og" / f"{slug}.png"
     if candidate.exists():
@@ -61,15 +84,26 @@ def resolve_og_image_url(repo_root: Path, slug: str) -> str:
 
 
 def build_page(
+    *,
     route_slug: str,
     canonical_slug: str,
+    canonical_base: str,
     title: str,
     summary: str,
     published_at: str,
     og_image_url: str,
+    page_title_suffix: str,
+    asset_prefix: str,
+    module_src: str,
+    nav_home_href: str,
+    nav_list_href: str,
+    nav_list_label: str,
+    back_href: str,
+    back_label: str,
+    noscript_href_base: str,
 ) -> str:
     slug_q = quote(route_slug, safe="")
-    canonical_url = f"{CANONICAL_ORIGIN}/blog/{canonical_slug}/"
+    canonical_url = f"{CANONICAL_ORIGIN}{canonical_base}/{canonical_slug}/"
     title_text = title or "Live Blog Article"
     desc_text = summary or "Live Blog article by Kevin Armstrong."
     published = published_at or ""
@@ -91,7 +125,7 @@ def build_page(
     {GEN_MARKER}
     <meta charset=\"utf-8\" />
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
-    <title>{html.escape(title_text)} | Live Blog | Kevin Armstrong</title>
+    <title>{html.escape(title_text)} | {html.escape(page_title_suffix)}</title>
     <meta name=\"description\" content=\"{html.escape(desc_text)}\" />
     <link rel=\"canonical\" href=\"{html.escape(canonical_url)}\" />
     <meta property=\"og:type\" content=\"article\" />
@@ -107,11 +141,11 @@ def build_page(
     <link rel=\"preconnect\" href=\"https://cdn.jsdelivr.net\" crossorigin />
     <link rel=\"preconnect\" href=\"https://efrkjqbrfsynzdjbgqck.supabase.co\" crossorigin />
     <link rel=\"preconnect\" href=\"https://gc.zgo.at\" crossorigin />
-    <link rel=\"stylesheet\" href=\"../../styles.css?v=20260301b\" />
-    <link rel=\"icon\" href=\"../../favicon.ico\" sizes=\"any\" />
-    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"../../favicon-32x32.png\" />
-    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"../../favicon-16x16.png\" />
-    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"../../apple-touch-icon.png\" />
+    <link rel=\"stylesheet\" href=\"{asset_prefix}styles.css?v={SCRIPT_VERSION}\" />
+    <link rel=\"icon\" href=\"{asset_prefix}favicon.ico\" sizes=\"any\" />
+    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"{asset_prefix}favicon-32x32.png\" />
+    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"{asset_prefix}favicon-16x16.png\" />
+    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"{asset_prefix}apple-touch-icon.png\" />
     <script type=\"application/ld+json\">{json.dumps(json_ld)}</script>
   </head>
   <body>
@@ -121,8 +155,8 @@ def build_page(
       <div class=\"container nav-inner\">
         <div class=\"nav-brand\">ARMSTRONG HOLDCO LLC</div>
         <div class=\"nav-links\">
-          <a href=\"/\">Home</a>
-          <a href=\"/#blog\">Live Blog</a>
+          <a href=\"{html.escape(nav_home_href)}\">Home</a>
+          <a href=\"{html.escape(nav_list_href)}\">{html.escape(nav_list_label)}</a>
         </div>
       </div>
     </nav>
@@ -166,32 +200,34 @@ def build_page(
             <p class=\"blog-article-summary\" id=\"blog-article-summary\">{html.escape(desc_text)}</p>
             <p class=\"blog-article-meta\" id=\"blog-article-meta\"></p>
             <article class=\"blog-article-content\" id=\"blog-article-content\"></article>
-            <a class=\"link\" id=\"blog-article-back\" href=\"/#blog\">Back to Live Blog</a>
+            <a class=\"link\" id=\"blog-article-back\" href=\"{html.escape(back_href)}\">{html.escape(back_label)}</a>
           </div>
 
           <noscript>
             <p>
               JavaScript is required to render the full article content.
-              <a href=\"/blog/?slug={slug_q}&amp;from=path\">Open article viewer</a>
+              <a href=\"{noscript_href_base}?slug={slug_q}&amp;from=path\">Open article viewer</a>
             </p>
           </noscript>
         </div>
       </section>
     </main>
 
-    <script defer src=\"../../analytics.js?v=20260302a\"></script>
-    <script src=\"../../social.js?v=20260301e\"></script>
+    <script defer src=\"{asset_prefix}analytics.js?v=20260302a\"></script>
+    <script src=\"{asset_prefix}social.js?v=20260301e\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js\"></script>
-    <script type=\"module\" src=\"../blog.js?v=20260321f\"></script>
+    <script type=\"module\" src=\"{module_src}\"></script>
   </body>
 </html>
 """
 
 
-def remove_stale_generated_dirs(blog_root: Path, expected_slugs: set[str]) -> None:
-    for child in blog_root.iterdir():
+def remove_stale_generated_dirs(root: Path, expected_slugs: set[str]) -> None:
+    if not root.exists():
+        return
+    for child in root.iterdir():
         if not child.is_dir():
             continue
         if child.name in {"assets"}:
@@ -213,50 +249,116 @@ def remove_stale_generated_dirs(blog_root: Path, expected_slugs: set[str]) -> No
                 pass
 
 
+def write_route_page(
+    *,
+    root: Path,
+    route_slug: str,
+    used_slugs: set[str],
+    expected_slugs: set[str],
+    page_html: str,
+) -> bool:
+    if route_slug in used_slugs:
+        return False
+    used_slugs.add(route_slug)
+    expected_slugs.add(route_slug)
+    target_dir = root / route_slug
+    target_dir.mkdir(parents=True, exist_ok=True)
+    (target_dir / "index.html").write_text(page_html, encoding="utf-8")
+    return True
+
+
 def main() -> None:
     repo_root = Path(__file__).resolve().parent.parent
     blog_root = repo_root / "blog"
+    gv_blog_root = repo_root / "goingvegan" / "blog"
     blog_root.mkdir(parents=True, exist_ok=True)
+    gv_blog_root.mkdir(parents=True, exist_ok=True)
 
     posts = fetch_posts()
 
-    slugs: set[str] = set()
     seen_original_slugs: set[str] = set()
-    used_route_slugs: set[str] = set()
+    expected_blog_slugs: set[str] = set()
+    expected_gv_slugs: set[str] = set()
+    used_blog_slugs: set[str] = set()
+    used_gv_slugs: set[str] = set()
     generated = 0
+
     for post in posts:
         original_slug = clean_slug(post.get("slug"))
-        if not original_slug:
-            continue
-        if original_slug in seen_original_slugs:
+        if not original_slug or original_slug in seen_original_slugs:
             continue
         seen_original_slugs.add(original_slug)
 
         canonical_slug = strip_hash_suffix(original_slug)
-        route_slugs: list[str] = []
-        if canonical_slug and canonical_slug not in used_route_slugs:
-            route_slugs.append(canonical_slug)
-        if original_slug not in route_slugs:
+        if not canonical_slug:
+            continue
+
+        route_slugs = [canonical_slug]
+        if original_slug != canonical_slug:
             route_slugs.append(original_slug)
 
-        for route_slug in route_slugs:
-            slugs.add(route_slug)
-            used_route_slugs.add(route_slug)
-            target_dir = blog_root / route_slug
-            target_dir.mkdir(parents=True, exist_ok=True)
+        is_gv = is_goingvegan_post(post, canonical_slug)
+        canonical_base = "/goingvegan/blog" if is_gv else "/blog"
+        og_image = resolve_og_image_url(repo_root, original_slug)
 
-            page = build_page(
+        for route_slug in route_slugs:
+            page_for_main_blog = build_page(
                 route_slug=route_slug,
                 canonical_slug=canonical_slug,
+                canonical_base=canonical_base,
                 title=str(post.get("title") or ""),
                 summary=safe_summary(post.get("summary") or ""),
                 published_at=str(post.get("published_at") or ""),
-                og_image_url=resolve_og_image_url(repo_root, original_slug),
+                og_image_url=og_image,
+                page_title_suffix="Live Blog | Kevin Armstrong",
+                asset_prefix="../../",
+                module_src=f"../blog.js?v={SCRIPT_VERSION}",
+                nav_home_href="/",
+                nav_list_href="/#blog",
+                nav_list_label="Live Blog",
+                back_href="/#blog",
+                back_label="Back to Live Blog",
+                noscript_href_base="/blog/",
             )
-            (target_dir / "index.html").write_text(page, encoding="utf-8")
-            generated += 1
+            if write_route_page(
+                root=blog_root,
+                route_slug=route_slug,
+                used_slugs=used_blog_slugs,
+                expected_slugs=expected_blog_slugs,
+                page_html=page_for_main_blog,
+            ):
+                generated += 1
 
-    remove_stale_generated_dirs(blog_root, slugs)
+            if is_gv:
+                page_for_gv_blog = build_page(
+                    route_slug=route_slug,
+                    canonical_slug=canonical_slug,
+                    canonical_base="/goingvegan/blog",
+                    title=str(post.get("title") or ""),
+                    summary=safe_summary(post.get("summary") or ""),
+                    published_at=str(post.get("published_at") or ""),
+                    og_image_url=og_image,
+                    page_title_suffix="GoingVegan Blog | Kevin Armstrong",
+                    asset_prefix="../../../",
+                    module_src=f"../../../blog/blog.js?v={SCRIPT_VERSION}",
+                    nav_home_href="/goingvegan/",
+                    nav_list_href="/goingvegan/#gv-blog",
+                    nav_list_label="GoingVegan Blog",
+                    back_href="/goingvegan/#gv-blog",
+                    back_label="Back to GoingVegan Blog",
+                    noscript_href_base="/goingvegan/blog/",
+                )
+                if write_route_page(
+                    root=gv_blog_root,
+                    route_slug=route_slug,
+                    used_slugs=used_gv_slugs,
+                    expected_slugs=expected_gv_slugs,
+                    page_html=page_for_gv_blog,
+                ):
+                    generated += 1
+
+    remove_stale_generated_dirs(blog_root, expected_blog_slugs)
+    remove_stale_generated_dirs(gv_blog_root, expected_gv_slugs)
     print(f"Generated {generated} static blog slug routes")
 
 

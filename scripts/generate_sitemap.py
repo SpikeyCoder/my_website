@@ -6,6 +6,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 import re
+from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 
 CANONICAL_ORIGIN = "https://kevinarmstrong.io"
@@ -24,6 +25,33 @@ def add_url(urlset: ET.Element, loc: str, lastmod: str, priority: str) -> None:
     ET.SubElement(url_el, "priority").text = priority
 
 
+def extract_canonical_route(index_file: Path) -> str | None:
+    try:
+        body = index_file.read_text(encoding="utf-8")
+    except Exception:
+        return None
+
+    match = re.search(r'<link\s+rel=["\']canonical["\']\s+href=["\']([^"\']+)["\']', body, flags=re.IGNORECASE)
+    if not match:
+        return None
+
+    href = match.group(1).strip()
+    parsed = urlparse(href)
+    if not parsed.scheme or not parsed.netloc:
+        route = href
+    elif href.startswith(CANONICAL_ORIGIN):
+        route = parsed.path
+    else:
+        return None
+
+    route = route.strip() or "/"
+    if not route.startswith("/"):
+        route = f"/{route}"
+    if route != "/" and not route.endswith("/"):
+        route = f"{route}/"
+    return route
+
+
 def collect_urls(repo_root: Path) -> list[tuple[str, str, str]]:
     routes: list[tuple[str, str, str]] = []
 
@@ -32,6 +60,7 @@ def collect_urls(repo_root: Path) -> list[tuple[str, str, str]]:
 
     static_routes = [
         ("/", repo_root / "index.html", "1.0"),
+        ("/goingvegan/", repo_root / "goingvegan" / "index.html", "0.9"),
         ("/blog/", repo_root / "blog" / "index.html", "0.9"),
         ("/terms-and-conditions/", repo_root / "terms-and-conditions" / "index.html", "0.5"),
     ]
@@ -40,22 +69,32 @@ def collect_urls(repo_root: Path) -> list[tuple[str, str, str]]:
         if path.exists():
             routes.append((route, file_lastmod(path), priority))
 
-    blog_root = repo_root / "blog"
-    if blog_root.exists():
-        canonical_blog_routes: dict[str, tuple[str, str]] = {}
-        for child in sorted(blog_root.iterdir()):
+    canonical_blog_routes: dict[str, tuple[str, str]] = {}
+    route_roots = [
+        (repo_root / "blog", "/blog"),
+        (repo_root / "goingvegan" / "blog", "/goingvegan/blog"),
+    ]
+    for root, fallback_base in route_roots:
+        if not root.exists():
+            continue
+        for child in sorted(root.iterdir()):
             if not child.is_dir() or child.name == "assets":
                 continue
             idx = child / "index.html"
             if not idx.exists():
                 continue
-            canonical_slug = re.sub(r"-[a-f0-9]{8}$", "", child.name, flags=re.IGNORECASE)
-            route = f"/blog/{canonical_slug}/"
+
+            route = extract_canonical_route(idx)
+            if not route:
+                canonical_slug = re.sub(r"-[a-f0-9]{8}$", "", child.name, flags=re.IGNORECASE)
+                route = f"{fallback_base}/{canonical_slug}/"
+
             lastmod = file_lastmod(idx)
             existing = canonical_blog_routes.get(route)
             if existing is None or lastmod > existing[0]:
                 canonical_blog_routes[route] = (lastmod, "0.8")
-        routes.extend((route, lastmod, priority) for route, (lastmod, priority) in canonical_blog_routes.items())
+
+    routes.extend((route, lastmod, priority) for route, (lastmod, priority) in canonical_blog_routes.items())
 
     # dedupe by route while preserving first occurrence
     deduped = {}

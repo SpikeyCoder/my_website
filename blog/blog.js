@@ -14,6 +14,12 @@ const backEl = document.getElementById("blog-article-back");
 
 const ALLOWED_STYLE_PROPS = new Set(["color", "font-size", "font-family", "text-decoration"]);
 const ALLOWED_FAMILIES = new Set(["D-DIN", "JetBrains Mono", "monospace"]);
+const GOINGVEGAN_CLEAN_SLUGS = new Set([
+  "how-many-animals-does-going-vegan-save-per-year",
+  "the-psychology-of-vegan-streaks-why-tracking-your-plant-based-days-works",
+  "going-vegan-without-losing-muscle-a-practical-guide",
+]);
+const GOINGVEGAN_TAGS = new Set(["goingvegan", "vegan"]);
 
 function supabaseReady() {
   return Boolean(window.supabase && SUPABASE_URL && SUPABASE_ANON_KEY);
@@ -35,15 +41,36 @@ function stripSlugHashSuffix(value) {
   return String(value || "").replace(/-[a-f0-9]{8}$/i, "");
 }
 
+function classifyGoingVeganPost(post) {
+  const cleanSlug = stripSlugHashSuffix(post?.slug || "");
+  if (GOINGVEGAN_CLEAN_SLUGS.has(cleanSlug)) return true;
+  const tags = Array.isArray(post?.tags) ? post.tags : [];
+  const normalizedTags = tags.map((tag) => String(tag || "").trim().toLowerCase());
+  return normalizedTags.some((tag) => GOINGVEGAN_TAGS.has(tag));
+}
+
+function getRouteContext() {
+  const pathname = window.location.pathname.replace(/\/+$/, "") || "/";
+  const basePath = getSiteBasePath();
+  const relativePath = basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || "/" : pathname;
+  const isGoingVegan = /^\/goingvegan\/blog(?:\/|$)/i.test(relativePath);
+  return {
+    basePath,
+    relativePath,
+    isGoingVegan,
+    blogBase: isGoingVegan ? "/goingvegan/blog" : "/blog",
+    listPath: isGoingVegan ? "/goingvegan/#gv-blog" : "/#blog",
+  };
+}
+
+const ROUTE_CONTEXT = getRouteContext();
+
 function getSlugFromRoute() {
   const params = new URLSearchParams(window.location.search);
   const fromQuery = decodeSlug(params.get("slug"));
   if (fromQuery) return fromQuery;
 
-  const basePath = getSiteBasePath();
-  const pathname = window.location.pathname.replace(/\/+$/, "") || "/";
-  const relative = basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || "/" : pathname;
-  const match = relative.match(/^\/blog\/([^/?#]+)$/i);
+  const match = ROUTE_CONTEXT.relativePath.match(/^\/(?:goingvegan\/)?blog\/([^/?#]+)$/i);
   return match?.[1] ? decodeSlug(match[1]) : "";
 }
 
@@ -60,12 +87,11 @@ function getCanonicalOrigin() {
 }
 
 function buildRuntimeBlogPath(slug) {
-  const basePath = getSiteBasePath();
-  return `${basePath}/blog/${encodeURIComponent(slug)}/`;
+  return `${ROUTE_CONTEXT.basePath}${ROUTE_CONTEXT.blogBase}/${encodeURIComponent(slug)}/`;
 }
 
 function buildCanonicalBlogPath(slug) {
-  return `/blog/${encodeURIComponent(slug)}/`;
+  return `${ROUTE_CONTEXT.blogBase}/${encodeURIComponent(slug)}/`;
 }
 
 function buildBlogUrl(slug) {
@@ -73,8 +99,7 @@ function buildBlogUrl(slug) {
 }
 
 function blogListUrl() {
-  const basePath = getSiteBasePath();
-  return `${window.location.origin}${basePath}/#blog`;
+  return `${window.location.origin}${ROUTE_CONTEXT.basePath}${ROUTE_CONTEXT.listPath}`;
 }
 
 function redirectToBlogList() {
@@ -220,6 +245,15 @@ async function loadPost() {
     return;
   }
 
+  const finalSlug = stripSlugHashSuffix(data.slug || slug);
+  const shouldBeGoingVegan = classifyGoingVeganPost(data);
+  if (shouldBeGoingVegan !== ROUTE_CONTEXT.isGoingVegan) {
+    const targetBase = shouldBeGoingVegan ? "/goingvegan/blog" : "/blog";
+    const targetUrl = `${window.location.origin}${ROUTE_CONTEXT.basePath}${targetBase}/${encodeURIComponent(finalSlug)}/`;
+    window.location.replace(targetUrl);
+    return;
+  }
+
   const published = data.published_at ? new Date(data.published_at).toLocaleString() : "";
   const tags = Array.isArray(data.tags) && data.tags.length ? ` • ${data.tags.join(", ")}` : "";
 
@@ -228,7 +262,6 @@ async function loadPost() {
   metaEl.textContent = `${published}${tags}`.trim();
   contentEl.innerHTML = renderMarkdown(data.content || "");
 
-  const finalSlug = stripSlugHashSuffix(data.slug || slug);
   const finalPath = buildRuntimeBlogPath(finalSlug);
   if (window.location.pathname !== finalPath || window.location.search) {
     window.history.replaceState({}, "", finalPath);
