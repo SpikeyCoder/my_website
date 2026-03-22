@@ -558,6 +558,15 @@ textarea {
   width: fit-content;
 }
 
+#gv-blog .section-title p,
+#gv-blog .gv-blog-card h3,
+#gv-blog .gv-blog-card p,
+#gv-blog .gv-blog-card .helper,
+#gv-blog .gv-blog-link,
+#gv-blog > .container > .link {
+  color: #ffffff;
+}
+
 .gv-final-cta .container {
   background: linear-gradient(140deg, rgba(126, 231, 135, 0.2), rgba(88, 166, 255, 0.15));
   border: 1px solid rgba(126, 231, 135, 0.3);
