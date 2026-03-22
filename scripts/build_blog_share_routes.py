@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request, urlopen
@@ -48,6 +49,10 @@ def safe_summary(value: str) -> str:
     return text[:220]
 
 
+def strip_hash_suffix(slug: str) -> str:
+    return re.sub(r"-[a-f0-9]{8}$", "", slug, flags=re.IGNORECASE)
+
+
 def resolve_og_image_url(repo_root: Path, slug: str) -> str:
     candidate = repo_root / "assets" / "blog-og" / f"{slug}.png"
     if candidate.exists():
@@ -55,9 +60,16 @@ def resolve_og_image_url(repo_root: Path, slug: str) -> str:
     return DEFAULT_OG_IMAGE_URL
 
 
-def build_page(slug: str, title: str, summary: str, published_at: str, og_image_url: str) -> str:
-    slug_q = quote(slug, safe="")
-    canonical_url = f"{CANONICAL_ORIGIN}/blog/{slug}/"
+def build_page(
+    route_slug: str,
+    canonical_slug: str,
+    title: str,
+    summary: str,
+    published_at: str,
+    og_image_url: str,
+) -> str:
+    slug_q = quote(route_slug, safe="")
+    canonical_url = f"{CANONICAL_ORIGIN}/blog/{canonical_slug}/"
     title_text = title or "Live Blog Article"
     desc_text = summary or "Live Blog article by Kevin Armstrong."
     published = published_at or ""
@@ -172,7 +184,7 @@ def build_page(slug: str, title: str, summary: str, published_at: str, og_image_
     <script src=\"https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js\"></script>
-    <script type=\"module\" src=\"../blog.js?v=20260301e\"></script>
+    <script type=\"module\" src=\"../blog.js?v=20260321f\"></script>
   </body>
 </html>
 """
@@ -209,27 +221,40 @@ def main() -> None:
     posts = fetch_posts()
 
     slugs: set[str] = set()
+    seen_original_slugs: set[str] = set()
+    used_route_slugs: set[str] = set()
     generated = 0
     for post in posts:
-        slug = clean_slug(post.get("slug"))
-        if not slug:
+        original_slug = clean_slug(post.get("slug"))
+        if not original_slug:
             continue
-        if slug in slugs:
+        if original_slug in seen_original_slugs:
             continue
-        slugs.add(slug)
+        seen_original_slugs.add(original_slug)
 
-        target_dir = blog_root / slug
-        target_dir.mkdir(parents=True, exist_ok=True)
+        canonical_slug = strip_hash_suffix(original_slug)
+        route_slugs: list[str] = []
+        if canonical_slug and canonical_slug not in used_route_slugs:
+            route_slugs.append(canonical_slug)
+        if original_slug not in route_slugs:
+            route_slugs.append(original_slug)
 
-        page = build_page(
-            slug=slug,
-            title=str(post.get("title") or ""),
-            summary=safe_summary(post.get("summary") or ""),
-            published_at=str(post.get("published_at") or ""),
-            og_image_url=resolve_og_image_url(repo_root, slug),
-        )
-        (target_dir / "index.html").write_text(page, encoding="utf-8")
-        generated += 1
+        for route_slug in route_slugs:
+            slugs.add(route_slug)
+            used_route_slugs.add(route_slug)
+            target_dir = blog_root / route_slug
+            target_dir.mkdir(parents=True, exist_ok=True)
+
+            page = build_page(
+                route_slug=route_slug,
+                canonical_slug=canonical_slug,
+                title=str(post.get("title") or ""),
+                summary=safe_summary(post.get("summary") or ""),
+                published_at=str(post.get("published_at") or ""),
+                og_image_url=resolve_og_image_url(repo_root, original_slug),
+            )
+            (target_dir / "index.html").write_text(page, encoding="utf-8")
+            generated += 1
 
     remove_stale_generated_dirs(blog_root, slugs)
     print(f"Generated {generated} static blog slug routes")

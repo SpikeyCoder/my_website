@@ -5,6 +5,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from pathlib import Path
+import re
 import xml.etree.ElementTree as ET
 
 CANONICAL_ORIGIN = "https://kevinarmstrong.io"
@@ -41,13 +42,20 @@ def collect_urls(repo_root: Path) -> list[tuple[str, str, str]]:
 
     blog_root = repo_root / "blog"
     if blog_root.exists():
+        canonical_blog_routes: dict[str, tuple[str, str]] = {}
         for child in sorted(blog_root.iterdir()):
             if not child.is_dir() or child.name == "assets":
                 continue
             idx = child / "index.html"
             if not idx.exists():
                 continue
-            routes.append((f"/blog/{child.name}/", file_lastmod(idx), "0.8"))
+            canonical_slug = re.sub(r"-[a-f0-9]{8}$", "", child.name, flags=re.IGNORECASE)
+            route = f"/blog/{canonical_slug}/"
+            lastmod = file_lastmod(idx)
+            existing = canonical_blog_routes.get(route)
+            if existing is None or lastmod > existing[0]:
+                canonical_blog_routes[route] = (lastmod, "0.8")
+        routes.extend((route, lastmod, priority) for route, (lastmod, priority) in canonical_blog_routes.items())
 
     # dedupe by route while preserving first occurrence
     deduped = {}

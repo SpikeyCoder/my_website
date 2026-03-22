@@ -31,6 +31,10 @@ function decodeSlug(value) {
   }
 }
 
+function stripSlugHashSuffix(value) {
+  return String(value || "").replace(/-[a-f0-9]{8}$/i, "");
+}
+
 function getSlugFromRoute() {
   const params = new URLSearchParams(window.location.search);
   const fromQuery = decodeSlug(params.get("slug"));
@@ -182,15 +186,33 @@ async function loadPost() {
 
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-  const { data, error } = await supabase
+  const { data: exactData, error: exactError } = await supabase
     .from("posts")
     .select("id,slug,title,summary,content,tags,published_at")
     .eq("slug", slug)
     .maybeSingle();
 
-  if (error) {
-    statusEl.textContent = `Unable to load post: ${error.message}`;
+  if (exactError) {
+    statusEl.textContent = `Unable to load post: ${exactError.message}`;
     return;
+  }
+
+  let data = exactData;
+  if (!data) {
+    const baseSlug = stripSlugHashSuffix(slug);
+    const { data: fallbackRows, error: fallbackError } = await supabase
+      .from("posts")
+      .select("id,slug,title,summary,content,tags,published_at")
+      .ilike("slug", `${baseSlug}-%`)
+      .order("published_at", { ascending: false })
+      .limit(1);
+
+    if (fallbackError) {
+      statusEl.textContent = `Unable to load post: ${fallbackError.message}`;
+      return;
+    }
+
+    data = Array.isArray(fallbackRows) && fallbackRows.length ? fallbackRows[0] : null;
   }
 
   if (!data) {
@@ -206,7 +228,7 @@ async function loadPost() {
   metaEl.textContent = `${published}${tags}`.trim();
   contentEl.innerHTML = renderMarkdown(data.content || "");
 
-  const finalSlug = data.slug || slug;
+  const finalSlug = stripSlugHashSuffix(data.slug || slug);
   const finalPath = buildRuntimeBlogPath(finalSlug);
   if (window.location.pathname !== finalPath || window.location.search) {
     window.history.replaceState({}, "", finalPath);
