@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-23T01:42:21.458496Z",
+  "generated_at": "2026-03-23T03:14:00.552525Z",
   "items": [
+    {
+      "title": "Beats now have notes",
+      "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+      "date": "2026-03-23T02:13:13Z",
+      "summary": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Starlette 1.0 skill",
+      "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+      "date": "2026-03-23T00:05:00Z",
+      "summary": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Experimenting with Starlette 1.0 with Claude skills",
       "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
@@ -56,20 +70,6 @@
       "date": "2026-03-22T00:00:00Z",
       "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Profiling Hacker News users based on their comments",
-      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
-      "date": "2026-03-21T23:59:47Z",
-      "summary": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Using Git with coding agents",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
-      "date": "2026-03-21T22:08:24Z",
-      "summary": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Reading List 03/21/26",
