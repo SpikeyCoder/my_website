@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-23T15:29:46.017066Z",
+  "generated_at": "2026-03-23T16:28:01.716914Z",
   "items": [
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "date": "2026-03-23T15:43:04Z",
+      "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "How can I make sure the anti-malware software doesn’t terminate my custom service?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157",
@@ -273,13 +280,6 @@
       "date": "2026-03-17T00:00:00Z",
       "summary": "Dang, guess I have to suffer.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "The Loyalty Oath Crusade",
-      "link": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
-      "date": "2026-03-16T12:00:00Z",
-      "summary": "In chapter 11 of Catch-22 , two captains create a complex set of rules to ensure security in the military. Among them are some absurd requirements just to get food in the mess hall. Everyone knows…",
-      "source": "idiallo.com"
     }
   ]
 }
