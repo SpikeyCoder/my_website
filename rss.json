@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-23T18:25:30.914867Z",
+  "generated_at": "2026-03-23T19:24:34.094811Z",
   "items": [
+    {
+      "title": "Quoting David Abram",
+      "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "date": "2026-03-23T18:56:18Z",
+      "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense,…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "WWDC 2026: June 8–12",
       "link": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
@@ -62,13 +69,6 @@
       "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
       "date": "2026-03-23T00:05:00Z",
       "summary": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Experimenting with Starlette 1.0 with Claude skills",
-      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
-      "date": "2026-03-22T23:57:44Z",
-      "summary": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the…",
       "source": "simonwillison.net"
     },
     {
