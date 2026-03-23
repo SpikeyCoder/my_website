@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-03-23T22:14:30.124318Z",
+  "generated_at": "2026-03-23T23:15:04.136496Z",
   "items": [
+    {
+      "title": "WWDC 2026: June 8–12",
+      "link": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
+      "date": "2026-03-23T23:01:08Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Gasoline Prices Around the World",
+      "link": "https://www.globalpetrolprices.com/gasoline_prices/",
+      "date": "2026-03-23T20:48:19Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Quoting David Abram",
       "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
       "date": "2026-03-23T18:56:18Z",
       "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense,…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "From the DF Archive, a Decade Ago: ‘The Industry Is Fucked Up’",
+      "link": "https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads",
+      "date": "2026-03-23T18:09:33Z",
+      "summary": "",
+      "source": "daringfireball.net"
     },
     {
       "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
@@ -259,27 +280,6 @@
       "date": "2026-03-17T00:00:00Z",
       "summary": "Dang, guess I have to suffer.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "The Loyalty Oath Crusade",
-      "link": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
-      "date": "2026-03-16T12:00:00Z",
-      "summary": "In chapter 11 of Catch-22 , two captains create a complex set of rules to ensure security in the military. Among them are some absurd requirements just to get food in the mess hall. Everyone knows…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-03-15T03:54:10Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Reading List 03/14/26",
-      "link": "https://www.construction-physics.com/p/reading-list-031426",
-      "date": "2026-03-14T12:02:30Z",
-      "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
