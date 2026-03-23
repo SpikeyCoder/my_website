@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-03-23T11:22:36.597959Z",
+  "generated_at": "2026-03-23T12:27:29.069620Z",
   "items": [
+    {
+      "title": "Set intersection and difference at the command line",
+      "link": "https://www.johndcook.com/blog/2026/03/23/intersection-difference/",
+      "date": "2026-03-23T11:39:47Z",
+      "summary": "A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two drawbacks: the syntax is hard to remember, and the…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: Understaffing as a form of enshittification (23 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/22/nobodys-home/",
       "date": "2026-03-23T05:54:55Z",
       "summary": "Today's links Understaffing as a form of enshittification: A way to shift value from workers, patients and shoppers to investors. Hey look at this: Delights to delectate. Object permanence: Marvel v…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Beats now have notes",
-      "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
-      "date": "2026-03-23T02:13:13Z",
-      "summary": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Starlette 1.0 skill",
-      "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
-      "date": "2026-03-23T00:05:00Z",
-      "summary": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Experimenting with Starlette 1.0 with Claude skills",
-      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
-      "date": "2026-03-22T23:57:44Z",
-      "summary": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the…",
-      "source": "simonwillison.net"
     },
     {
       "title": "\"Collaboration\" is bullshit.",
@@ -240,13 +226,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Tighter bounds on alternating series remainder",
-      "link": "https://www.johndcook.com/blog/2026/03/17/alternating-series-remainder/",
-      "date": "2026-03-18T02:50:12Z",
-      "summary": "The alternating series test is part of the standard calculus curriculum. It says that if you truncate an alternating series, the remainder is bounded by the first term that was left out. This fact…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "LLMs predict my coffee",
       "link": "https://dynomight.net/coffee/",
       "date": "2026-03-18T00:00:00Z",
@@ -280,6 +259,27 @@
       "date": "2026-03-16T12:00:00Z",
       "summary": "In chapter 11 of Catch-22 , two captains create a complex set of rules to ensure security in the military. Among them are some absurd requirements just to get food in the mess hall. Everyone knows…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-03-15T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
+    },
+    {
+      "title": "Reading List 03/14/26",
+      "link": "https://www.construction-physics.com/p/reading-list-031426",
+      "date": "2026-03-14T12:02:30Z",
+      "summary": "Closure of the Strait of Hormuz, banning build-to-rent homes in the US, Honda’s EV losses, Travis Kalanick’s new company, Corpus Christi’s water crisis, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Big tech engineers need big egos",
+      "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
+      "date": "2026-03-14T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     }
   ]
 }
