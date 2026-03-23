@@ -43,11 +43,11 @@
     <main class="blog-article-page">
       <section class="section">
         <div class="container reveal blog-article-card">
-          <p class="blog-article-status" id="blog-article-status">Loading post…</p>
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
 
-          <div id="blog-article-shell" hidden>
+          <div id="blog-article-shell">
             <div class="blog-article-header">
-              <h1 class="blog-article-title" id="blog-article-title"></h1>
+              <h1 class="blog-article-title" id="blog-article-title">Contra Payments: The Protocol That Flips the AI Agent Economy on Its Head</h1>
               <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/contra-payments-the-protocol-that-flips-the-ai-agent-economy-on-its-head/" data-share-copy-url="https://kevinarmstrong.io/blog/contra-payments-the-protocol-that-flips-the-ai-agent-economy-on-its-head/">
                 <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
                   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
@@ -77,26 +77,29 @@
             </div>
 
             <p class="blog-article-summary" id="blog-article-summary">Every new agentic protocol announced in the last 12 months has one thing in common: they&#x27;re all about artificial intelligence agents buying stuff or talking to each other. Contra Payments is the first protocol built for </p>
-            <p class="blog-article-meta" id="blog-article-meta"></p>
-            <article class="blog-article-content" id="blog-article-content"></article>
+            <p class="blog-article-meta" id="blog-article-meta">Feb 19, 2026 • payments</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The agentic protocol space has exploded. By now you&#x27;ve probably internalized the core stack: Model Context Protocol (MCP) lets agents talk to tools, Agent-to-Agent (A2A) lets agents coordinate with each other, Agent Communication Protocol (ACP) standardizes that agent-to-agent messaging at the enterprise level, and Universal Commerce Protocol (UCP) handles the full commerce loop when an agent buys something from a merchant. Each protocol solves a real problem in a specific layer of the agentic stack.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;What none of them solve is labor. When an AI agent needs a human to do something — review a design, record a voiceover, write copy that requires genuine creative judgment — there&#x27;s no open standard for how that transaction happens. That&#x27;s the gap Contra Payments is designed to fill.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;What Contra Payments actually is&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Contra is the commission-free freelance network that&#x27;s been connecting independent professionals with companies since 2019. With Contra Payments, they&#x27;re extending that infrastructure to cover AI-to-human payments — specifically, enabling AI agents to programmatically discover, hire, and pay human workers through a standardized protocol layer. Think of it as the hiring and payment rail for the human side of the agentic economy.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The framing from co-founder and Chief Executive Officer (CEO) Ben Huffman is deliberate: every other protocol assumes the agent is the buyer of goods or the delegator of machine tasks. Contra Payments treats humans as a callable resource in an agentic workflow — with the trust, compliance, and payment infrastructure already built.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Where it overlaps with UCP and ACP&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Contra Payments shares structural DNA with both UCP and ACP in a few important ways. &lt;span style=&quot;color:#ffffff&quot;&gt;Like UCP, it&#x27;s fundamentally a commerce protocol — it moves money between parties as the end result of a transaction. Both define discovery mechanisms (how does the agent know what&#x27;s available?), capability negotiation (what can this party do, and under what terms?), and payment execution. UCP does this between agents and merchant systems for goods; Contra Payments does it between agents and human workers for services.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Like ACP, it&#x27;s built around structured, standardized messaging between agents and endpoints. ACP, originally from IBM&#x27;s BeeAI project and now under the Linux Foundation, focuses on agent-to-agent communication using Representational State Transfer (RESTful), Hypertext Transfer Protocol (HTTP)-based interfaces with lifecycle management and asynchronous support. Contra Payments borrows this kind of structured contract model — but the &quot;remote agent&quot; on the other end is a verified human professional, not another AI system.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Where it&#x27;s fundamentally different&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;The core difference is the nature of the counterparty and what that implies architecturally.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;UCP and ACP assume machine-to-machine execution. Once a capability is negotiated and a mandate is signed (in UCP/Agent Payments Protocol (AP2) terms), the transaction is fully autonomous — no human needs to be involved after intent is captured. The whole point is to remove friction from autonomous action.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Contra Payments has to account for the fact that humans have schedules, creative judgment, revision cycles, and deliverables that can&#x27;t be reduced to a JavaScript Object Notation (JSON) response. This means the protocol needs to handle things that UCP never has to think about: scope definition, milestone-based payment release, quality review checkpoints, and dispute resolution. In some ways it&#x27;s closer to a service contract standard than a pure payments protocol.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The other meaningful difference is identity and trust. UCP and ACP operate in an ecosystem where agents authenticate via credentials, Application Programming Interface (API) keys, and cryptographic mandates. Contra Payments operates in a world where the human being a professional with a reputation, portfolio, and verified history is the trust primitive. Contra&#x27;s existing verification infrastructure — work history, client reviews, expert badges — becomes the protocol-level signal that tells the agent this human is worth paying.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Why this matters for indie hackers and founders&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;If you&#x27;re building anything in the agentic space right now, the toolchain question is always &quot;what can I delegate to a machine and what still needs a human?&quot; Contra Payments is a bet that the answer will never be &quot;everything to machines&quot; — and that the infrastructure for the human-in-the-loop layer needs to be just as robust and standardized as MCP or A2A.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;For product builders specifically, this opens up an interesting architecture pattern: an orchestrator agent handles the machine-executable tasks via MCP and delegates human-judgment tasks via Contra Payments, with the full workflow managed programmatically end to end. That&#x27;s a genuinely new capability.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;It&#x27;s early. But so was MCP when Anthropic dropped it in late 2024. The teams that built on it fast are already shipping production multi-agent systems while everyone else is still reading the spec. Pay attention to Contra Payments for the same reason.</p>
+            </article>
             <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
           </div>
-
-          <noscript>
-            <p>
-              JavaScript is required to render the full article content.
-              <a href="/blog/?slug=contra-payments-the-protocol-that-flips-the-ai-agent-economy-on-its-head&amp;from=path">Open article viewer</a>
-            </p>
-          </noscript>
         </div>
       </section>
     </main>
 
     <script defer src="../../analytics.js?v=20260302a"></script>
-    <script src="../../social.js?v=20260301e"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-    <script type="module" src="../blog.js?v=20260322c"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
   </body>
 </html>

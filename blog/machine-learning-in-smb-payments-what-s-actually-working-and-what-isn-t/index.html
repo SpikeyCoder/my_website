@@ -43,11 +43,11 @@
     <main class="blog-article-page">
       <section class="section">
         <div class="container reveal blog-article-card">
-          <p class="blog-article-status" id="blog-article-status">Loading post…</p>
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
 
-          <div id="blog-article-shell" hidden>
+          <div id="blog-article-shell">
             <div class="blog-article-header">
-              <h1 class="blog-article-title" id="blog-article-title"></h1>
+              <h1 class="blog-article-title" id="blog-article-title">Machine Learning in SMB Payments: What’s Actually Working (and What Isn’t)</h1>
               <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/" data-share-copy-url="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/">
                 <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
                   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
@@ -77,26 +77,27 @@
             </div>
 
             <p class="blog-article-summary" id="blog-article-summary">If you’re running payments at an SMB, you’ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here’s what the data from the last three years </p>
-            <p class="blog-article-meta" id="blog-article-meta"></p>
-            <article class="blog-article-content" id="blog-article-content"></article>
+            <p class="blog-article-meta" id="blog-article-meta">Feb 9, 2026 • payments</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>&lt;strong&gt;&lt;span style=&quot;font-size:14px;color:#ffffff&quot;&gt;The Successes: Where ML Delivers&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Fraud detection is where ML has genuinely moved the needle. The U.S. Treasury’s Office of Payment Integrity deployed ML-based fraud detection in FY2024 and prevented $4 billion in fraudulent payments, up from $652.7 million the previous year. That’s a 6x improvement, driven largely by their ML models identifying and prioritizing high-risk transactions in real-time.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;For SMBs, this translates to tangible protection. According to a 2023 Alloy report, 57% of UK and US decision-makers faced direct fraud losses of $500K or more, with 25% losing over $1 million. ML systems combat this by analyzing transaction patterns and adapting to evolving fraud tactics—something rule-based systems can’t do. The technical advantage is clear: ML models learn from new data continuously. Stripe’s Radar system, for instance, leverages network effects where each increase in training data creates outsized improvements in model quality. This matters because fraud patterns evolve daily; static rule engines become obsolete within weeks.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Payment optimization is the second proven use case. ML-powered smart routing reduced onboarding time from 11 minutes in 2023 to a projected 8 minutes by 2028—a 30% decrease that saves banks an estimated 29 million digital onboarding hours, according to Juniper Research. For payment service providers, intelligent routing minimizes costs by selecting optimal transaction paths based on real-time analysis of fees, approval rates, and network conditions.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The cost improvements are measurable. In hospitality, instant payment costs dropped from $1.50 to $0.80 per transaction between late 2023 and 2024. Gaming industry tip payments fell from $1.70 to $1.39. These aren’t marginal gains—they’re 40-50% reductions driven by ML-optimized routing and processing.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Transaction categorization for SMBs has also improved. Recent research on UK SME bank transactions shows ML models using synthetic data generation and zero-shot classification can accurately categorize transactions despite noisy, inconsistent descriptions. This solves a critical problem: helping lenders assess cash flow for the £95 billion UK SME finance gap.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Limitations: Where ML Falls Short&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Implementation costs remain prohibitive for many SMBs. 48% of the smallest SMBs still process ad hoc payments manually, with over one-third citing high costs and perceived complexity as barriers ￼, according to PYMNTS research on delayed payments. The investment in AI technologies hit $35 billion in 2023 with projections to reach $97 billion by 2027—resources that SMBs simply don’t have. The data quality problem is fundamental. ML models require clean, structured data at scale. But SMB transaction data is messy: inconsistent naming, abbreviations, unstructured descriptions. Building models that work with this reality requires extensive feature engineering and domain-specific calibration—expertise most SMBs lack.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Class imbalance creates another technical challenge. Fraudulent transactions represent a tiny fraction of total volume, making it difficult to train models without sophisticated techniques like synthetic oversampling or anomaly detection. Research shows this challenge persists even in 2024, requiring specialized approaches that SMBs can’t easily implement in-house.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The human capital gap is real. A 2023 survey found 72% of financial companies are developing ML solutions, but SMBs struggle to hire data scientists and ML engineers. Unlike enterprises that can build internal teams, SMBs must rely on third-party solutions—which brings its own integration challenges.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;According to PYMNTS Intelligence, 81% of SMBs are open to adopting integrated payment systems, but on average use 2.2 systems to manage operations, with nearly half relying on multiple solutions for B2B payments . This fragmentation makes ML deployment complex: models need to work across disparate systems, each with different data formats and APIs.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Vendor Dependency Problem&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;SMBs adopting ML-powered payments are essentially outsourcing their fraud detection and optimization logic to providers like Stripe, Square, or Adyen. This works—until it doesn’t. Model opacity means you can’t explain why legitimate transactions get flagged, leading to customer friction. And if your provider’s model degrades, you have limited recourse. The latency-accuracy tradeoff is another practical constraint. A Thai case study showed real-time fraud surveillance achieving 86.67% accuracy with sub-5-minute alerts, but this required significant infrastructure investment. SMBs using off-the-shelf solutions must accept whatever balance their provider strikes.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:14px&quot;&gt;&lt;strong&gt;What Actually Makes Sense for SMBs&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Focus on embedded solutions. The data shows 83% of SMBs want embedded financial services through platforms they already use. This makes sense: ML capabilities packaged into your existing accounting software or payment processor eliminate the integration burden. Prioritize fraud detection over optimization. The ROI is clearest here—prevented fraud is immediate value. Payment optimization matters, but it requires transaction volume and data history that many SMBs don’t have. Expect the ecosystem to improve. Processing costs for instant ad hoc payments dropped 32% in 2024, with integration challenges falling from 19% to 7.5% of respondents reporting issues. As ML becomes commoditized, barriers will continue dropping.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Bottom Line&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;ML in SMB payments isn’t hype, but it’s not a panacea either. Fraud detection works and delivers measurable value. Payment optimization shows promise but requires scale. The challenge isn’t the technology—it’s the implementation gap between enterprise-grade ML infrastructure and SMB operational realities.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;The trend is clear: 67% of SMBs are leaning toward FinTechs for payment solutions, betting that specialized providers can deliver ML capabilities without the implementation headaches. That’s probably the right call. Build your core business; let specialists handle the ML.​​​​​​​​​​​​​​​​&lt;/span&gt;</p>
+            </article>
             <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
           </div>
-
-          <noscript>
-            <p>
-              JavaScript is required to render the full article content.
-              <a href="/blog/?slug=machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t&amp;from=path">Open article viewer</a>
-            </p>
-          </noscript>
         </div>
       </section>
     </main>
 
     <script defer src="../../analytics.js?v=20260302a"></script>
-    <script src="../../social.js?v=20260301e"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-    <script type="module" src="../blog.js?v=20260322c"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
   </body>
 </html>

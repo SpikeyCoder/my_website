@@ -43,11 +43,11 @@
     <main class="blog-article-page">
       <section class="section">
         <div class="container reveal blog-article-card">
-          <p class="blog-article-status" id="blog-article-status">Loading post…</p>
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
 
-          <div id="blog-article-shell" hidden>
+          <div id="blog-article-shell">
             <div class="blog-article-header">
-              <h1 class="blog-article-title" id="blog-article-title"></h1>
+              <h1 class="blog-article-title" id="blog-article-title">How To Nail Metric Drop Questions </h1>
               <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/how-to-nail-metric-drop-questions/" data-share-copy-url="https://kevinarmstrong.io/blog/how-to-nail-metric-drop-questions/">
                 <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
                   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
@@ -77,26 +77,44 @@
             </div>
 
             <p class="blog-article-summary" id="blog-article-summary">You&#x27;re mid-interview. The interviewer says: &quot;Our checkout conversion rate dropped 15% last Tuesday. Walk me through how you&#x27;d diagnose it.&quot; Most candidates immediately launch into user behavior theories and seasonality e</p>
-            <p class="blog-article-meta" id="blog-article-meta"></p>
-            <article class="blog-article-content" id="blog-article-content"></article>
+            <p class="blog-article-meta" id="blog-article-meta">Mar 2, 2026 • product</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;What Interviewers Actually Expect&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#D5DEEB&quot;&gt;Execution interviews test whether you can operate under ambiguity and uncertainty. Metric drop questions specifically assess your diagnostic rigor: can you narrow down a problem space without jumping to conclusions?</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;The traditional framing taught in PM prep courses goes something like: define the metric, segment the data, form hypotheses, prioritize by impact, recommend next steps. That structure isn&#x27;t wrong. It&#x27;s just incomplete when applied out of the box, because it treats every metric drop as a product or user behavior problem from the start.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;Strong PMs, especially those operating at mid-level and senior levels, know that a significant percentage of metric anomalies aren&#x27;t caused by users doing anything differently. They&#x27;re caused by broken systems, bad code, or bad data.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Rule Out Technical Causes First&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#D5DEEB&quot;&gt;Before you form any product hypothesis, your first responsibility is to confirm you&#x27;re looking at real signal.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;Think about the common technical failure modes that look exactly like a business problem:</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Bad deployments.&lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt; A code push on Monday evening correlates with a Tuesday morning drop. It happens constantly. Frontend changes can silently break checkout flows, payment form rendering, or CTA button behavior. Backend changes can introduce latency that causes users to abandon your product. Interviewers want to know you&#x27;d immediately ask: &quot;Was there a deployment in the 24–48 hours preceding the drop?&quot;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Instrumentation bugs. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;Your analytics pipeline breaks. Your tracking snippet stops firing. A tag manager configuration changes in the code. Suddenly your funnel reports a 20% drop in conversions, but real conversions haven&#x27;t changed at all. This is arguably the most underappreciated failure mode in PM interviews. You&#x27;re not diagnosing user behavior. Rather, you&#x27;re diagnosing a measurement problem.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;API failures and third-party dependencies. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;Payment processors, identity providers, shipping calculators, fraud detection services- any of these going down or degrading can crater a conversion metric. If Stripe&#x27;s API starts returning errors for 3% of requests, your checkout conversion drops that is statistically significant. That&#x27;s not a product problem. That&#x27;s an ops/vendor problem with a very different resolution path.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Infrastructure incidents.&lt;/strong&gt; &lt;span style=&quot;color:#D5DEEB&quot;&gt;Database slowdowns, CDN misconfigurations, memory leaks after a deployment, DNS issues affecting specific geographic regions. Elevated load times above ~3 seconds correlate strongly with abandonment. A performance regression that&#x27;s invisible in aggregate logs can show up clearly as a drop in conversion.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;Why does this matter for your interview? If you spend 10 minutes building elegant product hypotheses around a data collection bug, you&#x27;ve demonstrated the wrong instinct. Senior PMs are expected to be skeptical of the data before they trust it.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;How a Strong Candidate Structures the Answer&lt;/span&gt;&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;Here&#x27;s a practical framework you can use verbatim:</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Step 1: Validate the data. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;Before anything else, confirm the drop is real. Ask whether there were changes to tracking, analytics instrumentation, or data pipelines around the time of the drop. Check if the drop appears across all data sources (analytics platform, server-side logs, payment processor records) or only in one.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Step 2: Check for technical incidents. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;Ask about recent deployments, infrastructure alerts, error rate changes, and third-party service status. Review error logs for spikes in 4xx/5xx responses, timeout rates, or failed API calls. Specifically look at the time of the drop. Does the timing correlate precisely with a deploy or an infrastructure event?</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Step 3: Segment for technical vs. behavioral signal.&lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt; Break the drop by platform (iOS, Android, web), browser, geography, and device type. A drop that&#x27;s isolated to a single browser version or a single region is almost certainly technical. A drop that&#x27;s uniform across all surfaces is more likely behavioral or market-driven.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Step 4: Only then form product/market hypotheses. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;If you&#x27;ve confirmed data integrity and ruled out technical causes, now you can explore user behavior changes, competitive dynamics, UX regressions, pricing sensitivity, and seasonality.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Weak vs. Strong Response: A Direct Comparison&lt;/span&gt;&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Weak response: &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;&quot;I&#x27;d first look at whether there were any marketing campaigns that ended, then check if competitors launched anything new. I&#x27;d also look at seasonality and see if we had similar drops in prior years. Then I&#x27;d want to A/B test some checkout UX improvements.&quot;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;This candidate went straight to product and market hypotheses. They&#x27;ve assumed the data is good, assumed it&#x27;s a user behavior problem, and jumped to solutions before diagnosing the cause. No interviewer building real products wants this person on their team.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Strong response: &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;&quot;Before I form any hypotheses, I want to make sure we&#x27;re looking at real signal. My first question: were there any code deployments or infrastructure changes in the 24–48 hours before the drop? And did the drop appear in our server-side transaction logs, or only in our analytics dashboards? If it&#x27;s only in dashboards, we may have a tracking issue. If error rates spiked on our payments API around the same time, we&#x27;re looking at a vendor or integration failure, not a user behavior change. Once I&#x27;ve confirmed the data is valid and ruled out technical causes, then I&#x27;d segment by platform and geography to figure out whether this is broad or isolated, and only then start building hypotheses about user behavior or market conditions.&quot;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;The difference is unmistakable. The second candidate is doing systems thinking, not just product thinking.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:22px&quot;&gt;Practical Takeaways&lt;/span&gt;&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Lead with skepticism about the data. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;In your answer, make the first question you ask about data integrity, not user behavior. This signal alone separates candidates who&#x27;ve worked in production systems from those who haven&#x27;t.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Memorize the failure mode categories.&lt;/strong&gt; &lt;span style=&quot;color:#D5DEEB&quot;&gt;Deployments, instrumentation, third-party APIs, infrastructure performance. Cover all four before moving on to the rest of your response.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Use time correlation as a primary filter. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;A drop that starts at a specific timestamp is almost always technical. A gradual decline over days or weeks is more likely behavioral. Train yourself to ask about timing immediately.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Don&#x27;t skip the segmentation step. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;Even if you suspect a technical cause, segmenting by platform and geography confirms it and shows methodical thinking. Interviewers reward rigor.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;&lt;strong&gt;Practice saying &quot;I need to validate the data first&quot; out loud. &lt;/strong&gt;&lt;span style=&quot;color:#D5DEEB&quot;&gt;It feels awkward at first, but it signals credibility to those in the room.</p>
+            <p>&lt;span style=&quot;color:#D5DEEB&quot;&gt;Metric drop questions are one of the highest-signal questions in a PM interview. Getting them right doesn&#x27;t require more creativity, just discipline. Start with the systems, confirm the signal, then earn the right to form a hypothesis.</p>
+            </article>
             <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
           </div>
-
-          <noscript>
-            <p>
-              JavaScript is required to render the full article content.
-              <a href="/blog/?slug=how-to-nail-metric-drop-questions-cab4f4e6&amp;from=path">Open article viewer</a>
-            </p>
-          </noscript>
         </div>
       </section>
     </main>
 
     <script defer src="../../analytics.js?v=20260302a"></script>
-    <script src="../../social.js?v=20260301e"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-    <script type="module" src="../blog.js?v=20260322c"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
   </body>
 </html>
