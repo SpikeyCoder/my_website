@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-03-24T20:20:06.302041Z",
+  "generated_at": "2026-03-24T21:19:24.532019Z",
   "items": [
     {
       "title": "★ What to Do About Those Menu Item Icons in MacOS 26 Tahoe",
       "link": "https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe",
-      "date": "2026-03-24T19:49:34Z",
+      "date": "2026-03-24T21:00:29Z",
       "summary": "If this worked to hide *all* of these cursed little turds smeared across the menu bar items of Apple’s system apps in Tahoe, this hidden preference would be a proverbial pitcher of ice water in hell.…",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Christopher Mims",
+      "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
+      "date": "2026-03-24T20:35:52Z",
+      "summary": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Using FireWire on a Raspberry Pi",
@@ -28,6 +35,13 @@
       "date": "2026-03-24T15:01:35Z",
       "summary": "The previous post looked at an inequality discovered by Dmitri Mendeleev and generalized by Andrey Markov: Theorem (Markov): If P(x) is a real polynomial of degree n, and |P(x)| ≤ 1 on [−1, 1] then…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Windows 95 defenses against installers that overwrite a file with an older version",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260324-00/?p=112159",
+      "date": "2026-03-24T14:00:00Z",
+      "summary": "A very primitive version of recovery. The post Windows 95 defenses against installers that overwrite a file with an older version appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Mendeleev’s inequality",
@@ -77,13 +91,6 @@
       "date": "2026-03-24T00:00:00Z",
       "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
       "source": "ericmigi.com"
-    },
-    {
-      "title": "Quoting Neurotica",
-      "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
-      "date": "2026-03-23T23:31:45Z",
-      "summary": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Gasoline Prices Around the World",
@@ -224,13 +231,6 @@
       "date": "2026-03-20T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Windows stack limit checking retrospective: amd64, also known as x86-64",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260319-00/?p=112152",
-      "date": "2026-03-19T14:00:00Z",
-      "summary": "Reaching the modern day. The post Windows stack limit checking retrospective: amd64, also known as x86-64 appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: Love of corporate bullshit is correlated with bad judgment (19 Mar 2026)",
