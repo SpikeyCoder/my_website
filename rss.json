@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-23T23:15:04.136496Z",
+  "generated_at": "2026-03-24T00:42:04.986917Z",
   "items": [
+    {
+      "title": "[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps",
+      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
+      "date": "2026-03-24T00:05:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Neurotica",
+      "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+      "date": "2026-03-23T23:31:45Z",
+      "summary": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-files 0.1a2",
+      "link": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+      "date": "2026-03-23T23:06:38Z",
+      "summary": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "WWDC 2026: June 8–12",
       "link": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
@@ -21,13 +42,6 @@
       "date": "2026-03-23T18:56:18Z",
       "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense,…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "From the DF Archive, a Decade Ago: ‘The Industry Is Fucked Up’",
-      "link": "https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads",
-      "date": "2026-03-23T18:09:33Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
@@ -56,20 +70,6 @@
       "date": "2026-03-23T05:54:55Z",
       "summary": "Today's links Understaffing as a form of enshittification: A way to shift value from workers, patients and shoppers to investors. Hey look at this: Delights to delectate. Object permanence: Marvel v…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Beats now have notes",
-      "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
-      "date": "2026-03-23T02:13:13Z",
-      "summary": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Starlette 1.0 skill",
-      "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
-      "date": "2026-03-23T00:05:00Z",
-      "summary": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
-      "source": "simonwillison.net"
     },
     {
       "title": "\"Collaboration\" is bullshit.",
