@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-24T12:28:22.152559Z",
+  "generated_at": "2026-03-24T13:38:34.024438Z",
   "items": [
+    {
+      "title": "Mendeleev’s inequality",
+      "link": "https://www.johndcook.com/blog/2026/03/24/mendeleevs-inequality/",
+      "date": "2026-03-24T12:47:32Z",
+      "summary": "Dmitri Mendeleev is best known for creating the first periodic table of chemical elements. He also discovered an interesting mathematical theorem. Empirical research led him to a question about…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Book Review: If We Cannot Go at the Speed of Light by Kim Choyeop ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-if-we-cannot-go-at-the-speed-of-light-by-kim-choyeop/",
+      "date": "2026-03-24T12:34:27Z",
+      "summary": "Short stories offer you the chance to dip briefly into a world and then skip out so there's not much time for development; just straight in to the plot and off we go. But this is all exposition and…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: Goodhart's Law vs \"prediction markets\" (24 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/24/degenerated-gambling/",
@@ -233,13 +247,6 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "A lesser-known characterization of the gamma function",
-      "link": "https://www.johndcook.com/blog/2026/03/18/wielandt/",
-      "date": "2026-03-19T01:21:53Z",
-      "summary": "The gamma function Γ(z) extends the factorial function from integers to complex numbers. (Technically, Γ(z + 1) extends factorial.) There are other ways to extend the factorial function, so what…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Life TV: Video with 2 bits to spare",
       "link": "https://maurycyz.com/projects/lifetv/",
       "date": "2026-03-19T00:00:00Z",
@@ -259,13 +266,6 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "I know, I know, this sounds controversial. But hear me out. A few years ago a new trend in UI design emerged where related elements would appear more and more detached and unrelated to the things…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Finding the right Bottom Hole paper",
-      "link": "https://shkspr.mobi/blog/2026/03/finding-the-right-bottom-hole-paper/",
-      "date": "2026-03-18T12:34:37Z",
-      "summary": "On the 6th of January 1995, viewers of BBC Two were treated to a new series of Waiting for Godot Bottom. Stuck at the top of a Ferris wheel, Vyvyan and the People's Poet Eddie and Ritchie wait to see…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Communication Is Surveillance by Design",
