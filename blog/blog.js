@@ -41,6 +41,37 @@ function stripSlugHashSuffix(value) {
   return String(value || "").replace(/-[a-f0-9]{8}$/i, "");
 }
 
+function slugifyPostTitle(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-{2,}/g, "-")
+    .replace(/^-+|-+$/g, "") || "post";
+}
+
+function buildCanonicalPostSlug(post) {
+  const fromTitle = slugifyPostTitle(post?.title || "");
+  if (fromTitle) return fromTitle;
+  const fromStoredSlug = stripSlugHashSuffix(post?.slug || "");
+  return fromStoredSlug || "post";
+}
+
+function buildCanonicalSlugById(posts) {
+  const counts = new Map();
+  const canonicalById = new Map();
+  for (const post of posts) {
+    const base = buildCanonicalPostSlug(post);
+    const ordinal = (counts.get(base) || 0) + 1;
+    counts.set(base, ordinal);
+    const canonical = ordinal === 1 ? base : `${base}-${ordinal}`;
+    canonicalById.set(String(post.id), canonical);
+  }
+  return canonicalById;
+}
+
 function classifyGoingVeganPost(post) {
   const cleanSlug = stripSlugHashSuffix(post?.slug || "");
   if (GOINGVEGAN_CLEAN_SLUGS.has(cleanSlug)) return true;
@@ -210,6 +241,7 @@ async function loadPost() {
   }
 
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  let canonicalById = new Map();
 
   const { data: exactData, error: exactError } = await supabase
     .from("posts")
@@ -240,12 +272,36 @@ async function loadPost() {
     data = Array.isArray(fallbackRows) && fallbackRows.length ? fallbackRows[0] : null;
   }
 
+  const { data: orderedRows, error: orderedRowsError } = await supabase
+    .from("posts")
+    .select("id,slug,title,summary,content,tags,published_at")
+    .order("published_at", { ascending: false })
+    .limit(200);
+
+  if (orderedRowsError && !data) {
+    statusEl.textContent = `Unable to load post: ${orderedRowsError.message}`;
+    return;
+  }
+
+  if (Array.isArray(orderedRows) && orderedRows.length) {
+    canonicalById = buildCanonicalSlugById(orderedRows);
+
+    if (!data) {
+      const targetSlug = String(slug || "").toLowerCase();
+      data =
+        orderedRows.find((row) => {
+          const canonical = canonicalById.get(String(row.id)) || "";
+          return canonical.toLowerCase() === targetSlug;
+        }) || null;
+    }
+  }
+
   if (!data) {
     redirectToBlogList();
     return;
   }
 
-  const finalSlug = stripSlugHashSuffix(data.slug || slug);
+  const finalSlug = canonicalById.get(String(data.id)) || buildCanonicalPostSlug(data);
   const shouldBeGoingVegan = classifyGoingVeganPost(data);
   if (shouldBeGoingVegan !== ROUTE_CONTEXT.isGoingVegan) {
     const targetBase = shouldBeGoingVegan ? "/goingvegan/blog" : "/blog";

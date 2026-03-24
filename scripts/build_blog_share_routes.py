@@ -6,6 +6,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -60,6 +61,19 @@ def safe_summary(value: str) -> str:
 
 def strip_hash_suffix(slug: str) -> str:
     return re.sub(r"-[a-f0-9]{8}$", "", slug, flags=re.IGNORECASE)
+
+
+def slugify_title(value: str) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = text.lower()
+    text = text.replace("&", " and ")
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    text = re.sub(r"-{2,}", "-", text)
+    return text.strip("-")
 
 
 def normalize_tags(raw_tags: object) -> set[str]:
@@ -419,6 +433,7 @@ def main() -> None:
     expected_gv_slugs: set[str] = set()
     used_blog_slugs: set[str] = set()
     used_gv_slugs: set[str] = set()
+    canonical_counts: dict[str, int] = {}
     generated = 0
 
     for post in posts:
@@ -427,15 +442,22 @@ def main() -> None:
             continue
         seen_original_slugs.add(original_slug)
 
-        canonical_slug = strip_hash_suffix(original_slug)
+        legacy_slug = strip_hash_suffix(original_slug)
+        canonical_base_slug = slugify_title(str(post.get("title") or "")) or legacy_slug or original_slug
+        if not canonical_base_slug:
+            continue
+        ordinal = canonical_counts.get(canonical_base_slug, 0) + 1
+        canonical_counts[canonical_base_slug] = ordinal
+        canonical_slug = canonical_base_slug if ordinal == 1 else f"{canonical_base_slug}-{ordinal}"
         if not canonical_slug:
             continue
 
-        route_slugs = [canonical_slug]
-        if original_slug != canonical_slug:
-            route_slugs.append(original_slug)
+        route_slugs: list[str] = []
+        for candidate in (canonical_slug, legacy_slug, original_slug):
+            if candidate and candidate not in route_slugs:
+                route_slugs.append(candidate)
 
-        is_gv = is_goingvegan_post(post, canonical_slug)
+        is_gv = is_goingvegan_post(post, legacy_slug)
         canonical_base = "/goingvegan/blog" if is_gv else "/blog"
         og_image = resolve_og_image_url(repo_root, original_slug)
         content_html = render_content_html(str(post.get("content") or ""))
