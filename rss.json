@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-03-24T04:43:52.540255Z",
+  "generated_at": "2026-03-24T05:35:32.509672Z",
   "items": [
+    {
+      "title": "Tread carefully, because you tread on my fucks.",
+      "link": "https://www.joanwestenberg.com/tread-carefully-because-you-tread-on-my-fucks/",
+      "date": "2026-03-24T05:33:06Z",
+      "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Streaming experts",
+      "link": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+      "date": "2026-03-24T05:09:03Z",
+      "summary": "I wrote about Dan Woods' experiments with streaming experts the other day , the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
       "date": "2026-03-24T00:05:06Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Pebble Time 2 Is In Mass Production!",
+      "link": "https://repebble.com/blog/pebble-time-2-is-in-mass-production",
+      "date": "2026-03-24T00:00:00Z",
+      "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
+      "source": "ericmigi.com"
     },
     {
       "title": "Quoting Neurotica",
@@ -35,13 +56,6 @@
       "date": "2026-03-23T20:48:19Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Quoting David Abram",
-      "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
-      "date": "2026-03-23T18:56:18Z",
-      "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense,…",
-      "source": "simonwillison.net"
     },
     {
       "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
@@ -247,13 +261,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Marc Andreessen is wrong about introspection",
-      "link": "https://www.joanwestenberg.com/marc-andreessen-is-wrong-about-introspection/",
-      "date": "2026-03-18T06:53:51Z",
-      "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
-      "source": "joanwestenberg.com"
-    },
-    {
       "title": "LLMs predict my coffee",
       "link": "https://dynomight.net/coffee/",
       "date": "2026-03-18T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-17T15:07:57Z",
       "summary": "Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object permanence: Prison for spamming; Dotcom layoffs;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "My homelab will be down for at least 20 days",
-      "link": "https://xeiaso.net/notes/2026/homelab-is-down/",
-      "date": "2026-03-17T00:00:00Z",
-      "summary": "Dang, guess I have to suffer.",
-      "source": "xeiaso.net"
     }
   ]
 }
