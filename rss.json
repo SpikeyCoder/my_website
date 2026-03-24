@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T07:30:04.415412Z",
+  "generated_at": "2026-03-24T08:24:07.166382Z",
   "items": [
     {
       "title": "Tread carefully, because you tread on my fucks.",
@@ -70,6 +70,13 @@
       "date": "2026-03-23T14:00:00Z",
       "summary": "You'll have to ask nicely. The post How can I make sure the anti-malware software doesn’t terminate my custom service? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "The nth War of the Decade",
+      "link": "https://idiallo.com/blog/the-n-war-of-the-decade?src=feed",
+      "date": "2026-03-23T12:00:00Z",
+      "summary": "This is a blog where I talk mostly about programming in the workplace. These past few years the subject has often been AI, because it affects everything. From the hiring process to the very code we…",
+      "source": "idiallo.com"
     },
     {
       "title": "Set intersection and difference at the command line",
@@ -273,13 +280,6 @@
       "date": "2026-03-18T00:00:00Z",
       "summary": "Turns out everything DID NOT go offline somehow. Yay!",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/17/technopolitics/",
-      "date": "2026-03-17T15:07:57Z",
-      "summary": "Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object permanence: Prison for spamming; Dotcom layoffs;…",
-      "source": "pluralistic.net"
     }
   ]
 }
