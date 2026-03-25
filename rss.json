@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-24T23:14:58.352243Z",
+  "generated_at": "2026-03-25T00:47:52.082553Z",
   "items": [
+    {
+      "title": "iOS 26.4",
+      "link": "https://www.macrumors.com/guide/ios-26-4-features/",
+      "date": "2026-03-25T00:40:02Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Auto mode for Claude Code",
+      "link": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+      "date": "2026-03-24T23:57:33Z",
+      "summary": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions : Today, we're introducing auto mode, a new permissions mode in…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ What to Do About Those Menu Item Icons in MacOS 26 Tahoe",
       "link": "https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe",
@@ -35,13 +49,6 @@
       "date": "2026-03-24T16:00:00Z",
       "summary": "After learning Apple killed off FireWire (IEEE 1394) support in macOS 26 Tahoe , I started looking at alternatives for old FireWire equipment like hard drives, DV cameras, and A/V gear. I own an old…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
-      "link": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
-      "date": "2026-03-24T15:07:31Z",
-      "summary": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer The LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a…",
-      "source": "simonwillison.net"
     },
     {
       "title": "From Mendeleev to Fourier",
@@ -84,13 +91,6 @@
       "date": "2026-03-24T05:33:06Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps",
-      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
-      "date": "2026-03-24T00:05:06Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pebble Time 2 Is In Mass Production!",
