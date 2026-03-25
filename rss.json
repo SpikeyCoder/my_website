@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-25T13:38:54.283980Z",
+  "generated_at": "2026-03-25T14:34:58.155085Z",
   "items": [
+    {
+      "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
+      "date": "2026-03-25T14:00:00Z",
+      "summary": "The dialog box lets you change how it waits. The post How can I change a dialog box’s message loop to do a <CODE>Msg­Wait­For­Multiple­Objects</CODE> instead of <CODE>Get­Message</CODE>? appeared…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "The Top 10 Biggest Conspiracies in Open Source",
       "link": "https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html",
@@ -196,13 +203,6 @@
       "date": "2026-03-20T14:00:00Z",
       "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Windows stack limit checking retrospective: arm64, also known as AArch64",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154",
-      "date": "2026-03-20T14:00:00Z",
-      "summary": "Wrapping things up. The post Windows stack limit checking retrospective: arm64, also known as AArch64 appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "I'm OK being left behind, thanks!",
