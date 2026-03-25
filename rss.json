@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-25T18:28:33.101575Z",
+  "generated_at": "2026-03-25T19:23:58.047941Z",
   "items": [
+    {
+      "title": "Improved Analytics in App Store Connect",
+      "link": "https://developer.apple.com/news/?id=hh6v4b55",
+      "date": "2026-03-25T19:16:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "LiteLLM Hack: Were You One of the 47,000?",
       "link": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
@@ -40,13 +47,6 @@
       "title": "WSJ: ‘OpenAI Plans Launch of Desktop “Superapp”’",
       "link": "https://www.wsj.com/tech/openai-plans-launch-of-desktop-superapp-to-refocus-simplify-user-experience-9e19931d?st=25wiu1",
       "date": "2026-03-25T01:01:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "OpenAI Is Closing Sora",
-      "link": "https://x.com/soraofficialapp/status/2036546752535470382",
-      "date": "2026-03-25T00:49:08Z",
       "summary": "",
       "source": "daringfireball.net"
     },
