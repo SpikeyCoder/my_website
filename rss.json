@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-25T16:34:39.566102Z",
+  "generated_at": "2026-03-25T17:28:52.494053Z",
   "items": [
+    {
+      "title": "LiteLLM Hack: Were You One of the 47,000?",
+      "link": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+      "date": "2026-03-25T17:21:04Z",
+      "summary": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
@@ -55,13 +62,6 @@
       "link": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
       "date": "2026-03-24T21:11:38Z",
       "summary": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns , the practice of only installing updated dependencies once they've been…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Christopher Mims",
-      "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
-      "date": "2026-03-24T20:35:52Z",
-      "summary": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon…",
       "source": "simonwillison.net"
     },
     {
