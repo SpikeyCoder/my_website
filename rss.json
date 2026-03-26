@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-03-26T14:40:49.983152Z",
+  "generated_at": "2026-03-26T15:36:37.686771Z",
   "items": [
+    {
+      "title": "The New York Yankees Have the Best Record in Baseball",
+      "link": "https://www.mlb.com/yankees/news/max-fried-yankees-shut-out-giants-on-opening-night-2026",
+      "date": "2026-03-26T15:25:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Yankees Almost Signed Another P.E.D. Cheater",
+      "link": "https://www.mlb.com/news/how-barry-bonds-was-nearly-a-yankee",
+      "date": "2026-03-26T15:19:56Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Mr. Macintosh Explains Another Way to Block the Software Update Prompts for MacOS 26 Tahoe",
+      "link": "https://www.youtube.com/watch?v=uRg1pW8TSYk",
+      "date": "2026-03-26T14:40:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "How much precision can you squeeze out of a table?",
+      "link": "https://www.johndcook.com/blog/2026/03/26/table-precision/",
+      "date": "2026-03-26T14:33:37Z",
+      "summary": "Richard Feynman said that almost everything becomes interesting if you look into it deeply enough. Looking up numbers in a table is certainly not interesting, but it becomes more interesting when you…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Adding human.json to WordPress",
       "link": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
@@ -14,13 +42,6 @@
       "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Improved Analytics in App Store Connect",
-      "link": "https://developer.apple.com/news/?id=hh6v4b55",
-      "date": "2026-03-25T22:36:17Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "datasette-files-s3 0.1a1",
@@ -44,13 +65,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "‘A List of Chain Restaurants Whose Names Contain Unusual Structures’",
-      "link": "https://onefoottsunami.com/2026/03/18/a-list-of-chain-restaurants-whose-names-contain-unusual-structures/",
-      "date": "2026-03-25T19:56:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
       "date": "2026-03-25T14:00:00Z",
@@ -70,13 +84,6 @@
       "date": "2026-03-25T07:08:48Z",
       "summary": "Today's links The cost of doing business: \"Market definition\" is a denial-of-service attack on antitrust law. Hey look at this: Delights to delectate. Object permanence: Union Pacific v model…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Claude Can Now Take Control of Your Mac",
-      "link": "https://claude.com/blog/dispatch-and-computer-use",
-      "date": "2026-03-25T02:01:40Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Using FireWire on a Raspberry Pi",
@@ -154,13 +161,6 @@
       "date": "2026-03-23T12:00:00Z",
       "summary": "This is a blog where I talk mostly about programming in the workplace. These past few years the subject has often been AI, because it affects everything. From the hiring process to the very code we…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Set intersection and difference at the command line",
-      "link": "https://www.johndcook.com/blog/2026/03/23/intersection-difference/",
-      "date": "2026-03-23T11:39:47Z",
-      "summary": "A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two drawbacks: the syntax is hard to remember, and the…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: Understaffing as a form of enshittification (23 Mar 2026)",
