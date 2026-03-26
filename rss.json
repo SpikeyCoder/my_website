@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T23:17:03.491706Z",
+  "generated_at": "2026-03-26T00:50:51.623572Z",
   "items": [
     {
       "title": "Improved Analytics in App Store Connect",
@@ -7,6 +7,13 @@
       "date": "2026-03-25T22:36:17Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-files-s3 0.1a1",
+      "link": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
+      "date": "2026-03-25T21:57:05Z",
+      "summary": "Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release added a mechanism for fetching S3 configuration…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Thoughts on slowing the fuck down",
@@ -28,13 +35,6 @@
       "date": "2026-03-25T19:56:25Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "LiteLLM Hack: Were You One of the 47,000?",
-      "link": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
-      "date": "2026-03-25T17:21:04Z",
-      "summary": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
