@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-03-26T15:36:37.686771Z",
+  "generated_at": "2026-03-26T16:34:21.028720Z",
   "items": [
     {
-      "title": "The New York Yankees Have the Best Record in Baseball",
-      "link": "https://www.mlb.com/yankees/news/max-fried-yankees-shut-out-giants-on-opening-night-2026",
-      "date": "2026-03-26T15:25:03Z",
+      "title": "The Yankees Almost Signed Another P.E.D. Cheater",
+      "link": "https://www.mlb.com/news/how-barry-bonds-was-nearly-a-yankee",
+      "date": "2026-03-26T16:22:56Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "The Yankees Almost Signed Another P.E.D. Cheater",
-      "link": "https://www.mlb.com/news/how-barry-bonds-was-nearly-a-yankee",
-      "date": "2026-03-26T15:19:56Z",
+      "title": "Quantization from the ground up",
+      "link": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+      "date": "2026-03-26T16:21:09Z",
+      "summary": "Quantization from the ground up Sam Rose continues his streak of publishing spectacularly informative interactive essays, this time explaining how quantization of Large Language Models works. Also…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The New York Yankees Have the Best Record in Baseball",
+      "link": "https://www.mlb.com/yankees/news/max-fried-yankees-shut-out-giants-on-opening-night-2026",
+      "date": "2026-03-26T15:25:03Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,6 +35,13 @@
       "date": "2026-03-26T14:33:37Z",
       "summary": "Richard Feynman said that almost everything becomes interesting if you look into it deeply enough. Looking up numbers in a table is certainly not interesting, but it becomes more interesting when you…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Why doesn’t WM_ENTER­IDLE work if the dialog box is a Message­Box?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260326-00/?p=112167",
+      "date": "2026-03-26T14:00:00Z",
+      "summary": "Because it opted out. The post Why doesn’t <CODE>WM_<WBR>ENTER­IDLE</CODE> work if the dialog box is a <CODE>Message­Box</CODE>? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Adding human.json to WordPress",
@@ -55,13 +69,6 @@
       "link": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
       "date": "2026-03-25T21:47:17Z",
       "summary": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-llm 0.1a1",
-      "link": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
-      "date": "2026-03-25T21:24:31Z",
-      "summary": "Release: datasette-llm 0.1a1 New release of the base plugin that makes models from LLM available for use by other Datasette plugins such as datasette-enrichments-llm . New register_llm_purposes()…",
       "source": "simonwillison.net"
     },
     {
@@ -147,13 +154,6 @@
       "date": "2026-03-23T15:43:04Z",
       "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "How can I make sure the anti-malware software doesn’t terminate my custom service?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157",
-      "date": "2026-03-23T14:00:00Z",
-      "summary": "You'll have to ask nicely. The post How can I make sure the anti-malware software doesn’t terminate my custom service? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The nth War of the Decade",
