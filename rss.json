@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-26T22:15:32.259531Z",
+  "generated_at": "2026-03-26T23:13:43.545953Z",
   "items": [
+    {
+      "title": "How we get radicalized in America",
+      "link": "https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed",
+      "date": "2026-03-26T23:11:46Z",
+      "summary": "Be healthy, be young, fall ill. You have a great job of course, you have insurance. It would be ok if the worst thing about health insurance in America was it is hard to navigate. No! The actual…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Members Only: On Cathedral thinking",
+      "link": "https://www.joanwestenberg.com/members-only-on-cathedral-thinking/",
+      "date": "2026-03-26T22:54:35Z",
+      "summary": "",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "You Can Jump Right to the Updates Screen in the App Store App on iOS 26.4",
       "link": "https://daringfireball.net/linked/2026/03/24/ios-264",
@@ -240,13 +254,6 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "Members Only: How do we define our own flourishing?",
-      "link": "https://www.joanwestenberg.com/members-only-how-do-we-define-our-own-flourishing/",
-      "date": "2026-03-20T00:23:59Z",
-      "summary": "Nikolai Kardashev believed we could classify civilisations by the eneregy they harness. The Soviet Astrophysicist proposed three “Types” of civilisation - Type I controls the energy budget of its…",
-      "source": "joanwestenberg.com"
-    },
-    {
       "title": "Some Things Just Take Time",
       "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
       "date": "2026-03-20T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to…",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Related UI elements should not appear unrelated",
-      "link": "https://rakhim.exotext.com/related-ui-elements-should-not-appear-unrelated",
-      "date": "2026-03-19T00:00:00Z",
-      "summary": "I know, I know, this sounds controversial. But hear me out. A few years ago a new trend in UI design emerged where related elements would appear more and more detached and unrelated to the things…",
-      "source": "rakhim.exotext.com"
     }
   ]
 }
