@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-26T19:30:47.451707Z",
+  "generated_at": "2026-03-26T20:16:21.872449Z",
   "items": [
+    {
+      "title": "Lebesgue constants",
+      "link": "https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/",
+      "date": "2026-03-26T20:05:06Z",
+      "summary": "I alluded to Lebesgue constants in the previous post without giving them a name. There I said that the bound on order n interpolation error has the form where h is the spacing between interpolation…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "You Can Jump Right to the Updates Screen in the App Store App on iOS 26.4",
+      "link": "https://daringfireball.net/linked/2026/03/24/ios-264",
+      "date": "2026-03-26T19:35:01Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Disney Drops Vaporware $1B Investment in OpenAI After Sora Got Axed",
       "link": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
@@ -12,13 +26,6 @@
       "title": "Google Brags About Android Web Browser Benchmark Scores on Unnamed Devices; Gullible Reporters Fall for It",
       "link": "https://blog.chromium.org/2026/03/android-sets-new-record-for-mobile-web.html",
       "date": "2026-03-26T19:08:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "NYT: ‘Melania Trump Appears With a Robot, Saying More Children Should Be Educated by Them’",
-      "link": "https://www.nytimes.com/2026/03/25/us/politics/melania-trump-robot.html?smid=nytcore-ios-share",
-      "date": "2026-03-26T18:10:56Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -112,13 +119,6 @@
       "date": "2026-03-24T14:00:00Z",
       "summary": "A very primitive version of recovery. The post Windows 95 defenses against installers that overwrite a file with an older version appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Mendeleev’s inequality",
-      "link": "https://www.johndcook.com/blog/2026/03/24/mendeleevs-inequality/",
-      "date": "2026-03-24T12:47:32Z",
-      "summary": "Dmitri Mendeleev is best known for creating the first periodic table of chemical elements. He also discovered an interesting mathematical theorem. Empirical research led him to a question about…",
-      "source": "johndcook.com"
     },
     {
       "title": "Book Review: If We Cannot Go at the Speed of Light by Kim Choyeop ★★☆☆☆",
