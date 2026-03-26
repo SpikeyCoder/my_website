@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-26T12:31:18.662397Z",
+  "generated_at": "2026-03-26T13:38:07.994721Z",
   "items": [
+    {
+      "title": "Adding human.json to WordPress",
+      "link": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
+      "date": "2026-03-26T12:34:52Z",
+      "summary": "Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say \"I, Alice, know and trust Bob\". Bob can say \"I know and trust Alice. I also know and trust Carl.\" That…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Engineers do get promoted for writing simple code",
       "link": "https://seangoedecke.com/simple-work-gets-rewarded/",
@@ -210,13 +217,6 @@
       "date": "2026-03-20T14:00:00Z",
       "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "I'm OK being left behind, thanks!",
-      "link": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
-      "date": "2026-03-20T12:34:02Z",
-      "summary": "Many years ago, someone tried to get me into cryptocurrencies. \"They're the future of money!\" they said. I replied saying that I'd rather wait until they were more useful, less volatile, easier to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Why Is Everyone Supposed to Die If Machines Can Think?",
