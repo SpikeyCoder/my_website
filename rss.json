@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-26T08:26:49.530728Z",
+  "generated_at": "2026-03-26T09:29:15.614666Z",
   "items": [
+    {
+      "title": "Engineers do get promoted for writing simple code",
+      "link": "https://seangoedecke.com/simple-work-gets-rewarded/",
+      "date": "2026-03-26T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
     {
       "title": "Improved Analytics in App Store Connect",
       "link": "https://developer.apple.com/news/?id=hh6v4b55",
@@ -273,13 +280,6 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "I know, I know, this sounds controversial. But hear me out. A few years ago a new trend in UI design emerged where related elements would appear more and more detached and unrelated to the things…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Communication Is Surveillance by Design",
-      "link": "https://idiallo.com/blog/communication-is-surveillance-by-design?src=feed",
-      "date": "2026-03-18T12:00:00Z",
-      "summary": "In the very last scene of The Bourne Supremacy , Jason Bourne calls the CIA from what they presume is a public phone. Landy, who answers the call, instructs her team to trace it. Bourne says he wants…",
-      "source": "idiallo.com"
     }
   ]
 }
