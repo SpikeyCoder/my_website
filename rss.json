@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-03-27T20:17:16.070085Z",
+  "generated_at": "2026-03-27T21:17:05.662713Z",
   "items": [
+    {
+      "title": "Vibe coding SwiftUI apps is a lot of fun",
+      "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
+      "date": "2026-03-27T20:59:53Z",
+      "summary": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "★ Apple Giveth, Apple Taketh Away",
+      "link": "https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away",
+      "date": "2026-03-27T20:58:23Z",
+      "summary": "Safari is no longer breaking my menu-item-icon despising heart on MacOS 26 Tahoe, but the best trick to block the Tahoe “upgrade” notice on MacOS 15 Sequoia no longer works.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "“Good Taste” Is Just Experience",
       "link": "https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/",
       "date": "2026-03-27T19:35:32Z",
       "summary": "What people call \"good taste\" is really just experience earned through reps. Stop making it sound innate.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "You Can Jump Right to the Updates Screen in the App Store App on iOS 26.4",
-      "link": "https://daringfireball.net/linked/2026/03/24/ios-264",
-      "date": "2026-03-27T19:06:02Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "An AI Odyssey, Part 3: Lost Needle in the Haystack",
@@ -98,13 +105,6 @@
       "date": "2026-03-26T20:05:06Z",
       "summary": "I alluded to Lebesgue constants in the previous post without giving them a name. There I said that the bound on order n interpolation error has the form where h is the spacing between interpolation…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quantization from the ground up",
-      "link": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
-      "date": "2026-03-26T16:21:09Z",
-      "summary": "Quantization from the ground up Sam Rose continues his streak of publishing spectacularly informative interactive essays, this time explaining how quantization of Large Language Models works (which…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Why doesn’t WM_ENTER­IDLE work if the dialog box is a Message­Box?",
