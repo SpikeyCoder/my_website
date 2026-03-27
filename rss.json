@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-27T00:51:16.577378Z",
+  "generated_at": "2026-03-27T01:42:48.293824Z",
   "items": [
+    {
+      "title": "Apple Discontinues the Mac Pro With No Plans to Bring It Back",
+      "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+      "date": "2026-03-27T01:19:43Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
       "link": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
@@ -49,13 +56,6 @@
       "date": "2026-03-26T20:05:06Z",
       "summary": "I alluded to Lebesgue constants in the previous post without giving them a name. There I said that the bound on order n interpolation error has the form where h is the spacing between interpolation…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Disney Drops Vaporware $1B Investment in OpenAI After Sora Got Axed",
-      "link": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
-      "date": "2026-03-26T19:26:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Quantization from the ground up",
