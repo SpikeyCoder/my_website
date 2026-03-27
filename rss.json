@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-27T21:17:05.662713Z",
+  "generated_at": "2026-03-27T22:13:40.192146Z",
   "items": [
+    {
+      "title": "Quoting Richard Fontana",
+      "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
+      "date": "2026-03-27T21:11:17Z",
+      "summary": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistence…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Vibe coding SwiftUI apps is a lot of fun",
       "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
@@ -72,13 +79,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "My minute-by-minute response to the LiteLLM malware attack",
-      "link": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
-      "date": "2026-03-26T23:58:22Z",
-      "summary": "My minute-by-minute response to the LiteLLM malware attack Callum McMahon reported the LiteLLM malware attack to PyPI. Here he shares the Claude transcripts he used to help him confirm the…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "How we get radicalized in America",
       "link": "https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed",
       "date": "2026-03-26T23:11:46Z",
@@ -112,13 +112,6 @@
       "date": "2026-03-26T14:00:00Z",
       "summary": "Because it opted out. The post Why doesn’t <CODE>WM_<WBR>ENTER­IDLE</CODE> work if the dialog box is a <CODE>Message­Box</CODE>? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Adding human.json to WordPress",
-      "link": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
-      "date": "2026-03-26T12:34:52Z",
-      "summary": "Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say \"I, Alice, know and trust Bob\". Bob can say \"I know and trust Alice. I also know and trust Carl.\" That…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Engineers do get promoted for writing simple code",
@@ -161,13 +154,6 @@
       "date": "2026-03-24T14:00:00Z",
       "summary": "A very primitive version of recovery. The post Windows 95 defenses against installers that overwrite a file with an older version appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: If We Cannot Go at the Speed of Light by Kim Choyeop ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-if-we-cannot-go-at-the-speed-of-light-by-kim-choyeop/",
-      "date": "2026-03-24T12:34:27Z",
-      "summary": "Short stories offer you the chance to dip briefly into a world and then skip out so there's not much time for development; just straight in to the plot and off we go. But this is all exposition and…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Goodhart's Law vs \"prediction markets\" (24 Mar 2026)",
@@ -217,13 +203,6 @@
       "date": "2026-03-22T23:31:25Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Bored of eating your own dogfood? Try smelling your own farts!",
-      "link": "https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/",
-      "date": "2026-03-22T12:34:07Z",
-      "summary": "I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my account online? And would I like to receive a link…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "All tests pass: a short story",
@@ -280,6 +259,27 @@
       "date": "2026-03-20T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "How Much Computing Power is in a Data Center?",
+      "link": "https://www.construction-physics.com/p/how-much-computing-power-is-in-a",
+      "date": "2026-03-19T12:01:33Z",
+      "summary": "Every day there’s some new story about the enormous amounts of investment in building AI data centers.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Life TV: Video with 2 bits to spare",
+      "link": "https://maurycyz.com/projects/lifetv/",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except that it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "Consensus Board Game",
+      "link": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to…",
+      "source": "matklad.github.io"
     }
   ]
 }
