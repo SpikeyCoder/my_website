@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-27T11:22:13.363025Z",
+  "generated_at": "2026-03-27T12:24:49.853206Z",
   "items": [
+    {
+      "title": "The Age of the Amplifier",
+      "link": "https://www.construction-physics.com/p/the-age-of-the-amplifier",
+      "date": "2026-03-27T12:00:44Z",
+      "summary": "As we’ve noted more than a few times before, for most of the 20th century AT&T’s Bell Labs was the premier industrial research lab in the US.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Sharing a Name",
+      "link": "https://idiallo.com/blog/sharing-a-name?src=feed",
+      "date": "2026-03-27T12:00:00Z",
+      "summary": "My bank card never arrived. I called the bank and, after being redirected through several departments, was assured that it had been mailed. Then we argued a bit about what \"7 to 10 business days\"…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Computing sine and cosine of complex arguments with only real functions",
+      "link": "https://www.johndcook.com/blog/2026/03/27/complex-argument/",
+      "date": "2026-03-27T11:33:04Z",
+      "summary": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using Python, for example, and you don’t have NumPy…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Apple Discontinues the Mac Pro With No Plans to Bring It Back",
       "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
@@ -121,13 +142,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "From Mendeleev to Fourier",
-      "link": "https://www.johndcook.com/blog/2026/03/24/from-mendeleev-to-fourier/",
-      "date": "2026-03-24T15:01:35Z",
-      "summary": "The previous post looked at an inequality discovered by Dmitri Mendeleev and generalized by Andrey Markov: Theorem (Markov): If P(x) is a real polynomial of degree n, and |P(x)| ≤ 1 on [−1, 1] then…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Windows 95 defenses against installers that overwrite a file with an older version",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260324-00/?p=112159",
       "date": "2026-03-24T14:00:00Z",
@@ -233,13 +247,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Why Is Everyone Supposed to Die If Machines Can Think?",
-      "link": "https://idiallo.com/blog/everyone-is-supposed-to-die-when-machines-can-think?src=feed",
-      "date": "2026-03-20T12:00:00Z",
-      "summary": "If you only listen to spokespersons for AI companies, you'll have a skewed view of how AI is actually being integrated into the workplace. You probably don't need to convince a developer to include…",
-      "source": "idiallo.com"
-    },
-    {
       "title": "Package Manager Mirroring",
       "link": "https://nesbitt.io/2026/03/20/package-manager-mirroring.html",
       "date": "2026-03-20T10:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-19T00:00:00Z",
       "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except that it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Consensus Board Game",
-      "link": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
-      "date": "2026-03-19T00:00:00Z",
-      "summary": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to…",
-      "source": "matklad.github.io"
     }
   ]
 }
