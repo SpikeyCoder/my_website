@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-27T19:21:51.677771Z",
+  "generated_at": "2026-03-27T20:17:16.070085Z",
   "items": [
+    {
+      "title": "“Good Taste” Is Just Experience",
+      "link": "https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/",
+      "date": "2026-03-27T19:35:32Z",
+      "summary": "What people call \"good taste\" is really just experience earned through reps. Stop making it sound innate.",
+      "source": "terriblesoftware.org"
+    },
     {
       "title": "You Can Jump Right to the Updates Screen in the App Store App on iOS 26.4",
       "link": "https://daringfireball.net/linked/2026/03/24/ios-264",
@@ -273,13 +280,6 @@
       "date": "2026-03-20T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "How Much Computing Power is in a Data Center?",
-      "link": "https://www.construction-physics.com/p/how-much-computing-power-is-in-a",
-      "date": "2026-03-19T12:01:33Z",
-      "summary": "Every day there’s some new story about the enormous amounts of investment in building AI data centers.",
-      "source": "construction-physics.com"
     }
   ]
 }
