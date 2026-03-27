@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-27T14:28:32.020893Z",
+  "generated_at": "2026-03-27T15:23:46.828312Z",
   "items": [
+    {
+      "title": "Apple Discontinues the Mac Pro With No Plans to Bring It Back",
+      "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+      "date": "2026-03-27T14:52:23Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Bring back MiniDV with this Raspberry Pi FireWire HAT",
       "link": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
@@ -28,13 +35,6 @@
       "date": "2026-03-27T11:33:04Z",
       "summary": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using Python, for example, and you don’t have NumPy…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Apple Discontinues the Mac Pro With No Plans to Bring It Back",
-      "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
-      "date": "2026-03-27T02:29:41Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
