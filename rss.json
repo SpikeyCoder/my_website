@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-27T13:36:51.337754Z",
+  "generated_at": "2026-03-27T14:28:32.020893Z",
   "items": [
+    {
+      "title": "Bring back MiniDV with this Raspberry Pi FireWire HAT",
+      "link": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
+      "date": "2026-03-27T14:00:00Z",
+      "summary": "In my last post, I showed you to use FireWire on a Raspberry Pi with a PCI Express IEEE 1394 adapter. Now I'll show you how I'm using a new FireWire HAT and a PiSugar3 Plus battery to make a portable…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "The Age of the Amplifier",
       "link": "https://www.construction-physics.com/p/the-age-of-the-amplifier",
@@ -273,13 +280,6 @@
       "date": "2026-03-19T12:01:33Z",
       "summary": "Every day there’s some new story about the enormous amounts of investment in building AI data centers.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Life TV: Video with 2 bits to spare",
-      "link": "https://maurycyz.com/projects/lifetv/",
-      "date": "2026-03-19T00:00:00Z",
-      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except that it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted…",
-      "source": "maurycyz.com"
     }
   ]
 }
