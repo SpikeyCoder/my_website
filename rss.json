@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-26T23:13:43.545953Z",
+  "generated_at": "2026-03-27T00:51:16.577378Z",
   "items": [
+    {
+      "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "link": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+      "date": "2026-03-27T00:35:01Z",
+      "summary": "We Rewrote JSONata with AI in a Day, Saved $500K/Year Bit of a hyperbolic framing but this looks like another case study of vibe-porting , this time spinning up a new custom Go implementation of the…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "My minute-by-minute response to the LiteLLM malware attack",
+      "link": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
+      "date": "2026-03-26T23:58:22Z",
+      "summary": "My minute-by-minute response to the LiteLLM malware attack Callum McMahon reported the LiteLLM malware attack to PyPI. Here he shares the Claude transcripts he used to help him confirm the…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "How we get radicalized in America",
       "link": "https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed",
@@ -77,20 +91,6 @@
       "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "datasette-files-s3 0.1a1",
-      "link": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
-      "date": "2026-03-25T21:57:05Z",
-      "summary": "Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release added a mechanism for fetching S3 configuration…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Thoughts on slowing the fuck down",
-      "link": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
-      "date": "2026-03-25T21:47:17Z",
-      "summary": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
