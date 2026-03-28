@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-27T23:15:55.825178Z",
+  "generated_at": "2026-03-28T00:46:46.899053Z",
   "items": [
+    {
+      "title": "Apple Announces Ads Are Coming to Apple Maps",
+      "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+      "date": "2026-03-28T00:19:31Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple Says It’s Not Aware of Lockdown Mode Ever Having Been Exploited",
+      "link": "https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked-with-spyware/",
+      "date": "2026-03-28T00:18:35Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Netflix Raises Prices Again",
+      "link": "https://variety.com/2026/tv/news/why-netflix-hiked-prices-explained-chart-1236701365/",
+      "date": "2026-03-27T23:45:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Quoting Richard Fontana",
       "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
@@ -16,13 +37,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "★ Apple Giveth, Apple Taketh Away",
-      "link": "https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away",
-      "date": "2026-03-27T20:58:23Z",
-      "summary": "Safari is no longer breaking my menu-item-icon despising heart on MacOS 26 Tahoe, but the best trick to block the Tahoe “upgrade” notice on MacOS 15 Sequoia no longer works.",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "“Good Taste” Is Just Experience",
       "link": "https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/",
       "date": "2026-03-27T19:35:32Z",
@@ -35,13 +49,6 @@
       "date": "2026-03-27T16:06:18Z",
       "summary": "While shopping on a major e-commerce site, I wanted to get an answer to an obscure question about a certain product. Not finding the answer immediately on the product page, I thought I’d try clicking…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Apple Discontinues the Mac Pro With No Plans to Bring It Back",
-      "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
-      "date": "2026-03-27T14:52:23Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Bring back MiniDV with this Raspberry Pi FireWire HAT",
@@ -98,13 +105,6 @@
       "date": "2026-03-26T22:54:35Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "The Apple Charging Situation",
-      "link": "https://randsinrepose.com/guides/apple-charging-guide.html",
-      "date": "2026-03-26T20:20:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Lebesgue constants",
