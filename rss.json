@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-28T01:41:19.460395Z",
+  "generated_at": "2026-03-28T03:11:26.551443Z",
   "items": [
     {
-      "title": "Business Insider’s Subscriber Spiral",
-      "link": "https://www.status.news/p/business-insider-subscription-decline-data",
-      "date": "2026-03-28T00:48:15Z",
+      "title": "Apple Announces Ads Are Coming to Apple Maps",
+      "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+      "date": "2026-03-28T01:40:07Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Apple Announces Ads Are Coming to Apple Maps",
-      "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
-      "date": "2026-03-28T00:19:31Z",
+      "title": "Business Insider’s Subscriber Spiral",
+      "link": "https://www.status.news/p/business-insider-subscription-decline-data",
+      "date": "2026-03-28T00:48:15Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -91,6 +91,13 @@
       "date": "2026-03-27T11:33:04Z",
       "summary": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using Python, for example, and you don’t have NumPy…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Working on products people hate",
+      "link": "https://seangoedecke.com/working-on-products-people-hate/",
+      "date": "2026-03-27T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "How we get radicalized in America",
@@ -273,13 +280,6 @@
       "date": "2026-03-20T00:49:19Z",
       "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Some Things Just Take Time",
-      "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
-      "date": "2026-03-20T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
