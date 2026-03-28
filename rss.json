@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-03-28T08:19:15.046782Z",
+  "generated_at": "2026-03-28T09:18:32.626463Z",
   "items": [
-    {
-      "title": "Apple Announces Ads Are Coming to Apple Maps",
-      "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
-      "date": "2026-03-28T01:40:07Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Business Insider’s Subscriber Spiral",
-      "link": "https://www.status.news/p/business-insider-subscription-decline-data",
-      "date": "2026-03-28T00:48:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Says It’s Not Aware of Lockdown Mode Ever Having Been Exploited",
-      "link": "https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked-with-spyware/",
-      "date": "2026-03-28T00:18:35Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
     {
       "title": "datasette-showboat 0.1a2",
       "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
@@ -280,6 +259,27 @@
       "date": "2026-03-20T00:49:19Z",
       "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
       "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Some Things Just Take Time",
+      "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "date": "2026-03-20T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "How Much Computing Power is in a Data Center?",
+      "link": "https://www.construction-physics.com/p/how-much-computing-power-is-in-a",
+      "date": "2026-03-19T12:01:33Z",
+      "summary": "Every day there’s some new story about the enormous amounts of investment in building AI data centers.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Life TV: Video with 2 bits to spare",
+      "link": "https://maurycyz.com/projects/lifetv/",
+      "date": "2026-03-19T00:00:00Z",
+      "summary": "The Sony FD-30A has a very weird display: On the surface, it looks like a normal CRT, except that it's impossibly thin: the whole device is just under 4 cm thick. To do this, the tube is mounted…",
+      "source": "maurycyz.com"
     }
   ]
 }
