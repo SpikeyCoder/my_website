@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-28T15:14:23.732680Z",
+  "generated_at": "2026-03-28T16:14:31.888559Z",
   "items": [
+    {
+      "title": "Netflix Wrecked Their tvOS Video Player",
+      "link": "https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/",
+      "date": "2026-03-28T15:54:55Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Trump Is Putting His Signature on U.S. Currency",
+      "link": "https://www.nytimes.com/2026/03/26/us/politics/trump-signature-us-dollars.html",
+      "date": "2026-03-28T15:24:21Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "New York Post: ‘Trump Considers Renaming Strait of Hormuz’",
       "link": "https://nypost.com/2026/03/27/us-news/trump-considers-renaming-strait-of-hormuz-after-either-america-or-himself-once-he-evicts-iran/",
@@ -28,20 +42,6 @@
       "date": "2026-03-28T12:02:28Z",
       "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Business Insider’s Subscriber Spiral",
-      "link": "https://www.status.news/p/business-insider-subscription-decline-data",
-      "date": "2026-03-28T00:48:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Says It’s Not Aware of Lockdown Mode Ever Having Been Exploited",
-      "link": "https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked-with-spyware/",
-      "date": "2026-03-28T00:18:35Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "datasette-showboat 0.1a2",
