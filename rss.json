@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-28T00:46:46.899053Z",
+  "generated_at": "2026-03-28T01:41:19.460395Z",
   "items": [
+    {
+      "title": "Business Insider’s Subscriber Spiral",
+      "link": "https://www.status.news/p/business-insider-subscription-decline-data",
+      "date": "2026-03-28T00:48:15Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Apple Announces Ads Are Coming to Apple Maps",
       "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
@@ -16,11 +23,11 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Netflix Raises Prices Again",
-      "link": "https://variety.com/2026/tv/news/why-netflix-hiked-prices-explained-chart-1236701365/",
-      "date": "2026-03-27T23:45:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "datasette-showboat 0.1a2",
+      "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
+      "date": "2026-03-27T23:42:47Z",
+      "summary": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.",
+      "source": "simonwillison.net"
     },
     {
       "title": "Quoting Richard Fontana",
@@ -84,13 +91,6 @@
       "date": "2026-03-27T11:33:04Z",
       "summary": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using Python, for example, and you don’t have NumPy…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
-      "link": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
-      "date": "2026-03-27T00:35:01Z",
-      "summary": "We Rewrote JSONata with AI in a Day, Saved $500K/Year Bit of a hyperbolic framing but this looks like another case study of vibe porting , this time spinning up a new custom Go implementation of the…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How we get radicalized in America",
