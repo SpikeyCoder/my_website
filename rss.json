@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-28T11:12:37.798866Z",
+  "generated_at": "2026-03-28T12:20:18.383303Z",
   "items": [
+    {
+      "title": "Quoting Matt Webb",
+      "link": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+      "date": "2026-03-28T12:04:26Z",
+      "summary": "The thing about agentic coding is that agents grind problems into dust. Give an agent a problem and a while loop and - long term - it’ll solve that problem even if it means burning a trillion tokens…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Reading List 03/28/26",
+      "link": "https://www.construction-physics.com/p/reading-list-032826",
+      "date": "2026-03-28T12:02:28Z",
+      "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "Apple Announces Ads Are Coming to Apple Maps",
       "link": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
@@ -34,13 +48,6 @@
       "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
       "date": "2026-03-27T21:11:17Z",
       "summary": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistence…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Vibe coding SwiftUI apps is a lot of fun",
-      "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
-      "date": "2026-03-27T20:59:53Z",
-      "summary": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some…",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-03-20T10:00:00Z",
       "summary": "Every mirroring tool I could find, and the protocols underneath them.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-      "date": "2026-03-20T00:49:19Z",
-      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
