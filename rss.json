@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-03-29T19:17:24.874927Z",
+  "generated_at": "2026-03-29T20:13:16.028464Z",
   "items": [
+    {
+      "title": "The Verge: ‘Rank the Best Apple Products From the Last 50 Years’",
+      "link": "https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products",
+      "date": "2026-03-29T20:11:49Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Pretext",
+      "link": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+      "date": "2026-03-29T20:08:45Z",
+      "summary": "Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library. Pretext solves the problem of calculating the…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Pretext — Under the Hood",
+      "link": "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything",
+      "date": "2026-03-29T19:59:28Z",
+      "summary": "Tool: Pretext — Under the Hood See my notes on Pretext here .",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The Talk Show: ‘You’re Going to Have the Niggles’",
+      "link": "https://daringfireball.net/thetalkshow/2026/03/29/ep-444",
+      "date": "2026-03-29T19:28:57Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Python Vulnerability Lookup",
       "link": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
@@ -30,20 +58,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Apple Should Set and Enforce Some Basic Standards for Custom Video Players on tvOS",
-      "link": "https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv",
-      "date": "2026-03-28T23:25:48Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘How Apple Became Apple: The Definitive Oral History of the Company’s Earliest Days’",
-      "link": "https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl",
-      "date": "2026-03-28T22:18:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "OpenBenches hits 40k",
       "link": "https://shkspr.mobi/blog/2026/03/openbenches-hits-40k/",
       "date": "2026-03-28T12:34:11Z",
@@ -51,25 +65,11 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Quoting Matt Webb",
-      "link": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
-      "date": "2026-03-28T12:04:26Z",
-      "summary": "The thing about agentic coding is that agents grind problems into dust. Give an agent a problem and a while loop and - long term - it’ll solve that problem even if it means burning a trillion tokens…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Reading List 03/28/26",
       "link": "https://www.construction-physics.com/p/reading-list-032826",
       "date": "2026-03-28T12:02:28Z",
       "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "datasette-showboat 0.1a2",
-      "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
-      "date": "2026-03-27T23:42:47Z",
-      "summary": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.",
-      "source": "simonwillison.net"
     },
     {
       "title": "“Good Taste” Is Just Experience",
