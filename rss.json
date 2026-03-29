@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-29T15:14:17.956891Z",
+  "generated_at": "2026-03-29T16:15:04.169664Z",
   "items": [
+    {
+      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+      "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
+      "date": "2026-03-29T16:06:54.948000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
     {
       "title": "The Roles of Packages",
       "link": "https://nesbitt.io/2026/03/29/the-roles-of-packages.html",
@@ -273,13 +280,6 @@
       "date": "2026-03-21T10:00:00Z",
       "summary": "A practical guide to getting the engagement your project deserves.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "The best laptop Apple ever made",
-      "link": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
-      "date": "2026-03-20T14:00:00Z",
-      "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
