@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-29T18:17:36.207225Z",
+  "generated_at": "2026-03-29T19:17:24.874927Z",
   "items": [
+    {
+      "title": "Python Vulnerability Lookup",
+      "link": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
+      "date": "2026-03-29T18:46:16Z",
+      "summary": "Tool: Python Vulnerability Lookup I learned that the OSV.dev open source vulnerability database has an open CORS JSON API so I had Claude Code build this HTML tool for pasting in a pyproject.toml or…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
       "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
@@ -62,13 +69,6 @@
       "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
       "date": "2026-03-27T23:42:47Z",
       "summary": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Richard Fontana",
-      "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
-      "date": "2026-03-27T21:11:17Z",
-      "summary": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistence…",
       "source": "simonwillison.net"
     },
     {
