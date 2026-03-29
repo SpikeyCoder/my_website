@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-29T10:16:07.364847Z",
+  "generated_at": "2026-03-29T11:13:28.455435Z",
   "items": [
+    {
+      "title": "The Roles of Packages",
+      "link": "https://nesbitt.io/2026/03/29/the-roles-of-packages.html",
+      "date": "2026-03-29T10:00:00Z",
+      "summary": "Applying Sajaniemi's roles of variables to packages across every kind of package manager.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "The 2019 Intel Mac Pro’s Unfortunate Timing",
       "link": "https://512pixels.net/2026/03/how-apple-could-have-saved-the-mac-pro/",
@@ -273,13 +280,6 @@
       "date": "2026-03-20T14:00:00Z",
       "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Package Manager Mirroring",
-      "link": "https://nesbitt.io/2026/03/20/package-manager-mirroring.html",
-      "date": "2026-03-20T10:00:00Z",
-      "summary": "Every mirroring tool I could find, and the protocols underneath them.",
-      "source": "nesbitt.io"
     }
   ]
 }
