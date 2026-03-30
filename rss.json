@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-30T16:30:19.510774Z",
+  "generated_at": "2026-03-30T17:25:52.761244Z",
   "items": [
+    {
+      "title": "‘The Brand Age’",
+      "link": "https://paulgraham.com/brandage.html",
+      "date": "2026-03-30T16:47:02Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Macs of Unusual Size",
       "link": "https://scottknaster.substack.com/p/macs-of-unusual-size",
@@ -28,6 +35,13 @@
       "date": "2026-03-30T11:34:35Z",
       "summary": "There is no such thing as the Vitamin String Quartet. They're an ever-changing line-up of musicians who have found an excellent schtick; modern songs played like classical music. Somehow they've…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "Git Diff Drivers",
+      "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
+      "date": "2026-03-30T10:00:00Z",
+      "summary": "What git's diff drivers can do, from built-in language support to custom textconv filters.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Notes on going solo: celebrating 6 years of Studio Self",
@@ -58,13 +72,6 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "The Talk Show: ‘You’re Going to Have the Niggles’",
-      "link": "https://daringfireball.net/thetalkshow/2026/03/29/ep-444",
-      "date": "2026-03-29T20:52:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "WorkOS",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
       "date": "2026-03-29T20:50:17Z",
@@ -77,6 +84,13 @@
       "date": "2026-03-29T20:08:45Z",
       "summary": "Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library. Pretext solves the problem of calculating the…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "The Roles of Packages",
+      "link": "https://nesbitt.io/2026/03/29/the-roles-of-packages.html",
+      "date": "2026-03-29T10:00:00Z",
+      "summary": "Applying Sajaniemi's roles of variables to packages across every kind of package manager.",
+      "source": "nesbitt.io"
     },
     {
       "title": "OpenBenches hits 40k",
@@ -198,6 +212,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "The Top 10 Biggest Conspiracies in Open Source",
+      "link": "https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html",
+      "date": "2026-03-25T10:00:00Z",
+      "summary": "I'm not connecting these dots. I'm just pointing out that the dots are there.",
+      "source": "nesbitt.io"
+    },
+    {
       "title": "Pluralistic: The cost of doing business (25 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/25/fact-intensive/",
       "date": "2026-03-25T07:08:48Z",
@@ -259,27 +280,6 @@
       "date": "2026-03-22T00:00:00Z",
       "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 03/21/26",
-      "link": "https://www.construction-physics.com/p/reading-list-032126",
-      "date": "2026-03-21T12:03:50Z",
-      "summary": "Damage to the Ras Laffan LNG facility, housing bubble risks, North Korea’s naval production, Bezos’ $100 billion for manufacturing automation, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "The best laptop Apple ever made",
-      "link": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
-      "date": "2026-03-20T14:00:00Z",
-      "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-      "date": "2026-03-20T00:49:19Z",
-      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
