@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-30T09:42:13.824440Z",
+  "generated_at": "2026-03-30T10:37:10.321130Z",
   "items": [
+    {
+      "title": "Git Diff Drivers",
+      "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
+      "date": "2026-03-30T10:00:00Z",
+      "summary": "What git's diff drivers can do, from built-in language support to custom textconv filters.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Notes on going solo: celebrating 6 years of Studio Self",
       "link": "https://www.joanwestenberg.com/notes-on-going-solo-celebrating-6-years-of-studio-self/",
@@ -14,6 +21,13 @@
       "date": "2026-03-30T00:45:38.763000Z",
       "summary": "",
       "source": "righto.com"
+    },
+    {
+      "title": "Small note about AI 'GPUs'",
+      "link": "https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/",
+      "date": "2026-03-30T00:00:00Z",
+      "summary": "They are graphical processing units that can't process graphics.",
+      "source": "xeiaso.net"
     },
     {
       "title": "Version History: ‘The Macintosh’",
@@ -266,20 +280,6 @@
       "date": "2026-03-22T00:00:00Z",
       "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 03/21/26",
-      "link": "https://www.construction-physics.com/p/reading-list-032126",
-      "date": "2026-03-21T12:03:50Z",
-      "summary": "Damage to the Ras Laffan LNG facility, housing bubble risks, North Korea’s naval production, Bezos’ $100 billion for manufacturing automation, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "How to Attract AI Bots to Your Open Source Project",
-      "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
-      "date": "2026-03-21T10:00:00Z",
-      "summary": "A practical guide to getting the engagement your project deserves.",
-      "source": "nesbitt.io"
     }
   ]
 }
