@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T18:29:19.848312Z",
+  "generated_at": "2026-03-30T19:29:45.675275Z",
   "items": [
     {
       "title": "Pluralistic: Market participation is exhausting (30 Mar 2026)",
@@ -28,6 +28,13 @@
       "date": "2026-03-30T14:28:34Z",
       "summary": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it: Mr. Chatterbox is a language model trained…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "A question about the maximimum number of values in a registry key raises questions about the question",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260330-00/?p=112175",
+      "date": "2026-03-30T14:00:00Z",
+      "summary": "Why is this even a question? The post A question about the maximimum number of values in a registry key raises questions about the question appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "How Do We Get Developers to Read the Docs",
@@ -210,13 +217,6 @@
       "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "How can I change a dialog box’s message loop to do a Msg­Wait­For­Multiple­Objects instead of Get­Message?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
-      "date": "2026-03-25T14:00:00Z",
-      "summary": "The dialog box lets you change how it waits. The post How can I change a dialog box’s message loop to do a <CODE>Msg­Wait­For­Multiple­Objects</CODE> instead of <CODE>Get­Message</CODE>? appeared…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Top 10 Biggest Conspiracies in Open Source",
