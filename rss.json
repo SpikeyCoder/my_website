@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-30T11:28:56.061249Z",
+  "generated_at": "2026-03-30T12:31:10.082003Z",
   "items": [
+    {
+      "title": "How Do We Get Developers to Read the Docs",
+      "link": "https://idiallo.com/blog/how-do-we-get-developers-to-read-the-docs?src=feed",
+      "date": "2026-03-30T12:00:00Z",
+      "summary": "When I reviewed this PR, I had tears in my eyes. We had done it. We had finally created the perfect API. To top it off, the senior developer who worked on it had written documentation to match. No…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Gig Review: Vitamin String Quartet at The Barbican ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/03/gig-review-vitamin-string-quartet-at-the-barbican/",
+      "date": "2026-03-30T11:34:35Z",
+      "summary": "There is no such thing as the Vitamin String Quartet. They're an ever-changing line-up of musicians who have found an excellent schtick; modern songs played like classical music. Somehow they've…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Git Diff Drivers",
       "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
@@ -219,13 +233,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Book Review: If We Cannot Go at the Speed of Light by Kim Choyeop ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/03/book-review-if-we-cannot-go-at-the-speed-of-light-by-kim-choyeop/",
-      "date": "2026-03-24T12:34:27Z",
-      "summary": "Short stories offer you the chance to dip briefly into a world and then skip out so there's not much time for development; just straight in to the plot and off we go. But this is all exposition and…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Pluralistic: Goodhart's Law vs \"prediction markets\" (24 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/24/degenerated-gambling/",
       "date": "2026-03-24T11:18:24Z",
@@ -252,13 +259,6 @@
       "date": "2026-03-23T15:43:04Z",
       "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "The nth War of the Decade",
-      "link": "https://idiallo.com/blog/the-n-war-of-the-decade?src=feed",
-      "date": "2026-03-23T12:00:00Z",
-      "summary": "This is a blog where I talk mostly about programming in the workplace. These past few years the subject has often been AI, because it affects everything. From the hiring process to the very code we…",
-      "source": "idiallo.com"
     },
     {
       "title": "Pluralistic: Understaffing as a form of enshittification (23 Mar 2026)",
