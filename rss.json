@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-03-30T21:21:33.789915Z",
+  "generated_at": "2026-03-30T22:17:31.516975Z",
   "items": [
+    {
+      "title": "Quoting Georgi Gerganov",
+      "link": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything",
+      "date": "2026-03-30T21:31:02Z",
+      "summary": "Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model chat templates and prompt construction.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] Material Security",
+      "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
+      "date": "2026-03-30T21:23:20Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-llm 0.1a3",
+      "link": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
+      "date": "2026-03-30T19:48:43Z",
+      "summary": "Release: datasette-llm 0.1a3 Adds the ability to configure which LLMs are available for which purpose , which means you can restrict the list of models that can be used with a specific plugin. #3…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Pluralistic: Market participation is exhausting (30 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/30/players-of-games/",
@@ -65,13 +86,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "llm-mrchatterbox 0.1",
-      "link": "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything",
-      "date": "2026-03-30T02:20:46Z",
-      "summary": "Release: llm-mrchatterbox 0.1 See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer . Tags: llm",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
       "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
       "date": "2026-03-30T00:45:38.763000Z",
@@ -84,20 +98,6 @@
       "date": "2026-03-30T00:00:00Z",
       "summary": "They are graphical processing units that can't process graphics.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "WorkOS",
-      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
-      "date": "2026-03-29T20:50:17Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Pretext",
-      "link": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
-      "date": "2026-03-29T20:08:45Z",
-      "summary": "Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library. Pretext solves the problem of calculating the…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Roles of Packages",
