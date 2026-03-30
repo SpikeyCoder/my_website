@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-03-30T05:05:25.505850Z",
+  "generated_at": "2026-03-30T06:49:29.172193Z",
   "items": [
+    {
+      "title": "Notes on going solo: celebrating 6 years of Studio Self",
+      "link": "https://www.joanwestenberg.com/notes-on-going-solo-celebrating-6-years-of-studio-self/",
+      "date": "2026-03-30T05:55:34Z",
+      "summary": "Since roughly // broadly 2020, I’ve been running a solo-powered minor empire . I have no employees, and my only office is my home office, filled as it is with cat hair and various comic books. My…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
       "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
       "date": "2026-03-30T00:45:38.763000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "Version History: ‘The Macintosh’",
-      "link": "https://www.theverge.com/podcast/903068/macintosh-1984-version-history",
-      "date": "2026-03-29T20:53:04Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "The Talk Show: ‘You’re Going to Have the Niggles’",
-      "link": "https://daringfireball.net/thetalkshow/2026/03/29/ep-444",
-      "date": "2026-03-29T20:52:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "WorkOS",
-      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
-      "date": "2026-03-29T20:50:17Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pretext",
@@ -247,13 +233,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "\"Collaboration\" is bullshit.",
-      "link": "https://www.joanwestenberg.com/collaboration-is-bullshit/",
-      "date": "2026-03-22T23:31:25Z",
-      "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, access to the community, and a direct line to ask me things - paid subscriptions are…",
-      "source": "joanwestenberg.com"
-    },
-    {
       "title": "All tests pass: a short story",
       "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
       "date": "2026-03-22T00:00:00Z",
@@ -280,6 +259,27 @@
       "date": "2026-03-21T10:00:00Z",
       "summary": "A practical guide to getting the engagement your project deserves.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "The best laptop Apple ever made",
+      "link": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
+      "date": "2026-03-20T14:00:00Z",
+      "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "date": "2026-03-20T00:49:19Z",
+      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Some Things Just Take Time",
+      "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "date": "2026-03-20T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     }
   ]
 }
