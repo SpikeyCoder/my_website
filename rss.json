@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-03-31T09:32:54.231510Z",
+  "generated_at": "2026-03-31T10:29:09.122725Z",
   "items": [
+    {
+      "title": "Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)",
+      "link": "https://pluralistic.net/2026/03/31/actual-federalist-society/",
+      "date": "2026-03-31T10:00:59Z",
+      "summary": "Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; \"Peaceful Baghdad\" was…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "The World's First Bullshit",
       "link": "https://www.joanwestenberg.com/the-worlds-first-bullshit/",
       "date": "2026-03-31T00:20:34Z",
       "summary": "I opened Twitter this morning and three different startups were announcing \"the world's first\" something. An AI CMO, an autonomous AI marketer, and a design agent \"with taste,\" which is a phrase that…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Making human languages irrelevant",
+      "link": "https://rakhim.exotext.com/making-human-languages-irrelevant",
+      "date": "2026-03-31T00:00:00Z",
+      "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
+      "source": "rakhim.exotext.com"
     },
     {
       "title": "datasette-files 0.1a3",
@@ -247,13 +261,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Pluralistic: Goodhart's Law vs \"prediction markets\" (24 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/24/degenerated-gambling/",
-      "date": "2026-03-24T11:18:24Z",
-      "summary": "Today's links Goodhart's Law vs \"prediction markets\": Putting a gun to the metric's head. Hey look at this: Delights to delectate. Object permanence: Apple v interop; Yahoo v the world; Rasputin v…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Pebble Time 2 Is In Mass Production!",
       "link": "https://repebble.com/blog/pebble-time-2-is-in-mass-production",
       "date": "2026-03-24T00:00:00Z",
@@ -272,13 +279,6 @@
       "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
       "date": "2026-03-22T00:00:00Z",
       "summary": "One night, I wrote a simple tool to pick a random programming language . After shuffling a few times, I landed on Arturo . I decided to try it for fun. What’s Arturo? Best I understand, Arturo is a…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Little web app to pick a random programming language",
-      "link": "https://evanhahn.com/random-programming-language/",
-      "date": "2026-03-22T00:00:00Z",
-      "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
       "source": "evanhahn.com"
     }
   ]
