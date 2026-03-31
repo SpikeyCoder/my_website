@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-31T11:24:48.679371Z",
+  "generated_at": "2026-03-31T12:31:30.609984Z",
   "items": [
+    {
+      "title": "Morse code tree",
+      "link": "https://www.johndcook.com/blog/2026/03/31/morse-code-tree/",
+      "date": "2026-03-31T12:12:31Z",
+      "summary": "Peter Vogel posted the following image on X yesterday. The receive side of the coin is a decision tree for decoding Morse code. The shape is what makes this one interesting. Decision trees are…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)",
       "link": "https://pluralistic.net/2026/03/31/actual-federalist-society/",
@@ -210,13 +217,6 @@
       "date": "2026-03-26T22:54:35Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Lebesgue constants",
-      "link": "https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/",
-      "date": "2026-03-26T20:05:06Z",
-      "summary": "I alluded to Lebesgue constants in the previous post without giving them a name. There I said that the bound on order n interpolation error has the form where h is the spacing between interpolation…",
-      "source": "johndcook.com"
     },
     {
       "title": "Why doesn’t WM_ENTER­IDLE work if the dialog box is a Message­Box?",
