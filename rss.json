@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-03-31T14:39:32.043302Z",
+  "generated_at": "2026-03-31T15:34:41.428528Z",
   "items": [
+    {
+      "title": "Technical Analysis of the Android Version of the White House’s New App",
+      "link": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
+      "date": "2026-03-31T15:11:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quantum Y2K",
+      "link": "https://www.johndcook.com/blog/2026/03/31/quantum-y2k/",
+      "date": "2026-03-31T14:43:06Z",
+      "summary": "I’m skeptical that quantum computing will become practical in the next 100 years. However, if it does become practical and we don’t prepare, the world’s financial system could collapse. Everyone…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Morse code tree",
       "link": "https://www.johndcook.com/blog/2026/03/31/morse-code-tree/",
@@ -68,13 +82,6 @@
       "title": "‘The Brand Age’",
       "link": "https://paulgraham.com/brandage.html",
       "date": "2026-03-30T16:47:02Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Macs of Unusual Size",
-      "link": "https://scottknaster.substack.com/p/macs-of-unusual-size",
-      "date": "2026-03-30T16:24:40Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -189,13 +196,6 @@
       "date": "2026-03-27T12:00:00Z",
       "summary": "My bank card never arrived. I called the bank and, after being redirected through several departments, was assured that it had been mailed. Then we argued a bit about what \"7 to 10 business days\"…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Computing sine and cosine of complex arguments with only real functions",
-      "link": "https://www.johndcook.com/blog/2026/03/27/complex-argument/",
-      "date": "2026-03-27T11:33:04Z",
-      "summary": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using Python, for example, and you don’t have NumPy…",
-      "source": "johndcook.com"
     },
     {
       "title": "Working on products people hate",
