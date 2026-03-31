@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T21:19:26.625553Z",
+  "generated_at": "2026-03-31T22:17:12.691474Z",
   "items": [
     {
       "title": "My ramblings are available over gopher",
@@ -9,11 +9,32 @@
       "source": "maurycyz.com"
     },
     {
-      "title": "Technical Analysis of the Android Version of the White House’s New App",
-      "link": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
-      "date": "2026-03-31T19:23:58Z",
+      "title": "RAM Is the New Bearer Bond",
+      "link": "https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/",
+      "date": "2026-03-31T21:36:36Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-llm 0.1a4",
+      "link": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
+      "date": "2026-03-31T21:17:23Z",
+      "summary": "Release: datasette-llm 0.1a4 Ability to configure different API keys for models based on their purpose - for example, set it up so enrichments always use gpt-5.4-mini with an API key dedicated to…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "llm-all-models-async 0.1",
+      "link": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
+      "date": "2026-03-31T20:52:02Z",
+      "summary": "Release: llm-all-models-async 0.1 LLM plugins can define new models in both sync and async varieties. The async variants are most common for API-backed models - sync variants tend to be things that…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "llm 0.30",
+      "link": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
+      "date": "2026-03-31T20:35:51Z",
+      "summary": "Release: llm 0.30 The register_models() plugin hook now takes an optional model_aliases parameter listing all of the models, async models and aliases that have been registered so far by other…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Jensen Huang Doesn’t Smell Anything",
@@ -77,27 +98,6 @@
       "date": "2026-03-31T00:00:00Z",
       "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "datasette-files 0.1a3",
-      "link": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
-      "date": "2026-03-30T23:58:49Z",
-      "summary": "Release: datasette-files 0.1a3 I'm working on integrating datasette-files into other plugins, such as datasette-extract . This necessitated a new release of the base plugin. owners_can_edit and…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Georgi Gerganov",
-      "link": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything",
-      "date": "2026-03-30T21:31:02Z",
-      "summary": "Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model chat templates and prompt construction.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-llm 0.1a3",
-      "link": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
-      "date": "2026-03-30T19:48:43Z",
-      "summary": "Release: datasette-llm 0.1a3 Adds the ability to configure which LLMs are available for which purpose , which means you can restrict the list of models that can be used with a specific plugin. #3…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Market participation is exhausting (30 Mar 2026)",
