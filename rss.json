@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-03-31T18:28:42.714903Z",
+  "generated_at": "2026-03-31T19:29:15.873363Z",
   "items": [
+    {
+      "title": "My ramblings are available over gopher",
+      "link": "https://maurycyz.com/misc/gopher/",
+      "date": "2026-04-01T00:00:00Z",
+      "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
+      "source": "maurycyz.com"
+    },
     {
       "title": "Technical Analysis of the Android Version of the White House’s New App",
       "link": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
-      "date": "2026-03-31T16:20:54Z",
+      "date": "2026-03-31T19:23:58Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -273,13 +280,6 @@
       "date": "2026-03-23T15:43:04Z",
       "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "All tests pass: a short story",
-      "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
-      "date": "2026-03-22T00:00:00Z",
-      "summary": "One night, I wrote a simple tool to pick a random programming language . After shuffling a few times, I landed on Arturo . I decided to try it for fun. What’s Arturo? Best I understand, Arturo is a…",
-      "source": "evanhahn.com"
     }
   ]
 }
