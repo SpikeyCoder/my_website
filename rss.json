@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T22:17:12.691474Z",
+  "generated_at": "2026-03-31T23:15:35.217873Z",
   "items": [
     {
       "title": "My ramblings are available over gopher",
@@ -7,6 +7,13 @@
       "date": "2026-04-01T00:00:00Z",
       "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
       "source": "maurycyz.com"
+    },
+    {
+      "title": "Business Insider Profiles Fidji Simo, OpenAI’s ‘CEO of Applications’",
+      "link": "https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3",
+      "date": "2026-03-31T23:01:18Z",
+      "summary": "",
+      "source": "daringfireball.net"
     },
     {
       "title": "RAM Is the New Bearer Bond",
@@ -40,13 +47,6 @@
       "title": "Jensen Huang Doesn’t Smell Anything",
       "link": "https://bsky.app/profile/carnage4life.bsky.social/post/3mhnqozt7fs2n",
       "date": "2026-03-31T15:54:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Appointees to Trump’s Council of Advisors on Science and Technology",
-      "link": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/",
-      "date": "2026-03-31T15:37:54Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -91,6 +91,13 @@
       "date": "2026-03-31T00:20:34Z",
       "summary": "I opened Twitter this morning and three different startups were announcing \"the world's first\" something. An AI CMO, an autonomous AI marketer, and a design agent \"with taste,\" which is a phrase that…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Notes from March 2026",
+      "link": "https://evanhahn.com/notes-from-march-2026/",
+      "date": "2026-03-31T00:00:00Z",
+      "summary": "March always seems to be my life’s busiest month. Things I wrote and made “The two kinds of error” : in my mind, software errors are divided into two categories: expected and unexpected errors. I…",
+      "source": "evanhahn.com"
     },
     {
       "title": "Making human languages irrelevant",
@@ -273,13 +280,6 @@
       "date": "2026-03-24T00:00:00Z",
       "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
       "source": "ericmigi.com"
-    },
-    {
-      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
-      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
-      "date": "2026-03-23T15:43:04Z",
-      "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
