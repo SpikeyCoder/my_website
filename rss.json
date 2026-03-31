@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T08:33:38.517999Z",
+  "generated_at": "2026-03-31T09:32:54.231510Z",
   "items": [
     {
       "title": "The World's First Bullshit",
@@ -23,6 +23,13 @@
       "source": "simonwillison.net"
     },
     {
+      "title": "[Sponsor] Material Security",
+      "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
+      "date": "2026-03-30T21:23:20Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
       "title": "datasette-llm 0.1a3",
       "link": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
       "date": "2026-03-30T19:48:43Z",
@@ -35,6 +42,20 @@
       "date": "2026-03-30T17:27:20Z",
       "summary": "Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanence: EMI DRM v Brazil; \"The Information\"; Genome…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "‘The Brand Age’",
+      "link": "https://paulgraham.com/brandage.html",
+      "date": "2026-03-30T16:47:02Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Macs of Unusual Size",
+      "link": "https://scottknaster.substack.com/p/macs-of-unusual-size",
+      "date": "2026-03-30T16:24:40Z",
+      "summary": "",
+      "source": "daringfireball.net"
     },
     {
       "title": "A question about the maximimum number of values in a registry key raises questions about the question",
@@ -259,27 +280,6 @@
       "date": "2026-03-22T00:00:00Z",
       "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 03/21/26",
-      "link": "https://www.construction-physics.com/p/reading-list-032126",
-      "date": "2026-03-21T12:03:50Z",
-      "summary": "Damage to the Ras Laffan LNG facility, housing bubble risks, North Korea’s naval production, Bezos’ $100 billion for manufacturing automation, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "The best laptop Apple ever made",
-      "link": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
-      "date": "2026-03-20T14:00:00Z",
-      "summary": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-      "date": "2026-03-20T00:49:19Z",
-      "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
