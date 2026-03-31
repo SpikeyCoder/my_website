@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T19:29:15.873363Z",
+  "generated_at": "2026-03-31T20:20:39.968038Z",
   "items": [
     {
       "title": "My ramblings are available over gopher",
@@ -35,6 +35,13 @@
       "date": "2026-03-31T14:43:06Z",
       "summary": "I’m skeptical that quantum computing will become practical in the next 100 years. However, if it does become practical and we don’t prepare, the world’s financial system could collapse. Everyone…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Before you check if an update caused your problem, check that it wasn’t a problem before the update",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260331-00/?p=112177",
+      "date": "2026-03-31T14:00:00Z",
+      "summary": "It was going to be like that when I got here. The post Before you check if an update caused your problem, check that it wasn’t a problem before the update appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Morse code tree",
@@ -231,13 +238,6 @@
       "date": "2026-03-26T22:54:35Z",
       "summary": "",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Why doesn’t WM_ENTER­IDLE work if the dialog box is a Message­Box?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260326-00/?p=112167",
-      "date": "2026-03-26T14:00:00Z",
-      "summary": "Because it opted out. The post Why doesn’t <CODE>WM_<WBR>ENTER­IDLE</CODE> work if the dialog box is a <CODE>Message­Box</CODE>? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Adding human.json to WordPress",
