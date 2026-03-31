@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-03-31T15:34:41.428528Z",
+  "generated_at": "2026-03-31T16:30:48.465671Z",
   "items": [
     {
       "title": "Technical Analysis of the Android Version of the White House’s New App",
       "link": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
-      "date": "2026-03-31T15:11:09Z",
+      "date": "2026-03-31T16:20:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Jensen Huang Doesn’t Smell Anything",
+      "link": "https://bsky.app/profile/carnage4life.bsky.social/post/3mhnqozt7fs2n",
+      "date": "2026-03-31T15:54:25Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Appointees to Trump’s Council of Advisors on Science and Technology",
+      "link": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/",
+      "date": "2026-03-31T15:37:54Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,6 +42,13 @@
       "date": "2026-03-31T10:00:59Z",
       "summary": "Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; \"Peaceful Baghdad\" was…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "npm’s Defaults Are Bad",
+      "link": "https://nesbitt.io/2026/03/31/npms-defaults-are-bad.html",
+      "date": "2026-03-31T10:00:00Z",
+      "summary": "The npm client's default settings are a root cause of JavaScript's recurring supply chain security problems.",
+      "source": "nesbitt.io"
     },
     {
       "title": "The World's First Bullshit",
@@ -58,13 +79,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "[Sponsor] Material Security",
-      "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
-      "date": "2026-03-30T21:23:20Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "datasette-llm 0.1a3",
       "link": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
       "date": "2026-03-30T19:48:43Z",
@@ -77,13 +91,6 @@
       "date": "2026-03-30T17:27:20Z",
       "summary": "Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanence: EMI DRM v Brazil; \"The Information\"; Genome…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "‘The Brand Age’",
-      "link": "https://paulgraham.com/brandage.html",
-      "date": "2026-03-30T16:47:02Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "A question about the maximimum number of values in a registry key raises questions about the question",
@@ -238,13 +245,6 @@
       "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "The Top 10 Biggest Conspiracies in Open Source",
-      "link": "https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html",
-      "date": "2026-03-25T10:00:00Z",
-      "summary": "I'm not connecting these dots. I'm just pointing out that the dots are there.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: The cost of doing business (25 Mar 2026)",
