@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-01T15:37:37.598042Z",
+  "generated_at": "2026-04-01T16:28:59.844408Z",
   "items": [
+    {
+      "title": "Say the Thing You Want",
+      "link": "https://terriblesoftware.org/2026/04/01/say-the-thing-you-want/",
+      "date": "2026-04-01T15:59:04Z",
+      "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
+      "source": "terriblesoftware.org"
+    },
     {
       "title": "The cover of C++: The Programming Language raises questions not answered by the cover",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260401-00/?p=112180",
@@ -271,13 +278,6 @@
       "title": "Working on products people hate",
       "link": "https://seangoedecke.com/working-on-products-people-hate/",
       "date": "2026-03-27T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "Engineers do get promoted for writing simple code",
-      "link": "https://seangoedecke.com/simple-work-gets-rewarded/",
-      "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
     }
