@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-03-31T23:15:35.217873Z",
+  "generated_at": "2026-04-01T00:56:31.759745Z",
   "items": [
+    {
+      "title": "RAM Is the New Bearer Bond",
+      "link": "https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/",
+      "date": "2026-04-01T00:33:12Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "My ramblings are available over gopher",
       "link": "https://maurycyz.com/misc/gopher/",
@@ -9,16 +16,23 @@
       "source": "maurycyz.com"
     },
     {
+      "title": "The Entire Internet Is a UGC Reaction Video Now",
+      "link": "https://www.joanwestenberg.com/the-entire-internet-is-a-ugc-reaction-video-now/",
+      "date": "2026-03-31T23:32:07Z",
+      "summary": "I keep a folder in Apple Notes called “cursed websites,” where I save various artefacts that make me feel like the social contract has dissolved. Call it an act of self-loathing. Call it collecting…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm",
+      "link": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
+      "date": "2026-03-31T23:28:40Z",
+      "summary": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm Useful writeup of today's supply chain attack against Axios, the HTTP client NPM package with 101 million weekly downloads . Versions…",
+      "source": "simonwillison.net"
+    },
+    {
       "title": "Business Insider Profiles Fidji Simo, OpenAI’s ‘CEO of Applications’",
       "link": "https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3",
       "date": "2026-03-31T23:01:18Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "RAM Is the New Bearer Bond",
-      "link": "https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/",
-      "date": "2026-03-31T21:36:36Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -37,13 +51,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "llm 0.30",
-      "link": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
-      "date": "2026-03-31T20:35:51Z",
-      "summary": "Release: llm 0.30 The register_models() plugin hook now takes an optional model_aliases parameter listing all of the models, async models and aliases that have been registered so far by other…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Jensen Huang Doesn’t Smell Anything",
       "link": "https://bsky.app/profile/carnage4life.bsky.social/post/3mhnqozt7fs2n",
       "date": "2026-03-31T15:54:25Z",
@@ -54,7 +61,7 @@
       "title": "Quantum Y2K",
       "link": "https://www.johndcook.com/blog/2026/03/31/quantum-y2k/",
       "date": "2026-03-31T14:43:06Z",
-      "summary": "I’m skeptical that quantum computing will become practical in the next 100 years. However, if it does become practical and we don’t prepare, the world’s financial system could collapse. Everyone…",
+      "summary": "I’m skeptical that quantum computing will become practical. However, if it does become practical before we’re prepared, the world’s financial system could collapse. Everyone agrees we should prepare…",
       "source": "johndcook.com"
     },
     {
@@ -128,13 +135,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Gig Review: Vitamin String Quartet at The Barbican ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/gig-review-vitamin-string-quartet-at-the-barbican/",
-      "date": "2026-03-30T11:34:35Z",
-      "summary": "There is no such thing as the Vitamin String Quartet. They're an ever-changing line-up of musicians who have found an excellent schtick; modern songs played like classical music. Somehow they've…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Git Diff Drivers",
       "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
       "date": "2026-03-30T10:00:00Z",
@@ -168,13 +168,6 @@
       "date": "2026-03-29T10:00:00Z",
       "summary": "Applying Sajaniemi's roles of variables to packages across every kind of package manager.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "OpenBenches hits 40k",
-      "link": "https://shkspr.mobi/blog/2026/03/openbenches-hits-40k/",
-      "date": "2026-03-28T12:34:11Z",
-      "summary": "Back in November 2023, our crowdsourced website of memorial benches reached 30,000 entries. At the start of March this year, I was delighted when long-time contributor jrbray1 added this gorgeous…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Reading List 03/28/26",
@@ -240,20 +233,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Members Only: On Cathedral thinking",
-      "link": "https://www.joanwestenberg.com/members-only-on-cathedral-thinking/",
-      "date": "2026-03-26T22:54:35Z",
-      "summary": "",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Adding human.json to WordPress",
-      "link": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
-      "date": "2026-03-26T12:34:52Z",
-      "summary": "Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say \"I, Alice, know and trust Bob\". Bob can say \"I know and trust Alice. I also know and trust Carl.\" That…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Engineers do get promoted for writing simple code",
       "link": "https://seangoedecke.com/simple-work-gets-rewarded/",
       "date": "2026-03-26T00:00:00Z",
@@ -280,6 +259,27 @@
       "date": "2026-03-24T00:00:00Z",
       "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
       "source": "ericmigi.com"
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "date": "2026-03-23T15:43:04Z",
+      "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "All tests pass: a short story",
+      "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
+      "date": "2026-03-22T00:00:00Z",
+      "summary": "One night, I wrote a simple tool to pick a random programming language . After shuffling a few times, I landed on Arturo . I decided to try it for fun. What’s Arturo? Best I understand, Arturo is a…",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Little web app to pick a random programming language",
+      "link": "https://evanhahn.com/random-programming-language/",
+      "date": "2026-03-22T00:00:00Z",
+      "summary": "I wrote a web app to choose a random programming language . It’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code , and even that…",
+      "source": "evanhahn.com"
     }
   ]
 }
