@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T06:46:38.315279Z",
+  "generated_at": "2026-04-01T07:40:21.034722Z",
   "items": [
     {
       "title": "datasette-extract 0.3a0",
@@ -86,13 +86,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/31/actual-federalist-society/",
-      "date": "2026-03-31T10:00:59Z",
-      "summary": "Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; \"Peaceful Baghdad\" was…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "npm’s Defaults Are Bad",
       "link": "https://nesbitt.io/2026/03/31/npms-defaults-are-bad.html",
       "date": "2026-03-31T10:00:00Z",
@@ -119,13 +112,6 @@
       "date": "2026-03-31T00:00:00Z",
       "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Pluralistic: Market participation is exhausting (30 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/30/players-of-games/",
-      "date": "2026-03-30T17:27:20Z",
-      "summary": "Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanence: EMI DRM v Brazil; \"The Information\"; Genome…",
-      "source": "pluralistic.net"
     },
     {
       "title": "A question about the maximimum number of values in a registry key raises questions about the question",
@@ -268,18 +254,32 @@
       "source": "seangoedecke.com"
     },
     {
-      "title": "Pluralistic: The cost of doing business (25 Mar 2026)",
-      "link": "https://pluralistic.net/2026/03/25/fact-intensive/",
-      "date": "2026-03-25T07:08:48Z",
-      "summary": "Today's links The cost of doing business: \"Market definition\" is a denial-of-service attack on antitrust law. Hey look at this: Delights to delectate. Object permanence: Union Pacific v model…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Using FireWire on a Raspberry Pi",
       "link": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/",
       "date": "2026-03-24T16:00:00Z",
       "summary": "After learning Apple killed off FireWire (IEEE 1394) support in macOS 26 Tahoe , I started looking at alternatives for old FireWire equipment like hard drives, DV cameras, and A/V gear. I own an old…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Pebble Time 2 Is In Mass Production!",
+      "link": "https://repebble.com/blog/pebble-time-2-is-in-mass-production",
+      "date": "2026-03-24T00:00:00Z",
+      "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "date": "2026-03-23T15:43:04Z",
+      "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "All tests pass: a short story",
+      "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
+      "date": "2026-03-22T00:00:00Z",
+      "summary": "One night, I wrote a simple tool to pick a random programming language . After shuffling a few times, I landed on Arturo . I decided to try it for fun. What’s Arturo? Best I understand, Arturo is a…",
+      "source": "evanhahn.com"
     }
   ]
 }
