@@ -114,8 +114,29 @@ function guestEmailsFromEvent(event: CalendarEvent): string[] {
   return Array.from(set);
 }
 
+function attendeeEmailsFromEvent(event: CalendarEvent): string[] {
+  const attendees = event.attendees || [];
+  const set = new Set<string>();
+
+  for (const attendee of attendees) {
+    const email = normalizeEmail(attendee.email);
+    if (!email || !isValidEmail(email)) continue;
+    set.add(email);
+  }
+
+  return Array.from(set);
+}
+
+function hasExternalAttendee(event: CalendarEvent): boolean {
+  const owner = normalizeEmail(getGoogleCalendarId());
+  const serviceAccount = normalizeEmail(getServiceAccountEmail());
+  const attendees = attendeeEmailsFromEvent(event);
+  return attendees.some((email) => email !== owner && email !== serviceAccount);
+}
+
 export async function hasEmailBookedInCalendar(email: string): Promise<LiveBookingLookupResult> {
   const normalizedEmail = normalizeEmail(email);
+  const ownerEmail = normalizeEmail(getGoogleCalendarId());
   if (!normalizedEmail || !isValidEmail(normalizedEmail)) {
     return {
       hasBooked: false,
@@ -168,7 +189,25 @@ export async function hasEmailBookedInCalendar(email: string): Promise<LiveBooki
 
     for (const event of items) {
       if (event.status === "cancelled") continue;
-      if (!eventMatchesAppointmentSet(event)) continue;
+      const attendeeEmails = attendeeEmailsFromEvent(event);
+      if (attendeeEmails.includes(normalizedEmail)) {
+        return {
+          hasBooked: true,
+          checkedEvents,
+          matchedEventId: String(event.id || "") || null,
+        };
+      }
+
+      if (normalizedEmail === ownerEmail) {
+        if (eventMatchesAppointmentSet(event) || hasExternalAttendee(event)) {
+          return {
+            hasBooked: true,
+            checkedEvents,
+            matchedEventId: String(event.id || "") || null,
+          };
+        }
+      }
+
       const guestEmails = guestEmailsFromEvent(event);
       if (guestEmails.includes(normalizedEmail)) {
         return {
