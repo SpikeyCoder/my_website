@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-01T01:42:05.569404Z",
+  "generated_at": "2026-04-01T03:14:31.376521Z",
   "items": [
+    {
+      "title": "Quoting Soohoon Choi",
+      "link": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
+      "date": "2026-04-01T02:07:16Z",
+      "summary": "I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "RAM Is the New Bearer Bond",
       "link": "https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/",
@@ -41,13 +48,6 @@
       "link": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
       "date": "2026-03-31T21:17:23Z",
       "summary": "Release: datasette-llm 0.1a4 Ability to configure different API keys for models based on their purpose - for example, set it up so enrichments always use gpt-5.4-mini with an API key dedicated to…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "llm-all-models-async 0.1",
-      "link": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
-      "date": "2026-03-31T20:52:02Z",
-      "summary": "Release: llm-all-models-async 0.1 LLM plugins can define new models in both sync and async varieties. The async variants are most common for API-backed models - sync variants tend to be things that…",
       "source": "simonwillison.net"
     },
     {
