@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-04-01T03:14:31.376521Z",
+  "generated_at": "2026-04-01T05:05:28.574414Z",
   "items": [
     {
-      "title": "Quoting Soohoon Choi",
-      "link": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
-      "date": "2026-04-01T02:07:16Z",
-      "summary": "I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones…",
+      "title": "datasette-extract 0.3a0",
+      "link": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
+      "date": "2026-04-01T03:32:16Z",
+      "summary": "Release: datasette-extract 0.3a0 This plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments, using…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-enrichments-llm 0.2a0",
+      "link": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
+      "date": "2026-04-01T03:28:44Z",
+      "summary": "Release: datasette-enrichments-llm 0.2a0 This plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-llm-usage 0.2a0",
+      "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
+      "date": "2026-04-01T03:24:03Z",
+      "summary": "Release: datasette-llm-usage 0.2a0 Removed features relating to allowances and estimated pricing. These are now the domain of datasette-llm-accountant . Now depends on datasette-llm for model…",
       "source": "simonwillison.net"
     },
     {
@@ -23,6 +37,13 @@
       "source": "maurycyz.com"
     },
     {
+      "title": "GopherTree",
+      "link": "https://maurycyz.com/projects/gopher/",
+      "date": "2026-04-01T00:00:00Z",
+      "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…",
+      "source": "maurycyz.com"
+    },
+    {
       "title": "The Entire Internet Is a UGC Reaction Video Now",
       "link": "https://www.joanwestenberg.com/the-entire-internet-is-a-ugc-reaction-video-now/",
       "date": "2026-03-31T23:32:07Z",
@@ -30,25 +51,11 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm",
-      "link": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
-      "date": "2026-03-31T23:28:40Z",
-      "summary": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm Useful writeup of today's supply chain attack against Axios, the HTTP client NPM package with 101 million weekly downloads . Versions…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Business Insider Profiles Fidji Simo, OpenAI’s ‘CEO of Applications’",
       "link": "https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3",
       "date": "2026-03-31T23:01:18Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "datasette-llm 0.1a4",
-      "link": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
-      "date": "2026-03-31T21:17:23Z",
-      "summary": "Release: datasette-llm 0.1a4 Ability to configure different API keys for models based on their purpose - for example, set it up so enrichments always use gpt-5.4-mini with an API key dedicated to…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Jensen Huang Doesn’t Smell Anything",
@@ -273,13 +280,6 @@
       "date": "2026-03-24T16:00:00Z",
       "summary": "After learning Apple killed off FireWire (IEEE 1394) support in macOS 26 Tahoe , I started looking at alternatives for old FireWire equipment like hard drives, DV cameras, and A/V gear. I own an old…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Pebble Time 2 Is In Mass Production!",
-      "link": "https://repebble.com/blog/pebble-time-2-is-in-mass-production",
-      "date": "2026-03-24T00:00:00Z",
-      "summary": "TLDR PT2 is in production!! Water resistance update - 30m What you need to know about Pebble Time 2 Address confirmation email…",
-      "source": "ericmigi.com"
     }
   ]
 }
