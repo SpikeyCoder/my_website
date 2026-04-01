@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-04-01T17:25:52.985586Z",
+  "generated_at": "2026-04-01T18:28:52.843942Z",
   "items": [
+    {
+      "title": "Hershey Says It Will Shift Back to Classic Recipe for All Reese’s Products After Criticism",
+      "link": "https://apnews.com/article/hershey-reeses-chocolate-peanut-butter-cups-recipe-1c17247e190eb03952e1c197b6f872ce",
+      "date": "2026-04-01T17:39:37Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Apple Marks 50th Anniversary",
       "link": "https://www.apple.com/",
-      "date": "2026-04-01T17:23:31Z",
+      "date": "2026-04-01T17:27:45Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -70,13 +77,6 @@
       "date": "2026-04-01T03:24:03Z",
       "summary": "Release: datasette-llm-usage 0.2a0 Removed features relating to allowances and estimated pricing. These are now the domain of datasette-llm-accountant . Now depends on datasette-llm for model…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "RAM Is the New Bearer Bond",
-      "link": "https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/",
-      "date": "2026-04-01T00:33:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "My ramblings are available over gopher",
