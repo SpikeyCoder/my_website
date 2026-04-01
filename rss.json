@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-04-01T13:39:21.719925Z",
+  "generated_at": "2026-04-01T14:40:45.858674Z",
   "items": [
     {
+      "title": "The cover of C++: The Programming Language raises questions not answered by the cover",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260401-00/?p=112180",
+      "date": "2026-04-01T14:00:00Z",
+      "summary": "What are we reading about here? The post The cover of <I>C++: The Programming Language</I> raises questions not answered by the cover appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
       "title": "Pentagonal numbers are truncated triangular numbers",
-      "link": "https://www.johndcook.com/blog/2026/04/01/pentagonal-numbers-are-truncated-triangular-numbers/",
+      "link": "https://www.johndcook.com/blog/2026/04/01/truncated-triangular-numbers/",
       "date": "2026-04-01T13:23:42Z",
       "summary": "Pentagonal numbers are truncated triangular numbers. You can take the diagram that illustrates the nth pentagonal number and warp it into the base of the image that illustrates the (2n − 1)st…",
       "source": "johndcook.com"
@@ -70,6 +77,13 @@
       "date": "2026-04-01T00:00:00Z",
       "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…",
       "source": "maurycyz.com"
+    },
+    {
+      "title": "Claude Code won April Fools Day this year",
+      "link": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
+      "date": "2026-04-01T00:00:00Z",
+      "summary": "They gave people a heckin tamagochi, what's not to like?",
+      "source": "xeiaso.net"
     },
     {
       "title": "The Entire Internet Is a UGC Reaction Video Now",
@@ -240,13 +254,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "What if a dialog wants to intercept its own message loop?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260327-00/?p=112172",
-      "date": "2026-03-27T14:00:00Z",
-      "summary": "You can steal them from your owner. The post What if a dialog wants to intercept its own message loop? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
       "title": "The Age of the Amplifier",
       "link": "https://www.construction-physics.com/p/the-age-of-the-amplifier",
       "date": "2026-03-27T12:00:44Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-26T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Using FireWire on a Raspberry Pi",
-      "link": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/",
-      "date": "2026-03-24T16:00:00Z",
-      "summary": "After learning Apple killed off FireWire (IEEE 1394) support in macOS 26 Tahoe , I started looking at alternatives for old FireWire equipment like hard drives, DV cameras, and A/V gear. I own an old…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
