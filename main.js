@@ -6,7 +6,7 @@ function loadScript(e){return new Promise((t,n)=>{if(document.querySelector(`scr
   if(!(bookingLink instanceof HTMLAnchorElement))return;
 
   const state={
-    email:normalizeEmail(localStorage.getItem("bookingEmail")||""),
+    email:"",
     hasBooked:!1,
     targetUrl:"",
     lookupId:0
@@ -105,14 +105,11 @@ function loadScript(e){return new Promise((t,n)=>{if(document.querySelector(`scr
     state.email=email;
 
     if(!email){
-      localStorage.removeItem("bookingEmail");
       state.targetUrl="";
       setButtonDisabled(!0);
       setValidation("Enter a valid email address to enable booking.");
       return;
     }
-
-    localStorage.setItem("bookingEmail",email);
 
     if(!isValidEmail(email)){
       state.targetUrl="";
@@ -161,7 +158,7 @@ function loadScript(e){return new Promise((t,n)=>{if(document.querySelector(`scr
   const inputEvents=["input","change","blur","keyup","paste"];
   inputEvents.forEach(evt=>emailInput.addEventListener(evt,()=>{validateEmailInput({background:evt!=="keyup"});}));
 
-  if(state.email)emailInput.value=state.email;
+  emailInput.value="";
   setButtonDisabled(!0);
   setValidation("Enter a valid email address to enable booking.");
   await validateEmailInput({background:!0});

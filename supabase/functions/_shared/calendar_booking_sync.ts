@@ -47,6 +47,12 @@ interface CalendarListResponse {
   nextSyncToken?: string;
 }
 
+export interface LiveBookingLookupResult {
+  hasBooked: boolean;
+  checkedEvents: number;
+  matchedEventId: string | null;
+}
+
 export interface WatchStateRow {
   id: number;
   calendar_id: string;
@@ -106,6 +112,83 @@ function guestEmailsFromEvent(event: CalendarEvent): string[] {
   }
 
   return Array.from(set);
+}
+
+export async function hasEmailBookedInCalendar(email: string): Promise<LiveBookingLookupResult> {
+  const normalizedEmail = normalizeEmail(email);
+  if (!normalizedEmail || !isValidEmail(normalizedEmail)) {
+    return {
+      hasBooked: false,
+      checkedEvents: 0,
+      matchedEventId: null,
+    };
+  }
+
+  const calendarId = getGoogleCalendarId();
+  const lookbackDaysRaw = Number(Deno.env.get("GOOGLE_BOOKING_LOOKBACK_DAYS") || "730");
+  const lookbackDays = Number.isFinite(lookbackDaysRaw) && lookbackDaysRaw > 0
+    ? Math.floor(lookbackDaysRaw)
+    : 730;
+  const now = new Date();
+  const timeMin = new Date(now.getTime() - (lookbackDays * 24 * 60 * 60 * 1000)).toISOString();
+  const timeMax = now.toISOString();
+
+  let pageToken = "";
+  let checkedEvents = 0;
+
+  while (true) {
+    const query: Record<string, string> = {
+      maxResults: "250",
+      singleEvents: "true",
+      showDeleted: "false",
+      orderBy: "startTime",
+      timeMin,
+      timeMax,
+    };
+
+    if (pageToken) {
+      query.pageToken = pageToken;
+    }
+
+    const response = await googleCalendarRequest(
+      `calendars/${encodeURIComponent(calendarId)}/events`,
+      { method: "GET" },
+      query,
+    );
+
+    const payload = (await response.json().catch(() => ({}))) as CalendarListResponse & { error?: { message?: string } };
+
+    if (!response.ok) {
+      const message = payload?.error?.message || `Google Calendar API error: ${response.status}`;
+      throw new Error(message);
+    }
+
+    const items = Array.isArray(payload.items) ? payload.items : [];
+    checkedEvents += items.length;
+
+    for (const event of items) {
+      if (event.status === "cancelled") continue;
+      if (!eventMatchesAppointmentSet(event)) continue;
+      const guestEmails = guestEmailsFromEvent(event);
+      if (guestEmails.includes(normalizedEmail)) {
+        return {
+          hasBooked: true,
+          checkedEvents,
+          matchedEventId: String(event.id || "") || null,
+        };
+      }
+    }
+
+    if (!payload.nextPageToken) {
+      return {
+        hasBooked: false,
+        checkedEvents,
+        matchedEventId: null,
+      };
+    }
+
+    pageToken = payload.nextPageToken;
+  }
 }
 
 export async function getWatchState(supabase: SupabaseLike): Promise<WatchStateRow | null> {
