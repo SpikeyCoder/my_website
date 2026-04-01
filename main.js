@@ -155,13 +155,25 @@ function loadScript(e){return new Promise((t,n)=>{if(document.querySelector(`scr
     window.location.assign(state.targetUrl);
   });
 
+  let userInteracted=!1;
+  const markInteracted=()=>{userInteracted=!0;};
+  ["focus","keydown","pointerdown","touchstart"].forEach(evt=>emailInput.addEventListener(evt,markInteracted));
   const inputEvents=["input","change","blur","keyup","paste"];
-  inputEvents.forEach(evt=>emailInput.addEventListener(evt,()=>{validateEmailInput({background:evt!=="keyup"});}));
+  inputEvents.forEach(evt=>emailInput.addEventListener(evt,()=>{markInteracted(),validateEmailInput({background:evt!=="keyup"});}));
 
   emailInput.value="";
   setButtonDisabled(!0);
   setValidation("Enter a valid email address to enable booking.");
   await validateEmailInput({background:!0});
+  setTimeout(()=>{
+    if(userInteracted)return;
+    if(!emailInput.value)return;
+    emailInput.value="";
+    state.email="";
+    state.targetUrl="";
+    setButtonDisabled(!0);
+    setValidation("Enter a valid email address to enable booking.");
+  },800);
   setTimeout(()=>{validateEmailInput({background:!0});},250);
   setTimeout(()=>{validateEmailInput({background:!0});},1200);
 }
