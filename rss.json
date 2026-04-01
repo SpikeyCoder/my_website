@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-01T11:26:45.940958Z",
+  "generated_at": "2026-04-01T12:32:07.260592Z",
   "items": [
+    {
+      "title": "What is Copilot exactly?",
+      "link": "https://idiallo.com/blog/what-is-copilot-exactly?src=feed",
+      "date": "2026-04-01T12:00:00Z",
+      "summary": "A coworker of mine told me that he uses Microsoft Copilot frequently. In fact, he said \"I don't know how I did my work without it.\" That came as a surprise to me. I can't stand Copilot. This is a…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Random File Format",
+      "link": "https://shkspr.mobi/blog/2026/04/random-file-format/",
+      "date": "2026-04-01T11:34:57Z",
+      "summary": "This was an idea I had back in the days of Naptster. At the turn of the century, it was common to listen to an \"acquired\" music file only to find it was missing a few seconds at the end due to a…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/01/minilateralism/",
@@ -12,7 +26,7 @@
       "title": "datasette-extract 0.3a0",
       "link": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
       "date": "2026-04-01T03:32:16Z",
-      "summary": "Release: datasette-extract 0.3a0 This plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments, using…",
+      "summary": "Release: datasette-extract 0.3a0 Now uses datasette-llm to manage model configuration, which means you can control which models are available for extraction tasks using the extract purpose and LLM…",
       "source": "simonwillison.net"
     },
     {
@@ -252,20 +266,6 @@
       "date": "2026-03-27T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "How we get radicalized in America",
-      "link": "https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed",
-      "date": "2026-03-26T23:11:46Z",
-      "summary": "Be healthy, be young, fall ill. You have a great job of course, you have insurance. It would be ok if the worst thing about health insurance in America was it is hard to navigate. No! The actual…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "Adding human.json to WordPress",
-      "link": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
-      "date": "2026-03-26T12:34:52Z",
-      "summary": "Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say \"I, Alice, know and trust Bob\". Bob can say \"I know and trust Alice. I also know and trust Carl.\" That…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Engineers do get promoted for writing simple code",
