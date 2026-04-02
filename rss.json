@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-02T20:16:50.302230Z",
+  "generated_at": "2026-04-02T21:18:23.436770Z",
   "items": [
+    {
+      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything",
+      "date": "2026-04-02T20:40:47Z",
+      "summary": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "John Buck on the Invention of QuickTime",
       "link": "https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k",
@@ -70,13 +77,6 @@
       "date": "2026-04-02T10:19:42Z",
       "summary": "Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: \"Elephantmen\"; Eve Online war bankrolled by…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "March 2026 sponsors-only newsletter",
-      "link": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
-      "date": "2026-04-02T05:15:04Z",
-      "summary": "I just sent the March edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: More agentic…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Time is a User-Interface",
