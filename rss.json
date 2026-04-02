@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-04-02T19:26:44.993846Z",
+  "generated_at": "2026-04-02T20:16:50.302230Z",
   "items": [
     {
-      "title": "OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN",
-      "link": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn",
-      "date": "2026-04-02T18:59:42Z",
+      "title": "John Buck on the Invention of QuickTime",
+      "link": "https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k",
+      "date": "2026-04-02T20:12:08Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer",
-      "link": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
-      "date": "2026-04-02T18:48:57Z",
+      "title": "Artemis II Crew on Way to Moon",
+      "link": "https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/",
+      "date": "2026-04-02T19:37:10Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN",
+      "link": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn",
+      "date": "2026-04-02T18:59:42Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,13 +35,6 @@
       "date": "2026-04-02T18:25:08Z",
       "summary": "Release: llm-gemini 0.30 New models gemini-3.1-flash-lite-preview , gemma-4-26b-a4b-it and gemma-4-31b-it . See my notes on Gemma 4 . Tags: gemini , llm , gemma",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "‘No, We’re Not Stupid. Our Dads Just Got Us Crummy Computers.’",
-      "link": "https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/",
-      "date": "2026-04-02T18:12:11Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Artemis II, Apollo 8, and Apollo 13",
