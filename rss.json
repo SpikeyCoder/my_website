@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-02T11:23:33.667117Z",
+  "generated_at": "2026-04-02T12:31:01.884712Z",
   "items": [
+    {
+      "title": "Information and Technological Evolution",
+      "link": "https://www.construction-physics.com/p/information-and-technological-evolution",
+      "date": "2026-04-02T12:16:08Z",
+      "summary": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Concert Review: London Philharmonic - Pictures at an Exhibition ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/04/concert-review-london-philharmonic-pictures-at-an-exhibition/",
+      "date": "2026-04-02T11:34:07Z",
+      "summary": "A delightful and emotional rendition of three rather different works. Mark-Anthony Turnage's \"Three Screaming Popes\" was a chaotic cacophony. Wild, bizarre, inventive, and seemingly driven by excess.…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/02/limited-monopoly/",
@@ -128,6 +142,13 @@
       "source": "maurycyz.com"
     },
     {
+      "title": "Claude Code won April Fools Day this year",
+      "link": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
+      "date": "2026-04-01T00:00:00Z",
+      "summary": "They gave people a heckin tamagochi, what's not to like?",
+      "source": "xeiaso.net"
+    },
+    {
       "title": "The Entire Internet Is a UGC Reaction Video Now",
       "link": "https://www.joanwestenberg.com/the-entire-internet-is-a-ugc-reaction-video-now/",
       "date": "2026-03-31T23:32:07Z",
@@ -226,18 +247,18 @@
       "source": "righto.com"
     },
     {
+      "title": "Small note about AI 'GPUs'",
+      "link": "https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/",
+      "date": "2026-03-30T00:00:00Z",
+      "summary": "They are graphical processing units that can't process graphics.",
+      "source": "xeiaso.net"
+    },
+    {
       "title": "The Roles of Packages",
       "link": "https://nesbitt.io/2026/03/29/the-roles-of-packages.html",
       "date": "2026-03-29T10:00:00Z",
       "summary": "Applying Sajaniemi's roles of variables to packages across every kind of package manager.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "OpenBenches hits 40k",
-      "link": "https://shkspr.mobi/blog/2026/03/openbenches-hits-40k/",
-      "date": "2026-03-28T12:34:11Z",
-      "summary": "Back in November 2023, our crowdsourced website of memorial benches reached 30,000 entries. At the start of March this year, I was delighted when long-time contributor jrbray1 added this gorgeous…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Reading List 03/28/26",
@@ -259,27 +280,6 @@
       "date": "2026-03-27T14:00:00Z",
       "summary": "In my last post, I showed you to use FireWire on a Raspberry Pi with a PCI Express IEEE 1394 adapter. Now I'll show you how I'm using a new FireWire HAT and a PiSugar3 Plus battery to make a portable…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The Age of the Amplifier",
-      "link": "https://www.construction-physics.com/p/the-age-of-the-amplifier",
-      "date": "2026-03-27T12:00:44Z",
-      "summary": "As we’ve noted more than a few times before, for most of the 20th century AT&T’s Bell Labs was the premier industrial research lab in the US.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Working on products people hate",
-      "link": "https://seangoedecke.com/working-on-products-people-hate/",
-      "date": "2026-03-27T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "Engineers do get promoted for writing simple code",
-      "link": "https://seangoedecke.com/simple-work-gets-rewarded/",
-      "date": "2026-03-26T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
