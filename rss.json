@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-02T14:34:20.615335Z",
+  "generated_at": "2026-04-02T15:29:37.613810Z",
   "items": [
+    {
+      "title": "‘Great Things in Business Are Never Done by One Person. They’re Done by a Team of People.’",
+      "link": "https://www.youtube.com/watch?v=vydmUCGQnyI",
+      "date": "2026-04-02T15:17:28Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ David Pogue’s ‘Apple: The First 50 Years’",
+      "link": "https://daringfireball.net/2026/04/pogue_apple_first_50_years",
+      "date": "2026-04-02T14:57:28Z",
+      "summary": "A veritable encyclopedia of Apple history. Just a remarkable, essential, and unique work.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "David Pogue: ‘Apple and Me’",
       "link": "https://pogueman.substack.com/p/apple-and-me-the-first-50-years?triedRedirect=true",
@@ -16,11 +30,11 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Trump’s White House Ballroom Design Is Shit",
-      "link": "https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html",
-      "date": "2026-04-02T13:48:46Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "Why doesn’t the system let you declare your own messages to have the same semantics as WM_COPY­DATA?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260402-00/?p=112196",
+      "date": "2026-04-02T14:00:00Z",
+      "summary": "Tempting but misleading. The post Why doesn’t the system let you declare your own messages to have the same semantics as <CODE>WM_<WBR>COPY­DATA</CODE>? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Information and Technological Evolution",
@@ -49,13 +63,6 @@
       "date": "2026-04-02T05:15:04Z",
       "summary": "I just sent the March edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: More agentic…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Chris Espinosa, Employee #8, Profiled in The New York Times",
-      "link": "https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html?unlocked_article_code=1.X1A.QEzX.u6cPCOjBE3mT",
-      "date": "2026-04-02T01:35:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Time is a User-Interface",
@@ -210,13 +217,6 @@
       "date": "2026-03-31T00:00:00Z",
       "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "A question about the maximimum number of values in a registry key raises questions about the question",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260330-00/?p=112175",
-      "date": "2026-03-30T14:00:00Z",
-      "summary": "Why is this even a question? The post A question about the maximimum number of values in a registry key raises questions about the question appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "How Do We Get Developers to Read the Docs",
