@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-02T04:51:29.373921Z",
+  "generated_at": "2026-04-02T05:38:55.668205Z",
   "items": [
+    {
+      "title": "March 2026 sponsors-only newsletter",
+      "link": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
+      "date": "2026-04-02T05:15:04Z",
+      "summary": "I just sent the March edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: More agentic…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Chris Espinosa, Employee #8, Profiled in The New York Times",
       "link": "https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html?unlocked_article_code=1.X1A.QEzX.u6cPCOjBE3mT",
@@ -98,13 +105,6 @@
       "date": "2026-04-01T10:59:24Z",
       "summary": "Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006);…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "datasette-extract 0.3a0",
-      "link": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
-      "date": "2026-04-01T03:32:16Z",
-      "summary": "Release: datasette-extract 0.3a0 Now uses datasette-llm to manage model configuration, which means you can control which models are available for extraction tasks using the extract purpose and LLM…",
-      "source": "simonwillison.net"
     },
     {
       "title": "My ramblings are available over gopher",
