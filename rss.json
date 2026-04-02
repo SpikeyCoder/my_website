@@ -1,12 +1,47 @@
 {
-  "generated_at": "2026-04-01T23:18:43.682897Z",
+  "generated_at": "2026-04-02T00:48:36.668866Z",
   "items": [
+    {
+      "title": "Time is a User-Interface",
+      "link": "https://www.joanwestenberg.com/tim/",
+      "date": "2026-04-02T00:32:14Z",
+      "summary": "",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Chris Espinosa, Employee #8, Profiled in The New York Times",
+      "link": "https://www.nytimes.com/2026/04/01/technology/apple-employee-50-years.html",
+      "date": "2026-04-02T00:10:29Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Talk Show: ‘Apple at 50’",
+      "link": "https://daringfireball.net/thetalkshow/2026/04/01/ep-445",
+      "date": "2026-04-01T23:47:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-llm 0.1a6",
+      "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+      "date": "2026-04-01T23:01:37Z",
+      "summary": "Release: datasette-llm 0.1a6 The same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "13th Year of Blogging",
       "link": "https://idiallo.com/byte-size/blogging-year-13?src=feed",
       "date": "2026-04-01T22:15:39Z",
       "summary": "Of all the days to start a blog, I chose April Fools' Day. It wasn't intentional, maybe more of a reflection of my mindset. When I decide to do something, I shut off my brain and just do it. This was…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "datasette-enrichments-llm 0.2a1",
+      "link": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything",
+      "date": "2026-04-01T22:00:34Z",
+      "summary": "Release: datasette-enrichments-llm 0.2a1 The actor who triggers an enrichment is now passed to the llm.mode(... actor=actor) method. #3 Tags: enrichments , llm , datasette",
+      "source": "simonwillison.net"
     },
     {
       "title": "DRAM pricing is killing the hobbyist SBC market",
@@ -16,23 +51,9 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "New Jersey, the Jackass State",
-      "link": "https://x.com/NJGov/status/2039370966090854604",
-      "date": "2026-04-01T20:56:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "More on Apple’s Fun ‘Rewind’ Video",
       "link": "https://hachyderm.io/@lexfri/116331181693278195",
       "date": "2026-04-01T20:27:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Ben Cohen of the WSJ Tours Apple’s Archive of Prototype Hardware",
-      "link": "https://www.youtube.com/watch?v=74qPQt_5DdM",
-      "date": "2026-04-01T20:10:53Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -83,20 +104,6 @@
       "link": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
       "date": "2026-04-01T03:32:16Z",
       "summary": "Release: datasette-extract 0.3a0 Now uses datasette-llm to manage model configuration, which means you can control which models are available for extraction tasks using the extract purpose and LLM…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-enrichments-llm 0.2a0",
-      "link": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
-      "date": "2026-04-01T03:28:44Z",
-      "summary": "Release: datasette-enrichments-llm 0.2a0 This plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments,…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-llm-usage 0.2a0",
-      "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
-      "date": "2026-04-01T03:24:03Z",
-      "summary": "Release: datasette-llm-usage 0.2a0 Removed features relating to allowances and estimated pricing. These are now the domain of datasette-llm-accountant . Now depends on datasette-llm for model…",
       "source": "simonwillison.net"
     },
     {
@@ -217,13 +224,6 @@
       "date": "2026-03-30T10:00:00Z",
       "summary": "What git's diff drivers can do, from built-in language support to custom textconv filters.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Notes on going solo: celebrating 6 years of Studio Self",
-      "link": "https://www.joanwestenberg.com/notes-on-going-solo-celebrating-6-years-of-studio-self/",
-      "date": "2026-03-30T05:55:34Z",
-      "summary": "Since roughly // broadly 2020, I’ve been running a solo-powered minor empire . I have no employees, and my only office is my home office, filled as it is with cat hair and various comic books. My…",
-      "source": "joanwestenberg.com"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
