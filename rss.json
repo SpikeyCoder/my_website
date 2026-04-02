@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-02T13:39:00.860918Z",
+  "generated_at": "2026-04-02T14:34:20.615335Z",
   "items": [
+    {
+      "title": "David Pogue: ‘Apple and Me’",
+      "link": "https://pogueman.substack.com/p/apple-and-me-the-first-50-years?triedRedirect=true",
+      "date": "2026-04-02T14:15:46Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Artemis II, Apollo 8, and Apollo 13",
+      "link": "https://www.johndcook.com/blog/2026/04/02/artemis-apollo/",
+      "date": "2026-04-02T14:14:44Z",
+      "summary": "The Artemis II mission launched yesterday. Much like the Apollo 8 mission in 1968, the goal is to go around the moon in preparation for a future mission that will land on the moon. And like Apollo…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Trump’s White House Ballroom Design Is Shit",
+      "link": "https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html",
+      "date": "2026-04-02T13:48:46Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Information and Technological Evolution",
       "link": "https://www.construction-physics.com/p/information-and-technological-evolution",
@@ -44,13 +65,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "The Talk Show: ‘Apple at 50’",
-      "link": "https://daringfireball.net/thetalkshow/2026/04/01/ep-445",
-      "date": "2026-04-01T23:47:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "datasette-llm 0.1a6",
       "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
       "date": "2026-04-01T23:01:37Z",
@@ -77,13 +91,6 @@
       "date": "2026-04-01T21:00:00Z",
       "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "More on Apple’s Fun ‘Rewind’ Video",
-      "link": "https://hachyderm.io/@lexfri/116331181693278195",
-      "date": "2026-04-01T20:27:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Say the Thing You Want",
@@ -168,13 +175,6 @@
       "date": "2026-03-31T14:00:00Z",
       "summary": "It was going to be like that when I got here. The post Before you check if an update caused your problem, check that it wasn’t a problem before the update appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Morse code tree",
-      "link": "https://www.johndcook.com/blog/2026/03/31/morse-code-tree/",
-      "date": "2026-03-31T12:12:31Z",
-      "summary": "Peter Vogel posted the following image on X yesterday. The receive side of the coin is a decision tree for decoding Morse code. The shape is what makes this one interesting. Decision trees are…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)",
