@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-02T17:23:17.495002Z",
+  "generated_at": "2026-04-02T18:27:53.365992Z",
   "items": [
+    {
+      "title": "‘No, We’re Not Stupid. Our Dads Just Got Us Crummy Computers.’",
+      "link": "https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/",
+      "date": "2026-04-02T18:12:11Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Jason Snell on Covering Apple for 33 Years",
       "link": "https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html",
@@ -13,13 +20,6 @@
       "link": "https://www.youtube.com/watch?v=vydmUCGQnyI",
       "date": "2026-04-02T15:17:28Z",
       "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "★ David Pogue’s ‘Apple: The First 50 Years’",
-      "link": "https://daringfireball.net/2026/04/pogue_apple_first_50_years",
-      "date": "2026-04-02T14:57:28Z",
-      "summary": "A veritable encyclopedia of Apple history. Just a remarkable, essential, and unique work.",
       "source": "daringfireball.net"
     },
     {
@@ -70,6 +70,13 @@
       "date": "2026-04-02T00:32:14Z",
       "summary": "",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
     },
     {
       "title": "datasette-llm 0.1a6",
@@ -273,13 +280,6 @@
       "date": "2026-03-27T19:35:32Z",
       "summary": "What people call \"good taste\" is really just experience earned through reps. Stop making it sound innate.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "Bring back MiniDV with this Raspberry Pi FireWire HAT",
-      "link": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
-      "date": "2026-03-27T14:00:00Z",
-      "summary": "In my last post, I showed you to use FireWire on a Raspberry Pi with a PCI Express IEEE 1394 adapter. Now I'll show you how I'm using a new FireWire HAT and a PiSugar3 Plus battery to make a portable…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
