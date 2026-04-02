@@ -1,24 +1,38 @@
 {
-  "generated_at": "2026-04-02T18:27:53.365992Z",
+  "generated_at": "2026-04-02T19:26:44.993846Z",
   "items": [
+    {
+      "title": "OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN",
+      "link": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn",
+      "date": "2026-04-02T18:59:42Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer",
+      "link": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+      "date": "2026-04-02T18:48:57Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "link": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+      "date": "2026-04-02T18:28:54Z",
+      "summary": "Gemma 4: Byte for byte, the most capable open models Four new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts. Google…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "llm-gemini 0.30",
+      "link": "https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything",
+      "date": "2026-04-02T18:25:08Z",
+      "summary": "Release: llm-gemini 0.30 New models gemini-3.1-flash-lite-preview , gemma-4-26b-a4b-it and gemma-4-31b-it . See my notes on Gemma 4 . Tags: gemini , llm , gemma",
+      "source": "simonwillison.net"
+    },
     {
       "title": "‘No, We’re Not Stupid. Our Dads Just Got Us Crummy Computers.’",
       "link": "https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/",
       "date": "2026-04-02T18:12:11Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Jason Snell on Covering Apple for 33 Years",
-      "link": "https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html",
-      "date": "2026-04-02T16:53:03Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘Great Things in Business Are Never Done by One Person. They’re Done by a Team of People.’",
-      "link": "https://www.youtube.com/watch?v=vydmUCGQnyI",
-      "date": "2026-04-02T15:17:28Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -79,25 +93,11 @@
       "source": "ericmigi.com"
     },
     {
-      "title": "datasette-llm 0.1a6",
-      "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
-      "date": "2026-04-01T23:01:37Z",
-      "summary": "Release: datasette-llm 0.1a6 The same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "13th Year of Blogging",
       "link": "https://idiallo.com/byte-size/blogging-year-13?src=feed",
       "date": "2026-04-01T22:15:39Z",
       "summary": "Of all the days to start a blog, I chose April Fools' Day. It wasn't intentional, maybe more of a reflection of my mindset. When I decide to do something, I shut off my brain and just do it. This was…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "datasette-enrichments-llm 0.2a1",
-      "link": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything",
-      "date": "2026-04-01T22:00:34Z",
-      "summary": "Release: datasette-enrichments-llm 0.2a1 The actor who triggers an enrichment is now passed to the llm.mode(... actor=actor) method. #3 Tags: enrichments , llm , datasette",
-      "source": "simonwillison.net"
     },
     {
       "title": "DRAM pricing is killing the hobbyist SBC market",
