@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-03T01:41:46.884409Z",
+  "generated_at": "2026-04-03T03:13:50.848858Z",
   "items": [
+    {
+      "title": "Hyperbolic version of Napier’s mnemonic",
+      "link": "https://www.johndcook.com/blog/2026/04/02/hyperbolic-napier-mnemonic/",
+      "date": "2026-04-03T01:38:49Z",
+      "summary": "I was looking through an old geometry book [1] and saw a hyperbolic analog of Napier’s mnemonic for spherical trigonometry. In hindsight of course there’s a hyperbolic analog: there’s a hyperbolic…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Artemis II Crew on Way to Moon",
       "link": "https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/",
@@ -175,13 +182,6 @@
       "date": "2026-03-31T23:32:07Z",
       "summary": "I keep a folder in Apple Notes called “cursed websites,” where I save various artefacts that make me feel like the social contract has dissolved. Call it an act of self-loathing. Call it collecting…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Quantum Y2K",
-      "link": "https://www.johndcook.com/blog/2026/03/31/quantum-y2k/",
-      "date": "2026-03-31T14:43:06Z",
-      "summary": "I’m skeptical that quantum computing will become practical. However, if it does become practical before we’re prepared, the world’s financial system could collapse. Everyone agrees we should prepare…",
-      "source": "johndcook.com"
     },
     {
       "title": "Before you check if an update caused your problem, check that it wasn’t a problem before the update",
