@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T22:14:51.249718Z",
+  "generated_at": "2026-04-03T23:16:37.547957Z",
   "items": [
     {
       "title": "Quoting Willy Tarreau",
@@ -61,7 +61,7 @@
       "title": "My Zip bomb strategy is not as effective as it used to be",
       "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed",
       "date": "2026-04-03T12:00:00Z",
-      "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that help my blog survive for 10 years. I usually hesitate to write…",
+      "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that helped my blog survive for 10 years. I usually hesitate to write…",
       "source": "idiallo.com"
     },
     {
@@ -98,6 +98,13 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Loading... [13 kB]",
+      "link": "https://maurycyz.com/misc/13kb/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes this was barely noticeable, other times it would stall for a good second or so.…",
+      "source": "maurycyz.com"
     },
     {
       "title": "John Buck on the Invention of QuickTime",
@@ -273,13 +280,6 @@
       "date": "2026-03-30T00:45:38.763000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "Small note about AI 'GPUs'",
-      "link": "https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/",
-      "date": "2026-03-30T00:00:00Z",
-      "summary": "They are graphical processing units that can't process graphics.",
-      "source": "xeiaso.net"
     }
   ]
 }
