@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-03T11:21:26.429323Z",
+  "generated_at": "2026-04-03T12:24:42.019204Z",
   "items": [
+    {
+      "title": "Zipbombs are not as effective as they used to be",
+      "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed",
+      "date": "2026-04-03T12:00:00Z",
+      "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that help my blog survive for 10 years. I usually hesitate to write…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Book Review: Superintelligence - Paths, Dangers, Strategies by Nick Bostrom ★★★★⯪",
+      "link": "https://shkspr.mobi/blog/2026/04/book-review-superintelligence-paths-dangers-strategies-by-nick-bostrom/",
+      "date": "2026-04-03T11:34:34Z",
+      "summary": "When I finally invent time-travel, the first thing I'll do is go back in time and give everyone a copy of this book. Published in 2014, it clearly sets out the likely problems with true Artificial…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Package Manager Easter Eggs",
       "link": "https://nesbitt.io/2026/04/03/package-manager-easter-eggs.html",
@@ -238,20 +252,6 @@
       "date": "2026-03-31T00:00:00Z",
       "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "How Do We Get Developers to Read the Docs",
-      "link": "https://idiallo.com/blog/how-do-we-get-developers-to-read-the-docs?src=feed",
-      "date": "2026-03-30T12:00:00Z",
-      "summary": "When I reviewed this PR, I had tears in my eyes. We had done it. We had finally created the perfect API. To top it off, the senior developer who worked on it had written documentation to match. No…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "Gig Review: Vitamin String Quartet at The Barbican ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/03/gig-review-vitamin-string-quartet-at-the-barbican/",
-      "date": "2026-03-30T11:34:35Z",
-      "summary": "There is no such thing as the Vitamin String Quartet. They're an ever-changing line-up of musicians who have found an excellent schtick; modern songs played like classical music. Somehow they've…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Git Diff Drivers",
