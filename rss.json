@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T20:16:03.707684Z",
+  "generated_at": "2026-04-03T21:15:43.303283Z",
   "items": [
     {
       "title": "Apple Releases iOS 18 Security Updates for iOS 26 Holdouts",
@@ -51,7 +51,7 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Zipbombs are not as effective as they used to be",
+      "title": "My Zip bomb strategy is not as effective as it used to be",
       "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed",
       "date": "2026-04-03T12:00:00Z",
       "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that help my blog survive for 10 years. I usually hesitate to write…",
