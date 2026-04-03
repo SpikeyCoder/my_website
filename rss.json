@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T09:26:46.843600Z",
+  "generated_at": "2026-04-03T10:21:20.132208Z",
   "items": [
     {
       "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
@@ -14,6 +14,13 @@
       "date": "2026-04-03T01:38:49Z",
       "summary": "I was looking through an old geometry book [1] and saw a hyperbolic analog of Napier’s mnemonic for spherical trigonometry. In hindsight of course there’s a hyperbolic analog: there’s a hyperbolic…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Programming (with AI agents) as theory building",
+      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Artemis II Crew on Way to Moon",
@@ -273,13 +280,6 @@
       "date": "2026-03-28T12:02:28Z",
       "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "“Good Taste” Is Just Experience",
-      "link": "https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/",
-      "date": "2026-03-27T19:35:32Z",
-      "summary": "What people call \"good taste\" is really just experience earned through reps. Stop making it sound innate.",
-      "source": "terriblesoftware.org"
     }
   ]
 }
