@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-03T16:18:57.346500Z",
+  "generated_at": "2026-04-03T17:16:54.279277Z",
   "items": [
+    {
+      "title": "Roman moon, Greek moon",
+      "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/",
+      "date": "2026-04-03T16:31:54Z",
+      "summary": "I used the term perilune in yesterday’s post about the flight path of Artemis II. When Artemis is closest to the moon it will be furthest from earth because its closest approach to the moon, its…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
       "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
@@ -168,13 +175,6 @@
       "date": "2026-04-01T14:00:00Z",
       "summary": "What are we reading about here? The post The cover of <I>C++: The Programming Language</I> raises questions not answered by the cover appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Pentagonal numbers are truncated triangular numbers",
-      "link": "https://www.johndcook.com/blog/2026/04/01/truncated-triangular-numbers/",
-      "date": "2026-04-01T13:23:42Z",
-      "summary": "Pentagonal numbers are truncated triangular numbers. You can take the diagram that illustrates the nth pentagonal number and warp it into the base of the image that illustrates the (2n − 1)st…",
-      "source": "johndcook.com"
     },
     {
       "title": "What is Copilot exactly?",
