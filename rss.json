@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-03T15:22:39.562298Z",
+  "generated_at": "2026-04-03T16:18:57.346500Z",
   "items": [
+    {
+      "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
+      "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+      "date": "2026-04-03T16:05:00Z",
+      "summary": "Research: Can JavaScript Escape a CSP Meta Tag Inside an Iframe? In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Build your own Dial-up ISP with a Raspberry Pi",
       "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
@@ -84,13 +91,6 @@
       "date": "2026-04-02T18:59:42Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "link": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
-      "date": "2026-04-02T18:28:54Z",
-      "summary": "Gemma 4: Byte for byte, the most capable open models Four new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts. Google…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Artemis II, Apollo 8, and Apollo 13",
@@ -254,6 +254,13 @@
       "source": "evanhahn.com"
     },
     {
+      "title": "Making human languages irrelevant",
+      "link": "https://rakhim.exotext.com/making-human-languages-irrelevant",
+      "date": "2026-03-31T00:00:00Z",
+      "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
+      "source": "rakhim.exotext.com"
+    },
+    {
       "title": "Git Diff Drivers",
       "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
       "date": "2026-03-30T10:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-03-30T00:00:00Z",
       "summary": "They are graphical processing units that can't process graphics.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Reading List 03/28/26",
-      "link": "https://www.construction-physics.com/p/reading-list-032826",
-      "date": "2026-03-28T12:02:28Z",
-      "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
