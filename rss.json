@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-03T21:15:43.303283Z",
+  "generated_at": "2026-04-03T22:14:51.249718Z",
   "items": [
+    {
+      "title": "Quoting Willy Tarreau",
+      "link": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+      "date": "2026-04-03T21:48:22Z",
+      "summary": "On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Quoting Daniel Stenberg",
+      "link": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
+      "date": "2026-04-03T21:46:07Z",
+      "summary": "The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good. I'm…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Quoting Greg Kroah-Hartman",
+      "link": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
+      "date": "2026-04-03T21:44:41Z",
+      "summary": "Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us. Something happened a…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Apple Releases iOS 18 Security Updates for iOS 26 Holdouts",
       "link": "https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/",
@@ -23,13 +44,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
-      "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
-      "date": "2026-04-03T16:05:00Z",
-      "summary": "Research: Can JavaScript Escape a CSP Meta Tag Inside an Iframe? In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Build your own Dial-up ISP with a Raspberry Pi",
       "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
       "date": "2026-04-03T14:00:00Z",
@@ -42,13 +56,6 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "File copying is not a fundamental operation, nor is it even detectable at the file system layer. The post How can I use <CODE>Read­Directory­ChangesW</CODE> to know when someone is copying a file out…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "The Axios supply chain attack used individually targeted social engineering",
-      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
-      "date": "2026-04-03T13:54:53Z",
-      "summary": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social…",
-      "source": "simonwillison.net"
     },
     {
       "title": "My Zip bomb strategy is not as effective as it used to be",
@@ -91,13 +98,6 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything",
-      "date": "2026-04-02T20:40:47Z",
-      "summary": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available…",
-      "source": "simonwillison.net"
     },
     {
       "title": "John Buck on the Invention of QuickTime",
