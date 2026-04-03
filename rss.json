@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-03T13:35:16.275959Z",
+  "generated_at": "2026-04-03T14:22:47.027038Z",
   "items": [
+    {
+      "title": "Build your own Dial-up ISP with a Raspberry Pi",
+      "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
+      "date": "2026-04-03T14:00:00Z",
+      "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+      "date": "2026-04-03T13:54:53Z",
+      "summary": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Zipbombs are not as effective as they used to be",
       "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed",
@@ -76,13 +90,6 @@
       "link": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
       "date": "2026-04-02T18:28:54Z",
       "summary": "Gemma 4: Byte for byte, the most capable open models Four new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts. Google…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "llm-gemini 0.30",
-      "link": "https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything",
-      "date": "2026-04-02T18:25:08Z",
-      "summary": "Release: llm-gemini 0.30 New models gemini-3.1-flash-lite-preview , gemma-4-26b-a4b-it and gemma-4-31b-it . See my notes on Gemma 4 . Tags: gemini , llm , gemma",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-03-30T00:00:00Z",
       "summary": "They are graphical processing units that can't process graphics.",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Reading List 03/28/26",
-      "link": "https://www.construction-physics.com/p/reading-list-032826",
-      "date": "2026-03-28T12:02:28Z",
-      "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
