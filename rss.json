@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-03T18:20:54.493499Z",
+  "generated_at": "2026-04-03T19:21:10.122708Z",
   "items": [
+    {
+      "title": "Apple Still Has Jessica Chastain’s ‘The Savant’ on Ice, Seven Months After It Was Set to Debut",
+      "link": "https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/",
+      "date": "2026-04-03T18:34:20Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Roman moon, Greek moon",
       "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/",
@@ -21,6 +28,13 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "How can I use Read­Directory­ChangesW to know when someone is copying a file out of the directory?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260403-00/?p=112202",
+      "date": "2026-04-03T14:00:00Z",
+      "summary": "File copying is not a fundamental operation, nor is it even detectable at the file system layer. The post How can I use <CODE>Read­Directory­ChangesW</CODE> to know when someone is copying a file out…",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Axios supply chain attack used individually targeted social engineering",
@@ -89,13 +103,6 @@
       "title": "John Buck on the Invention of QuickTime",
       "link": "https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k",
       "date": "2026-04-02T20:12:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN",
-      "link": "https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn",
-      "date": "2026-04-02T18:59:42Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -224,13 +231,6 @@
       "date": "2026-03-31T23:32:07Z",
       "summary": "I keep a folder in Apple Notes called “cursed websites,” where I save various artefacts that make me feel like the social contract has dissolved. Call it an act of self-loathing. Call it collecting…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Before you check if an update caused your problem, check that it wasn’t a problem before the update",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260331-00/?p=112177",
-      "date": "2026-03-31T14:00:00Z",
-      "summary": "It was going to be like that when I got here. The post Before you check if an update caused your problem, check that it wasn’t a problem before the update appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)",
