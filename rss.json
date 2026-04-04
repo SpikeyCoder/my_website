@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T00:47:22.486039Z",
+  "generated_at": "2026-04-04T01:40:54.081590Z",
   "items": [
     {
       "title": "Vulnerability Research Is Cooked",
@@ -65,13 +65,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Book Review: Superintelligence - Paths, Dangers, Strategies by Nick Bostrom ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/04/book-review-superintelligence-paths-dangers-strategies-by-nick-bostrom/",
-      "date": "2026-04-03T11:34:34Z",
-      "summary": "When I finally invent time-travel, the first thing I'll do is go back in time and give everyone a copy of this book. Published in 2014, it clearly sets out the likely problems with true Artificial…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Package Manager Easter Eggs",
       "link": "https://nesbitt.io/2026/04/03/package-manager-easter-eggs.html",
       "date": "2026-04-03T10:00:00Z",
@@ -135,13 +128,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Concert Review: London Philharmonic - Pictures at an Exhibition ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/concert-review-london-philharmonic-pictures-at-an-exhibition/",
-      "date": "2026-04-02T11:34:07Z",
-      "summary": "A delightful and emotional rendition of three rather different works. Mark-Anthony Turnage's \"Three Screaming Popes\" was a chaotic cacophony. Wild, bizarre, inventive, and seemingly driven by excess.…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/02/limited-monopoly/",
       "date": "2026-04-02T10:19:42Z",
@@ -196,13 +182,6 @@
       "date": "2026-04-01T12:00:00Z",
       "summary": "A coworker of mine told me that he uses Microsoft Copilot frequently. In fact, he said \"I don't know how I did my work without it.\" That came as a surprise to me. I can't stand Copilot. This is a…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Random File Format",
-      "link": "https://shkspr.mobi/blog/2026/04/random-file-format/",
-      "date": "2026-04-01T11:34:57Z",
-      "summary": "This was an idea I had back in the days of Naptster. At the turn of the century, it was common to listen to an \"acquired\" music file only to find it was missing a few seconds at the end due to a…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
@@ -280,6 +259,27 @@
       "date": "2026-03-30T00:45:38.763000Z",
       "summary": "",
       "source": "righto.com"
+    },
+    {
+      "title": "Small note about AI 'GPUs'",
+      "link": "https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/",
+      "date": "2026-03-30T00:00:00Z",
+      "summary": "They are graphical processing units that can't process graphics.",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "Reading List 03/28/26",
+      "link": "https://www.construction-physics.com/p/reading-list-032826",
+      "date": "2026-03-28T12:02:28Z",
+      "summary": "Plastic price jumps, crypto-backed mortgages, a proposed AI data center pause, US battery manufacturing, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "“Good Taste” Is Just Experience",
+      "link": "https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/",
+      "date": "2026-03-27T19:35:32Z",
+      "summary": "What people call \"good taste\" is really just experience earned through reps. Stop making it sound innate.",
+      "source": "terriblesoftware.org"
     }
   ]
 }
