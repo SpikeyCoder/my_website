@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-04T15:14:10.008273Z",
+  "generated_at": "2026-04-04T16:15:09.613363Z",
   "items": [
     {
       "title": "Kalman and Bayes average grades",
       "link": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/",
       "date": "2026-04-04T15:00:14Z",
-      "summary": "This post will look at the problem of updating an average grade as an very simple special case of Bayesian statistics and of Kalman filtering. Suppose you’re keeping up with your average grade in a…",
+      "summary": "This post will look at the problem of updating an average grade as a very simple special case of Bayesian statistics and of Kalman filtering. Suppose you’re keeping up with your average grade in a…",
       "source": "johndcook.com"
     },
     {
