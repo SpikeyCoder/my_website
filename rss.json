@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-04T10:16:22.724315Z",
+  "generated_at": "2026-04-04T11:13:55.222390Z",
   "items": [
+    {
+      "title": "What does Open Source mean?",
+      "link": "https://nesbitt.io/2026/04/04/what-does-open-source-mean.html",
+      "date": "2026-04-04T10:00:00Z",
+      "summary": "A stack of incompatible expectations.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/04/digital-subjugation/",
@@ -14,6 +21,13 @@
       "date": "2026-04-04T02:20:17Z",
       "summary": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Absurd In Production",
+      "link": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
+      "date": "2026-04-04T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Vulnerability Research Is Cooked",
@@ -266,20 +280,6 @@
       "date": "2026-03-31T00:00:00Z",
       "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
       "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "Git Diff Drivers",
-      "link": "https://nesbitt.io/2026/03/30/git-diff-drivers.html",
-      "date": "2026-03-30T10:00:00Z",
-      "summary": "What git's diff drivers can do, from built-in language support to custom textconv filters.",
-      "source": "nesbitt.io"
-    },
-    {
-      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
-      "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
-      "date": "2026-03-30T00:45:38.763000Z",
-      "summary": "",
-      "source": "righto.com"
     }
   ]
 }
