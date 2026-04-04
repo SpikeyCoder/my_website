@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-04-03T23:16:37.547957Z",
+  "generated_at": "2026-04-04T00:47:22.486039Z",
   "items": [
+    {
+      "title": "Vulnerability Research Is Cooked",
+      "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+      "date": "2026-04-03T23:59:08Z",
+      "summary": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research. Within the next few months,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The cognitive impact of coding agents",
+      "link": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+      "date": "2026-04-03T23:57:04Z",
+      "summary": "A fun thing about recording a podcast with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's one he…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Willy Tarreau",
       "link": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
       "date": "2026-04-03T21:48:22Z",
       "summary": "On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Daniel Stenberg",
-      "link": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
-      "date": "2026-04-03T21:46:07Z",
-      "summary": "The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good. I'm…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Greg Kroah-Hartman",
-      "link": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
-      "date": "2026-04-03T21:44:41Z",
-      "summary": "Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us. Something happened a…",
       "source": "simonwillison.net"
     },
     {
