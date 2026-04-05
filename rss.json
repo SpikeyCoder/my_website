@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-05T03:14:08.057494Z",
+  "generated_at": "2026-04-05T04:57:28.290231Z",
   "items": [
+    {
+      "title": "scan-for-secrets 0.2",
+      "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "date": "2026-04-05T04:07:13Z",
+      "summary": "Release: scan-for-secrets 0.2 CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories. -d/--directory option can now be used multiple…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "scan-for-secrets 0.1.1",
+      "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "date": "2026-04-05T03:39:33Z",
+      "summary": "Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was already covered by json .",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "scan-for-secrets 0.1",
+      "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "date": "2026-04-05T03:27:13Z",
+      "summary": "Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid that one of my API keys or similar secrets might…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Material Security",
       "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
@@ -21,13 +42,6 @@
       "date": "2026-04-05T00:54:20Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "research-llm-apis 2026-04-04",
-      "link": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
-      "date": "2026-04-05T00:32:11Z",
-      "summary": "Release: research-llm-apis 2026-04-04 I'm working on a major change to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Kalman and Bayes average grades",
@@ -72,25 +86,11 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Quoting Kyle Daigle",
-      "link": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
-      "date": "2026-04-04T02:20:17Z",
-      "summary": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Absurd In Production",
       "link": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "date": "2026-04-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Vulnerability Research Is Cooked",
-      "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-      "date": "2026-04-03T23:59:08Z",
-      "summary": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research. Within the next few months,…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Roman moon, Greek moon",
