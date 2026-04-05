@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-05T19:19:34.905935Z",
+  "generated_at": "2026-04-05T20:13:33.105578Z",
   "items": [
+    {
+      "title": "Syntaqlite Playground",
+      "link": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "date": "2026-04-05T19:32:59Z",
+      "summary": "Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of building with AI , a deep dive into exactly how it…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize",
       "link": "https://truthsocial.com/@realDonaldTrump/posts/116351998782539414",
@@ -34,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
       "date": "2026-04-05T03:39:33Z",
       "summary": "Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was already covered by json .",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "scan-for-secrets 0.1",
-      "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
-      "date": "2026-04-05T03:27:13Z",
-      "summary": "Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid that one of my API keys or similar secrets might…",
       "source": "simonwillison.net"
     },
     {
