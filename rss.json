@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-05T22:13:17.321759Z",
+  "generated_at": "2026-04-05T23:15:32.107672Z",
   "items": [
+    {
+      "title": "HIPAA compliant AI",
+      "link": "https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/",
+      "date": "2026-04-05T23:04:46Z",
+      "summary": "The best way to run AI and remain HIPAA compliant is to run it locally on your own hardware, instead of transferring protected health information (PHI) to a remote server by using a cloud-hosted…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Quoting Chengpeng Mou",
       "link": "https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything",
@@ -154,13 +161,6 @@
       "date": "2026-04-03T06:25:28Z",
       "summary": "I had coffee last year with a guy - I won't use his real name - who told me he was \"building a business.\" I asked what it did. Dropshipping jade face rollers. I made him say it twice. Jade face…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Hyperbolic version of Napier’s mnemonic",
-      "link": "https://www.johndcook.com/blog/2026/04/02/hyperbolic-napier-mnemonic/",
-      "date": "2026-04-03T01:38:49Z",
-      "summary": "I was looking through an old geometry book [1] and saw a hyperbolic analog of Napier’s mnemonic for spherical trigonometry. In hindsight of course there’s a hyperbolic analog: there’s a hyperbolic…",
-      "source": "johndcook.com"
     },
     {
       "title": "Programming (with AI agents) as theory building",
