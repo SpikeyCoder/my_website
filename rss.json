@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-04T23:14:32.338829Z",
+  "generated_at": "2026-04-05T00:54:15.483260Z",
   "items": [
+    {
+      "title": "Material Security",
+      "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
+      "date": "2026-04-05T00:45:12Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Class Action Lawsuit Says Perplexity’s ‘Incognito Mode’ Is a ‘Sham’",
+      "link": "https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/",
+      "date": "2026-04-05T00:32:57Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Kalman and Bayes average grades",
       "link": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/",
@@ -79,13 +93,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Apple Still Has Jessica Chastain’s ‘The Savant’ on Ice, Seven Months After It Was Set to Debut",
-      "link": "https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/",
-      "date": "2026-04-03T18:34:20Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Roman moon, Greek moon",
       "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/",
       "date": "2026-04-03T16:31:54Z",
@@ -154,13 +161,6 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes this was barely noticeable, other times it would stall for a good second or so.…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "John Buck on the Invention of QuickTime",
-      "link": "https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k",
-      "date": "2026-04-02T20:12:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Why doesn’t the system let you declare your own messages to have the same semantics as WM_COPY­DATA?",
