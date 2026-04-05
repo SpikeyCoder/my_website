@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-04-05T00:54:15.483260Z",
+  "generated_at": "2026-04-05T01:41:11.253522Z",
   "items": [
     {
       "title": "Material Security",
       "link": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
-      "date": "2026-04-05T00:45:12Z",
+      "date": "2026-04-05T01:03:31Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Class Action Lawsuit Says Perplexity’s ‘Incognito Mode’ Is a ‘Sham’",
-      "link": "https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/",
-      "date": "2026-04-05T00:32:57Z",
+      "title": "Sponsorship Openings for Daring Fireball",
+      "link": "https://daringfireball.net/feeds/sponsors/",
+      "date": "2026-04-05T01:03:19Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "iOS 26 Feels Faster Than iOS 18",
+      "link": "https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts",
+      "date": "2026-04-05T00:54:20Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "research-llm-apis 2026-04-04",
+      "link": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+      "date": "2026-04-05T00:32:11Z",
+      "summary": "Release: research-llm-apis 2026-04-04 I'm working on a major change to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Kalman and Bayes average grades",
@@ -77,20 +91,6 @@
       "date": "2026-04-03T23:59:08Z",
       "summary": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research. Within the next few months,…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "The cognitive impact of coding agents",
-      "link": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
-      "date": "2026-04-03T23:57:04Z",
-      "summary": "A fun thing about recording a podcast with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's one he…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Apple Releases iOS 18 Security Updates for iOS 26 Holdouts",
-      "link": "https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/",
-      "date": "2026-04-03T19:39:32Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Roman moon, Greek moon",
