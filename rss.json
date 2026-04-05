@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-05T11:14:40.769559Z",
+  "generated_at": "2026-04-05T12:21:27.852659Z",
   "items": [
+    {
+      "title": "Someone at BrowserStack is Leaking Users' Email Address",
+      "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "date": "2026-04-05T11:34:03Z",
+      "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "It's not that deep",
       "link": "https://idiallo.com/blog/its-not-that-deep?src=feed",
@@ -182,13 +189,6 @@
       "date": "2026-04-02T12:16:08Z",
       "summary": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Concert Review: London Philharmonic - Pictures at an Exhibition ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/concert-review-london-philharmonic-pictures-at-an-exhibition/",
-      "date": "2026-04-02T11:34:07Z",
-      "summary": "A delightful and emotional rendition of three rather different works. Mark-Anthony Turnage's \"Three Screaming Popes\" was a chaotic cacophony. Wild, bizarre, inventive, and seemingly driven by excess.…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)",
