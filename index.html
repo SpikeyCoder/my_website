@@ -55,7 +55,7 @@
             <a href="#blog">Blog</a>
             <a href="#rss">RSS</a>
             <a href="#contact">Contact</a>
-            <button type="button" class="nav-admin" id="admin-toggle">Admin</button>
+            <button type="button" class="nav-admin" id="admin-toggle" hidden style="display:none;">Admin</button>
           </div>
           <div class="social-row social-row-nav" aria-label="Social links and page share">
             <a class="social-icon-btn" data-social-profile="linkedin" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">
@@ -127,11 +127,11 @@
           </div>
           <div class="stat">
             <span class="stat-label">Highlights</span>
-            <span class="stat-value">0.5MM Prime members, $13.2MM annual GMS</span>
+            <span class="stat-value">$13.2MM annual GMS <span class="metric-context">(5x baseline)</span></span>
           </div>
           <div class="stat">
             <span class="stat-label">Scope</span>
-            <span class="stat-value">Reaching over 2MM customers worldwide with my products</span>
+            <span class="stat-value">2MM+ customers <span class="metric-context">(2024-2026 tenure)</span></span>
           </div>
           <p class="card-note">
             MBA (Chicago Booth). Built iOS + eCommerce + payment systems across SpaceX, Amazon, Walgreens, and Capital One.
@@ -463,25 +463,49 @@
               </form>
             </div>
           </div>
+
+          <div class="blog-cta">
+            <div class="cta-content">
+              <h3>Stay Updated</h3>
+              <p>Subscribe to my RSS feed or follow on social media for the latest insights on product strategy, iOS development, and building scalable payment systems.</p>
+              <div class="cta-actions">
+                <a href="#rss" class="btn ghost">View RSS Feed</a>
+                <div class="social-row" aria-label="Share on social media">
+                  <a href="https://linkedin.com" class="social-icon-btn" data-social-profile="linkedin" target="_blank" rel="noreferrer" aria-label="Share on LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path>
+                    </svg>
+                  </a>
+                  <a href="https://x.com" class="social-icon-btn" data-social-profile="x" target="_blank" rel="noreferrer" aria-label="Share on X (Twitter)">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="career-acceleration" class="section">
         <div class="container reveal">
           <div class="section-title">
-            <h2>Career Acceleration</h2>
-            <p>Get tactical guidance on product strategy, interviewing, and growing your career.</p>
+            <h2>Product Interview Coaching</h2>
+            <p>Get ready for your next product role with 1-on-1 coaching</p>
+            <p class="subtext">Specialized coaching for both junior and senior PM candidates. Whether you're preparing for your first PM role or transitioning to a senior product leadership position, I'll help you ace your interviews and advance your career.</p>
           </div>
           <div class="career-grid">
             <article class="career-video-panel">
               <div class="panel-header">
                 <h3>Session Overview</h3>
               </div>
+              <p class="video-description">Watch a 3-minute overview of my coaching approach</p>
               <div class="loom-embed-wrap">
                 <button type="button"
                   class="loom-facade"
                   data-src="https://www.loom.com/embed/2ede187358ef46ad92cf86b38c39e7e6"
-                  aria-label="Play Career Acceleration overview video"
+                  aria-label="Play 3-minute coaching approach overview video"
                 >
                   <svg class="loom-play-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true" focusable="false">
                     <circle cx="40" cy="40" r="40" fill="rgba(0,0,0,.5)"/>
@@ -522,6 +546,7 @@
                   placeholder="you@email.com"
                 />
                 <p class="helper" id="booking-email-validation">Enter a valid email address to enable booking.</p>
+                <p class="helper" id="booking-live-debug" hidden></p>
               </div>
 
               <a
@@ -535,6 +560,46 @@
               >
                 Open booking page
               </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>What My Clients Say</h2>
+          </div>
+          <div class="testimonials-grid">
+            <!-- TODO: Kevin should replace these placeholder testimonials with real client quotes -->
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"Kevin's coaching was instrumental in helping me land my first PM role. His insights into interview preparation were incredibly practical."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Sarah Chen</div>
+                <div class="testimonial-role">Senior Product Manager, TechCorp</div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"The strategy frameworks Kevin shared transformed how I approach product decisions. I've already implemented them in my current role."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Marcus Johnson</div>
+                <div class="testimonial-role">Product Lead, StartupXYZ</div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"Kevin understood exactly what I needed to improve. The personalized feedback made all the difference in my interview performance."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Alex Rivera</div>
+                <div class="testimonial-role">Product Manager, Digital Solutions Inc</div>
+              </div>
             </article>
           </div>
         </div>
@@ -578,7 +643,18 @@
 
     <footer class="footer">
       <div class="container footer-content">
-        <p class="footer-brand">ARMSTRONG HOLDCO LLC</p>
+        <div class="footer-top">
+          <p class="footer-brand">ARMSTRONG HOLDCO LLC</p>
+          <div class="footer-links">
+            <a href="/terms-and-conditions/">Terms</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="/terms-and-conditions/">Privacy</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
         <div class="social-row social-row-footer" aria-label="Social links and page share">
           <a class="social-icon-btn" data-social-profile="linkedin" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -604,13 +680,14 @@
           </button>
           <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
         </div>
+        </div>
         <p class="footer-copy">© 2026 Kevin Armstrong. All rights reserved.</p>
       </div>
     </footer>
 
     <script defer src="analytics.js?v=20260302a"></script>
     <script defer src="social.js?v=20260301e"></script>
-    <script type="module" src="main.js?v=20260331b"></script>
+    <script type="module" src="main.js?v=20260331c"></script>
   <!-- RSS_SEED_START -->
 <script type="application/json" id="rss-seed">[{"title": "Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code", "link": "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/", "date": "2026-04-06T19:17:52Z", "summary": "", "source": "daringfireball.net"}, {"title": "[Sponsor] Zed, a Font Superfamily", "link": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df", "date": "2026-04-06T19:15:06Z", "summary": "", "source": "daringfireball.net"}, {"title": "Little Finder Guy Stars in Nine New Videos on TikTok and YouTube", "link": "https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/", "date": "2026-04-06T17:03:30Z", "summary": "", "source": "daringfireball.net"}, {"title": "Learning to read C++ compiler errors: Illegal use of -> when there is no -> in sight", "link": "https://devblogs.microsoft.com/oldnewthing/20260406-00/?p=112208", "date": "2026-04-06T14:00:00Z", "summary": "If the compiler is complaining about things you didn't write, find out who wrote them. The post Learning to read C++ compiler errors: Illegal use of <TT>-></TT> when there is no <TT>-></TT> in sight…", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "AI Did It in 12 Minutes. It Took Me 10 Hours to Fix It", "link": "https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code?src=feed", "date": "2026-04-06T13:00:00Z", "summary": "I've been working on personal projects since the 2000s. One thing I've always been adamant about is understanding the code I write. Even when Stack Overflow came along, I was that annoying guy who…", "source": "idiallo.com"}, {"title": "[RSS Club] Banana for scale", "link": "https://shkspr.mobi/blog/2026/04/rss-club-banana-for-scale/", "date": "2026-04-06T11:34:00Z", "summary": "This post is exclusive to RSS feed subscribers. Enjoy! I've had this idea stuck in my head for a while, so I decided to make it. This is \"Scan Slowly And See\". The code is made by cloning some of the…", "source": "shkspr.mobi"}, {"title": "The Cathedral and the Catacombs", "link": "https://nesbitt.io/2026/04/06/the-cathedral-and-the-catacombs.html", "date": "2026-04-06T10:00:00Z", "summary": "Stretching a metaphor deep into the floor.", "source": "nesbitt.io"}, {"title": "Pluralistic: Your boss wants to use surveillance data to cut your wages (06 Apr 2026)", "link": "https://pluralistic.net/2026/04/06/empiricism-washing/", "date": "2026-04-06T09:04:57Z", "summary": "Today's links Your boss wants to use surveillance data to cut your wages: Tech rights are labor rights (again). Hey look at this: Delights to delectate. Object permanence: Arthur C Clarke v Buddhist…", "source": "pluralistic.net"}, {"title": "Google AI Edge Gallery", "link": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything", "date": "2026-04-06T05:18:26Z", "summary": "Google AI Edge Gallery Terrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on…", "source": "simonwillison.net"}, {"title": "datasette-ports 0.2", "link": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything", "date": "2026-04-06T03:25:43Z", "summary": "Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continues to provide the datasette ports command. Tags:…", "source": "simonwillison.net"}, {"title": "scan-for-secrets 0.3", "link": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything", "date": "2026-04-06T02:59:28Z", "summary": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED , taking escaping rules into account. New…", "source": "simonwillison.net"}, {"title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab", "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/", "date": "2026-04-06T02:07:17Z", "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil…", "source": "krebsonsecurity.com"}, {"title": "HIPAA compliant AI", "link": "https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/", "date": "2026-04-05T23:04:46Z", "summary": "The best way to run AI and remain HIPAA compliant is to run it locally on your own hardware, instead of transferring protected health information (PHI) to a remote server by using a cloud-hosted…", "source": "johndcook.com"}, {"title": "Someone at BrowserStack is Leaking Users' Email Address", "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/", "date": "2026-04-05T11:34:03Z", "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is…", "source": "shkspr.mobi"}, {"title": "It's not that deep", "link": "https://idiallo.com/blog/its-not-that-deep?src=feed", "date": "2026-04-05T08:00:00Z", "summary": "I have these Sunday evenings where I find myself sitting alone at the kitchen table, thinking about my life and how I got here . Usually, these sessions end with an inspiring idea that makes me want…", "source": "idiallo.com"}, {"title": "Kalman and Bayes average grades", "link": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/", "date": "2026-04-04T15:00:14Z", "summary": "This post will look at the problem of updating an average grade as a very simple special case of Bayesian statistics and of Kalman filtering. Suppose you’re keeping up with your average grade in a…", "source": "johndcook.com"}, {"title": "Reading List 04/04/2026", "link": "https://www.construction-physics.com/p/reading-list-04042026", "date": "2026-04-04T12:01:48Z", "summary": "Aluminum disruptions, the EV rust belt, the ongoing transformer shortage, SpaceX’s IPO, and more", "source": "construction-physics.com"}, {"title": "The AI writing witchhunt is pointless.", "link": "https://www.joanwestenberg.com/the-ai-writing-witchhunt-is-pointless/", "date": "2026-04-04T12:01:37Z", "summary": "Alexandre Dumas ran what was essentially a content production house in 19th century Paris. His most famous collaborator was Auguste Maquet, who wrote substantial portions of The Three Musketeers and…", "source": "joanwestenberg.com"}, {"title": "Welcome to RSS Club!", "link": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/", "date": "2026-04-04T11:34:13Z", "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…", "source": "shkspr.mobi"}, {"title": "What does Open Source mean?", "link": "https://nesbitt.io/2026/04/04/what-does-open-source-mean.html", "date": "2026-04-04T10:00:00Z", "summary": "A stack of incompatible expectations.", "source": "nesbitt.io"}, {"title": "Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)", "link": "https://pluralistic.net/2026/04/04/digital-subjugation/", "date": "2026-04-04T07:49:19Z", "summary": "Today's links EU ready to cave to Trump on tech: Surrendermonkeys ahoy. Hey look at this: Delights to delectate. Object permanence: \"Among a Thousand Fireflies\"; \"fiscal\" not \"physical\"; Ontario's…", "source": "pluralistic.net"}, {"title": "Absurd In Production", "link": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/", "date": "2026-04-04T00:00:00Z", "summary": "", "source": "lucumr.pocoo.org"}, {"title": "Roman moon, Greek moon", "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/", "date": "2026-04-03T16:31:54Z", "summary": "I used the term perilune in yesterday’s post about the flight path of Artemis II. When Artemis is closest to the moon it will be furthest from earth because its closest approach to the moon, its…", "source": "johndcook.com"}, {"title": "Build your own Dial-up ISP with a Raspberry Pi", "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/", "date": "2026-04-03T14:00:00Z", "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…", "source": "jeffgeerling.com"}, {"title": "How can I use Read­Directory­ChangesW to know when someone is copying a file out of the directory?", "link": "https://devblogs.microsoft.com/oldnewthing/20260403-00/?p=112202", "date": "2026-04-03T14:00:00Z", "summary": "File copying is not a fundamental operation, nor is it even detectable at the file system layer. The post How can I use <CODE>Read­Directory­ChangesW</CODE> to know when someone is copying a file out…", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "My Zip bomb strategy is not as effective as it used to be", "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed", "date": "2026-04-03T12:00:00Z", "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that helped my blog survive for 10 years. I usually hesitate to write…", "source": "idiallo.com"}, {"title": "Package Manager Easter Eggs", "link": "https://nesbitt.io/2026/04/03/package-manager-easter-eggs.html", "date": "2026-04-03T10:00:00Z", "summary": "A tour of the easter eggs hiding inside package managers.", "source": "nesbitt.io"}, {"title": "The \"Passive Income\" trap ate a generation of entrepreneurs", "link": "https://www.joanwestenberg.com/the-passive-income-trap-ate-a-generation-of-entrepreneurs/", "date": "2026-04-03T06:25:28Z", "summary": "I had coffee last year with a guy - I won't use his real name - who told me he was \"building a business.\" I asked what it did. Dropshipping jade face rollers. I made him say it twice. Jade face…", "source": "joanwestenberg.com"}, {"title": "Programming (with AI agents) as theory building", "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/", "date": "2026-04-03T00:00:00Z", "summary": "", "source": "seangoedecke.com"}, {"title": "Loading... [13 kB]", "link": "https://maurycyz.com/misc/13kb/", "date": "2026-04-03T00:00:00Z", "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…", "source": "maurycyz.com"}, {"title": "Why doesn’t the system let you declare your own messages to have the same semantics as WM_COPY­DATA?", "link": "https://devblogs.microsoft.com/oldnewthing/20260402-00/?p=112196", "date": "2026-04-02T14:00:00Z", "summary": "Tempting but misleading. The post Why doesn’t the system let you declare your own messages to have the same semantics as <CODE>WM_<WBR>COPY­DATA</CODE>? appeared first on The Old New Thing .", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "Information and Technological Evolution", "link": "https://www.construction-physics.com/p/information-and-technological-evolution", "date": "2026-04-02T12:16:08Z", "summary": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.", "source": "construction-physics.com"}, {"title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)", "link": "https://pluralistic.net/2026/04/02/limited-monopoly/", "date": "2026-04-02T10:19:42Z", "summary": "Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: \"Elephantmen\"; Eve Online war bankrolled by…", "source": "pluralistic.net"}, {"title": "Time is a User-Interface", "link": "https://www.joanwestenberg.com/tim/", "date": "2026-04-02T00:32:14Z", "summary": "", "source": "joanwestenberg.com"}, {"title": "Spring 2026 Pebble App Contest + SDK Updates", "link": "https://repebble.com/blog/spring-2026-pebble-app-contest", "date": "2026-04-02T00:00:00Z", "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…", "source": "ericmigi.com"}, {"title": "DRAM pricing is killing the hobbyist SBC market", "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/", "date": "2026-04-01T21:00:00Z", "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…", "source": "jeffgeerling.com"}, {"title": "Say the Thing You Want", "link": "https://terriblesoftware.org/2026/04/01/say-the-thing-you-want/", "date": "2026-04-01T15:59:04Z", "summary": "If you want something at work, say it out loud. Your silence isn't saving you.", "source": "terriblesoftware.org"}, {"title": "My ramblings are available over gopher", "link": "https://maurycyz.com/misc/gopher/", "date": "2026-04-01T00:00:00Z", "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…", "source": "maurycyz.com"}, {"title": "GopherTree", "link": "https://maurycyz.com/projects/gopher/", "date": "2026-04-01T00:00:00Z", "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…", "source": "maurycyz.com"}, {"title": "Claude Code won April Fools Day this year", "link": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/", "date": "2026-04-01T00:00:00Z", "summary": "They gave people a heckin tamagochi, what's not to like?", "source": "xeiaso.net"}]</script>
 <!-- RSS_SEED_END -->

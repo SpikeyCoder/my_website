@@ -1843,3 +1843,265 @@ textarea {
 .btn:hover {
   border-color: rgba(126, 231, 135, 0.5);
 }
+
+/* KA-11: Metric context */
+.metric-context {
+  font-size: 0.85em;
+  color: var(--muted);
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+/* KA-13: Career section subtext */
+.section-title .subtext {
+  color: var(--muted);
+  font-size: 0.95em;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+/* KA-07: Video description */
+.video-description {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+/* KA-14: Testimonials section */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.testimonial-card {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(17, 27, 38, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.testimonial-content {
+  flex: 1;
+}
+
+.testimonial-quote {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+  font-style: italic;
+  margin: 0;
+}
+
+.testimonial-meta {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.testimonial-role {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* KA-15: Blog CTA section */
+.blog-cta {
+  margin-top: 40px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(126, 231, 135, 0.08);
+}
+
+.blog-cta h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
+.blog-cta p {
+  margin: 0 0 16px 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cta-actions .social-row {
+  display: flex;
+  gap: 12px;
+}
+
+.cta-actions .social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-actions .social-icon-btn:hover {
+  background: rgba(126, 231, 135, 0.15);
+  border-color: rgba(126, 231, 135, 0.5);
+}
+
+.cta-actions .social-icon-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* KA-16: Footer links */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.footer-separator {
+  color: var(--border);
+}
+
+/* KA-08: Email validation visual feedback */
+#booking-email-validation {
+  min-height: 20px;
+  transition: color 0.2s;
+}
+
+#booking-email-validation.valid {
+  color: #7ee787;
+}
+
+#booking-email-validation.invalid {
+  color: #dc3545;
+}
+
+#booking-email-validation.valid::before {
+  content: "✓ ";
+  margin-right: 4px;
+}
+
+#booking-email-validation.invalid::before {
+  content: "✗ ";
+  margin-right: 4px;
+}
+
+#booking-email.valid {
+  border-color: #7ee787;
+}
+
+#booking-email.invalid {
+  border-color: #dc3545;
+}
+
+/* KA-03: Skeleton loading animation for content */
+.skeleton-loader {
+  background: linear-gradient(
+    90deg,
+    rgba(88, 166, 255, 0.1) 0%,
+    rgba(88, 166, 255, 0.2) 50%,
+    rgba(88, 166, 255, 0.1) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.blog-skeleton {
+  height: 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  skeleton-loader;
+}
+
+.blog-skeleton.title {
+  height: 24px;
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+.blog-skeleton.summary {
+  height: 16px;
+  margin-bottom: 8px;
+}
+
+/* KA-17: Search functionality styling */
+#blog-search-container {
+  margin-bottom: 20px;
+}
+
+.blog-search-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(17, 27, 38, 0.6);
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.blog-search-input::placeholder {
+  color: var(--muted);
+}
+
+.blog-search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(17, 27, 38, 0.8);
+}
+
+.blog-search-results {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
