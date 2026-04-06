@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-06T11:24:30.163554Z",
+  "generated_at": "2026-04-06T12:29:33.673940Z",
   "items": [
+    {
+      "title": "[RSS Club] Banana for scale",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-banana-for-scale/",
+      "date": "2026-04-06T11:34:00Z",
+      "summary": "This post is exclusive to RSS feed subscribers. Enjoy! I've had this idea stuck in my head for a while, so I decided to make it. This is \"Scan Slowly And See\". The code is made by cloning some of the…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "The Cathedral and the Catacombs",
       "link": "https://nesbitt.io/2026/04/06/the-cathedral-and-the-catacombs.html",
@@ -58,6 +65,13 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Someone at BrowserStack is Leaking Users' Email Address",
+      "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "date": "2026-04-05T11:34:03Z",
+      "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "It's not that deep",
       "link": "https://idiallo.com/blog/its-not-that-deep?src=feed",
       "date": "2026-04-05T08:00:00Z",
@@ -98,6 +112,13 @@
       "date": "2026-04-04T12:01:37Z",
       "summary": "Alexandre Dumas ran what was essentially a content production house in 19th century Paris. His most famous collaborator was Auguste Maquet, who wrote substantial portions of The Three Musketeers and…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Welcome to RSS Club!",
+      "link": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/",
+      "date": "2026-04-04T11:34:13Z",
+      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "What does Open Source mean?",
@@ -259,27 +280,6 @@
       "date": "2026-04-01T00:00:00Z",
       "summary": "They gave people a heckin tamagochi, what's not to like?",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Notes from March 2026",
-      "link": "https://evanhahn.com/notes-from-march-2026/",
-      "date": "2026-03-31T00:00:00Z",
-      "summary": "March always seems to be my life’s busiest month. Things I wrote and made “The two kinds of error” : in my mind, software errors are divided into two categories: expected and unexpected errors. I…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Making human languages irrelevant",
-      "link": "https://rakhim.exotext.com/making-human-languages-irrelevant",
-      "date": "2026-03-31T00:00:00Z",
-      "summary": "If global large-scale human communication continues to be concentrated within large social media platforms and content providers like YouTube, human languages may become sort of irrelevant in that…",
-      "source": "rakhim.exotext.com"
-    },
-    {
-      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
-      "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
-      "date": "2026-03-30T00:45:38.763000Z",
-      "summary": "",
-      "source": "righto.com"
     }
   ]
 }
