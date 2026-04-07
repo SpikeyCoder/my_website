@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-04-07T22:19:09.404193Z",
+  "generated_at": "2026-04-07T23:19:52.953898Z",
   "items": [
     {
       "title": "★ OpenAI Announces $122 Billion Additional ‘Committed Capital’, and Announces Their ‘Superapp’ Plan for the Future",
       "link": "https://daringfireball.net/2026/04/openai_future",
-      "date": "2026-04-07T22:15:23Z",
+      "date": "2026-04-07T22:43:04Z",
       "summary": "I don’t see the path from here to there, where *there* is a justification for a trillion-dollar-ish valuation.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Solar Eclipse From the Far Side of the Moon",
+      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
+      "date": "2026-04-07T22:23:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Sam Altman, in a Video Released by OpenAI, Apparently Thinks AGI Is Going to Hit Society Like a Once-a-Century Pandemic",
+      "link": "https://x.com/OpenAINewsroom/status/2041618671236469200?s=20",
+      "date": "2026-04-07T22:23:08Z",
+      "summary": "",
       "source": "daringfireball.net"
     },
     {
@@ -28,20 +42,6 @@
       "date": "2026-04-07T17:02:44Z",
       "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Om Malik and Ben Thompson on OpenAI Buying TBPN",
-      "link": "https://om.co/2026/04/02/openai-masters-of-agitprop-2-0/",
-      "date": "2026-04-07T16:52:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Flighty Airports Meltdown Map",
-      "link": "https://flighty.com/airports",
-      "date": "2026-04-07T16:44:06Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "SQLite WAL Mode Across Docker Containers Sharing a Volume",
