@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-07T16:30:35.920348Z",
+  "generated_at": "2026-04-07T17:28:16.395960Z",
   "items": [
+    {
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "date": "2026-04-07T17:02:44Z",
+      "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Om Malik and Ben Thompson on OpenAI Buying TBPN",
+      "link": "https://om.co/2026/04/02/openai-masters-of-agitprop-2-0/",
+      "date": "2026-04-07T16:52:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Flighty Airports Meltdown Map",
+      "link": "https://flighty.com/airports",
+      "date": "2026-04-07T16:44:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Data Drop: Every iPhone",
+      "link": "https://sheets.works/data-viz/every-iphone",
+      "date": "2026-04-07T16:34:14Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Did WordPress VIP leak my phone number?",
       "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
@@ -35,27 +63,6 @@
       "date": "2026-04-06T23:36:11Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code",
-      "link": "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/",
-      "date": "2026-04-06T19:17:52Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "[Sponsor] Zed, a Font Superfamily",
-      "link": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df",
-      "date": "2026-04-06T19:15:06Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Little Finder Guy Stars in Nine New Videos on TikTok and YouTube",
-      "link": "https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/",
-      "date": "2026-04-06T17:03:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Learning to read C++ compiler errors: Illegal use of -> when there is no -> in sight",
@@ -273,13 +280,6 @@
       "date": "2026-04-01T00:00:00Z",
       "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Claude Code won April Fools Day this year",
-      "link": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "They gave people a heckin tamagochi, what's not to like?",
-      "source": "xeiaso.net"
     }
   ]
 }
