@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-07T20:19:41.181184Z",
+  "generated_at": "2026-04-07T21:22:50.806332Z",
   "items": [
+    {
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "date": "2026-04-07T20:52:54Z",
+      "summary": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
       "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
@@ -125,13 +132,6 @@
       "link": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
       "date": "2026-04-06T03:25:43Z",
       "summary": "Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continues to provide the datasette ports command. Tags:…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "scan-for-secrets 0.3",
-      "link": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
-      "date": "2026-04-06T02:59:28Z",
-      "summary": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED , taking escaping rules into account. New…",
       "source": "simonwillison.net"
     },
     {
