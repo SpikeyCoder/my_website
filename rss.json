@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-07T11:26:32.470066Z",
+  "generated_at": "2026-04-07T12:32:11.860634Z",
   "items": [
+    {
+      "title": "Did WordPress VIP leak my phone number?",
+      "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
+      "date": "2026-04-07T11:34:43Z",
+      "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Who Built This?",
       "link": "https://nesbitt.io/2026/04/07/who-built-this.html",
@@ -16,7 +23,7 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Tofolli gates are all you need",
+      "title": "Toffoli gates are all you need",
       "link": "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/",
       "date": "2026-04-07T00:33:23Z",
       "summary": "Landauer’s principle gives a lower bound on the amount of energy it takes to erase one bit of information: E ≥ log(2) kB T where kB is the Boltzmann constant and T is the ambient temperature in…",
@@ -154,13 +161,6 @@
       "date": "2026-04-04T12:01:37Z",
       "summary": "Alexandre Dumas ran what was essentially a content production house in 19th century Paris. His most famous collaborator was Auguste Maquet, who wrote substantial portions of The Three Musketeers and…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Welcome to RSS Club!",
-      "link": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/",
-      "date": "2026-04-04T11:34:13Z",
-      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "What does Open Source mean?",
