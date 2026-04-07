@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-04-07T06:41:48.784116Z",
+  "generated_at": "2026-04-07T07:38:54.654275Z",
   "items": [
     {
-      "title": "All you need is Tofolli gates",
+      "title": "Pluralistic: Switzerland's Goldilocks fiber (07 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/07/swisscom/",
+      "date": "2026-04-07T07:20:37Z",
+      "summary": "Today's links Switzerland's Goldilocks fiber: Public provision is a layered question. Hey look at this: Delights to delectate. Object permanence: EU appoints henhouse fox (copyright); Emacs x Tron:…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "Tofolli gates are all you need",
       "link": "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/",
       "date": "2026-04-07T00:33:23Z",
       "summary": "Landauer’s principle gives a lower bound on the amount of energy it takes to erase one bit of information: E ≥ log(2) kB T where kB is the Boltzmann constant and T is the ambient temperature in…",
@@ -231,13 +238,6 @@
       "date": "2026-04-02T12:16:08Z",
       "summary": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/02/limited-monopoly/",
-      "date": "2026-04-02T10:19:42Z",
-      "summary": "Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: \"Elephantmen\"; Eve Online war bankrolled by…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Spring 2026 Pebble App Contest + SDK Updates",
