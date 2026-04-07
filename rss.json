@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-07T10:29:25.120201Z",
+  "generated_at": "2026-04-07T11:26:32.470066Z",
   "items": [
+    {
+      "title": "Who Built This?",
+      "link": "https://nesbitt.io/2026/04/07/who-built-this.html",
+      "date": "2026-04-07T10:00:00Z",
+      "summary": "Tracing a dependency back to its source commit.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Switzerland's Goldilocks fiber (07 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/07/swisscom/",
@@ -196,13 +203,6 @@
       "date": "2026-04-03T12:00:00Z",
       "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that helped my blog survive for 10 years. I usually hesitate to write…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Package Manager Easter Eggs",
-      "link": "https://nesbitt.io/2026/04/03/package-manager-easter-eggs.html",
-      "date": "2026-04-03T10:00:00Z",
-      "summary": "A tour of the easter eggs hiding inside package managers.",
-      "source": "nesbitt.io"
     },
     {
       "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
