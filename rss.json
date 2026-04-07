@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T17:28:16.395960Z",
+  "generated_at": "2026-04-07T18:28:39.810533Z",
   "items": [
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -56,6 +56,13 @@
       "date": "2026-04-07T00:33:23Z",
       "summary": "Landauer’s principle gives a lower bound on the amount of energy it takes to erase one bit of information: E ≥ log(2) kB T where kB is the Boltzmann constant and T is the ambient temperature in…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "The Building Block Economy",
+      "link": "https://mitchellh.com/writing/building-block-economy",
+      "date": "2026-04-07T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
     },
     {
       "title": "The Hacker News tarpit",
@@ -272,13 +279,6 @@
       "link": "https://maurycyz.com/misc/gopher/",
       "date": "2026-04-01T00:00:00Z",
       "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "GopherTree",
-      "link": "https://maurycyz.com/projects/gopher/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…",
       "source": "maurycyz.com"
     }
   ]
