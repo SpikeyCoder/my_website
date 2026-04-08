@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-08T22:20:42.145881Z",
+  "generated_at": "2026-04-08T23:20:20.095507Z",
   "items": [
+    {
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "date": "2026-04-08T23:07:44Z",
+      "summary": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\",…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Anthropic’s New Claude Mythos Is So Good at Finding and Exploiting Vulnerabilities That They’re Not Releasing It to the Public",
       "link": "https://red.anthropic.com/2026/mythos-preview/",
@@ -69,13 +76,6 @@
       "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
       "date": "2026-04-07T21:25:14Z",
       "summary": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face ) MIT-licensed monster - the same size as their previous GLM-5 release, and…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
-      "date": "2026-04-07T20:52:54Z",
-      "summary": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced…",
       "source": "simonwillison.net"
     },
     {
