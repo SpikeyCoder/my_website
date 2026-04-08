@@ -408,11 +408,11 @@
                 <label for="blog-title">
                   Title
                 </label>
-                <input id="blog-title" type="text" name="title" required placeholder="Post title" />
+                <input id="blog-title" type="text" name="title" required placeholder="Post title" aria-label="Post title" />
                 <label for="blog-summary">
                   Summary
                 </label>
-                <input id="blog-summary" type="text" name="summary" required placeholder="Short hook" />
+                <input id="blog-summary" type="text" name="summary" required placeholder="Short hook" aria-label="Post summary" />
                 <label for="blog-content">
                   Content
                 </label>
@@ -449,11 +449,11 @@
                       <option value="monospace">Monospace</option>
                     </select>
                   </div>
-                  <textarea id="blog-content" name="content" rows="6" required placeholder="Write the post..."></textarea>
+                  <textarea id="blog-content" name="content" rows="6" required placeholder="Write the post..." aria-label="Post content"></textarea>
                 <label for="blog-tags">
                   Tags (comma-separated)
                 </label>
-                <input id="blog-tags" type="text" name="tags" placeholder="ios, product, payments" />
+                <input id="blog-tags" type="text" name="tags" placeholder="ios, product, payments" aria-label="Post tags" />
                 <button class="btn primary" type="submit">Publish</button>
                 <p class="helper">
                   Fill in all fields and click Publish to create a new blog post.
