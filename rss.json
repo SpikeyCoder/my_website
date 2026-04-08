@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-08T14:43:14.819540Z",
+  "generated_at": "2026-04-08T15:38:21.792842Z",
   "items": [
+    {
+      "title": "Quoting Giles Turnbull",
+      "link": "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything",
+      "date": "2026-04-08T15:18:49Z",
+      "summary": "I have a feeling that everyone likes using AI tools to try doing someone else’s profession . They’re much less keen when someone else uses it for their profession. — Giles Turnbull , AI and the human…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Pluralistic: Process knowledge (08 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/08/process-knowledge-vs-bosses/",
+      "date": "2026-04-08T13:39:44Z",
+      "summary": "Today's links Process knowledge: We also serve who stand and wash. Hey look at this: Delights to delectate. Object permanence: Chicken Little; \"Anya's Ghost\"; Ad-tech's algorithmic cruelty. Upcoming…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "Theatre Review: Avenue Q ★★★★★",
       "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
@@ -65,13 +79,6 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "SQLite WAL Mode Across Docker Containers Sharing a Volume",
-      "link": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
-      "date": "2026-04-07T15:41:00Z",
-      "summary": "Research: SQLite WAL Mode Across Docker Containers Sharing a Volume Inspired by this conversation on Hacker News about whether two SQLite processes in separate Docker containers that share the same…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Were there any Windows 3.1 programs that were so incompatible with Windows 95 that there was no point trying to patch them?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260407-00/?p=112213",
       "date": "2026-04-07T14:00:00Z",
@@ -91,6 +98,13 @@
       "date": "2026-04-07T10:00:00Z",
       "summary": "Tracing a dependency back to its source commit.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Pluralistic: Switzerland's Goldilocks fiber (07 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/07/swisscom/",
+      "date": "2026-04-07T07:20:37Z",
+      "summary": "Today's links Switzerland's Goldilocks fiber: Public provision is a layered question. Hey look at this: Delights to delectate. Object permanence: EU appoints henhouse fox (copyright); Emacs x Tron:…",
+      "source": "pluralistic.net"
     },
     {
       "title": "Toffoli gates are all you need",
@@ -140,6 +154,13 @@
       "date": "2026-04-06T10:00:00Z",
       "summary": "Stretching a metaphor deep into the floor.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Pluralistic: Your boss wants to use surveillance data to cut your wages (06 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/06/empiricism-washing/",
+      "date": "2026-04-06T09:04:57Z",
+      "summary": "Today's links Your boss wants to use surveillance data to cut your wages: Tech rights are labor rights (again). Hey look at this: Delights to delectate. Object permanence: Arthur C Clarke v Buddhist…",
+      "source": "pluralistic.net"
     },
     {
       "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
@@ -259,27 +280,6 @@
       "date": "2026-04-01T15:59:04Z",
       "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "My ramblings are available over gopher",
-      "link": "https://maurycyz.com/misc/gopher/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "GopherTree",
-      "link": "https://maurycyz.com/projects/gopher/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "While gopher is usually seen as a proto-web, it's really closer to FTP. It has no markup format, no links and no URLs. Files are arranged in a hierarchically, and can be in any format. This rigid…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "Claude Code won April Fools Day this year",
-      "link": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "They gave people a heckin tamagochi, what's not to like?",
-      "source": "xeiaso.net"
     }
   ]
 }
