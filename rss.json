@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T08:35:35.950921Z",
+  "generated_at": "2026-04-08T09:33:35.225176Z",
   "items": [
     {
       "title": "★ OpenAI Announces $122 Billion Additional ‘Committed Capital’, and Announces Their ‘Superapp’ Plan for the Future",
@@ -7,6 +7,13 @@
       "date": "2026-04-08T01:58:15Z",
       "summary": "I don’t see the path from here to there, where *there* is a justification for a trillion-dollar-ish valuation.",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Mario and Earendil",
+      "link": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "date": "2026-04-08T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Solar Eclipse From the Far Side of the Moon",
@@ -273,13 +280,6 @@
       "date": "2026-04-01T15:59:04Z",
       "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "My ramblings are available over gopher",
-      "link": "https://maurycyz.com/misc/gopher/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
-      "source": "maurycyz.com"
     }
   ]
 }
