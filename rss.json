@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-08T11:26:30.133592Z",
+  "generated_at": "2026-04-08T12:31:36.539832Z",
   "items": [
+    {
+      "title": "Theatre Review: Avenue Q ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
+      "date": "2026-04-08T11:34:25Z",
+      "summary": "I'll admit, I was a little sceptical about returning to Avenue Q. I saw it on its original West End run back in… OH MY GOD I AM SO OLD! FUCK! Where did the time go? It's always hard to know how much…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Package Security Problems for AI Agents",
       "link": "https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html",
@@ -161,13 +168,6 @@
       "date": "2026-04-05T23:04:46Z",
       "summary": "The best way to run AI and remain HIPAA compliant is to run it locally on your own hardware, instead of transferring protected health information (PHI) to a remote server by using a cloud-hosted…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Someone at BrowserStack is Leaking Users' Email Address",
-      "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
-      "date": "2026-04-05T11:34:03Z",
-      "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "It's not that deep",
