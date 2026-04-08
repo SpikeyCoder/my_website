@@ -456,10 +456,7 @@
                 <input id="blog-tags" type="text" name="tags" placeholder="ios, product, payments" />
                 <button class="btn primary" type="submit">Publish</button>
                 <p class="helper">
-                  Posts are stored in Supabase table <span class="mono">posts</span> with
-                  <span class="mono">title</span>, <span class="mono">summary</span>,
-                  <span class="mono">content</span>, <span class="mono">tags</span>,
-                  <span class="mono">published_at</span>.
+                  Fill in all fields and click Publish to create a new blog post.
                 </p>
               </form>
             </div>
@@ -614,7 +611,7 @@
           </div>
           <div class="rss-radar">
             <div class="rss-controls">
-              <input type="text" id="rss-search" placeholder="Filter by title or source" />
+              <input type="text" id="rss-search" placeholder="Filter by title or source" aria-label="Filter RSS feeds by title or source" />
               <button type="button" class="btn ghost" id="rss-refresh">Refresh</button>
             </div>
             <div class="status" id="rss-updated"></div>
