@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-08T10:30:35.671429Z",
+  "generated_at": "2026-04-08T11:26:30.133592Z",
   "items": [
+    {
+      "title": "Package Security Problems for AI Agents",
+      "link": "https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html",
+      "date": "2026-04-08T10:00:00Z",
+      "summary": "Packages all the way down, agents all the way up.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "★ OpenAI Announces $122 Billion Additional ‘Committed Capital’, and Announces Their ‘Superapp’ Plan for the Future",
       "link": "https://daringfireball.net/2026/04/openai_future",
@@ -189,13 +196,6 @@
       "date": "2026-04-04T12:01:37Z",
       "summary": "Alexandre Dumas ran what was essentially a content production house in 19th century Paris. His most famous collaborator was Auguste Maquet, who wrote substantial portions of The Three Musketeers and…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "What does Open Source mean?",
-      "link": "https://nesbitt.io/2026/04/04/what-does-open-source-mean.html",
-      "date": "2026-04-04T10:00:00Z",
-      "summary": "A stack of incompatible expectations.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)",
