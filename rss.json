@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-08T23:20:20.095507Z",
+  "generated_at": "2026-04-09T00:43:26.885792Z",
   "items": [
+    {
+      "title": "Root prime gap",
+      "link": "https://www.johndcook.com/blog/2026/04/08/andrica/",
+      "date": "2026-04-09T00:18:57Z",
+      "summary": "I recently found out about Andrica’s conjecture: the square roots of consecutive primes are less than 1 apart. In symbols, Andrica’s conjecture says that if pn and pn+1 are consecutive prime numbers,…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "A Three- and a Four- Body Problem",
+      "link": "https://www.johndcook.com/blog/2026/04/08/artemis-1-apollo-12/",
+      "date": "2026-04-08T23:30:15Z",
+      "summary": "Last week I wrote about the orbit of Artemis II. The orbit of Artemis I was much more interesting. Because Artemis I was unmanned, it could spend a lot more time in orbit. The Artemis I mission took…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
       "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
@@ -177,25 +191,11 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "HIPAA compliant AI",
-      "link": "https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/",
-      "date": "2026-04-05T23:04:46Z",
-      "summary": "The best way to run AI and remain HIPAA compliant is to run it locally on your own hardware, instead of transferring protected health information (PHI) to a remote server by using a cloud-hosted…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "It's not that deep",
       "link": "https://idiallo.com/blog/its-not-that-deep?src=feed",
       "date": "2026-04-05T08:00:00Z",
       "summary": "I have these Sunday evenings where I find myself sitting alone at the kitchen table, thinking about my life and how I got here . Usually, these sessions end with an inspiring idea that makes me want…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Kalman and Bayes average grades",
-      "link": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/",
-      "date": "2026-04-04T15:00:14Z",
-      "summary": "This post will look at the problem of updating an average grade as a very simple special case of Bayesian statistics and of Kalman filtering. Suppose you’re keeping up with your average grade in a…",
-      "source": "johndcook.com"
     },
     {
       "title": "Reading List 04/04/2026",
