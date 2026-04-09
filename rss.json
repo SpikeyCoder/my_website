@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-09T15:40:31.044293Z",
+  "generated_at": "2026-04-09T16:39:30.966913Z",
   "items": [
     {
-      "title": "Untitled",
-      "link": "https://dynomight.net/2026-04-09-drinking.html",
-      "date": "2026-04-09T13:50:13Z",
-      "summary": "",
-      "source": "dynomight.net"
+      "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
+      "date": "2026-04-09T14:00:00Z",
+      "summary": "You can't, but you can cooperate with the other thread. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Helium Is Hard to Replace",
@@ -49,6 +49,13 @@
       "date": "2026-04-09T00:18:57Z",
       "summary": "I recently found out about Andrica’s conjecture: the square roots of consecutive primes are less than 1 apart. In symbols, Andrica’s conjecture says that if pn and pn+1 are consecutive prime numbers,…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "I quit drinking for a year",
+      "link": "https://dynomight.net/drinking/",
+      "date": "2026-04-09T00:00:00Z",
+      "summary": "out of spite",
+      "source": "dynomight.net"
     },
     {
       "title": "A Three- and a Four- Body Problem",
@@ -182,13 +189,6 @@
       "date": "2026-04-06T23:36:11Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Learning to read C++ compiler errors: Illegal use of -> when there is no -> in sight",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260406-00/?p=112208",
-      "date": "2026-04-06T14:00:00Z",
-      "summary": "If the compiler is complaining about things you didn't write, find out who wrote them. The post Learning to read C++ compiler errors: Illegal use of <TT>-></TT> when there is no <TT>-></TT> in sight…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "AI Did It in 12 Minutes. It Took Me 10 Hours to Fix It",
