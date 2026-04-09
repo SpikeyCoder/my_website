@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-09T16:39:30.966913Z",
+  "generated_at": "2026-04-09T17:30:26.780359Z",
   "items": [
+    {
+      "title": "Solar Eclipse From the Far Side of the Moon",
+      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
+      "date": "2026-04-09T17:28:23Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Lickspittle of the Week: Todd Blanche",
+      "link": "https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/",
+      "date": "2026-04-09T17:11:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
@@ -112,20 +126,6 @@
       "date": "2026-04-08T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Solar Eclipse From the Far Side of the Moon",
-      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
-      "date": "2026-04-07T22:23:27Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Sam Altman, in a Video Released by OpenAI, Apparently Thinks AGI Is Going to Hit Society Like a Once-a-Century Pandemic",
-      "link": "https://x.com/OpenAINewsroom/status/2041618671236469200?s=20",
-      "date": "2026-04-07T22:23:08Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "GLM-5.1: Towards Long-Horizon Tasks",
