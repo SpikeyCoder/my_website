@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-09T18:29:46.373267Z",
+  "generated_at": "2026-04-09T19:33:25.990607Z",
   "items": [
+    {
+      "title": "Solar Eclipse From the Far Side of the Moon",
+      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
+      "date": "2026-04-09T19:05:32Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "The Great Pyramid of Giza and the Speed of Light",
       "link": "https://www.johndcook.com/blog/2026/04/09/pyramid-speed-of-light/",
       "date": "2026-04-09T17:54:21Z",
       "summary": "Saw a post on X saying that the latitude of the Pyramid of Giza is the same as the speed of light. I looked into this, expecting it to be approximately true. It’s exactly true in the sense that the…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Solar Eclipse From the Far Side of the Moon",
-      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
-      "date": "2026-04-09T17:28:23Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Random hexagon fractal",
