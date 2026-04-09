@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-09T21:22:42.143462Z",
+  "generated_at": "2026-04-09T22:20:32.980743Z",
   "items": [
+    {
+      "title": "MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe",
+      "link": "https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/",
+      "date": "2026-04-09T22:16:14Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "GitHub Repo Size",
+      "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+      "date": "2026-04-09T21:31:50Z",
+      "summary": "Tool: GitHub Repo Size GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API . Paste a repo into this tool to see the size, for example for simonw/datasette…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Adobe Diddles With Your /etc/hosts File",
       "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
@@ -44,6 +58,13 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "What Are You Trying to Say?",
+      "link": "https://idiallo.com/blog/what-are-you-trying-to-say?src=feed",
+      "date": "2026-04-09T12:00:00Z",
+      "summary": "Sometimes, I find myself talking while my audience has a puzzled look on their face. It doesn't matter how much I prepared my speech, the message is just not getting through. But then they ask: What…",
+      "source": "idiallo.com"
+    },
+    {
       "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
       "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
       "date": "2026-04-09T11:34:59Z",
@@ -72,13 +93,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Anthropic’s New Claude Mythos Is So Good at Finding and Exploiting Vulnerabilities That They’re Not Releasing It to the Public",
-      "link": "https://red.anthropic.com/2026/mythos-preview/",
-      "date": "2026-04-09T01:25:37Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Root prime gap",
       "link": "https://www.johndcook.com/blog/2026/04/08/andrica/",
       "date": "2026-04-09T00:18:57Z",
@@ -97,13 +111,6 @@
       "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
       "date": "2026-04-08T23:07:44Z",
       "summary": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\",…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Giles Turnbull",
-      "link": "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything",
-      "date": "2026-04-08T15:18:49Z",
-      "summary": "I have a feeling that everyone likes using AI tools to try doing someone else’s profession . They’re much less keen when someone else uses it for their profession. — Giles Turnbull , AI and the human…",
       "source": "simonwillison.net"
     },
     {
@@ -238,13 +245,6 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "My Zip bomb strategy is not as effective as it used to be",
-      "link": "https://idiallo.com/blog/zip-bombs-are-not-as-effective-as-they-used-to-be?src=feed",
-      "date": "2026-04-03T12:00:00Z",
-      "summary": "Last year, I wrote about my server setup and how I use zipbombs to mitigate attacks from rogue bots. It was an effective method that helped my blog survive for 10 years. I usually hesitate to write…",
-      "source": "idiallo.com"
     },
     {
       "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
