@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-09T20:24:44.025895Z",
+  "generated_at": "2026-04-09T21:22:42.143462Z",
   "items": [
     {
-      "title": "Solar Eclipse From the Far Side of the Moon",
-      "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
-      "date": "2026-04-09T19:05:32Z",
+      "title": "Adobe Diddles With Your /etc/hosts File",
+      "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
+      "date": "2026-04-09T20:35:30Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -63,6 +63,13 @@
       "date": "2026-04-09T10:00:00Z",
       "summary": "Lockfiles, sandboxes, and cooldown timers.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "asgi-gzip 0.3",
+      "link": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+      "date": "2026-04-09T03:54:40Z",
+      "summary": "Release: asgi-gzip 0.3 I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance was using datasette-gzip which uses asgi-gzip which was…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Anthropic’s New Claude Mythos Is So Good at Finding and Exploiting Vulnerabilities That They’re Not Releasing It to the Public",
@@ -133,13 +140,6 @@
       "date": "2026-04-08T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "GLM-5.1: Towards Long-Horizon Tasks",
-      "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
-      "date": "2026-04-07T21:25:14Z",
-      "summary": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face ) MIT-licensed monster - the same size as their previous GLM-5 release, and…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
