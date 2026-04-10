@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T16:26:22.568204Z",
+  "generated_at": "2026-04-10T17:24:05.817379Z",
   "items": [
+    {
+      "title": "Ed Bindels’s Apple Museum in Utrecht, Netherlands",
+      "link": "https://applemuseum.nl/",
+      "date": "2026-04-10T16:35:04Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "ChatGPT voice mode is a weaker model",
       "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
@@ -77,13 +84,6 @@
       "date": "2026-04-09T17:25:08Z",
       "summary": "I recently ran across a post on X describing a process for creating a random fractal. First, pick a random point c inside a hexagon. Then at each subsequent step, pick a random side of the hexagon…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Lickspittle of the Week: Todd Blanche",
-      "link": "https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/",
-      "date": "2026-04-09T17:11:06Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
