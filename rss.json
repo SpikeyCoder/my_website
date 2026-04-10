@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T11:24:05.748564Z",
+  "generated_at": "2026-04-10T12:27:45.456537Z",
   "items": [
+    {
+      "title": "[RSS Club] Why do you use RSS rather than Atom?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
+      "date": "2026-04-10T11:34:36Z",
+      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Package Registries and Pagination",
       "link": "https://nesbitt.io/2026/04/10/package-registries-and-pagination.html",
@@ -182,13 +189,6 @@
       "date": "2026-04-07T14:00:00Z",
       "summary": "The permanently ineligible list. The post Were there any Windows 3.1 programs that were so incompatible with Windows 95 that there was no point trying to patch them? appeared first on The Old New…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Did WordPress VIP leak my phone number?",
-      "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
-      "date": "2026-04-07T11:34:43Z",
-      "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Building Block Economy",
