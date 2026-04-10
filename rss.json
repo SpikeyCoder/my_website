@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-10T01:43:11.685311Z",
+  "generated_at": "2026-04-10T03:15:24.308584Z",
   "items": [
+    {
+      "title": "Adobe Diddles With Your /etc/hosts File",
+      "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
+      "date": "2026-04-10T02:48:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Why I quit \"The Strive\"",
+      "link": "https://www.joanwestenberg.com/why-i-quit-the-strive/",
+      "date": "2026-04-10T01:50:12Z",
+      "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe",
       "link": "https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/",
@@ -14,13 +28,6 @@
       "date": "2026-04-09T21:31:50Z",
       "summary": "Tool: GitHub Repo Size GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API . Paste a repo into this tool to see the size, for example for simonw/datasette…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Adobe Diddles With Your /etc/hosts File",
-      "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
-      "date": "2026-04-09T20:35:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The Great Pyramid of Giza and the Speed of Light",
@@ -63,6 +70,13 @@
       "date": "2026-04-09T12:00:00Z",
       "summary": "Sometimes, I find myself talking while my audience has a puzzled look on their face. It doesn't matter how much I prepared my speech, the message is just not getting through. But then they ask: What…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
+      "date": "2026-04-09T11:34:59Z",
+      "summary": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film \"Lola RenntRun Lola Run\" there's a briefcase full…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Cindy Cohn's \"Privacy's Defender\" (09 Apr 2026)",
@@ -121,6 +135,13 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "Theatre Review: Avenue Q ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
+      "date": "2026-04-08T11:34:25Z",
+      "summary": "I'll admit, I was a little sceptical about returning to Avenue Q. I saw it on its original West End run back in… OH MY GOD I AM SO OLD! FUCK! Where did the time go? It's always hard to know how much…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Package Security Problems for AI Agents",
       "link": "https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html",
       "date": "2026-04-08T10:00:00Z",
@@ -147,6 +168,13 @@
       "date": "2026-04-07T14:00:00Z",
       "summary": "The permanently ineligible list. The post Were there any Windows 3.1 programs that were so incompatible with Windows 95 that there was no point trying to patch them? appeared first on The Old New…",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Did WordPress VIP leak my phone number?",
+      "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
+      "date": "2026-04-07T11:34:43Z",
+      "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Who Built This?",
@@ -226,13 +254,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
-      "link": "https://www.joanwestenberg.com/the-passive-income-trap-ate-a-generation-of-entrepreneurs/",
-      "date": "2026-04-03T06:25:28Z",
-      "summary": "I had coffee last year with a guy - I won't use his real name - who told me he was \"building a business.\" I asked what it did. Dropshipping jade face rollers. I made him say it twice. Jade face…",
-      "source": "joanwestenberg.com"
-    },
-    {
       "title": "Programming (with AI agents) as theory building",
       "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
       "date": "2026-04-03T00:00:00Z",
@@ -259,27 +280,6 @@
       "date": "2026-04-02T00:00:00Z",
       "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
       "source": "ericmigi.com"
-    },
-    {
-      "title": "DRAM pricing is killing the hobbyist SBC market",
-      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
-      "date": "2026-04-01T21:00:00Z",
-      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Say the Thing You Want",
-      "link": "https://terriblesoftware.org/2026/04/01/say-the-thing-you-want/",
-      "date": "2026-04-01T15:59:04Z",
-      "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
-      "source": "terriblesoftware.org"
-    },
-    {
-      "title": "My ramblings are available over gopher",
-      "link": "https://maurycyz.com/misc/gopher/",
-      "date": "2026-04-01T00:00:00Z",
-      "summary": "It has recently come to my attention that people need a thousand lines of C code to read my website. This is unacceptable. For simpler clients, my server supports gopher: /* HTML tags, keywords,…",
-      "source": "maurycyz.com"
     }
   ]
 }
