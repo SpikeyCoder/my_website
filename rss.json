@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T21:17:56.038625Z",
+  "generated_at": "2026-04-10T22:17:56.988286Z",
   "items": [
+    {
+      "title": "★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead",
+      "link": "https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead",
+      "date": "2026-04-10T21:39:51Z",
+      "summary": "Regarding Ronan Farrow and Andrew Marantz’s epic profile of Sam Altman in The New Yorker.",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Kākāpō parrots",
       "link": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
@@ -30,6 +37,13 @@
       "source": "johndcook.com"
     },
     {
+      "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260410-00/?p=112223",
+      "date": "2026-04-10T14:00:00Z",
+      "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
       "title": "[RSS Club] Why do you use RSS rather than Atom?",
       "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
       "date": "2026-04-10T11:34:36Z",
@@ -49,13 +63,6 @@
       "date": "2026-04-10T09:57:16Z",
       "summary": "Today's links Canny Valley and Creative Commons: Another bite at the apple. Hey look at this: Delights to delectate. Object permanence: Bidenomics needs to be bigger; Al Franken's balanced war…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Adobe Diddles With Your /etc/hosts File",
-      "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
-      "date": "2026-04-10T02:48:09Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Why I quit \"The Strive\"",
@@ -189,13 +196,6 @@
       "date": "2026-04-07T17:02:44Z",
       "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Were there any Windows 3.1 programs that were so incompatible with Windows 95 that there was no point trying to patch them?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260407-00/?p=112213",
-      "date": "2026-04-07T14:00:00Z",
-      "summary": "The permanently ineligible list. The post Were there any Windows 3.1 programs that were so incompatible with Windows 95 that there was no point trying to patch them? appeared first on The Old New…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Building Block Economy",
