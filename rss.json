@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T14:30:29.369679Z",
+  "generated_at": "2026-04-10T15:24:36.855691Z",
   "items": [
+    {
+      "title": "Distribution of digits in fractions",
+      "link": "https://www.johndcook.com/blog/2026/04/10/fraction-digits/",
+      "date": "2026-04-10T14:29:49Z",
+      "summary": "There’s a lot of mathematics just off the beaten path. You can spend a career in math and yet not know all there is to know about even the most basic areas of math. For example, this post will…",
+      "source": "johndcook.com"
+    },
     {
       "title": "[RSS Club] Why do you use RSS rather than Atom?",
       "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
@@ -119,13 +126,6 @@
       "date": "2026-04-09T03:54:40Z",
       "summary": "Release: asgi-gzip 0.3 I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance was using datasette-gzip which uses asgi-gzip which was…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Root prime gap",
-      "link": "https://www.johndcook.com/blog/2026/04/08/andrica/",
-      "date": "2026-04-09T00:18:57Z",
-      "summary": "I recently found out about Andrica’s conjecture: the square roots of consecutive primes are less than 1 apart. In symbols, Andrica’s conjecture says that if pn and pn+1 are consecutive prime numbers,…",
-      "source": "johndcook.com"
     },
     {
       "title": "I quit drinking for a year",
