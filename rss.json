@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T10:29:23.939646Z",
+  "generated_at": "2026-04-10T11:24:05.748564Z",
   "items": [
+    {
+      "title": "Package Registries and Pagination",
+      "link": "https://nesbitt.io/2026/04/10/package-registries-and-pagination.html",
+      "date": "2026-04-10T10:00:00Z",
+      "summary": "100MB of metadata for 10,451 versions.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Canny Valley and Creative Commons (10 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/10/canny-valley/",
@@ -182,13 +189,6 @@
       "date": "2026-04-07T11:34:43Z",
       "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Who Built This?",
-      "link": "https://nesbitt.io/2026/04/07/who-built-this.html",
-      "date": "2026-04-07T10:00:00Z",
-      "summary": "Tracing a dependency back to its source commit.",
-      "source": "nesbitt.io"
     },
     {
       "title": "The Building Block Economy",
