@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-10T15:24:36.855691Z",
+  "generated_at": "2026-04-10T16:26:22.568204Z",
   "items": [
+    {
+      "title": "ChatGPT voice mode is a weaker model",
+      "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+      "date": "2026-04-10T15:56:02Z",
+      "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Distribution of digits in fractions",
       "link": "https://www.johndcook.com/blog/2026/04/10/fraction-digits/",
@@ -133,13 +140,6 @@
       "date": "2026-04-09T00:00:00Z",
       "summary": "out of spite",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
-      "date": "2026-04-08T23:07:44Z",
-      "summary": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\",…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How do you add or remove a handle from an active Msg­Wait­For­Multiple­Objects?",
