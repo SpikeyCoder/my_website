@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T14:18:26.016817Z",
+  "generated_at": "2026-04-11T15:16:42.491240Z",
   "items": [
     {
       "title": "Pluralistic: Don't Be Evil (11 Apr 2026)",
@@ -37,25 +37,11 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Kākāpō parrots",
-      "link": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
-      "date": "2026-04-10T19:07:02Z",
-      "summary": "Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots! Tags: kakapo",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Ed Bindels’s Apple Museum in Utrecht, Netherlands",
       "link": "https://applemuseum.nl/",
       "date": "2026-04-10T16:35:04Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "ChatGPT voice mode is a weaker model",
-      "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
-      "date": "2026-04-10T15:56:02Z",
-      "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Distribution of digits in fractions",
@@ -112,13 +98,6 @@
       "date": "2026-04-09T23:17:46Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "GitHub Repo Size",
-      "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
-      "date": "2026-04-09T21:31:50Z",
-      "summary": "Tool: GitHub Repo Size GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API . Paste a repo into this tool to see the size, for example for simonw/datasette…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Great Pyramid of Giza and the Speed of Light",
@@ -280,6 +259,27 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
       "source": "maurycyz.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "DRAM pricing is killing the hobbyist SBC market",
+      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+      "date": "2026-04-01T21:00:00Z",
+      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Say the Thing You Want",
+      "link": "https://terriblesoftware.org/2026/04/01/say-the-thing-you-want/",
+      "date": "2026-04-01T15:59:04Z",
+      "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
+      "source": "terriblesoftware.org"
     }
   ]
 }
