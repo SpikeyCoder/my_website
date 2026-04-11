@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-11T19:19:52.244584Z",
+  "generated_at": "2026-04-11T20:13:02.127862Z",
   "items": [
+    {
+      "title": "SQLite 3.53.0",
+      "link": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+      "date": "2026-04-11T19:56:53Z",
+      "summary": "SQLite 3.53.0 SQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of accumulated user-facing and internal improvements. Some that stood out to me: ALTER TABLE can now add and…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "SQLite Query Result Formatter Demo",
+      "link": "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything",
+      "date": "2026-04-11T19:35:31Z",
+      "summary": "Tool: SQLite Query Result Formatter Demo See my notes on SQLite 3.53.0 . This playground provides a UI for trying out the various rendering options for SQL result tables from the new Query Result…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Pan American Luggage Labels",
       "link": "https://ellafreire.com/collections/pan-american-luggage-labels",
@@ -65,13 +79,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "ChatGPT voice mode is a weaker model",
-      "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
-      "date": "2026-04-10T15:56:02Z",
-      "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Distribution of digits in fractions",
       "link": "https://www.johndcook.com/blog/2026/04/10/fraction-digits/",
       "date": "2026-04-10T14:29:49Z",
@@ -119,13 +126,6 @@
       "date": "2026-04-10T00:00:00Z",
       "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F. “Zero nines uptime”? 99.99% uptime, or “four nines”, is a common…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "GitHub Repo Size",
-      "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
-      "date": "2026-04-09T21:31:50Z",
-      "summary": "Tool: GitHub Repo Size GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API . Paste a repo into this tool to see the size, for example for simonw/datasette…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Great Pyramid of Giza and the Speed of Light",
