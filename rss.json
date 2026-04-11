@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-11T00:49:40.224876Z",
+  "generated_at": "2026-04-11T01:41:48.327191Z",
   "items": [
+    {
+      "title": "Your friends are hiding their best ideas from you",
+      "link": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
+      "date": "2026-04-11T00:47:19Z",
+      "summary": "Back in college, the final project in our JavaScript class was to build a website. We were a group of four, and we built the best website in class. It was for a restaurant called the Coral Reef. We…",
+      "source": "idiallo.com"
+    },
     {
       "title": "★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead",
       "link": "https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead",
@@ -42,13 +49,6 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Why do you use RSS rather than Atom?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-      "date": "2026-04-10T11:34:36Z",
-      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
@@ -128,13 +128,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
-      "date": "2026-04-09T11:34:59Z",
-      "summary": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film \"Lola RenntRun Lola Run\" there's a briefcase full…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Pluralistic: Cindy Cohn's \"Privacy's Defender\" (09 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/09/bernstein-2/",
       "date": "2026-04-09T10:50:56Z",
@@ -168,13 +161,6 @@
       "date": "2026-04-08T13:39:44Z",
       "summary": "Today's links Process knowledge: We also serve who stand and wash. Hey look at this: Delights to delectate. Object permanence: Chicken Little; \"Anya's Ghost\"; Ad-tech's algorithmic cruelty. Upcoming…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Theatre Review: Avenue Q ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
-      "date": "2026-04-08T11:34:25Z",
-      "summary": "I'll admit, I was a little sceptical about returning to Avenue Q. I saw it on its original West End run back in… OH MY GOD I AM SO OLD! FUCK! Where did the time go? It's always hard to know how much…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Security Problems for AI Agents",
@@ -226,13 +212,6 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "It's not that deep",
-      "link": "https://idiallo.com/blog/its-not-that-deep?src=feed",
-      "date": "2026-04-05T08:00:00Z",
-      "summary": "I have these Sunday evenings where I find myself sitting alone at the kitchen table, thinking about my life and how I got here . Usually, these sessions end with an inspiring idea that makes me want…",
-      "source": "idiallo.com"
-    },
-    {
       "title": "Reading List 04/04/2026",
       "link": "https://www.construction-physics.com/p/reading-list-04042026",
       "date": "2026-04-04T12:01:48Z",
@@ -280,6 +259,27 @@
       "date": "2026-04-02T12:16:08Z",
       "summary": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "DRAM pricing is killing the hobbyist SBC market",
+      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+      "date": "2026-04-01T21:00:00Z",
+      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Say the Thing You Want",
+      "link": "https://terriblesoftware.org/2026/04/01/say-the-thing-you-want/",
+      "date": "2026-04-01T15:59:04Z",
+      "summary": "If you want something at work, say it out loud. Your silence isn't saving you.",
+      "source": "terriblesoftware.org"
     }
   ]
 }
