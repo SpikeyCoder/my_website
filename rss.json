@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-12T12:22:18.258330Z",
+  "generated_at": "2026-04-12T13:32:18.116429Z",
   "items": [
+    {
+      "title": "The gap between Eastern and Western Easter",
+      "link": "https://www.johndcook.com/blog/2026/04/12/orthodox-western-easter/",
+      "date": "2026-04-12T12:09:13Z",
+      "summary": "Today is Orthodox Easter. Western churches celebrated Easter last week. Why are the Eastern and Western dates of Easter different? Is Eastern Easter always later than Western Easter? How far apart…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Optimism is not a personality flaw",
       "link": "https://www.joanwestenberg.com/optimism-is-not-a-personality-flaw/",
@@ -139,13 +146,6 @@
       "link": "https://www.johndcook.com/blog/2026/04/09/pyramid-speed-of-light/",
       "date": "2026-04-09T17:54:21Z",
       "summary": "Saw a post on X saying that the latitude of the Pyramid of Giza is the same as the speed of light. I looked into this, expecting it to be approximately true. It’s exactly true in the sense that the…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Random hexagon fractal",
-      "link": "https://www.johndcook.com/blog/2026/04/09/random-hexagon-fractal/",
-      "date": "2026-04-09T17:25:08Z",
-      "summary": "I recently ran across a post on X describing a process for creating a random fractal. First, pick a random point c inside a hexagon. Then at each subsequent step, pick a random side of the hexagon…",
       "source": "johndcook.com"
     },
     {
