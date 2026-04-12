@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-12T17:16:46.132834Z",
+  "generated_at": "2026-04-12T18:21:39.419576Z",
   "items": [
+    {
+      "title": "Golden Tickets",
+      "link": "https://www.presentandcorrect.com/blogs/blog/golden-tickets",
+      "date": "2026-04-12T17:41:05Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Your AWS Certificate Makes You an AWS Salesman",
+      "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
+      "date": "2026-04-12T17:25:33Z",
+      "summary": "I must have been the last developer still confused by the AWS interface. I knew how to access DynamoDB, that was the only tool I needed for my daily work. But everything else was a mystery. How do I…",
+      "source": "idiallo.com"
+    },
     {
       "title": "The gap between Eastern and Western Easter",
       "link": "https://www.johndcook.com/blog/2026/04/12/orthodox-western-easter/",
@@ -84,13 +98,6 @@
       "date": "2026-04-10T19:07:02Z",
       "summary": "Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots! Tags: kakapo",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Ed Bindels’s Apple Museum in Utrecht, Netherlands",
-      "link": "https://applemuseum.nl/",
-      "date": "2026-04-10T16:35:04Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Distribution of digits in fractions",
@@ -238,13 +245,6 @@
       "date": "2026-04-06T23:36:11Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "AI Did It in 12 Minutes. It Took Me 10 Hours to Fix It",
-      "link": "https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code?src=feed",
-      "date": "2026-04-06T13:00:00Z",
-      "summary": "I've been working on personal projects since the 2000s. One thing I've always been adamant about is understanding the code I write. Even when Stack Overflow came along, I was that annoying guy who…",
-      "source": "idiallo.com"
     },
     {
       "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
