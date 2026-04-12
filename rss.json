@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T08:25:12.064103Z",
+  "generated_at": "2026-04-12T09:23:48.855760Z",
   "items": [
     {
       "title": "Optimism is not a personality flaw",
@@ -42,6 +42,13 @@
       "date": "2026-04-11T12:02:56Z",
       "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Cheapest way to keep a UK mobile number using an eSIM",
+      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
+      "date": "2026-04-11T11:34:38Z",
+      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Your friends are hiding their best ideas from you",
@@ -91,6 +98,13 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "[RSS Club] Why do you use RSS rather than Atom?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
+      "date": "2026-04-10T11:34:36Z",
+      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
@@ -154,6 +168,13 @@
       "date": "2026-04-09T12:00:00Z",
       "summary": "Sometimes, I find myself talking while my audience has a puzzled look on their face. It doesn't matter how much I prepared my speech, the message is just not getting through. But then they ask: What…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
+      "date": "2026-04-09T11:34:59Z",
+      "summary": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film \"Lola RenntRun Lola Run\" there's a briefcase full…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Cindy Cohn's \"Privacy's Defender\" (09 Apr 2026)",
@@ -259,27 +280,6 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Loading... [13 kB]",
-      "link": "https://maurycyz.com/misc/13kb/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "Spring 2026 Pebble App Contest + SDK Updates",
-      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
-      "date": "2026-04-02T00:00:00Z",
-      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "DRAM pricing is killing the hobbyist SBC market",
-      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
-      "date": "2026-04-01T21:00:00Z",
-      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
