@@ -1,24 +1,31 @@
 {
-  "generated_at": "2026-04-13T20:27:41.749072Z",
+  "generated_at": "2026-04-13T21:23:09.475886Z",
   "items": [
+    {
+      "title": "[Sponsor] WorkOS FGA: The Authorization Layer for AI Agents",
+      "link": "https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
+      "date": "2026-04-13T21:18:21Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Steve Yegge",
+      "link": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
+      "date": "2026-04-13T20:59:45Z",
+      "summary": "The TL;DR is that Google engineering appears to have the same AI adoption footprint as John Deere, the tractor company. Most of the industry has the same internal adoption curve: 20% agentic power…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Tahoe Nitpick of the Day: ‘Reduce Transparency’ Makes Layers Harder to See, Not Easier",
+      "link": "https://mastodon.social/@tuomas_h/116397694769738857",
+      "date": "2026-04-13T20:56:26Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "John Martellaro, RIP",
       "link": "https://geektells.com/john-martellaro-remembrance/",
       "date": "2026-04-13T19:53:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Marcin Wichary Visits the Large Scale Systems Museum",
-      "link": "https://flickr.com/photos/mwichary/albums/72177720332956990/",
-      "date": "2026-04-13T19:10:05Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "MacOS Tip: Enable the Zoom ‘Peek’ Gesture",
-      "link": "https://unsung.aresluna.org/testing-tip-enable-the-zoom-peek-gesture/",
-      "date": "2026-04-13T18:03:49Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -86,13 +93,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Gemma 4 audio with MLX",
-      "link": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
-      "date": "2026-04-12T23:57:53Z",
-      "summary": "Thanks to a tip from Rahim Nathwani , here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm : uv run --python 3.13 --with mlx_vlm…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Lunar period approximations",
       "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
       "date": "2026-04-12T23:42:01Z",
@@ -100,7 +100,7 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Your AWS Certificate Makes You an AWS Salesman",
+      "title": "Your AWS Certification Makes You an AWS Salesman",
       "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
       "date": "2026-04-12T17:25:33Z",
       "summary": "I must have been the last developer still confused by the AWS interface. I knew how to access DynamoDB, that was the only tool I needed for my daily work. But everything else was a mystery. How do I…",
