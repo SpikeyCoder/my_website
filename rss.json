@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-13T14:42:31.935808Z",
+  "generated_at": "2026-04-13T15:37:53.381248Z",
   "items": [
+    {
+      "title": "Zed — A Font Superfamily",
+      "link": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df",
+      "date": "2026-04-13T15:12:18Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Mathematical minimalism",
+      "link": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
+      "date": "2026-04-13T14:33:16Z",
+      "summary": "Andrzej Odrzywolek recently posted an article on arXiv showing that you can obtain all the elementary functions from just the function and the constant 1. The following equations, taken from the…",
+      "source": "johndcook.com"
+    },
     {
       "title": "You paid for it, you should be comfortable in it",
       "link": "https://idiallo.com/blog/you-paid-for-it-you-should-be-comfortable-in-it?src=feed",
@@ -49,13 +63,6 @@
       "date": "2026-04-12T23:42:01Z",
       "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Zed — A Font Superfamily",
-      "link": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df",
-      "date": "2026-04-12T22:57:41Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Viktor Orban Loses Election in Hungary, Concedes Defeat, Congratulates Opposition Winners",
@@ -133,13 +140,6 @@
       "date": "2026-04-11T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Distribution of digits in fractions",
-      "link": "https://www.johndcook.com/blog/2026/04/10/fraction-digits/",
-      "date": "2026-04-10T14:29:49Z",
-      "summary": "There’s a lot of mathematics just off the beaten path. You can spend a career in math and yet not know all there is to know about even the most basic areas of math. For example, this post will…",
-      "source": "johndcook.com"
     },
     {
       "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?, part 2",
