@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T12:36:16.848890Z",
+  "generated_at": "2026-04-13T13:40:12.070680Z",
   "items": [
     {
       "title": "You paid for it, you should be comfortable in it",
@@ -28,6 +28,20 @@
       "date": "2026-04-13T05:29:27Z",
       "summary": "Today's links Austerity creates fascism: We can't afford to not afford nice things. Hey look at this: Delights to delectate. Object permanence: The Server of Amontillado; Flapper's Dictionary;…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Quoting Bryan Cantrill",
+      "link": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+      "date": "2026-04-13T02:44:24Z",
+      "summary": "The problem is that LLMs inherently lack the virtue of laziness . Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Gemma 4 audio with MLX",
+      "link": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+      "date": "2026-04-12T23:57:53Z",
+      "summary": "Thanks to a tip from Rahim Nathwani , here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm : uv run --python 3.13 --with mlx_vlm…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Lunar period approximations",
@@ -77,6 +91,13 @@
       "date": "2026-04-12T01:26:10Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "SQLite 3.53.0",
+      "link": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+      "date": "2026-04-11T19:56:53Z",
+      "summary": "SQLite 3.53.0 SQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of accumulated user-facing and internal improvements. Some that stood out to me: ALTER TABLE can now add and…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Don't Be Evil (11 Apr 2026)",
@@ -259,27 +280,6 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Loading... [13 kB]",
-      "link": "https://maurycyz.com/misc/13kb/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "Spring 2026 Pebble App Contest + SDK Updates",
-      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
-      "date": "2026-04-02T00:00:00Z",
-      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "DRAM pricing is killing the hobbyist SBC market",
-      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
-      "date": "2026-04-01T21:00:00Z",
-      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
