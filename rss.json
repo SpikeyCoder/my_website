@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T15:37:53.381248Z",
+  "generated_at": "2026-04-13T16:35:54.509008Z",
   "items": [
     {
       "title": "Zed — A Font Superfamily",
@@ -28,6 +28,13 @@
       "date": "2026-04-13T11:34:48Z",
       "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "Common Package Specification",
+      "link": "https://nesbitt.io/2026/04/13/common-package-specification.html",
+      "date": "2026-04-13T10:00:00Z",
+      "summary": "Not the cross-ecosystem format the name suggests.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Sometimes powerful people just do dumb shit",
@@ -217,13 +224,6 @@
       "date": "2026-04-08T14:00:00Z",
       "summary": "You can't, but you can arrange for the waiter to do it for you. The post How do you add or remove a handle from an active <CODE>Msg­Wait­For­Multiple­Objects</CODE>? appeared first on The Old New…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Package Security Problems for AI Agents",
-      "link": "https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html",
-      "date": "2026-04-08T10:00:00Z",
-      "summary": "Packages all the way down, agents all the way up.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Mario and Earendil",
