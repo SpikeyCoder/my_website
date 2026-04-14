@@ -1,24 +1,38 @@
 {
-  "generated_at": "2026-04-14T21:24:18.207910Z",
+  "generated_at": "2026-04-14T22:22:38.803520Z",
   "items": [
+    {
+      "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
+      "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
+      "date": "2026-04-14T22:06:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "date": "2026-04-14T21:47:59Z",
+      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "On the Name of Apple’s Foldable iPhone",
+      "link": "https://www.macrumors.com/2026/04/07/foldable-iphone-fold-iphone-ultra/",
+      "date": "2026-04-14T21:46:17Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Trusted access for the next era of cyber defense",
+      "link": "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything",
+      "date": "2026-04-14T21:23:59Z",
+      "summary": "Trusted access for the next era of cyber defense OpenAI's answer to Claude Mythos appears to be a new model called GPT-5.4-Cyber: In preparation for increasingly more capable models from OpenAI over…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Speaking of Tips",
       "link": "https://www.houstonchronicle.com/politics/texas/article/kristin-tips-out-texas-funeral-22206178.php",
       "date": "2026-04-14T21:19:56Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Has Hidden the Pre-Creator-Studio Versions of Keynote, Numbers, and Pages in the Mac App Store",
-      "link": "https://9to5mac.com/2026/04/13/apple-removes-old-pages-keynote-numbers-apps-for-macos/",
-      "date": "2026-04-14T21:10:52Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Google Will Finally Begin Punishing Sites for Back-Button Hijacking in June",
-      "link": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
-      "date": "2026-04-14T20:25:18Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -47,7 +61,7 @@
       "title": "Finding a parabola through two points with given slopes",
       "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
       "date": "2026-04-14T12:19:42Z",
-      "summary": "The Wikipedia article on modern triangle geometry has an image labled “Artzt parabolas” with no explanation. A quick search didn’t turn up anything about Artzt parabolas [1], but apparently the…",
+      "summary": "The Wikipedia article on modern triangle geometry has an image labeled “Artzt parabolas” with no explanation. A quick search didn’t turn up anything about Artzt parabolas [1], but apparently the…",
       "source": "johndcook.com"
     },
     {
@@ -76,13 +90,6 @@
       "link": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
       "date": "2026-04-13T20:59:00Z",
       "summary": "Steve Yegge : I was chatting with my buddy at Google, who's been a tech director there for about 20 years, about their AI adoption. Craziest convo I've had all year. The TL;DR is that Google…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Exploring the new `servo` crate",
-      "link": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
-      "date": "2026-04-13T15:04:00Z",
-      "summary": "Research: Exploring the new `servo` crate In Servo is now available on crates.io the Servo team announced the initial release of the servo crate, which packages their browser engine as an embeddable…",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Programming (with AI agents) as theory building",
-      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
