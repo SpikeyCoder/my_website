@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-14T15:33:55.574711Z",
+  "generated_at": "2026-04-14T16:34:31.780595Z",
   "items": [
+    {
+      "title": "Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider",
+      "link": "https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1",
+      "date": "2026-04-14T16:20:24Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Glider Is Back in the Mac App Store",
       "link": "https://bsky.app/profile/engineersneedart.com/post/3mjf3ldjbp22k",
@@ -12,14 +19,14 @@
       "title": "Intersecting spheres and GPS",
       "link": "https://www.johndcook.com/blog/2026/04/14/intersecting-spheres-and-gps/",
       "date": "2026-04-14T14:08:36Z",
-      "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
+      "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the ea The post Intersecting…",
       "source": "johndcook.com"
     },
     {
       "title": "Finding a parabola through two points with given slopes",
       "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
       "date": "2026-04-14T12:19:42Z",
-      "summary": "The Wikipedia article on modern triangle geometry has an image labled “Artz parabolas” with no explanation. A quick search didn’t turn up anything about Artz parabolas, but apparently the parabolas…",
+      "summary": "The Wikipedia article on modern triangle geometry has an image labled “Artzt parabolas” with no explanation. A quick search didn’t turn up anything about Artzt parabolas [1], but apparently the…",
       "source": "johndcook.com"
     },
     {
@@ -47,13 +54,6 @@
       "title": "Steven Soderbergh Twice Pitched James Bond Projects",
       "link": "https://theplaylist.net/steven-soderbergh-says-he-pitched-two-different-james-bond-plans-including-a-twofer-that-would-have-created-an-new-auteur-lane-for-the-franchise-20260409/",
       "date": "2026-04-14T00:30:46Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Frames 4",
-      "link": "https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/",
-      "date": "2026-04-13T23:56:32Z",
       "summary": "",
       "source": "daringfireball.net"
     },
