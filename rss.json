@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T01:42:10.403330Z",
+  "generated_at": "2026-04-14T03:14:54.899240Z",
   "items": [
     {
       "title": "Steven Soderbergh Twice Pitched James Bond Projects",
@@ -56,6 +56,13 @@
       "date": "2026-04-13T12:00:00Z",
       "summary": "A friend of mine bought a Tesla Roadster back in the early 2010s. At the time, spotting a Tesla on the road was a rare event. Maybe even occasion enough to stop and take a picture. I never got the…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Android now stops you sharing your location in photos",
+      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
+      "date": "2026-04-13T11:34:48Z",
+      "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Common Package Specification",
@@ -128,6 +135,13 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Cheapest way to keep a UK mobile number using an eSIM",
+      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
+      "date": "2026-04-11T11:34:38Z",
+      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Your friends are hiding their best ideas from you",
       "link": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
       "date": "2026-04-11T00:47:19Z",
@@ -147,6 +161,13 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "[RSS Club] Why do you use RSS rather than Atom?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
+      "date": "2026-04-10T11:34:36Z",
+      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
@@ -259,27 +280,6 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Loading... [13 kB]",
-      "link": "https://maurycyz.com/misc/13kb/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "Spring 2026 Pebble App Contest + SDK Updates",
-      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
-      "date": "2026-04-02T00:00:00Z",
-      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "DRAM pricing is killing the hobbyist SBC market",
-      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
-      "date": "2026-04-01T21:00:00Z",
-      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
