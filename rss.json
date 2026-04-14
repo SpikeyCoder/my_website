@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T16:34:31.780595Z",
+  "generated_at": "2026-04-14T17:32:45.452045Z",
   "items": [
     {
       "title": "Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider",
@@ -19,7 +19,7 @@
       "title": "Intersecting spheres and GPS",
       "link": "https://www.johndcook.com/blog/2026/04/14/intersecting-spheres-and-gps/",
       "date": "2026-04-14T14:08:36Z",
-      "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the ea The post Intersecting…",
+      "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
       "source": "johndcook.com"
     },
     {
