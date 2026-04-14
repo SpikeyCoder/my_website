@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-14T13:41:11.606561Z",
+  "generated_at": "2026-04-14T14:42:32.491565Z",
   "items": [
+    {
+      "title": "Glider Is Back in the Mac App Store",
+      "link": "https://bsky.app/profile/engineersneedart.com/post/3mjf3ldjbp22k",
+      "date": "2026-04-14T14:36:29Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Intersecting spheres and GPS",
+      "link": "https://www.johndcook.com/blog/2026/04/14/intersecting-spheres-and-gps/",
+      "date": "2026-04-14T14:08:36Z",
+      "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Finding a parabola through two points with given slopes",
       "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
@@ -44,13 +58,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Memory, They Say, Is the First Thing to Go",
-      "link": "https://daringfireball.net/2006/09/zoom_using_scroll_wheel",
-      "date": "2026-04-13T23:46:11Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Steve Yegge",
       "link": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
       "date": "2026-04-13T20:59:00Z",
@@ -86,13 +93,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Android now stops you sharing your location in photos",
-      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
-      "date": "2026-04-13T11:34:48Z",
-      "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Common Package Specification",
       "link": "https://nesbitt.io/2026/04/13/common-package-specification.html",
       "date": "2026-04-13T10:00:00Z",
@@ -119,13 +119,6 @@
       "date": "2026-04-13T02:44:24Z",
       "summary": "The problem is that LLMs inherently lack the virtue of laziness . Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Lunar period approximations",
-      "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
-      "date": "2026-04-12T23:42:01Z",
-      "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event…",
-      "source": "johndcook.com"
     },
     {
       "title": "Your AWS Certification Makes You an AWS Salesman",
@@ -156,13 +149,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Cheapest way to keep a UK mobile number using an eSIM",
-      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
-      "date": "2026-04-11T11:34:38Z",
-      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Center Has a Bias",
       "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "date": "2026-04-11T00:00:00Z",
@@ -175,13 +161,6 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Why do you use RSS rather than Atom?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-      "date": "2026-04-10T11:34:36Z",
-      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
@@ -280,6 +259,27 @@
       "date": "2026-04-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Loading... [13 kB]",
+      "link": "https://maurycyz.com/misc/13kb/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "DRAM pricing is killing the hobbyist SBC market",
+      "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+      "date": "2026-04-01T21:00:00Z",
+      "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM , alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99 . Despite…",
+      "source": "jeffgeerling.com"
     }
   ]
 }
