@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-04-13T23:23:48.874260Z",
+  "generated_at": "2026-04-14T00:56:38.562239Z",
   "items": [
     {
-      "title": "[Sponsor] WorkOS FGA: The Authorization Layer for AI Agents",
-      "link": "https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
-      "date": "2026-04-13T21:18:21Z",
+      "title": "Steven Soderbergh Twice Pitched James Bond Projects",
+      "link": "https://theplaylist.net/steven-soderbergh-says-he-pitched-two-different-james-bond-plans-including-a-twofer-that-would-have-created-an-new-auteur-lane-for-the-franchise-20260409/",
+      "date": "2026-04-14T00:30:46Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple Frames 4",
+      "link": "https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/",
+      "date": "2026-04-13T23:56:32Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Memory, They Say, Is the First Thing to Go",
+      "link": "https://daringfireball.net/2006/09/zoom_using_scroll_wheel",
+      "date": "2026-04-13T23:46:11Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -14,20 +28,6 @@
       "date": "2026-04-13T20:59:45Z",
       "summary": "The TL;DR is that Google engineering appears to have the same AI adoption footprint as John Deere, the tractor company. Most of the industry has the same internal adoption curve: 20% agentic power…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Tahoe Nitpick of the Day: ‘Reduce Transparency’ Makes Layers Harder to See, Not Easier",
-      "link": "https://mastodon.social/@tuomas_h/116397694769738857",
-      "date": "2026-04-13T20:56:26Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "John Martellaro, RIP",
-      "link": "https://geektells.com/john-martellaro-remembrance/",
-      "date": "2026-04-13T19:53:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Exploring the new `servo` crate",
