@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-14T09:41:00.303295Z",
+  "generated_at": "2026-04-14T10:37:09.159943Z",
   "items": [
+    {
+      "title": "Standing on the shoulders of Homebrew",
+      "link": "https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html",
+      "date": "2026-04-14T10:00:00Z",
+      "summary": "Rewriting the easy parts of Homebrew.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: In praise of (some) compartmentalization (14 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/14/compartment/",
@@ -210,13 +217,6 @@
       "date": "2026-04-09T12:03:42Z",
       "summary": "The war in Iran, and the subsequent closure of the Strait of Hormuz, has unfortunately made us all familiar with details of the petroleum supply chain that we could formerly happily ignore.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Package Security Defenses for AI Agents",
-      "link": "https://nesbitt.io/2026/04/09/package-security-defenses-for-ai-agents.html",
-      "date": "2026-04-09T10:00:00Z",
-      "summary": "Lockfiles, sandboxes, and cooldown timers.",
-      "source": "nesbitt.io"
     },
     {
       "title": "I quit drinking for a year",
