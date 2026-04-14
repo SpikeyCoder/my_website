@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-04-14T18:35:40.106440Z",
+  "generated_at": "2026-04-14T19:36:08.546314Z",
   "items": [
     {
-      "title": "Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider",
-      "link": "https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1",
-      "date": "2026-04-14T16:20:24Z",
+      "title": "Amazon to Acquire Globalstar, Announces Agreement With Apple to Continue Service for iPhone and Apple Watch",
+      "link": "https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple",
+      "date": "2026-04-14T19:34:29Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Glider Is Back in the Mac App Store",
-      "link": "https://bsky.app/profile/engineersneedart.com/post/3mjf3ldjbp22k",
-      "date": "2026-04-14T15:17:30Z",
+      "title": "John Calhoun on Steve Lemay",
+      "link": "https://news.ycombinator.com/item?id=47297653",
+      "date": "2026-04-14T19:26:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider",
+      "link": "https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1",
+      "date": "2026-04-14T16:20:24Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -21,6 +28,13 @@
       "date": "2026-04-14T14:08:36Z",
       "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Why was there a red telephone at every receptionist desk?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260414-00/?p=112231",
+      "date": "2026-04-14T14:00:00Z",
+      "summary": "Not a direct line to Bill Gates's office. The post Why was there a red telephone at every receptionist desk? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Finding a parabola through two points with given slopes",
@@ -49,13 +63,6 @@
       "date": "2026-04-14T08:32:55Z",
       "summary": "Today's links In praise of (some) compartmentalization: Go with the flow (mostly). Hey look at this: Delights to delectate. Object permanence: Multitasking teens; Copyrighted dirt; NZ internet…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Steven Soderbergh Twice Pitched James Bond Projects",
-      "link": "https://theplaylist.net/steven-soderbergh-says-he-pitched-two-different-james-bond-plans-including-a-twofer-that-would-have-created-an-new-auteur-lane-for-the-franchise-20260409/",
-      "date": "2026-04-14T00:30:46Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Steve Yegge",
@@ -203,13 +210,6 @@
       "date": "2026-04-10T00:00:00Z",
       "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F. “Zero nines uptime”? 99.99% uptime, or “four nines”, is a common…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
-      "date": "2026-04-09T14:00:00Z",
-      "summary": "You can't, but you can cooperate with the other thread. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Helium Is Hard to Replace",
