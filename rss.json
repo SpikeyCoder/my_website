@@ -1,24 +1,31 @@
 {
-  "generated_at": "2026-04-14T19:36:08.546314Z",
+  "generated_at": "2026-04-14T20:27:31.265986Z",
   "items": [
+    {
+      "title": "Google Will Finally Begin Punishing Sites for Back-Button Hijacking in June",
+      "link": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+      "date": "2026-04-14T20:25:18Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Amazon to Acquire Globalstar, Announces Agreement With Apple to Continue Service for iPhone and Apple Watch",
       "link": "https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple",
-      "date": "2026-04-14T19:34:29Z",
+      "date": "2026-04-14T19:42:55Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Cybersecurity Looks Like Proof of Work Now",
+      "link": "https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything",
+      "date": "2026-04-14T19:41:48Z",
+      "summary": "Cybersecurity Looks Like Proof of Work Now The UK's AI Safety Institute recently published Our evaluation of Claude Mythos Preview’s cyber capabilities , their own independent analysis of Claude…",
+      "source": "simonwillison.net"
     },
     {
       "title": "John Calhoun on Steve Lemay",
       "link": "https://news.ycombinator.com/item?id=47297653",
       "date": "2026-04-14T19:26:54Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider",
-      "link": "https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1",
-      "date": "2026-04-14T16:20:24Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -126,13 +133,6 @@
       "date": "2026-04-13T05:29:27Z",
       "summary": "Today's links Austerity creates fascism: We can't afford to not afford nice things. Hey look at this: Delights to delectate. Object permanence: The Server of Amontillado; Flapper's Dictionary;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Quoting Bryan Cantrill",
-      "link": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
-      "date": "2026-04-13T02:44:24Z",
-      "summary": "The problem is that LLMs inherently lack the virtue of laziness . Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Your AWS Certification Makes You an AWS Salesman",
