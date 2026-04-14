@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-14T11:29:57.380211Z",
+  "generated_at": "2026-04-14T12:34:03.219663Z",
   "items": [
+    {
+      "title": "Finding a parabola through two points with given slopes",
+      "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
+      "date": "2026-04-14T12:19:42Z",
+      "summary": "The Wikipedia article on modern triangle geometry has an image labled “Artz parabolas” with no explanation. A quick search didn’t turn up anything about Artz parabolas, but apparently the parabolas…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Back button hijacking is going away",
+      "link": "https://idiallo.com/blog/back-button-hijacking-is-going-away-seo?src=feed",
+      "date": "2026-04-14T12:00:00Z",
+      "summary": "When websites are blatantly hostile, users close them to never come back. Have you ever downloaded an app, realized it was deceptive, and deleted it immediately? It's a common occurrence for me. But…",
+      "source": "idiallo.com"
+    },
     {
       "title": "Standing on the shoulders of Homebrew",
       "link": "https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html",
@@ -121,13 +135,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "The gap between Eastern and Western Easter",
-      "link": "https://www.johndcook.com/blog/2026/04/12/orthodox-western-easter/",
-      "date": "2026-04-12T12:09:13Z",
-      "summary": "Today is Orthodox Easter. Western churches celebrated Easter last week. Why are the Eastern and Western dates of Easter different? Is Eastern Easter always later than Western Easter? How far apart…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Optimism is not a personality flaw",
       "link": "https://www.joanwestenberg.com/optimism-is-not-a-personality-flaw/",
       "date": "2026-04-12T01:26:10Z",
@@ -154,13 +161,6 @@
       "date": "2026-04-11T11:34:38Z",
       "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Your friends are hiding their best ideas from you",
-      "link": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
-      "date": "2026-04-11T00:47:19Z",
-      "summary": "Back in college, the final project in our JavaScript class was to build a website. We were a group of four, and we built the best website in class. It was for a restaurant called the Coral Reef. We…",
-      "source": "idiallo.com"
     },
     {
       "title": "The Center Has a Bias",
