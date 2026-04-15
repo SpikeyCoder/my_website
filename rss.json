@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-04-15T16:31:25.238530Z",
+  "generated_at": "2026-04-15T17:30:32.872917Z",
   "items": [
+    {
+      "title": "Quoting John Gruber",
+      "link": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
+      "date": "2026-04-15T17:13:57Z",
+      "summary": "The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn to the best apps are thus drawn to the iPhone,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS",
+      "link": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+      "date": "2026-04-15T17:13:14Z",
+      "summary": "Gemini 3.1 Flash TTS Google released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts. It's presented via the standard Gemini API using…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS",
+      "link": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
+      "date": "2026-04-15T16:41:46Z",
+      "summary": "Tool: Gemini 3.1 Flash TTS See my notes on Google's new Gemini 3.1 Flash TTS text-to-speech model. Tags: gemini , google",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ David Pierce Tried a Bunch of Android Phones and Then Bought an iPhone Again",
       "link": "https://daringfireball.net/2026/04/piece_android_iphone_apps",
       "date": "2026-04-15T15:49:17Z",
       "summary": "The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn to the best apps are thus drawn to the iPhone,…",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Quoting Kyle Kingsbury",
-      "link": "https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything",
-      "date": "2026-04-15T15:36:02Z",
-      "summary": "I think we will see some people employed (though perhaps not explicitly) as meat shields : people who are accountable for ML systems under their supervision. The accountability may be purely…",
-      "source": "simonwillison.net"
     },
     {
       "title": "An Arm Mainboard for the Framework Laptop",
@@ -30,13 +44,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Why is it so hard to passively stalk my friends' locations?",
-      "link": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
-      "date": "2026-04-15T11:34:45Z",
-      "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Tuesday Test",
       "link": "https://nesbitt.io/2026/04/15/the-tuesday-test.html",
       "date": "2026-04-15T10:00:00Z",
@@ -49,20 +56,6 @@
       "date": "2026-04-15T07:06:28Z",
       "summary": "Today's links Rights for robots: Not everything deserves moral consideration. Hey look at this: Delights to delectate. Object permanence: 7 years under the DMCA; NOLA mayoral candidate x New Orleans…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Zig 0.16.0 release notes: \"Juicy Main\"",
-      "link": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
-      "date": "2026-04-15T01:59:21Z",
-      "summary": "Zig 0.16.0 release notes: \"Juicy Main\" Zig has really good release notes - comprehensive, detailed, and with relevant usage examples for each of the new features. Of particular note in the newly…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection",
-      "link": "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything",
-      "date": "2026-04-14T23:58:53Z",
-      "summary": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection Datasette has long protected against CSRF attacks using CSRF tokens, implemented using my asgi-csrf Python library.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
@@ -142,13 +135,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Android now stops you sharing your location in photos",
-      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
-      "date": "2026-04-13T11:34:48Z",
-      "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Common Package Specification",
       "link": "https://nesbitt.io/2026/04/13/common-package-specification.html",
       "date": "2026-04-13T10:00:00Z",
@@ -189,13 +175,6 @@
       "date": "2026-04-11T12:02:56Z",
       "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Cheapest way to keep a UK mobile number using an eSIM",
-      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
-      "date": "2026-04-11T11:34:38Z",
-      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Center Has a Bias",
@@ -280,6 +259,27 @@
       "date": "2026-04-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "Build your own Dial-up ISP with a Raspberry Pi",
+      "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
+      "date": "2026-04-03T14:00:00Z",
+      "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Programming (with AI agents) as theory building",
+      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Loading... [13 kB]",
+      "link": "https://maurycyz.com/misc/13kb/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
+      "source": "maurycyz.com"
     }
   ]
 }
