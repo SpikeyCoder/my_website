@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T18:34:34.363406Z",
+  "generated_at": "2026-04-15T19:36:31.443333Z",
   "items": [
     {
       "title": "Quoting John Gruber",
@@ -70,6 +70,13 @@
       "date": "2026-04-15T07:06:28Z",
       "summary": "Today's links Rights for robots: Not everything deserves moral consideration. Hey look at this: Delights to delectate. Object permanence: 7 years under the DMCA; NOLA mayoral candidate x New Orleans…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
+      "link": "https://mitchellh.com/writing/simdutf-no-libcxx",
+      "date": "2026-04-15T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
     },
     {
       "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
@@ -273,13 +280,6 @@
       "date": "2026-04-04T12:01:48Z",
       "summary": "Aluminum disruptions, the EV rust belt, the ongoing transformer shortage, SpaceX’s IPO, and more",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Absurd In Production",
-      "link": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
-      "date": "2026-04-04T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
