@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-15T00:56:56.717264Z",
+  "generated_at": "2026-04-15T01:42:52.236962Z",
   "items": [
+    {
+      "title": "AI and reasoning: Are we in danger?",
+      "link": "https://www.johndcook.com/blog/2026/04/14/ai-and-reasoning-are-we-in-danger/",
+      "date": "2026-04-15T00:50:22Z",
+      "summary": "The post AI and reasoning: Are we in danger? first appeared on John D. Cook .",
+      "source": "johndcook.com"
+    },
     {
       "title": "Oppenheimer’s legacy: How the national labs forged the age of hyperscale AI",
       "link": "https://www.johndcook.com/blog/2026/04/14/oppenheimers-legacy-how-the-national-labs-forged-the-age-of-hyperscale-ai/",
@@ -72,13 +79,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Finding a parabola through two points with given slopes",
-      "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
-      "date": "2026-04-14T12:19:42Z",
-      "summary": "The Wikipedia article on modern triangle geometry has an image labeled “Artzt parabolas” with no explanation. A quick search didn’t turn up anything about Artzt parabolas [1], but apparently the…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Back button hijacking is going away",
       "link": "https://idiallo.com/blog/back-button-hijacking-is-going-away-seo?src=feed",
       "date": "2026-04-14T12:00:00Z",
@@ -112,13 +112,6 @@
       "date": "2026-04-13T12:00:00Z",
       "summary": "A friend of mine bought a Tesla Roadster back in the early 2010s. At the time, spotting a Tesla on the road was a rare event. Maybe even occasion enough to stop and take a picture. I never got the…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Android now stops you sharing your location in photos",
-      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
-      "date": "2026-04-13T11:34:48Z",
-      "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Common Package Specification",
@@ -170,13 +163,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Cheapest way to keep a UK mobile number using an eSIM",
-      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
-      "date": "2026-04-11T11:34:38Z",
-      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The Center Has a Bias",
       "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "date": "2026-04-11T00:00:00Z",
@@ -189,13 +175,6 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Why do you use RSS rather than Atom?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-      "date": "2026-04-10T11:34:36Z",
-      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
@@ -280,6 +259,27 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Programming (with AI agents) as theory building",
+      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Loading... [13 kB]",
+      "link": "https://maurycyz.com/misc/13kb/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
     }
   ]
 }
