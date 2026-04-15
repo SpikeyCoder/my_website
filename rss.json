@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-15T19:36:31.443333Z",
+  "generated_at": "2026-04-15T20:25:07.047380Z",
   "items": [
+    {
+      "title": "Screen Zooming on iOS",
+      "link": "https://mastodon.social/@stroughtonsmith/116404958539831051",
+      "date": "2026-04-15T20:20:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular)",
+      "link": "https://lisamelton.net/2023/10/05/memories-of-steve/",
+      "date": "2026-04-15T20:14:12Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Quoting John Gruber",
       "link": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
@@ -37,13 +51,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Screen Zooming on iOS",
-      "link": "https://mastodon.social/@stroughtonsmith/116404958539831051",
-      "date": "2026-04-15T14:34:44Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Why is there a long delay between a thread exiting and the Wait­For­Single­Object returning?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260415-00/?p=112235",
       "date": "2026-04-15T14:00:00Z",
@@ -77,13 +84,6 @@
       "date": "2026-04-15T00:00:00Z",
       "summary": "",
       "source": "mitchellh.com"
-    },
-    {
-      "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
-      "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
-      "date": "2026-04-14T22:06:27Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Patch Tuesday, April 2026 Edition",
