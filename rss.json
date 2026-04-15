@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-14T23:23:10.185258Z",
+  "generated_at": "2026-04-15T00:56:56.717264Z",
   "items": [
+    {
+      "title": "Oppenheimer’s legacy: How the national labs forged the age of hyperscale AI",
+      "link": "https://www.johndcook.com/blog/2026/04/14/oppenheimers-legacy-how-the-national-labs-forged-the-age-of-hyperscale-ai/",
+      "date": "2026-04-15T00:47:19Z",
+      "summary": "We know a lot about Robert Oppenheimer and Los Alamos national laboratory from the movie. Many AI researchers today read avidly the classic work by Richard Rhodes, the making of the atomic bomb. But…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection",
+      "link": "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything",
+      "date": "2026-04-14T23:58:53Z",
+      "summary": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection Datasette has long protected against CSRF attacks using CSRF tokens, implemented using my asgi-csrf Python library.…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
       "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
@@ -84,20 +98,6 @@
       "date": "2026-04-14T08:32:55Z",
       "summary": "Today's links In praise of (some) compartmentalization: Go with the flow (mostly). Hey look at this: Delights to delectate. Object permanence: Multitasking teens; Copyrighted dirt; NZ internet…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Steve Yegge",
-      "link": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
-      "date": "2026-04-13T20:59:00Z",
-      "summary": "Steve Yegge : I was chatting with my buddy at Google, who's been a tech director there for about 20 years, about their AI adoption. Craziest convo I've had all year. The TL;DR is that Google…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Mathematical minimalism",
-      "link": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
-      "date": "2026-04-13T14:33:16Z",
-      "summary": "Andrzej Odrzywolek recently posted an article on arXiv showing that you can obtain all the elementary functions from just the function and the constant 1. The following equations, taken from the…",
-      "source": "johndcook.com"
     },
     {
       "title": "Finding a duplicated item in an array of N integers in the range 1 to N − 1",
