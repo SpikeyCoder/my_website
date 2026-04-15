@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T17:30:32.872917Z",
+  "generated_at": "2026-04-15T18:34:34.363406Z",
   "items": [
     {
       "title": "Quoting John Gruber",
@@ -42,6 +42,20 @@
       "date": "2026-04-15T14:34:44Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Why is there a long delay between a thread exiting and the Wait­For­Single­Object returning?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260415-00/?p=112235",
+      "date": "2026-04-15T14:00:00Z",
+      "summary": "Maybe it didn't really exit. The post Why is there a long delay between a thread exiting and the <CODE>Wait­For­Single­Object</CODE> returning? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Why is it so hard to passively stalk my friends' locations?",
+      "link": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
+      "date": "2026-04-15T11:34:45Z",
+      "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "The Tuesday Test",
@@ -135,6 +149,13 @@
       "source": "idiallo.com"
     },
     {
+      "title": "Android now stops you sharing your location in photos",
+      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
+      "date": "2026-04-13T11:34:48Z",
+      "summary": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones embed a geolocation within the photo's metadata, so…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Common Package Specification",
       "link": "https://nesbitt.io/2026/04/13/common-package-specification.html",
       "date": "2026-04-13T10:00:00Z",
@@ -177,18 +198,18 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Cheapest way to keep a UK mobile number using an eSIM",
+      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
+      "date": "2026-04-11T11:34:38Z",
+      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "The Center Has a Bias",
       "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "date": "2026-04-11T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?, part 2",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260410-00/?p=112223",
-      "date": "2026-04-10T14:00:00Z",
-      "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Why I quit \"The Strive\"",
@@ -259,27 +280,6 @@
       "date": "2026-04-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Build your own Dial-up ISP with a Raspberry Pi",
-      "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
-      "date": "2026-04-03T14:00:00Z",
-      "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
-      "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Programming (with AI agents) as theory building",
-      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "Loading... [13 kB]",
-      "link": "https://maurycyz.com/misc/13kb/",
-      "date": "2026-04-03T00:00:00Z",
-      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
-      "source": "maurycyz.com"
     }
   ]
 }
