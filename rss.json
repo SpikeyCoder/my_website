@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-15T14:42:17.116057Z",
+  "generated_at": "2026-04-15T15:35:25.042774Z",
   "items": [
+    {
+      "title": "An Arm Mainboard for the Framework Laptop",
+      "link": "https://www.jeffgeerling.com/blog/2026/arm-mainboard-for-framework-laptop/",
+      "date": "2026-04-15T14:49:00Z",
+      "summary": "Using the repair-friendly Framework 13 laptop chassis, I've tested the low-end x86 option (a Ryzen AI 5 340 Mainboard ), the fastest RISC-V option ( DC-ROMA II ), and today I'm publishing results…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "Screen Zooming on iOS",
       "link": "https://mastodon.social/@stroughtonsmith/116404958539831051",
@@ -14,6 +21,13 @@
       "date": "2026-04-15T11:34:45Z",
       "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "The Tuesday Test",
+      "link": "https://nesbitt.io/2026/04/15/the-tuesday-test.html",
+      "date": "2026-04-15T10:00:00Z",
+      "summary": "Like the Turing test but with more tacos.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: Rights for robots (15 Apr 2026)",
@@ -198,13 +212,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Package Registries and Pagination",
-      "link": "https://nesbitt.io/2026/04/10/package-registries-and-pagination.html",
-      "date": "2026-04-10T10:00:00Z",
-      "summary": "100MB of metadata for 10,451 versions.",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Why I quit \"The Strive\"",
       "link": "https://www.joanwestenberg.com/why-i-quit-the-strive/",
       "date": "2026-04-10T01:50:12Z",
@@ -273,13 +280,6 @@
       "date": "2026-04-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Build your own Dial-up ISP with a Raspberry Pi",
-      "link": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
-      "date": "2026-04-03T14:00:00Z",
-      "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
