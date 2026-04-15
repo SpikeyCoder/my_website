@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-15T06:49:00.382272Z",
+  "generated_at": "2026-04-15T07:41:28.112009Z",
   "items": [
+    {
+      "title": "Pluralistic: Rights for robots (15 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/15/artificial-lifeforms/",
+      "date": "2026-04-15T07:06:28Z",
+      "summary": "Today's links Rights for robots: Not everything deserves moral consideration. Hey look at this: Delights to delectate. Object permanence: 7 years under the DMCA; NOLA mayoral candidate x New Orleans…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "Zig 0.16.0 release notes: \"Juicy Main\"",
       "link": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
@@ -16,13 +23,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users",
-      "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
-      "date": "2026-04-14T22:06:27Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Patch Tuesday, April 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
       "date": "2026-04-14T21:47:59Z",
@@ -30,25 +30,11 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "On the Name of Apple’s Foldable iPhone",
-      "link": "https://www.macrumors.com/2026/04/07/foldable-iphone-fold-iphone-ultra/",
-      "date": "2026-04-14T21:46:17Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Trusted access for the next era of cyber defense",
       "link": "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything",
       "date": "2026-04-14T21:23:59Z",
       "summary": "Trusted access for the next era of cyber defense OpenAI's answer to Claude Mythos appears to be a new model called GPT-5.4-Cyber: In preparation for increasingly more capable models from OpenAI over…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Speaking of Tips",
-      "link": "https://www.houstonchronicle.com/politics/texas/article/kristin-tips-out-texas-funeral-22206178.php",
-      "date": "2026-04-14T21:19:56Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Intersecting spheres and GPS",
@@ -154,13 +140,6 @@
       "date": "2026-04-12T01:26:10Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Pluralistic: Don't Be Evil (11 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/11/obvious-terrible-ideas/",
-      "date": "2026-04-11T13:34:48Z",
-      "summary": "Today's links Don't Be Evil: Evil genius is just a lack of shame. Hey look at this: Delights to delectate. Object permanence: FBI x Trotsky; Jakob Nielsen x headlines; Floppy disk stained glass; Zero…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Reading List 04/11/2026",
@@ -280,6 +259,27 @@
       "date": "2026-04-03T14:00:00Z",
       "summary": "Last year my aunt let me add her original Tangerine iBook G3 clamshell to my collection of old Macs 1 . It came with an AirPort card—a $99 add-on Apple made that ushered in the Wi-Fi era. The iBook…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Programming (with AI agents) as theory building",
+      "link": "https://seangoedecke.com/programming-with-ai-agents-as-theory-building/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Loading... [13 kB]",
+      "link": "https://maurycyz.com/misc/13kb/",
+      "date": "2026-04-03T00:00:00Z",
+      "summary": "While testing my gopher client, I noticed something interesting: All downloads froze at 13 kilobytes. Sometimes, it was barely noticeable, other times it would stall for a good second or so. Networks…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "Spring 2026 Pebble App Contest + SDK Updates",
+      "link": "https://repebble.com/blog/spring-2026-pebble-app-contest",
+      "date": "2026-04-02T00:00:00Z",
+      "summary": "Announcing Spring 2026 Pebble App Contest! In honour of Pebble Time 2 entering mass production, we’re hosting a contest to celebrate…",
+      "source": "ericmigi.com"
     }
   ]
 }
