@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-15T11:28:49.933418Z",
+  "generated_at": "2026-04-15T12:34:29.017237Z",
   "items": [
+    {
+      "title": "Why is it so hard to passively stalk my friends' locations?",
+      "link": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
+      "date": "2026-04-15T11:34:45Z",
+      "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: Rights for robots (15 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/15/artificial-lifeforms/",
@@ -189,13 +196,6 @@
       "date": "2026-04-10T14:00:00Z",
       "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active <CODE>Wait­For­Multiple­Objects</CODE>?, part 2 appeared first on The Old New Thing…",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Why do you use RSS rather than Atom?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-      "date": "2026-04-10T11:34:36Z",
-      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed feed club\"? I've been playing about with…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Registries and Pagination",
