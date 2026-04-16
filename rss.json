@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-04-15T23:23:05.779604Z",
+  "generated_at": "2026-04-16T00:58:20.660629Z",
   "items": [
     {
-      "title": "Screen Zooming on iOS and iPadOS",
-      "link": "https://mastodon.social/@stroughtonsmith/116404958539831051",
-      "date": "2026-04-15T20:57:18Z",
+      "title": "Sofa 5.0",
+      "link": "https://www.sofahq.com/5",
+      "date": "2026-04-16T00:45:41Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette.io news preview",
+      "link": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
+      "date": "2026-04-16T00:18:03Z",
+      "summary": "Tool: datasette.io news preview The datasette.io website has a news section built from this news.yaml file in the underlying GitHub repository. The YAML format looks like this: - date: 2026-04-15…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-export-database 0.3a1",
+      "link": "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything",
+      "date": "2026-04-15T23:52:35Z",
+      "summary": "Release: datasette-export-database 0.3a1 This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 no longer sets that cookie .…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette 1.0a27",
+      "link": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
+      "date": "2026-04-15T23:16:34Z",
+      "summary": "Release: datasette 1.0a27 Two major changes in this new Datasette alpha. I covered the first of those in detail yesterday - Datasette no longer uses Django-style CSRF form tokens, instead using…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular)",
@@ -14,27 +35,6 @@
       "date": "2026-04-15T20:14:12Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Quoting John Gruber",
-      "link": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
-      "date": "2026-04-15T17:13:57Z",
-      "summary": "The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn to the best apps are thus drawn to the iPhone,…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS",
-      "link": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
-      "date": "2026-04-15T17:13:14Z",
-      "summary": "Gemini 3.1 Flash TTS Google released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts. It's presented via the standard Gemini API using…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS",
-      "link": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
-      "date": "2026-04-15T16:41:46Z",
-      "summary": "Tool: Gemini 3.1 Flash TTS See my notes on Google's new Gemini 3.1 Flash TTS text-to-speech model. Tags: gemini , google",
-      "source": "simonwillison.net"
     },
     {
       "title": "★ David Pierce Tried a Bunch of Android Phones and Then Bought an iPhone Again",
