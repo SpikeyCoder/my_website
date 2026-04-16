@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-16T18:36:13.298547Z",
+  "generated_at": "2026-04-16T19:34:25.565916Z",
   "items": [
+    {
+      "title": "Chance Miller: ‘Netflix Ruined Its Apple TV App by Switching to a Custom Video Player’",
+      "link": "https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/",
+      "date": "2026-04-16T19:27:00Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple Pay Express Transit Mode, When Used With a Visa Card, Is Vulnerable to Scam Tap-to-Pay Readers",
+      "link": "https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/",
+      "date": "2026-04-16T18:46:46Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Bonus Thought Regarding the Name ‘iPhone Ultra’",
       "link": "https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone",
@@ -14,20 +28,6 @@
       "date": "2026-04-16T17:16:52Z",
       "summary": "For anyone who has been taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "So Close to Getting It",
-      "link": "https://www.theverge.com/tech/906873/sofa-app-track-tv-movies-installer",
-      "date": "2026-04-16T15:37:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Rory Goss’s Accessibility Story",
-      "link": "https://www.apple.com/education/college-students/success-stories/goss/",
-      "date": "2026-04-16T15:00:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "What’s up with window message 0x0091? We’re getting it with unexpected parameters",
