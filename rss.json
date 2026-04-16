@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-16T16:41:38.526347Z",
+  "generated_at": "2026-04-16T17:37:00.715604Z",
   "items": [
+    {
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
+      "date": "2026-04-16T17:16:52Z",
+      "summary": "For anyone who has been taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Bonus Thought Regarding the Name ‘iPhone Ultra’",
       "link": "https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone",
@@ -83,13 +90,6 @@
       "link": "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything",
       "date": "2026-04-15T23:52:35Z",
       "summary": "Release: datasette-export-database 0.3a1 This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 no longer sets that cookie .…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette 1.0a27",
-      "link": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
-      "date": "2026-04-15T23:16:34Z",
-      "summary": "Release: datasette 1.0a27 Two major changes in this new Datasette alpha. I covered the first of those in detail yesterday - Datasette no longer uses Django-style CSRF form tokens, instead using…",
       "source": "simonwillison.net"
     },
     {
