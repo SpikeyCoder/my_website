@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-16T11:30:49.716969Z",
+  "generated_at": "2026-04-16T12:35:38.801490Z",
   "items": [
+    {
+      "title": "Newton diameters",
+      "link": "https://www.johndcook.com/blog/2026/04/16/newton-diameters/",
+      "date": "2026-04-16T12:02:13Z",
+      "summary": "Let f(x, y) be an nth degree polynomial in x and y. In general, a straight line will cross the zero set of f in n locations [1]. Newton defined a diameter to be any line that crosses the zero set of…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "RSS Club for WordPress",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-for-wordpress/",
+      "date": "2026-04-16T11:34:10Z",
+      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/16/pascals-wager/",
@@ -163,13 +177,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Mathematical minimalism",
-      "link": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
-      "date": "2026-04-13T14:33:16Z",
-      "summary": "Andrzej Odrzywolek recently posted an article on arXiv showing that you can obtain all the elementary functions from just the function and the constant 1. The following equations, taken from the…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Finding a duplicated item in an array of N integers in the range 1 to N − 1",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260413-00/?p=112227",
       "date": "2026-04-13T14:00:00Z",
@@ -217,13 +224,6 @@
       "date": "2026-04-11T12:02:56Z",
       "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Cheapest way to keep a UK mobile number using an eSIM",
-      "link": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
-      "date": "2026-04-11T11:34:38Z",
-      "summary": "I have an old mobile phone number that I'd like to keep. I think it is registered with a bunch of services for 2FA by SMS, but I can't be sure. So I want to keep it for a couple of years just in case…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Center Has a Bias",
