@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-16T10:37:54.630210Z",
+  "generated_at": "2026-04-16T11:30:49.716969Z",
   "items": [
+    {
+      "title": "Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/16/pascals-wager/",
+      "date": "2026-04-16T11:09:32Z",
+      "summary": "Today's links A Pascal's Wager for AI Doomers: We're already being turned into paperclips. Hey look at this: Delights to delectate. Object permanence: Every pirate ebook on the internet; Sun's \"Open…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "AI cybersecurity is not proof of work",
+      "link": "http://antirez.com/news/163",
+      "date": "2026-04-16T10:46:46Z",
+      "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of…",
+      "source": "antirez.com"
+    },
     {
       "title": "Features everyone should steal from npmx",
       "link": "https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html",
@@ -184,13 +198,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Pluralistic: Austerity creates fascism (13 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/12/always-great/",
-      "date": "2026-04-13T05:29:27Z",
-      "summary": "Today's links Austerity creates fascism: We can't afford to not afford nice things. Hey look at this: Delights to delectate. Object permanence: The Server of Amontillado; Flapper's Dictionary;…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Your AWS Certification Makes You an AWS Salesman",
       "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
       "date": "2026-04-12T17:25:33Z",
@@ -273,13 +280,6 @@
       "date": "2026-04-06T02:07:17Z",
       "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Reading List 04/04/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04042026",
-      "date": "2026-04-04T12:01:48Z",
-      "summary": "Aluminum disruptions, the EV rust belt, the ongoing transformer shortage, SpaceX’s IPO, and more",
-      "source": "construction-physics.com"
     }
   ]
 }
