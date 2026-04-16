@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-04-16T20:23:13.461203Z",
+  "generated_at": "2026-04-16T21:22:11.535669Z",
   "items": [
     {
       "title": "How to Format 10-Digit Phone Numbers",
       "link": "https://www.threads.com/@apstylebook/post/DXKtXVXEh7T",
-      "date": "2026-04-16T20:09:07Z",
+      "date": "2026-04-16T21:08:46Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Colliding With Reality, Indeed",
+      "link": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&smid=url-share",
+      "date": "2026-04-16T20:53:22Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "llm-anthropic 0.25",
+      "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+      "date": "2026-04-16T20:37:12Z",
+      "summary": "Release: llm-anthropic 0.25 New model: claude-opus-4.7 , which supports thinking_effort : xhigh . #66 New thinking_display and thinking_adaptive boolean options. thinking_display summarized output is…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Chance Miller: ‘Netflix Ruined Its Apple TV App by Switching to a Custom Video Player’",
@@ -16,17 +30,10 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Apple Pay Express Transit Mode, When Used With a Visa Card, Is Vulnerable to Scam Tap-to-Pay Readers",
-      "link": "https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/",
-      "date": "2026-04-16T18:46:46Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
       "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
       "date": "2026-04-16T17:16:52Z",
-      "summary": "For anyone who has been taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from…",
+      "summary": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases -…",
       "source": "simonwillison.net"
     },
     {
@@ -83,13 +90,6 @@
       "link": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
       "date": "2026-04-16T00:18:03Z",
       "summary": "Tool: datasette.io news preview The datasette.io website has a news section built from this news.yaml file in the underlying GitHub repository. The YAML format looks like this: - date: 2026-04-15…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-export-database 0.3a1",
-      "link": "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything",
-      "date": "2026-04-15T23:52:35Z",
-      "summary": "Release: datasette-export-database 0.3a1 This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 no longer sets that cookie .…",
       "source": "simonwillison.net"
     },
     {
