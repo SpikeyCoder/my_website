@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-04-16T14:45:42.723120Z",
+  "generated_at": "2026-04-16T15:40:46.835813Z",
   "items": [
     {
       "title": "So Close to Getting It",
       "link": "https://www.theverge.com/tech/906873/sofa-app-track-tv-movies-installer",
-      "date": "2026-04-16T13:39:36Z",
+      "date": "2026-04-16T15:37:24Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Sofa 5.0",
-      "link": "https://www.sofahq.com/5",
-      "date": "2026-04-16T13:39:18Z",
+      "title": "Bonus Thought Regarding the Name ‘iPhone Ultra’",
+      "link": "https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone",
+      "date": "2026-04-16T15:27:50Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Rory Goss’s Accessibility Story",
+      "link": "https://www.apple.com/education/college-students/success-stories/goss/",
+      "date": "2026-04-16T15:00:49Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "What’s up with window message 0x0091? We’re getting it with unexpected parameters",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260416-00/?p=112240",
+      "date": "2026-04-16T14:00:00Z",
+      "summary": "Trespassing on system messages. The post What’s up with window message <CODE>0x0091</CODE>? We’re getting it with unexpected parameters appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Newton diameters",
@@ -77,13 +91,6 @@
       "date": "2026-04-15T23:16:34Z",
       "summary": "Release: datasette 1.0a27 Two major changes in this new Datasette alpha. I covered the first of those in detail yesterday - Datasette no longer uses Django-style CSRF form tokens, instead using…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular)",
-      "link": "https://lisamelton.net/2023/10/05/memories-of-steve/",
-      "date": "2026-04-15T20:14:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "An Arm Mainboard for the Framework Laptop",
@@ -175,13 +182,6 @@
       "date": "2026-04-14T08:32:55Z",
       "summary": "Today's links In praise of (some) compartmentalization: Go with the flow (mostly). Hey look at this: Delights to delectate. Object permanence: Multitasking teens; Copyrighted dirt; NZ internet…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Finding a duplicated item in an array of N integers in the range 1 to N − 1",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260413-00/?p=112227",
-      "date": "2026-04-13T14:00:00Z",
-      "summary": "Taking advantage of special characteristics of the array. The post Finding a duplicated item in an array of <VAR>N</VAR> integers in the range 1 to <VAR>N</VAR> − 1 appeared first on The Old New…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "You paid for it, you should be comfortable in it",
