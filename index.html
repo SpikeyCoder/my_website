@@ -366,14 +366,17 @@
                     <button class="btn ghost" type="button" data-compose-action="underline" aria-label="Underline">
                       U
                     </button>
+                    <label for="blog-editor-color" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font color</label>
                     <input
+                      id="blog-editor-color"
                       class="blog-editor-color"
                       type="color"
                       data-compose-action="color"
                       aria-label="Font color"
                       value="#ffffff"
                     />
-                    <select class="blog-editor-select" data-compose-action="size" aria-label="Font size">
+                    <label for="blog-editor-size" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font size</label>
+                    <select id="blog-editor-size" class="blog-editor-select" data-compose-action="size" aria-label="Font size">
                       <option value="">Size</option>
                       <option value="12px">12</option>
                       <option value="14px">14</option>
@@ -382,7 +385,8 @@
                       <option value="22px">22</option>
                       <option value="26px">26</option>
                     </select>
-                    <select class="blog-editor-select" data-compose-action="family" aria-label="Font family">
+                    <label for="blog-editor-family" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font family</label>
+                    <select id="blog-editor-family" class="blog-editor-select" data-compose-action="family" aria-label="Font family">
                       <option value="">Font</option>
                       <option value="D-DIN">D-DIN</option>
                       <option value="JetBrains Mono">JetBrains Mono</option>
@@ -530,6 +534,7 @@
           </div>
           <div class="rss-radar">
             <div class="rss-controls">
+              <label for="rss-search">Filter RSS feeds</label>
               <input type="text" id="rss-search" placeholder="Filter by title or source" />
               <button type="button" class="btn ghost" id="rss-refresh">Refresh</button>
             </div>
