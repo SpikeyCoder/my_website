@@ -1175,6 +1175,12 @@ a.project-card:focus-visible {
   scrollbar-gutter: stable;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-y;
+  transition: max-height 0.3s ease;
+}
+
+.rss-toggle-row {
+  margin-top: 14px;
+  text-align: center;
 }
 
 .rss-list:focus {
