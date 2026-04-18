@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T15:19:58.931845Z",
+  "generated_at": "2026-04-18T16:18:30.666738Z",
   "items": [
     {
       "title": "Gaussian distributed weights for LLMs",
@@ -79,6 +79,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "Book Review: How To Kill A Witch - A Guide For The Patriarchy by Claire Mitchell and Zoe Venditozzi ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/04/book-review-how-to-kill-a-witch-a-guide-for-the-patriarchy-by-claire-mitchell-and-zoe-venditozzi/",
+      "date": "2026-04-17T11:34:26Z",
+      "summary": "After reading The Wicked of the Earth, I wanted to understand some of the history behind the stories. Why were women accused of being witches? What really happened in those trials? What are the…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Pluralistic: Tiktokification shall set us free (17 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/17/for-youze/",
       "date": "2026-04-17T10:30:52Z",
@@ -121,6 +128,13 @@
       "source": "johndcook.com"
     },
     {
+      "title": "RSS Club for WordPress",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-for-wordpress/",
+      "date": "2026-04-16T11:34:10Z",
+      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/16/pascals-wager/",
       "date": "2026-04-16T11:09:32Z",
@@ -161,6 +175,13 @@
       "date": "2026-04-15T14:00:00Z",
       "summary": "Maybe it didn't really exit. The post Why is there a long delay between a thread exiting and the <CODE>Wait­For­Single­Object</CODE> returning? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Why is it so hard to passively stalk my friends' locations?",
+      "link": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
+      "date": "2026-04-15T11:34:45Z",
+      "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "The Tuesday Test",
@@ -259,27 +280,6 @@
       "date": "2026-04-08T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "date": "2026-04-07T17:02:44Z",
-      "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "The Building Block Economy",
-      "link": "https://mitchellh.com/writing/building-block-economy",
-      "date": "2026-04-07T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
-    },
-    {
-      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
-      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-      "date": "2026-04-06T02:07:17Z",
-      "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
