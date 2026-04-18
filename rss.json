@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-04-17T23:20:41.682951Z",
+  "generated_at": "2026-04-18T00:51:37.024181Z",
   "items": [
     {
-      "title": "Freecash Was More Like Scamcash",
-      "link": "https://techcrunch.com/2026/04/14/how-the-rewards-app-freecash-scammed-its-way-to-the-top-of-the-app-stores/",
-      "date": "2026-04-17T14:01:05Z",
+      "title": "Apple’s Developer Guidelines for Ratings and Review Prompts",
+      "link": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices",
+      "date": "2026-04-18T00:43:36Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
+      "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
+      "date": "2026-04-18T00:31:16Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
+      "date": "2026-04-17T23:59:03Z",
+      "summary": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Forgotten message from the past: LB_INIT­STORAGE",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260417-00/?p=112243",
+      "date": "2026-04-17T14:00:00Z",
+      "summary": "Preallocating memory to avoid quadratic behavior. The post Forgotten message from the past: <CODE>LB_<WBR>INIT­STORAGE</CODE> appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Book Review: How To Kill A Witch - A Guide For The Patriarchy by Claire Mitchell and Zoe Venditozzi ★★★⯪☆",
@@ -37,24 +58,10 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Colliding With Reality, Indeed",
-      "link": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&smid=url-share",
-      "date": "2026-04-17T00:34:02Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "llm-anthropic 0.25",
       "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
       "date": "2026-04-16T20:37:12Z",
       "summary": "Release: llm-anthropic 0.25 New model: claude-opus-4.7 , which supports thinking_effort : xhigh . #66 New thinking_display and thinking_adaptive boolean options. thinking_display summarized output is…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
-      "date": "2026-04-16T17:16:52Z",
-      "summary": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases -…",
       "source": "simonwillison.net"
     },
     {
@@ -161,13 +168,6 @@
       "date": "2026-04-14T14:08:36Z",
       "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Why was there a red telephone at every receptionist desk?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260414-00/?p=112231",
-      "date": "2026-04-14T14:00:00Z",
-      "summary": "Not a direct line to Bill Gates's office. The post Why was there a red telephone at every receptionist desk? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Finding a parabola through two points with given slopes",
