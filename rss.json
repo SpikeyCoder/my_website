@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-18T12:22:35.587290Z",
+  "generated_at": "2026-04-18T13:32:51.982260Z",
   "items": [
+    {
+      "title": "Pluralistic: Georgia's voting technology blunder (18 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
+      "date": "2026-04-18T13:00:44Z",
+      "summary": "Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "Reading List 04/18/2026",
       "link": "https://www.construction-physics.com/p/reading-list-04182026",
@@ -175,13 +182,6 @@
       "date": "2026-04-15T10:00:00Z",
       "summary": "Like the Turing test but with more tacos.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Pluralistic: Rights for robots (15 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/15/artificial-lifeforms/",
-      "date": "2026-04-15T07:06:28Z",
-      "summary": "Today's links Rights for robots: Not everything deserves moral consideration. Hey look at this: Delights to delectate. Object permanence: 7 years under the DMCA; NOLA mayoral candidate x New Orleans…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
