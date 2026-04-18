@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-18T03:13:32.542174Z",
+  "generated_at": "2026-04-18T04:53:39.198460Z",
   "items": [
+    {
+      "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
+      "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
+      "date": "2026-04-18T03:51:44Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Adding a new content type to my blog-to-newsletter tool",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
+      "date": "2026-04-18T03:15:36Z",
+      "summary": "Agentic Engineering Patterns > Here's an example of a deceptively short prompt that got a lot of work done in a single shot. First, some background. I send out a free Substack newsletter around once…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "We Are All Playing Politics at Work",
       "link": "https://idiallo.com/blog/we-are-playing-politics?src=feed",
@@ -14,13 +28,6 @@
       "date": "2026-04-18T01:08:54Z",
       "summary": "In ancient times, floating point numbers were stored in 32 bits. Then somewhere along the way 64 bits became standard. The C programming language retains the ancient lore, using float to refer to a…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
-      "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
-      "date": "2026-04-18T01:03:33Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Apple’s Developer Guidelines for Ratings and Review Prompts",
@@ -79,11 +86,11 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "llm-anthropic 0.25",
-      "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
-      "date": "2026-04-16T20:37:12Z",
-      "summary": "Release: llm-anthropic 0.25 New model: claude-opus-4.7 , which supports thinking_effort : xhigh . #66 New thinking_display and thinking_adaptive boolean options. thinking_display summarized output is…",
-      "source": "simonwillison.net"
+      "title": "Taking down my site on purpose:",
+      "link": "https://maurycyz.com/misc/v6day/",
+      "date": "2026-04-17T00:00:00Z",
+      "summary": "If you have multiple computers, you'll quickly run into the problem of having data on one but needing it on the other. Because of this, people have been connecting them together since the beginning.…",
+      "source": "maurycyz.com"
     },
     {
       "title": "What’s up with window message 0x0091? We’re getting it with unexpected parameters",
@@ -273,13 +280,6 @@
       "date": "2026-04-07T17:02:44Z",
       "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "The Building Block Economy",
-      "link": "https://mitchellh.com/writing/building-block-economy",
-      "date": "2026-04-07T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
     }
   ]
 }
