@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-18T11:18:30.271539Z",
+  "generated_at": "2026-04-18T12:22:35.587290Z",
   "items": [
+    {
+      "title": "Reading List 04/18/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-04182026",
+      "date": "2026-04-18T12:00:53Z",
+      "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
       "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
@@ -12,7 +19,7 @@
       "title": "Adding a new content type to my blog-to-newsletter tool",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
       "date": "2026-04-18T03:15:36Z",
-      "summary": "Agentic Engineering Patterns > Here's an example of a deceptively short prompt that got a lot of work done in a single shot. First, some background. I send out a free Substack newsletter around once…",
+      "summary": "Agentic Engineering Patterns > Here's an example of a deceptively short prompt that got a quite a lot of work done in a single shot. First, some background. I send out a free Substack newsletter…",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-04-08T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "date": "2026-04-07T17:02:44Z",
-      "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
