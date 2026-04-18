@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T08:22:38.888350Z",
+  "generated_at": "2026-04-18T09:23:35.437773Z",
   "items": [
     {
       "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
@@ -184,6 +184,13 @@
       "source": "mitchellh.com"
     },
     {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "date": "2026-04-14T21:47:59Z",
+      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "Intersecting spheres and GPS",
       "link": "https://www.johndcook.com/blog/2026/04/14/intersecting-spheres-and-gps/",
       "date": "2026-04-14T14:08:36Z",
@@ -240,6 +247,13 @@
       "source": "lucumr.pocoo.org"
     },
     {
+      "title": "In defense of GitHub's poor uptime",
+      "link": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
+      "date": "2026-04-10T00:00:00Z",
+      "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F. “Zero nines uptime”? 99.99% uptime, or “four nines”, is a common…",
+      "source": "evanhahn.com"
+    },
+    {
       "title": "Helium Is Hard to Replace",
       "link": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
       "date": "2026-04-09T12:03:42Z",
@@ -261,25 +275,11 @@
       "source": "lucumr.pocoo.org"
     },
     {
-      "title": "The Building Block Economy",
-      "link": "https://mitchellh.com/writing/building-block-economy",
-      "date": "2026-04-07T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
-    },
-    {
-      "title": "Reading List 04/04/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04042026",
-      "date": "2026-04-04T12:01:48Z",
-      "summary": "Aluminum disruptions, the EV rust belt, the ongoing transformer shortage, SpaceX’s IPO, and more",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Absurd In Production",
-      "link": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
-      "date": "2026-04-04T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "date": "2026-04-07T17:02:44Z",
+      "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned…",
+      "source": "krebsonsecurity.com"
     }
   ]
 }
