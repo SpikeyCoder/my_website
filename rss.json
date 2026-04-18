@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-18T01:42:06.039728Z",
+  "generated_at": "2026-04-18T03:13:32.542174Z",
   "items": [
+    {
+      "title": "We Are All Playing Politics at Work",
+      "link": "https://idiallo.com/blog/we-are-playing-politics?src=feed",
+      "date": "2026-04-18T03:00:00Z",
+      "summary": "Politics is any discussion where the truth doesn't steer the course of action. Most of us like to think we are above it. We believe that in our daily jobs, we are rational actors exchanging facts. We…",
+      "source": "idiallo.com"
+    },
     {
       "title": "4-bit floating point FP4",
       "link": "https://www.johndcook.com/blog/2026/04/17/fp4/",
@@ -21,6 +28,13 @@
       "date": "2026-04-18T00:43:36Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Many anti-AI arguments are conservative arguments",
+      "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
+      "date": "2026-04-18T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
@@ -205,13 +219,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Your AWS Certification Makes You an AWS Salesman",
-      "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
-      "date": "2026-04-12T17:25:33Z",
-      "summary": "I must have been the last developer still confused by the AWS interface. I knew how to access DynamoDB, that was the only tool I needed for my daily work. But everything else was a mystery. How do I…",
-      "source": "idiallo.com"
-    },
-    {
       "title": "Optimism is not a personality flaw",
       "link": "https://www.joanwestenberg.com/optimism-is-not-a-personality-flaw/",
       "date": "2026-04-12T01:26:10Z",
@@ -273,13 +280,6 @@
       "date": "2026-04-07T00:00:00Z",
       "summary": "",
       "source": "mitchellh.com"
-    },
-    {
-      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
-      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-      "date": "2026-04-06T02:07:17Z",
-      "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
