@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-18T16:18:30.666738Z",
+  "generated_at": "2026-04-18T17:18:01.278357Z",
   "items": [
+    {
+      "title": "Apple’s Mac Mini Went Viral. Why Can’t You Buy One Right Now? - WSJ",
+      "link": "https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q",
+      "date": "2026-04-18T17:01:42Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
+      "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
+      "date": "2026-04-18T16:39:44Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+      "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
+      "date": "2026-04-18T16:24:32.295000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
     {
       "title": "Gaussian distributed weights for LLMs",
       "link": "https://www.johndcook.com/blog/2026/04/18/qlora/",
@@ -21,13 +42,6 @@
       "date": "2026-04-18T12:00:53Z",
       "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
-      "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
-      "date": "2026-04-18T03:51:44Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Adding a new content type to my blog-to-newsletter tool",
@@ -98,13 +112,6 @@
       "date": "2026-04-17T04:01:56Z",
       "summary": "Release: datasette 1.0a28 I was upgrading Datasette Cloud to 1.0a27 and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "App Store Reviews Are Busted",
-      "link": "https://blog.terrygodier.com/2026/04/13/app-store-reviews-are-busted.html",
-      "date": "2026-04-17T01:37:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Taking down my site on purpose:",
@@ -273,13 +280,6 @@
       "date": "2026-04-09T00:00:00Z",
       "summary": "out of spite",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Mario and Earendil",
-      "link": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
-      "date": "2026-04-08T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
