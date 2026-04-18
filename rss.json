@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-04-18T00:51:37.024181Z",
+  "generated_at": "2026-04-18T01:42:06.039728Z",
   "items": [
     {
-      "title": "Apple’s Developer Guidelines for Ratings and Review Prompts",
-      "link": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices",
-      "date": "2026-04-18T00:43:36Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "4-bit floating point FP4",
+      "link": "https://www.johndcook.com/blog/2026/04/17/fp4/",
+      "date": "2026-04-18T01:08:54Z",
+      "summary": "In ancient times, floating point numbers were stored in 32 bits. Then somewhere along the way 64 bits became standard. The C programming language retains the ancient lore, using float to refer to a…",
+      "source": "johndcook.com"
     },
     {
       "title": "Follow-Up Regarding App Store Reviews, Which Are Definitely Busted",
       "link": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
-      "date": "2026-04-18T00:31:16Z",
+      "date": "2026-04-18T01:03:33Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple’s Developer Guidelines for Ratings and Review Prompts",
+      "link": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices",
+      "date": "2026-04-18T00:43:36Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -167,13 +174,6 @@
       "link": "https://www.johndcook.com/blog/2026/04/14/intersecting-spheres-and-gps/",
       "date": "2026-04-14T14:08:36Z",
       "summary": "If you know the distance d to a satellite, you can compute a circle of points that passes through your location. That’s because you’re at the intersection of two spheres—the earth’s surface and a…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Finding a parabola through two points with given slopes",
-      "link": "https://www.johndcook.com/blog/2026/04/14/artz-parabola/",
-      "date": "2026-04-14T12:19:42Z",
-      "summary": "The Wikipedia article on modern triangle geometry has an image labeled “Artzt parabolas” with no explanation. A quick search didn’t turn up anything about Artzt parabolas [1], but apparently the…",
       "source": "johndcook.com"
     },
     {
