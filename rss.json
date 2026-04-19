@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-19T17:17:43.912828Z",
+  "generated_at": "2026-04-19T18:22:28.262363Z",
   "items": [
+    {
+      "title": "WorkOS FGA: The Authorization Layer for AI Agents",
+      "link": "https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
+      "date": "2026-04-19T17:37:31Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Reprojecting Dual Fisheye Videos to Equirectangular (LG 360)",
       "link": "https://shkspr.mobi/blog/2026/04/reprojecting-dual-fisheye-videos-to-equirectangular-lg-360/",
@@ -86,13 +93,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Apple’s Developer Guidelines for Ratings and Review Prompts",
-      "link": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices",
-      "date": "2026-04-18T00:43:36Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Many anti-AI arguments are conservative arguments",
       "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
       "date": "2026-04-18T00:00:00Z",
@@ -103,7 +103,7 @@
       "title": "5x5 Pixel font for tiny screens",
       "link": "https://maurycyz.com/projects/mcufont/",
       "date": "2026-04-18T00:00:00Z",
-      "summary": "Font data (C header) All characters fit within a 5 pixel square, and are intended to be drawn on a 6x6 grid. The design is based off of lcamtuf's 5x6 font-inline.h, which is itself loosely inspired…",
+      "summary": "Font data (C header) All characters fit within a 5 pixel square, and are safe to draw on a 6x6 grid. The design is based off of lcamtuf's 5x6 font-inline.h, which is itself inspired by the ZX…",
       "source": "maurycyz.com"
     },
     {
