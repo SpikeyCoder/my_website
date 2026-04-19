@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-18T23:17:03.857121Z",
+  "generated_at": "2026-04-19T00:58:22.549148Z",
   "items": [
+    {
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
+      "date": "2026-04-18T23:59:40Z",
+      "summary": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Mac Mini and Mac Studio Supply Shortages",
       "link": "https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q",
@@ -35,6 +42,13 @@
       "date": "2026-04-18T13:00:44Z",
       "summary": "Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Claude system prompts as a git timeline",
+      "link": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
+      "date": "2026-04-18T12:25:00Z",
+      "summary": "Research: Claude system prompts as a git timeline Anthropic publish the system prompts for Claude chat and make that page available as Markdown . I had Claude Code turn that page into separate files…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Reading List 04/18/2026",
@@ -79,13 +93,6 @@
       "source": "seangoedecke.com"
     },
     {
-      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
-      "date": "2026-04-17T23:59:03Z",
-      "summary": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach,…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Forgotten message from the past: LB_INIT­STORAGE",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260417-00/?p=112243",
       "date": "2026-04-17T14:00:00Z",
@@ -105,13 +112,6 @@
       "date": "2026-04-17T10:30:52Z",
       "summary": "Today's links Tiktokification shall set us free: Zuck keeps accidentally freeing his hostages. Hey look at this: Delights to delectate. Object permanence: B2B Trotsky; Public service games; NZ 3…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "datasette 1.0a28",
-      "link": "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
-      "date": "2026-04-17T04:01:56Z",
-      "summary": "Release: datasette 1.0a28 I was upgrading Datasette Cloud to 1.0a27 and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Taking down my site on purpose:",
