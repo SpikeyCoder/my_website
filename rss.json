@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T03:14:57.542591Z",
+  "generated_at": "2026-04-19T05:08:03.453507Z",
   "items": [
     {
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
@@ -91,6 +91,13 @@
       "date": "2026-04-18T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "5x5 Pixel font for tiny screens",
+      "link": "https://maurycyz.com/projects/mcufont/",
+      "date": "2026-04-18T00:00:00Z",
+      "summary": "Font data (C header) All characters fit within a 5 pixel square, and are intended to be drawn on a 6x6 grid. The design is based off of lcamtuf's 5x6 font-inline.h, which is itself loosely inspired…",
+      "source": "maurycyz.com"
     },
     {
       "title": "Forgotten message from the past: LB_INIT­STORAGE",
@@ -273,13 +280,6 @@
       "date": "2026-04-10T00:00:00Z",
       "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F. “Zero nines uptime”? 99.99% uptime, or “four nines”, is a common…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Helium Is Hard to Replace",
-      "link": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
-      "date": "2026-04-09T12:03:42Z",
-      "summary": "The war in Iran, and the subsequent closure of the Strait of Hormuz, has unfortunately made us all familiar with details of the petroleum supply chain that we could formerly happily ignore.",
-      "source": "construction-physics.com"
     }
   ]
 }
