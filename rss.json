@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T01:42:24.270819Z",
+  "generated_at": "2026-04-19T03:14:57.542591Z",
   "items": [
     {
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
@@ -112,6 +112,13 @@
       "date": "2026-04-17T10:30:52Z",
       "summary": "Today's links Tiktokification shall set us free: Zuck keeps accidentally freeing his hostages. Hey look at this: Delights to delectate. Object permanence: B2B Trotsky; Public service games; NZ 3…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-04-17T03:54:10Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Taking down my site on purpose:",
@@ -273,13 +280,6 @@
       "date": "2026-04-09T12:03:42Z",
       "summary": "The war in Iran, and the subsequent closure of the Strait of Hormuz, has unfortunately made us all familiar with details of the petroleum supply chain that we could formerly happily ignore.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "I quit drinking for a year",
-      "link": "https://dynomight.net/drinking/",
-      "date": "2026-04-09T00:00:00Z",
-      "summary": "out of spite",
-      "source": "dynomight.net"
     }
   ]
 }
