@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-19T11:18:52.316589Z",
+  "generated_at": "2026-04-19T12:22:25.708796Z",
   "items": [
+    {
+      "title": "Reprojecting Dual Fisheye Videos to Equirectangular (LG 360)",
+      "link": "https://shkspr.mobi/blog/2026/04/reprojecting-dual-fisheye-videos-to-equirectangular-lg-360/",
+      "date": "2026-04-19T11:34:32Z",
+      "summary": "I still use my obsolete LG 360 Camera. When copying MP4 videos from its SD card, they come out in \"Dual Fisheye\" format - which looks like this: VLC and YouTube will only play \"Equirectangular\"…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
       "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
@@ -196,13 +203,6 @@
       "date": "2026-04-15T14:00:00Z",
       "summary": "Maybe it didn't really exit. The post Why is there a long delay between a thread exiting and the <CODE>Wait­For­Single­Object</CODE> returning? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Why is it so hard to passively stalk my friends' locations?",
-      "link": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
-      "date": "2026-04-15T11:34:45Z",
-      "summary": "I feel terribly guilty when I visit a new city, post photos of my travels, only to have a friend say \"Hey! Why didn't you let me know you were in my neck of the woods?\" Similarly, if I bump into an…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The Tuesday Test",
