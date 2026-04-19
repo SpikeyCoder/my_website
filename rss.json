@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-19T21:16:56.009319Z",
+  "generated_at": "2026-04-19T22:15:43.050835Z",
   "items": [
+    {
+      "title": "Headless everything for personal AI",
+      "link": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
+      "date": "2026-04-19T21:46:38Z",
+      "summary": "Headless everything for personal AI Matt Webb thinks headless services are about to become much more common: Why? Because using personal AIs is a better experience for users than using services…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Jessica Chastain Says Apple TV Will Finally Release ‘The Savant’",
       "link": "https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/",
@@ -70,13 +77,6 @@
       "date": "2026-04-18T12:00:53Z",
       "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Adding a new content type to my blog-to-newsletter tool",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
-      "date": "2026-04-18T03:15:36Z",
-      "summary": "Agentic Engineering Patterns > Here's an example of a deceptively short prompt that got a quite a lot of work done in a single shot. First, some background. I send out a free Substack newsletter…",
-      "source": "simonwillison.net"
     },
     {
       "title": "We Are All Playing Politics at Work",
