@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-20T10:42:07.098459Z",
+  "generated_at": "2026-04-20T11:36:27.383783Z",
   "items": [
+    {
+      "title": "Book Review: Up - A scientist's guide to the magic above us by Dr Lucy Rogers ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/04/book-review-up-a-scientists-guide-to-the-magic-above-us-by-dr-lucy-rogers/",
+      "date": "2026-04-20T11:34:38Z",
+      "summary": "My mate Dr Lucy Rogers has written a book! This is a charming and thought provoking exploration of everything that goes on above our heads. This isn't an impersonal and imperious manuscript, it's a…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "SQL functions in Google Sheets to fetch data from Datasette",
       "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
@@ -161,13 +168,6 @@
       "date": "2026-04-16T12:02:13Z",
       "summary": "Let f(x, y) be an nth degree polynomial in x and y. In general, a straight line will cross the zero set of f in n locations [1]. Newton defined a diameter to be any line that crosses the zero set of…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "RSS Club for WordPress",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-for-wordpress/",
-      "date": "2026-04-16T11:34:10Z",
-      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you're reading this message, you're now a member of RSS Club! RSS Club is a series of posts which are only visible to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)",
