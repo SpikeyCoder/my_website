@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-20T16:34:57.715937Z",
+  "generated_at": "2026-04-20T17:29:47.242141Z",
   "items": [
+    {
+      "title": "Apple’s Annual Environmental Progress Report",
+      "link": "https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/",
+      "date": "2026-04-20T17:09:31Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Pluralistic: Comrade Trump (20 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/20/praxis/",
+      "date": "2026-04-20T16:44:33Z",
+      "summary": "Today's links Comrade Trump: Burning down the American empire to save it. Hey look at this: Delights to delectate. Object permanence: MPAA's threat-based 'education'; Cuehack; Heinlein on GWB; AT&T v…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "How did code handle 24-bit-per-pixel formats when using video cards with bank-switched memory?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260420-00/?p=112245",
+      "date": "2026-04-20T14:00:00Z",
+      "summary": "You still have to use aligned accesses, even though the pixels might not be aligned. The post How did code handle 24-bit-per-pixel formats when using video cards with bank-switched memory? appeared…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "More on Newton’s diameter theorem",
       "link": "https://www.johndcook.com/blog/2026/04/20/newton-diameter-quintic/",
@@ -44,6 +65,13 @@
       "source": "simonwillison.net"
     },
     {
+      "title": "256 Lines or Less: Test Case Minimization",
+      "link": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
+      "date": "2026-04-20T00:00:00Z",
+      "summary": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have…",
+      "source": "matklad.github.io"
+    },
+    {
       "title": "Headless everything for personal AI",
       "link": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
       "date": "2026-04-19T21:46:38Z",
@@ -77,13 +105,6 @@
       "date": "2026-04-18T18:26:50.314000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "★ ‘A Reading Room on Wheels, a Lover’s Lane, and, After 11 PM, a Flophouse’",
-      "link": "https://daringfireball.net/2026/04/kubrick_new_york_subway",
-      "date": "2026-04-18T17:52:56Z",
-      "summary": "Photos from the New York Subway in the 1940s, by teenage Stanley Kubrick.",
-      "source": "daringfireball.net"
     },
     {
       "title": "Gaussian distributed weights for LLMs",
@@ -177,13 +198,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/16/pascals-wager/",
-      "date": "2026-04-16T11:09:32Z",
-      "summary": "Today's links A Pascal's Wager for AI Doomers: We're already being turned into paperclips. Hey look at this: Delights to delectate. Object permanence: Every pirate ebook on the internet; Sun's \"Open…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "AI cybersecurity is not proof of work",
       "link": "http://antirez.com/news/163",
       "date": "2026-04-16T10:46:46Z",
@@ -210,13 +224,6 @@
       "date": "2026-04-15T14:49:00Z",
       "summary": "Using the repair-friendly Framework 13 laptop chassis, I've tested the low-end x86 option (a Ryzen AI 5 340 Mainboard ), the fastest RISC-V option ( DC-ROMA II ), and today I'm publishing results…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Why is there a long delay between a thread exiting and the Wait­For­Single­Object returning?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260415-00/?p=112235",
-      "date": "2026-04-15T14:00:00Z",
-      "summary": "Maybe it didn't really exit. The post Why is there a long delay between a thread exiting and the <CODE>Wait­For­Single­Object</CODE> returning? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Tuesday Test",
@@ -273,13 +280,6 @@
       "date": "2026-04-11T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "In defense of GitHub's poor uptime",
-      "link": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
-      "date": "2026-04-10T00:00:00Z",
-      "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F. “Zero nines uptime”? 99.99% uptime, or “four nines”, is a common…",
-      "source": "evanhahn.com"
     }
   ]
 }
