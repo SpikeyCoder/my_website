@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-19T23:18:01.394622Z",
+  "generated_at": "2026-04-20T00:57:18.297331Z",
   "items": [
+    {
+      "title": "Claude Token Counter, now with model comparisons",
+      "link": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
+      "date": "2026-04-20T00:50:45Z",
+      "summary": "Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare them. As far as I can…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Headless everything for personal AI",
       "link": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
@@ -63,13 +70,6 @@
       "date": "2026-04-18T13:00:44Z",
       "summary": "Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Claude system prompts as a git timeline",
-      "link": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
-      "date": "2026-04-18T12:25:00Z",
-      "summary": "Research: Claude system prompts as a git timeline Anthropic publish the system prompts for Claude chat and make that page available as Markdown . I had Claude Code turn that page into separate files…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Reading List 04/18/2026",
