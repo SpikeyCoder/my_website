@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-20T01:43:21.080397Z",
+  "generated_at": "2026-04-20T03:16:24.619994Z",
   "items": [
+    {
+      "title": "SQL functions in Google Sheets to fetch data from Datasette",
+      "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
+      "date": "2026-04-20T02:33:58Z",
+      "summary": "TIL: SQL functions in Google Sheets to fetch data from Datasette I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the importdata()…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "How we lost the living Now",
       "link": "https://www.joanwestenberg.com/how-we-lost-the-living-now/",
@@ -42,13 +49,6 @@
       "date": "2026-04-19T11:34:32Z",
       "summary": "I still use my obsolete LG 360 Camera. When copying MP4 videos from its SD card, they come out in \"Dual Fisheye\" format - which looks like this: VLC and YouTube will only play \"Equirectangular\"…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
-      "date": "2026-04-18T23:59:40Z",
-      "summary": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
