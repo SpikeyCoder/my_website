@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-04-21T15:37:10.968475Z",
+  "generated_at": "2026-04-21T16:32:08.314839Z",
   "items": [
+    {
+      "title": "scosman/pelicans_riding_bicycles",
+      "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
+      "date": "2026-04-21T15:54:43Z",
+      "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "date": "2026-04-21T14:53:59Z",
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…",
       "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Sure, xor’ing a register with itself is the idiom for zeroing it out, but why not sub?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247",
+      "date": "2026-04-21T14:00:00Z",
+      "summary": "Somehow xor became the most popular version. The post Sure, xor’ing a register with itself is the idiom for zeroing it out, but why not sub? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\" (21 Apr 2026)",
@@ -100,13 +114,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Claude Token Counter, now with model comparisons",
-      "link": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
-      "date": "2026-04-20T00:50:45Z",
-      "summary": "Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare them. As far as I can…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "256 Lines or Less: Test Case Minimization",
       "link": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
       "date": "2026-04-20T00:00:00Z",
@@ -196,13 +203,6 @@
       "date": "2026-04-17T00:00:00Z",
       "summary": "Skip the history If you have multiple computers, you'll quickly run into the problem of having data on one but needing it on the other. Because of this, people have been connecting them together…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "What’s up with window message 0x0091? We’re getting it with unexpected parameters",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260416-00/?p=112240",
-      "date": "2026-04-16T14:00:00Z",
-      "summary": "Trespassing on system messages. The post What’s up with window message <CODE>0x0091</CODE>? We’re getting it with unexpected parameters appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "AI cybersecurity is not proof of work",
