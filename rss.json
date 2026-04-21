@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-04-21T20:25:16.239623Z",
+  "generated_at": "2026-04-21T21:21:53.148893Z",
   "items": [
+    {
+      "title": "Trump on Tim Apple",
+      "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
+      "date": "2026-04-21T20:49:16Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+      "date": "2026-04-21T20:32:24Z",
+      "summary": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
       "link": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
       "date": "2026-04-21T20:14:40Z",
       "summary": "AI coding agents improved greatly last summer, and again last December-January. Here are my experiences since my last post on the subject. The models feel subjectively much smarter. They can…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Trump on Tim Apple",
-      "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
-      "date": "2026-04-21T19:25:21Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Quoting Andreas Påhlsson-Notini",
@@ -77,13 +84,6 @@
       "date": "2026-04-20T21:39:08Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "llm-openrouter 0.6",
-      "link": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
-      "date": "2026-04-20T18:00:26Z",
-      "summary": "Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could try Kimi 2.6 on…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Comrade Trump (20 Apr 2026)",
