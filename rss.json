@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-21T19:33:57.529051Z",
+  "generated_at": "2026-04-21T20:25:16.239623Z",
   "items": [
+    {
+      "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
+      "link": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
+      "date": "2026-04-21T20:14:40Z",
+      "summary": "AI coding agents improved greatly last summer, and again last December-January. Here are my experiences since my last post on the subject. The models feel subjectively much smarter. They can…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Trump on Tim Apple",
       "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
@@ -49,6 +56,13 @@
       "date": "2026-04-21T11:34:07Z",
       "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "brief",
+      "link": "https://nesbitt.io/2026/04/21/brief.html",
+      "date": "2026-04-21T10:00:00Z",
+      "summary": "A knowledge base of project conventions, exposed as a CLI.",
+      "source": "nesbitt.io"
     },
     {
       "title": "★ Another Day Has Come",
@@ -163,13 +177,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "4-bit floating point FP4",
-      "link": "https://www.johndcook.com/blog/2026/04/17/fp4/",
-      "date": "2026-04-18T01:08:54Z",
-      "summary": "In ancient times, floating point numbers were stored in 32 bits. Then somewhere along the way 64 bits became standard. The C programming language retains the ancient lore, using float to refer to a…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Many anti-AI arguments are conservative arguments",
       "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
       "date": "2026-04-18T00:00:00Z",
@@ -259,13 +266,6 @@
       "date": "2026-04-14T12:00:00Z",
       "summary": "When websites are blatantly hostile, users close them to never come back. Have you ever downloaded an app, realized it was deceptive, and deleted it immediately? It's a common occurrence for me. But…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Standing on the shoulders of Homebrew",
-      "link": "https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html",
-      "date": "2026-04-14T10:00:00Z",
-      "summary": "Rewriting the easy parts of Homebrew.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Sometimes powerful people just do dumb shit",
