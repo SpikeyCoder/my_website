@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-21T16:32:08.314839Z",
+  "generated_at": "2026-04-21T17:28:49.710329Z",
   "items": [
+    {
+      "title": "Quoting Andreas Påhlsson-Notini",
+      "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
+      "date": "2026-04-21T16:39:33Z",
+      "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "scosman/pelicans_riding_bicycles",
       "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
@@ -98,13 +105,6 @@
       "date": "2026-04-20T11:34:38Z",
       "summary": "My mate Dr Lucy Rogers has written a book! This is a charming and thought provoking exploration of everything that goes on above our heads. This isn't an impersonal and imperious manuscript, it's a…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "SQL functions in Google Sheets to fetch data from Datasette",
-      "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
-      "date": "2026-04-20T02:33:58Z",
-      "summary": "TIL: SQL functions in Google Sheets to fetch data from Datasette I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the importdata()…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How we lost the living Now",
