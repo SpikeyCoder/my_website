@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-21T11:31:59.304631Z",
+  "generated_at": "2026-04-21T12:35:37.514512Z",
   "items": [
+    {
+      "title": "Better TTS on Linux",
+      "link": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
+      "date": "2026-04-21T11:34:07Z",
+      "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "★ Another Day Has Come",
       "link": "https://daringfireball.net/2026/04/another_day_has_come",
@@ -161,13 +168,6 @@
       "date": "2026-04-17T14:00:00Z",
       "summary": "Preallocating memory to avoid quadratic behavior. The post Forgotten message from the past: <CODE>LB_<WBR>INIT­STORAGE</CODE> appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Book Review: How To Kill A Witch - A Guide For The Patriarchy by Claire Mitchell and Zoe Venditozzi ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/04/book-review-how-to-kill-a-witch-a-guide-for-the-patriarchy-by-claire-mitchell-and-zoe-venditozzi/",
-      "date": "2026-04-17T11:34:26Z",
-      "summary": "After reading The Wicked of the Earth, I wanted to understand some of the history behind the stories. Why were women accused of being witches? What really happened in those trials? What are the…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: Tiktokification shall set us free (17 Apr 2026)",
