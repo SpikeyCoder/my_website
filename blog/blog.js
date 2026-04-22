@@ -146,6 +146,16 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function calculateReadingTime(raw) {
+  let text = String(raw || "");
+  if (!text.trim()) return 1;
+  text = text.replace(/```[\s\S]*?```/g, " ");
+  text = text.replace(/<[^>]+>/g, " ");
+  const words = text.split(/\s+/).filter(Boolean);
+  if (!words.length) return 1;
+  return Math.max(1, Math.ceil(words.length / 220));
+}
+
 function sanitizeInlineStyle(rawStyle) {
   if (!rawStyle) return "";
 
@@ -311,11 +321,13 @@ async function loadPost() {
   }
 
   const published = data.published_at ? new Date(data.published_at).toLocaleString() : "";
+  const readingMinutes = calculateReadingTime(data.content || "");
+  const readingLabel = ` • ${readingMinutes} min read`;
   const tags = Array.isArray(data.tags) && data.tags.length ? ` • ${data.tags.join(", ")}` : "";
 
   titleEl.textContent = data.title || "Untitled";
   summaryEl.textContent = data.summary || "";
-  metaEl.textContent = `${published}${tags}`.trim();
+  metaEl.textContent = `${published}${published ? readingLabel : readingLabel.replace(/^ • /, "")}${tags}`.trim();
   contentEl.innerHTML = renderMarkdown(data.content || "");
 
   const finalPath = buildRuntimeBlogPath(finalSlug);
