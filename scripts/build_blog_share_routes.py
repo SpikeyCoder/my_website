@@ -18,7 +18,7 @@ CANONICAL_ORIGIN = "https://kevinarmstrong.io"
 DEFAULT_OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
-SCRIPT_VERSION = "20260322c"
+SCRIPT_VERSION = "20260422a"
 
 GOINGVEGAN_CLEAN_SLUGS = {
     "how-many-animals-does-going-vegan-save-per-year",
@@ -310,6 +310,7 @@ def build_page(
     <script type=\"application/ld+json\">{json.dumps(json_ld)}</script>
   </head>
   <body>
+    <a href=\"#main-content\" class=\"sr-only\" style=\"position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;\" onfocus=\"this.style.position='static';this.style.width='auto';this.style.height='auto';\" onblur=\"this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';\">Skip to content</a>
     <div class=\"ambient\" aria-hidden=\"true\"></div>
 
     <nav class=\"site-nav\">
@@ -322,7 +323,7 @@ def build_page(
       </div>
     </nav>
 
-    <main class=\"blog-article-page\">
+    <main id=\"main-content\" class=\"blog-article-page\">
       <section class=\"section\">
         <div class=\"container reveal blog-article-card\">
           <p class=\"blog-article-status\" id=\"blog-article-status\" hidden>Loading post…</p>
