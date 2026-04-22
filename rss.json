@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-22T01:42:41.048396Z",
+  "generated_at": "2026-04-22T03:15:07.547380Z",
   "items": [
+    {
+      "title": "[Sponsor] Rec League",
+      "link": "https://recleague.com/?lyr_campaign=df",
+      "date": "2026-04-22T03:03:18Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
+      "date": "2026-04-22T02:07:34Z",
+      "summary": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Trump on Tim Apple",
       "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
@@ -27,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
       "date": "2026-04-21T16:39:33Z",
       "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "scosman/pelicans_riding_bicycles",
-      "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
-      "date": "2026-04-21T15:54:43Z",
-      "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as…",
       "source": "simonwillison.net"
     },
     {
@@ -76,13 +83,6 @@
       "link": "https://daringfireball.net/2026/04/another_day_has_come",
       "date": "2026-04-21T04:24:17Z",
       "summary": "If you agree that Apple itself was It’s hard to imagine a more orderly, confidence-inspiring, exciting-but-not-at-all-surprising, this-feels-right way to do this.",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "DF Paraphernalia: T-Shirts and Hoodies Are Back",
-      "link": "https://store.daringfireball.net/",
-      "date": "2026-04-20T21:39:08Z",
-      "summary": "",
       "source": "daringfireball.net"
     },
     {
