@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T20:26:59.024612Z",
+  "generated_at": "2026-04-22T21:24:17.267590Z",
   "items": [
     {
       "title": "DF T-Shirts and Hoodies: Get Them While the Getting Is Good",
@@ -35,6 +35,13 @@
       "date": "2026-04-22T15:24:00Z",
       "summary": "Today's links It's not a crime if we do it (to nurses) with an app: It's not a bald spot, it's a solar panel for a sex machine. Hey look at this: Delights to delectate. Object permanence: PKD named…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Mapping the page tables into memory via the page tables",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260422-00/?p=112255",
+      "date": "2026-04-22T14:00:00Z",
+      "summary": "So-called \"fractal page mapping\". The post Mapping the page tables into memory via the page tables appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "How to Come Up With Great Ideas",
@@ -203,13 +210,6 @@
       "date": "2026-04-18T00:00:00Z",
       "summary": "Font data (C header) All characters fit within a 5 pixel square, and are safe to draw on a 6x6 grid. The design is based off of lcamtuf's 5x6 font-inline.h, which is itself inspired by the ZX…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Forgotten message from the past: LB_INIT­STORAGE",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260417-00/?p=112243",
-      "date": "2026-04-17T14:00:00Z",
-      "summary": "Preallocating memory to avoid quadratic behavior. The post Forgotten message from the past: <CODE>LB_<WBR>INIT­STORAGE</CODE> appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Your feed reader User-Agent is generic",
