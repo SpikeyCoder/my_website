@@ -20,12 +20,12 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
     <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
-    <link rel="stylesheet" href="../../styles.css?v=20260422a" />
+    <link rel="stylesheet" href="../../styles.css?v=20260422b" />
     <link rel="icon" href="../../favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Payments at Companies from Large to Small: Common Challenges For Both", "description": "Most startup founders think enterprise payment systems are irrelevant to them. They're half right. The infrastructure that processes billions for Fortune 500s won't fit your stack or budget. But the principles behind it?", "url": "https://kevinarmstrong.io/blog/payments-at-companies-from-large-to-small-common-challenges-for-both/", "datePublished": "2026-02-11T03:15:25.969+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC"}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Payments at Companies from Large to Small: Common Challenges For Both", "description": "Most startup founders think enterprise payment systems are irrelevant to them. They're half right. The infrastructure that processes billions for Fortune 500s won't fit your stack or budget. But the principles behind it?", "url": "https://kevinarmstrong.io/blog/payments-at-companies-from-large-to-small-common-challenges-for-both/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/payments-at-companies-from-large-to-small-common-challenges-for-both/"}, "datePublished": "2026-02-11T03:15:25.969+00:00", "dateModified": "2026-02-11T03:15:25.969+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
   </head>
   <body>
     <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
@@ -78,7 +78,7 @@
             </div>
 
             <p class="blog-article-summary" id="blog-article-summary">Most startup founders think enterprise payment systems are irrelevant to them. They&#x27;re half right. The infrastructure that processes billions for Fortune 500s won&#x27;t fit your stack or budget. But the principles behind it?</p>
-            <p class="blog-article-meta" id="blog-article-meta">Feb 11, 2026 • payments</p>
+            <p class="blog-article-meta" id="blog-article-meta">Feb 11, 2026 • 3 min read • payments</p>
             <article class="blog-article-content" id="blog-article-content">
             <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:22px&quot;&gt;&lt;strong&gt;What Actually Transfers&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Idempotency keys aren&#x27;t optional&lt;/strong&gt;. At enterprise scale, every payment request gets a unique identifier. Retry the same key? Same result, no double-charge. This isn&#x27;t enterprise paranoia—it&#x27;s day-one protection against network failures, impatient users, and your own retry logic. Stripe, PayPal, and every serious processor supports this. Use it from transaction one.</p>
             <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Event-driven architecture over synchronous processing.&lt;/strong&gt; Enterprises don&#x27;t wait for payment confirmations in the request cycle. They emit events and process asynchronously. You should too. A webhook receiver, a queue (SQS, Redis, whatever), and a worker that updates your database. This pattern handles failures gracefully and keeps your API responsive. It also makes debugging infinitely easier when you can replay events.&lt;/span&gt;</p>

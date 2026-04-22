@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import json
+import math
 import re
 import unicodedata
 from datetime import datetime
@@ -18,7 +19,7 @@ CANONICAL_ORIGIN = "https://kevinarmstrong.io"
 DEFAULT_OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
-SCRIPT_VERSION = "20260422a"
+SCRIPT_VERSION = "20260422b"
 
 GOINGVEGAN_CLEAN_SLUGS = {
     "how-many-animals-does-going-vegan-save-per-year",
@@ -118,6 +119,28 @@ def format_published(value: str) -> str:
         return dt.strftime("%b %-d, %Y")
     except ValueError:
         return text
+
+
+def estimate_reading_time(raw_content: str) -> int:
+    """Return an integer minutes estimate (>=1) based on ~220 wpm.
+
+    Strips HTML tags and code-fence backticks before counting so inline-HTML
+    posts (from the Supabase `content` field) don't inflate the word count.
+    """
+    text = str(raw_content or "")
+    if not text.strip():
+        return 1
+    # Drop code blocks entirely — they aren't "read" at normal prose pace
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    # Strip HTML tags
+    text = re.sub(r"<[^>]+>", " ", text)
+    # Unescape entities and collapse whitespace
+    text = html.unescape(text)
+    words = [w for w in re.split(r"\s+", text) if w]
+    if not words:
+        return 1
+    minutes = math.ceil(len(words) / 220)
+    return max(1, minutes)
 
 
 def render_inline_markdown(text: str) -> str:
@@ -255,6 +278,7 @@ def build_page(
     content_html: str,
     content_meta: str,
     published_at: str,
+    date_modified: str,
     og_image_url: str,
     page_title_suffix: str,
     asset_prefix: str,
@@ -268,15 +292,29 @@ def build_page(
     title_text = title or "Live Blog Article"
     desc_text = summary or "Live Blog article by Kevin Armstrong."
     published = published_at or ""
+    modified = date_modified or published
     json_ld = {
         "@context": "https://schema.org",
-        "@type": "BlogPosting",
+        "@type": "Article",
         "headline": title_text,
         "description": desc_text,
         "url": canonical_url,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical_url},
         "datePublished": published,
-        "author": {"@type": "Person", "name": "Kevin Armstrong"},
-        "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC"},
+        "dateModified": modified,
+        "author": {
+            "@type": "Person",
+            "name": "Kevin Armstrong",
+            "url": CANONICAL_ORIGIN,
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Armstrong HoldCo LLC",
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{CANONICAL_ORIGIN}/apple-touch-icon.png",
+            },
+        },
         "image": og_image_url,
     }
 
@@ -461,11 +499,27 @@ def main() -> None:
         is_gv = is_goingvegan_post(post, legacy_slug)
         canonical_base = "/goingvegan/blog" if is_gv else "/blog"
         og_image = resolve_og_image_url(repo_root, original_slug)
-        content_html = render_content_html(str(post.get("content") or ""))
+        raw_content = str(post.get("content") or "")
+        content_html = render_content_html(raw_content)
         published_meta = format_published(str(post.get("published_at") or ""))
         tags_meta = normalize_display_tags(post.get("tags"))
-        meta_parts = [part for part in [published_meta, ", ".join(tags_meta) if tags_meta else ""] if part]
+        reading_minutes = estimate_reading_time(raw_content)
+        reading_meta = f"{reading_minutes} min read"
+        meta_parts = [
+            part
+            for part in [
+                published_meta,
+                reading_meta,
+                ", ".join(tags_meta) if tags_meta else "",
+            ]
+            if part
+        ]
         content_meta = " • ".join(meta_parts)
+        # Supabase posts don't yet expose an updated_at field, so dateModified
+        # falls back to published_at. When/if that field is added, wire it here.
+        date_modified_val = str(
+            post.get("updated_at") or post.get("published_at") or ""
+        )
 
         for route_slug in route_slugs:
             page_for_main_blog = build_page(
@@ -477,6 +531,7 @@ def main() -> None:
                 content_html=content_html,
                 content_meta=content_meta,
                 published_at=str(post.get("published_at") or ""),
+                date_modified=date_modified_val,
                 og_image_url=og_image,
                 page_title_suffix="Live Blog | Kevin Armstrong",
                 asset_prefix="../../",
@@ -505,6 +560,7 @@ def main() -> None:
                     content_html=content_html,
                     content_meta=content_meta,
                     published_at=str(post.get("published_at") or ""),
+                    date_modified=date_modified_val,
                     og_image_url=og_image,
                     page_title_suffix="GoingVegan Blog | Kevin Armstrong",
                     asset_prefix="../../../",
