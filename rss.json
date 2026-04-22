@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-22T03:15:07.547380Z",
+  "generated_at": "2026-04-22T05:05:35.393224Z",
   "items": [
+    {
+      "title": "Changes to GitHub Copilot Individual plans",
+      "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
+      "date": "2026-04-22T03:30:02Z",
+      "summary": "Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't ), here's the latest on GitHub Copilot…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "[Sponsor] Rec League",
       "link": "https://recleague.com/?lyr_campaign=df",
@@ -35,13 +42,6 @@
       "date": "2026-04-21T20:14:40Z",
       "summary": "AI coding agents improved greatly last summer, and again last December-January. Here are my experiences since my last post on the subject. The models feel subjectively much smarter. They can…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quoting Andreas Påhlsson-Notini",
-      "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
-      "date": "2026-04-21T16:39:33Z",
-      "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human…",
-      "source": "simonwillison.net"
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
