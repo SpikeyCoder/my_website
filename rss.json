@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-22T16:32:03.579472Z",
+  "generated_at": "2026-04-22T17:27:50.095283Z",
   "items": [
+    {
+      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+      "date": "2026-04-22T16:45:23Z",
+      "summary": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Ben Thompson on Tim Cook’s Legacy",
+      "link": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+      "date": "2026-04-22T16:42:26Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/22/uber-for-nurses/",
@@ -42,13 +56,6 @@
       "date": "2026-04-22T03:03:18Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
-      "date": "2026-04-22T02:07:34Z",
-      "summary": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Luddites and AI datacenters",
@@ -105,13 +112,6 @@
       "date": "2026-04-21T10:00:00Z",
       "summary": "A knowledge base of project conventions, exposed as a CLI.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "★ Another Day Has Come",
-      "link": "https://daringfireball.net/2026/04/another_day_has_come",
-      "date": "2026-04-21T04:24:17Z",
-      "summary": "If you agree that Apple itself was It’s hard to imagine a more orderly, confidence-inspiring, exciting-but-not-at-all-surprising, this-feels-right way to do this.",
-      "source": "daringfireball.net"
     },
     {
       "title": "Pluralistic: Comrade Trump (20 Apr 2026)",
