@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-22T11:30:52.833111Z",
+  "generated_at": "2026-04-22T12:34:06.842377Z",
   "items": [
+    {
+      "title": "How to Come Up With Great Ideas",
+      "link": "https://idiallo.com/blog/how-to-come-up-with-great-ideas?src=feed",
+      "date": "2026-04-22T12:00:00Z",
+      "summary": "There's a story about an art teacher who divides a class into two groups. The first group is given one task. Design a single, perfect pot. The second group has a different instruction entirely. Make…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "[RSS Club] How do you preserve an RSS feed?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/",
+      "date": "2026-04-22T11:34:46Z",
+      "summary": "Psssst! This top secret post is only available to RSS subscribers! I was sent this thought-provoking blog post called \"The Necessary Pain Involved in Blogging (if you want your work to be preserved…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Quoting Bobby Holley",
       "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
@@ -142,13 +156,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Reprojecting Dual Fisheye Videos to Equirectangular (LG 360)",
-      "link": "https://shkspr.mobi/blog/2026/04/reprojecting-dual-fisheye-videos-to-equirectangular-lg-360/",
-      "date": "2026-04-19T11:34:32Z",
-      "summary": "I still use my obsolete LG 360 Camera. When copying MP4 videos from its SD card, they come out in \"Dual Fisheye\" format - which looks like this: VLC and YouTube will only play \"Equirectangular\"…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
       "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
       "date": "2026-04-18T18:26:50.314000Z",
@@ -266,13 +273,6 @@
       "date": "2026-04-14T21:47:59Z",
       "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Back button hijacking is going away",
-      "link": "https://idiallo.com/blog/back-button-hijacking-is-going-away-seo?src=feed",
-      "date": "2026-04-14T12:00:00Z",
-      "summary": "When websites are blatantly hostile, users close them to never come back. Have you ever downloaded an app, realized it was deceptive, and deleted it immediately? It's a common occurrence for me. But…",
-      "source": "idiallo.com"
     },
     {
       "title": "Sometimes powerful people just do dumb shit",
