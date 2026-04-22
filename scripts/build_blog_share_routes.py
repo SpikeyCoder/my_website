@@ -375,7 +375,7 @@ def build_page(
                 </button>
                 <div class=\"share-menu\" data-share-menu role=\"menu\" aria-label=\"Share Post\" hidden>
                   <div class=\"share-menu-header\">
-                    <h5 class=\"share-menu-title\">Share Post</h5>
+                    <h2 class=\"share-menu-title\">Share Post</h2>
                     <button class=\"share-close\" type=\"button\" data-share-close aria-label=\"Close share menu\">×</button>
                   </div>
                   <div class=\"share-menu-items\">
