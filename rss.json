@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-22T05:05:35.393224Z",
+  "generated_at": "2026-04-22T06:49:46.114573Z",
   "items": [
+    {
+      "title": "Quoting Bobby Holley",
+      "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
+      "date": "2026-04-22T05:40:56Z",
+      "summary": "As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for 271…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Changes to GitHub Copilot Individual plans",
       "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
@@ -23,18 +30,18 @@
       "source": "simonwillison.net"
     },
     {
+      "title": "Luddites and AI datacenters",
+      "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
+      "date": "2026-04-22T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
       "title": "Trump on Tim Apple",
       "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
       "date": "2026-04-21T20:49:16Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-      "date": "2026-04-21T20:32:24Z",
-      "summary": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to…",
-      "source": "simonwillison.net"
     },
     {
       "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
@@ -273,13 +280,6 @@
       "date": "2026-04-13T06:01:21Z",
       "summary": "This newsletter is free to read, and it’ll stay that way. But if you want more - extra posts each month, no sponsored CTAs, access to the community, and a direct line to ask me things - paid…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Reading List 04/11/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04112026",
-      "date": "2026-04-11T12:02:56Z",
-      "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
