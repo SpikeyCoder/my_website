@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-23T13:40:43.955042Z",
+  "generated_at": "2026-04-23T14:54:39.553871Z",
   "items": [
+    {
+      "title": "Quoting Maggie Appleton",
+      "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
+      "date": "2026-04-23T13:35:37Z",
+      "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/23/poison-pill/",
@@ -97,13 +104,6 @@
       "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
       "date": "2026-04-22T05:40:56Z",
       "summary": "As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for 271…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Changes to GitHub Copilot Individual plans",
-      "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
-      "date": "2026-04-22T03:30:02Z",
-      "summary": "Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't ), here's the latest on GitHub Copilot…",
       "source": "simonwillison.net"
     },
     {
