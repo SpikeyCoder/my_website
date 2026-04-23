@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-23T21:22:57.068073Z",
+  "generated_at": "2026-04-23T22:21:41.798973Z",
   "items": [
+    {
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+      "date": "2026-04-23T21:54:24Z",
+      "summary": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser,…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
       "link": "https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/",
@@ -84,13 +91,6 @@
       "date": "2026-04-23T03:10:02Z",
       "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-      "date": "2026-04-22T16:45:23Z",
-      "summary": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)",
