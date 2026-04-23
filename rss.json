@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T22:21:41.798973Z",
+  "generated_at": "2026-04-23T23:23:58.155759Z",
   "items": [
     {
       "title": "Extract PDF text in your browser with LiteParse for the web",
@@ -91,6 +91,13 @@
       "date": "2026-04-23T03:10:02Z",
       "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Equity for Europeans",
+      "link": "https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/",
+      "date": "2026-04-23T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)",
@@ -273,13 +280,6 @@
       "date": "2026-04-15T10:00:00Z",
       "summary": "Like the Turing test but with more tacos.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
-      "link": "https://mitchellh.com/writing/simdutf-no-libcxx",
-      "date": "2026-04-15T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
     }
   ]
 }
