@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-23T15:43:28.241140Z",
+  "generated_at": "2026-04-23T16:43:11.945295Z",
   "items": [
+    {
+      "title": "Approximation to solve an oblique triangle",
+      "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
+      "date": "2026-04-23T15:56:02Z",
+      "summary": "The previous post gave a simple and accurate approximation for the smaller angle of a right triangle. Given a right triangle with sides a, b, and c, where a is the shortest side and c is the…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Another crash caused by uninstaller code injection into Explorer",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260423-00/?p=112261",
+      "date": "2026-04-23T14:00:00Z",
+      "summary": "Inadvertently destroying a staircase while standing on it. The post Another crash caused by uninstaller code injection into Explorer appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Quoting Maggie Appleton",
       "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
@@ -154,20 +168,6 @@
       "date": "2026-04-21T10:00:00Z",
       "summary": "A knowledge base of project conventions, exposed as a CLI.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "How did code handle 24-bit-per-pixel formats when using video cards with bank-switched memory?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260420-00/?p=112245",
-      "date": "2026-04-20T14:00:00Z",
-      "summary": "You still have to use aligned accesses, even though the pixels might not be aligned. The post How did code handle 24-bit-per-pixel formats when using video cards with bank-switched memory? appeared…",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "More on Newton’s diameter theorem",
-      "link": "https://www.johndcook.com/blog/2026/04/20/newton-diameter-quintic/",
-      "date": "2026-04-20T13:50:33Z",
-      "summary": "A few days ago I wrote a post on Newton’s diameter theorem. The theorem says to plot the curve formed by the solutions to f(x, y) = 0 where f is a polynomial in x and y of degree n. Next plot several…",
-      "source": "johndcook.com"
     },
     {
       "title": "Advice from a millionaire",
