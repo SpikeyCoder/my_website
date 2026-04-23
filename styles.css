@@ -20,7 +20,7 @@
   --panel: #0f1720;
   --panel-2: #111b26;
   --ink: #d6deeb;
-  --muted: #6b7785;
+  --muted: #8a94a3;
   --accent: #7ee787;
   --accent-2: #58a6ff;
   --warn: #f0b429;
@@ -1526,8 +1526,44 @@ a.project-card:focus-visible {
   color: var(--ink);
   font-size: 0.9rem;
   font-family: inherit;
-  padding: 0;
+  padding: 6px 10px;
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+}
+
+.nav-admin:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Accessible skip-link class (replaces fragile inline positioning) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 10000;
+  background: var(--accent-2);
+  color: #0b0f14;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  position: static;
+  width: auto;
+  height: auto;
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
 }
 
 .social-row {

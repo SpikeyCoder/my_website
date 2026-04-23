@@ -44,7 +44,7 @@
     </script>
   </head>
   <body>
-    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <div class="ambient" aria-hidden="true"></div>
   <nav class="site-nav">
       <div class="container nav-inner">
@@ -58,7 +58,7 @@
             <a href="#contact">Contact</a>
             <button type="button" class="nav-admin" id="admin-toggle" aria-label="Open admin panel">Admin</button>
           </div>
-          <div class="social-row social-row-nav" aria-label="Social links and page share">
+          <div class="social-row social-row-nav" role="region" aria-label="Social links and page share">
             <details class="social-compact">
             <summary class="social-compact-summary" aria-label="Show social links">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -121,12 +121,12 @@
     <header class="site-header">
       <div class="container hero reveal">
         <div class="hero-main">
-          <p class="eyebrow" style="color: green;">Kevin Armstrong</p>
+          <p class="eyebrow">Kevin Armstrong</p>
           <h1>
             Product leader focused on customer trust
           </h1>
-          <p class="hero-sub" style="color: green;">
-            Focus Area: <span id="focus-area">iOS + eCommerce + payment systems + AI-assisted product ops</span>
+          <p class="hero-sub">
+            Focus: <span id="focus-area">iOS, payments, and AI-assisted product ops</span>
           </p>
           <div class="hero-actions">
             <a class="btn primary" href="#career-acceleration">Accelerate Your Career</a>
@@ -348,7 +348,7 @@
                 <h3>Latest Posts</h3>
                 <span id="blog-status" class="status">Loading...</span>
               </div>
-              <div id="blog-list" class="blog-list" tabindex="0" aria-label="Latest blog posts"></div>
+              <div id="blog-list" class="blog-list" role="region" tabindex="0" aria-label="Latest blog posts"></div>
             </div>
             <div class="blog-panel" id="publish-panel">
               <div class="panel-header">
@@ -552,7 +552,7 @@
             <div class="status" id="rss-updated"></div>
             <div id="rss-status" class="status">Loading feeds...</div>
             <div class="rss-carousel">
-              <div id="rss-list" class="rss-list" tabindex="0" aria-label="RSS feed items"></div>
+              <div id="rss-list" class="rss-list" role="region" tabindex="0" aria-label="RSS feed items"></div>
             </div>
             <div class="rss-toggle-row" id="rss-toggle-row" style="display:none;">
               <button type="button" class="btn ghost" id="rss-toggle">Show more</button>
