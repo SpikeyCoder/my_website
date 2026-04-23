@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-23T16:43:11.945295Z",
+  "generated_at": "2026-04-23T17:38:06.565032Z",
   "items": [
+    {
+      "title": "Unauthorized Users in Discord Group Had Weekslong Access to Anthropic’s Supposedly-Super-Dangerous Claude Mythos Model",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users",
+      "date": "2026-04-23T17:36:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Approximation to solve an oblique triangle",
       "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
@@ -68,13 +75,6 @@
       "title": "There Are Corrections, and There Are Corrections",
       "link": "https://www.nytimes.com/2026/04/21/nyregion/mets-mamdani-curse.html?unlocked_article_code=1.c1A.iLO0.Kqdo8aBhNAY1",
       "date": "2026-04-22T18:16:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Ben Thompson on Tim Cook’s Legacy",
-      "link": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
-      "date": "2026-04-22T18:06:37Z",
       "summary": "",
       "source": "daringfireball.net"
     },
