@@ -1,17 +1,31 @@
 {
-  "generated_at": "2026-04-23T19:35:57.865308Z",
+  "generated_at": "2026-04-23T20:28:29.678388Z",
   "items": [
     {
-      "title": "Microsoft Offers Voluntary Retirement to Long-Serving Employees",
-      "link": "https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes",
-      "date": "2026-04-23T17:53:59Z",
+      "title": "Nilay Patel: ‘Beware Software Brain’",
+      "link": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "date": "2026-04-23T20:13:50Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Unauthorized Users in Discord Group Had Weekslong Access to Anthropic’s Supposedly-Super-Dangerous Claude Mythos Model",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users",
-      "date": "2026-04-23T17:36:03Z",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "date": "2026-04-23T19:59:47Z",
+      "summary": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Eight for Eight",
+      "link": "https://mastodon.social/@Cdespinosa/116439702239797827",
+      "date": "2026-04-23T19:36:15Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Microsoft Offers Voluntary Retirement to Long-Serving Employees",
+      "link": "https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes",
+      "date": "2026-04-23T17:53:59Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -58,18 +72,18 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Sneaky spam in conversational replies to blog posts",
+      "link": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
+      "date": "2026-04-23T11:34:48Z",
+      "summary": "I'm grateful that my blog posts attract lots of engaged, funny, and challenging comments. But any popular post also attracts spammers. I use Antispam Bee to automatically eradicate a couple of…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Why prediction markets are a sure sign that our civilisation is in decay",
       "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/",
       "date": "2026-04-23T03:10:02Z",
       "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "DF T-Shirts and Hoodies: Get Them While the Getting Is Good",
-      "link": "https://store.daringfireball.net/",
-      "date": "2026-04-22T19:38:55Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
@@ -100,11 +114,11 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Quoting Bobby Holley",
-      "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
-      "date": "2026-04-22T05:40:56Z",
-      "summary": "As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for 271…",
-      "source": "simonwillison.net"
+      "title": "[RSS Club] How do you preserve an RSS feed?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/",
+      "date": "2026-04-22T11:34:46Z",
+      "summary": "Psssst! This top secret post is only available to RSS subscribers! I was sent this thought-provoking blog post called \"The Necessary Pain Involved in Blogging (if you want your work to be preserved…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "Luddites and AI datacenters",
@@ -140,6 +154,13 @@
       "date": "2026-04-21T13:18:50Z",
       "summary": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Better TTS on Linux",
+      "link": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
+      "date": "2026-04-21T11:34:07Z",
+      "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "brief",
@@ -259,27 +280,6 @@
       "date": "2026-04-15T00:00:00Z",
       "summary": "",
       "source": "mitchellh.com"
-    },
-    {
-      "title": "Patch Tuesday, April 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "date": "2026-04-14T21:47:59Z",
-      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Reading List 04/11/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04112026",
-      "date": "2026-04-11T12:02:56Z",
-      "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "The Center Has a Bias",
-      "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
-      "date": "2026-04-11T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
