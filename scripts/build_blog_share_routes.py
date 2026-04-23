@@ -19,7 +19,7 @@ CANONICAL_ORIGIN = "https://kevinarmstrong.io"
 DEFAULT_OG_IMAGE_URL = f"{CANONICAL_ORIGIN}/apple-touch-icon.png"
 MAX_POSTS = 200
 GEN_MARKER = "<!-- GENERATED_BLOG_ROUTE -->"
-SCRIPT_VERSION = "20260422b"
+SCRIPT_VERSION = "20260423a"
 
 GOINGVEGAN_CLEAN_SLUGS = {
     "how-many-animals-does-going-vegan-save-per-year",
