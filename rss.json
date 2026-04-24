@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-24T05:10:01.710035Z",
+  "generated_at": "2026-04-24T06:51:47.543156Z",
   "items": [
+    {
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+      "date": "2026-04-24T06:01:04Z",
+      "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Millisecond Converter",
+      "link": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+      "date": "2026-04-24T04:23:11Z",
+      "summary": "Tool: Millisecond Converter LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes. Tags: tools",
+      "source": "simonwillison.net"
+    },
     {
       "title": "It's a big one",
       "link": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
@@ -21,20 +35,6 @@
       "date": "2026-04-24T02:39:55Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "russellromney/honker",
-      "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
-      "date": "2026-04-24T01:50:07Z",
-      "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "An update on recent Claude Code quality reports",
-      "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
-      "date": "2026-04-24T01:31:25Z",
-      "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
@@ -86,6 +86,13 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Sneaky spam in conversational replies to blog posts",
+      "link": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
+      "date": "2026-04-23T11:34:48Z",
+      "summary": "I'm grateful that my blog posts attract lots of engaged, funny, and challenging comments. But any popular post also attracts spammers. I use Antispam Bee to automatically eradicate a couple of…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Why prediction markets are a sure sign that our civilisation is in decay",
       "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/",
       "date": "2026-04-23T03:10:02Z",
@@ -121,7 +128,14 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Luddites and AI datacenters",
+      "title": "[RSS Club] How do you preserve an RSS feed?",
+      "link": "https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/",
+      "date": "2026-04-22T11:34:46Z",
+      "summary": "Psssst! This top secret post is only available to RSS subscribers! I was sent this thought-provoking blog post called \"The Necessary Pain Involved in Blogging (if you want your work to be preserved…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "Luddites and burning down AI datacenters",
       "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
       "date": "2026-04-22T00:00:00Z",
       "summary": "",
@@ -154,6 +168,13 @@
       "date": "2026-04-21T13:18:50Z",
       "summary": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Better TTS on Linux",
+      "link": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
+      "date": "2026-04-21T11:34:07Z",
+      "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "brief",
@@ -259,27 +280,6 @@
       "date": "2026-04-15T10:00:00Z",
       "summary": "Like the Turing test but with more tacos.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
-      "link": "https://mitchellh.com/writing/simdutf-no-libcxx",
-      "date": "2026-04-15T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
-    },
-    {
-      "title": "Patch Tuesday, April 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "date": "2026-04-14T21:47:59Z",
-      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Reading List 04/11/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04112026",
-      "date": "2026-04-11T12:02:56Z",
-      "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
