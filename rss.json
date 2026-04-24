@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T09:42:11.635969Z",
+  "generated_at": "2026-04-24T10:39:43.330700Z",
   "items": [
     {
       "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
@@ -226,6 +226,13 @@
       "source": "idiallo.com"
     },
     {
+      "title": "Many anti-AI arguments are conservative arguments",
+      "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
+      "date": "2026-04-18T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
       "title": "5x5 Pixel font for tiny screens",
       "link": "https://maurycyz.com/projects/mcufont/",
       "date": "2026-04-18T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-04-15T14:49:00Z",
       "summary": "Using the repair-friendly Framework 13 laptop chassis, I've tested the low-end x86 option (a Ryzen AI 5 340 Mainboard ), the fastest RISC-V option ( DC-ROMA II ), and today I'm publishing results…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The Tuesday Test",
-      "link": "https://nesbitt.io/2026/04/15/the-tuesday-test.html",
-      "date": "2026-04-15T10:00:00Z",
-      "summary": "Like the Turing test but with more tacos.",
-      "source": "nesbitt.io"
     }
   ]
 }
