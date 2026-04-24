@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-24T03:16:08.614572Z",
+  "generated_at": "2026-04-24T05:10:01.710035Z",
   "items": [
+    {
+      "title": "It's a big one",
+      "link": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
+      "date": "2026-04-24T04:09:54Z",
+      "summary": "This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
       "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
@@ -27,13 +34,6 @@
       "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
       "date": "2026-04-24T01:31:25Z",
       "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Serving the For You feed",
-      "link": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
-      "date": "2026-04-24T01:08:17Z",
-      "summary": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom…",
       "source": "simonwillison.net"
     },
     {
@@ -86,13 +86,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Sneaky spam in conversational replies to blog posts",
-      "link": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "date": "2026-04-23T11:34:48Z",
-      "summary": "I'm grateful that my blog posts attract lots of engaged, funny, and challenging comments. But any popular post also attracts spammers. I use Antispam Bee to automatically eradicate a couple of…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Why prediction markets are a sure sign that our civilisation is in decay",
       "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/",
       "date": "2026-04-23T03:10:02Z",
@@ -128,13 +121,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "[RSS Club] How do you preserve an RSS feed?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/",
-      "date": "2026-04-22T11:34:46Z",
-      "summary": "Psssst! This top secret post is only available to RSS subscribers! I was sent this thought-provoking blog post called \"The Necessary Pain Involved in Blogging (if you want your work to be preserved…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Luddites and AI datacenters",
       "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
       "date": "2026-04-22T00:00:00Z",
@@ -168,13 +154,6 @@
       "date": "2026-04-21T13:18:50Z",
       "summary": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Better TTS on Linux",
-      "link": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
-      "date": "2026-04-21T11:34:07Z",
-      "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "brief",
@@ -280,6 +259,27 @@
       "date": "2026-04-15T10:00:00Z",
       "summary": "Like the Turing test but with more tacos.",
       "source": "nesbitt.io"
+    },
+    {
+      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
+      "link": "https://mitchellh.com/writing/simdutf-no-libcxx",
+      "date": "2026-04-15T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
+    },
+    {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "date": "2026-04-14T21:47:59Z",
+      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Reading List 04/11/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-04112026",
+      "date": "2026-04-11T12:02:56Z",
+      "summary": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
+      "source": "construction-physics.com"
     }
   ]
 }
