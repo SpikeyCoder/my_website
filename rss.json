@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T06:51:47.543156Z",
+  "generated_at": "2026-04-24T07:44:03.253428Z",
   "items": [
     {
       "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
@@ -35,6 +35,13 @@
       "date": "2026-04-24T02:39:55Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Software engineering may no longer be a lifetime career",
+      "link": "https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "date": "2026-04-24T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
@@ -217,13 +224,6 @@
       "date": "2026-04-18T03:00:00Z",
       "summary": "Politics is any discussion where the truth doesn't steer the course of action. Most of us like to think we are above it. We believe that in our daily jobs, we are rational actors exchanging facts. We…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Many anti-AI arguments are conservative arguments",
-      "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
-      "date": "2026-04-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     },
     {
       "title": "5x5 Pixel font for tiny screens",
