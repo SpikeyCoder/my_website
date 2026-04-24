@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-24T11:32:11.447163Z",
+  "generated_at": "2026-04-24T12:33:49.134642Z",
   "items": [
+    {
+      "title": "Does Mythos mean you need to shut down your Open Source repositories?",
+      "link": "https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/",
+      "date": "2026-04-24T11:34:30Z",
+      "summary": "Much Sturm und Drang in the world of Open Source with the announcement that the \"Mythos\" AI is now the ultimate hacker and is poised to unleash havoc on every code base. So should you close all your…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
       "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
@@ -175,13 +182,6 @@
       "date": "2026-04-21T13:18:50Z",
       "summary": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Better TTS on Linux",
-      "link": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
-      "date": "2026-04-21T11:34:07Z",
-      "summary": "The venerable eSpeak is a mainstay of Linux distributions. It is a clever Text-To-Speech (TTS) program which will read aloud the written word using a phenomenally wide variety of languages and…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "brief",
