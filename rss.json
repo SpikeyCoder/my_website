@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-24T01:43:28.292923Z",
+  "generated_at": "2026-04-24T03:16:08.614572Z",
   "items": [
+    {
+      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+      "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
+      "date": "2026-04-24T03:13:51.117000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
+      "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
+      "date": "2026-04-24T02:39:55Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "russellromney/honker",
+      "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+      "date": "2026-04-24T01:50:07Z",
+      "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid.…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "An update on recent Claude Code quality reports",
       "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
@@ -9,24 +30,10 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
-      "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
-      "date": "2026-04-24T01:28:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Serving the For You feed",
       "link": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
       "date": "2026-04-24T01:08:17Z",
       "summary": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Extract PDF text in your browser with LiteParse for the web",
-      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
-      "date": "2026-04-23T21:54:24Z",
-      "summary": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser,…",
       "source": "simonwillison.net"
     },
     {
@@ -196,13 +203,6 @@
       "date": "2026-04-20T00:00:00Z",
       "summary": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have…",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
-      "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
-      "date": "2026-04-18T18:26:50.314000Z",
-      "summary": "",
-      "source": "righto.com"
     },
     {
       "title": "Reading List 04/18/2026",
