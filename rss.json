@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-04-24T00:59:26.060030Z",
+  "generated_at": "2026-04-24T01:43:28.292923Z",
   "items": [
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+      "date": "2026-04-24T01:31:25Z",
+      "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
+      "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
+      "date": "2026-04-24T01:28:12Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Serving the For You feed",
+      "link": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+      "date": "2026-04-24T01:08:17Z",
+      "summary": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Extract PDF text in your browser with LiteParse for the web",
       "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
@@ -23,20 +44,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
-      "date": "2026-04-23T19:59:47Z",
-      "summary": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Eight for Eight",
-      "link": "https://mastodon.social/@Cdespinosa/116439702239797827",
-      "date": "2026-04-23T19:36:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Approximation to solve an oblique triangle",
       "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
       "date": "2026-04-23T15:56:02Z",
@@ -49,13 +56,6 @@
       "date": "2026-04-23T14:00:00Z",
       "summary": "Inadvertently destroying a staircase while standing on it. The post Another crash caused by uninstaller code injection into Explorer appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Quoting Maggie Appleton",
-      "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-      "date": "2026-04-23T13:35:37Z",
-      "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
