@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-24T14:41:15.147832Z",
+  "generated_at": "2026-04-24T15:33:24.323206Z",
   "items": [
     {
       "title": "New Zealand Passed a Generational Smoking Ban in 2022, But Repealed It Before It Went Into Effect",
       "link": "https://www.theguardian.com/world/2023/nov/27/new-zealand-scraps-world-first-smoking-generation-ban-to-fund-tax-cuts",
-      "date": "2026-04-24T14:38:41Z",
+      "date": "2026-04-24T15:02:49Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,6 +28,13 @@
       "date": "2026-04-24T14:00:00Z",
       "summary": "For years, the best way to get 10 gigabit networking on laptops was to buy an expensive, large, and hot 10 GbE Thunderbolt adapter. With new RTL8159-based 10G USB 3.2 adapters coming onto the market,…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Defending against exceptions in a scope_exit RAII type",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260424-00/?p=112266",
+      "date": "2026-04-24T14:00:00Z",
+      "summary": "But maybe it's not worth it. The post Defending against exceptions in a <CODE>scope_exit</CODE> RAII type appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: A free, open visual identity for enshittification (24 Apr 2026)",
@@ -182,13 +189,6 @@
       "date": "2026-04-21T14:53:59Z",
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Sure, xor’ing a register with itself is the idiom for zeroing it out, but why not sub?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247",
-      "date": "2026-04-21T14:00:00Z",
-      "summary": "Somehow xor became the most popular version. The post Sure, xor’ing a register with itself is the idiom for zeroing it out, but why not sub? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "brief",
