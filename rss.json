@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-25T13:34:56.185247Z",
+  "generated_at": "2026-04-25T14:22:58.988900Z",
   "items": [
+    {
+      "title": "Reading List 04/25/26",
+      "link": "https://www.construction-physics.com/p/reading-list-042526",
+      "date": "2026-04-25T14:16:17Z",
+      "summary": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "nth derivative of a quotient",
       "link": "https://www.johndcook.com/blog/2026/04/25/nth-derivative-of-a-quotient/",
@@ -273,13 +280,6 @@
       "date": "2026-04-16T10:00:00Z",
       "summary": "What happens when users design their own package registry frontend",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "I truly hate mostpeopleslop",
-      "link": "https://www.joanwestenberg.com/i-truly-hate-mostpeopleslop/",
-      "date": "2026-04-16T04:50:26Z",
-      "summary": "In 2006, Joe Sugarman published a book called The Adweek Copywriting Handbook - and an axiom stuck... \"The sole purpose of the first sentence in an advertisement is to get you to read the second…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
