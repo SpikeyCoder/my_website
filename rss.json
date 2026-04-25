@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-25T12:24:36.975782Z",
+  "generated_at": "2026-04-25T13:34:56.185247Z",
   "items": [
+    {
+      "title": "nth derivative of a quotient",
+      "link": "https://www.johndcook.com/blog/2026/04/25/nth-derivative-of-a-quotient/",
+      "date": "2026-04-25T13:12:39Z",
+      "summary": "There’s a nice formula for the nth derivative of a product. It looks a lot like the binomial theorem. There is also a formula for the nth derivative of a quotient, but it’s more complicated and less…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Quoting Romain Huet",
       "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
@@ -133,13 +140,6 @@
       "date": "2026-04-23T12:25:06Z",
       "summary": "Today's links The (other) problem with automatic conversion of free software to proprietary software: You can't add ANY license to a public domain work. Hey look at this: Delights to delectate.…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Simple approximation for solving a right triangle",
-      "link": "https://www.johndcook.com/blog/2026/04/23/solve-a-right-triangle/",
-      "date": "2026-04-23T12:13:35Z",
-      "summary": "Suppose you have a right triangle with sides a, b, and c, where a is the shortest side and c is the hypotenuse. Then the following approximation from [1] for the angle A opposite side a seems too…",
-      "source": "johndcook.com"
     },
     {
       "title": "Construction Costs Rarely Fall",
