@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-25T03:13:07.204085Z",
+  "generated_at": "2026-04-25T04:56:41.233851Z",
   "items": [
+    {
+      "title": "GPT-5.5 prompting guide",
+      "link": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+      "date": "2026-04-25T04:13:36Z",
+      "summary": "GPT-5.5 prompting guide Now that GPT-5.5 is available in the API , OpenAI have released a wealth of useful tips on how best to prompt the new model. Here's a neat trick they recommend for…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ Time to Serve Some Delicious Claim Chowder Regarding the Cook-Ternus CEO Transition",
       "link": "https://daringfireball.net/2026/04/delicious_claim_chowder_regarding_the_cook-ternus_ceo_transition",
@@ -70,13 +77,6 @@
       "date": "2026-04-24T11:34:30Z",
       "summary": "Much Sturm und Drang in the world of Open Source with the announcement that the \"Mythos\" AI is now the ultimate hacker and is poised to unleash havoc on every code base. So should you close all your…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
-      "date": "2026-04-24T06:01:04Z",
-      "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models,…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
