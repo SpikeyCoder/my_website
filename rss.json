@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-25T16:19:53.326304Z",
+  "generated_at": "2026-04-25T17:20:06.243384Z",
   "items": [
+    {
+      "title": "WHY ARE YOU LIKE THIS",
+      "link": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
+      "date": "2026-04-25T16:44:01Z",
+      "summary": "@scottjla on Twitter in reply to my pelican riding a bicycle benchmark: I feel like we need to stack these tests now I checked to confirm that the model (ChatGPT Images 2.0) added the \"WHY ARE YOU…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Closed-form solution to the nonlinear pendulum equation",
+      "link": "https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/",
+      "date": "2026-04-25T16:16:12Z",
+      "summary": "The previous post looks at the nonlinear pendulum equation and what difference it makes to the solutions if you linearize the equation. If the initial displacement is small enough, you can simply…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Reading List 04/25/26",
       "link": "https://www.construction-physics.com/p/reading-list-042526",
@@ -65,13 +79,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "llm 0.31",
-      "link": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
-      "date": "2026-04-24T23:35:07Z",
-      "summary": "Release: llm 0.31 New GPT-5.5 OpenAI model: llm -m gpt-5.5 . #1418 New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low . Values are low , medium , high . New option…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "★ Norwegian Boating Licenses and Generational Law",
       "link": "https://daringfireball.net/2026/04/norwegian_boating_licenses_and_generational_law",
       "date": "2026-04-24T18:48:01Z",
@@ -126,13 +133,6 @@
       "date": "2026-04-24T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Approximation to solve an oblique triangle",
-      "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
-      "date": "2026-04-23T15:56:02Z",
-      "summary": "The previous post gave a simple and accurate approximation for the smaller angle of a right triangle. Given a right triangle with sides a, b, and c, where a is the shortest side and c is the…",
-      "source": "johndcook.com"
     },
     {
       "title": "Another crash caused by uninstaller code injection into Explorer",
