@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-25T11:21:00.218802Z",
+  "generated_at": "2026-04-25T12:24:36.975782Z",
   "items": [
+    {
+      "title": "Quoting Romain Huet",
+      "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
+      "date": "2026-04-25T12:06:55Z",
+      "summary": "Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore. GPT-5.5 takes this further, with strong gains in agentic coding, computer use,…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
+      "link": "https://shkspr.mobi/blog/2026/04/you-can-parse-an-env-file-as-an-ini-with-php-but-theres-a-catch/",
+      "date": "2026-04-25T11:34:15Z",
+      "summary": "The humble .env file is a useful and low-tech way of storing persistent environment variables. Drop the file on your server and let your PHP scripts consume it with glee. But consume it how? There…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/25/machiavellian/",
@@ -41,13 +55,6 @@
       "link": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
       "date": "2026-04-24T23:35:07Z",
       "summary": "Release: llm 0.31 New GPT-5.5 OpenAI model: llm -m gpt-5.5 . #1418 New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low . Values are low , medium , high . New option…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "The people do not yearn for automation",
-      "link": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything",
-      "date": "2026-04-24T22:38:49Z",
-      "summary": "The people do not yearn for automation This written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket. It’s a…",
       "source": "simonwillison.net"
     },
     {
@@ -175,13 +182,6 @@
       "date": "2026-04-22T12:00:00Z",
       "summary": "There's a story about an art teacher who divides a class into two groups. The first group is given one task. Design a single, perfect pot. The second group has a different instruction entirely. Make…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "[RSS Club] How do you preserve an RSS feed?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/",
-      "date": "2026-04-22T11:34:46Z",
-      "summary": "Psssst! This top secret post is only available to RSS subscribers! I was sent this thought-provoking blog post called \"The Necessary Pain Involved in Blogging (if you want your work to be preserved…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Luddites and burning down AI datacenters",
