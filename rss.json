@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-24T23:20:41.187169Z",
+  "generated_at": "2026-04-25T00:53:52.096407Z",
   "items": [
+    {
+      "title": "How nonlinearity affects a pendulum",
+      "link": "https://www.johndcook.com/blog/2026/04/24/nonlinear-pendulum/",
+      "date": "2026-04-24T23:53:29Z",
+      "summary": "The equation of motion for a pendulum is the differential equation where g is the acceleration due to gravity and ℓ is the length of the pendulum. When this is presented in an introductory physics…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "llm 0.31",
+      "link": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
+      "date": "2026-04-24T23:35:07Z",
+      "summary": "Release: llm 0.31 New GPT-5.5 OpenAI model: llm -m gpt-5.5 . #1418 New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low . Values are low , medium , high . New option…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The people do not yearn for automation",
       "link": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything",
@@ -62,13 +76,6 @@
       "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
       "date": "2026-04-24T06:01:04Z",
       "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models,…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Millisecond Converter",
-      "link": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
-      "date": "2026-04-24T04:23:11Z",
-      "summary": "Tool: Millisecond Converter LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes. Tags: tools",
       "source": "simonwillison.net"
     },
     {
@@ -175,13 +182,6 @@
       "date": "2026-04-22T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
-      "link": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
-      "date": "2026-04-21T20:14:40Z",
-      "summary": "AI coding agents improved greatly last summer, and again last December-January. Here are my experiences since my last post on the subject. The models feel subjectively much smarter. They can…",
-      "source": "johndcook.com"
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
