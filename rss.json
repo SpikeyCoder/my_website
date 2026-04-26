@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T22:17:40.299078Z",
+  "generated_at": "2026-04-26T23:20:35.847389Z",
   "items": [
     {
       "title": "DF Paraphernalia: Last Call for This Round of T-Shirts and Hoodies",
@@ -65,13 +65,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
-      "link": "https://shkspr.mobi/blog/2026/04/you-can-parse-an-env-file-as-an-ini-with-php-but-theres-a-catch/",
-      "date": "2026-04-25T11:34:15Z",
-      "summary": "The humble .env file is a useful and low-tech way of storing persistent environment variables. Drop the file on your server and let your PHP scripts consume it with glee. But consume it how? There…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/25/machiavellian/",
       "date": "2026-04-25T11:17:58Z",
@@ -121,13 +114,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Does Mythos mean you need to shut down your Open Source repositories?",
-      "link": "https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/",
-      "date": "2026-04-24T11:34:30Z",
-      "summary": "Much Sturm und Drang in the world of Open Source with the announcement that the \"Mythos\" AI is now the ultimate hacker and is poised to unleash havoc on every code base. So should you close all your…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
       "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
       "date": "2026-04-24T03:13:51.117000Z",
@@ -161,13 +147,6 @@
       "date": "2026-04-23T12:02:35Z",
       "summary": "Not long ago we looked at construction productivity trends for the US and for countries around the world. We found that in the U.S., and in most other large, wealthy countries, construction…",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Sneaky spam in conversational replies to blog posts",
-      "link": "https://shkspr.mobi/blog/2026/04/sneaky-spam-in-conversational-replies-to-blog-posts/",
-      "date": "2026-04-23T11:34:48Z",
-      "summary": "I'm grateful that my blog posts attract lots of engaged, funny, and challenging comments. But any popular post also attracts spammers. I use Antispam Bee to automatically eradicate a couple of…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Why prediction markets are a sure sign that our civilisation is in decay",
@@ -279,6 +258,27 @@
       "link": "https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html",
       "date": "2026-04-16T10:00:00Z",
       "summary": "What happens when users design their own package registry frontend",
+      "source": "nesbitt.io"
+    },
+    {
+      "title": "I truly hate mostpeopleslop",
+      "link": "https://www.joanwestenberg.com/i-truly-hate-mostpeopleslop/",
+      "date": "2026-04-16T04:50:26Z",
+      "summary": "In 2006, Joe Sugarman published a book called The Adweek Copywriting Handbook - and an axiom stuck... \"The sole purpose of the first sentence in an advertisement is to get you to read the second…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "An Arm Mainboard for the Framework Laptop",
+      "link": "https://www.jeffgeerling.com/blog/2026/arm-mainboard-for-framework-laptop/",
+      "date": "2026-04-15T14:49:00Z",
+      "summary": "Using the repair-friendly Framework 13 laptop chassis, I've tested the low-end x86 option (a Ryzen AI 5 340 Mainboard ), the fastest RISC-V option ( DC-ROMA II ), and today I'm publishing results…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "The Tuesday Test",
+      "link": "https://nesbitt.io/2026/04/15/the-tuesday-test.html",
+      "date": "2026-04-15T10:00:00Z",
+      "summary": "Like the Turing test but with more tacos.",
       "source": "nesbitt.io"
     }
   ]
