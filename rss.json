@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-27T22:24:27.127078Z",
+  "generated_at": "2026-04-27T23:25:32.420642Z",
   "items": [
+    {
+      "title": "The Loop: everything has happened before, and everything will happen again",
+      "link": "https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/",
+      "date": "2026-04-27T22:38:38Z",
+      "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Yours Truly on The Vergecast",
       "link": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
@@ -273,13 +280,6 @@
       "date": "2026-04-17T00:00:00Z",
       "summary": "Skip the history If you have multiple computers, you'll quickly run into the problem of having data on one but needing it on the other. Because of this, people have been connecting them together…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "AI cybersecurity is not proof of work",
-      "link": "http://antirez.com/news/163",
-      "date": "2026-04-16T10:46:46Z",
-      "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of…",
-      "source": "antirez.com"
     }
   ]
 }
