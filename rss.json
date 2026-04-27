@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-27T17:36:19.546630Z",
+  "generated_at": "2026-04-27T18:38:31.609216Z",
   "items": [
+    {
+      "title": "Speech translation in Google Meet is now rolling out to mobile devices",
+      "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
+      "date": "2026-04-27T17:37:47Z",
+      "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271",
@@ -14,6 +21,13 @@
       "date": "2026-04-27T11:34:27Z",
       "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "The stages of package installation",
+      "link": "https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html",
+      "date": "2026-04-27T10:00:00Z",
+      "summary": "Denial, anger, bargaining, depression, acceptance, postinstall.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
@@ -105,13 +119,6 @@
       "date": "2026-04-25T05:00:00Z",
       "summary": "I've written about my journey to learn how to charge a fair price for building a website before. But even after landing on a strategy, there is still a question that remains unanswered. What should I…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "GPT-5.5 prompting guide",
-      "link": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
-      "date": "2026-04-25T04:13:36Z",
-      "summary": "GPT-5.5 prompting guide Now that GPT-5.5 is available in the API , OpenAI have released a wealth of useful tips on how best to prompt the new model. Here's a neat trick they recommend for…",
-      "source": "simonwillison.net"
     },
     {
       "title": "How nonlinearity affects a pendulum",
@@ -273,13 +280,6 @@
       "date": "2026-04-16T10:46:46Z",
       "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Features everyone should steal from npmx",
-      "link": "https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html",
-      "date": "2026-04-16T10:00:00Z",
-      "summary": "What happens when users design their own package registry frontend",
-      "source": "nesbitt.io"
     }
   ]
 }
