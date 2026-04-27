@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-27T16:40:48.699120Z",
+  "generated_at": "2026-04-27T17:36:19.546630Z",
   "items": [
+    {
+      "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271",
+      "date": "2026-04-27T14:00:00Z",
+      "summary": "It's bad news no matter how you slice it, but Itanium makes it even worse. The post Looking at consequences of passing too few register parameters to a C function on various architectures appeared…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Theatre Review: Hadestown ★★★★★",
       "link": "https://shkspr.mobi/blog/2026/04/theatre-review-hadestown/",
@@ -182,13 +189,6 @@
       "date": "2026-04-23T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Mapping the page tables into memory via the page tables",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260422-00/?p=112255",
-      "date": "2026-04-22T14:00:00Z",
-      "summary": "So-called \"fractal page mapping\". The post Mapping the page tables into memory via the page tables appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "How to Come Up With Great Ideas",
