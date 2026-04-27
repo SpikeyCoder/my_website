@@ -1516,6 +1516,10 @@ a.project-card:focus-visible {
 .nav-links a {
   color: var(--ink);
   font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 8px;
 }
 
 .nav-admin {
