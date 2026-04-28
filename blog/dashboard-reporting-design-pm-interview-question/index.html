@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard and reporting design: the PM interview question that trips up candidates | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Most candidates default to listing metrics. The best answers show how dashboards drive decisions, not just display data." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Dashboard and reporting design: the PM interview question that trips up candidates" />
+    <meta property="og:description" content="Most candidates default to listing metrics. The best answers show how dashboards drive decisions, not just display data." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-04-27T08:05:00+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dashboard and reporting design: the PM interview question that trips up candidates" />
+    <meta name="twitter:description" content="Most candidates default to listing metrics. The best answers show how dashboards drive decisions, not just display data." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Dashboard and reporting design: the PM interview question that trips up candidates", "description": "Most candidates default to listing metrics. The best answers show how dashboards drive decisions, not just display data.", "url": "https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/"}, "datePublished": "2026-04-27T08:05:00+00:00", "dateModified": "2026-04-27T08:05:00+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Dashboard and reporting design: the PM interview question that trips up candidates</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/" data-share-copy-url="https://kevinarmstrong.io/blog/dashboard-and-reporting-design-the-pm-interview-question-that-trips-up-candidates/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Most candidates default to listing metrics. The best answers show how dashboards drive decisions, not just display data.</p>
+            <p class="blog-article-meta" id="blog-article-meta">Apr 27, 2026 • 3 min read • pm-interviews, dashboards, reporting, analytics</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>When an interviewer asks you to design a dashboard or reporting system, they are not asking you to list KPIs. They want to see how you think about who uses the data, what decisions it supports, and how the design changes based on the audience.</p>
+            <p>This is one of the most common analytical PM interview questions, and candidates consistently underperform on it because they jump straight to metrics without establishing context.</p>
+            <h2>Start with the user, not the metric</h2>
+            <p>Before you name a single number, ask: who is looking at this dashboard? A VP of Product checking weekly trends needs a fundamentally different view than an ops manager monitoring real-time queue depth. The audience determines everything — the refresh cadence, the level of aggregation, the alert thresholds, and whether the dashboard is a wallboard, a morning email, or an interactive tool.</p>
+            <h2>The three layers of a good dashboard answer</h2>
+            <p><strong>Layer 1: Context and decisions.</strong> What business question does this dashboard answer? If someone looks at it and nothing has changed, do they close the tab? If something is wrong, what action do they take? A dashboard that does not lead to a decision is a screensaver.</p>
+            <p><strong>Layer 2: Metric hierarchy.</strong> Lead with 2-3 north-star metrics that map directly to the decisions from Layer 1. Below that, add diagnostic metrics that explain why the north stars moved. Avoid the trap of showing 15 metrics with equal visual weight — it forces the reader to figure out what matters.</p>
+            <p><strong>Layer 3: Technical feasibility.</strong> Where does the data come from? What is the latency? Are there known gaps or biases in the data pipeline? Interviewers love when candidates acknowledge that dashboards are only as good as the data behind them.</p>
+            <h2>Common mistakes</h2>
+            <p>The biggest mistake is treating the question as a metrics-listing exercise. Saying you would track DAU, WAU, retention, revenue, and NPS tells the interviewer nothing about your product sense. The second mistake is ignoring the audience — a dashboard for the CEO and a dashboard for a feature team should look completely different.</p>
+            <h2>A framework that works</h2>
+            <p>Try this structure in your answer: (1) clarify the audience and their top decision, (2) propose 2-3 primary metrics tied to that decision, (3) add 3-5 diagnostic metrics that explain movement in the primaries, (4) describe the layout and cadence, (5) note one data quality risk and how you would handle it.</p>
+            <p>This structure shows the interviewer you think about dashboards as decision-support tools, not decoration.</p>
+            <h2>References</h2>
+            <p>Marty Cagan emphasizes outcome-driven product teams where metrics serve decisions, not vanity (Cagan, Marty. <em>Empowered</em>. Wiley, 2020). Jeff Gothelf advocates for measuring outcomes over outputs in lean product development (Gothelf, Jeff. <em>Lean UX</em>. O Reilly, 2021). Lenny Rachitsky regularly covers dashboard design principles in his newsletter for product managers (Rachitsky, Lenny. <em>Lennys Newsletter</em>. Substack, 2024).</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
