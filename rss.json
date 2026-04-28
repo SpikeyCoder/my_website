@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-28T17:39:30.030566Z",
+  "generated_at": "2026-04-28T18:42:34.067446Z",
   "items": [
+    {
+      "title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260428-00/?p=112278",
+      "date": "2026-04-28T14:00:00Z",
+      "summary": "A pot of tokens. The post Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Quoting Matthew Yglesias",
       "link": "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything",
@@ -189,13 +196,6 @@
       "date": "2026-04-24T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Another crash caused by uninstaller code injection into Explorer",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260423-00/?p=112261",
-      "date": "2026-04-23T14:00:00Z",
-      "summary": "Inadvertently destroying a staircase while standing on it. The post Another crash caused by uninstaller code injection into Explorer appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Construction Costs Rarely Fall",
