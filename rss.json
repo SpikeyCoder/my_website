@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-28T09:56:52.136543Z",
+  "generated_at": "2026-04-28T10:48:19.930993Z",
   "items": [
+    {
+      "title": "GitHub Actions is the weakest link",
+      "link": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
+      "date": "2026-04-28T10:00:00Z",
+      "summary": "Anne Robinson would like a word with .github/workflows",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/27/mouseketeers/",
@@ -273,13 +280,6 @@
       "date": "2026-04-17T03:54:10Z",
       "summary": "",
       "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Taking down my site on purpose:",
-      "link": "https://maurycyz.com/misc/v6day/",
-      "date": "2026-04-17T00:00:00Z",
-      "summary": "Skip the history If you have multiple computers, you'll quickly run into the problem of having data on one but needing it on the other. Because of this, people have been connecting them together…",
-      "source": "maurycyz.com"
     }
   ]
 }
