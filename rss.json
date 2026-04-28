@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-28T21:30:32.934839Z",
+  "generated_at": "2026-04-28T22:27:03.468851Z",
   "items": [
+    {
+      "title": "Quoting OpenAI Codex base_instructions",
+      "link": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+      "date": "2026-04-28T22:02:53Z",
+      "summary": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query. — OpenAI Codex…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Turning a trick into a technique",
+      "link": "https://www.johndcook.com/blog/2026/04/28/even-series-trick/",
+      "date": "2026-04-28T21:44:58Z",
+      "summary": "Someone said a technique is a trick that works twice. I wanted to see if I could get anything interesting by turning the trick in the previous post into a technique. The trick created a high-order…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260428-00/?p=112278",
@@ -44,13 +58,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Introducing talkie: a 13B vintage language model from 1930",
-      "link": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
-      "date": "2026-04-28T02:47:42Z",
-      "summary": "Introducing talkie: a 13B vintage language model from 1930 New project from Nick Levine , David Duvenaud , and Alec Radford (of GPT, GPT-2, Whisper fame). talkie-1930-13b-base (53.1 GB) is a \"13B…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Sponsor The Talk Show",
       "link": "https://daringfireball.net/feeds/sponsors/",
       "date": "2026-04-28T00:50:33Z",
@@ -63,6 +70,13 @@
       "date": "2026-04-28T00:48:31Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Spring 2026 Dev Contest Results!",
+      "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…",
+      "source": "ericmigi.com"
     },
     {
       "title": "Ghostty Is Leaving GitHub",
@@ -147,13 +161,6 @@
       "date": "2026-04-25T14:16:17Z",
       "summary": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "nth derivative of a quotient",
-      "link": "https://www.johndcook.com/blog/2026/04/25/nth-derivative-of-a-quotient/",
-      "date": "2026-04-25T13:12:39Z",
-      "summary": "There’s a nice formula for the nth derivative of a product. It looks a lot like the binomial theorem. There is also a formula for the nth derivative of a quotient, but it’s more complicated and less…",
-      "source": "johndcook.com"
     },
     {
       "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
@@ -273,13 +280,6 @@
       "date": "2026-04-18T12:00:53Z",
       "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Many anti-AI arguments are conservative arguments",
-      "link": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
-      "date": "2026-04-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
