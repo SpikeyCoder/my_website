@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-28T12:49:16.327891Z",
+  "generated_at": "2026-04-28T13:43:45.547278Z",
   "items": [
+    {
+      "title": "Quoting Matthew Yglesias",
+      "link": "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything",
+      "date": "2026-04-28T13:25:29Z",
+      "summary": "Five months in, I think I've decided that I don't want to vibecode — I want professionally managed software companies to use AI coding assistance to make more/better/cheaper software products that…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Circular arc approximation",
+      "link": "https://www.johndcook.com/blog/2026/04/28/circular-arc-approximation/",
+      "date": "2026-04-28T13:09:42Z",
+      "summary": "Suppose you have an arc a, a portion of a circle of radius r, and you know two things: the length c of the chord of the arc, and the length b of the chord of half the arc, illustrated below. Here θ…",
+      "source": "johndcook.com"
+    },
     {
       "title": "GitHub Actions is the weakest link",
       "link": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
@@ -42,13 +56,6 @@
       "date": "2026-04-28T00:48:31Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "microsoft/VibeVoice",
-      "link": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything",
-      "date": "2026-04-27T23:46:56Z",
-      "summary": "microsoft/VibeVoice VibeVoice is Microsoft's Whisper-style audio model for speech-to-text, MIT licensed and with speaker diarization built into the model. Microsoft released it on January 21st, 2026…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Don't use localhost:3000, use your own custom domain",
@@ -147,13 +154,6 @@
       "date": "2026-04-25T05:00:00Z",
       "summary": "I've written about my journey to learn how to charge a fair price for building a website before. But even after landing on a strategy, there is still a question that remains unanswered. What should I…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "How nonlinearity affects a pendulum",
-      "link": "https://www.johndcook.com/blog/2026/04/24/nonlinear-pendulum/",
-      "date": "2026-04-24T23:53:29Z",
-      "summary": "The equation of motion for a pendulum is the differential equation where g is the acceleration due to gravity and ℓ is the length of the pendulum. When this is presented in an introductory physics…",
-      "source": "johndcook.com"
     },
     {
       "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
