@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-04-28T05:15:39.203257Z",
+  "generated_at": "2026-04-28T07:07:36.842235Z",
   "items": [
+    {
+      "title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/27/mouseketeers/",
+      "date": "2026-04-28T05:57:01Z",
+      "summary": "Today's links Vicky Osterweil's \"The Extended Universe\": How Disney killed the movies and took over the world. Hey look at this: Delights to delectate. Object permanence: Zappa v censorship;…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+      "link": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+      "date": "2026-04-28T05:23:05Z",
+      "summary": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Introducing talkie: a 13B vintage language model from 1930",
       "link": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
@@ -49,13 +63,6 @@
       "date": "2026-04-27T18:47:54Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
-      "date": "2026-04-27T18:38:17Z",
-      "summary": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
@@ -154,13 +161,6 @@
       "date": "2026-04-24T14:00:00Z",
       "summary": "But maybe it's not worth it. The post Defending against exceptions in a <CODE>scope_exit</CODE> RAII type appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Pluralistic: A free, open visual identity for enshittification (24 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/24/poop-emoji-plus-plus/",
-      "date": "2026-04-24T12:50:06Z",
-      "summary": "Today's links A free, open visual identity for enshittification: No mere poop emoji! Hey look at this: Delights to delectate. Object permanence: RIAA v little girl; Portal turret Easter egg; Atari v…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Does Mythos mean you need to shut down your Open Source repositories?",
