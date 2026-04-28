@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T18:42:34.067446Z",
+  "generated_at": "2026-04-28T19:38:19.028984Z",
   "items": [
     {
       "title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore",
@@ -63,6 +63,13 @@
       "date": "2026-04-28T00:48:31Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Ghostty Is Leaving GitHub",
+      "link": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
     },
     {
       "title": "Don't use localhost:3000, use your own custom domain",
@@ -273,13 +280,6 @@
       "date": "2026-04-18T00:00:00Z",
       "summary": "Font data (C header) All characters fit within a 5 pixel square, and are safe to draw on a 6x6 grid. The design is based off of lcamtuf's 5x6 font-inline.h, which is itself inspired by the ZX…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-04-17T03:54:10Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
     }
   ]
 }
