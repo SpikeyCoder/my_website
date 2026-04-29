@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-29T18:41:04.201781Z",
+  "generated_at": "2026-04-29T19:38:28.290352Z",
   "items": [
+    {
+      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
+      "date": "2026-04-29T19:01:47Z",
+      "summary": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Raspberry Pi Connect may control Windows soon",
       "link": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/",
@@ -91,13 +98,6 @@
       "date": "2026-04-28T05:57:01Z",
       "summary": "Today's links Vicky Osterweil's \"The Extended Universe\": How Disney killed the movies and took over the world. Hey look at this: Delights to delectate. Object permanence: Zappa v censorship;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
-      "link": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
-      "date": "2026-04-28T05:23:05Z",
-      "summary": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Spring 2026 Dev Contest Results!",
