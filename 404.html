@@ -3,44 +3,696 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>Page Not Found | Armstrong HoldCo LLC</title>
-    <meta name="description" content="The page you requested could not be found." />
-    <script>
-      (function () {
-        var path = window.location.pathname || "/";
-        var basePath = path.indexOf("/my_website/") === 0 ? "/my_website" : "";
-        var relativePath = basePath && path.indexOf(basePath) === 0 ? path.slice(basePath.length) || "/" : path;
-        var blogMatch = relativePath.match(/^\/blog\/([^/?#]+)\/?$/i);
-        var goingVeganMatch = relativePath.match(/^\/goingvegan\/blog\/([^/?#]+)\/?$/i);
-        var match = goingVeganMatch || blogMatch;
-
-        if (match && match[1]) {
-          var rawSlug = match[1];
-          var slug = rawSlug;
-          try {
-            slug = decodeURIComponent(rawSlug);
-          } catch (_error) {
-            slug = rawSlug;
+    <title>Kevin Armstrong — Product + iOS Portfolio</title>
+    <meta
+      name="description"
+      content="Kevin Armstrong — Shipping iOS apps and payment systems that make money. Interactive portfolio, live blog, and RSS radar."
+    />
+    <meta property="og:title" content="Kevin Armstrong — Product + iOS Portfolio" />
+    <meta property="og:description" content="Interactive portfolio, live blog, and RSS radar." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kevinarmstrong.io/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kevin Armstrong — Product + iOS Portfolio" />
+    <meta name="twitter:description" content="Interactive portfolio, live blog, and RSS radar." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="canonical" href="https://kevinarmstrong.io/" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" />
+    <link rel="stylesheet" href="styles.css?v=20260423a" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Armstrong HoldCo LLC",
+            "url": "https://kevinarmstrong.io/"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Kevin Armstrong",
+            "url": "https://kevinarmstrong.io/"
           }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+  <nav class="site-nav" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#rss">RSS</a>
+            <a href="#contact">Contact</a>
+            <button type="button" class="nav-admin" id="admin-toggle" aria-label="Open admin panel">Admin</button>
+          </div>
+          <div class="social-row social-row-nav" role="region" aria-label="Social links and page share">
+            <details class="social-compact">
+            <summary class="social-compact-summary" aria-label="Show social links">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="5" cy="12" r="1.9" fill="currentColor"></circle>
+                <circle cx="12" cy="12" r="1.9" fill="currentColor"></circle>
+                <circle cx="19" cy="12" r="1.9" fill="currentColor"></circle>
+              </svg>
+            </summary>
+            <div class="social-compact-links">
+            <a class="social-icon-btn" href="https://www.linkedin.com/company/112033735" data-social-profile="linkedin" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path>
+              </svg>
+            </a>
+            <a class="social-icon-btn" href="https://github.com/SpikeyCoder" data-social-profile="github" target="_blank" rel="noreferrer" aria-label="Open GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.1.82-.26.82-.58v-2.23c-3.34.73-4.04-1.41-4.04-1.41-.55-1.38-1.33-1.75-1.33-1.75-1.08-.73.08-.72.08-.72 1.2.08 1.82 1.22 1.82 1.22 1.06 1.83 2.79 1.3 3.47.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.94 0-1.31.47-2.38 1.23-3.22-.13-.3-.54-1.52.12-3.16 0 0 1-.32 3.3 1.23a11.2 11.2 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.64.25 2.86.12 3.16.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .33.22.69.83.57A12 12 0 0 0 12 .5z" fill="currentColor"></path>
+              </svg>
+            </a>
+            <button class="social-share-btn" type="button" data-page-share aria-label="Copy page URL">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path>
+              </svg>
+              <span class="social-share-label">Share</span>
+            </button>
+            </div>
+            </details>
+            <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="admin-panel" id="admin-panel" hidden style="display:none;">
+      <div class="admin-card">
+        <div class="admin-header">
+          <h3>Admin Portal</h3>
+          <button class="btn ghost" id="admin-close" type="button">Close</button>
+        </div>
+        <form id="auth-form" class="auth-form">
+          <label>
+            Admin email
+            <input type="email" id="auth-email" required placeholder="you@email.com" />
+          </label>
+          <label>
+            Password
+            <input type="password" id="auth-password" required placeholder="••••••••" />
+          </label>
+          <button class="btn ghost" type="submit">Sign in</button>
+          <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
+          <p class="helper" id="auth-status">Not signed in</p>
+        </form>
+      </div>
+    </div>
 
-          var targetBase = goingVeganMatch ? "/goingvegan/blog/" : "/blog/";
-          var target = basePath + targetBase + "?slug=" + encodeURIComponent(slug) + "&from=path";
-          window.location.replace(target);
+    <header class="site-header">
+      <div class="container hero reveal">
+        <div class="hero-main">
+          <p class="eyebrow">Kevin Armstrong</p>
+          <h1>
+            Product leader focused on customer trust
+          </h1>
+          <p class="hero-sub">
+            Focus: <span id="focus-area">iOS, payments, and AI-assisted product ops</span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#career-acceleration">Accelerate Your Career</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="stat">
+            <span class="stat-label">Now</span>
+            <span class="stat-value" id="now-status">Founder, Armstrong HoldCo LLC</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Highlights</span>
+            <span class="stat-value">$13.2MM annual GMS <span class="metric-context">(5x baseline)</span></span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Scope</span>
+            <span class="stat-value">2MM+ customers <span class="metric-context">(2024-2026 tenure)</span></span>
+          </div>
+          <p class="card-note">
+            MBA (Chicago Booth). Built iOS + eCommerce + payment systems across SpaceX, Amazon, Walgreens, and Capital One.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="about" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p style="color: green;">
+              A living profile that blends iOS craftsmanship in the flywheel of analytics, product strategy, and growth.
+            </p>
+          </div>
+          <div class="about-grid">
+            <div class="about-panel">
+              <div class="pill-row" id="about-tabs">
+                <button type="button" class="pill active" data-about="origin">Origin</button>
+                <button type="button" class="pill" data-about="craft">Craft</button>
+                <button type="button" class="pill" data-about="impact">Impact</button>
+                <button type="button" class="pill" data-about="now">Now</button>
+              </div>
+              <div class="about-card" id="about-card">
+                <h3 id="about-title">Origin</h3>
+                <p id="about-body">
+                  Electrical engineer turned iOS developer and product leader. I like building systems that are delightful
+                  for customers and scalable for teams.
+                </p>
+              </div>
+            </div>
+            <div class="about-panel">
+              <h3>Interactive Resume Snapshot</h3>
+              <div class="timeline" id="timeline">
+                <button type="button" class="timeline-item active" data-timeline="0">
+                  <span class="year">2026-Present</span>
+                  <span class="title">Armstrong HoldCo LLC</span>
+                </button>
+                <button type="button" class="timeline-item" data-timeline="1">
+                  <span class="year">2026–2026</span>
+                  <span class="title">SpaceX Starlink</span>
+                </button>
+                <button type="button" class="timeline-item" data-timeline="2">
+                  <span class="year">2021–2026</span>
+                  <span class="title">Amazon Prime Payments</span>
+                </button>
+                <button type="button" class="timeline-item" data-timeline="3">
+                  <span class="year">2018–2021</span>
+                  <span class="title">Walgreens Product + iOS</span>
+                </button>
+                <button type="button" class="timeline-item" data-timeline="4">
+                  <span class="year">2013–2018</span>
+                  <span class="title">Capital One iOS + Product</span>
+                </button>
+              </div>
+              <div class="timeline-detail" id="timeline-detail">
+                focused on career development services and empowering non-profits to go farther with AI.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>Interactive Portfolio</h2>
+            <p style="color: green;">
+              Two tracks: Armstrong HoldCo products (Products) and corporate outcomes (Work). Same craft, different context.
+            </p>
+          </div>
+          <div class="pill-row" id="portfolio-tabs" role="tablist" aria-label="Portfolio view">
+            <button class="pill active" role="tab" aria-selected="true" data-view="projects" type="button">Products</button>
+            <button class="pill" role="tab" aria-selected="false" data-view="work" type="button">Work</button>
+          </div>
+          <div class="portfolio-view" id="portfolio-projects">
+            <div class="portfolio-grid" id="projects-grid">
+            <a class="project-card" data-tags="ios" href="/goingvegan/" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>GoingVegan</h3>
+                <span class="tag">Production</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/goingvegan.png" alt="GoingVegan landing page screenshot" loading="lazy">
+              <p>
+                SwiftUI iOS app for discovering vegan recipes and finding vegan-friendly restaurants with map-based search and sign-in.
+              </p>
+            </a>
+
+            <a class="project-card" data-tags="ai systems" href="https://website-auditor.io" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>Website Auditor</h3>
+                <span class="tag">Production</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/website-auditor.png" alt="Website Auditor landing page screenshot" loading="lazy">
+              <p>
+                AI-powered website analysis platform that audits SEO, performance, and technical quality, then returns prioritized fixes and implementation guidance.
+              </p>
+            </a>
+
+            <a class="project-card" data-tags="ai product" href="https://fundermatch.org" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>FunderMatch</h3>
+                <span class="tag">Production</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/fundermatch.png" alt="FunderMatch landing page screenshot" loading="lazy">
+              <p>
+                Funding discovery platform that helps non-profits and mission-driven teams identify best-fit grant opportunities faster.
+              </p>
+            </a>
+
+            <a class="project-card" data-tags="ios" href="https://kevinarmstrong.io" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>My Website</h3>
+                <span class="tag">Production</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/my-website.png" alt="kevinarmstrong.io landing page screenshot" loading="lazy">
+              <p>
+                This site: interactive products, real-time blog publishing via Supabase, an RSS radar pipeline, along with a PM coaching platform.
+              </p>
+            </a>
+            </div>
+          </div>
+
+          <div class="portfolio-view" id="portfolio-work" hidden>
+            <div class="portfolio-grid" id="work-grid">
+            <a class="project-card" data-tags="product systems" href="https://www.amazon.es/amazonprime" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>Prime Payment Optimization</h3>
+                <span class="tag">Product</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/prime-payment.png" alt="Amazon Prime Spain landing page screenshot" loading="lazy">
+              <p>
+                Led payment strategy that acquired 0.5MM Prime members and $13.2MM annual GMS across two markets.
+              </p>
+            </a>
+            <a class="project-card" data-tags="product ai systems" href="https://docs.aws.amazon.com/nova/latest/userguide/rag-systems.html" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>AI-Powered Launch Workflow</h3>
+                <span class="tag">AI</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/ai-launch-workflow.png" alt="AWS Nova RAG systems documentation screenshot" loading="lazy">
+              <p>
+                Simplified payment architecture and added AI workflows to accelerate documentation and launch prep. Coordinated 10 teams and 40+ engineers to reduce time from conception to launch by 60%.
+              </p>
+            </a>
+            <a class="project-card" data-tags="ios product" href="https://www.amazon.co.uk/amazonprime" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>EU Prime Payment Switch Onboarding</h3>
+                <span class="tag">Product</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/eu-prime.png" alt="Amazon Prime UK landing page screenshot" loading="lazy">
+              <p>
+                Redesigned the Amazon app onboarding flow for EU Prime members switching payments, boosting retention.
+              </p>
+            </a>
+            <a class="project-card" data-tags="ios product" href="https://www.walgreens.com/topic/promotion/mywalgreens.jsp" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>Walgreens Wallet</h3>
+                <span class="tag">iOS</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/walgreens-wallet.png" alt="myWalgreens landing page screenshot" loading="lazy">
+              <p>
+                Engineered iOS and desktop wallet for 3MM users, delivering $13.7MM GMS. Balanced privacy, speed, and A/B tested UX improvements to lift NPS and reduce support volume.
+              </p>
+            </a>
+            <a class="project-card" data-tags="product systems" href="https://www.walgreens.com/topic/promotion/mywalgreens.jsp" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>Rx Locker Delivery</h3>
+                <span class="tag">Systems</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/rx-locker.png" alt="Walgreens Prescription Locker Pickup" loading="lazy">
+              <p>
+                Built Rx locker delivery innovation at Walgreens, creating $3.5MM GMS and reducing pickup friction. A/B tested pickup flows, optimized SMS architecture, and negotiated vendor savings.
+              </p>
+            </a>
+            <a class="project-card" data-tags="ios systems" href="https://www.capitalone.com/digital/tools/digital-payments/apple-pay/" target="_blank" rel="noreferrer">
+              <div class="project-header">
+                <h3>Apply & Buy + Wallet Features</h3>
+                <span class="tag">iOS</span>
+              </div>
+              <img class="project-screenshot" src="assets/screenshots/apply-buy.png" alt="Capital One Apple Pay page screenshot" loading="lazy">
+              <p>
+                Launched Apply & Buy for 1MM in-store retail customers and built iOS wallet features that reduced call volume.
+              </p>
+            </a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>Live Blog</h2>
+          </div>
+          <div class="blog-grid">
+            <div class="blog-panel">
+              <div class="panel-header">
+                <h3>Latest Posts</h3>
+                <span id="blog-status" class="status">Loading...</span>
+              </div>
+              <div id="blog-list" class="blog-list" role="region" tabindex="0" aria-label="Latest blog posts"></div>
+            </div>
+            <div class="blog-panel" id="publish-panel" style="display:none">
+              <div class="panel-header">
+                <h3>Publish Post</h3>
+                <span class="status" id="blog-config">Sign in via Admin to publish</span>
+              </div>
+              <form id="blog-form" class="blog-form">
+                <label for="blog-title">
+                  Title
+                </label>
+                <input id="blog-title" type="text" name="title" required placeholder="Post title" />
+                <label for="blog-summary">
+                  Summary
+                </label>
+                <input id="blog-summary" type="text" name="summary" required placeholder="Short hook" />
+                <label for="blog-content">
+                  Content
+                </label>
+                <div class="blog-editor-toolbar" id="blog-compose-toolbar">
+                    <button class="btn ghost" type="button" data-compose-action="bold" aria-label="Bold">
+                      B
+                    </button>
+                    <button class="btn ghost" type="button" data-compose-action="italic" aria-label="Italic">
+                      I
+                    </button>
+                    <button class="btn ghost" type="button" data-compose-action="underline" aria-label="Underline">
+                      U
+                    </button>
+                    <label for="blog-editor-color" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font color</label>
+                    <input
+                      id="blog-editor-color"
+                      class="blog-editor-color"
+                      type="color"
+                      data-compose-action="color"
+                      aria-label="Font color"
+                      value="#ffffff"
+                    />
+                    <label for="blog-editor-size" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font size</label>
+                    <select id="blog-editor-size" class="blog-editor-select" data-compose-action="size" aria-label="Font size">
+                      <option value="">Size</option>
+                      <option value="12px">12</option>
+                      <option value="14px">14</option>
+                      <option value="16px">16</option>
+                      <option value="18px">18</option>
+                      <option value="22px">22</option>
+                      <option value="26px">26</option>
+                    </select>
+                    <label for="blog-editor-family" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Font family</label>
+                    <select id="blog-editor-family" class="blog-editor-select" data-compose-action="family" aria-label="Font family">
+                      <option value="">Font</option>
+                      <option value="D-DIN">D-DIN</option>
+                      <option value="JetBrains Mono">JetBrains Mono</option>
+                      <option value="monospace">Monospace</option>
+                    </select>
+                  </div>
+                  <textarea id="blog-content" name="content" rows="6" required placeholder="Write the post..."></textarea>
+                <label for="blog-tags">
+                  Tags (comma-separated)
+                </label>
+                <input id="blog-tags" type="text" name="tags" placeholder="ios, product, payments" />
+                <button class="btn primary" type="submit">Publish</button>
+                <p class="helper">
+                  Posts are stored in Supabase table <span class="mono">posts</span> with
+                  <span class="mono">title</span>, <span class="mono">summary</span>,
+                  <span class="mono">content</span>, <span class="mono">tags</span>,
+                  <span class="mono">published_at</span>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="career-acceleration" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>Product Interview Coaching</h2>
+            <p style="color: green;" class="subtext">Specialized 1-on-1 coaching for junior and senior PM candidates. Whether preparing for your first PM role or transitioning to senior product leadership position, I'll help you ace your interviews and advance your career.</p>
+          </div>
+          <div class="career-grid">
+            <article class="career-video-panel">
+              <div class="panel-header">
+                <h3>Session Overview</h3>
+              </div>
+              <p class="video-description">Watch a 3-minute overview of my coaching approach</p>
+              <div class="loom-embed-wrap">
+                <button type="button"
+                  class="loom-facade"
+                  data-src="https://www.loom.com/embed/2ede187358ef46ad92cf86b38c39e7e6"
+                  aria-label="Play 3-minute coaching approach overview video"
+                >
+                  <svg class="loom-play-icon" viewBox="0 0 80 80" fill="none" aria-hidden="true" focusable="false">
+                    <circle cx="40" cy="40" r="40" fill="rgba(0,0,0,.5)"/>
+                    <path d="M54 40L30 27v26z" fill="#fff"/>
+                  </svg>
+                  <span class="loom-facade-label">Watch overview video</span>
+                </button>
+              </div>
+              <a
+                class="link career-fallback-link"
+                href="https://www.loom.com/share/2ede187358ef46ad92cf86b38c39e7e6"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Loom video
+              </a>
+            </article>
+            <article class="career-booking-panel">
+              <div class="panel-header">
+                <h3>Book Now</h3>
+              </div>
+              <div class="career-pricing">
+                <p><strong>Rate:</strong> $150/hour</p>
+                <p><strong>First 30-minute consult is free</strong></p>
+                <p>Paid Sessions: 60 minutes • Availability: 9:00 AM–9:00 PM PT</p>
+              </div>
+
+              <div id="booking-intake-form" class="booking-intake-form">
+                <label for="booking-email">Email used for booking</label>
+                <input
+                  id="booking-email"
+                  name="booking_email"
+                  type="email"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                  required
+                  placeholder="you@email.com"
+                  aria-describedby="booking-email-validation"
+                />
+                <p class="helper" id="booking-email-validation">Enter a valid email address to enable booking.</p>
+                <p class="helper" id="booking-live-debug" hidden></p>
+              </div>
+
+              <a
+                id="career-booking-link"
+                class="btn primary is-disabled"
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled="true"
+                tabindex="-1"
+              >
+                Open booking page
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>What My Clients Say</h2>
+          </div>
+          <div class="testimonials-grid">
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"Kevin was one of the first people I reached out to when I began exploring Product opportunities. He helped me reframe my experience through a PM lens, identify areas to strengthen, and build confidence in my transition. His advice on resume positioning and interview prep was practical and thoughtful. I’m grateful for his advice and would highly recommend him to anyone exploring a PM role."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Aishwarya</div>
+                <div class="testimonial-role">Product Manager, Amazon</div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"The strategy frameworks Kevin shared transformed how I approach product decisions. They helped me land my current role as lead product manager at a startup, and I find myself implementing them in my current role too."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Marcus</div>
+                <div class="testimonial-role">Product Lead, Stealth Startup</div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"Kevin was great to talk to, very helpful and down to earth. He clearly explained his own career path, sharing tips and experiences that he found helpful over his career. His advice for standing out in early roles was very valuable, providing a perspective that I did not have before. Overall, Kevin is thoughtful, clear, and very action oriented. I’d strongly recommend him to any student or early-career professional looking for guidance on product management, internships, or general career advice."</p>
+              </div>
+              <div class="testimonial-meta">
+                <div class="testimonial-author">Robert</div>
+                <div class="testimonial-role">Aerospace Engineer Student, UIUC</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="rss" class="section">
+        <div class="container reveal">
+          <div class="section-title">
+            <h2>RSS Radar</h2>
+          </div>
+          <div class="rss-radar">
+            <div class="rss-controls">
+              <label for="rss-search">Filter RSS feeds</label>
+              <input type="text" id="rss-search" placeholder="Filter by title or source" />
+              <button type="button" class="btn ghost" id="rss-refresh">Refresh</button>
+            </div>
+            <div class="status" id="rss-updated"></div>
+            <div id="rss-status" class="status">Loading feeds...</div>
+            <div class="rss-carousel">
+              <div id="rss-list" class="rss-list" role="region" tabindex="0" aria-label="RSS feed items"></div>
+            </div>
+            <div class="rss-toggle-row" id="rss-toggle-row" style="display:none;">
+              <button type="button" class="btn ghost" id="rss-toggle">Show more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container reveal contact">
+          <div>
+            <h2>Let’s Build Something Together</h2>
+            <p>
+              Looking to partner beyond career and interview prep? I also develop B2C iOS apps, payment infrastructure, and AI tooling. Especially interested in growing payment systems for small businesses.
+            </p>
+          </div>
+          <div class="contact-card">
+            <p class="mono">kevinarmstrong.io</p>
+            <p>Email: <a href="mailto:kevin@kevinarmstrong.io">kevin@kevinarmstrong.io</a></p>
+            <p>GitHub: <a href="https://github.com/SpikeyCoder" target="_blank" rel="noreferrer">SpikeyCoder</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-top">
+          <p class="footer-brand">ARMSTRONG HOLDCO LLC</p>
+          <div class="footer-links">
+            <a href="/terms-and-conditions/">Terms</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="/privacy/">Privacy</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="https://github.com/SpikeyCoder" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+            <span class="footer-separator" aria-hidden="true">|</span>
+            <a href="https://www.linkedin.com/in/kevinmarmstrong/" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+        <div class="social-row social-row-footer" aria-label="Social links and page share">
+          <a class="social-icon-btn" href="https://www.linkedin.com/company/112033735" data-social-profile="linkedin" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path>
+            </svg>
+          </a>
+          <a class="social-icon-btn" href="https://github.com/SpikeyCoder" data-social-profile="github" target="_blank" rel="noreferrer" aria-label="Open GitHub profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.1.82-.26.82-.58v-2.23c-3.34.73-4.04-1.41-4.04-1.41-.55-1.38-1.33-1.75-1.33-1.75-1.08-.73.08-.72.08-.72 1.2.08 1.82 1.22 1.82 1.22 1.06 1.83 2.79 1.3 3.47.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.94 0-1.31.47-2.38 1.23-3.22-.13-.3-.54-1.52.12-3.16 0 0 1-.32 3.3 1.23a11.2 11.2 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.64.25 2.86.12 3.16.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .33.22.69.83.57A12 12 0 0 0 12 .5z" fill="currentColor"></path>
+            </svg>
+          </a>
+          <span class="social-separator" aria-hidden="true"></span>
+          <button class="social-share-btn" type="button" data-page-share aria-label="Copy page URL">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path>
+            </svg>
+            <span class="social-share-label">Share</span>
+          </button>
+          <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+        </div>
+        </div>
+        <p class="footer-copy">© 2026 Kevin Armstrong. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script defer src="analytics.js?v=20260302a"></script>
+    <script defer src="social.js?v=20260423a"></script>
+    <script>
+      // KA-07: Add timeout for blog loading
+      (function() {
+        const blogStatus = document.getElementById('blog-status');
+        const blogList = document.getElementById('blog-list');
+        if (blogStatus && blogList) {
+          const timeoutId = setTimeout(function() {
+            if (blogStatus.textContent === 'Loading...') {
+              blogStatus.textContent = 'Blog posts unavailable right now. Please refresh to try again.';
+            }
+          }, 10000); // 10 seconds
+
+          // Watch for when posts are loaded and clear the timeout
+          const observer = new MutationObserver(function() {
+            if (blogList.children.length > 0 && blogStatus.textContent !== 'Blog posts unavailable right now. Please refresh to try again.') {
+              clearTimeout(timeoutId);
+              observer.disconnect();
+            }
+          });
+          observer.observe(blogList, { childList: true });
+
+          // Also store the timeout ID for manual clearing
+          window.__blogLoadingTimeout = timeoutId;
         }
       })();
     </script>
-    <style>
-      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0a1221; color: #d9e3f0; }
-      .card { padding: 24px; border: 1px solid #29415f; border-radius: 12px; max-width: 520px; text-align: center; background: rgba(10,18,33,0.85); }
-      a { color: #67e08a; }
-    </style>
-  </head>
-  <body>
-    <div class="card">
-      <h1>Page Not Found</h1>
-      <p>We couldn't find that URL.</p>
-      <p><a href="/">Return home</a></p>
-    </div>
+    <script type="module" src="main.js?v=20260331c"></script>
+  <!-- RSS_SEED_START -->
+<script type="application/json" id="rss-seed">[{"title": "On wintering.", "link": "https://www.joanwestenberg.com/on-wintering/", "date": "2026-04-29T01:54:43Z", "summary": "The winterer is out of the loop; they're not maintaining a position because they don't have a position to maintain. They can do work that takes longer than a quarter, longer than a year, longer than…", "source": "joanwestenberg.com"}, {"title": "Quoting OpenAI Codex base_instructions", "link": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything", "date": "2026-04-28T22:02:53Z", "summary": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query. — OpenAI Codex…", "source": "simonwillison.net"}, {"title": "Turning a trick into a technique", "link": "https://www.johndcook.com/blog/2026/04/28/even-series-trick/", "date": "2026-04-28T21:44:58Z", "summary": "Someone said a technique is a trick that works twice. I wanted to see if I could get anything interesting by turning the trick in the previous post into a technique. The trick created a high-order…", "source": "johndcook.com"}, {"title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore", "link": "https://devblogs.microsoft.com/oldnewthing/20260428-00/?p=112278", "date": "2026-04-28T14:00:00Z", "summary": "A pot of tokens. The post Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore appeared first on The Old New Thing .", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "Quoting Matthew Yglesias", "link": "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything", "date": "2026-04-28T13:25:29Z", "summary": "Five months in, I think I've decided that I don't want to vibecode — I want professionally managed software companies to use AI coding assistance to make more/better/cheaper software products that…", "source": "simonwillison.net"}, {"title": "Circular arc approximation", "link": "https://www.johndcook.com/blog/2026/04/28/circular-arc-approximation/", "date": "2026-04-28T13:09:42Z", "summary": "Suppose you have an arc a, a portion of a circle of radius r, and you know two things: the length c of the chord of the arc, and the length b of the chord of half the arc, illustrated below. Here θ…", "source": "johndcook.com"}, {"title": "GitHub Actions is the weakest link", "link": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html", "date": "2026-04-28T10:00:00Z", "summary": "Anne Robinson would like a word with .github/workflows", "source": "nesbitt.io"}, {"title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)", "link": "https://pluralistic.net/2026/04/27/mouseketeers/", "date": "2026-04-28T05:57:01Z", "summary": "Today's links Vicky Osterweil's \"The Extended Universe\": How Disney killed the movies and took over the world. Hey look at this: Delights to delectate. Object permanence: Zappa v censorship;…", "source": "pluralistic.net"}, {"title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!", "link": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything", "date": "2026-04-28T05:23:05Z", "summary": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for…", "source": "simonwillison.net"}, {"title": "Sponsor The Talk Show", "link": "https://daringfireball.net/feeds/sponsors/", "date": "2026-04-28T00:50:33Z", "summary": "", "source": "daringfireball.net"}, {"title": "Rec League", "link": "https://recleague.com/?lyr_campaign=df", "date": "2026-04-28T00:48:31Z", "summary": "", "source": "daringfireball.net"}, {"title": "Spring 2026 Dev Contest Results!", "link": "https://repebble.com/blog/spring-2026-dev-contest-results", "date": "2026-04-28T00:00:00Z", "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…", "source": "ericmigi.com"}, {"title": "Ghostty Is Leaving GitHub", "link": "https://mitchellh.com/writing/ghostty-leaving-github", "date": "2026-04-28T00:00:00Z", "summary": "", "source": "mitchellh.com"}, {"title": "Before GitHub", "link": "https://lucumr.pocoo.org/2026/4/28/before-github/", "date": "2026-04-28T00:00:00Z", "summary": "", "source": "lucumr.pocoo.org"}, {"title": "Don't use localhost:3000, use your own custom domain", "link": "https://idiallo.com/blog/say-no-to-localhost3000-use-custom-domains?src=feed", "date": "2026-04-27T23:17:54Z", "summary": "After presenting a demo of how an internal tool works, I was flooded with questions. Not about the tool, but about why I had bought a domain just to run the demo. \"Why didn't you use the staging…", "source": "idiallo.com"}, {"title": "The Loop: everything has happened before, and everything will happen again", "link": "https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/", "date": "2026-04-27T22:38:38Z", "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.", "source": "joanwestenberg.com"}, {"title": "Yours Truly on The Vergecast", "link": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition", "date": "2026-04-27T18:47:54Z", "summary": "", "source": "daringfireball.net"}, {"title": "Looking at consequences of passing too few register parameters to a C function on various architectures", "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271", "date": "2026-04-27T14:00:00Z", "summary": "It's bad news no matter how you slice it, but Itanium makes it even worse. The post Looking at consequences of passing too few register parameters to a C function on various architectures appeared…", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "Theatre Review: Hadestown ★★★★★", "link": "https://shkspr.mobi/blog/2026/04/theatre-review-hadestown/", "date": "2026-04-27T11:34:27Z", "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…", "source": "shkspr.mobi"}, {"title": "The stages of package installation", "link": "https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html", "date": "2026-04-27T10:00:00Z", "summary": "Denial, anger, bargaining, depression, acceptance, postinstall.", "source": "nesbitt.io"}, {"title": "Pluralistic: The enshittification multiverse (27 Apr 2026)", "link": "https://pluralistic.net/2026/04/27/analogs-and-analogies/", "date": "2026-04-27T08:39:48Z", "summary": "Today's links The enshittification multiverse: It's a useful analogy. Hey look at this: Delights to delectate. Object permanence: Every complex ecosystem has parasites; Prison for \"attempted…", "source": "pluralistic.net"}, {"title": "The Satisfaction of a ChatGPT Plan", "link": "https://idiallo.com/byte-size/the-satisfaction-of-a-chatgpt-plan?src=feed", "date": "2026-04-25T17:44:16Z", "summary": "#NoFollowUpNecessary A couple weeks back, I was arguing that when people come up with ideas, the satisfaction is in the telling , not in building. And I was making this statement generally for idea…", "source": "idiallo.com"}, {"title": "Closed-form solution to the nonlinear pendulum equation", "link": "https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/", "date": "2026-04-25T16:16:12Z", "summary": "The previous post looks at the nonlinear pendulum equation and what difference it makes to the solutions if you linearize the equation. If the initial displacement is small enough, you can simply…", "source": "johndcook.com"}, {"title": "Reading List 04/25/26", "link": "https://www.construction-physics.com/p/reading-list-042526", "date": "2026-04-25T14:16:17Z", "summary": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.", "source": "construction-physics.com"}, {"title": "You can parse an .env file as an .ini with PHP - but there's a catch", "link": "https://shkspr.mobi/blog/2026/04/you-can-parse-an-env-file-as-an-ini-with-php-but-theres-a-catch/", "date": "2026-04-25T11:34:15Z", "summary": "The humble .env file is a useful and low-tech way of storing persistent environment variables. Drop the file on your server and let your PHP scripts consume it with glee. But consume it how? There…", "source": "shkspr.mobi"}, {"title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)", "link": "https://pluralistic.net/2026/04/25/machiavellian/", "date": "2026-04-25T11:17:58Z", "summary": "Today's links Ada Palmer's \"Inventing the Renaissance\": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the…", "source": "pluralistic.net"}, {"title": "What Do You Charge For?", "link": "https://idiallo.com/blog/what-do-you-charge-for?src=feed", "date": "2026-04-25T05:00:00Z", "summary": "I've written about my journey to learn how to charge a fair price for building a website before. But even after landing on a strategy, there is still a question that remains unanswered. What should I…", "source": "idiallo.com"}, {"title": "New 10 GbE USB adapters are cooler, smaller, cheaper", "link": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/", "date": "2026-04-24T14:00:00Z", "summary": "For years, the best way to get 10 gigabit networking on laptops was to buy an expensive, large, and hot 10 GbE Thunderbolt adapter. With new RTL8159-based 10G USB 3.2 adapters coming onto the market,…", "source": "jeffgeerling.com"}, {"title": "Defending against exceptions in a scope_exit RAII type", "link": "https://devblogs.microsoft.com/oldnewthing/20260424-00/?p=112266", "date": "2026-04-24T14:00:00Z", "summary": "But maybe it's not worth it. The post Defending against exceptions in a <CODE>scope_exit</CODE> RAII type appeared first on The Old New Thing .", "source": "devblogs.microsoft.com/oldnewthing"}, {"title": "Does Mythos mean you need to shut down your Open Source repositories?", "link": "https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/", "date": "2026-04-24T11:34:30Z", "summary": "Much Sturm und Drang in the world of Open Source with the announcement that the \"Mythos\" AI is now the ultimate hacker and is poised to unleash havoc on every code base. So should you close all your…", "source": "shkspr.mobi"}, {"title": "The electromechanical angle computer inside the B-52 bomber's star tracker", "link": "http://www.righto.com/feeds/8382904110431912671/comments/default", "date": "2026-04-24T03:13:51.117000Z", "summary": "", "source": "righto.com"}, {"title": "Software engineering may no longer be a lifetime career", "link": "https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/", "date": "2026-04-24T00:00:00Z", "summary": "", "source": "seangoedecke.com"}, {"title": "Construction Costs Rarely Fall", "link": "https://www.construction-physics.com/p/construction-costs-rarely-fall", "date": "2026-04-23T12:02:35Z", "summary": "Not long ago we looked at construction productivity trends for the US and for countries around the world. We found that in the U.S., and in most other large, wealthy countries, construction…", "source": "construction-physics.com"}, {"title": "Why prediction markets are a sure sign that our civilisation is in decay", "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/", "date": "2026-04-23T03:10:02Z", "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…", "source": "joanwestenberg.com"}, {"title": "Equity for Europeans", "link": "https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/", "date": "2026-04-23T00:00:00Z", "summary": "", "source": "lucumr.pocoo.org"}, {"title": "Luddites and burning down AI datacenters", "link": "https://seangoedecke.com/luddites-and-ai-datacenters/", "date": "2026-04-22T00:00:00Z", "summary": "", "source": "seangoedecke.com"}, {"title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty", "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/", "date": "2026-04-21T14:53:59Z", "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…", "source": "krebsonsecurity.com"}, {"title": "brief", "link": "https://nesbitt.io/2026/04/21/brief.html", "date": "2026-04-21T10:00:00Z", "summary": "A knowledge base of project conventions, exposed as a CLI.", "source": "nesbitt.io"}, {"title": "256 Lines or Less: Test Case Minimization", "link": "https://matklad.github.io/2026/04/20/test-case-minimization.html", "date": "2026-04-20T00:00:00Z", "summary": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have…", "source": "matklad.github.io"}, {"title": "Reading List 04/18/2026", "link": "https://www.construction-physics.com/p/reading-list-04182026", "date": "2026-04-18T12:00:53Z", "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.", "source": "construction-physics.com"}]</script>
+<!-- RSS_SEED_END -->
+  <script>
+  (function() {
+    var list = document.getElementById('rss-list');
+    var toggleRow = document.getElementById('rss-toggle-row');
+    var toggleBtn = document.getElementById('rss-toggle');
+    if (!list || !toggleRow || !toggleBtn) return;
+
+    var expanded = false;
+    var collapsedHeight = null;
+
+    // Intercept s() setting maxHeight so we can restore it when expanding
+    var styleObs = new MutationObserver(function() {
+      var mh = list.style.maxHeight;
+      if (!expanded) {
+        if (mh) collapsedHeight = mh;
+        return;
+      }
+      // expanded: s() tried to cap the height — override it
+      if (mh) {
+        styleObs.disconnect();
+        list.style.maxHeight = '';
+        styleObs.observe(list, { attributes: true, attributeFilter: ['style'] });
+      }
+    });
+    styleObs.observe(list, { attributes: true, attributeFilter: ['style'] });
+
+    // Show/hide the toggle button based on item count
+    var contentObs = new MutationObserver(function() {
+      var count = list.querySelectorAll('.rss-item').length;
+      toggleRow.style.display = count > 5 ? '' : 'none';
+    });
+    contentObs.observe(list, { childList: true });
+
+    toggleBtn.addEventListener('click', function() {
+      expanded = !expanded;
+      if (expanded) {
+        styleObs.disconnect();
+        list.style.maxHeight = '';
+        styleObs.observe(list, { attributes: true, attributeFilter: ['style'] });
+        toggleBtn.textContent = 'Show less';
+      } else {
+        styleObs.disconnect();
+        if (collapsedHeight) list.style.maxHeight = collapsedHeight;
+        styleObs.observe(list, { attributes: true, attributeFilter: ['style'] });
+        toggleBtn.textContent = 'Show more';
+        list.scrollTop = 0;
+      }
+    });
+  })();
+  </script>
   </body>
 </html>
