@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-29T01:03:10.588706Z",
+  "generated_at": "2026-04-29T03:17:46.227530Z",
   "items": [
+    {
+      "title": "On wintering.",
+      "link": "https://www.joanwestenberg.com/on-wintering/",
+      "date": "2026-04-29T01:54:43Z",
+      "summary": "The winterer is out of the loop; they're not maintaining a position because they don't have a position to maintain. They can do work that takes longer than a quarter, longer than a year, longer than…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Quoting OpenAI Codex base_instructions",
       "link": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
@@ -259,13 +266,6 @@
       "date": "2026-04-21T10:00:00Z",
       "summary": "A knowledge base of project conventions, exposed as a CLI.",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "How we lost the living Now",
-      "link": "https://www.joanwestenberg.com/how-we-lost-the-living-now/",
-      "date": "2026-04-20T01:01:22Z",
-      "summary": "Before 1840, noon in Bristol happened about ten minutes after noon in London, and nobody much cared. The railway needed a common minute or it couldn't run - and that common minute is now a common…",
-      "source": "joanwestenberg.com"
     },
     {
       "title": "256 Lines or Less: Test Case Minimization",
