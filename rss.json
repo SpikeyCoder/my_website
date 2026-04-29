@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-04-29T14:54:00.036963Z",
+  "generated_at": "2026-04-29T15:47:07.013806Z",
   "items": [
     {
-      "title": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years",
-      "link": "https://www.nytimes.com/2026/04/28/technology/openai-trial-elon-musk-sam-altman.html?unlocked_article_code=1.elA.u75G.-STmUe_pILOO",
-      "date": "2026-04-29T14:35:43Z",
+      "title": "‘Elon Musk Appeared More Petty Than Prepared’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
+      "date": "2026-04-29T15:15:29Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Playing With Fire",
-      "link": "https://x.com/lifeof_jer/status/2048103471019434248?s=12",
-      "date": "2026-04-29T13:41:35Z",
+      "title": "‘Sordid and Small’",
+      "link": "https://www.theatlantic.com/technology/2026/04/openai-trial-elon-musk-sam-altman/686984/?gift=iWa_iB9lkw4UuiWbIbrWGYJmg9p-llxzEAgykQekDFA",
+      "date": "2026-04-29T15:03:21Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years",
+      "link": "https://www.nytimes.com/2026/04/28/technology/openai-trial-elon-musk-sam-altman.html?unlocked_article_code=1.elA.u75G.-STmUe_pILOO",
+      "date": "2026-04-29T14:53:09Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -84,13 +91,6 @@
       "date": "2026-04-28T05:23:05Z",
       "summary": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Rec League",
-      "link": "https://recleague.com/?lyr_campaign=df",
-      "date": "2026-04-28T00:48:31Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Spring 2026 Dev Contest Results!",
