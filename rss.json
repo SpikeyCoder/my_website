@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-29T10:43:28.259880Z",
+  "generated_at": "2026-04-29T11:37:21.252873Z",
   "items": [
+    {
+      "title": "Let's Get Digging!",
+      "link": "https://shkspr.mobi/blog/2026/04/lets-get-digging/",
+      "date": "2026-04-29T11:34:23Z",
+      "summary": "As part of my quest to try new things I decided to dig for treasure in my local park. The wonderful folks at DigVentures allow members of the public to assist with archaeology projects in their local…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "On wintering.",
       "link": "https://www.joanwestenberg.com/on-wintering/",
@@ -203,13 +210,6 @@
       "date": "2026-04-24T14:00:00Z",
       "summary": "But maybe it's not worth it. The post Defending against exceptions in a <CODE>scope_exit</CODE> RAII type appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Does Mythos mean you need to shut down your Open Source repositories?",
-      "link": "https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/",
-      "date": "2026-04-24T11:34:30Z",
-      "summary": "Much Sturm und Drang in the world of Open Source with the announcement that the \"Mythos\" AI is now the ultimate hacker and is poised to unleash havoc on every code base. So should you close all your…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
