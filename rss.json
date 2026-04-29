@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-29T12:46:12.731453Z",
+  "generated_at": "2026-04-29T13:41:16.782956Z",
   "items": [
+    {
+      "title": "Playing With Fire",
+      "link": "https://x.com/lifeof_jer/status/2048103471019434248?s=12",
+      "date": "2026-04-29T13:38:22Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Let's Get Digging!",
       "link": "https://shkspr.mobi/blog/2026/04/lets-get-digging/",
@@ -119,13 +126,6 @@
       "date": "2026-04-27T22:38:38Z",
       "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Yours Truly on The Vergecast",
-      "link": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
-      "date": "2026-04-27T18:47:54Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
