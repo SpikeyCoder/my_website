@@ -1416,6 +1416,18 @@ a.project-card:focus-visible {
   .blog-article-card .blog-share {
     margin-left: auto;
   }
+
+  /* WCAG 2.5.5 touch target — mobile only — auto-fix 2026-04-28 */
+  .pill {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 14px;
+  }
+
+  .timeline-item {
+    min-height: 44px;
+  }
 }
 
 .footer {
