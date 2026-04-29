@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-29T16:40:51.843118Z",
+  "generated_at": "2026-04-29T17:38:43.994237Z",
   "items": [
+    {
+      "title": "Raspberry Pi Connect may control Windows soon",
+      "link": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/",
+      "date": "2026-04-29T17:00:00Z",
+      "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "‘Elon Musk Appeared More Petty Than Prepared’",
       "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
@@ -273,13 +280,6 @@
       "date": "2026-04-20T00:00:00Z",
       "summary": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have…",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Reading List 04/18/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-04182026",
-      "date": "2026-04-18T12:00:53Z",
-      "summary": "A quadruped welding robot, the China Shock 2.0, transformer startups, China’s mysteriously moving satellites, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
