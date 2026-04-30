@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-30T22:25:48.154057Z",
+  "generated_at": "2026-04-30T23:25:25.381161Z",
   "items": [
+    {
+      "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+      "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+      "date": "2026-04-30T23:03:24Z",
+      "summary": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities The UK's AI Security Institute previously evaluated Claude Mythos : now they've evaluated GPT-5.5 for finding security vulnerability and found it…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Andrew Kelley",
       "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
@@ -70,13 +77,6 @@
       "date": "2026-04-30T10:00:00Z",
       "summary": "Twelve teams, snake draft, standard scoring, no salary cap",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
-      "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
-      "date": "2026-04-30T01:24:23Z",
-      "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "You’re probably taking the wrong painkiller",
