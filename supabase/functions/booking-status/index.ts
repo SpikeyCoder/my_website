@@ -14,22 +14,22 @@ Deno.serve(async (request) => {
     const url = new URL(request.url);
     const queryEmail = normalizeEmail(url.searchParams.get("email"));
     const parsedToken = await verifyBookingToken(tokenFromRequest(request));
+    const tokenEmail = normalizeEmail(parsedToken?.email);
 
-    // SECURITY: previously this endpoint let anyone supply ?email=victim@...
-    // and learn whether that email had booked. Now the email is taken from
-    // the verified token only; a query-string email is accepted only if it
-    // matches the token (mismatches are rejected, missing query string is
-    // fine).
-    const tokenEmail = parsedToken ? normalizeEmail(parsedToken.email) : "";
-
+    // SECURITY: do not mint tokens or set cookies for unauthenticated callers.
+    // The previous behaviour issued a freshly-signed bearer for any
+    // ?email=victim@example.com query, which an attacker could replay against
+    // booking-confirm to impersonate that user.
     if (!tokenEmail) {
-      // No token → caller has no booking on record they can verify. Return
-      // the same "not booked" shape regardless of any supplied query email.
-      return jsonResponse(request, 200, { ok: true, hasBooked: false });
+      // Unauthenticated: return only a public-safe boolean. We refuse to
+      // disclose whether an arbitrary email has booked.
+      return jsonResponse(request, 200, { ok: true, hasBooked: false, authenticated: false });
     }
 
+    // If a query email is supplied it must match the token's email — we never
+    // act as a third party.
     if (queryEmail && queryEmail !== tokenEmail) {
-      return jsonResponse(request, 403, { error: "Email mismatch" });
+      return jsonResponse(request, 403, { error: "Query email does not match authenticated token" });
     }
 
     const email = tokenEmail;
@@ -38,6 +38,9 @@ Deno.serve(async (request) => {
       return jsonResponse(request, 400, { error: "Invalid email format" });
     }
 
+    // SECURITY: refresh=1 hits the Google Calendar API with the supplied
+    // email. Restrict it to the authenticated path (already gated above
+    // because we only proceed past this point with a verified token email).
     const forceRefresh = ["1", "true", "yes"].includes(
       String(url.searchParams.get("refresh") || "").trim().toLowerCase(),
     );
@@ -56,6 +59,7 @@ Deno.serve(async (request) => {
       }
     }
 
+    // Token rotation: rotate the booking token for the authenticated user only.
     const token = await createBookingToken(email);
 
     return jsonResponse(
@@ -66,6 +70,7 @@ Deno.serve(async (request) => {
         hasBooked,
         token,
         email,
+        authenticated: true,
         ...(forceRefresh ? { checkedEvents } : {}),
         ...(syncError ? { syncError } : {}),
       },
