@@ -3,7 +3,7 @@ interface BookingTokenPayload {
   exp: number;
 }
 
-const TOKEN_TTL_SECONDS = 31449600; // 364 days
+const TOKEN_TTL_SECONDS = 2592000; // 30 days (rotated on each successful request)
 
 function toBase64Url(input: Uint8Array): string {
   let output = "";
