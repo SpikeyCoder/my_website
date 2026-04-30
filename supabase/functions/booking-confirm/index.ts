@@ -12,15 +12,24 @@ Deno.serve(async (request) => {
 
   try {
     const body = await request.json().catch(() => ({}));
+
+    // SECURITY: require a valid booking token. The body-supplied email is
+    // never trusted on its own — anyone can set body.email = victim@example.com.
     const tokenPayload = await verifyBookingToken(tokenFromRequest(request));
-
-    const bodyEmail = normalizeEmail(body?.email);
     const tokenEmail = normalizeEmail(tokenPayload?.email);
-    const email = bodyEmail || tokenEmail;
 
-    if (!email || !isValidEmail(email)) {
-      return jsonResponse(request, 400, { error: "Valid email is required" });
+    if (!tokenEmail || !isValidEmail(tokenEmail)) {
+      return jsonResponse(request, 401, { error: "Authenticated booking token required" });
     }
+
+    // If a body email is provided it MUST match the token's email; otherwise
+    // we'd let an attacker confirm a booking for a different user.
+    const bodyEmail = normalizeEmail(body?.email);
+    if (bodyEmail && bodyEmail !== tokenEmail) {
+      return jsonResponse(request, 403, { error: "Body email does not match authenticated token" });
+    }
+
+    const email = tokenEmail;
 
     const source = String(body?.source || "manual_confirm").slice(0, 120);
     const stripeSessionId = body?.stripeSessionId ? String(body.stripeSessionId).slice(0, 250) : null;
