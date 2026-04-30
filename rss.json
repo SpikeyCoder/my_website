@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-30T18:40:57.399181Z",
+  "generated_at": "2026-04-30T19:38:21.232433Z",
   "items": [
+    {
+      "title": "We need RSS for sharing abundant vibe-coded apps",
+      "link": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
+      "date": "2026-04-30T18:38:48Z",
+      "summary": "We need RSS for sharing abundant vibe-coded apps Matt Webb: I would love an RSS web feed for all those various tools and apps pages, each item with an “Install” button. (But install to where?) The…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "I’m Starting to Wonder What They’re Smoking Over There at MacRumors",
       "link": "https://www.macrumors.com/2026/04/29/apple-questioning-iphone-magsafe/",
@@ -98,13 +105,6 @@
       "date": "2026-04-29T21:24:07Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
-      "date": "2026-04-29T19:01:47Z",
-      "summary": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Raspberry Pi Connect may control Windows soon",
