@@ -1,9 +1,15 @@
+import { timingSafeEqual } from "./timing_safe.ts";
+
 interface BookingTokenPayload {
   email: string;
   exp: number;
 }
 
-const TOKEN_TTL_SECONDS = 31449600; // 364 days
+// 30 days. Reduced from 364 days — booking tokens are not long-lived
+// session credentials; if a returning visitor needs to be remembered
+// past 30 days, refresh the token on next visit (booking-status already
+// re-issues a token on every successful call).
+const TOKEN_TTL_SECONDS = 30 * 24 * 60 * 60;
 
 function toBase64Url(input: Uint8Array): string {
   let output = "";
@@ -39,7 +45,11 @@ async function sign(input: string, secret: string): Promise<string> {
 }
 
 function getSecret(): string {
-  const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
+  // BOOKING_TOKEN_SECRET MUST be set as an Edge Function secret. Previously
+  // this fell back to SUPABASE_SERVICE_ROLE_KEY, which mixed two security
+  // domains: any future weakness in the booking-token format would have
+  // become an oracle on the service role key. Fail closed instead.
+  const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || "";
   if (!secret) throw new Error("Missing BOOKING_TOKEN_SECRET env var");
   return secret;
 }
@@ -61,7 +71,8 @@ export async function verifyBookingToken(token: string | null): Promise<BookingT
   if (!encodedPayload || !signature) return null;
 
   const expected = await sign(encodedPayload, getSecret());
-  if (expected !== signature) return null;
+  // Constant-time compare to avoid leaking signature bytes via timing.
+  if (!timingSafeEqual(expected, signature)) return null;
 
   const payloadRaw = new TextDecoder().decode(fromBase64Url(encodedPayload));
   const payload = JSON.parse(payloadRaw) as BookingTokenPayload;

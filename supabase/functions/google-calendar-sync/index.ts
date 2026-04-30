@@ -3,6 +3,7 @@ import { getWatchState, syncCalendarBookings, upsertWatchState } from "../_share
 import { getGoogleCalendarId } from "../_shared/google_calendar.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { jsonResponse } from "../_shared/http.ts";
+import { timingSafeEqual } from "../_shared/timing_safe.ts";
 
 function adminTokenFromRequest(request: Request): string {
   const bearer = request.headers.get("authorization") || "";
@@ -19,7 +20,7 @@ function hasValidAdminToken(request: Request): boolean {
   }
 
   const provided = adminTokenFromRequest(request);
-  return Boolean(provided) && provided === expected;
+  return Boolean(provided) && timingSafeEqual(provided, expected);
 }
 
 Deno.serve(async (request) => {
