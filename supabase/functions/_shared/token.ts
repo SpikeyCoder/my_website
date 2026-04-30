@@ -39,8 +39,20 @@ async function sign(input: string, secret: string): Promise<string> {
 }
 
 function getSecret(): string {
-  const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
-  if (!secret) throw new Error("Missing BOOKING_TOKEN_SECRET env var");
+  // Require an explicit, dedicated secret. Falling back to
+  // SUPABASE_SERVICE_ROLE_KEY (the previous behaviour) violated key
+  // separation: rotating the service-role key would invalidate every
+  // issued booking token, and a service-role-key leak would compound
+  // into token forgery. See pentest 2026-04-30 finding KA-10.
+  const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || "";
+  if (!secret) {
+    throw new Error(
+      "Missing BOOKING_TOKEN_SECRET env var (set with: supabase secrets set BOOKING_TOKEN_SECRET=$(openssl rand -hex 32))",
+    );
+  }
+  if (secret.length < 32) {
+    throw new Error("BOOKING_TOKEN_SECRET must be at least 32 characters");
+  }
   return secret;
 }
 
