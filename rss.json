@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T12:45:58.134615Z",
+  "generated_at": "2026-04-30T13:41:57.291939Z",
   "items": [
     {
       "title": "How an Oil Refinery Works",
@@ -21,6 +21,13 @@
       "date": "2026-04-30T01:24:23Z",
       "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation.…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Notes from April 2026",
+      "link": "https://evanhahn.com/notes-from-april-2026/",
+      "date": "2026-04-30T00:00:00Z",
+      "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
+      "source": "evanhahn.com"
     },
     {
       "title": "llm 0.32a1",
@@ -273,13 +280,6 @@
       "date": "2026-04-21T14:53:59Z",
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "brief",
-      "link": "https://nesbitt.io/2026/04/21/brief.html",
-      "date": "2026-04-21T10:00:00Z",
-      "summary": "A knowledge base of project conventions, exposed as a CLI.",
-      "source": "nesbitt.io"
     }
   ]
 }
