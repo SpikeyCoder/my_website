@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Security headers (interim, set via meta where possible). The strategic
+         fix is to front the static site with a host that supports response
+         headers (Cloudflare/Netlify/Vercel) so we can also send HSTS,
+         X-Content-Type-Options, X-Frame-Options, and Permissions-Policy.
+         See pentest report 2026-04-30, finding KA-4. -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://gc.zgo.at; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' https://*.supabase.co https://api.allorigins.win https://r.jina.ai https://gist.githubusercontent.com https://gistcdn.githack.com https://kevinarmstrong.goatcounter.com https://gc.zgo.at; frame-src 'self' https://www.loom.com; object-src 'none'; base-uri 'self'; form-action 'self' https://buy.stripe.com https://calendar.app.google https://*.supabase.co; frame-ancestors 'none'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <title>Kevin Armstrong — Product + iOS Portfolio</title>
     <meta
       name="description"
