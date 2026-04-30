@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-04-30T13:41:57.291939Z",
+  "generated_at": "2026-04-30T14:50:38.452155Z",
   "items": [
+    {
+      "title": "Pluralistic: How not to ban surveillance pricing (30 Apr 2026)",
+      "link": "https://pluralistic.net/2026/04/30/something-must-be-done/",
+      "date": "2026-04-30T14:38:35Z",
+      "summary": "Today's links How not to ban surveillance pricing: Maryland's new consumer protection law is all loophole. Hey look at this: Delights to delectate. Object permanence: Google's 8,000 Linux servers;…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "New Banksy in London",
+      "link": "https://www.instagram.com/reel/DXwf7pis6KT/",
+      "date": "2026-04-30T14:25:28Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "date": "2026-04-30T14:04:26Z",
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "How an Oil Refinery Works",
       "link": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
       "date": "2026-04-30T12:03:35Z",
       "summary": "Though wind and solar continue to carve out larger and larger shares of world energy supply, the modern world still runs on petroleum, and will continue to do so for the foreseeable future.",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "Announcing the 2026 Open Source Fantasy Draft",
+      "link": "https://nesbitt.io/2026/04/30/open-source-fantasy-draft.html",
+      "date": "2026-04-30T10:00:00Z",
+      "summary": "Twelve teams, snake draft, standard scoring, no salary cap",
+      "source": "nesbitt.io"
     },
     {
       "title": "‘Elon Musk Appeared More Petty Than Prepared’",
@@ -63,13 +91,6 @@
       "date": "2026-04-29T17:00:00Z",
       "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "‘Sordid and Small’",
-      "link": "https://www.theatlantic.com/technology/2026/04/openai-trial-elon-musk-sam-altman/686984/?gift=iWa_iB9lkw4UuiWbIbrWGYJmg9p-llxzEAgykQekDFA",
-      "date": "2026-04-29T15:03:21Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Let's Get Digging!",
@@ -212,13 +233,6 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/25/machiavellian/",
-      "date": "2026-04-25T11:17:58Z",
-      "summary": "Today's links Ada Palmer's \"Inventing the Renaissance\": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
       "link": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
       "date": "2026-04-24T14:00:00Z",
@@ -266,20 +280,6 @@
       "date": "2026-04-23T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Luddites and burning down AI datacenters",
-      "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
-      "date": "2026-04-22T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "date": "2026-04-21T14:53:59Z",
-      "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
