@@ -15,14 +15,24 @@ Deno.serve(async (request) => {
     const queryEmail = normalizeEmail(url.searchParams.get("email"));
     const parsedToken = await verifyBookingToken(tokenFromRequest(request));
 
-    let email = queryEmail;
-    if (!email && parsedToken?.email) {
-      email = normalizeEmail(parsedToken.email);
-    }
+    // SECURITY: previously this endpoint let anyone supply ?email=victim@...
+    // and learn whether that email had booked. Now the email is taken from
+    // the verified token only; a query-string email is accepted only if it
+    // matches the token (mismatches are rejected, missing query string is
+    // fine).
+    const tokenEmail = parsedToken ? normalizeEmail(parsedToken.email) : "";
 
-    if (!email) {
+    if (!tokenEmail) {
+      // No token → caller has no booking on record they can verify. Return
+      // the same "not booked" shape regardless of any supplied query email.
       return jsonResponse(request, 200, { ok: true, hasBooked: false });
     }
+
+    if (queryEmail && queryEmail !== tokenEmail) {
+      return jsonResponse(request, 403, { error: "Email mismatch" });
+    }
+
+    const email = tokenEmail;
 
     if (!isValidEmail(email)) {
       return jsonResponse(request, 400, { error: "Invalid email format" });

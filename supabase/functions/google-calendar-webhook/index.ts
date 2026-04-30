@@ -8,6 +8,7 @@ import {
 } from "../_shared/calendar_booking_sync.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { jsonResponse } from "../_shared/http.ts";
+import { timingSafeEqual } from "../_shared/timing_safe.ts";
 
 Deno.serve(async (request) => {
   if (request.method === "OPTIONS") return optionsResponse(request);
@@ -32,7 +33,11 @@ Deno.serve(async (request) => {
       return jsonResponse(request, 400, { error: "Missing Google channel headers" });
     }
 
-    if (channelId !== state.channel_id || channelToken !== state.channel_token || resourceId !== state.resource_id) {
+    if (
+      !timingSafeEqual(channelId, state.channel_id) ||
+      !timingSafeEqual(channelToken, state.channel_token) ||
+      !timingSafeEqual(resourceId, state.resource_id)
+    ) {
       return jsonResponse(request, 401, { error: "Webhook channel mismatch" });
     }
 

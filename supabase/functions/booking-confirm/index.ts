@@ -14,12 +14,24 @@ Deno.serve(async (request) => {
     const body = await request.json().catch(() => ({}));
     const tokenPayload = await verifyBookingToken(tokenFromRequest(request));
 
-    const bodyEmail = normalizeEmail(body?.email);
-    const tokenEmail = normalizeEmail(tokenPayload?.email);
-    const email = bodyEmail || tokenEmail;
+    // SECURITY: the email is taken EXCLUSIVELY from a verified booking token.
+    // Previously the body email could override the token, which let any
+    // unauthenticated caller mark arbitrary emails as "booked" in
+    // booking_profiles + booking_events.
+    if (!tokenPayload?.email) {
+      return jsonResponse(request, 401, { error: "Booking token required" });
+    }
+    const email = normalizeEmail(tokenPayload.email);
 
     if (!email || !isValidEmail(email)) {
       return jsonResponse(request, 400, { error: "Valid email is required" });
+    }
+
+    // If the body supplies an email, it must match the token. This rejects
+    // confused/replay scenarios early instead of silently ignoring it.
+    const bodyEmail = normalizeEmail(body?.email);
+    if (bodyEmail && bodyEmail !== email) {
+      return jsonResponse(request, 403, { error: "Email mismatch" });
     }
 
     const source = String(body?.source || "manual_confirm").slice(0, 120);
