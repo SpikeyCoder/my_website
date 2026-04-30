@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-30T20:32:45.028704Z",
+  "generated_at": "2026-04-30T21:28:04.539878Z",
   "items": [
+    {
+      "title": "Quoting Andrew Kelley",
+      "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
+      "date": "2026-04-30T21:24:55Z",
+      "summary": "It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "We need RSS for sharing abundant vibe-coded apps",
       "link": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
@@ -84,13 +91,6 @@
       "date": "2026-04-30T00:00:00Z",
       "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "llm 0.32a1",
-      "link": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
-      "date": "2026-04-29T23:52:50Z",
-      "summary": "Release: llm 0.32a1 Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426 Tags: llm",
-      "source": "simonwillison.net"
     },
     {
       "title": "Have You Seen the New Excel?",
