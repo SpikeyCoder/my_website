@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-04-30T01:02:39.777793Z",
+  "generated_at": "2026-04-30T03:17:59.876644Z",
   "items": [
     {
       "title": "‘Elon Musk Appeared More Petty Than Prepared’",
       "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
-      "date": "2026-04-30T00:11:10Z",
+      "date": "2026-04-30T02:19:42Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+      "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
+      "date": "2026-04-30T01:24:23Z",
+      "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation.…",
+      "source": "simonwillison.net"
     },
     {
       "title": "llm 0.32a1",
@@ -34,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
       "date": "2026-04-29T19:01:47Z",
       "summary": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "llm 0.32a0",
-      "link": "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
-      "date": "2026-04-29T18:57:47Z",
-      "summary": "Release: llm 0.32a0 See the annotated release notes . Tags: llm",
       "source": "simonwillison.net"
     },
     {
