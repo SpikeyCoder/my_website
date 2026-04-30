@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:42:10.621992Z",
+  "generated_at": "2026-04-30T16:39:34.264692Z",
   "items": [
     {
       "title": "I’m Starting to Wonder What They’re Smoking Over There at MacRumors",
@@ -51,11 +51,25 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Announcing the 2026 Open Source Fantasy Draft",
+      "link": "https://nesbitt.io/2026/04/30/open-source-fantasy-draft.html",
+      "date": "2026-04-30T10:00:00Z",
+      "summary": "Twelve teams, snake draft, standard scoring, no salary cap",
+      "source": "nesbitt.io"
+    },
+    {
       "title": "The Zig project's rationale for their firm anti-AI contribution policy",
       "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
       "date": "2026-04-30T01:24:23Z",
       "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation.…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "You’re probably taking the wrong painkiller",
+      "link": "https://dynomight.net/painkillers/",
+      "date": "2026-04-30T00:00:00Z",
+      "summary": "acetaminophen vs. ibuprofen",
+      "source": "dynomight.net"
     },
     {
       "title": "Notes from April 2026",
@@ -142,6 +156,13 @@
       "source": "johndcook.com"
     },
     {
+      "title": "GitHub Actions is the weakest link",
+      "link": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
+      "date": "2026-04-28T10:00:00Z",
+      "summary": "Anne Robinson would like a word with .github/workflows",
+      "source": "nesbitt.io"
+    },
+    {
       "title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/27/mouseketeers/",
       "date": "2026-04-28T05:57:01Z",
@@ -189,6 +210,13 @@
       "date": "2026-04-27T11:34:27Z",
       "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "The stages of package installation",
+      "link": "https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html",
+      "date": "2026-04-27T10:00:00Z",
+      "summary": "Denial, anger, bargaining, depression, acceptance, postinstall.",
+      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
@@ -252,34 +280,6 @@
       "date": "2026-04-23T03:10:02Z",
       "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Equity for Europeans",
-      "link": "https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/",
-      "date": "2026-04-23T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Luddites and burning down AI datacenters",
-      "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
-      "date": "2026-04-22T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "date": "2026-04-21T14:53:59Z",
-      "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "256 Lines or Less: Test Case Minimization",
-      "link": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
-      "date": "2026-04-20T00:00:00Z",
-      "summary": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have…",
-      "source": "matklad.github.io"
     }
   ]
 }
