@@ -1,0 +1,5 @@
+Contact: mailto:kevinmarmstrong1990@gmail.com
+Expires: 2027-04-29T00:00:00Z
+Preferred-Languages: en
+Canonical: https://kevinarmstrong.io/.well-known/security.txt
+Policy: https://kevinarmstrong.io/security.html

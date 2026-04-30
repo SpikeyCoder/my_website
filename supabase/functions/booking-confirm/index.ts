@@ -31,6 +31,7 @@ Deno.serve(async (request) => {
 
     const email = tokenEmail;
 
+
     const source = String(body?.source || "manual_confirm").slice(0, 120);
     const stripeSessionId = body?.stripeSessionId ? String(body.stripeSessionId).slice(0, 250) : null;
 
