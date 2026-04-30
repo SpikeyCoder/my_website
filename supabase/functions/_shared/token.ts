@@ -1,3 +1,5 @@
+import { timingSafeEqual } from "./timing_safe.ts";
+
 interface BookingTokenPayload {
   email: string;
   exp: number;
@@ -61,7 +63,8 @@ export async function verifyBookingToken(token: string | null): Promise<BookingT
   if (!encodedPayload || !signature) return null;
 
   const expected = await sign(encodedPayload, getSecret());
-  if (expected !== signature) return null;
+  // Constant-time compare to avoid leaking byte-by-byte equality timing.
+  if (!timingSafeEqual(expected, signature)) return null;
 
   const payloadRaw = new TextDecoder().decode(fromBase64Url(encodedPayload));
   const payload = JSON.parse(payloadRaw) as BookingTokenPayload;
