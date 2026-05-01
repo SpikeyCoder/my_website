@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-01T09:41:22.304188Z",
+  "generated_at": "2026-05-01T10:37:37.003089Z",
   "items": [
+    {
+      "title": "Patching and forking in package managers",
+      "link": "https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html",
+      "date": "2026-05-01T10:00:00Z",
+      "summary": "What to do when upstream ghosts you",
+      "source": "nesbitt.io"
+    },
     {
       "title": "The Talk Show: ‘Food and Beverage Director’",
       "link": "https://daringfireball.net/thetalkshow/2026/04/30/ep-446",
@@ -210,13 +217,6 @@
       "date": "2026-04-27T11:34:27Z",
       "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "The stages of package installation",
-      "link": "https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html",
-      "date": "2026-04-27T10:00:00Z",
-      "summary": "Denial, anger, bargaining, depression, acceptance, postinstall.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
