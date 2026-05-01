@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-01T11:31:17.903030Z",
+  "generated_at": "2026-05-01T12:32:51.047354Z",
   "items": [
+    {
+      "title": "NHS Goes To War Against Open Source",
+      "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+      "date": "2026-05-01T11:44:04Z",
+      "summary": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I championed Open Source. I spoke to…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Patching and forking in package managers",
       "link": "https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html",
@@ -238,13 +245,6 @@
       "date": "2026-04-25T14:16:17Z",
       "summary": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
-      "link": "https://shkspr.mobi/blog/2026/04/you-can-parse-an-env-file-as-an-ini-with-php-but-theres-a-catch/",
-      "date": "2026-04-25T11:34:15Z",
-      "summary": "The humble .env file is a useful and low-tech way of storing persistent environment variables. Drop the file on your server and let your PHP scripts consume it with glee. But consume it how? There…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
