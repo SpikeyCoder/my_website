@@ -1,15 +1,9 @@
-import { timingSafeEqual } from "./timing_safe.ts";
-
 interface BookingTokenPayload {
   email: string;
   exp: number;
 }
 
-// 30 days. Reduced from 364 days — booking tokens are not long-lived
-// session credentials; if a returning visitor needs to be remembered
-// past 30 days, refresh the token on next visit (booking-status already
-// re-issues a token on every successful call).
-const TOKEN_TTL_SECONDS = 30 * 24 * 60 * 60;
+const TOKEN_TTL_SECONDS = 31449600; // 364 days
 
 function toBase64Url(input: Uint8Array): string {
   let output = "";
@@ -45,12 +39,20 @@ async function sign(input: string, secret: string): Promise<string> {
 }
 
 function getSecret(): string {
-  // BOOKING_TOKEN_SECRET MUST be set as an Edge Function secret. Previously
-  // this fell back to SUPABASE_SERVICE_ROLE_KEY, which mixed two security
-  // domains: any future weakness in the booking-token format would have
-  // become an oracle on the service role key. Fail closed instead.
+  // Require an explicit, dedicated secret. Falling back to
+  // SUPABASE_SERVICE_ROLE_KEY (the previous behaviour) violated key
+  // separation: rotating the service-role key would invalidate every
+  // issued booking token, and a service-role-key leak would compound
+  // into token forgery. See pentest 2026-04-30 finding KA-10.
   const secret = Deno.env.get("BOOKING_TOKEN_SECRET") || "";
-  if (!secret) throw new Error("Missing BOOKING_TOKEN_SECRET env var");
+  if (!secret) {
+    throw new Error(
+      "Missing BOOKING_TOKEN_SECRET env var (set with: supabase secrets set BOOKING_TOKEN_SECRET=$(openssl rand -hex 32))",
+    );
+  }
+  if (secret.length < 32) {
+    throw new Error("BOOKING_TOKEN_SECRET must be at least 32 characters");
+  }
   return secret;
 }
 
@@ -71,8 +73,7 @@ export async function verifyBookingToken(token: string | null): Promise<BookingT
   if (!encodedPayload || !signature) return null;
 
   const expected = await sign(encodedPayload, getSecret());
-  // Constant-time compare to avoid leaking signature bytes via timing.
-  if (!timingSafeEqual(expected, signature)) return null;
+  if (expected !== signature) return null;
 
   const payloadRaw = new TextDecoder().decode(fromBase64Url(encodedPayload));
   const payload = JSON.parse(payloadRaw) as BookingTokenPayload;
