@@ -26,7 +26,6 @@ function hasValidAdminToken(request: Request): boolean {
   }
 
   const provided = adminTokenFromRequest(request);
-  // Constant-time compare so we do not leak per-byte equality timing.
   return Boolean(provided) && timingSafeEqual(provided, expected);
 }
 
