@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-01T19:33:59.415556Z",
+  "generated_at": "2026-05-01T20:25:52.388980Z",
   "items": [
+    {
+      "title": "iNaturalist Sightings",
+      "link": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+      "date": "2026-05-01T19:35:41Z",
+      "summary": "Tool: iNaturalist Sightings I wanted to see my iNaturalist observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The Talk Show: ‘Food and Beverage Director’",
+      "link": "https://daringfireball.net/thetalkshow/2026/04/30/ep-446",
+      "date": "2026-05-01T19:34:35Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Scientology ‘Speed Running’ Trend",
       "link": "https://www.theguardian.com/us-news/2026/apr/30/hollywood-church-of-scientology-speed-runs?CMP=bsky_gu",
@@ -16,6 +30,13 @@
       "source": "jeffgeerling.com"
     },
     {
+      "title": "Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260501-00/?p=112291",
+      "date": "2026-05-01T14:00:00Z",
+      "summary": "Recovering from death of the owner. The post Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
       "title": "NHS Goes To War Against Open Source",
       "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
       "date": "2026-05-01T11:44:04Z",
@@ -28,13 +49,6 @@
       "date": "2026-05-01T10:00:00Z",
       "summary": "What to do when upstream ghosts you",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "The Talk Show: ‘Food and Beverage Director’",
-      "link": "https://daringfireball.net/thetalkshow/2026/04/30/ep-446",
-      "date": "2026-05-01T02:58:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Apple Q2 2026 Results",
@@ -69,13 +83,6 @@
       "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
       "date": "2026-04-30T23:03:24Z",
       "summary": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities The UK's AI Security Institute previously evaluated Claude Mythos : now they've evaluated GPT-5.5 for finding security vulnerability and found it…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Andrew Kelley",
-      "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
-      "date": "2026-04-30T21:24:55Z",
-      "summary": "It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are…",
       "source": "simonwillison.net"
     },
     {
@@ -175,13 +182,6 @@
       "date": "2026-04-28T21:44:58Z",
       "summary": "Someone said a technique is a trick that works twice. I wanted to see if I could get anything interesting by turning the trick in the previous post into a technique. The trick created a high-order…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260428-00/?p=112278",
-      "date": "2026-04-28T14:00:00Z",
-      "summary": "A pot of tokens. The post Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "GitHub Actions is the weakest link",
