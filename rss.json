@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-01T13:39:44.296970Z",
+  "generated_at": "2026-05-01T14:32:08.181502Z",
   "items": [
+    {
+      "title": "SBC Clusters are a terrible value, but they're fun anyway",
+      "link": "https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/",
+      "date": "2026-05-01T14:00:00Z",
+      "summary": "Pictured above is the new DeskPi Super4C installed in an 8U mini rack. The Super4C is a 4-node Raspberry Pi CM5 cluster board that solves two pain points I had with the older Super6C . I was testing…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "NHS Goes To War Against Open Source",
       "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
@@ -42,6 +49,13 @@
       "date": "2026-05-01T00:06:12Z",
       "summary": "A couple days ago I wrote a post about turning a trick into a technique, finding another use for a clever way to construct simple, accurate approximations. I used as my example approximating the…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Offline command line translation with TranslateGemma + Ollama",
+      "link": "https://evanhahn.com/offline-cli-translation-with-translategemma-and-ollama/",
+      "date": "2026-05-01T00:00:00Z",
+      "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer: echo '¿Cómo estás?' | translate # => How are you? It combines a…",
+      "source": "evanhahn.com"
     },
     {
       "title": "Codex CLI 0.128.0 adds /goal",
@@ -266,20 +280,6 @@
       "date": "2026-04-24T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Construction Costs Rarely Fall",
-      "link": "https://www.construction-physics.com/p/construction-costs-rarely-fall",
-      "date": "2026-04-23T12:02:35Z",
-      "summary": "Not long ago we looked at construction productivity trends for the US and for countries around the world. We found that in the U.S., and in most other large, wealthy countries, construction…",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Why prediction markets are a sure sign that our civilisation is in decay",
-      "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/",
-      "date": "2026-04-23T03:10:02Z",
-      "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
