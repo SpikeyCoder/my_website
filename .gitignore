@@ -2,3 +2,6 @@
 supabase/.temp/
 scripts/__pycache__/
 audits/
+
+# Audit / pentest report artifacts — keep them out of the public site
+*.docx
