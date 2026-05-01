@@ -1,18 +1,25 @@
 {
-  "generated_at": "2026-05-01T01:07:41.262314Z",
+  "generated_at": "2026-05-01T03:17:56.105878Z",
   "items": [
+    {
+      "title": "The Talk Show: ‘Food and Beverage Director’",
+      "link": "https://daringfireball.net/thetalkshow/2026/04/30/ep-446",
+      "date": "2026-05-01T02:58:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Scientology ‘Speed Running’ Trend",
+      "link": "https://www.theguardian.com/us-news/2026/apr/30/hollywood-church-of-scientology-speed-runs?CMP=bsky_gu",
+      "date": "2026-05-01T02:38:20Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Apple Q2 2026 Results",
       "link": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
       "date": "2026-05-01T00:41:41Z",
       "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "★ On the Future of Apple’s Vision Platform",
-      "link": "https://daringfireball.net/2026/04/on_the_future_of_apples_vision_platform",
-      "date": "2026-05-01T00:20:33Z",
-      "summary": "It’s certainly possible that this Vision thing isn’t going to work out and Apple *will* throw in the towel on it. But that hasn’t happened, and if it does, it’s not going to come out of nowhere as a…",
       "source": "daringfireball.net"
     },
     {
@@ -42,13 +49,6 @@
       "date": "2026-04-30T21:24:55Z",
       "summary": "It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "I’m Starting to Wonder What They’re Smoking Over There at MacRumors",
-      "link": "https://www.macrumors.com/2026/04/29/apple-questioning-iphone-magsafe/",
-      "date": "2026-04-30T15:16:12Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Three ways to differentiate ReLU",
