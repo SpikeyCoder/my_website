@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-04-30T23:25:25.381161Z",
+  "generated_at": "2026-05-01T01:07:41.262314Z",
   "items": [
+    {
+      "title": "Apple Q2 2026 Results",
+      "link": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "date": "2026-05-01T00:41:41Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "★ On the Future of Apple’s Vision Platform",
+      "link": "https://daringfireball.net/2026/04/on_the_future_of_apples_vision_platform",
+      "date": "2026-05-01T00:20:33Z",
+      "summary": "It’s certainly possible that this Vision thing isn’t going to work out and Apple *will* throw in the towel on it. But that hasn’t happened, and if it does, it’s not going to come out of nowhere as a…",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Approximating even functions by powers of cosine",
+      "link": "https://www.johndcook.com/blog/2026/04/30/burmanns-theorem/",
+      "date": "2026-05-01T00:06:12Z",
+      "summary": "A couple days ago I wrote a post about turning a trick into a technique, finding another use for a clever way to construct simple, accurate approximations. I used as my example approximating the…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Codex CLI 0.128.0 adds /goal",
+      "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+      "date": "2026-04-30T23:23:17Z",
+      "summary": "Codex CLI 0.128.0 adds /goal The latest version of OpenAI's Codex CLI coding agent adds their own version of the Ralph loop : you can now set a /goal and Codex will keep on looping until it evaluates…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
       "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
@@ -13,13 +41,6 @@
       "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
       "date": "2026-04-30T21:24:55Z",
       "summary": "It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "We need RSS for sharing abundant vibe-coded apps",
-      "link": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
-      "date": "2026-04-30T18:38:48Z",
-      "summary": "We need RSS for sharing abundant vibe-coded apps Matt Webb: I would love an RSS web feed for all those various tools and apps pages, each item with an “Install” button. (But install to where?) The…",
       "source": "simonwillison.net"
     },
     {
@@ -42,13 +63,6 @@
       "date": "2026-04-30T14:38:35Z",
       "summary": "Today's links How not to ban surveillance pricing: Maryland's new consumer protection law is all loophole. Hey look at this: Delights to delectate. Object permanence: Google's 8,000 Linux servers;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "New Banksy in London",
-      "link": "https://www.instagram.com/reel/DXwf7pis6KT/",
-      "date": "2026-04-30T14:25:28Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -100,13 +114,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Oakland’s Airport Is Now Officially ‘Oakland San Francisco Bay Airport’",
-      "link": "https://sfstandard.com/2026/04/28/oak-sfo-reach-naming-settlement/",
-      "date": "2026-04-29T21:24:07Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Raspberry Pi Connect may control Windows soon",
       "link": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/",
       "date": "2026-04-29T17:00:00Z",
@@ -147,13 +154,6 @@
       "date": "2026-04-28T14:00:00Z",
       "summary": "A pot of tokens. The post Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Circular arc approximation",
-      "link": "https://www.johndcook.com/blog/2026/04/28/circular-arc-approximation/",
-      "date": "2026-04-28T13:09:42Z",
-      "summary": "Suppose you have an arc a, a portion of a circle of radius r, and you know two things: the length c of the chord of the arc, and the length b of the chord of half the arc, illustrated below. Here θ…",
-      "source": "johndcook.com"
     },
     {
       "title": "GitHub Actions is the weakest link",
