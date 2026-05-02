@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-02T03:15:41.728363Z",
+  "generated_at": "2026-05-02T05:09:46.548724Z",
   "items": [
-    {
-      "title": "Editing my LLM assisted articles",
-      "link": "https://idiallo.com/byte-size/editing-llm-assisted-articles?src=feed",
-      "date": "2026-05-02T03:00:23Z",
-      "summary": "Last year, I used AI to help me write articles. As I've mentioned before , it's convenient when you are doing so because it saves you time. But the problem comes up when you try to quote those…",
-      "source": "idiallo.com"
-    },
     {
       "title": "More on Apple’s Logically Elegant Tariff Refund Puzzle Solution",
       "link": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
-      "date": "2026-05-02T01:30:01Z",
+      "date": "2026-05-02T03:27:16Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
       "title": "Tim Cook’s Clever Solution to the Tariff Refund Puzzle",
       "link": "https://sixcolors.com/post/2026/04/apple-results-analysis-net-net-over-the-moon/",
-      "date": "2026-05-02T01:07:16Z",
+      "date": "2026-05-02T03:27:02Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Editing my LLM assisted Articles",
+      "link": "https://idiallo.com/byte-size/editing-llm-assisted-articles?src=feed",
+      "date": "2026-05-02T03:00:23Z",
+      "summary": "Last year, I used AI to help me write articles. As I've mentioned before , it's convenient when you are doing so because it saves you time. But the problem comes up when you try to quote those…",
+      "source": "idiallo.com"
     },
     {
       "title": "Disable Auto-Update",
