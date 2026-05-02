@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-02T17:22:35.078409Z",
+  "generated_at": "2026-05-02T18:27:14.225712Z",
   "items": [
+    {
+      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+      "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
+      "date": "2026-05-02T17:30:35.136000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "Sightings",
+      "link": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
+      "date": "2026-05-02T17:26:40Z",
+      "summary": "/elsewhere/sightings/ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of birds. I share my best wildlife photos on iNaturalist , and based on yesterday's successful prototype…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Reading List 05/02/2026",
       "link": "https://www.construction-physics.com/p/reading-list-05022026",
@@ -111,13 +125,6 @@
       "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
       "date": "2026-04-30T23:23:17Z",
       "summary": "Codex CLI 0.128.0 adds /goal The latest version of OpenAI's Codex CLI coding agent adds their own version of the Ralph loop : you can now set a /goal and Codex will keep on looping until it evaluates…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
-      "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
-      "date": "2026-04-30T23:03:24Z",
-      "summary": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities The UK's AI Security Institute previously evaluated Claude Mythos : now they've evaluated GPT-5.5 for finding security vulnerability and found it…",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-04-24T14:00:00Z",
       "summary": "For years, the best way to get 10 gigabit networking on laptops was to buy an expensive, large, and hot 10 GbE Thunderbolt adapter. With new RTL8159-based 10G USB 3.2 adapters coming onto the market,…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
-      "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
-      "date": "2026-04-24T03:13:51.117000Z",
-      "summary": "",
-      "source": "righto.com"
     }
   ]
 }
