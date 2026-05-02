@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T16:23:34.552577Z",
+  "generated_at": "2026-05-02T17:22:35.078409Z",
   "items": [
     {
       "title": "Reading List 05/02/2026",
@@ -14,6 +14,13 @@
       "date": "2026-05-02T11:22:11Z",
       "summary": "Today's links The prehistory of the Democratic Nuremberg Caucus: Do bounties for ICE whistleblowers next! Hey look at this: Delights to delectate. Object permanence: Colbert v GWB; Wallaby milk; Jay…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "A GitHub for maintainers",
+      "link": "https://nesbitt.io/2026/05/02/a-github-for-maintainers.html",
+      "date": "2026-05-02T10:00:00Z",
+      "summary": "Giving dependencies the same treatment the fork got",
+      "source": "nesbitt.io"
     },
     {
       "title": "More on Apple’s Logically Elegant Tariff Refund Puzzle Solution",
@@ -210,13 +217,6 @@
       "date": "2026-04-28T21:44:58Z",
       "summary": "Someone said a technique is a trick that works twice. I wanted to see if I could get anything interesting by turning the trick in the previous post into a technique. The trick created a high-order…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "GitHub Actions is the weakest link",
-      "link": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
-      "date": "2026-04-28T10:00:00Z",
-      "summary": "Anne Robinson would like a word with .github/workflows",
-      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)",
