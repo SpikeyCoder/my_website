@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-02T01:43:06.964962Z",
+  "generated_at": "2026-05-02T03:15:41.728363Z",
   "items": [
+    {
+      "title": "Editing my LLM assisted articles",
+      "link": "https://idiallo.com/byte-size/editing-llm-assisted-articles?src=feed",
+      "date": "2026-05-02T03:00:23Z",
+      "summary": "Last year, I used AI to help me write articles. As I've mentioned before , it's convenient when you are doing so because it saves you time. But the problem comes up when you try to quote those…",
+      "source": "idiallo.com"
+    },
     {
       "title": "More on Apple’s Logically Elegant Tariff Refund Puzzle Solution",
       "link": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
@@ -224,13 +231,6 @@
       "date": "2026-04-28T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Don't use localhost:3000, use your own custom domain",
-      "link": "https://idiallo.com/blog/say-no-to-localhost3000-use-custom-domains?src=feed",
-      "date": "2026-04-27T23:17:54Z",
-      "summary": "After presenting a demo of how an internal tool works, I was flooded with questions. Not about the tool, but about why I had bought a domain just to run the demo. \"Why didn't you use the staging…",
-      "source": "idiallo.com"
     },
     {
       "title": "The Loop: everything has happened before, and everything will happen again",
