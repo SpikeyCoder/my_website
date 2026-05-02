@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T19:28:26.451760Z",
+  "generated_at": "2026-05-02T20:19:15.846479Z",
   "items": [
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
@@ -91,13 +91,6 @@
       "date": "2026-05-01T14:00:00Z",
       "summary": "Recovering from death of the owner. The post Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "NHS Goes To War Against Open Source",
-      "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
-      "date": "2026-05-01T11:44:04Z",
-      "summary": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I championed Open Source. I spoke to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Patching and forking in package managers",
@@ -205,13 +198,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Let's Get Digging!",
-      "link": "https://shkspr.mobi/blog/2026/04/lets-get-digging/",
-      "date": "2026-04-29T11:34:23Z",
-      "summary": "As part of my quest to try new things I decided to dig for treasure in my local park. The wonderful folks at DigVentures allow members of the public to assist with archaeology projects in their local…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "On wintering.",
       "link": "https://www.joanwestenberg.com/on-wintering/",
       "date": "2026-04-29T01:54:43Z",
@@ -261,13 +247,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Theatre Review: Hadestown ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-hadestown/",
-      "date": "2026-04-27T11:34:27Z",
-      "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Reading List 04/25/26",
       "link": "https://www.construction-physics.com/p/reading-list-042526",
       "date": "2026-04-25T14:16:17Z",
@@ -280,6 +259,27 @@
       "date": "2026-04-24T14:00:00Z",
       "summary": "For years, the best way to get 10 gigabit networking on laptops was to buy an expensive, large, and hot 10 GbE Thunderbolt adapter. With new RTL8159-based 10G USB 3.2 adapters coming onto the market,…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+      "link": "http://www.righto.com/feeds/8382904110431912671/comments/default",
+      "date": "2026-04-24T03:13:51.117000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "Software engineering may no longer be a lifetime career",
+      "link": "https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "date": "2026-04-24T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Why prediction markets are a sure sign that our civilisation is in decay",
+      "link": "https://www.joanwestenberg.com/why-prediction-markets-are-a-sure-sign-that-our-civilisation-is-in-decay/",
+      "date": "2026-04-23T03:10:02Z",
+      "summary": "Prediction markets are the clearest single sign our civilisation has entered a late and decadent stage. The reason isn't that they're new or sinister. It's that the case for them is defensible, the…",
+      "source": "joanwestenberg.com"
     }
   ]
 }
