@@ -1,0 +1,31 @@
+name: Renew Google Calendar Watch
+
+on:
+  schedule:
+    - cron: "13 7 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  renew-watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate secret is configured
+        env:
+          CALENDAR_ADMIN_TOKEN: ${{ secrets.GOOGLE_CALENDAR_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$CALENDAR_ADMIN_TOKEN" ]; then
+            echo "Missing required secret: GOOGLE_CALENDAR_ADMIN_TOKEN"
+            exit 1
+          fi
+
+      - name: Renew watch channel and sync bookings
+        env:
+          CALENDAR_ADMIN_TOKEN: ${{ secrets.GOOGLE_CALENDAR_ADMIN_TOKEN }}
+        run: |
+          curl -sS -f \
+            -X POST "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/google-calendar-setup" \
+            -H "content-type: application/json" \
+            -H "x-admin-token: ${CALENDAR_ADMIN_TOKEN}" \
+            --data '{}'
