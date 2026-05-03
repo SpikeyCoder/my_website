@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-03T14:25:47.203693Z",
+  "generated_at": "2026-05-03T15:21:51.813440Z",
   "items": [
+    {
+      "title": "Quoting Anthropic",
+      "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+      "date": "2026-05-03T15:13:23Z",
+      "summary": "We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Vertically Aligning Roman Numerals in Code",
       "link": "https://shkspr.mobi/blog/2026/05/vertically-aligning-roman-numerals-in-code/",
@@ -140,13 +147,6 @@
       "date": "2026-05-01T00:00:00Z",
       "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer: echo '¿Cómo estás?' | translate # => How are you? It combines a…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Codex CLI 0.128.0 adds /goal",
-      "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
-      "date": "2026-04-30T23:23:17Z",
-      "summary": "Codex CLI 0.128.0 adds /goal The latest version of OpenAI's Codex CLI coding agent adds their own version of the Ralph loop : you can now set a /goal and Codex will keep on looping until it evaluates…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Three ways to differentiate ReLU",
