@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-03T11:20:28.780205Z",
+  "generated_at": "2026-05-03T12:28:43.517559Z",
   "items": [
+    {
+      "title": "Vertically Aligning Roman Numerals in Code",
+      "link": "https://shkspr.mobi/blog/2026/05/vertically-aligning-roman-numerals-in-code/",
+      "date": "2026-05-03T11:34:59Z",
+      "summary": "I have a PHP function which uses Roman Numerals. It looks like this: $romanNumerals = [ \"Ⅿ\" => 1000, \"ⅭⅯ\" => 900, \"Ⅾ\" => 500, \"ⅭⅮ\" => 400, \"Ⅽ\" => 100, \"ⅩC\" => 90, \"Ⅼ\" => 50, \"ⅩⅬ\" => 40, \"Ⅹ\" => 10,…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Why I don't like the \"staff engineer archetypes\"",
       "link": "https://seangoedecke.com/staff-engineer-archetypes/",
@@ -266,13 +273,6 @@
       "date": "2026-04-27T22:38:38Z",
       "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Theatre Review: Hadestown ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-hadestown/",
-      "date": "2026-04-27T11:34:27Z",
-      "summary": "Anaïs Mitchell has created something magical. I felt like giving a standing ovation after every song. Just pure theatrical joy delivered by a cast who know how to squeeze every drop of emotion from…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Reading List 04/25/26",
