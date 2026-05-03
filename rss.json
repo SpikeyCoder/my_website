@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T21:21:46.432034Z",
+  "generated_at": "2026-05-03T22:20:38.266169Z",
   "items": [
     {
       "title": "The shape of a guitar pick",
@@ -35,6 +35,13 @@
       "date": "2026-05-03T00:00:00Z",
       "summary": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out…",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "png-cmp: like cmp for PNGs",
+      "link": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
+      "date": "2026-05-03T00:00:00Z",
+      "summary": "png-cmp is a program I built that checks if two PNGs are visually equivalent. It’s inspired by the cmp command . Here’s how you use it: png-cmp a.png b.png Like cmp , it silently exits if the images…",
+      "source": "evanhahn.com"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
@@ -273,13 +280,6 @@
       "date": "2026-04-28T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "The Loop: everything has happened before, and everything will happen again",
-      "link": "https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/",
-      "date": "2026-04-27T22:38:38Z",
-      "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
-      "source": "joanwestenberg.com"
     }
   ]
 }
