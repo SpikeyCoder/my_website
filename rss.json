@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T12:28:43.517559Z",
+  "generated_at": "2026-05-03T13:36:59.662288Z",
   "items": [
     {
       "title": "Vertically Aligning Roman Numerals in Code",
@@ -14,6 +14,13 @@
       "date": "2026-05-03T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Minimal Viable Zig Error Contexts",
+      "link": "https://matklad.github.io/2026/05/03/zig-error-context.html",
+      "date": "2026-05-03T00:00:00Z",
+      "summary": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out…",
+      "source": "matklad.github.io"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
@@ -273,13 +280,6 @@
       "date": "2026-04-27T22:38:38Z",
       "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Reading List 04/25/26",
-      "link": "https://www.construction-physics.com/p/reading-list-042526",
-      "date": "2026-04-25T14:16:17Z",
-      "summary": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
