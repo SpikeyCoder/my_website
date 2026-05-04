@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-04T10:49:10.572928Z",
+  "generated_at": "2026-05-04T11:40:48.738468Z",
   "items": [
+    {
+      "title": "[RSS Club] Where are you from?",
+      "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
+      "date": "2026-05-04T11:34:40Z",
+      "summary": "Psssst! This top secret post is only available to RSS subscribers! A little while ago I added some locally hosted, privacy first stats to my blog. Using an offline GeoIP service I can get a very…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Package Manager CWEs",
       "link": "https://nesbitt.io/2026/05/04/package-manager-cwes.html",
@@ -245,13 +252,6 @@
       "date": "2026-04-29T14:00:00Z",
       "summary": "Please, not everybody, everything all at once. The post Developing a cross-process reader/writer lock with limited readers, part 2: Taking turns when being grabby appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Let's Get Digging!",
-      "link": "https://shkspr.mobi/blog/2026/04/lets-get-digging/",
-      "date": "2026-04-29T11:34:23Z",
-      "summary": "As part of my quest to try new things I decided to dig for treasure in my local park. The wonderful folks at DigVentures allow members of the public to assist with archaeology projects in their local…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "On wintering.",
