@@ -1,9 +1,17 @@
+import { timingSafeEqual } from "./timing_safe.ts";
+
 interface BookingTokenPayload {
   email: string;
   exp: number;
 }
 
-const TOKEN_TTL_SECONDS = 31449600; // 364 days
+// Single source of truth for booking-token + cookie lifetime. _shared/booking.ts
+// imports BOOKING_TTL_SECONDS so the cookie Max-Age cannot drift away from the
+// signed-token expiry. See pentest 2026-05-04 finding KA-2026-05-04-03.
+export const BOOKING_TTL_SECONDS = 30 * 24 * 60 * 60; // 30 days
+
+// Backwards-compatible alias preserved for any external import.
+export const TOKEN_TTL_SECONDS = BOOKING_TTL_SECONDS;
 
 function toBase64Url(input: Uint8Array): string {
   let output = "";
@@ -73,7 +81,9 @@ export async function verifyBookingToken(token: string | null): Promise<BookingT
   if (!encodedPayload || !signature) return null;
 
   const expected = await sign(encodedPayload, getSecret());
-  if (expected !== signature) return null;
+  // Constant-time compare avoids leaking the HMAC tag one byte at a time
+  // through wall-clock timing. Pentest 2026-05-04 finding KA-2026-05-04-02.
+  if (!timingSafeEqual(expected, signature)) return null;
 
   const payloadRaw = new TextDecoder().decode(fromBase64Url(encodedPayload));
   const payload = JSON.parse(payloadRaw) as BookingTokenPayload;
