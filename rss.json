@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-04T13:43:59.692730Z",
+  "generated_at": "2026-05-04T14:53:24.810225Z",
   "items": [
+    {
+      "title": "ScopeXR — Cataract Surgery Using Apple Vision Pro Mixed Reality",
+      "link": "https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html",
+      "date": "2026-05-04T14:37:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "John Sterling, Beloved Longtime Yankees Radio Voice, Passes at 87",
+      "link": "https://www.mlb.com/news/john-sterling-passes-away",
+      "date": "2026-05-04T14:30:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Redis array type: short story of a long development",
+      "link": "http://antirez.com/news/164",
+      "date": "2026-05-04T14:21:45Z",
+      "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
+      "source": "antirez.com"
+    },
     {
       "title": "[RSS Club] Where are you from?",
       "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
@@ -23,25 +44,18 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "★ Crimes Against Decency Need as Much Cover-Up as Crimes Against the Law",
-      "link": "https://daringfireball.net/2026/05/crimes_against_decency_need_as_much_cover-up_as_crimes_against_the_law",
-      "date": "2026-05-04T01:51:06Z",
-      "summary": "There is no point getting any more outraged or disgusted at Meta for firing the Kenyan contractors who exposed the privacy fiasco of AI Glasses than you already were in the first place. They had to…",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘2 Letters From Steve’",
-      "link": "https://davidgelphman.wordpress.com/2013/03/29/2-letters-from-steve/",
-      "date": "2026-05-04T00:38:33Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "X, the Platform of Free Speech",
       "link": "https://bsky.app/profile/gilduran.com/post/3mky5taqg3222",
       "date": "2026-05-04T00:16:39Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Content for Content’s Sake",
+      "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
+      "date": "2026-05-04T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "The shape of a guitar pick",
@@ -266,20 +280,6 @@
       "date": "2026-04-28T00:00:00Z",
       "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…",
       "source": "ericmigi.com"
-    },
-    {
-      "title": "Ghostty Is Leaving GitHub",
-      "link": "https://mitchellh.com/writing/ghostty-leaving-github",
-      "date": "2026-04-28T00:00:00Z",
-      "summary": "",
-      "source": "mitchellh.com"
-    },
-    {
-      "title": "Before GitHub",
-      "link": "https://lucumr.pocoo.org/2026/4/28/before-github/",
-      "date": "2026-04-28T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
