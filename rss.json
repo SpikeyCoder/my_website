@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-04T19:39:26.488414Z",
+  "generated_at": "2026-05-04T20:37:20.476718Z",
   "items": [
+    {
+      "title": "‘Noir, Japan’s Hard-Boiled Bittersweet Answer to Oreos’",
+      "link": "https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the",
+      "date": "2026-05-04T19:48:49Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern)",
       "link": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
@@ -12,13 +19,6 @@
       "title": "Anthropic Executive, One Year Ago: Fully AI Employees Are a Year Away",
       "link": "https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security",
       "date": "2026-05-04T18:36:09Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Commits on GitHub Are Up 14× Year-Over-Year",
-      "link": "https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder",
-      "date": "2026-05-04T18:19:33Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -42,6 +42,13 @@
       "date": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
       "source": "antirez.com"
+    },
+    {
+      "title": "How do I inform Windows that I’m writing a binary file?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260504-00/?p=112296",
+      "date": "2026-05-04T14:00:00Z",
+      "summary": "You don't. All files are binary at the file system level. The post How do I inform Windows that I’m writing a binary file? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "[RSS Club] Where are you from?",
@@ -259,13 +266,6 @@
       "date": "2026-04-29T17:00:00Z",
       "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Developing a cross-process reader/writer lock with limited readers, part 2: Taking turns when being grabby",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260429-00/?p=112286",
-      "date": "2026-04-29T14:00:00Z",
-      "summary": "Please, not everybody, everything all at once. The post Developing a cross-process reader/writer lock with limited readers, part 2: Taking turns when being grabby appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "On wintering.",
