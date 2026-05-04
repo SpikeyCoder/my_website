@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-04T15:49:45.472308Z",
+  "generated_at": "2026-05-04T16:42:28.315938Z",
   "items": [
     {
-      "title": "ScopeXR — Cataract Surgery Using Apple Vision Pro Mixed Reality",
-      "link": "https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html",
-      "date": "2026-05-04T15:03:36Z",
+      "title": "Commits on GitHub Are Up 14× Year-Over-Year",
+      "link": "https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder",
+      "date": "2026-05-04T16:23:58Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Commits on GitHub Are Up 14× Year Over Year",
-      "link": "https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder",
-      "date": "2026-05-04T15:01:01Z",
+      "title": "ScopeXR — Cataract Surgery Using Apple Vision Pro Mixed Reality",
+      "link": "https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html",
+      "date": "2026-05-04T15:03:36Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,13 +28,6 @@
       "date": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
       "source": "antirez.com"
-    },
-    {
-      "title": "[RSS Club] Where are you from?",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
-      "date": "2026-05-04T11:34:40Z",
-      "summary": "Psssst! This top secret post is only available to RSS subscribers! A little while ago I added some locally hosted, privacy first stats to my blog. Using an offline GeoIP service I can get a very…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Package Manager CWEs",
@@ -70,13 +63,6 @@
       "date": "2026-05-03T15:13:23Z",
       "summary": "We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Vertically Aligning Roman Numerals in Code",
-      "link": "https://shkspr.mobi/blog/2026/05/vertically-aligning-roman-numerals-in-code/",
-      "date": "2026-05-03T11:34:59Z",
-      "summary": "I have a PHP function which uses Roman Numerals. It looks like this: $romanNumerals = [ \"Ⅿ\" => 1000, \"ⅭⅯ\" => 900, \"Ⅾ\" => 500, \"ⅭⅮ\" => 400, \"Ⅽ\" => 100, \"ⅩC\" => 90, \"Ⅼ\" => 50, \"ⅩⅬ\" => 40, \"Ⅹ\" => 10,…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Why I don't like the \"staff engineer archetypes\"",
@@ -168,13 +154,6 @@
       "date": "2026-05-01T14:00:00Z",
       "summary": "Recovering from death of the owner. The post Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "NHS Goes To War Against Open Source",
-      "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
-      "date": "2026-05-01T11:44:04Z",
-      "summary": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I championed Open Source. I spoke to…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Patching and forking in package managers",
@@ -280,6 +259,27 @@
       "date": "2026-04-28T00:00:00Z",
       "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…",
       "source": "ericmigi.com"
+    },
+    {
+      "title": "Ghostty Is Leaving GitHub",
+      "link": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
+    },
+    {
+      "title": "Before GitHub",
+      "link": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "The Loop: everything has happened before, and everything will happen again",
+      "link": "https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/",
+      "date": "2026-04-27T22:38:38Z",
+      "summary": "We keep replaying the same human mistakes -bubbles, strongmen, scapegoats, and panics -because the operating system in our skulls hasn’t updated in ten thousand years.",
+      "source": "joanwestenberg.com"
     }
   ]
 }
