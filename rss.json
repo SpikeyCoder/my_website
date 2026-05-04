@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-04T18:44:09.142544Z",
+  "generated_at": "2026-05-04T19:39:26.488414Z",
   "items": [
+    {
+      "title": "Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern)",
+      "link": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
+      "date": "2026-05-04T19:13:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Anthropic Executive, One Year Ago: Fully AI Employees Are a Year Away",
       "link": "https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security",
@@ -28,13 +35,6 @@
       "date": "2026-05-04T15:53:57Z",
       "summary": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT , ARDEL , ARDELRANGE , ARGET , ARGETRANGE , ARGREP , ARINFO ,…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "ScopeXR — Cataract Surgery Using Apple Vision Pro Mixed Reality",
-      "link": "https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html",
-      "date": "2026-05-04T15:03:36Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Redis array type: short story of a long development",
