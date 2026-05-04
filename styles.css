@@ -729,14 +729,18 @@ textarea {
 }
 
 .pill {
+  /* a11y: bumped to min-height 44px for WCAG 2.5.8 touch target. */
+  min-height: 44px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--panel-2);
-  padding: 8px 14px;
+  padding: 10px 16px;
   cursor: pointer;
   font-weight: 600;
   font-size: 0.85rem;
   color: var(--ink);
+  display: inline-flex;
+  align-items: center;
 }
 
 .pill.active {
@@ -1636,8 +1640,9 @@ a.project-card:focus-visible {
 
 .social-icon-btn,
 .social-share-btn {
-  height: 40px;
-  min-width: 40px;
+  /* a11y: bumped from 40px to 44px to satisfy WCAG 2.5.8 minimum touch target. */
+  height: 44px;
+  min-width: 44px;
   border-radius: 10px;
   border: 1px solid transparent;
   display: inline-flex;
