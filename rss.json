@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-04T17:38:56.847819Z",
+  "generated_at": "2026-05-04T18:44:09.142544Z",
   "items": [
+    {
+      "title": "Anthropic Executive, One Year Ago: Fully AI Employees Are a Year Away",
+      "link": "https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security",
+      "date": "2026-05-04T18:36:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Commits on GitHub Are Up 14× Year-Over-Year",
       "link": "https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder",
-      "date": "2026-05-04T16:23:58Z",
+      "date": "2026-05-04T18:19:33Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "TRE Python binding — ReDoS robustness demo",
+      "link": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "date": "2026-05-04T17:52:00Z",
+      "summary": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Redis Array Playground",
@@ -19,13 +33,6 @@
       "title": "ScopeXR — Cataract Surgery Using Apple Vision Pro Mixed Reality",
       "link": "https://www.prnewswire.com/news-releases/sightmds-dr-eric-rosenberg-becomes-first-surgeon-in-the-world-to-perform-cataract-surgery-using-apple-vision-pro-mixed-reality-302754311.html",
       "date": "2026-05-04T15:03:36Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "John Sterling, Beloved Longtime Yankees Radio Voice, Passes at 87",
-      "link": "https://www.mlb.com/news/john-sterling-passes-away",
-      "date": "2026-05-04T14:30:54Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -112,13 +119,6 @@
       "date": "2026-05-02T17:30:35.136000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "Sightings",
-      "link": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
-      "date": "2026-05-02T17:26:40Z",
-      "summary": "/elsewhere/sightings/ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of birds. I share my best wildlife photos on iNaturalist , and based on yesterday's successful prototype…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Reading List 05/02/2026",
