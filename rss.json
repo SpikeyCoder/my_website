@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-04T21:30:39.395802Z",
+  "generated_at": "2026-05-04T22:27:54.440212Z",
   "items": [
+    {
+      "title": "AI didn't delete your database, you did",
+      "link": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed",
+      "date": "2026-05-04T22:25:00Z",
+      "summary": "Last week, a tweet went viral showing a guy claiming that a Cursor/Claude agent deleted his company's production database . We watched from the sidelines as he tried to get a confession from the…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Google Owns a Big Chunk of Anthropic",
+      "link": "https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7",
+      "date": "2026-05-04T21:40:32Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "App Store Search Ads and the Slippery Slope",
       "link": "https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten",
@@ -12,13 +26,6 @@
       "title": "‘Noir, Japan’s Hard-Boiled Bittersweet Answer to Oreos’",
       "link": "https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the",
       "date": "2026-05-04T19:48:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern)",
-      "link": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
-      "date": "2026-05-04T19:13:06Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -252,13 +259,6 @@
       "date": "2026-04-30T00:00:00Z",
       "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Have You Seen the New Excel?",
-      "link": "https://idiallo.com/blog/have-you-seen-the-new-xl-ai-parody?src=feed",
-      "date": "2026-04-29T23:40:00Z",
-      "summary": "Stop coding. Stop hiring. Stop building. While the tech world obsesses over large language models and neural networks, I discovered the real disruptor that has been hiding in plain sight. Mine was…",
-      "source": "idiallo.com"
     },
     {
       "title": "Raspberry Pi Connect may control Windows soon",
