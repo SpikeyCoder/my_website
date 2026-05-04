@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-04T09:58:09.810999Z",
+  "generated_at": "2026-05-04T10:49:10.572928Z",
   "items": [
+    {
+      "title": "Package Manager CWEs",
+      "link": "https://nesbitt.io/2026/05/04/package-manager-cwes.html",
+      "date": "2026-05-04T10:00:00Z",
+      "summary": "Recurring weakness classes in package managers",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Demand destruction vs fuel-superceding infrastructure (04 May 2026)",
       "link": "https://pluralistic.net/2026/05/04/hope-in-the-dark/",
@@ -203,13 +210,6 @@
       "date": "2026-04-30T12:03:35Z",
       "summary": "Though wind and solar continue to carve out larger and larger shares of world energy supply, the modern world still runs on petroleum, and will continue to do so for the foreseeable future.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Announcing the 2026 Open Source Fantasy Draft",
-      "link": "https://nesbitt.io/2026/04/30/open-source-fantasy-draft.html",
-      "date": "2026-04-30T10:00:00Z",
-      "summary": "Twelve teams, snake draft, standard scoring, no salary cap",
-      "source": "nesbitt.io"
     },
     {
       "title": "You’re probably taking the wrong painkiller",
