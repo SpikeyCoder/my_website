@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-04T22:27:54.440212Z",
+  "generated_at": "2026-05-04T23:25:21.364266Z",
   "items": [
+    {
+      "title": "Paul Thurrott Might Write a Book on Markdown",
+      "link": "https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&utm_medium=mastodon",
+      "date": "2026-05-04T23:11:50Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Andy Masley",
+      "link": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
+      "date": "2026-05-04T22:51:09Z",
+      "summary": "[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "★ Y Combinator’s Stake in OpenAI",
+      "link": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "date": "2026-05-04T22:47:01Z",
+      "summary": "The fact that Paul Graham personally has billions of dollars at stake with OpenAI doesn’t mean that his public opinion on Sam Altman’s trustworthiness and leadership is invalid. But it certainly…",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "April 2026 newsletter",
+      "link": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+      "date": "2026-05-04T22:38:36Z",
+      "summary": "I just sent out the April edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: Opus 4.7 and…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "AI didn't delete your database, you did",
       "link": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed",
@@ -16,31 +44,10 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "App Store Search Ads and the Slippery Slope",
-      "link": "https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten",
-      "date": "2026-05-04T21:09:42Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘Noir, Japan’s Hard-Boiled Bittersweet Answer to Oreos’",
-      "link": "https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the",
-      "date": "2026-05-04T19:48:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "TRE Python binding — ReDoS robustness demo",
       "link": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
       "date": "2026-05-04T17:52:00Z",
       "summary": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Redis Array Playground",
-      "link": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
-      "date": "2026-05-04T15:53:57Z",
-      "summary": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT , ARDEL , ARDELRANGE , ARGET , ARGETRANGE , ARGREP , ARINFO ,…",
       "source": "simonwillison.net"
     },
     {
@@ -91,13 +98,6 @@
       "date": "2026-05-03T20:49:41Z",
       "summary": "I saw a post on X that plotted the function (log x)² + (log y)² = 1. Of course the plot of x² + y² = 1 is a circle, but I never thought what taking logs would do to the shape. Here’s what the…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quoting Anthropic",
-      "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-      "date": "2026-05-03T15:13:23Z",
-      "summary": "We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Vertically Aligning Roman Numerals in Code",
