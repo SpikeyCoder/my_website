@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-05-05T00:58:11.121766Z",
+  "generated_at": "2026-05-05T01:43:50.372875Z",
   "items": [
+    {
+      "title": "★ Y Combinator’s Stake in OpenAI",
+      "link": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "date": "2026-05-05T01:12:37Z",
+      "summary": "The fact that Paul Graham personally has billions of dollars at stake with OpenAI doesn’t mean that his public opinion on Sam Altman’s trustworthiness and leadership is invalid. But it certainly…",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Google Owns a Big Chunk of Anthropic",
+      "link": "https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7",
+      "date": "2026-05-05T01:12:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Paul Thurrott Might Write a Book on Markdown",
       "link": "https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&utm_medium=mastodon",
-      "date": "2026-05-05T00:56:32Z",
+      "date": "2026-05-05T01:00:28Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -30,25 +44,11 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "★ Y Combinator’s Stake in OpenAI",
-      "link": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
-      "date": "2026-05-04T22:47:01Z",
-      "summary": "The fact that Paul Graham personally has billions of dollars at stake with OpenAI doesn’t mean that his public opinion on Sam Altman’s trustworthiness and leadership is invalid. But it certainly…",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "AI didn't delete your database, you did",
       "link": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed",
       "date": "2026-05-04T22:25:00Z",
       "summary": "Last week, a tweet went viral showing a guy claiming that a Cursor/Claude agent deleted his company's production database . We watched from the sidelines as he tried to get a confession from the…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Google Owns a Big Chunk of Anthropic",
-      "link": "https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7",
-      "date": "2026-05-04T21:40:32Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Redis array type: short story of a long development",
