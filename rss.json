@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-05T09:46:20.254091Z",
+  "generated_at": "2026-05-05T10:40:50.997919Z",
   "items": [
+    {
+      "title": "Package Manager Threat Models",
+      "link": "https://nesbitt.io/2026/05/05/package-manager-threat-models.html",
+      "date": "2026-05-05T10:00:00Z",
+      "summary": "The non-CVE half of package manager security",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Outrage is letting someone else set the frame",
       "link": "https://www.joanwestenberg.com/outrag/",
@@ -196,13 +203,6 @@
       "date": "2026-05-01T11:44:04Z",
       "summary": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I championed Open Source. I spoke to…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Patching and forking in package managers",
-      "link": "https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html",
-      "date": "2026-05-01T10:00:00Z",
-      "summary": "What to do when upstream ghosts you",
-      "source": "nesbitt.io"
     },
     {
       "title": "Approximating even functions by powers of cosine",
