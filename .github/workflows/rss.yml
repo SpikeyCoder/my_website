@@ -33,15 +33,23 @@ jobs:
           python scripts/build_rss.py
           python scripts/build_blog_share_routes.py
 
+      - name: Recompute CSP inline-script hashes
+        # The RSS-seed inline <script type="application/json"> block in
+        # index.html mutates daily as feeds update; its sha256 hash must be
+        # refreshed in _worker_csp_hashes.js so the strict CSP allowlist
+        # tracks reality. Pen-test 2026-05-05 finding KA-2026-05-05-01.
+        run: |
+          python scripts/compute_csp_hashes.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rss.json index.html blog goingvegan/blog
+          git add rss.json index.html blog goingvegan/blog _worker_csp_hashes.js
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Update RSS cache and blog routes"
+          git commit -m "Update RSS cache, blog routes, and CSP hashes"
           git pull --rebase origin main
           git push
