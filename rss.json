@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T15:44:50.811968Z",
+  "generated_at": "2026-05-05T16:42:47.603913Z",
   "items": [
     {
       "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
@@ -58,24 +58,24 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "datasette-llm 0.1a7",
+      "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
+      "date": "2026-05-05T01:56:55Z",
+      "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "llm-echo 0.5a0",
+      "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
+      "date": "2026-05-05T01:31:54Z",
+      "summary": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for…",
+      "source": "simonwillison.net"
+    },
+    {
       "title": "Quoting John Gruber",
       "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
       "date": "2026-05-05T00:46:29Z",
       "summary": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Granite 4.1 3B SVG Pelican Gallery",
-      "link": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
-      "date": "2026-05-04T23:49:24Z",
-      "summary": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Andy Masley",
-      "link": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
-      "date": "2026-05-04T22:51:09Z",
-      "summary": "[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left.…",
       "source": "simonwillison.net"
     },
     {
