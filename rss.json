@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-05T05:11:49.824647Z",
+  "generated_at": "2026-05-05T06:58:43.495661Z",
   "items": [
+    {
+      "title": "Outrage is letting someone else set the frame",
+      "link": "https://www.joanwestenberg.com/outrag/",
+      "date": "2026-05-05T06:20:33Z",
+      "summary": "William Randolph Hearst bought the New York Morning Journal in 1895 - and immediately started running stories designed to make his readers furious before they’d finished their breakfast. The pages…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "[Sponsor] WorkOS: Ready to Sell to Enterprise? Your Product Is Ready, Your Auth Infrastructure Isn’t.",
       "link": "https://workos.com/?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
@@ -273,13 +280,6 @@
       "date": "2026-04-29T01:54:43Z",
       "summary": "The winterer is out of the loop; they're not maintaining a position because they don't have a position to maintain. They can do work that takes longer than a quarter, longer than a year, longer than…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Spring 2026 Dev Contest Results!",
-      "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
-      "date": "2026-04-28T00:00:00Z",
-      "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…",
-      "source": "ericmigi.com"
     }
   ]
 }
