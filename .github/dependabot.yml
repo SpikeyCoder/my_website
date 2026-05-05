@@ -9,18 +9,3 @@ updates:
       time: "09:00"
       timezone: "America/Los_Angeles"
     open-pull-requests-limit: 5
-
-  # Python scripts under /scripts (build_rss, generate_sitemap, etc.)
-  - package-ecosystem: "pip"
-    directory: "/scripts"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-      timezone: "America/Los_Angeles"
-    open-pull-requests-limit: 5
-    groups:
-      minor-and-patch:
-        update-types:
-          - "minor"
-          - "patch"
