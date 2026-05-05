@@ -76,26 +76,28 @@ function isBlocked(pathname) {
 // Security headers
 // ---------------------------------------------------------------------------
 
-// We ship two CSP strings:
+// CSP — single source of truth, enforced by the Worker.
 //
-//   CONTENT_SECURITY_POLICY
-//     Mirrors the current <meta http-equiv> policy in index.html so the
-//     enforced policy (still delivered via the meta tag) and any non-report
-//     header use are byte-identical. Includes 'unsafe-inline' on script-src
-//     and style-src — that's the residual Medium finding (KA-2026-05-05-01).
+// History:
+//   - Pre-2026-05-05: CSP shipped as a <meta http-equiv> tag inside index.html
+//     and 404.html, with 'unsafe-inline' in script-src to support inline
+//     blocks (JSON-LD, RSS-seed, blog watchdog, RSS-list toggle).
+//   - PR #23 (2026-05-05): Worker added a Content-Security-Policy-Report-Only
+//     header that mirrored the meta tag, so the migration from meta -> header
+//     could be staged.
+//   - PR #24: externalised the two executable inline scripts (blog-loading
+//     watchdog and RSS-list toggle) to same-origin .js files, so the only
+//     remaining inline <script> content is non-executable data islands
+//     (JSON-LD org schema, RSS-seed JSON, per-post JSON-LD).
+//   - PR #25: introduced scripts/compute_csp_hashes.py and the
+//     auto-generated _worker_csp_hashes.js, so each remaining inline data
+//     island is permitted by exact sha256 hash without needing
+//     'unsafe-inline'. Refreshed daily by .github/workflows/rss.yml.
+//   - PR #26 (this commit): flips the Worker to ENFORCE the strict policy
+//     (no 'unsafe-inline' on script-src) and removes the now-redundant
+//     <meta http-equiv> tag from index.html and 404.html.
 //
-//   CONTENT_SECURITY_POLICY_REPORT
-//     The *future* policy we want to flip enforcement to. Differences vs
-//     CONTENT_SECURITY_POLICY:
-//       - script-src has NO 'unsafe-inline' (the goal of KA-2026-05-05-01).
-//
-//     Shipped as Content-Security-Policy-Report-Only so real browsers send
-//     violation reports for every inline <script> still on the site. PR #24
-//     externalises the two executable inline blocks; the residual inline
-//     <script type=application/ld+json> + <script type=application/json>
-//     data islands will be permitted via sha256 hashes added by PR #25.
-//     PR #26 then renames Report-Only → Content-Security-Policy and drops
-//     the <meta> tag.
+// Pen-test 2026-05-05 finding KA-2026-05-05-01 — RESOLVED.
 const _CSP_BASE = [
   "default-src 'self'",
   "style-src 'self' 'unsafe-inline'",
@@ -117,11 +119,6 @@ const _CSP_BASE = [
 ];
 
 const CONTENT_SECURITY_POLICY = [
-  ..._CSP_BASE,
-  "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://gc.zgo.at",
-].join('; ');
-
-const CONTENT_SECURITY_POLICY_REPORT = [
   ..._CSP_BASE,
   // No 'unsafe-inline' here. PR #25 will join in the build-time-computed
   // sha256 hash list (one per remaining inline <script> data island) and
@@ -150,10 +147,10 @@ const SECURITY_HEADERS = {
   'Permissions-Policy':
     'camera=(), microphone=(), geolocation=(), interest-cohort=()',
   'Cross-Origin-Opener-Policy': 'same-origin',
-  // Report-only for the staging window. Flip to 'Content-Security-Policy'
-  // once KA-2026-05-05-01 ships and the <meta> tag is removed from
-  // index.html.
-  'Content-Security-Policy-Report-Only': CONTENT_SECURITY_POLICY_REPORT,
+  // Enforced. The strict policy (no 'unsafe-inline' on script-src)
+  // is now the live security boundary; the meta tag has been removed from
+  // index.html and 404.html in this PR.
+  'Content-Security-Policy': CONTENT_SECURITY_POLICY,
 };
 
 // Only attach security headers to HTML / SVG document responses. Static
