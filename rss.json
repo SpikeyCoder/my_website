@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-05T11:34:59.444194Z",
+  "generated_at": "2026-05-05T12:38:31.923553Z",
   "items": [
+    {
+      "title": "Pluralistic: The three armies fighting for the post-American world (05 May 2026)",
+      "link": "https://pluralistic.net/2026/05/05/three-is-a-magic-number/",
+      "date": "2026-05-05T12:31:41Z",
+      "summary": "Today's links The three armies fighting for the post-American world: Hippies, investors and hawks. Hey look at this: Delights to delectate. Object permanence: NK dictator's son v Tokyo Disneyland;…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "RSS Feeds Send Me More Traffic Than Google",
+      "link": "https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/",
+      "date": "2026-05-05T11:34:12Z",
+      "summary": "Yeah yeah, I know, data-point of 1. I recently read Susam's blog post where they said that \"most of the traffic to my personal website still comes from web feeds\" - I wondered if that was true for my…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Package Manager Threat Models",
       "link": "https://nesbitt.io/2026/05/05/package-manager-threat-models.html",
@@ -198,13 +212,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "NHS Goes To War Against Open Source",
-      "link": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
-      "date": "2026-05-01T11:44:04Z",
-      "summary": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I championed Open Source. I spoke to…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Approximating even functions by powers of cosine",
       "link": "https://www.johndcook.com/blog/2026/04/30/burmanns-theorem/",
       "date": "2026-05-01T00:06:12Z",
@@ -224,13 +231,6 @@
       "date": "2026-04-30T14:51:08Z",
       "summary": "When a function is not differentiable in the classical sense there are multiple ways to compute a generalized derivative. This post will look at three generalizations of the classical derivative,…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Pluralistic: How not to ban surveillance pricing (30 Apr 2026)",
-      "link": "https://pluralistic.net/2026/04/30/something-must-be-done/",
-      "date": "2026-04-30T14:38:35Z",
-      "summary": "Today's links How not to ban surveillance pricing: Maryland's new consumer protection law is all loophole. Hey look at this: Delights to delectate. Object permanence: Google's 8,000 Linux servers;…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
