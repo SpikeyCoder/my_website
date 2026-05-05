@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Should This Feature Use AI? A PM Decision Framework | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Not every product needs machine learning. Here is a clear way for product managers to decide when AI helps and when a simple rule wins." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Should This Feature Use AI? A PM Decision Framework" />
+    <meta property="og:description" content="Not every product needs machine learning. Here is a clear way for product managers to decide when AI helps and when a simple rule wins." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-05T03:42:15.585202+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Should This Feature Use AI? A PM Decision Framework" />
+    <meta name="twitter:description" content="Not every product needs machine learning. Here is a clear way for product managers to decide when AI helps and when a simple rule wins." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Should This Feature Use AI? A PM Decision Framework", "description": "Not every product needs machine learning. Here is a clear way for product managers to decide when AI helps and when a simple rule wins.", "url": "https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/"}, "datePublished": "2026-05-05T03:42:15.585202+00:00", "dateModified": "2026-05-05T03:42:15.585202+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Should This Feature Use AI? A PM Decision Framework</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/" data-share-copy-url="https://kevinarmstrong.io/blog/should-this-feature-use-ai-a-pm-decision-framework/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Not every product needs machine learning. Here is a clear way for product managers to decide when AI helps and when a simple rule wins.</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 5, 2026 • 5 min read • ai-product-management, pm-interviews, decision-frameworks</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <h2>The Question Behind the Question</h2>
+            <p>Every PM team faces it now. A leader asks for AI, often without saying why. The pressure feels real because the market funds AI features. But many teams ship AI when a simple rule would do the same job.</p>
+            <p>This is the heart of a strong PM interview answer. Top PM thinkers warn against tech for tech&#x27;s sake. As Marty Cagan writes, the goal is solving customer problems, not stuffing models into a roadmap (Cagan 47). Teresa Torres pushes the same point with her opportunity solution tree model. Start with the problem before you pick the tool (Torres 23).</p>
+            <h2>A Two-Question Filter</h2>
+            <p>Before you build any AI feature, ask two simple questions.</p>
+            <p><strong>One: Is the rule too complex to write down?</strong> Some problems break clean rules. Spam looks like a thousand things. Image content shifts every minute. A user&#x27;s next click depends on hundreds of small signals. These cases need a model. Other problems fit clean rules. Tax code, return windows, password rules. These do not need ML. They need clear logic.</p>
+            <p><strong>Two: Is the cost of being wrong low or recoverable?</strong> AI gets things wrong. A model can hit 95% accuracy and still hurt users 5% of the time. For low-stakes content like ad ranking, that error is fine. For high-stakes work like medical alerts or trade orders, it is not. A simple rule may help build trust.</p>
+            <p>If the answer is yes to both, AI may fit. If the answer is no to either, look at rules first.</p>
+            <h2>The Hidden Cost Curve</h2>
+            <p>PMs often forget the long tail of cost. Lenny Rachitsky talks about this in his writing on shipping AI features (Rachitsky). A model needs labeled data, retraining cycles, drift checks, and on-call support. Each adds load to the team. Rules need none of that.</p>
+            <p>So the question is not, &quot;Could AI work here?&quot; The question is, &quot;Will AI pay back its cost over time?&quot; If the use case is small or short-lived, the cost may sink the project.</p>
+            <h2>When AI Wins</h2>
+            <p>AI shines in three patterns.</p>
+            <p><strong>Personalization at scale.</strong> Think Spotify radio, Amazon home page, or a learning app&#x27;s lesson order. Each user wants a different output. No rule set can keep up.</p>
+            <p><strong>Pattern detection in messy data.</strong> Think fraud, churn risk, or image search. Humans can spot the pattern in one case. They cannot label every case fast enough.</p>
+            <p><strong>Ranking and recommendations.</strong> Think search, feed sort, or product match. The best answer depends on user signals that change every day.</p>
+            <p>In each pattern, the cost of a wrong call is small. The user moves on. The system learns. The next call gets better.</p>
+            <h2>When Rules Win</h2>
+            <p>Rules win when the input space is small, the rules are stable, and the cost of error is high.</p>
+            <p><strong>Compliance flows.</strong> A rule says, &quot;block transfer over $10,000 to a new account.&quot; That is the law. AI here would just add risk.</p>
+            <p><strong>Onboarding states.</strong> A rule says, &quot;if email is verified and profile is filled, mark active.&quot; Clear inputs, clear outputs.</p>
+            <p><strong>Safety alerts.</strong> A rule says, &quot;alert if temperature is over 100 for 10 minutes.&quot; Doctors trust that. They do not trust a model they cannot read.</p>
+            <p>Jeff Gothelf makes this point in his work on lean PM thinking. The simplest tool that meets the user&#x27;s need is the right tool (Gothelf 89). Adding a model when a rule will do is waste.</p>
+            <h2>A Framework for the Whiteboard</h2>
+            <p>In an interview, lay out four steps.</p>
+            <ol>
+            <li><strong>Define the user problem.</strong> State it in one line.</li>
+            <li><strong>List the inputs.</strong> Are they small and stable, or wide and shifting?</li>
+            <li><strong>List the cost of error.</strong> Is the cost low and recoverable, or high and lasting?</li>
+            <li><strong>Pick the tool.</strong> Use a rule when inputs are stable and cost is high. Use AI when inputs shift and cost is low.</li>
+            </ol>
+            <p>Then add one more step: <strong>the build cost check.</strong> AI brings ongoing cost in data, ops, and trust. Rules cost less. Choose the cheaper tool when both can do the work.</p>
+            <h2>Common Traps</h2>
+            <p>Watch out for four common errors in PM interviews.</p>
+            <p><strong>Trap one: AI as a default.</strong> Saying, &quot;we&#x27;ll use AI&quot; without a reason loses points. Say why the problem needs it.</p>
+            <p><strong>Trap two: Skipping the rule baseline.</strong> Always plan a rule-based v1. It sets a floor and helps the model prove its value later.</p>
+            <p><strong>Trap three: Ignoring failure modes.</strong> Plan for the wrong call. Show how the system catches it, undoes it, or asks the user.</p>
+            <p><strong>Trap four: No success metric.</strong> Better is not a metric. Pick one number, like click rate, time saved, or false positive rate.</p>
+            <h2>A Sample Interview Answer</h2>
+            <p>If asked, &quot;When would you use AI in a checkout flow?&quot; a strong answer goes:</p>
+            <p>&quot;Most of checkout is rule-based. Tax math, shipping zones, and stock checks all have clear logic. AI fits when the problem has wide inputs and low cost of error. So I would use AI for fraud risk scoring, since the inputs are messy and the user can re-try if blocked. I would not use AI for the final charge step, since the cost of a wrong charge is high and the rule is clear.&quot;</p>
+            <p>That answer hits user value, scope, and risk in three short beats.</p>
+            <h2>The Bottom Line</h2>
+            <p>AI is a tool. It is not a product. Strong PMs choose the tool that fits the problem and not the trend. Cagan, Torres, Gothelf, and Rachitsky all push the same point in their work. Start with the user, then pick the tool that costs the least to ship and run (Cagan 47; Torres 23; Gothelf 89; Rachitsky).</p>
+            <p>Use the framework. Ask the two filter questions. Lay out the four steps on the board. Show the build cost check. The interviewer wants a thinker who picks the right tool, not the loudest tool.</p>
+            <h2>Works Cited</h2>
+            <p>Cagan, Marty. <em>Inspired: How to Create Tech Products Customers Love</em>. 2nd ed., Wiley, 2017.</p>
+            <p>Gothelf, Jeff. <em>Lean UX: Designing Great Products with Agile Teams</em>. 3rd ed., O&#x27;Reilly Media, 2021.</p>
+            <p>Rachitsky, Lenny. &quot;How AI Will Change Product Management.&quot; <em>Lenny&#x27;s Newsletter</em>, 2024, www.lennysnewsletter.com.</p>
+            <p>Torres, Teresa. <em>Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value</em>. Product Talk LLC, 2021.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
