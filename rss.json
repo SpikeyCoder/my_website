@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-05T13:43:41.520943Z",
+  "generated_at": "2026-05-05T15:27:54.899368Z",
   "items": [
+    {
+      "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
+      "date": "2026-05-05T14:00:00Z",
+      "summary": "I want to speak to your manager. The post A dispute over the <KBD>TAB</KBD> key highlights a mismatch between Microsoft and IBM organizational structures appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Pluralistic: The three armies fighting for the post-American world (05 May 2026)",
       "link": "https://pluralistic.net/2026/05/05/three-is-a-magic-number/",
@@ -238,13 +245,6 @@
       "date": "2026-04-30T14:04:26Z",
       "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Developing a cross-process reader/writer lock with limited readers, part 3: Fairness",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260430-00/?p=112288",
-      "date": "2026-04-30T14:00:00Z",
-      "summary": "Let the exclusive acquisition have a fair chance against shared acquisitions. The post Developing a cross-process reader/writer lock with limited readers, part 3: Fairness appeared first on The Old…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "How an Oil Refinery Works",
