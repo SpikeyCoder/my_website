@@ -70,14 +70,28 @@ function isBlocked(pathname) {
 // Security headers
 // ---------------------------------------------------------------------------
 
-// Single source of truth for the CSP. Mirrors the current <meta> policy in
-// index.html so the report-only run is comparing apples to apples. When the
-// inline-script-hash work (KA-2026-05-05-01) ships, replace 'unsafe-inline'
-// in script-src with the build-time-computed sha256 list and drop the meta
-// tag in the same PR.
-const CONTENT_SECURITY_POLICY = [
+// We ship two CSP strings:
+//
+//   CONTENT_SECURITY_POLICY
+//     Mirrors the current <meta http-equiv> policy in index.html so the
+//     enforced policy (still delivered via the meta tag) and any non-report
+//     header use are byte-identical. Includes 'unsafe-inline' on script-src
+//     and style-src — that's the residual Medium finding (KA-2026-05-05-01).
+//
+//   CONTENT_SECURITY_POLICY_REPORT
+//     The *future* policy we want to flip enforcement to. Differences vs
+//     CONTENT_SECURITY_POLICY:
+//       - script-src has NO 'unsafe-inline' (the goal of KA-2026-05-05-01).
+//
+//     Shipped as Content-Security-Policy-Report-Only so real browsers send
+//     violation reports for every inline <script> still on the site. PR #24
+//     externalises the two executable inline blocks; the residual inline
+//     <script type=application/ld+json> + <script type=application/json>
+//     data islands will be permitted via sha256 hashes added by PR #25.
+//     PR #26 then renames Report-Only → Content-Security-Policy and drops
+//     the <meta> tag.
+const _CSP_BASE = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://gc.zgo.at",
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
   "img-src 'self' data: blob: https:",
@@ -94,6 +108,19 @@ const CONTENT_SECURITY_POLICY = [
   "base-uri 'self'",
   "form-action 'self' https://buy.stripe.com https://calendar.app.google https://*.supabase.co",
   "frame-ancestors 'none'",
+];
+
+const CONTENT_SECURITY_POLICY = [
+  ..._CSP_BASE,
+  "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://gc.zgo.at",
+].join('; ');
+
+const CONTENT_SECURITY_POLICY_REPORT = [
+  ..._CSP_BASE,
+  // No 'unsafe-inline' here. PR #25 will join in the build-time-computed
+  // sha256 hash list (one per remaining inline <script> data island) and
+  // splice it into this directive.
+  "script-src 'self' https://cdn.jsdelivr.net https://gc.zgo.at",
 ].join('; ');
 
 // Other security headers — flat object so headers can be merged into the
@@ -113,7 +140,7 @@ const SECURITY_HEADERS = {
   // Report-only for the staging window. Flip to 'Content-Security-Policy'
   // once KA-2026-05-05-01 ships and the <meta> tag is removed from
   // index.html.
-  'Content-Security-Policy-Report-Only': CONTENT_SECURITY_POLICY,
+  'Content-Security-Policy-Report-Only': CONTENT_SECURITY_POLICY_REPORT,
 };
 
 // Only attach security headers to HTML / SVG document responses. Static
