@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-04T23:25:21.364266Z",
+  "generated_at": "2026-05-05T00:58:11.121766Z",
   "items": [
     {
       "title": "Paul Thurrott Might Write a Book on Markdown",
       "link": "https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&utm_medium=mastodon",
-      "date": "2026-05-04T23:11:50Z",
+      "date": "2026-05-05T00:56:32Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting John Gruber",
+      "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "date": "2026-05-05T00:46:29Z",
+      "summary": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Granite 4.1 3B SVG Pelican Gallery",
+      "link": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+      "date": "2026-05-04T23:49:24Z",
+      "summary": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Quoting Andy Masley",
@@ -23,13 +37,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "April 2026 newsletter",
-      "link": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
-      "date": "2026-05-04T22:38:36Z",
-      "summary": "I just sent out the April edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: Opus 4.7 and…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "AI didn't delete your database, you did",
       "link": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed",
       "date": "2026-05-04T22:25:00Z",
@@ -42,13 +49,6 @@
       "date": "2026-05-04T21:40:32Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "TRE Python binding — ReDoS robustness demo",
-      "link": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
-      "date": "2026-05-04T17:52:00Z",
-      "summary": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Redis array type: short story of a long development",
