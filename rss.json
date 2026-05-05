@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-05-05T22:26:58.148303Z",
+  "generated_at": "2026-05-05T23:24:16.144924Z",
   "items": [
+    {
+      "title": "Changing one character in a PDF",
+      "link": "https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/",
+      "date": "2026-05-05T22:45:26Z",
+      "summary": "I saw a post on X saying Changing a hyphen to an en-dash increases your PDF file size by ~10 bytes. My first thought was that it had something to do with hyphen being an ASCII character and an…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Our AI started a cafe in Stockholm",
       "link": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
       "date": "2026-05-05T22:14:21Z",
-      "summary": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden only this time it's a cafe.…",
+      "summary": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe.…",
       "source": "simonwillison.net"
     },
     {
@@ -231,13 +238,6 @@
       "date": "2026-05-01T00:00:00Z",
       "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer: echo '¿Cómo estás?' | translate # => How are you? It combines a…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Three ways to differentiate ReLU",
-      "link": "https://www.johndcook.com/blog/2026/04/30/derivative-of-relu/",
-      "date": "2026-04-30T14:51:08Z",
-      "summary": "When a function is not differentiable in the classical sense there are multiple ways to compute a generalized derivative. This post will look at three generalizations of the classical derivative,…",
-      "source": "johndcook.com"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
