@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-05T21:29:31.100885Z",
+  "generated_at": "2026-05-05T22:26:58.148303Z",
   "items": [
+    {
+      "title": "Our AI started a cafe in Stockholm",
+      "link": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
+      "date": "2026-05-05T22:14:21Z",
+      "summary": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden only this time it's a cafe.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "The Pentagon Pegs the Cost of the Iran War, So Far, at $25 Billion",
+      "link": "https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/",
+      "date": "2026-05-05T21:56:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "★ Software as the Product of Obsession Times Voice",
       "link": "https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice",
@@ -58,13 +72,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "[Sponsor] WorkOS: Ready to Sell to Enterprise? Your Product Is Ready, Your Auth Infrastructure Isn’t.",
-      "link": "https://workos.com/?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
-      "date": "2026-05-05T02:28:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "datasette-llm 0.1a7",
       "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
       "date": "2026-05-05T01:56:55Z",
@@ -76,13 +83,6 @@
       "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
       "date": "2026-05-05T01:31:54Z",
       "summary": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting John Gruber",
-      "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
-      "date": "2026-05-05T00:46:29Z",
-      "summary": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows…",
       "source": "simonwillison.net"
     },
     {
