@@ -2190,6 +2190,11 @@ a.project-card:focus-visible {
   color: var(--muted);
   text-decoration: none;
   transition: color 0.2s;
+  /* a11y: min 44x44 touch target (WCAG 2.5.8) */
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 4px 6px;
 }
 
 .footer-links a:hover {
