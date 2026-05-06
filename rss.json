@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-06T15:02:12.181374Z",
+  "generated_at": "2026-05-06T16:39:07.081856Z",
   "items": [
+    {
+      "title": "Unified config files",
+      "link": "https://www.johndcook.com/blog/2026/05/06/unified-config-files/",
+      "date": "2026-05-06T16:32:20Z",
+      "summary": "I try to maintain a consistent work environment across computers that I use. The computers differ for important reasons, but I’d rather they not differ for unimportant reasons. Unified keys One thing…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Live blog: Code w/ Claude 2026",
+      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+      "date": "2026-05-06T15:58:27Z",
+      "summary": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. Tags: ai , generative-ai , llms , anthropic , claude , live-blog",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
       "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
@@ -77,13 +91,6 @@
       "date": "2026-05-05T22:45:26Z",
       "summary": "I saw a post on X saying Changing a hyphen to an en-dash increases your PDF file size by ~10 bytes. My first thought was that it had something to do with hyphen being an ASCII character and an…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Our AI started a cafe in Stockholm",
-      "link": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
-      "date": "2026-05-05T22:14:21Z",
-      "summary": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe.…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Pentagon Pegs the Cost of the Iran War, So Far, at $25 Billion",
@@ -175,13 +182,6 @@
       "date": "2026-05-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "The shape of a guitar pick",
-      "link": "https://www.johndcook.com/blog/2026/05/03/guitar-pick/",
-      "date": "2026-05-03T20:49:41Z",
-      "summary": "I saw a post on X that plotted the function (log x)² + (log y)² = 1. Of course the plot of x² + y² = 1 is a circle, but I never thought what taking logs would do to the shape. Here’s what the…",
-      "source": "johndcook.com"
     },
     {
       "title": "Vertically Aligning Roman Numerals in Code",
