@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-06T18:45:14.151714Z",
+  "generated_at": "2026-05-06T19:39:55.080658Z",
   "items": [
+    {
+      "title": "Luca Maestri Runs the Cafeteria",
+      "link": "https://www.apple.com/leadership/luca-maestri/",
+      "date": "2026-05-06T19:29:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Unified config files",
       "link": "https://www.johndcook.com/blog/2026/05/06/unified-config-files/",
@@ -12,7 +19,7 @@
       "title": "Live blog: Code w/ Claude 2026",
       "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
       "date": "2026-05-06T15:58:27Z",
-      "summary": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. Tags: ai , generative-ai , llms , anthropic , claude , claude-code ,…",
+      "summary": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. Tags: ai , generative-ai , llms , anthropic , claude , claude-code , live-blog",
       "source": "simonwillison.net"
     },
     {
@@ -98,13 +105,6 @@
       "date": "2026-05-05T22:45:26Z",
       "summary": "I saw a post on X saying Changing a hyphen to an en-dash increases your PDF file size by ~10 bytes. My first thought was that it had something to do with hyphen being an ASCII character and an…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "The Pentagon Pegs the Cost of the Iran War, So Far, at $25 Billion",
-      "link": "https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/",
-      "date": "2026-05-05T21:56:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
