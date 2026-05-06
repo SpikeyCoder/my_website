@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-06T13:43:53.233901Z",
+  "generated_at": "2026-05-06T15:02:12.181374Z",
   "items": [
+    {
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+      "date": "2026-05-06T14:24:08Z",
+      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Asimov's three laws are merely a suggestion",
       "link": "https://idiallo.com/blog/asimov-three-laws-dont-work-with-ai?src=feed",
@@ -119,13 +126,6 @@
       "date": "2026-05-05T06:20:33Z",
       "summary": "William Randolph Hearst bought the New York Morning Journal in 1895 - and immediately started running stories designed to make his readers furious before they’d finished their breakfast. The pages…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "datasette-llm 0.1a7",
-      "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
-      "date": "2026-05-05T01:56:55Z",
-      "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a…",
-      "source": "simonwillison.net"
     },
     {
       "title": "AI didn't delete your database, you did",
