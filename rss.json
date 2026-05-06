@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-06T19:39:55.080658Z",
+  "generated_at": "2026-05-06T20:37:49.618301Z",
   "items": [
+    {
+      "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
+      "link": "https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls",
+      "date": "2026-05-06T20:33:51Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Triangular analog of the squircle",
+      "link": "https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/",
+      "date": "2026-05-06T19:53:29Z",
+      "summary": "TimF left a comment on my guitar pick post saying the image was a “squircle-ish analog for an isosceles triangle.” That made me wonder what a more direct analog of the squircle might be for a…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
+      "link": "https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next",
+      "date": "2026-05-06T19:44:07Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Luca Maestri Runs the Cafeteria",
       "link": "https://www.apple.com/leadership/luca-maestri/",
@@ -72,20 +93,6 @@
       "source": "righto.com"
     },
     {
-      "title": "Apple Cuts More Mac Studio and Mac Mini RAM Options as Memory Shortage Worsens",
-      "link": "https://www.macrumors.com/2026/05/05/apple-mac-studio-mac-mini-ram-cuts/",
-      "date": "2026-05-06T00:36:30Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Apple Settles Class Action Lawsuit Over AI Features That Were Advertised but Didn’t Ship for $250 Million",
-      "link": "https://9to5mac.com/2026/05/05/apple-reaches-250m-settlement-over-siri-delays-users-could-get-up-to-95-per-device/",
-      "date": "2026-05-06T00:32:56Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Emotional regulation is a dying art.",
       "link": "https://www.joanwestenberg.com/emotional-regulation-is-a-dying-art/",
       "date": "2026-05-06T00:21:50Z",
@@ -98,13 +105,6 @@
       "date": "2026-05-05T23:44:27Z",
       "summary": "Release: datasette-referrer-policy 0.1 The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs. The first is that the…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Changing one character in a PDF",
-      "link": "https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/",
-      "date": "2026-05-05T22:45:26Z",
-      "summary": "I saw a post on X saying Changing a hyphen to an en-dash increases your PDF file size by ~10 bytes. My first thought was that it had something to do with hyphen being an ASCII character and an…",
-      "source": "johndcook.com"
     },
     {
       "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
