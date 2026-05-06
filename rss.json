@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-05T23:24:16.144924Z",
+  "generated_at": "2026-05-06T00:58:33.069910Z",
   "items": [
+    {
+      "title": "Apple Cuts More Mac Studio and Mac Mini RAM Options as Memory Shortage Worsens",
+      "link": "https://www.macrumors.com/2026/05/05/apple-mac-studio-mac-mini-ram-cuts/",
+      "date": "2026-05-06T00:36:30Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Apple Settles Class Action Lawsuit Over AI Features That Were Advertised but Didn’t Ship for $250 Million",
+      "link": "https://9to5mac.com/2026/05/05/apple-reaches-250m-settlement-over-siri-delays-users-could-get-up-to-95-per-device/",
+      "date": "2026-05-06T00:32:56Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Emotional regulation is a dying art.",
+      "link": "https://www.joanwestenberg.com/emotional-regulation-is-a-dying-art/",
+      "date": "2026-05-06T00:21:50Z",
+      "summary": "There was a time when adults could feel something without screaming at you about it. We could disagree, hard, in a meeting and walk out with our faces still attached. Bad news arrived at the dinner…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "datasette-referrer-policy 0.1",
+      "link": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
+      "date": "2026-05-05T23:44:27Z",
+      "summary": "Release: datasette-referrer-policy 0.1 The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs. The first is that the…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Changing one character in a PDF",
       "link": "https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/",
@@ -23,25 +51,11 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "★ Software as the Product of Obsession Times Voice",
-      "link": "https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice",
-      "date": "2026-05-05T21:01:06Z",
-      "summary": "You might think it counterintuitive that a movement obsessed with software would be spearheading a severe decline in the design quality of software, but in Patel’s definition, there’s no concept of…",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
       "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
       "date": "2026-05-05T19:43:40.817000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "Pedometer++ 8.0",
-      "link": "https://david-smith.org/blog/2026/04/29/maps-on-watchos/",
-      "date": "2026-05-05T18:12:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
@@ -83,13 +97,6 @@
       "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
       "date": "2026-05-05T01:56:55Z",
       "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "llm-echo 0.5a0",
-      "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
-      "date": "2026-05-05T01:31:54Z",
-      "summary": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for…",
       "source": "simonwillison.net"
     },
     {
@@ -273,13 +280,6 @@
       "date": "2026-04-29T17:00:00Z",
       "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "On wintering.",
-      "link": "https://www.joanwestenberg.com/on-wintering/",
-      "date": "2026-04-29T01:54:43Z",
-      "summary": "The winterer is out of the loop; they're not maintaining a position because they don't have a position to maintain. They can do work that takes longer than a quarter, longer than a year, longer than…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
