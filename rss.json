@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-06T11:40:29.574292Z",
+  "generated_at": "2026-05-06T12:50:51.988433Z",
   "items": [
+    {
+      "title": "Asimov's three laws are merely a suggestion",
+      "link": "https://idiallo.com/blog/asimov-three-laws-dont-work-with-ai?src=feed",
+      "date": "2026-05-06T12:00:00Z",
+      "summary": "Asimov's Three Laws of Robotics were designed as universal constraints for any thinking machine powerful enough to harm us: A robot may not injure a human being or, through inaction, allow a human…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "The mythology of category theory",
+      "link": "https://www.johndcook.com/blog/2026/05/06/category-mythology/",
+      "date": "2026-05-06T11:37:42Z",
+      "summary": "Yesterday a friend and I had a conversation about category theory, how it can be a useful pattern description language, but also about how people have unrealistic expectations for it, believing…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
       "link": "https://pluralistic.net/2026/05/06/champerty-loves-company/",
@@ -212,13 +226,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "Disable Auto-Update",
-      "link": "https://idiallo.com/blog/disable-auto-update?src=feed",
-      "date": "2026-05-01T23:30:00Z",
-      "summary": "How is it possible that a feature I use every day, in an app I rely on daily, entirely offline, just disappeared from my phone? I use a fitness app. My metrics, such as steps, workout routines, heart…",
-      "source": "idiallo.com"
-    },
-    {
       "title": "SBC Clusters are a terrible value, but they're fun anyway",
       "link": "https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/",
       "date": "2026-05-01T14:00:00Z",
@@ -231,13 +238,6 @@
       "date": "2026-05-01T14:00:00Z",
       "summary": "Recovering from death of the owner. The post Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Approximating even functions by powers of cosine",
-      "link": "https://www.johndcook.com/blog/2026/04/30/burmanns-theorem/",
-      "date": "2026-05-01T00:06:12Z",
-      "summary": "A couple days ago I wrote a post about turning a trick into a technique, finding another use for a clever way to construct simple, accurate approximations. I used as my example approximating the…",
-      "source": "johndcook.com"
     },
     {
       "title": "Offline command line translation with TranslateGemma + Ollama",
