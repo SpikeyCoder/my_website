@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM fundamentals every PM needs | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Most PM training skipped language models. Here are the four ideas, tokens, context windows, temperature, and RAG vs fine-tuning, that come up in every AI product review." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="LLM fundamentals every PM needs" />
+    <meta property="og:description" content="Most PM training skipped language models. Here are the four ideas, tokens, context windows, temperature, and RAG vs fine-tuning, that come up in every AI product review." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-06T08:17:39.764+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LLM fundamentals every PM needs" />
+    <meta name="twitter:description" content="Most PM training skipped language models. Here are the four ideas, tokens, context windows, temperature, and RAG vs fine-tuning, that come up in every AI product review." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "LLM fundamentals every PM needs", "description": "Most PM training skipped language models. Here are the four ideas, tokens, context windows, temperature, and RAG vs fine-tuning, that come up in every AI product review.", "url": "https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/"}, "datePublished": "2026-05-06T08:17:39.764+00:00", "dateModified": "2026-05-06T08:17:39.764+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">LLM fundamentals every PM needs</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/" data-share-copy-url="https://kevinarmstrong.io/blog/llm-fundamentals-every-pm-needs/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Most PM training skipped language models. Here are the four ideas, tokens, context windows, temperature, and RAG vs fine-tuning, that come up in every AI product review.</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 6, 2026 • 5 min read • AI, LLM, product management, RAG, fine-tuning</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>Most PM training did not cover language models. You learned discovery, roadmaps, metrics, and stakeholder management. Now your CEO wants an AI feature shipped by next quarter. You need a working mental model of how these systems behave in production.</p>
+            <p>This post covers four ideas that come up in every AI product review: tokens, context windows, temperature, and the RAG vs fine-tuning question. Each one shapes cost, speed, and quality on every AI feature.</p>
+            <h2>Tokens are the unit of cost and speed</h2>
+            <p>A token is a chunk of text the model reads or produces as output. The word &quot;hello&quot; is one token. The word &quot;antidisestablishmentarianism&quot; is several tokens. As a rough rule, 1,000 tokens equals about 750 English words.</p>
+            <p>You care about tokens for a few reasons. Every API call charges by tokens in and tokens out. Longer prompts run slower because the model processes each token. Your engineers will report usage and latency in tokens.</p>
+            <p>When a stakeholder asks why an AI feature costs more than expected, the answer is almost always input tokens. A long system prompt or a stuffed context will inflate every call. <a href="https://www.lennysnewsletter.com/" target="_blank" rel="noopener noreferrer">Lenny Rachitsky</a> has written about how AI startups burn margin on inference costs (Rachitsky). Token discipline is a margin lever.</p>
+            <h2>Context windows are working memory</h2>
+            <p>A context window is the maximum number of tokens a model can read in a single call. Frontier models in 2026 ship with windows in the hundreds of thousands of tokens. Older models capped out at 4,000 or 8,000.</p>
+            <p>The trap is assuming a bigger window means better recall. It does not. Models often skip information buried in the middle of a long context. Researchers call this the &quot;lost in the middle&quot; problem.</p>
+            <p>What this means for PMs: a 200,000 token window is not a free pass to dump entire document libraries into every prompt. You still need to retrieve and rank the most relevant content. The window is a ceiling. It is not a strategy.</p>
+            <p>When you scope an AI feature, ask your engineer two questions. How much input does each call need? How will we rank that input by relevance?</p>
+            <h2>Temperature controls randomness</h2>
+            <p>Temperature is a number between 0 and 2 that adjusts how the model picks each next token. Low temperature, near 0, makes the model pick the most probable token every time. Output is consistent. High temperature, around 1 or above, makes the model sample less likely tokens. Output is varied.</p>
+            <p>For most product features, you want low temperature. Customer support replies, data extraction, code generation, and structured outputs all benefit from consistency. Brainstorming tools and creative writing features are the rare cases where higher temperature gives users variety.</p>
+            <p><a href="https://www.svpg.com/" target="_blank" rel="noopener noreferrer">Marty Cagan</a> often warns PMs against shipping features that work in demos but fail in production (Cagan). Temperature is one of the quiet causes of that gap. A demo at temperature 0.7 looks like magic. The same setting in production produces a support bot that gives different answers to the same question on Monday and Tuesday.</p>
+            <p>Set temperature deliberately. Document the choice in your spec.</p>
+            <h2>RAG vs fine-tuning</h2>
+            <p>This is the question every AI PM gets within their first month: should we use RAG or fine-tuning?</p>
+            <p><strong>Retrieval-augmented generation, or RAG</strong>, fetches relevant documents at query time and feeds them into the prompt. The model reads the documents and answers based on what it just saw. You update behavior by updating the document store.</p>
+            <p><strong>Fine-tuning</strong> changes the model weights. You train on examples of the input and output you want. The model learns the pattern and applies it on every call without needing the examples in context.</p>
+            <p>When to use RAG:</p>
+            <ul>
+            <li>Your knowledge changes often, like product docs, support tickets, or pricing pages</li>
+            </ul>
+            <ul>
+            <li>You need citations back to source documents</li>
+            </ul>
+            <ul>
+            <li>You want users to see what the model based its answer on</li>
+            </ul>
+            <ul>
+            <li>You have a small team and limited ML infrastructure</li>
+            </ul>
+            <p>When to use fine-tuning:</p>
+            <ul>
+            <li>You need a specific output format on every call</li>
+            </ul>
+            <ul>
+            <li>Your task is narrow and the examples are stable</li>
+            </ul>
+            <ul>
+            <li>You want lower per-call cost on high-volume features</li>
+            </ul>
+            <ul>
+            <li>Latency matters and you cannot afford a retrieval step</li>
+            </ul>
+            <p>Most production AI features at startups begin with RAG. <a href="https://jeffgothelf.com/" target="_blank" rel="noopener noreferrer">Jeff Gothelf</a> and Josh Seiden argue that teams should ship the simplest version that learns something real before investing in heavier infrastructure (Gothelf and Seiden). Fine-tuning is heavier infrastructure. RAG ships in a week. Fine-tuning takes a quarter.</p>
+            <p>You can also combine the two. Fine-tune the model for tone and format, then use RAG to inject fresh facts. This pattern is common in mature AI products.</p>
+            <h2>What this means for your next spec</h2>
+            <p>Four numbers belong in every AI feature spec: average input tokens per call, average output tokens per call, target latency, and temperature. If your engineer cannot answer the first three, you do not have a spec yet. You have a hope.</p>
+            <p>Talk to your engineer about cost per query at expected volume. Decide between RAG and fine-tuning based on how often your data changes and how strict your output format needs to be. Pick a temperature and write down the reason.</p>
+            <p>PMs who ship strong AI products in 2026 treat tokens, windows, temperature, and retrieval as product decisions. These four ideas will come up in every review for the rest of your career.</p>
+            <h2>Works cited</h2>
+            <p>Cagan, Marty. <em>Inspired: How to Create Tech Products Customers Love</em>. 2nd ed., Wiley, 2017.</p>
+            <p>Gothelf, Jeff, and Josh Seiden. <em>Lean UX: Designing Great Products with Agile Teams</em>. 3rd ed., O&#x27;Reilly, 2021.</p>
+            <p>Rachitsky, Lenny. &quot;How AI Is Changing Product Management.&quot; <em>Lenny&#x27;s Newsletter</em>, lennysnewsletter.com.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
