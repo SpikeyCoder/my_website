@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T10:49:07.505512Z",
+  "generated_at": "2026-05-06T11:40:29.574292Z",
   "items": [
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
@@ -7,6 +7,13 @@
       "date": "2026-05-06T10:15:36Z",
       "summary": "Today's links In praise of vultures: They screw you because they can. Hey look at this: Delights to delectate. Object permanence: Linus v MSFT; Argentina v MSFT; Danny Hillis on theme parks v games;…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "Revisiting the 2015 Open Source Census",
+      "link": "https://nesbitt.io/2026/05/06/revisiting-the-2015-open-source-census.html",
+      "date": "2026-05-06T10:00:00Z",
+      "summary": "The riskiest projects in open source, scored a decade early",
+      "source": "nesbitt.io"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
@@ -196,13 +203,6 @@
       "date": "2026-05-02T12:01:30Z",
       "summary": "Chilling effects in the build-to-rent sector, how fast could robot manufacturing scale up, PJM’s new interconnection queue, the backlash against battery storage, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "A GitHub for maintainers",
-      "link": "https://nesbitt.io/2026/05/02/a-github-for-maintainers.html",
-      "date": "2026-05-02T10:00:00Z",
-      "summary": "Giving dependencies the same treatment the fork got",
-      "source": "nesbitt.io"
     },
     {
       "title": "Editing my LLM assisted Articles",
