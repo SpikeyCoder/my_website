@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T16:39:07.081856Z",
+  "generated_at": "2026-05-06T17:39:07.392822Z",
   "items": [
     {
       "title": "Unified config files",
@@ -12,7 +12,7 @@
       "title": "Live blog: Code w/ Claude 2026",
       "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
       "date": "2026-05-06T15:58:27Z",
-      "summary": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. Tags: ai , generative-ai , llms , anthropic , claude , live-blog",
+      "summary": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. Tags: ai , generative-ai , llms , anthropic , claude , claude-code ,…",
       "source": "simonwillison.net"
     },
     {
@@ -21,6 +21,13 @@
       "date": "2026-05-06T14:24:08Z",
       "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Why not have changes in API behavior depend on the SDK you link against?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=112303",
+      "date": "2026-05-06T14:00:00Z",
+      "summary": "Static libraries don't stand a chance. The post Why not have changes in API behavior depend on the SDK you link against? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Asimov's three laws are merely a suggestion",
@@ -231,13 +238,6 @@
       "date": "2026-05-01T14:00:00Z",
       "summary": "Pictured above is the new DeskPi Super4C installed in an 8U mini rack. The Super4C is a 4-node Raspberry Pi CM5 cluster board that solves two pain points I had with the older Super6C . I was testing…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260501-00/?p=112291",
-      "date": "2026-05-01T14:00:00Z",
-      "summary": "Recovering from death of the owner. The post Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Offline command line translation with TranslateGemma + Ollama",
