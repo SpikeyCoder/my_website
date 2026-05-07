@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T11:40:27.189841Z",
+  "generated_at": "2026-05-07T12:51:09.836980Z",
   "items": [
     {
       "title": "I've found just the right paper for my Bottom Hole problem",
@@ -35,6 +35,13 @@
       "date": "2026-05-07T01:18:04Z",
       "summary": "The European Union spent four years drafting the AI Act, with OpenAI shipping GPT-4 to a hundred million users in two months. By the time Brussels finalised its definitions of \"high-risk\" systems,…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Why hasn't longer-horizon training slowed AI progress?",
+      "link": "https://seangoedecke.com/why-hasnt-longer-horizon-training-slowed-ai-progress/",
+      "date": "2026-05-07T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
@@ -273,13 +280,6 @@
       "date": "2026-04-30T00:00:00Z",
       "summary": "acetaminophen vs. ibuprofen",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Notes from April 2026",
-      "link": "https://evanhahn.com/notes-from-april-2026/",
-      "date": "2026-04-30T00:00:00Z",
-      "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
-      "source": "evanhahn.com"
     }
   ]
 }
