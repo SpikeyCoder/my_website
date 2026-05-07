@@ -208,12 +208,15 @@ export default {
       return withSecurityHeaders(response);
     }
 
-    // True 404 for unknown paths: serve the dedicated /404.html with HTTP
+    // True 404 for unknown paths: serve the dedicated 404 page with HTTP
     // status 404 so search engines deindex the URL and users see a clear
-    // "Page Not Found" message instead of the homepage. Daily-audit
+    // "Page Not Found" message instead of the homepage.
+    //
+    // Cloudflare Pages auto-strips `.html` and 308-redirects /404.html
+    // -> /404, so we fetch the canonical /404 path here. Daily-audit
     // 2026-05-06 NAV-05.
     const notFoundResponse = await env.ASSETS.fetch(
-      new Request(new URL('/404.html', url.origin), request),
+      new Request(new URL('/404', url.origin), request),
     );
     return withSecurityHeaders(
       new Response(notFoundResponse.body, {
