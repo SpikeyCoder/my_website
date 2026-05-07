@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-07T01:02:30.195423Z",
+  "generated_at": "2026-05-07T03:19:15.885437Z",
   "items": [
+    {
+      "title": "The war between fast and legitimate is here",
+      "link": "https://www.joanwestenberg.com/the-war-between-fast-and-legitimate-is-here/",
+      "date": "2026-05-07T01:18:04Z",
+      "summary": "The European Union spent four years drafting the AI Act, with OpenAI shipping GPT-4 to a hundred million users in two months. By the time Brussels finalised its definitions of \"high-risk\" systems,…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
       "link": "https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls",
@@ -273,13 +280,6 @@
       "date": "2026-04-30T00:00:00Z",
       "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Raspberry Pi Connect may control Windows soon",
-      "link": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/",
-      "date": "2026-04-29T17:00:00Z",
-      "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
