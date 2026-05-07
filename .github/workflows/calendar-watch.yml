@@ -23,9 +23,52 @@ jobs:
       - name: Renew watch channel and sync bookings
         env:
           CALENDAR_ADMIN_TOKEN: ${{ secrets.GOOGLE_CALENDAR_ADMIN_TOKEN }}
+          ENDPOINT: "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/google-calendar-setup"
+        # Don't use `curl -f`: it suppresses the response body, so a non-2xx
+        # exits the step with curl exit code 22 and zero diagnostic info
+        # (which is exactly what happened in run 25478005513). Capture the
+        # body and HTTP status, log them, then fail explicitly on >=400.
+        # Retry once after a short backoff to absorb transient upstream
+        # blips (Google token endpoint, Supabase cold start).
         run: |
-          curl -sS -f \
-            -X POST "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/google-calendar-setup" \
-            -H "content-type: application/json" \
-            -H "x-admin-token: ${CALENDAR_ADMIN_TOKEN}" \
-            --data '{}'
+          set -eo pipefail
+
+          call_function() {
+            body_file="$(mktemp)"
+            status="$(
+              curl -sS \
+                --connect-timeout 10 \
+                --max-time 60 \
+                -o "$body_file" \
+                -w '%{http_code}' \
+                -X POST "$ENDPOINT" \
+                -H "content-type: application/json" \
+                -H "x-admin-token: ${CALENDAR_ADMIN_TOKEN}" \
+                --data '{}' \
+              || echo "000"
+            )"
+            echo "HTTP status: $status"
+            echo "Response body:"
+            # Truncate to keep accidental large payloads from spamming the log;
+            # the function's error JSON is always small.
+            head -c 8192 "$body_file" || true
+            echo
+            rm -f "$body_file"
+            [ "$status" -ge 200 ] && [ "$status" -lt 300 ]
+          }
+
+          if call_function; then
+            echo "Watch renewed successfully."
+            exit 0
+          fi
+
+          echo "First attempt failed; retrying once after 10s..."
+          sleep 10
+
+          if call_function; then
+            echo "Watch renewed successfully on retry."
+            exit 0
+          fi
+
+          echo "google-calendar-setup returned a non-2xx response on both attempts."
+          exit 1
