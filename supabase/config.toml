@@ -13,11 +13,15 @@ verify_jwt = false
 verify_jwt = false
 
 
+# Admin-only functions: gateway-level JWT verification is redundant — the
+# functions do their own constant-time compare against
+# GOOGLE_CALENDAR_ADMIN_TOKEN (x-admin-token), which is the real auth
+# boundary. Matches the booking-* / google-calendar-webhook pattern.
 [functions.google-calendar-setup]
-verify_jwt = true
+verify_jwt = false
 
 [functions.google-calendar-sync]
-verify_jwt = true
+verify_jwt = false
 
 [functions.google-calendar-webhook]
 verify_jwt = false
