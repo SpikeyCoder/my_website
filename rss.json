@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-05-07T13:42:02.425970Z",
+  "generated_at": "2026-05-07T15:03:32.552323Z",
   "items": [
-    {
-      "title": "I've found just the right paper for my Bottom Hole problem",
-      "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
-      "date": "2026-05-07T11:34:54Z",
-      "summary": "A few weeks ago, I went on a mad quest to find the newspaper used in 1995's Bottom Hole TV show. During the episode, Eddie starts reading this newspaper: Obviously, the \"Hammersmith Bugle\" is not a…",
-      "source": "shkspr.mobi"
-    },
     {
       "title": "Free as in Tribbles",
       "link": "https://nesbitt.io/2026/05/07/free-as-in-tribbles.html",
@@ -156,13 +149,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "RSS Feeds Send Me More Traffic Than Google",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/",
-      "date": "2026-05-05T11:34:12Z",
-      "summary": "Yeah yeah, I know, data-point of 1. I recently read Susam's blog post where they said that \"most of the traffic to my personal website still comes from web feeds\" - I wondered if that was true for my…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Package Manager Threat Models",
       "link": "https://nesbitt.io/2026/05/05/package-manager-threat-models.html",
       "date": "2026-05-05T10:00:00Z",
@@ -196,13 +182,6 @@
       "date": "2026-05-04T14:00:00Z",
       "summary": "You don't. All files are binary at the file system level. The post How do I inform Windows that I’m writing a binary file? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Where are you from?",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
-      "date": "2026-05-04T11:34:40Z",
-      "summary": "Psssst! This top secret post is only available to RSS subscribers! A little while ago I added some locally hosted, privacy first stats to my blog. Using an offline GeoIP service I can get a very…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Content for Content’s Sake",
@@ -261,13 +240,6 @@
       "source": "evanhahn.com"
     },
     {
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "date": "2026-04-30T14:04:26Z",
-      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks…",
-      "source": "krebsonsecurity.com"
-    },
-    {
       "title": "How an Oil Refinery Works",
       "link": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
       "date": "2026-04-30T12:03:35Z",
@@ -280,6 +252,34 @@
       "date": "2026-04-30T00:00:00Z",
       "summary": "acetaminophen vs. ibuprofen",
       "source": "dynomight.net"
+    },
+    {
+      "title": "Notes from April 2026",
+      "link": "https://evanhahn.com/notes-from-april-2026/",
+      "date": "2026-04-30T00:00:00Z",
+      "summary": "After a busy March , April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on. Things I published GitHub’s uptime hasn’t been great recently. Even though…",
+      "source": "evanhahn.com"
+    },
+    {
+      "title": "Raspberry Pi Connect may control Windows soon",
+      "link": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/",
+      "date": "2026-04-29T17:00:00Z",
+      "summary": "Support for remote controlling Windows PCs may be added to Raspberry Pi Connect , Raspberry Pi's free remote access service. When they announced Pi Connect in 2024 , I speculated the service was…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Spring 2026 Dev Contest Results!",
+      "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "Over 500 new Pebble apps and watchfaces! Thank you to all the developers who entered the developer contest It was so much fun following the…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "Ghostty Is Leaving GitHub",
+      "link": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "date": "2026-04-28T00:00:00Z",
+      "summary": "",
+      "source": "mitchellh.com"
     }
   ]
 }
