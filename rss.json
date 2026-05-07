@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T20:34:36.528265Z",
+  "generated_at": "2026-05-07T21:27:19.172617Z",
   "items": [
     {
       "title": "llm-gemini 0.31",
@@ -91,6 +91,13 @@
       "date": "2026-05-07T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Maybe you shouldn't install new software for a bit",
+      "link": "https://xeiaso.net/blog/2026/abstain-from-install/",
+      "date": "2026-05-07T00:00:00Z",
+      "summary": "Oh boy yet more linux kernel vulns",
+      "source": "xeiaso.net"
     },
     {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
@@ -273,13 +280,6 @@
       "date": "2026-04-30T14:04:26Z",
       "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "How an Oil Refinery Works",
-      "link": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
-      "date": "2026-04-30T12:03:35Z",
-      "summary": "Though wind and solar continue to carve out larger and larger shares of world energy supply, the modern world still runs on petroleum, and will continue to do so for the foreseeable future.",
-      "source": "construction-physics.com"
     }
   ]
 }
