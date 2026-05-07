@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-07T18:45:38.628487Z",
+  "generated_at": "2026-05-07T19:37:27.309842Z",
   "items": [
+    {
+      "title": "The Greatest Match Cut in Cinematic History, Improved by Amazon Prime",
+      "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
+      "date": "2026-05-07T18:46:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Smoothed polygons",
       "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
@@ -21,13 +28,6 @@
       "date": "2026-05-07T17:09:28Z",
       "summary": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "The Greatest Jump Cut in Cinematic History, Improved by Amazon Prime",
-      "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
-      "date": "2026-05-07T16:12:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "How Long Do We Wait for New Inventions?",
@@ -63,6 +63,13 @@
       "date": "2026-05-07T08:08:49Z",
       "summary": "Today's links Bubbles are REALLY evil: Bernie Ebbers got what was coming to him. Hey look at this: Delights to delectate. Object permanence: Mozilla v DHS wiretaps; Judge v FCC's internet wiretaps;…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "GitHub Repo Stats",
+      "link": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
+      "date": "2026-05-07T07:25:14Z",
+      "summary": "Tool: GitHub Repo Stats One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I…",
+      "source": "simonwillison.net"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
@@ -112,13 +119,6 @@
       "date": "2026-05-06T16:32:20Z",
       "summary": "I try to maintain a consistent work environment across computers that I use. The computers differ for important reasons, but I’d rather they not differ for unimportant reasons. Unified keys One thing…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Live blog: Code w/ Claude 2026",
-      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-      "date": "2026-05-06T15:58:27Z",
-      "summary": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. Tags: ai , generative-ai , llms , anthropic , claude , claude-code , live-blog",
-      "source": "simonwillison.net"
     },
     {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
