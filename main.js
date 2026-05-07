@@ -194,8 +194,21 @@ function fetchWithTimeout(e,t={},n=12e3){const o=new AbortController,a=setTimeou
 
     const timeoutId = setTimeout(() => {
       if(blogStatus.textContent.includes("Loading")) {
-        blogStatus.innerHTML = '<span style="color: #dc3545;">Unable to load content. Please try again later.</span>';
-        blogList.innerHTML = '<button class="btn ghost" onclick="window.location.reload()">Retry</button>';
+        // Safe DOM construction (no innerHTML, no inline onclick) — defense in depth
+        // even though the strings are static today, this prevents future XSS regressions
+        // if the error text is ever sourced from an API or query param.
+        blogStatus.textContent = "";
+        const _bSpan = document.createElement("span");
+        _bSpan.style.color = "#dc3545";
+        _bSpan.textContent = "Unable to load content. Please try again later.";
+        blogStatus.appendChild(_bSpan);
+        blogList.textContent = "";
+        const _bBtn = document.createElement("button");
+        _bBtn.type = "button";
+        _bBtn.className = "btn ghost";
+        _bBtn.textContent = "Retry";
+        _bBtn.addEventListener("click", () => window.location.reload());
+        blogList.appendChild(_bBtn);
       }
     }, CONTENT_LOAD_TIMEOUT);
 
@@ -215,8 +228,19 @@ function fetchWithTimeout(e,t={},n=12e3){const o=new AbortController,a=setTimeou
 
     const timeoutId = setTimeout(() => {
       if(rssStatus.textContent.includes("Loading")) {
-        rssStatus.innerHTML = '<span style="color: #dc3545;">Unable to load content. Please try again later.</span>';
-        rssList.innerHTML = '<button class="btn ghost" onclick="window.location.reload()">Retry</button>';
+        // Safe DOM construction (no innerHTML, no inline onclick) — defense in depth.
+        rssStatus.textContent = "";
+        const _rSpan = document.createElement("span");
+        _rSpan.style.color = "#dc3545";
+        _rSpan.textContent = "Unable to load content. Please try again later.";
+        rssStatus.appendChild(_rSpan);
+        rssList.textContent = "";
+        const _rBtn = document.createElement("button");
+        _rBtn.type = "button";
+        _rBtn.className = "btn ghost";
+        _rBtn.textContent = "Retry";
+        _rBtn.addEventListener("click", () => window.location.reload());
+        rssList.appendChild(_rBtn);
       }
     }, CONTENT_LOAD_TIMEOUT);
 
