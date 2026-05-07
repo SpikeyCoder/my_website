@@ -24,6 +24,15 @@ jobs:
         env:
           CALENDAR_ADMIN_TOKEN: ${{ secrets.GOOGLE_CALENDAR_ADMIN_TOKEN }}
           ENDPOINT: "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/google-calendar-setup"
+          # Supabase's API gateway requires an Authorization header on every
+          # function request unless the function is deployed with
+          # `verify_jwt = false`. Run 25480926329 returned 401
+          # `UNAUTHORIZED_NO_AUTH_HEADER` because no header was sent. The
+          # publishable key is the public-facing key already present in the
+          # frontend bundle (main.js, blog/blog.js); it's not a secret. Real
+          # authentication still happens inside the function via a constant-
+          # time compare against GOOGLE_CALENDAR_ADMIN_TOKEN (x-admin-token).
+          SUPABASE_PUBLISHABLE_KEY: "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP"
         # Don't use `curl -f`: it suppresses the response body, so a non-2xx
         # exits the step with curl exit code 22 and zero diagnostic info
         # (which is exactly what happened in run 25478005513). Capture the
@@ -43,6 +52,8 @@ jobs:
                 -w '%{http_code}' \
                 -X POST "$ENDPOINT" \
                 -H "content-type: application/json" \
+                -H "authorization: Bearer ${SUPABASE_PUBLISHABLE_KEY}" \
+                -H "apikey: ${SUPABASE_PUBLISHABLE_KEY}" \
                 -H "x-admin-token: ${CALENDAR_ADMIN_TOKEN}" \
                 --data '{}' \
               || echo "000"
