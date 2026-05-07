@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-07T16:41:49.159025Z",
+  "generated_at": "2026-05-07T17:39:16.371683Z",
   "items": [
+    {
+      "title": "Notes on the xAI/Anthropic data center deal",
+      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+      "date": "2026-05-07T17:09:28Z",
+      "summary": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The Greatest Jump Cut in Cinematic History, Improved by Amazon Prime",
       "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
@@ -14,6 +21,13 @@
       "date": "2026-05-07T15:23:28Z",
       "summary": "Mostly not very long",
       "source": "construction-physics.com"
+    },
+    {
+      "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260507-00/?p=112307",
+      "date": "2026-05-07T14:00:00Z",
+      "summary": "Otherwise, it'll get mapped back down to the 8-bit code page. The post When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "I've found just the right paper for my Bottom Hole problem",
@@ -142,13 +156,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "datasette-referrer-policy 0.1",
-      "link": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
-      "date": "2026-05-05T23:44:27Z",
-      "summary": "Release: datasette-referrer-policy 0.1 The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs. The first is that the…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
       "date": "2026-05-05T14:00:00Z",
@@ -196,13 +203,6 @@
       "date": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
       "source": "antirez.com"
-    },
-    {
-      "title": "How do I inform Windows that I’m writing a binary file?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260504-00/?p=112296",
-      "date": "2026-05-04T14:00:00Z",
-      "summary": "You don't. All files are binary at the file system level. The post How do I inform Windows that I’m writing a binary file? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "[RSS Club] Where are you from?",
