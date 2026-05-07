@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-07T19:37:27.309842Z",
+  "generated_at": "2026-05-07T20:34:36.528265Z",
   "items": [
+    {
+      "title": "llm-gemini 0.31",
+      "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+      "date": "2026-05-07T19:57:06Z",
+      "summary": "Release: llm-gemini 0.31 gemini-3.1-flash-lite is no longer a preview . Here's my write-up of the Gemini 3.1 Flash-Lite Preview model back in March. I don't believe this new non-preview model has…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Big Words",
+      "link": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
+      "date": "2026-05-07T18:47:09Z",
+      "summary": "Tool: Big Words I'm using my vibe coded macOS presentations tool to put together a talk, and I wanted to add a slide with some text on it. The tool only accepts URLs, so I put together a quick page…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The Greatest Match Cut in Cinematic History, Improved by Amazon Prime",
       "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
@@ -20,13 +34,6 @@
       "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
       "date": "2026-05-07T17:56:25Z",
       "summary": "Behind the Scenes Hardening Firefox with Claude Mythos Preview Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Notes on the xAI/Anthropic data center deal",
-      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
-      "date": "2026-05-07T17:09:28Z",
-      "summary": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of…",
       "source": "simonwillison.net"
     },
     {
@@ -63,13 +70,6 @@
       "date": "2026-05-07T08:08:49Z",
       "summary": "Today's links Bubbles are REALLY evil: Bernie Ebbers got what was coming to him. Hey look at this: Delights to delectate. Object permanence: Mozilla v DHS wiretaps; Judge v FCC's internet wiretaps;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "GitHub Repo Stats",
-      "link": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
-      "date": "2026-05-07T07:25:14Z",
-      "summary": "Tool: GitHub Repo Stats One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
