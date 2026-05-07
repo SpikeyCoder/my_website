@@ -208,16 +208,17 @@ export default {
       return withSecurityHeaders(response);
     }
 
-    // SPA fallback for unknown paths — serve index.html with 200 status so
-    // client-side routing can take over. Re-wrap with security headers so the
-    // fallback page is treated identically to a direct hit.
-    const indexResponse = await env.ASSETS.fetch(
-      new Request(new URL('/', url.origin), request),
+    // True 404 for unknown paths: serve the dedicated /404.html with HTTP
+    // status 404 so search engines deindex the URL and users see a clear
+    // "Page Not Found" message instead of the homepage. Daily-audit
+    // 2026-05-06 NAV-05.
+    const notFoundResponse = await env.ASSETS.fetch(
+      new Request(new URL('/404.html', url.origin), request),
     );
     return withSecurityHeaders(
-      new Response(indexResponse.body, {
-        status: 200,
-        headers: indexResponse.headers,
+      new Response(notFoundResponse.body, {
+        status: 404,
+        headers: notFoundResponse.headers,
       }),
     );
   },
