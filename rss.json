@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-07T10:50:01.207937Z",
+  "generated_at": "2026-05-07T11:40:27.189841Z",
   "items": [
+    {
+      "title": "I've found just the right paper for my Bottom Hole problem",
+      "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
+      "date": "2026-05-07T11:34:54Z",
+      "summary": "A few weeks ago, I went on a mad quest to find the newspaper used in 1995's Bottom Hole TV show. During the episode, Eddie starts reading this newspaper: Obviously, the \"Hammersmith Bugle\" is not a…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "Free as in Tribbles",
+      "link": "https://nesbitt.io/2026/05/07/free-as-in-tribbles.html",
+      "date": "2026-05-07T10:00:00Z",
+      "summary": "The next metaphor after free-as-in-puppy",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Bubbles are REALLY evil (07 May 2026)",
       "link": "https://pluralistic.net/2026/05/07/dump-the-pumpers/",
@@ -184,25 +198,11 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Package Manager CWEs",
-      "link": "https://nesbitt.io/2026/05/04/package-manager-cwes.html",
-      "date": "2026-05-04T10:00:00Z",
-      "summary": "Recurring weakness classes in package managers",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Content for Content’s Sake",
       "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
       "date": "2026-05-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Vertically Aligning Roman Numerals in Code",
-      "link": "https://shkspr.mobi/blog/2026/05/vertically-aligning-roman-numerals-in-code/",
-      "date": "2026-05-03T11:34:59Z",
-      "summary": "I have a PHP function which uses Roman Numerals. It looks like this: $romanNumerals = [ \"Ⅿ\" => 1000, \"ⅭⅯ\" => 900, \"Ⅾ\" => 500, \"ⅭⅮ\" => 400, \"Ⅽ\" => 100, \"ⅩC\" => 90, \"Ⅼ\" => 50, \"ⅩⅬ\" => 40, \"Ⅹ\" => 10,…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Why I don't like the \"staff engineer archetypes\"",
