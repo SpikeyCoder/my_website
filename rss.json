@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-07T21:27:19.172617Z",
+  "generated_at": "2026-05-07T22:29:56.530606Z",
   "items": [
+    {
+      "title": "Prolost Watches 1.0",
+      "link": "https://prolost.com/blog/prolostwatches",
+      "date": "2026-05-07T21:31:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "llm-gemini 0.31",
       "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
@@ -112,13 +119,6 @@
       "date": "2026-05-06T19:53:29Z",
       "summary": "TimF left a comment on my guitar pick post saying the image was a “squircle-ish analog for an isosceles triangle.” That made me wonder what a more direct analog of the squircle might be for a…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
-      "link": "https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next",
-      "date": "2026-05-06T19:44:07Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Unified config files",
