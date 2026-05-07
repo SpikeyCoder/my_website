@@ -24,21 +24,22 @@ jobs:
         env:
           CALENDAR_ADMIN_TOKEN: ${{ secrets.GOOGLE_CALENDAR_ADMIN_TOKEN }}
           ENDPOINT: "https://efrkjqbrfsynzdjbgqck.supabase.co/functions/v1/google-calendar-setup"
-          # Supabase's API gateway requires an Authorization header on every
-          # function request unless the function is deployed with
-          # `verify_jwt = false`. Run 25480926329 returned 401
-          # `UNAUTHORIZED_NO_AUTH_HEADER` because no header was sent. The
-          # publishable key is the public-facing key already present in the
-          # frontend bundle (main.js, blog/blog.js); it's not a secret. Real
-          # authentication still happens inside the function via a constant-
-          # time compare against GOOGLE_CALENDAR_ADMIN_TOKEN (x-admin-token).
-          SUPABASE_PUBLISHABLE_KEY: "sb_publishable_hZ74MUnNhGncPQNHdx9YAA_GThc73YP"
         # Don't use `curl -f`: it suppresses the response body, so a non-2xx
         # exits the step with curl exit code 22 and zero diagnostic info
         # (which is exactly what happened in run 25478005513). Capture the
         # body and HTTP status, log them, then fail explicitly on >=400.
         # Retry once after a short backoff to absorb transient upstream
         # blips (Google token endpoint, Supabase cold start).
+        #
+        # The function is deployed with verify_jwt=false (see
+        # supabase/config.toml + deploy of version 8 on 2026-05-07), so the
+        # Supabase gateway does not require an Authorization header. We
+        # deliberately do NOT send one: the function's adminTokenFromRequest
+        # prefers Authorization-bearer over x-admin-token, and run
+        # 25481493431 showed that sending the publishable key in
+        # Authorization caused the function to compare the publishable key
+        # against GOOGLE_CALENDAR_ADMIN_TOKEN and 401. x-admin-token alone
+        # is the correct path.
         run: |
           set -eo pipefail
 
@@ -52,8 +53,6 @@ jobs:
                 -w '%{http_code}' \
                 -X POST "$ENDPOINT" \
                 -H "content-type: application/json" \
-                -H "authorization: Bearer ${SUPABASE_PUBLISHABLE_KEY}" \
-                -H "apikey: ${SUPABASE_PUBLISHABLE_KEY}" \
                 -H "x-admin-token: ${CALENDAR_ADMIN_TOKEN}" \
                 --data '{}' \
               || echo "000"
