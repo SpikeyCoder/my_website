@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-07T17:39:16.371683Z",
+  "generated_at": "2026-05-07T18:45:38.628487Z",
   "items": [
+    {
+      "title": "Smoothed polygons",
+      "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
+      "date": "2026-05-07T18:19:24Z",
+      "summary": "The previous post constructed a triangular analog of the squircle, the unit circle in the p-norm where p is typically around 4. The case p = 2 is a Euclidean circle and the limit as p → ∞ is a…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "date": "2026-05-07T17:56:25Z",
+      "summary": "Behind the Scenes Hardening Firefox with Claude Mythos Preview Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
       "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
@@ -107,13 +121,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
-      "date": "2026-05-06T14:24:08Z",
-      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=112303",
       "date": "2026-05-06T14:00:00Z",
@@ -126,13 +133,6 @@
       "date": "2026-05-06T12:00:00Z",
       "summary": "Asimov's Three Laws of Robotics were designed as universal constraints for any thinking machine powerful enough to harm us: A robot may not injure a human being or, through inaction, allow a human…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The mythology of category theory",
-      "link": "https://www.johndcook.com/blog/2026/05/06/category-mythology/",
-      "date": "2026-05-06T11:37:42Z",
-      "summary": "Yesterday a friend and I had a conversation about category theory, how it can be a useful pattern description language, but also about how people have unrealistic expectations for it, believing…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
