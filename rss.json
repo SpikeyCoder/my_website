@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T07:39:48.608129Z",
+  "generated_at": "2026-05-08T08:42:36.216776Z",
   "items": [
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
@@ -7,6 +7,13 @@
       "date": "2026-05-08T02:58:46Z",
       "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today,…",
       "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Notes on incidents",
+      "link": "https://seangoedecke.com/notes-on-incidents/",
+      "date": "2026-05-08T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Prolost Watches 1.0",
@@ -273,13 +280,6 @@
       "date": "2026-05-01T14:00:00Z",
       "summary": "Pictured above is the new DeskPi Super4C installed in an 8U mini rack. The Super4C is a 4-node Raspberry Pi CM5 cluster board that solves two pain points I had with the older Super6C . I was testing…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Offline command line translation with TranslateGemma + Ollama",
-      "link": "https://evanhahn.com/offline-cli-translation-with-translategemma-and-ollama/",
-      "date": "2026-05-01T00:00:00Z",
-      "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer: echo '¿Cómo estás?' | translate # => How are you? It combines a…",
-      "source": "evanhahn.com"
     }
   ]
 }
