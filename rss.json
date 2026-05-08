@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-08T21:28:47.848405Z",
+  "generated_at": "2026-05-08T22:27:22.602437Z",
   "items": [
+    {
+      "title": "AI makes weak engineers less harmful",
+      "link": "https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/",
+      "date": "2026-05-09T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
       "link": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
@@ -128,6 +135,13 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
+      "title": "I've found just the right paper for my Bottom Hole problem",
+      "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
+      "date": "2026-05-07T11:34:54Z",
+      "summary": "A few weeks ago, I went on a mad quest to find the newspaper used in 1995's Bottom Hole TV show. During the episode, Eddie starts reading this newspaper: Obviously, the \"Hammersmith Bugle\" is not a…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Free as in Tribbles",
       "link": "https://nesbitt.io/2026/05/07/free-as-in-tribbles.html",
       "date": "2026-05-07T10:00:00Z",
@@ -219,6 +233,13 @@
       "source": "joanwestenberg.com"
     },
     {
+      "title": "RSS Feeds Send Me More Traffic Than Google",
+      "link": "https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/",
+      "date": "2026-05-05T11:34:12Z",
+      "summary": "Yeah yeah, I know, data-point of 1. I recently read Susam's blog post where they said that \"most of the traffic to my personal website still comes from web feeds\" - I wondered if that was true for my…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Outrage is letting someone else set the frame",
       "link": "https://www.joanwestenberg.com/outrag/",
       "date": "2026-05-05T06:20:33Z",
@@ -240,6 +261,13 @@
       "source": "antirez.com"
     },
     {
+      "title": "[RSS Club] Where are you from?",
+      "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
+      "date": "2026-05-04T11:34:40Z",
+      "summary": "Psssst! This top secret post is only available to RSS subscribers! A little while ago I added some locally hosted, privacy first stats to my blog. Using an offline GeoIP service I can get a very…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "Content for Content’s Sake",
       "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
       "date": "2026-05-04T00:00:00Z",
@@ -247,39 +275,11 @@
       "source": "lucumr.pocoo.org"
     },
     {
-      "title": "Why I don't like the \"staff engineer archetypes\"",
-      "link": "https://seangoedecke.com/staff-engineer-archetypes/",
-      "date": "2026-05-03T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
       "title": "Minimal Viable Zig Error Contexts",
       "link": "https://matklad.github.io/2026/05/03/zig-error-context.html",
       "date": "2026-05-03T00:00:00Z",
       "summary": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out…",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "png-cmp: like cmp for PNGs",
-      "link": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
-      "date": "2026-05-03T00:00:00Z",
-      "summary": "png-cmp is a program I built that checks if two PNGs are visually equivalent. It’s inspired by the cmp command . Here’s how you use it: png-cmp a.png b.png Like cmp , it silently exits if the images…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 05/02/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-05022026",
-      "date": "2026-05-02T12:01:30Z",
-      "summary": "Chilling effects in the build-to-rent sector, how fast could robot manufacturing scale up, PJM’s new interconnection queue, the backlash against battery storage, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "SBC Clusters are a terrible value, but they're fun anyway",
-      "link": "https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/",
-      "date": "2026-05-01T14:00:00Z",
-      "summary": "Pictured above is the new DeskPi Super4C installed in an 8U mini rack. The Super4C is a 4-node Raspberry Pi CM5 cluster board that solves two pain points I had with the older Super6C . I was testing…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
