@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-08T13:41:30.622117Z",
+  "generated_at": "2026-05-08T14:44:12.141755Z",
   "items": [
+    {
+      "title": "HomePod mini feels like magic, but it's just good timing",
+      "link": "https://www.jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic--but-it-s-just-good-timing/",
+      "date": "2026-05-08T14:00:00Z",
+      "summary": "Apple introduced the HomePod mini six years ago , in 2020. I'm not one into smart speakers, but the feature that made me take a closer look was their ability to form stereo pairs, without any direct…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Hi stranger",
+      "link": "https://idiallo.com/blog/hi?src=feed",
+      "date": "2026-05-08T14:00:00Z",
+      "summary": "I'm at home, sitting on the kitchen table. I just took my boys to school and I'm about to start my work. I'm writing this message directly to you. And you are reading it. Hello! Isn't that funny?…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Calculating curvature",
+      "link": "https://www.johndcook.com/blog/2026/05/08/calculating-curvature/",
+      "date": "2026-05-08T13:54:18Z",
+      "summary": "Curvature is conceptually simple but usually difficult to calculate. For a level set curve f(x, y) = c, such as in the previous couple posts, the equation for curvature is Even when f has a fairly…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: Lee Lai's \"Cannon\" (08 May 2026)",
       "link": "https://pluralistic.net/2026/05/08/gung-gung/",
@@ -163,13 +184,6 @@
       "source": "johndcook.com"
     },
     {
-      "title": "Unified config files",
-      "link": "https://www.johndcook.com/blog/2026/05/06/unified-config-files/",
-      "date": "2026-05-06T16:32:20Z",
-      "summary": "I try to maintain a consistent work environment across computers that I use. The computers differ for important reasons, but I’d rather they not differ for unimportant reasons. Unified keys One thing…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=112303",
       "date": "2026-05-06T14:00:00Z",
@@ -266,20 +280,6 @@
       "date": "2026-05-03T00:00:00Z",
       "summary": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out…",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "png-cmp: like cmp for PNGs",
-      "link": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
-      "date": "2026-05-03T00:00:00Z",
-      "summary": "png-cmp is a program I built that checks if two PNGs are visually equivalent. It’s inspired by the cmp command . Here’s how you use it: png-cmp a.png b.png Like cmp , it silently exits if the images…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Reading List 05/02/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-05022026",
-      "date": "2026-05-02T12:01:30Z",
-      "summary": "Chilling effects in the build-to-rent sector, how fast could robot manufacturing scale up, PJM’s new interconnection queue, the backlash against battery storage, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
