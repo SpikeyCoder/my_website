@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-08T01:02:51.765179Z",
+  "generated_at": "2026-05-08T03:15:40.065888Z",
   "items": [
+    {
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "date": "2026-05-08T02:58:46Z",
+      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today,…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "Prolost Watches 1.0",
       "link": "https://prolost.com/blog/prolostwatches",
@@ -273,13 +280,6 @@
       "date": "2026-05-01T00:00:00Z",
       "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer: echo '¿Cómo estás?' | translate # => How are you? It combines a…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "date": "2026-04-30T14:04:26Z",
-      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
