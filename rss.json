@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:39:48.831398Z",
+  "generated_at": "2026-05-08T17:38:35.490131Z",
   "items": [
     {
       "title": "HomePod mini feels like magic, but it's just good timing",
@@ -14,6 +14,13 @@
       "date": "2026-05-08T14:00:00Z",
       "summary": "I'm at home, sitting on the kitchen table. I just took my boys to school and I'm about to start my work. I'm writing this message directly to you. And you are reading it. Hello! Isn't that funny?…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310",
+      "date": "2026-05-08T14:00:00Z",
+      "summary": "You can track the file ID. The post Developing more confidence when tracking renames via <CODE>Read­Directory­ChangesW</CODE> appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Calculating curvature",
@@ -217,13 +224,6 @@
       "date": "2026-05-06T00:21:50Z",
       "summary": "There was a time when adults could feel something without screaming at you about it. We could disagree - hard - in a meeting and walk out with our faces still attached. When bad news arrived at the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "A dispute over the TAB key highlights a mismatch between Microsoft and IBM organizational structures",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
-      "date": "2026-05-05T14:00:00Z",
-      "summary": "I want to speak to your manager. The post A dispute over the <KBD>TAB</KBD> key highlights a mismatch between Microsoft and IBM organizational structures appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "RSS Feeds Send Me More Traffic Than Google",
