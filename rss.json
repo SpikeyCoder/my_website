@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-08T09:42:17.400815Z",
+  "generated_at": "2026-05-08T10:40:22.021545Z",
   "items": [
+    {
+      "title": "Weekend at Bernie’s",
+      "link": "https://nesbitt.io/2026/05/08/weekend-at-bernies.html",
+      "date": "2026-05-08T10:00:00Z",
+      "summary": "Which of your dependencies are wearing sunglasses",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
@@ -14,6 +21,20 @@
       "date": "2026-05-08T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Pushing Local Models With Focus And Polish",
+      "link": "https://lucumr.pocoo.org/2026/5/8/local-models/",
+      "date": "2026-05-08T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "Steering Zig Fmt",
+      "link": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
+      "date": "2026-05-08T00:00:00Z",
+      "summary": "Two tips on using zig fmt effectively. Read this if you are writing Zig, or if you are implementing a code formatter.",
+      "source": "matklad.github.io"
     },
     {
       "title": "Prolost Watches 1.0",
@@ -198,13 +219,6 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Package Manager Threat Models",
-      "link": "https://nesbitt.io/2026/05/05/package-manager-threat-models.html",
-      "date": "2026-05-05T10:00:00Z",
-      "summary": "The non-CVE half of package manager security",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Outrage is letting someone else set the frame",
       "link": "https://www.joanwestenberg.com/outrag/",
       "date": "2026-05-05T06:20:33Z",
@@ -266,20 +280,6 @@
       "date": "2026-05-02T12:01:30Z",
       "summary": "Chilling effects in the build-to-rent sector, how fast could robot manufacturing scale up, PJM’s new interconnection queue, the backlash against battery storage, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Editing my LLM assisted Articles",
-      "link": "https://idiallo.com/byte-size/editing-llm-assisted-articles?src=feed",
-      "date": "2026-05-02T03:00:23Z",
-      "summary": "Last year, I used AI to help me write articles. As I've mentioned before , it's convenient when you are doing so because it saves you time. But the problem comes up when you try to quote those…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "SBC Clusters are a terrible value, but they're fun anyway",
-      "link": "https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/",
-      "date": "2026-05-01T14:00:00Z",
-      "summary": "Pictured above is the new DeskPi Super4C installed in an 8U mini rack. The Super4C is a 4-node Raspberry Pi CM5 cluster board that solves two pain points I had with the older Super6C . I was testing…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
