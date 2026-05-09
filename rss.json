@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T16:25:42.476743Z",
+  "generated_at": "2026-05-09T17:25:06.420820Z",
   "items": [
     {
       "title": "Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)",
@@ -42,6 +42,13 @@
       "date": "2026-05-09T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
+      "date": "2026-05-09T00:00:00Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -273,13 +280,6 @@
       "date": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Content for Content’s Sake",
-      "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
-      "date": "2026-05-04T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
