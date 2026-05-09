@@ -1,10 +1,17 @@
 User-agent: *
 Allow: /
+# Block hashed-suffix duplicate blog dirs (auto-generated mirrors).
+# Each /blog/<slug>-XXXXXXXX/ already sets rel=canonical pointing to the
+# canonical /blog/<slug>/ URL, but blocking crawl prevents wasted crawl
+# budget and any chance of duplicate-content penalties.
+Disallow: /blog/*-????????/
 
 User-agent: AdsBot-Google
 Allow: /
+Disallow: /blog/*-????????/
 
 User-agent: Applebot
 Allow: /
+Disallow: /blog/*-????????/
 
 Sitemap: https://kevinarmstrong.io/sitemap.xml
