@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T17:25:06.420820Z",
+  "generated_at": "2026-05-09T18:29:02.869786Z",
   "items": [
     {
       "title": "Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)",
@@ -98,13 +98,6 @@
       "date": "2026-05-08T10:00:00Z",
       "summary": "Which of your dependencies are wearing sunglasses",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "date": "2026-05-08T02:58:46Z",
-      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today,…",
-      "source": "krebsonsecurity.com"
     },
     {
       "title": "Notes on incidents",
@@ -280,6 +273,13 @@
       "date": "2026-05-04T14:21:45Z",
       "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
       "source": "antirez.com"
+    },
+    {
+      "title": "Content for Content’s Sake",
+      "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
+      "date": "2026-05-04T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     }
   ]
 }
