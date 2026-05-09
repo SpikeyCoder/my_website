@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-09T01:02:12.156928Z",
+  "generated_at": "2026-05-09T03:17:42.495929Z",
   "items": [
+    {
+      "title": "Quoting Luke Curley",
+      "link": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+      "date": "2026-05-09T01:03:58Z",
+      "summary": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "AI makes weak engineers less harmful",
       "link": "https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/",
@@ -97,13 +104,6 @@
       "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
       "date": "2026-05-07T19:57:06Z",
       "summary": "Release: llm-gemini 0.31 gemini-3.1-flash-lite is no longer a preview . Here's my write-up of the Gemini 3.1 Flash-Lite Preview model back in March. I don't believe this new non-preview model has…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Big Words",
-      "link": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
-      "date": "2026-05-07T18:47:09Z",
-      "summary": "Tool: Big Words I'm using my vibe coded macOS presentations tool to put together a talk, and I wanted to add a slide with some text on it. The tool only accepts URLs, so I put together a quick page…",
       "source": "simonwillison.net"
     },
     {
