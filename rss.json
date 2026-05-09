@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-09T11:23:47.195547Z",
+  "generated_at": "2026-05-09T12:30:36.666077Z",
   "items": [
+    {
+      "title": "Reading List 05/09/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-05092026",
+      "date": "2026-05-09T12:02:50Z",
+      "summary": "Trapped buildings, in-home data centers, cardboard military drones, Brightline’s potential bankruptcy, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Book Review: The Names by Florence Knapp ★★⯪☆☆",
+      "link": "https://shkspr.mobi/blog/2026/05/book-review-the-names-by-florence-knapp/",
+      "date": "2026-05-09T11:34:20Z",
+      "summary": "This has an excellent narrative structure, some beautiful prose, and I just didn't enjoy it. The story is Sliding Doors meets Same Time Next Year mixed with a distressing amount of domestic violence.…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "The Mismeasure of Open Source",
       "link": "https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html",
@@ -261,25 +275,11 @@
       "source": "antirez.com"
     },
     {
-      "title": "[RSS Club] Where are you from?",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-where-are-you-from/",
-      "date": "2026-05-04T11:34:40Z",
-      "summary": "Psssst! This top secret post is only available to RSS subscribers! A little while ago I added some locally hosted, privacy first stats to my blog. Using an offline GeoIP service I can get a very…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Content for Content’s Sake",
       "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
       "date": "2026-05-04T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Minimal Viable Zig Error Contexts",
-      "link": "https://matklad.github.io/2026/05/03/zig-error-context.html",
-      "date": "2026-05-03T00:00:00Z",
-      "summary": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out…",
-      "source": "matklad.github.io"
     }
   ]
 }
