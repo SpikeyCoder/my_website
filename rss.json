@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-10T17:25:43.162142Z",
+  "generated_at": "2026-05-10T18:28:41.103950Z",
   "items": [
+    {
+      "title": "Reverse engineering Mersenne Twister with Linear Algebra",
+      "link": "https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/",
+      "date": "2026-05-10T17:32:02Z",
+      "summary": "The Mersenne Twister (MT) is a random number generator with good statistical properties but bad cryptographic properties. In buzzwords, it’s a PRNG but not a CSPRNG. This post will show how the…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Meta to Start Capturing Employee Mouse Movements, Keystrokes for AI Training Data",
       "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
@@ -231,13 +238,6 @@
       "date": "2026-05-07T00:00:00Z",
       "summary": "Oh boy yet more linux kernel vulns",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Triangular analog of the squircle",
-      "link": "https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/",
-      "date": "2026-05-06T19:53:29Z",
-      "summary": "TimF left a comment on my guitar pick post saying the image was a “squircle-ish analog for an isosceles triangle.” That made me wonder what a more direct analog of the squircle might be for a…",
-      "source": "johndcook.com"
     },
     {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
