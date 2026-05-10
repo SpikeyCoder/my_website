@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-10T18:28:41.103950Z",
+  "generated_at": "2026-05-10T19:30:45.758582Z",
   "items": [
+    {
+      "title": "The linear algebra of bit twiddling",
+      "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
+      "date": "2026-05-10T18:51:40Z",
+      "summary": "The previous post looked at the tempering step of the Mersenne Twister, formulating a sequence of bit operations as multiplication by a matrix mod 2. This post will look at the components more…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
       "link": "https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/",
@@ -182,13 +189,6 @@
       "date": "2026-05-07T23:05:15Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Smoothed polygons",
-      "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
-      "date": "2026-05-07T18:19:24Z",
-      "summary": "The previous post constructed a triangular analog of the squircle, the unit circle in the p-norm where p is typically around 4. The case p = 2 is a Euclidean circle and the limit as p → ∞ is a…",
-      "source": "johndcook.com"
     },
     {
       "title": "How Long Do We Wait for New Inventions?",
