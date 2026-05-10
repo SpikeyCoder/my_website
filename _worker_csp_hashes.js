@@ -9,7 +9,7 @@
 
 export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-0V7O8PVu87hEP8sUgQuskdAZ7xgLVWlX9ZZD+J4Uvps='",
-  "'sha256-1LAhQdYlOrqfrNJv5tnui5F2P9iY8+GEGKQVjASXOsA='",
+  "'sha256-0ZUycOX6ZA2DBQLXEVd6702x0iDeyMEwV9ksjDFYgsw='",
   "'sha256-2Jbi4jEvUC1h/dpbkHS23VlhI/xeSaB/eicU8SAkXcI='",
   "'sha256-3PKxcOa2oFQLtVj/L8TIBPURjaJrVO8BFIRCGm4ffZk='",
   "'sha256-55Vy4aI84t59p/Uq/4xz1UTYrck8WPnekaANeutITqM='",
