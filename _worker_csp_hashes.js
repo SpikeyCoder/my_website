@@ -3,7 +3,7 @@
 // CSP sha256 hashes for every inline <script> block on the site.
 // Imported by _worker.js and joined into the script-src directive.
 //
-// Last regenerated for 53 unique blocks across the site.
+// Last regenerated for 54 unique blocks across the site.
 //
 // Pen-test 2026-05-05 finding KA-2026-05-05-01.
 
@@ -34,6 +34,7 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-OvLkNjqmVlY9zXEWs5LoGq8SLO2cyanwDelbbUNFm+A='",
   "'sha256-PYNbJeSUX53nAbGtIJS7fXt0YAbwHZqQivl5QbfHwMw='",
   "'sha256-QDl9Edmk7npqY4i7D8e97ghhvdJJipzrs3amJeHJbe8='",
+  "'sha256-RPnP0hTIKNJ/C5Rj4jToraII/OcEJkQU40QhsPanegQ='",
   "'sha256-Ro6AH8h8cqTc61PUFsFixTDTlGWQFPwHqPRCBIh8BLs='",
   "'sha256-SrJtYXQp+WeuGSWSDYFLUg5tQD2s2PaXwYr9iNFyhuY='",
   "'sha256-YG2ASUbt1NpZNctpPcTwOr7/rlZi+8qqQ2mRNh2LB6Q='",
