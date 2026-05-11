@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-11T18:47:58.699410Z",
+  "generated_at": "2026-05-11T19:38:58.970691Z",
   "items": [
+    {
+      "title": "Your AI Use Is Breaking My Brain",
+      "link": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+      "date": "2026-05-11T19:21:27Z",
+      "summary": "Your AI Use Is Breaking My Brain Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The New PowerMac",
       "link": "https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner",
-      "date": "2026-05-11T18:32:03Z",
+      "date": "2026-05-11T18:48:58Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Using LLM in the shebang line of a script",
+      "link": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+      "date": "2026-05-11T18:48:57Z",
+      "summary": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News : But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap",
@@ -79,18 +93,11 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Hosting a website on an AVR",
+      "title": "Hosting a website on an 8-bit microcontroller.",
       "link": "https://maurycyz.com/projects/mcusite/",
       "date": "2026-05-11T00:00:00Z",
-      "summary": "In today's episode of \"dumb things to do with an 8-bit microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32…",
+      "summary": "In today's episode of \"dumb things to do with an AVR microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32 which…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Quoting New York Times Editors’ Note",
-      "link": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
-      "date": "2026-05-10T23:58:49Z",
-      "summary": "This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -98,13 +105,6 @@
       "date": "2026-05-10T18:51:40Z",
       "summary": "The previous post looked at the tempering step of the Mersenne Twister, formulating a sequence of bit operations as multiplication by a matrix mod 2. This post will look at the components more…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Quoting Andrew Quinn",
-      "link": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
-      "date": "2026-05-10T14:59:17Z",
-      "summary": "One could say in the first quarter-century of my life, that while I was always fascinated by programming, I could never overcome the guilt of not really knowing whether the tool I am building right…",
-      "source": "simonwillison.net"
     },
     {
       "title": "WorkOS",
