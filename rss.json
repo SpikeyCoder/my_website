@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-11T17:02:57.738146Z",
+  "generated_at": "2026-05-11T18:47:58.699410Z",
   "items": [
+    {
+      "title": "The New PowerMac",
+      "link": "https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner",
+      "date": "2026-05-11T18:32:03Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&leadSource=uverify%20wall",
+      "date": "2026-05-11T18:00:51Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Learning on the Shop floor",
       "link": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
@@ -65,6 +79,13 @@
       "source": "joanwestenberg.com"
     },
     {
+      "title": "Hosting a website on an AVR",
+      "link": "https://maurycyz.com/projects/mcusite/",
+      "date": "2026-05-11T00:00:00Z",
+      "summary": "In today's episode of \"dumb things to do with an 8-bit microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32…",
+      "source": "maurycyz.com"
+    },
+    {
       "title": "Quoting New York Times Editors’ Note",
       "link": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
       "date": "2026-05-10T23:58:49Z",
@@ -77,13 +98,6 @@
       "date": "2026-05-10T18:51:40Z",
       "summary": "The previous post looked at the tempering step of the Mersenne Twister, formulating a sequence of bit operations as multiplication by a matrix mod 2. This post will look at the components more…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Meta to Start Capturing Employee Mouse Movements, Keystrokes for AI Training Data",
-      "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
-      "date": "2026-05-10T15:46:42Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Quoting Andrew Quinn",
@@ -219,13 +233,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Prolost Watches 1.0",
-      "link": "https://prolost.com/blog/prolostwatches",
-      "date": "2026-05-07T23:05:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "How Long Do We Wait for New Inventions?",
       "link": "https://www.construction-physics.com/p/how-long-do-we-wait-for-new-inventions",
       "date": "2026-05-07T15:23:28Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-06T00:21:50Z",
       "summary": "There was a time when adults could feel something without screaming at you about it. We could disagree - hard - in a meeting and walk out with our faces still attached. When bad news arrived at the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Redis array type: short story of a long development",
-      "link": "http://antirez.com/news/164",
-      "date": "2026-05-04T14:21:45Z",
-      "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation…",
-      "source": "antirez.com"
     }
   ]
 }
