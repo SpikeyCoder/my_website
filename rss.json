@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-11T19:38:58.970691Z",
+  "generated_at": "2026-05-11T20:42:39.228707Z",
   "items": [
+    {
+      "title": "Quoting James Shore",
+      "link": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+      "date": "2026-05-11T19:48:32Z",
+      "summary": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Your AI Use Is Breaking My Brain",
       "link": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
@@ -28,13 +35,6 @@
       "date": "2026-05-11T18:00:51Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Learning on the Shop floor",
-      "link": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
-      "date": "2026-05-11T15:46:36Z",
-      "summary": "Learning on the Shop floor Tobias Lütke describes Shopify's internal coding agent tool, River, which operates entirely in public on their Slack: River does not respond to direct messages. She…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Inverse shift",
