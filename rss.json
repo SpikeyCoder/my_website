@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-11T22:29:56.647845Z",
+  "generated_at": "2026-05-11T23:26:25.828689Z",
   "items": [
+    {
+      "title": "iOS 26.5 Includes Beta Support for End-to-End Encrypted RCS Messaging",
+      "link": "https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/",
+      "date": "2026-05-11T23:13:27Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "iPhone Models Ranked 1st, 2nd, 3rd, and 6th in Counterpoint’s List of 10 Bestselling Phones Worldwide in Q1 2026",
       "link": "https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/",
@@ -35,13 +42,6 @@
       "date": "2026-05-11T18:48:57Z",
       "summary": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News : But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&leadSource=uverify%20wall",
-      "date": "2026-05-11T18:00:51Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Inverse shift",
