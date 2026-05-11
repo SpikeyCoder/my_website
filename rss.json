@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-11T13:14:47.350126Z",
+  "generated_at": "2026-05-11T15:11:33.850926Z",
   "items": [
+    {
+      "title": "Probability that a random binary matrix is invertible",
+      "link": "https://www.johndcook.com/blog/2026/05/11/random-binary-matrices/",
+      "date": "2026-05-11T13:25:13Z",
+      "summary": "The two latest posts have involved invertible matrices with 0 and 1 entries. If you fill an n × n matrix with 0s and 1s randomly, how likely is it to be invertible? What kind of inverse? There are a…",
+      "source": "johndcook.com"
+    },
     {
       "title": "We Are Not Going to Agree on AI",
       "link": "https://idiallo.com/blog/we-are-not-going-to-agree-on-ai?src=feed",
@@ -168,13 +175,6 @@
       "date": "2026-05-08T14:00:00Z",
       "summary": "You can track the file ID. The post Developing more confidence when tracking renames via <CODE>Read­Directory­ChangesW</CODE> appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Calculating curvature",
-      "link": "https://www.johndcook.com/blog/2026/05/08/calculating-curvature/",
-      "date": "2026-05-08T13:54:18Z",
-      "summary": "Curvature is conceptually simple but usually difficult to calculate. For a level set curve f(x, y) = c, such as in the previous couple posts, the equation for curvature is Even when f has a fairly…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: Lee Lai's \"Cannon\" (08 May 2026)",
