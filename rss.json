@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-10T23:24:36.958529Z",
+  "generated_at": "2026-05-11T01:07:56.693772Z",
   "items": [
+    {
+      "title": "Quoting New York Times Editors’ Note",
+      "link": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+      "date": "2026-05-10T23:58:49Z",
+      "summary": "This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "The linear algebra of bit twiddling",
       "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
@@ -105,13 +112,6 @@
       "date": "2026-05-09T00:00:00Z",
       "summary": "",
       "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
-      "link": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
-      "date": "2026-05-08T21:00:11Z",
-      "summary": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to…",
-      "source": "simonwillison.net"
     },
     {
       "title": "HomePod mini feels like magic, but it's just good timing",
