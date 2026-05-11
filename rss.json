@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-11T11:12:57.487090Z",
+  "generated_at": "2026-05-11T13:14:47.350126Z",
   "items": [
+    {
+      "title": "We Are Not Going to Agree on AI",
+      "link": "https://idiallo.com/blog/we-are-not-going-to-agree-on-ai?src=feed",
+      "date": "2026-05-11T12:00:00Z",
+      "summary": "On one hand, I know a developer producing 30,000 lines of code a month. On the other, I know a developer who says AI is stupid. Each swears by their stance and has evidence to back it up. One has a…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Find blog posts with missing featured images - and missing alt text - without a plugin",
+      "link": "https://shkspr.mobi/blog/2026/05/find-blog-posts-with-missing-featured-images-and-missing-alt-text-without-a-plugin/",
+      "date": "2026-05-11T11:34:39Z",
+      "summary": "WordPress has the concept of \"Featured Images\". They are the images which show up when you share a blog post on social media or, on some themes, as the \"hero\" image. How can you quickly and easily…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "proxy",
+      "link": "https://nesbitt.io/2026/05/11/proxy.html",
+      "date": "2026-05-11T10:00:00Z",
+      "summary": "A lightweight multi-ecosystem caching package proxy",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
       "link": "https://pluralistic.net/2026/05/11/postmortem/",
@@ -163,13 +184,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Weekend at Bernie’s",
-      "link": "https://nesbitt.io/2026/05/08/weekend-at-bernies.html",
-      "date": "2026-05-08T10:00:00Z",
-      "summary": "Which of your dependencies are wearing sunglasses",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "date": "2026-05-08T02:58:46Z",
@@ -219,13 +233,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "I've found just the right paper for my Bottom Hole problem",
-      "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
-      "date": "2026-05-07T11:34:54Z",
-      "summary": "A few weeks ago, I went on a mad quest to find the newspaper used in 1995's Bottom Hole TV show. During the episode, Eddie starts reading this newspaper: Obviously, the \"Hammersmith Bugle\" is not a…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
       "link": "http://www.righto.com/feeds/542341856603240438/comments/default",
       "date": "2026-05-07T04:07:19.572000Z",
@@ -266,13 +273,6 @@
       "date": "2026-05-06T00:21:50Z",
       "summary": "There was a time when adults could feel something without screaming at you about it. We could disagree - hard - in a meeting and walk out with our faces still attached. When bad news arrived at the…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "AI didn't delete your database, you did",
-      "link": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed",
-      "date": "2026-05-04T22:25:00Z",
-      "summary": "Last week, a tweet went viral showing a guy claiming that a Cursor/Claude agent deleted his company's production database . We watched from the sidelines as he tried to get a confession from the…",
-      "source": "idiallo.com"
     },
     {
       "title": "Redis array type: short story of a long development",
