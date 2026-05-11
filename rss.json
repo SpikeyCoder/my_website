@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-11T15:11:33.850926Z",
+  "generated_at": "2026-05-11T17:02:57.738146Z",
   "items": [
+    {
+      "title": "Learning on the Shop floor",
+      "link": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+      "date": "2026-05-11T15:46:36Z",
+      "summary": "Learning on the Shop floor Tobias Lütke describes Shopify's internal coding agent tool, River, which operates entirely in public on their Slack: River does not respond to direct messages. She…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Inverse shift",
+      "link": "https://www.johndcook.com/blog/2026/05/11/inverse-shift/",
+      "date": "2026-05-11T15:30:30Z",
+      "summary": "What is the inverse of shifting a sequence to the right? Shifting it to the left, obviously. But wait a minute. Suppose you have a sequence of eight bits abcdefgh and you shift it to the right. You…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Additional notes on controlling which handles are inherited by Create­Process",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313",
+      "date": "2026-05-11T14:00:00Z",
+      "summary": "Putting the handles in a private container. The post Additional notes on controlling which handles are inherited by <CODE>Create­Process</CODE> appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Probability that a random binary matrix is invertible",
       "link": "https://www.johndcook.com/blog/2026/05/11/random-binary-matrices/",
@@ -55,13 +76,6 @@
       "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
       "date": "2026-05-10T18:51:40Z",
       "summary": "The previous post looked at the tempering step of the Mersenne Twister, formulating a sequence of bit operations as multiplication by a matrix mod 2. This post will look at the components more…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Reverse engineering Mersenne Twister with Linear Algebra",
-      "link": "https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/",
-      "date": "2026-05-10T17:32:02Z",
-      "summary": "The Mersenne Twister (MT) is a random number generator with good statistical properties but bad cryptographic properties. In buzzwords, it’s a PRNG but not a CSPRNG. This post will show how the…",
       "source": "johndcook.com"
     },
     {
@@ -133,13 +147,6 @@
       "date": "2026-05-09T10:00:00Z",
       "summary": "The streetlight effect in project-health scoring",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Quoting Luke Curley",
-      "link": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
-      "date": "2026-05-09T01:03:58Z",
-      "summary": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a…",
-      "source": "simonwillison.net"
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -252,13 +259,6 @@
       "date": "2026-05-07T00:00:00Z",
       "summary": "Oh boy yet more linux kernel vulns",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "Why not have changes in API behavior depend on the SDK you link against?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=112303",
-      "date": "2026-05-06T14:00:00Z",
-      "summary": "Static libraries don't stand a chance. The post Why not have changes in API behavior depend on the SDK you link against? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Asimov's three laws are merely a suggestion",
