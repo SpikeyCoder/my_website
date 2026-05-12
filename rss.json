@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-12T10:55:05.434090Z",
+  "generated_at": "2026-05-12T11:43:24.864195Z",
   "items": [
+    {
+      "title": "Hacking the lehmer64 RNG",
+      "link": "https://www.johndcook.com/blog/2026/05/12/hacking-the-lehmer64-rng/",
+      "date": "2026-05-12T11:07:31Z",
+      "summary": "A couple days ago I wrote about hacking the Mersenne Twister. I explained how to recover the random number generator’s internal state from a stream of 640 outputs. This post will do something similar…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Position or Perish: The Narrative Blueprint",
       "link": "https://www.joanwestenberg.com/position-or-perish-the-narrative-blueprint/",
       "date": "2026-05-12T10:15:17Z",
       "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Not a Security Issue",
+      "link": "https://nesbitt.io/2026/05/12/not-a-security-issue.html",
+      "date": "2026-05-12T10:00:00Z",
+      "summary": "How curl's disclosure policy filtered an AI scanner's findings at source",
+      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: A fascist paradigm (12 May 2026)",
@@ -91,13 +105,6 @@
       "date": "2026-05-11T14:00:00Z",
       "summary": "Putting the handles in a private container. The post Additional notes on controlling which handles are inherited by <CODE>Create­Process</CODE> appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Probability that a random binary matrix is invertible",
-      "link": "https://www.johndcook.com/blog/2026/05/11/random-binary-matrices/",
-      "date": "2026-05-11T13:25:13Z",
-      "summary": "The two latest posts have involved invertible matrices with 0 and 1 entries. If you fill an n × n matrix with 0s and 1s randomly, how likely is it to be invertible? What kind of inverse? There are a…",
-      "source": "johndcook.com"
     },
     {
       "title": "We Are Not Going to Agree on AI",
@@ -189,13 +196,6 @@
       "date": "2026-05-09T11:34:20Z",
       "summary": "This has an excellent narrative structure, some beautiful prose, and I just didn't enjoy it. The story is Sliding Doors meets Same Time Next Year mixed with a distressing amount of domestic violence.…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "The Mismeasure of Open Source",
-      "link": "https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html",
-      "date": "2026-05-09T10:00:00Z",
-      "summary": "The streetlight effect in project-health scoring",
-      "source": "nesbitt.io"
     },
     {
       "title": "AI makes weak engineers less harmful",
