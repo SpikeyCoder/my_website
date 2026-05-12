@@ -147,6 +147,14 @@ const SECURITY_HEADERS = {
   'Permissions-Policy':
     'camera=(), microphone=(), geolocation=(), interest-cohort=()',
   'Cross-Origin-Opener-Policy': 'same-origin',
+  // KA-2026-05-12-04: add Cross-Origin-Resource-Policy. Same-origin matches
+  // the existing COOP posture and prevents cross-origin sites from
+  // embedding our subresources cross-credentialed. CORP defaults to
+  // 'cross-origin' for static-CDN-served images on Cloudflare Pages, but
+  // because the site only serves first-party assets the tighter value is
+  // safe today and surfaces accidental cross-origin embedding regressions
+  // immediately.
+  'Cross-Origin-Resource-Policy': 'same-origin',
   // X-XSS-Protection: explicitly disable legacy browser XSS auditor.
   // Modern guidance (OWASP Secure Headers Project) recommends setting
   // this to 0 so that older Chromium/IE/Safari versions do not attempt
