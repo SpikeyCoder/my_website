@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-12T11:43:24.864195Z",
+  "generated_at": "2026-05-12T12:54:48.429611Z",
   "items": [
+    {
+      "title": "Initialize and print 128-bit integers in C",
+      "link": "https://www.johndcook.com/blog/2026/05/12/c-128-bit-int/",
+      "date": "2026-05-12T12:20:20Z",
+      "summary": "If you look very closely at my previous post, you’ll notice that I initialize a 128-bit integer with a 64-bit value. The 128-bit unsigned integer represents the internal state of a random number…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Hacking the lehmer64 RNG",
       "link": "https://www.johndcook.com/blog/2026/05/12/hacking-the-lehmer64-rng/",
@@ -91,13 +98,6 @@
       "date": "2026-05-11T19:21:27Z",
       "summary": "Your AI Use Is Breaking My Brain Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Inverse shift",
-      "link": "https://www.johndcook.com/blog/2026/05/11/inverse-shift/",
-      "date": "2026-05-11T15:30:30Z",
-      "summary": "What is the inverse of shifting a sequence to the right? Shifting it to the left, obviously. But wait a minute. Suppose you have a sequence of eight bits abcdefgh and you shift it to the right. You…",
-      "source": "johndcook.com"
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
