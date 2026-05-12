@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-05-11T23:26:25.828689Z",
+  "generated_at": "2026-05-12T01:01:46.092801Z",
   "items": [
+    {
+      "title": "[Sponsor] Drata",
+      "link": "https://drata.com/daring",
+      "date": "2026-05-12T00:54:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Euler function",
+      "link": "https://www.johndcook.com/blog/2026/05/11/euler-function/",
+      "date": "2026-05-12T00:49:41Z",
+      "summary": "This morning I wrote a post about the probability that a random matrix over a finite field is invertible. If the field has q elements and the matrix has dimensions n × n then the probability is In…",
+      "source": "johndcook.com"
+    },
     {
       "title": "iOS 26.5 Includes Beta Support for End-to-End Encrypted RCS Messaging",
       "link": "https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/",
-      "date": "2026-05-11T23:13:27Z",
+      "date": "2026-05-12T00:23:53Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+      "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+      "date": "2026-05-11T23:58:55Z",
+      "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're…",
+      "source": "simonwillison.net"
     },
     {
       "title": "iPhone Models Ranked 1st, 2nd, 3rd, and 6th in Counterpoint’s List of 10 Bestselling Phones Worldwide in Q1 2026",
@@ -27,20 +48,6 @@
       "link": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
       "date": "2026-05-11T19:21:27Z",
       "summary": "Your AI Use Is Breaking My Brain Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "The New PowerMac",
-      "link": "https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner",
-      "date": "2026-05-11T18:48:58Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Using LLM in the shebang line of a script",
-      "link": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
-      "date": "2026-05-11T18:48:57Z",
-      "summary": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News : But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to…",
       "source": "simonwillison.net"
     },
     {
@@ -105,13 +112,6 @@
       "date": "2026-05-11T00:00:00Z",
       "summary": "In today's episode of \"dumb things to do with an AVR microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32 which…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "The linear algebra of bit twiddling",
-      "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
-      "date": "2026-05-10T18:51:40Z",
-      "summary": "The previous post looked at the tempering step of the Mersenne Twister, formulating a sequence of bit operations as multiplication by a matrix mod 2. This post will look at the components more…",
-      "source": "johndcook.com"
     },
     {
       "title": "[RSS Club] A Sneak Preview of Upcoming Posts",
