@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-12T13:44:40.326634Z",
+  "generated_at": "2026-05-12T15:05:09.037174Z",
   "items": [
+    {
+      "title": "Bambu Lab is abusing the open source social contract",
+      "link": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/",
+      "date": "2026-05-12T14:00:00Z",
+      "summary": "Last year I said I'd probably never recommend another Bambu Lab printer again . I still use my P1S, but after Bambu Lab started pushing their always-connected cloud solution as the new default: I…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "Initialize and print 128-bit integers in C",
       "link": "https://www.johndcook.com/blog/2026/05/12/c-128-bit-int/",
@@ -273,13 +280,6 @@
       "date": "2026-05-07T04:07:19.572000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "The war between fast and legitimate is here",
-      "link": "https://www.joanwestenberg.com/the-war-between-fast-and-legitimate-is-here/",
-      "date": "2026-05-07T01:18:04Z",
-      "summary": "The European Union took four years to draft the AI Act - with OpenAI shipping GPT-4 to a hundred million users in two months. By the time Brussels finalised its definitions of “high-risk” systems,…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
