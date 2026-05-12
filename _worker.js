@@ -147,6 +147,13 @@ const SECURITY_HEADERS = {
   'Permissions-Policy':
     'camera=(), microphone=(), geolocation=(), interest-cohort=()',
   'Cross-Origin-Opener-Policy': 'same-origin',
+  // X-XSS-Protection: explicitly disable legacy browser XSS auditor.
+  // Modern guidance (OWASP Secure Headers Project) recommends setting
+  // this to 0 so that older Chromium/IE/Safari versions do not attempt
+  // their built-in heuristic XSS filter — which has produced more bypass
+  // vectors over the years than it has prevented. The strict CSP above
+  // is the live XSS defense.
+  'X-XSS-Protection': '0',
   // Enforced. The strict policy (no 'unsafe-inline' on script-src)
   // is now the live security boundary; the meta tag has been removed from
   // index.html and 404.html in this PR.
