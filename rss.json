@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-12T09:09:07.096058Z",
+  "generated_at": "2026-05-12T10:55:05.434090Z",
   "items": [
+    {
+      "title": "Position or Perish: The Narrative Blueprint",
+      "link": "https://www.joanwestenberg.com/position-or-perish-the-narrative-blueprint/",
+      "date": "2026-05-12T10:15:17Z",
+      "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Pluralistic: A fascist paradigm (12 May 2026)",
       "link": "https://pluralistic.net/2026/05/12/donella-meadows/",
@@ -35,6 +42,13 @@
       "date": "2026-05-12T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Learning Software Architecture",
+      "link": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "date": "2026-05-12T00:00:00Z",
+      "summary": "In reply to an email asking about learning software design skills as a researcher physicist:",
+      "source": "matklad.github.io"
     },
     {
       "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
@@ -266,20 +280,6 @@
       "date": "2026-05-07T01:18:04Z",
       "summary": "The European Union took four years to draft the AI Act - with OpenAI shipping GPT-4 to a hundred million users in two months. By the time Brussels finalised its definitions of “high-risk” systems,…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Maybe you shouldn't install new software for a bit",
-      "link": "https://xeiaso.net/blog/2026/abstain-from-install/",
-      "date": "2026-05-07T00:00:00Z",
-      "summary": "Oh boy yet more linux kernel vulns",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "Asimov's three laws are merely a suggestion",
-      "link": "https://idiallo.com/blog/asimov-three-laws-dont-work-with-ai?src=feed",
-      "date": "2026-05-06T12:00:00Z",
-      "summary": "Asimov's Three Laws of Robotics were designed as universal constraints for any thinking machine powerful enough to harm us: A robot may not injure a human being or, through inaction, allow a human…",
-      "source": "idiallo.com"
     }
   ]
 }
