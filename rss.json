@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-12T22:33:44.781436Z",
+  "generated_at": "2026-05-12T23:30:00.412922Z",
   "items": [
+    {
+      "title": "Quoting Mo Bitar",
+      "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+      "date": "2026-05-12T22:59:58Z",
+      "summary": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Mitchell Hashimoto",
       "link": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
@@ -35,6 +42,13 @@
       "date": "2026-05-12T20:32:00Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "llm 0.32a2",
+      "link": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "date": "2026-05-12T17:45:07Z",
+      "summary": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -98,20 +112,6 @@
       "date": "2026-05-12T00:00:00Z",
       "summary": "In reply to an email asking about learning software design skills as a researcher physicist:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
-      "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
-      "date": "2026-05-11T23:58:55Z",
-      "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting James Shore",
-      "link": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
-      "date": "2026-05-11T19:48:32Z",
-      "summary": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
