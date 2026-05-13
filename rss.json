@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-13T22:34:00.303912Z",
+  "generated_at": "2026-05-13T23:30:56.265886Z",
   "items": [
+    {
+      "title": "★ Nextpad++",
+      "link": "https://daringfireball.net/2026/05/nextpad",
+      "date": "2026-05-13T22:51:46Z",
+      "summary": "Nextpad++ feels like a fever dream. Like what Mac apps would be if the Nazis had won WWII.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Software Engineers are Obsolete",
+      "link": "https://idiallo.com/blog/everyone-is-better-than-you?src=feed",
+      "date": "2026-05-13T22:40:00Z",
+      "summary": "In my first interview for a developer position, I shared a link to my personal project with the interviewer. It was a website for learning how to program. I created it from the ground up. I built the…",
+      "source": "idiallo.com"
+    },
     {
       "title": "Quoting Boris Mann",
       "link": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
@@ -49,13 +63,6 @@
       "date": "2026-05-13T04:50:45Z",
       "summary": "Tool: CSP Allow-list Experiment An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see previous note ) and have a custom fetch() that intercepts CSP errors and…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "★ Nextpad++",
-      "link": "https://daringfireball.net/2026/05/nextpad",
-      "date": "2026-05-13T02:56:00Z",
-      "summary": "Nextpad++ feels like a fever dream. Like what Mac apps would be if the Nazis had won WWII.",
-      "source": "daringfireball.net"
     },
     {
       "title": "Seriously, Give Kagi a Try",
@@ -273,13 +280,6 @@
       "date": "2026-05-08T02:58:46Z",
       "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today,…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Pushing Local Models With Focus And Polish",
-      "link": "https://lucumr.pocoo.org/2026/5/8/local-models/",
-      "date": "2026-05-08T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
