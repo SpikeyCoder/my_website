@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T13:51:13.849678Z",
+  "generated_at": "2026-05-13T15:09:13.599265Z",
   "items": [
     {
       "title": "Stupidly Simple SVG Sparklines",
@@ -42,6 +42,13 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "What’s with all the slide decks?",
+      "link": "https://dynomight.net/slides/",
+      "date": "2026-05-13T00:00:00Z",
+      "summary": "a polycausal theory",
+      "source": "dynomight.net"
     },
     {
       "title": "Open Link in Unloaded Tab, a little Firefox extension",
@@ -273,13 +280,6 @@
       "date": "2026-05-08T00:00:00Z",
       "summary": "Two tips on using zig fmt effectively. Read this if you are writing Zig, or if you are implementing a code formatter.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "How Long Do We Wait for New Inventions?",
-      "link": "https://www.construction-physics.com/p/how-long-do-we-wait-for-new-inventions",
-      "date": "2026-05-07T15:23:28Z",
-      "summary": "Mostly not very long",
-      "source": "construction-physics.com"
     }
   ]
 }
