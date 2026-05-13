@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-13T10:58:03.144671Z",
+  "generated_at": "2026-05-13T11:50:00.300919Z",
   "items": [
+    {
+      "title": "Stupidly Simple SVG Sparklines",
+      "link": "https://shkspr.mobi/blog/2026/05/stupidly-simple-svg-sparklines/",
+      "date": "2026-05-13T11:34:01Z",
+      "summary": "A sparkline is a little line-graph with no axes or other unnecessary details. They're useful for getting quick understanding of what the data is showing. They're also really easy to create…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Showing Our Work",
       "link": "https://nesbitt.io/2026/05/13/showing-our-work.html",
@@ -35,6 +42,13 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "Open Link in Unloaded Tab, a little Firefox extension",
+      "link": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
+      "date": "2026-05-13T00:00:00Z",
+      "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
+      "source": "evanhahn.com"
     },
     {
       "title": "datasette 1.0a29",
@@ -212,13 +226,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Book Review: The Names by Florence Knapp ★★⯪☆☆",
-      "link": "https://shkspr.mobi/blog/2026/05/book-review-the-names-by-florence-knapp/",
-      "date": "2026-05-09T11:34:20Z",
-      "summary": "This has an excellent narrative structure, some beautiful prose, and I just didn't enjoy it. The story is Sliding Doors meets Same Time Next Year mixed with a distressing amount of domestic violence.…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Your feed reader User-Agent is generic",
       "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
       "date": "2026-05-09T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-07T15:23:28Z",
       "summary": "Mostly not very long",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260507-00/?p=112307",
-      "date": "2026-05-07T14:00:00Z",
-      "summary": "Otherwise, it'll get mapped back down to the 8-bit code page. The post When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     }
   ]
 }
