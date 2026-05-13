@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-12T23:30:00.412922Z",
+  "generated_at": "2026-05-13T01:06:21.602410Z",
   "items": [
+    {
+      "title": "datasette 1.0a29",
+      "link": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "date": "2026-05-12T23:41:06Z",
+      "summary": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Mo Bitar",
       "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
@@ -42,13 +49,6 @@
       "date": "2026-05-12T20:32:00Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "llm 0.32a2",
-      "link": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
-      "date": "2026-05-12T17:45:07Z",
-      "summary": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
