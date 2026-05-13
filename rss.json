@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-13T03:19:23.919144Z",
+  "generated_at": "2026-05-13T05:25:56.493236Z",
   "items": [
+    {
+      "title": "CSP Allow-list Experiment",
+      "link": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+      "date": "2026-05-13T04:50:45Z",
+      "summary": "Tool: CSP Allow-list Experiment An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see previous note ) and have a custom fetch() that intercepts CSP errors and…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ Nextpad++",
       "link": "https://daringfireball.net/2026/05/nextpad",
@@ -27,13 +34,6 @@
       "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
       "date": "2026-05-12T22:59:58Z",
       "summary": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Mitchell Hashimoto",
-      "link": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
-      "date": "2026-05-12T22:21:51Z",
-      "summary": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are…",
       "source": "simonwillison.net"
     },
     {
