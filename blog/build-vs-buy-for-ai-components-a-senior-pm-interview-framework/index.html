@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Build vs buy for AI components, a senior PM interview framework | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Senior PM interviews at AI-forward companies test how you reason about build vs buy decisions. A clear framework beats vague tradeoff talk every time." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Build vs buy for AI components, a senior PM interview framework" />
+    <meta property="og:description" content="Senior PM interviews at AI-forward companies test how you reason about build vs buy decisions. A clear framework beats vague tradeoff talk every time." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-13T08:16:13.217041+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Build vs buy for AI components, a senior PM interview framework" />
+    <meta name="twitter:description" content="Senior PM interviews at AI-forward companies test how you reason about build vs buy decisions. A clear framework beats vague tradeoff talk every time." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Build vs buy for AI components, a senior PM interview framework", "description": "Senior PM interviews at AI-forward companies test how you reason about build vs buy decisions. A clear framework beats vague tradeoff talk every time.", "url": "https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/"}, "datePublished": "2026-05-13T08:16:13.217041+00:00", "dateModified": "2026-05-13T08:16:13.217041+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Build vs buy for AI components, a senior PM interview framework</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/" data-share-copy-url="https://kevinarmstrong.io/blog/build-vs-buy-for-ai-components-a-senior-pm-interview-framework/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Senior PM interviews at AI-forward companies test how you reason about build vs buy decisions. A clear framework beats vague tradeoff talk every time.</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 13, 2026 • 5 min read • AI product management, PM interviews, build vs buy, AI strategy, senior PM</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <h2>Why this question dominates AI PM interviews</h2>
+            <p>AI-forward companies ask build vs buy questions to test product judgment. The interviewer wants to see how you weigh speed, cost, control, and moat. A senior PM at OpenAI, Anthropic, or a Series B startup faces this choice each week. Should the team fine-tune a model or call GPT-5? Is Pinecone good enough, or do you need a custom RAG pipeline? Where does retrieval logic belong, in-house or with a vendor?</p>
+            <p>The phrase &quot;it depends&quot; is the wrong answer. A strong response applies a framework to specifics and names the tradeoffs.</p>
+            <h2>A simple framework for the decision</h2>
+            <p>Andrew Chen writes that the best PMs reason about defensibility before they reason about features (Chen, <em>The Cold Start Problem</em>). Apply that lens to AI components. Buy commodity capabilities. Build the parts that compound into a moat.</p>
+            <p>Three questions sort most decisions:</p>
+            <ul>
+            <li>Does this component touch our proprietary data in a way that creates a moat?</li>
+            <li>Will vendor latency, cost, or reliability break our user experience?</li>
+            <li>Can our team operate this safely at our current scale?</li>
+            </ul>
+            <p>A yes on question one points toward build. A no on questions two or three points toward buy. Most real decisions blend both answers.</p>
+            <h2>When to buy</h2>
+            <p>Foundation models are the cleanest buy. Training a model from scratch costs tens of millions of dollars. Calling Claude or GPT-5 costs cents per query. Ethan Mollick notes that the gap between frontier labs and downstream builders keeps widening each year (Mollick, <em>Co-Intelligence</em>). A startup competing on model training loses the race. A startup competing on workflow, data, distribution, and brand can win the market.</p>
+            <p>Vector databases are usually a buy. Pinecone, Weaviate, pgvector, and Chroma all solve a well-defined problem. Your retrieval logic is the moat. The index is a commodity.</p>
+            <p>Embedding models are a buy at small scale. Open-source options run on commodity hardware. Hosted options cost less than the engineering time required for maintenance.</p>
+            <p>Observability tools like LangSmith and Helicone are a buy. Logging, eval, tracing, and replay for LLM apps is hard plumbing. In-house versions drain weeks from the roadmap.</p>
+            <h2>When to build</h2>
+            <p>Build when the component touches proprietary data outside vendor reach. A legal AI tool with ten thousand annotated case files holds training data outside the reach of any lab. Fine-tuning on that data creates a defensible product. Ben Horowitz argues that durable companies own a process more than a feature (Horowitz, <em>The Hard Thing About Hard Things</em>). Your training pipeline can be that process.</p>
+            <p>Tight control over user experience also pushes toward build. A real-time voice agent at sub-300ms latency cannot tolerate a network hop to a vendor. Hosting your own inference becomes the answer. A trading system with sub-50ms requirements needs custom infrastructure.</p>
+            <p>Compliance can force the decision. Healthcare and defense customers often refuse third-party data processors. SOC 2 and HIPAA constraints push toward self-hosted models. The cost of building is lower than the cost of losing the contract.</p>
+            <p>Scale eventually flips the unit economics. At one million queries per day, vendor API costs can exceed the fully loaded cost of a self-hosted model. Track your spend each month. Move in-house at the crossover point.</p>
+            <h2>The hybrid path</h2>
+            <p>Most senior PMs end up on a hybrid path. Buy the foundation model. Build the retrieval layer. Buy the vector store. Build the eval harness. Buy observability. Build the prompt orchestration logic.</p>
+            <p>Shreyas Doshi describes this as the high-leverage middle layer, where small product teams capture most of the value without owning the stack (Doshi, <em>The PM Library</em>). Your job is to find that middle layer inside your product.</p>
+            <p>A practical pattern follows this sequence. Start with vendor APIs in week one. Ship a working product in weeks four to six. Measure cost, latency, and quality. Replace components with custom builds only when data shows a clear win.</p>
+            <p>This sequencing protects against two failure modes. The first is over-building, where the team spends six months on infrastructure and never reaches users. The second is over-buying, where the team stacks vendors and ends up with no defensible product.</p>
+            <h2>How to answer this in an interview</h2>
+            <p>Senior PM interviews at AI companies often pose a scenario. The interviewer might say, &quot;you join a Series A company building an AI sales assistant. Walk me through your build vs buy decisions for the first six months.&quot;</p>
+            <p>Strong answers move through four steps.</p>
+            <p>First, name the product goal in one sentence. Faster sales rep response times. Higher reply rates. Better lead scoring. Lower cost per qualified lead. Pick the goal.</p>
+            <p>Second, list the AI components the product needs. A language model, a retrieval system, an eval framework, an observability layer, a prompt manager, and a vector store.</p>
+            <p>Third, sort each component by the three questions in the framework. Walk through the logic step by step. Foundation model: buy, because no moat exists in pretraining. Retrieval over customer email history: build, because that data is the moat. Vector store: buy, because off-the-shelf options handle the workload. Eval harness: build, because quality bars vary by customer.</p>
+            <p>Fourth, name the risks. Vendor lock-in if a single provider has an outage. Cost overruns at scale. Hiring constraints for ML engineering talent. Quality regressions when vendors push silent model updates. The interviewer wants to see that you have thought past the happy path.</p>
+            <p>Aakash Gupta argues that AI PM interviews now test for systems thinking more than feature thinking (Gupta, <em>The Product Compass</em>). A build vs buy answer is your chance to show both skills.</p>
+            <h2>Works cited</h2>
+            <p>Chen, Andrew. <em>The Cold Start Problem</em>. Harper Business, 2021.</p>
+            <p>Doshi, Shreyas. <em>The PM Library</em>. Self-published, 2023.</p>
+            <p>Gupta, Aakash. <em>The Product Compass</em>. Substack, 2024.</p>
+            <p>Horowitz, Ben. <em>The Hard Thing About Hard Things</em>. Harper Business, 2014.</p>
+            <p>Mollick, Ethan. <em>Co-Intelligence: Living and Working with AI</em>. Portfolio, 2024.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
