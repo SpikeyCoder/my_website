@@ -147,6 +147,19 @@ const SECURITY_HEADERS = {
   'Permissions-Policy':
     'camera=(), microphone=(), geolocation=(), interest-cohort=()',
   'Cross-Origin-Opener-Policy': 'same-origin',
+  // KA-2026-05-13-02: Cross-Origin-Embedder-Policy: credentialless.
+  // Pairs with the existing COOP: same-origin to put HTML documents into a
+  // cross-origin isolated context, which (a) hardens against Spectre-style
+  // cross-origin side-channel attacks on shared-memory features and (b)
+  // surfaces accidental loading of cross-origin subresources without
+  // explicit opt-in (CORP / CORS). We pick 'credentialless' rather than
+  // 'require-corp' because the only third-party subresource the document
+  // currently pulls (gc.zgo.at analytics beacon) does not return a CORP
+  // header today; 'credentialless' strips ambient cookies on that hop
+  // instead of blocking it outright. If/when every cross-origin
+  // dependency advertises a CORP header, this can be tightened to
+  // 'require-corp'.
+  'Cross-Origin-Embedder-Policy': 'credentialless',
   // KA-2026-05-12-04: add Cross-Origin-Resource-Policy. Same-origin matches
   // the existing COOP posture and prevents cross-origin sites from
   // embedding our subresources cross-credentialed. CORP defaults to
