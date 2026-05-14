@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-05-14T17:41:28.508141Z",
+  "generated_at": "2026-05-14T18:46:58.841551Z",
   "items": [
     {
       "title": "Klack",
       "link": "https://tryklack.com/",
-      "date": "2026-05-14T17:39:25Z",
+      "date": "2026-05-14T18:34:44Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "New Driver for the Old Griffin PowerMate",
-      "link": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
-      "date": "2026-05-14T16:20:55Z",
+      "title": "The Trump T1 Phone Starts Shipping This Week, Supposedly",
+      "link": "https://www.theverge.com/gadgets/929471/trump-mobile-t1-phone-shipping-this-week",
+      "date": "2026-05-14T18:30:24Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Gurman Reports that OpenAI Is Unhappy With Apple Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight?srnd=undefined&embedded-checkout=true",
+      "date": "2026-05-14T18:27:51Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "A constant-space linear-time algorithm for deleting all but the 10 most recent files in a directory",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260514-00/?p=112322",
+      "date": "2026-05-14T14:00:00Z",
+      "summary": "Using data structures you already knew. The post A constant-space linear-time algorithm for deleting all but the 10 most recent files in a directory appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: Kickstarting \"The Reverse Centaur's Guide to Life After AI\" (14 May 2026)",
@@ -56,13 +70,6 @@
       "date": "2026-05-13T23:59:39Z",
       "summary": "Welcome to the Datasette blog We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog. I built this using OpenAI Codex desktop,…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "★ Nextpad++",
-      "link": "https://daringfireball.net/2026/05/nextpad",
-      "date": "2026-05-13T22:51:46Z",
-      "summary": "Nextpad++ feels like a fever dream. Like what Mac apps would be if the Nazis had won WWII.",
-      "source": "daringfireball.net"
     },
     {
       "title": "Software Engineers are Obsolete",
@@ -121,6 +128,13 @@
       "source": "dynomight.net"
     },
     {
+      "title": "Open Link in Unloaded Tab, a little Firefox extension",
+      "link": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
+      "date": "2026-05-13T00:00:00Z",
+      "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
+      "source": "evanhahn.com"
+    },
+    {
       "title": "Patch Tuesday, May 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
       "date": "2026-05-12T21:46:45Z",
@@ -133,6 +147,13 @@
       "date": "2026-05-12T14:00:00Z",
       "summary": "Last year I said I'd probably never recommend another Bambu Lab printer again . I still use my P1S, but after Bambu Lab started pushing their always-connected cloud solution as the new default: I…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316",
+      "date": "2026-05-12T14:00:00Z",
+      "summary": "Compatibility, of course. The post Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Initialize and print 128-bit integers in C",
@@ -189,13 +210,6 @@
       "date": "2026-05-12T00:00:00Z",
       "summary": "In reply to an email asking about learning software design skills as a researcher physicist:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Additional notes on controlling which handles are inherited by Create­Process",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313",
-      "date": "2026-05-11T14:00:00Z",
-      "summary": "Putting the handles in a private container. The post Additional notes on controlling which handles are inherited by <CODE>Create­Process</CODE> appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "We Are Not Going to Agree on AI",
@@ -266,20 +280,6 @@
       "date": "2026-05-08T14:00:00Z",
       "summary": "Apple introduced the HomePod mini six years ago , in 2020. I'm not one into smart speakers, but the feature that made me take a closer look was their ability to form stereo pairs, without any direct…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310",
-      "date": "2026-05-08T14:00:00Z",
-      "summary": "You can track the file ID. The post Developing more confidence when tracking renames via <CODE>Read­Directory­ChangesW</CODE> appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "date": "2026-05-08T02:58:46Z",
-      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today,…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
