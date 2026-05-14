@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-14T07:13:31.640376Z",
+  "generated_at": "2026-05-14T09:07:20.317853Z",
   "items": [
+    {
+      "title": "It's funny because it's true",
+      "link": "https://idiallo.com/byte-size/its-funny-because-its-true?src=feed",
+      "date": "2026-05-14T07:13:34Z",
+      "summary": "I made a joke online. Based on Internet upvote points, it was pretty funny. OK, I didn't come up with the joke, but it was a perfectly timed reference. A few days back, Cliff Stoll, of the Klein…",
+      "source": "idiallo.com"
+    },
     {
       "title": "Welcome to the Datasette blog",
       "link": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
@@ -259,13 +266,6 @@
       "date": "2026-05-08T14:00:00Z",
       "summary": "Apple introduced the HomePod mini six years ago , in 2020. I'm not one into smart speakers, but the feature that made me take a closer look was their ability to form stereo pairs, without any direct…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Hi stranger",
-      "link": "https://idiallo.com/blog/hi?src=feed",
-      "date": "2026-05-08T14:00:00Z",
-      "summary": "I'm at home, sitting on the kitchen table. I just took my boys to school and I'm about to start my work. I'm writing this message directly to you. And you are reading it. Hello! Isn't that funny?…",
-      "source": "idiallo.com"
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
