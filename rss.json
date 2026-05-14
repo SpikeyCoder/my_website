@@ -1,24 +1,38 @@
 {
-  "generated_at": "2026-05-14T22:30:53.027141Z",
+  "generated_at": "2026-05-14T23:26:01.985904Z",
   "items": [
+    {
+      "title": "Not so locked in any more",
+      "link": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
+      "date": "2026-05-14T22:53:49Z",
+      "summary": "This Mitchell Hashimoto quote about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week. I was talking to someone who worked for a medium sized…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Meta’s New Reality: Record High Profits. Record Low Morale | WIRED",
+      "link": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
+      "date": "2026-05-14T22:53:10Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Quoting Mitchell Hashimoto",
+      "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
+      "date": "2026-05-14T22:31:20Z",
+      "summary": "[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "A few words on DS4",
       "link": "http://antirez.com/news/165",
       "date": "2026-05-14T22:22:45Z",
-      "summary": "I didn’t expect DwarfStar 4 to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the…",
+      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
       "source": "antirez.com"
     },
     {
       "title": "Geoffrey Fowler and the Launch of the Youth AI Safety Institute",
       "link": "https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going",
       "date": "2026-05-14T20:51:04Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Google Announces Its Chromebook Successor: The Googlebook",
-      "link": "https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI",
-      "date": "2026-05-14T20:31:00Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -86,25 +100,11 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Welcome to the Datasette blog",
-      "link": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
-      "date": "2026-05-13T23:59:39Z",
-      "summary": "Welcome to the Datasette blog We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog. I built this using OpenAI Codex desktop,…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Software Engineers are Obsolete",
       "link": "https://idiallo.com/blog/everyone-is-better-than-you?src=feed",
       "date": "2026-05-13T22:40:00Z",
       "summary": "In my first interview for a developer position, I shared a link to my personal project with the interviewer. It was a website for learning how to program. I created it from the ground up. I built the…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Quoting Boris Mann",
-      "link": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
-      "date": "2026-05-13T16:15:50Z",
-      "summary": "“11 AI agents” is meaningless as a phrase. If I said “I have 11 spreadsheets” or “I have 11 browser tabs” to do my work, it means about the same thing. — Boris Mann Tags: ai-agents , ai ,…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Billionaire solipsism, dictator solipsism, AI, and the fascist paradigm (13 May 2026)",
