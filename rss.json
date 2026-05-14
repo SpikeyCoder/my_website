@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-14T19:37:57.620831Z",
+  "generated_at": "2026-05-14T20:37:49.766498Z",
   "items": [
     {
-      "title": "Tim Cook Is in Trump’s Executive Entourage for China Summit",
-      "link": "https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html",
-      "date": "2026-05-14T19:36:58Z",
+      "title": "Google Announces Its Chromebook Successor: The Googlebook",
+      "link": "https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI",
+      "date": "2026-05-14T20:31:00Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
-      "title": "Google Announces Its Chromebook Successor: The Googlebook",
-      "link": "https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI",
-      "date": "2026-05-14T19:02:22Z",
+      "title": "Tim Cook Is in Trump’s Executive Entourage for China Summit",
+      "link": "https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html",
+      "date": "2026-05-14T19:36:58Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -56,6 +56,20 @@
       "date": "2026-05-14T04:10:23Z",
       "summary": "Release: datasette-ip-rate-limit 0.1a0 The datasette.io site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Building a clock from salvaged Vacuum Fluorescent Displays",
+      "link": "https://maurycyz.com/projects/tubeclock/",
+      "date": "2026-05-14T00:00:00Z",
+      "summary": "When was disassembling an old calculator (as you do) I found these cool VFD tubes: Normally, a whole display is built into a single flat package, which doesn't look particularly interesting. These…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "Amazonbot is finally respecting robots.txt",
+      "link": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
+      "date": "2026-05-14T00:00:00Z",
+      "summary": "Thanks for giving me a viable business model Amazon!",
+      "source": "xeiaso.net"
     },
     {
       "title": "Catch Flakes On Main",
@@ -266,20 +280,6 @@
       "date": "2026-05-09T12:02:50Z",
       "summary": "Trapped buildings, in-home data centers, cardboard military drones, Brightline’s potential bankruptcy, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Your feed reader User-Agent is generic",
-      "link": "https://utcc.utoronto.ca/~cks/cspace-generic-ua.html",
-      "date": "2026-05-09T00:00:00Z",
-      "summary": "",
-      "source": "utcc.utoronto.ca/~cks"
-    },
-    {
-      "title": "HomePod mini feels like magic, but it's just good timing",
-      "link": "https://www.jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic--but-it-s-just-good-timing/",
-      "date": "2026-05-08T14:00:00Z",
-      "summary": "Apple introduced the HomePod mini six years ago , in 2020. I'm not one into smart speakers, but the feature that made me take a closer look was their ability to form stereo pairs, without any direct…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
