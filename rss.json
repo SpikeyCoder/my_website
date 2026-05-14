@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-13T23:30:56.265886Z",
+  "generated_at": "2026-05-14T01:07:33.476534Z",
   "items": [
+    {
+      "title": "Welcome to the Datasette blog",
+      "link": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+      "date": "2026-05-13T23:59:39Z",
+      "summary": "Welcome to the Datasette blog We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog. I built this using OpenAI Codex desktop,…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ Nextpad++",
       "link": "https://daringfireball.net/2026/05/nextpad",
@@ -91,13 +98,6 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "datasette 1.0a29",
-      "link": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
-      "date": "2026-05-12T23:41:06Z",
-      "summary": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Patch Tuesday, May 2026 Edition",
