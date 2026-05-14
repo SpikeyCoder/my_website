@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-14T21:32:51.587423Z",
+  "generated_at": "2026-05-14T22:30:53.027141Z",
   "items": [
+    {
+      "title": "A few words on DS4",
+      "link": "http://antirez.com/news/165",
+      "date": "2026-05-14T22:22:45Z",
+      "summary": "I didn’t expect DwarfStar 4 to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the…",
+      "source": "antirez.com"
+    },
     {
       "title": "Geoffrey Fowler and the Launch of the Youth AI Safety Institute",
       "link": "https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going",
@@ -273,13 +280,6 @@
       "date": "2026-05-10T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Reading List 05/09/2026",
-      "link": "https://www.construction-physics.com/p/reading-list-05092026",
-      "date": "2026-05-09T12:02:50Z",
-      "summary": "Trapped buildings, in-home data centers, cardboard military drones, Brightline’s potential bankruptcy, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
