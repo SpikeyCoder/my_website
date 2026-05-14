@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-14T16:49:39.767911Z",
+  "generated_at": "2026-05-14T17:41:28.508141Z",
   "items": [
+    {
+      "title": "Klack",
+      "link": "https://tryklack.com/",
+      "date": "2026-05-14T17:39:25Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "New Driver for the Old Griffin PowerMate",
       "link": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
@@ -35,6 +42,13 @@
       "date": "2026-05-14T04:10:23Z",
       "summary": "Release: datasette-ip-rate-limit 0.1a0 The datasette.io site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Catch Flakes On Main",
+      "link": "https://matklad.github.io/2026/05/14/catch-flakes-on-main.html",
+      "date": "2026-05-14T00:00:00Z",
+      "summary": "A small Mechanical Habit today:",
+      "source": "matklad.github.io"
     },
     {
       "title": "Welcome to the Datasette blog",
@@ -72,13 +86,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Kagi Snaps",
-      "link": "https://help.kagi.com/kagi/features/snaps.html",
-      "date": "2026-05-13T15:11:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "The case of the hang when the user changed keyboard layouts",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260513-00/?p=112318",
       "date": "2026-05-13T14:00:00Z",
@@ -112,13 +119,6 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "a polycausal theory",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Open Link in Unloaded Tab, a little Firefox extension",
-      "link": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
-      "date": "2026-05-13T00:00:00Z",
-      "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
-      "source": "evanhahn.com"
     },
     {
       "title": "Patch Tuesday, May 2026 Edition",
