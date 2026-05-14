@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-14T15:57:03.580759Z",
+  "generated_at": "2026-05-14T16:49:39.767911Z",
   "items": [
+    {
+      "title": "New Driver for the Old Griffin PowerMate",
+      "link": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
+      "date": "2026-05-14T16:20:55Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Pluralistic: Kickstarting \"The Reverse Centaur's Guide to Life After AI\" (14 May 2026)",
       "link": "https://pluralistic.net/2026/05/14/who-it-does-it-for/",
@@ -21,6 +28,13 @@
       "date": "2026-05-14T07:13:34Z",
       "summary": "I made a joke online. Based on Internet upvote points, it was pretty funny. OK, I didn't come up with the joke, but it was a perfectly timed reference. A few days back, Cliff Stoll, of the Klein…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "datasette-ip-rate-limit 0.1a0",
+      "link": "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything",
+      "date": "2026-05-14T04:10:23Z",
+      "summary": "Release: datasette-ip-rate-limit 0.1a0 The datasette.io site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Welcome to the Datasette blog",
@@ -84,20 +98,6 @@
       "date": "2026-05-13T10:00:00Z",
       "summary": "An independent benchmark of the ecosyste.ms Python fund",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "CSP Allow-list Experiment",
-      "link": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
-      "date": "2026-05-13T04:50:45Z",
-      "summary": "Tool: CSP Allow-list Experiment An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see previous note ) and have a custom fetch() that intercepts CSP errors and…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Seriously, Give Kagi a Try",
-      "link": "https://daringfireball.net/2025/04/try_switching_to_kagi",
-      "date": "2026-05-13T02:22:40Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "AI datacenters in space do not have a cooling problem",
