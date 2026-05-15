@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-15T11:43:49.052621Z",
+  "generated_at": "2026-05-15T12:49:30.602970Z",
   "items": [
+    {
+      "title": "Pluralistic: No one wants a permanent gerontocracy (15 May 2026)",
+      "link": "https://pluralistic.net/2026/05/15/not-ok-boomer/",
+      "date": "2026-05-15T12:38:04Z",
+      "summary": "Today's links No one wants a permanent gerontocracy: The one policy everyone agrees on. Hey look at this: Delights to delectate. Object permanence: Wolfengitmo; Facebook condemns Google privacy…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "Recovering the state of xorshift128",
+      "link": "https://www.johndcook.com/blog/2026/05/15/xorshift128-state/",
+      "date": "2026-05-15T12:34:29Z",
+      "summary": "I’ve written a couple posts lately about reverse engineering the internal state of a random number generator, first Mersenne Twister then lehmer64. This post will look at xorshift128, implemented…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Language Registries Are Unstable by Default",
       "link": "https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html",
@@ -210,20 +224,6 @@
       "date": "2026-05-12T10:15:17Z",
       "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Pluralistic: A fascist paradigm (12 May 2026)",
-      "link": "https://pluralistic.net/2026/05/12/donella-meadows/",
-      "date": "2026-05-12T07:22:17Z",
-      "summary": "Today's links A fascist paradigm: The change that changed everything. Hey look at this: Delights to delectate. Object permanence: Openstreetmap x Isle of Wight; Found grocery lists; Mayor wants to…",
-      "source": "pluralistic.net"
-    },
-    {
-      "title": "Euler function",
-      "link": "https://www.johndcook.com/blog/2026/05/11/euler-function/",
-      "date": "2026-05-12T00:49:41Z",
-      "summary": "This morning I wrote a post about the probability that a random matrix over a finite field is invertible. If the field has q elements and the matrix has dimensions n × n then the probability is In…",
-      "source": "johndcook.com"
     },
     {
       "title": "Thinking Machines and interaction models",
