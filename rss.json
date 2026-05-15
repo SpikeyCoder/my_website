@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-05-14T23:26:01.985904Z",
+  "generated_at": "2026-05-15T01:05:09.659772Z",
   "items": [
+    {
+      "title": "‘Musk v. Altman’ Closing Arguments",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImhxZzBnTXFpSk8iLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkzMTAwNi9tdXNrLXYtYWx0bWFuLWNsb3NpbmctYXJndW1lbnRzLWFuYWx5c2lzIiwiZXhwIjoxNzc5MjM2OTUwLCJpYXQiOjE3Nzg4MDQ5NTB9.TXQtcV9vkuuKyqcrMaKtSqqoL9_wGWeSYgUyO6ZzK-Y",
+      "date": "2026-05-15T00:57:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Youth AI Safety Institute Has Margrethe Vestager’s Backing",
+      "link": "https://www.euronews.com/next/2026/05/12/margrethe-vestager-backs-new-ai-safety-institute-for-children-after-decade-regulating-big-",
+      "date": "2026-05-15T00:54:33Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Let’s Run a Neologism Poll",
+      "link": "https://mastodon.social/@gruber/116575825801893849",
+      "date": "2026-05-15T00:53:54Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Not so locked in any more",
       "link": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
       "date": "2026-05-14T22:53:49Z",
       "summary": "This Mitchell Hashimoto quote about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week. I was talking to someone who worked for a medium sized…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Meta’s New Reality: Record High Profits. Record Low Morale | WIRED",
-      "link": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
-      "date": "2026-05-14T22:53:10Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Quoting Mitchell Hashimoto",
@@ -28,20 +42,6 @@
       "date": "2026-05-14T22:22:45Z",
       "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Geoffrey Fowler and the Launch of the Youth AI Safety Institute",
-      "link": "https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going",
-      "date": "2026-05-14T20:51:04Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Tim Cook Is in Trump’s Executive Entourage for China Summit",
-      "link": "https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html",
-      "date": "2026-05-14T19:36:58Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "A constant-space linear-time algorithm for deleting all but the 10 most recent files in a directory",
