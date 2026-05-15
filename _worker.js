@@ -118,6 +118,14 @@ const _CSP_BASE = [
   "frame-ancestors 'none'",
 ];
 
+// KA-2026-05-15-01: name of the reporting group used by `report-to` and
+// `Reporting-Endpoints`. The Worker handles the corresponding POST path
+// (CSP_REPORT_PATH below) and emits the violation report to the Worker
+// log (wrangler tail / Cloudflare Logpush), so CSP regressions surface as
+// 204s in the access log instead of disappearing silently in the browser.
+const CSP_REPORT_GROUP = 'csp-endpoint';
+const CSP_REPORT_PATH = '/api/csp-report';
+
 const CONTENT_SECURITY_POLICY = [
   ..._CSP_BASE,
   // No 'unsafe-inline' here. PR #25 will join in the build-time-computed
@@ -131,6 +139,14 @@ const CONTENT_SECURITY_POLICY = [
   ["script-src 'self' https://cdn.jsdelivr.net https://gc.zgo.at"]
     .concat(CSP_INLINE_SCRIPT_HASHES)
     .join(" "),
+  // KA-2026-05-15-01: telemetry directives. `report-to` is the modern
+  // Reporting API directive (named group below); `report-uri` is the
+  // legacy directive kept for older browsers (Safari < 16.4 / Firefox
+  // < 110). Both point at the same first-party endpoint handled by this
+  // Worker so a misbehaving extension or compromised CDN does not also
+  // get to drop violation telemetry on the floor.
+  `report-uri ${CSP_REPORT_PATH}`,
+  `report-to ${CSP_REPORT_GROUP}`,
 ].join('; ');
 
 // Other security headers — flat object so headers can be merged into the
@@ -175,6 +191,12 @@ const SECURITY_HEADERS = {
   // vectors over the years than it has prevented. The strict CSP above
   // is the live XSS defense.
   'X-XSS-Protection': '0',
+  // KA-2026-05-15-01: Reporting-Endpoints header is the modern Reporting
+  // API counterpart to the CSP `report-to` directive. Named group must match
+  // CSP_REPORT_GROUP above. The Worker accepts violation POSTs at
+  // CSP_REPORT_PATH and logs them; production reports are visible via
+  // `wrangler tail` and Cloudflare Logpush. See compliance/csp-reporting.md.
+  'Reporting-Endpoints': `${CSP_REPORT_GROUP}="${CSP_REPORT_PATH}"`,
   // Enforced. The strict policy (no 'unsafe-inline' on script-src)
   // is now the live security boundary; the meta tag has been removed from
   // index.html and 404.html in this PR.
@@ -225,6 +247,43 @@ function withSecurityHeaders(response) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    // KA-2026-05-15-01: accept CSP / Reporting-API violation reports.
+    // We accept both the legacy application/csp-report body and the
+    // modern application/reports+json batch body. The handler logs and
+    // returns 204; we deliberately do NOT persist payloads here because
+    // Worker isolates are stateless — the access log + wrangler tail are
+    // the persistent record. Method is locked to POST; GET / OPTIONS
+    // return 405 / 204 so the path cannot be used to enumerate the
+    // Worker. Bodies over 64 KiB are truncated to keep log lines bounded.
+    if (url.pathname === CSP_REPORT_PATH) {
+      if (request.method === 'OPTIONS') {
+        return new Response(null, {
+          status: 204,
+          headers: { 'Allow': 'POST', 'Cache-Control': 'no-store' },
+        });
+      }
+      if (request.method !== 'POST') {
+        return new Response('Method Not Allowed', {
+          status: 405,
+          headers: { 'Allow': 'POST', 'Cache-Control': 'no-store' },
+        });
+      }
+      try {
+        const text = await request.text();
+        const truncated = text.length > 65536 ? text.slice(0, 65536) + '…[truncated]' : text;
+        // Single-line log entry so Cloudflare Logpush can ingest it as JSON.
+        console.log(JSON.stringify({
+          kind: 'csp-report',
+          ua: request.headers.get('user-agent') || '',
+          ct: request.headers.get('content-type') || '',
+          body: truncated,
+        }));
+      } catch (_e) {
+        // Swallow — never let a malformed report turn into a 5xx.
+      }
+      return new Response(null, { status: 204, headers: { 'Cache-Control': 'no-store' } });
+    }
 
     if (isBlocked(url.pathname)) {
       return new Response('Not Found', { status: 404 });
