@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-15T14:56:33.699827Z",
+  "generated_at": "2026-05-15T15:49:34.078595Z",
   "items": [
+    {
+      "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260515-00/?p=112327",
+      "date": "2026-05-15T14:00:00Z",
+      "summary": "Maybe because it already exists? The post The case of the <CODE>Create­File­Mapping</CODE> that always reported <CODE>ERROR_<WBR>ALREADY_<WBR>EXISTS</CODE> appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
     {
       "title": "Pluralistic: No one wants a permanent gerontocracy (15 May 2026)",
       "link": "https://pluralistic.net/2026/05/15/not-ok-boomer/",
@@ -196,13 +203,6 @@
       "date": "2026-05-12T14:00:00Z",
       "summary": "Last year I said I'd probably never recommend another Bambu Lab printer again . I still use my P1S, but after Bambu Lab started pushing their always-connected cloud solution as the new default: I…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316",
-      "date": "2026-05-12T14:00:00Z",
-      "summary": "Compatibility, of course. The post Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Initialize and print 128-bit integers in C",
