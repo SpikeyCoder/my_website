@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-05-15T19:37:17.077752Z",
+  "generated_at": "2026-05-15T20:32:39.893134Z",
   "items": [
     {
-      "title": "Dropover, a Mac Shelf Utility That Makes Clever Use of Mouse Shaking",
-      "link": "https://dropoverapp.com/",
-      "date": "2026-05-15T19:24:11Z",
+      "title": "Wanton Destruction of CBS Property",
+      "link": "https://www.youtube.com/watch?v=eBKWKu2Rqxc",
+      "date": "2026-05-15T20:12:09Z",
       "summary": "",
       "source": "daringfireball.net"
     },
     {
       "title": "Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks",
       "link": "https://aluminium-os.com/",
-      "date": "2026-05-15T18:37:41Z",
+      "date": "2026-05-15T19:55:04Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Dropover, a Mac Shelf Utility That Makes Clever Use of Mouse Shaking",
+      "link": "https://dropoverapp.com/",
+      "date": "2026-05-15T19:24:11Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -58,11 +65,11 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "‘Musk v. Altman’ Closing Arguments",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImhxZzBnTXFpSk8iLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkzMTAwNi9tdXNrLXYtYWx0bWFuLWNsb3NpbmctYXJndW1lbnRzLWFuYWx5c2lzIiwiZXhwIjoxNzc5MjM2OTUwLCJpYXQiOjE3Nzg4MDQ5NTB9.TXQtcV9vkuuKyqcrMaKtSqqoL9_wGWeSYgUyO6ZzK-Y",
-      "date": "2026-05-15T00:57:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "Search engine results are truly terrible",
+      "link": "https://maurycyz.com/misc/search/",
+      "date": "2026-05-15T00:00:00Z",
+      "summary": "A few months ago, I had the displeasure of trying to use the modern web without an ad-blocker. Even though it's is ubiquitous among computer nerds, ad blocking is quite rare even in other technical…",
+      "source": "maurycyz.com"
     },
     {
       "title": "Not so locked in any more",
@@ -273,13 +280,6 @@
       "date": "2026-05-11T00:00:00Z",
       "summary": "Winning at this could have been so easy",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "The left-wing case for AI",
-      "link": "https://seangoedecke.com/the-left-wing-case-for-ai/",
-      "date": "2026-05-10T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
