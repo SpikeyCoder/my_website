@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T16:44:00.496610Z",
+  "generated_at": "2026-05-15T17:37:30.288333Z",
   "items": [
     {
       "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
@@ -35,6 +35,13 @@
       "date": "2026-05-15T05:34:03Z",
       "summary": "The UK Government, for all its faults, is pretty good at publishing contracts it has awarded. That's why I get depressed when I see rage-bait nonsense about how companies have been award \"Top Secret\"…",
       "source": "shkspr.mobi"
+    },
+    {
+      "title": "QR code generator",
+      "link": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
+      "date": "2026-05-15T04:00:49Z",
+      "summary": "Tool: QR code generator Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks. Tags: vibe-coding , tools , generative-ai , ai , llms",
+      "source": "simonwillison.net"
     },
     {
       "title": "‘Musk v. Altman’ Closing Arguments",
@@ -105,13 +112,6 @@
       "date": "2026-05-14T07:13:34Z",
       "summary": "I made a joke online. Based on Internet upvote points, it was pretty funny. OK, I didn't come up with the joke, but it was a perfectly timed reference. A few days back, Cliff Stoll, of the Klein…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "datasette-ip-rate-limit 0.1a0",
-      "link": "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything",
-      "date": "2026-05-14T04:10:23Z",
-      "summary": "Release: datasette-ip-rate-limit 0.1a0 The datasette.io site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Building a clock from salvaged Vacuum Fluorescent Displays",
