@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-15T10:54:48.312392Z",
+  "generated_at": "2026-05-15T11:43:49.052621Z",
   "items": [
+    {
+      "title": "Language Registries Are Unstable by Default",
+      "link": "https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html",
+      "date": "2026-05-15T10:00:00Z",
+      "summary": "apt install -t unstable, but make it your whole personality",
+      "source": "nesbitt.io"
+    },
     {
       "title": "UK Government Kicks Out Palantir",
       "link": "https://shkspr.mobi/blog/2026/05/uk-government-kicks-out-palantir/",
@@ -203,13 +210,6 @@
       "date": "2026-05-12T10:15:17Z",
       "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Not a Security Issue",
-      "link": "https://nesbitt.io/2026/05/12/not-a-security-issue.html",
-      "date": "2026-05-12T10:00:00Z",
-      "summary": "How curl's disclosure policy filtered an AI scanner's findings at source",
-      "source": "nesbitt.io"
     },
     {
       "title": "Pluralistic: A fascist paradigm (12 May 2026)",
