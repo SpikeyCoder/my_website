@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T06:57:38.790425Z",
+  "generated_at": "2026-05-16T07:42:32.068583Z",
   "items": [
     {
       "title": "Greg Brockman Officially Takes Control of Products at OpenAI, a Very Stable Well-Run Company",
@@ -14,6 +14,13 @@
       "date": "2026-05-16T01:39:05Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "DeepSeek-V4-Flash makes LLM steering interesting again",
+      "link": "https://seangoedecke.com/steering-vectors/",
+      "date": "2026-05-16T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "inaturalist-clumper 0.1",
@@ -273,13 +280,6 @@
       "date": "2026-05-11T00:00:00Z",
       "summary": "In today's episode of \"dumb things to do with an AVR microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32 which…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "I'm really frustrated that GitLab is doing layoffs",
-      "link": "https://xeiaso.net/notes/2026/gitlab-layoffs/",
-      "date": "2026-05-11T00:00:00Z",
-      "summary": "Winning at this could have been so easy",
-      "source": "xeiaso.net"
     }
   ]
 }
