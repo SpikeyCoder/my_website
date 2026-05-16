@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-15T23:25:32.130797Z",
+  "generated_at": "2026-05-16T01:01:27.693786Z",
   "items": [
+    {
+      "title": "inaturalist-clumper 0.1",
+      "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+      "date": "2026-05-15T23:53:11Z",
+      "summary": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog . I've been running this in production for a few weeks now, inspiring some…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks",
       "link": "https://aluminium-os.com/",
@@ -21,6 +28,13 @@
       "date": "2026-05-15T19:24:11Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Western Gull, Rock Pigeon",
+      "link": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+      "date": "2026-05-15T14:42:00Z",
+      "summary": "Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, US I went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.",
+      "source": "simonwillison.net"
     },
     {
       "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
@@ -70,20 +84,6 @@
       "date": "2026-05-15T00:00:00Z",
       "summary": "A few months ago, I had the displeasure of trying to use the modern web without an ad-blocker. Even though it's is ubiquitous among computer nerds, ad blocking is quite rare even in other technical…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "Not so locked in any more",
-      "link": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
-      "date": "2026-05-14T22:53:49Z",
-      "summary": "This Mitchell Hashimoto quote about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week. I was talking to someone who worked for a medium sized…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Mitchell Hashimoto",
-      "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
-      "date": "2026-05-14T22:31:20Z",
-      "summary": "[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good…",
-      "source": "simonwillison.net"
     },
     {
       "title": "A few words on DS4",
