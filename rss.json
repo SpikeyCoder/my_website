@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-16T16:26:41.081599Z",
+  "generated_at": "2026-05-16T17:26:50.361793Z",
   "items": [
+    {
+      "title": "Quoting Julia Evans",
+      "link": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
+      "date": "2026-05-16T16:45:37Z",
+      "summary": "[...] in the last 10 years I’ve learned to really love and respect CSS as a technology. So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Reading List 05/16/26",
       "link": "https://www.construction-physics.com/p/reading-list-051626",
@@ -91,13 +98,6 @@
       "date": "2026-05-15T05:34:03Z",
       "summary": "The UK Government, for all its faults, is pretty good at publishing contracts it has awarded. That's why I get depressed when I see rage-bait nonsense about how companies have been award \"Top Secret\"…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "QR code generator",
-      "link": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
-      "date": "2026-05-15T04:00:49Z",
-      "summary": "Tool: QR code generator Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks. Tags: vibe-coding , tools , generative-ai , ai , llms",
-      "source": "simonwillison.net"
     },
     {
       "title": "Search engine results are truly terrible",
