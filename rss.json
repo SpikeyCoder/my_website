@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-16T21:23:07.033676Z",
+  "generated_at": "2026-05-16T22:22:32.179881Z",
   "items": [
+    {
+      "title": "How I use LLMs as a staff engineer in 2026",
+      "link": "https://seangoedecke.com/how-i-use-llms-in-2026/",
+      "date": "2026-05-17T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "Reddit Is Blocking Some Users From Accessing Its Website From Mobile Devices",
+      "link": "https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/",
+      "date": "2026-05-16T21:22:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Santa Clara County Sues Meta Over Alleged Scam Ads",
       "link": "https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/",
@@ -21,13 +35,6 @@
       "date": "2026-05-16T20:23:30Z",
       "summary": "In preparation for a lightning talk I'm giving at PyCon US this afternoon I decided to figure out how many names OpenClaw has actually had since that first commit back in November. Thanks to this…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "ArXiv to Ban Researchers for a Year if They Submit AI Slop",
-      "link": "https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/",
-      "date": "2026-05-16T19:27:35Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Quoting Julia Evans",
@@ -252,13 +259,6 @@
       "date": "2026-05-12T10:15:17Z",
       "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Thinking Machines and interaction models",
-      "link": "https://seangoedecke.com/interaction-models/",
-      "date": "2026-05-12T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     },
     {
       "title": "Learning Software Architecture",
