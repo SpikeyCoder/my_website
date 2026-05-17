@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-17T11:31:28.625563Z",
+  "generated_at": "2026-05-17T12:31:48.997944Z",
   "items": [
+    {
+      "title": "In the Empire's Defense",
+      "link": "https://idiallo.com/blog/the-empire-won?src=feed",
+      "date": "2026-05-17T12:00:00Z",
+      "summary": "I didn't watch Star Wars when it was released. I wasn't even born. By the time we popped the cassette tape in the VCR, it was at least 15 years old. But I liked the movie all the same. It was not my…",
+      "source": "idiallo.com"
+    },
     {
       "title": "How I use LLMs as a staff engineer in 2026",
       "link": "https://seangoedecke.com/how-i-use-llms-in-2026/",
@@ -65,13 +72,6 @@
       "source": "seangoedecke.com"
     },
     {
-      "title": "Make ZIP files smaller with ZIP Shrinker",
-      "link": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
-      "date": "2026-05-16T00:00:00Z",
-      "summary": "I built ZIP Shrinker, a little browser tool to shrink ZIP files. It also works with formats that are secretly ZIPs underneath, like APK, EPUB, JAR, and many more. Try it out! How does it work? At a…",
-      "source": "evanhahn.com"
-    },
-    {
       "title": "inaturalist-clumper 0.1",
       "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
       "date": "2026-05-15T23:53:11Z",
@@ -105,13 +105,6 @@
       "date": "2026-05-15T10:00:00Z",
       "summary": "apt install -t unstable, but make it your whole personality",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "UK Government Kicks Out Palantir",
-      "link": "https://shkspr.mobi/blog/2026/05/uk-government-kicks-out-palantir/",
-      "date": "2026-05-15T05:34:03Z",
-      "summary": "The UK Government, for all its faults, is pretty good at publishing contracts it has awarded. That's why I get depressed when I see rage-bait nonsense about how companies have been award \"Top Secret\"…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Search engine results are truly terrible",
@@ -191,13 +184,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Stupidly Simple SVG Sparklines",
-      "link": "https://shkspr.mobi/blog/2026/05/stupidly-simple-svg-sparklines/",
-      "date": "2026-05-13T11:34:01Z",
-      "summary": "A sparkline is a little line-graph with no axes or other unnecessary details. They're useful for getting quick understanding of what the data is showing. They're also really easy to create…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Showing Our Work",
       "link": "https://nesbitt.io/2026/05/13/showing-our-work.html",
       "date": "2026-05-13T10:00:00Z",
@@ -217,13 +203,6 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "a polycausal theory",
       "source": "dynomight.net"
-    },
-    {
-      "title": "Open Link in Unloaded Tab, a little Firefox extension",
-      "link": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
-      "date": "2026-05-13T00:00:00Z",
-      "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
-      "source": "evanhahn.com"
     },
     {
       "title": "Patch Tuesday, May 2026 Edition",
@@ -268,18 +247,39 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "We Are Not Going to Agree on AI",
-      "link": "https://idiallo.com/blog/we-are-not-going-to-agree-on-ai?src=feed",
-      "date": "2026-05-11T12:00:00Z",
-      "summary": "On one hand, I know a developer producing 30,000 lines of code a month. On the other, I know a developer who says AI is stupid. Each swears by their stance and has evidence to back it up. One has a…",
-      "source": "idiallo.com"
+      "title": "Fear is information.",
+      "link": "https://www.joanwestenberg.com/fear-is-information/",
+      "date": "2026-05-11T03:52:45Z",
+      "summary": "The motivational industry has built any number of small empires on the notion that fear is a problem to be either managed, suppressed or out-manoeuvred. Fight the fear, etc. The language is typically…",
+      "source": "joanwestenberg.com"
     },
     {
-      "title": "Find blog posts with missing featured images - and missing alt text - without a plugin",
-      "link": "https://shkspr.mobi/blog/2026/05/find-blog-posts-with-missing-featured-images-and-missing-alt-text-without-a-plugin/",
-      "date": "2026-05-11T11:34:39Z",
-      "summary": "WordPress has the concept of \"Featured Images\". They are the images which show up when you share a blog post on social media or, on some themes, as the \"hero\" image. How can you quickly and easily…",
-      "source": "shkspr.mobi"
+      "title": "Hosting a website on an 8-bit microcontroller.",
+      "link": "https://maurycyz.com/projects/mcusite/",
+      "date": "2026-05-11T00:00:00Z",
+      "summary": "In today's episode of \"dumb things to do with an AVR microcontroller\": Does your server come with real wood? MCU website demo (may go down if this gets posted to HN) My victim is the AVR64DD32 which…",
+      "source": "maurycyz.com"
+    },
+    {
+      "title": "I'm really frustrated that GitLab is doing layoffs",
+      "link": "https://xeiaso.net/notes/2026/gitlab-layoffs/",
+      "date": "2026-05-11T00:00:00Z",
+      "summary": "Winning at this could have been so easy",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "Reading List 05/09/2026",
+      "link": "https://www.construction-physics.com/p/reading-list-05092026",
+      "date": "2026-05-09T12:02:50Z",
+      "summary": "Trapped buildings, in-home data centers, cardboard military drones, Brightline’s potential bankruptcy, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Your feed reader User-Agent is generic",
+      "link": "https://utcc.utoronto.ca/~cks/cspace-bad/cspace-generic-ua.html",
+      "date": "2026-05-09T00:00:00Z",
+      "summary": "",
+      "source": "utcc.utoronto.ca/~cks"
     }
   ]
 }
