@@ -13,3 +13,5 @@ update on the cadence noted in its frontmatter.
 | `access-review-cadence.md` | CC6     | Kevin Armstrong | Quarterly |
 | `risk-register.md`       | CC3      | Kevin Armstrong | Quarterly |
 | `business-continuity.md` | A, CC9   | Kevin Armstrong | Annually |
+| `availability-rto-rpo.md` | A1       | Kevin Armstrong | Quarterly |
+| `disaster-recovery-plan.md` | A1     | Kevin Armstrong | Quarterly |
