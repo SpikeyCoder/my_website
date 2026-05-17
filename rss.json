@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-17T22:24:16.303805Z",
+  "generated_at": "2026-05-17T23:25:37.232794Z",
   "items": [
+    {
+      "title": "How to be inspired without copying",
+      "link": "https://www.joanwestenberg.com/how-to-be-inspired-without-copying/",
+      "date": "2026-05-17T22:33:32Z",
+      "summary": "In 1713, Johann Sebastian Bach sat down at his desk in Weimar and began copying out concertos by Antonio Vivaldi. He transcribed them note for note, in his own hand, working through at least nine of…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "Drata",
       "link": "https://drata.com/daring",
@@ -273,13 +280,6 @@
       "date": "2026-05-12T10:15:17Z",
       "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "Learning Software Architecture",
-      "link": "https://matklad.github.io/2026/05/12/software-architecture.html",
-      "date": "2026-05-12T00:00:00Z",
-      "summary": "In reply to an email asking about learning software design skills as a researcher physicist:",
-      "source": "matklad.github.io"
     }
   ]
 }
