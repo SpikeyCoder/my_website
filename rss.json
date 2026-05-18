@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-05-18T15:13:55.240221Z",
+  "generated_at": "2026-05-18T17:07:01.230986Z",
   "items": [
     {
-      "title": "AI Data Centers Are Deeply Unpopular, Across the Political Spectrum",
-      "link": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
-      "date": "2026-05-18T15:11:07Z",
+      "title": "Ted Turner’s Small Apartment Above the Former CNN Center",
+      "link": "https://www.youtube.com/watch?v=OUIVs58oyPI",
+      "date": "2026-05-18T17:02:56Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Existing Stakeholders Have a Say in the Future",
+      "link": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "date": "2026-05-18T16:47:09Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "‘AI, “Humanity”, and Dr. Manhattan Syndrome’",
+      "link": "https://www.personfamiliar.com/p/ai-humanity-and-dr-manhattan-syndrome",
+      "date": "2026-05-18T16:22:19Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
+      "link": "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything",
+      "date": "2026-05-18T14:51:00Z",
+      "summary": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Don't call yourself a Software Engineer, you are an AI Enabled Engineer.",
@@ -44,13 +65,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "Drata",
-      "link": "https://drata.com/daring",
-      "date": "2026-05-17T17:59:15Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
       "link": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
       "date": "2026-05-17T15:59:41Z",
@@ -79,24 +93,10 @@
       "source": "seangoedecke.com"
     },
     {
-      "title": "Reddit Is Blocking Some Users From Accessing Its Website From Mobile Devices",
-      "link": "https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/",
-      "date": "2026-05-16T21:22:38Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Warelay -> OpenClaw",
       "link": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
       "date": "2026-05-16T20:23:30Z",
       "summary": "In preparation for a lightning talk I'm giving at PyCon US this afternoon I decided to figure out how many names OpenClaw has actually had since that first commit back in November. Thanks to this…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Julia Evans",
-      "link": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
-      "date": "2026-05-16T16:45:37Z",
-      "summary": "[...] in the last 10 years I’ve learned to really love and respect CSS as a technology. So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously…",
       "source": "simonwillison.net"
     },
     {
