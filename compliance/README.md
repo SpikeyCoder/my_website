@@ -7,6 +7,7 @@ update on the cadence noted in its frontmatter.
 | File | TSC | Owner | Review cadence |
 |---|---|---|---|
 | `incident-response.md`   | CC4, CC7 | Kevin Armstrong | Annually |
+| `monitoring-and-alerting.md` | CC4.1, CC4.2, CC7.1 | Kevin Armstrong | Annually |
 | `vendor-inventory.md`    | CC9      | Kevin Armstrong | Quarterly |
 | `data-classification.md` | C1, P1   | Kevin Armstrong | Annually |
 | `retention-and-deletion.md` | C1, P4 | Kevin Armstrong | Annually |
