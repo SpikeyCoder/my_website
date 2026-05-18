@@ -8,6 +8,7 @@
 // Pen-test 2026-05-05 finding KA-2026-05-05-01.
 
 export const CSP_INLINE_SCRIPT_HASHES = [
+  "'sha256-0NAG7CwGWN7nuPsO7D8TceaJ/6BnxxRKMZ8lYCsmgSQ='",
   "'sha256-0V7O8PVu87hEP8sUgQuskdAZ7xgLVWlX9ZZD+J4Uvps='",
   "'sha256-2Jbi4jEvUC1h/dpbkHS23VlhI/xeSaB/eicU8SAkXcI='",
   "'sha256-3PKxcOa2oFQLtVj/L8TIBPURjaJrVO8BFIRCGm4ffZk='",
@@ -28,7 +29,6 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-CUXwJisfNbShjemQvkO8UTfvBu289X+8I6ag8Jq1jDo='",
   "'sha256-CkSVRoLIzUoo8uWsuexmyD4HWjTHEMaJibq6lIrY7Ho='",
   "'sha256-DRA0ZrSOqW7fb2iT5+6JJwpnxuhswiM/cd+quZpdVDY='",
-  "'sha256-DnoPN+sU06WSQMggV9hn02S8HGkl5YineACIurPPpbI='",
   "'sha256-HwL1J1TwkiqXfnVOeS9aJoXm9kNWAgSRd4smlQXBIW0='",
   "'sha256-JAhjfrTzWq5bbpz1bw4VnszhKPl/VzCxU+vJm6V0JZY='",
   "'sha256-KecM1KomZ1k+FA+/+/fjAi1V7D6sgN5ywupyjIt2vME='",
