@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T07:40:50.777154Z",
+  "generated_at": "2026-05-18T09:25:24.154965Z",
   "items": [
     {
       "title": "The just-say-no engineer was a ZIRP phenomenon",
@@ -7,6 +7,13 @@
       "date": "2026-05-18T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "How I Use My Index 01 + Production Update",
+      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
+      "date": "2026-05-18T00:00:00Z",
+      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the video for demos! Product design philosophy - why…",
+      "source": "ericmigi.com"
     },
     {
       "title": "How to be inspired without copying",
@@ -273,13 +280,6 @@
       "date": "2026-05-12T11:07:31Z",
       "summary": "A couple days ago I wrote about hacking the Mersenne Twister. I explained how to recover the random number generator’s internal state from a stream of 640 outputs. This post will do something similar…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Position or Perish: The Narrative Blueprint",
-      "link": "https://www.joanwestenberg.com/position-or-perish-the-narrative-blueprint/",
-      "date": "2026-05-12T10:15:17Z",
-      "summary": "Avis was losing $3.2 million a year; and they'd been unprofitable for thirteen straight. In 1962, they sat at number two in American car rental, well behind Hertz, with no plausible path to catching…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
