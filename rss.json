@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-18T13:30:31.183314Z",
+  "generated_at": "2026-05-18T15:13:55.240221Z",
   "items": [
+    {
+      "title": "AI Data Centers Are Deeply Unpopular, Across the Political Spectrum",
+      "link": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+      "date": "2026-05-18T15:11:07Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Don't call yourself a Software Engineer, you are an AI Enabled Engineer.",
       "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
@@ -21,6 +28,13 @@
       "date": "2026-05-18T00:00:00Z",
       "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the video for demos! Product design philosophy - why…",
       "source": "ericmigi.com"
+    },
+    {
+      "title": "Always Be Blaming",
+      "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
+      "date": "2026-05-18T00:00:00Z",
+      "summary": "A few tips on 4D-ing your code comprehension skills.",
+      "source": "matklad.github.io"
     },
     {
       "title": "How to be inspired without copying",
@@ -63,13 +77,6 @@
       "date": "2026-05-17T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Santa Clara County Sues Meta Over Alleged Scam Ads",
-      "link": "https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/",
-      "date": "2026-05-16T23:57:25Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Reddit Is Blocking Some Users From Accessing Its Website From Mobile Devices",
@@ -272,13 +279,6 @@
       "link": "https://www.johndcook.com/blog/2026/05/12/c-128-bit-int/",
       "date": "2026-05-12T12:20:20Z",
       "summary": "If you look very closely at my previous post, you’ll notice that I initialize a 128-bit integer with a 64-bit value. The 128-bit unsigned integer represents the internal state of a random number…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Hacking the lehmer64 RNG",
-      "link": "https://www.johndcook.com/blog/2026/05/12/hacking-the-lehmer64-rng/",
-      "date": "2026-05-12T11:07:31Z",
-      "summary": "A couple days ago I wrote about hacking the Mersenne Twister. I explained how to recover the random number generator’s internal state from a stream of 640 outputs. This post will do something similar…",
       "source": "johndcook.com"
     }
   ]
