@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-18T11:29:10.622519Z",
+  "generated_at": "2026-05-18T13:30:31.183314Z",
   "items": [
+    {
+      "title": "Don't call yourself a Software Engineer, you are an AI Enabled Engineer.",
+      "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
+      "date": "2026-05-18T12:00:00Z",
+      "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
+      "source": "idiallo.com"
+    },
     {
       "title": "The just-say-no engineer was a ZIRP phenomenon",
       "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
@@ -210,13 +217,6 @@
       "date": "2026-05-14T00:00:00Z",
       "summary": "A small Mechanical Habit today:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "Software engineers are obsolete... for now",
-      "link": "https://idiallo.com/blog/everyone-is-better-than-you?src=feed",
-      "date": "2026-05-13T22:40:00Z",
-      "summary": "In my first interview for a developer position, I shared a link to my personal project with the interviewer. It was a website for learning how to program. I created it from the ground up. I built the…",
-      "source": "idiallo.com"
     },
     {
       "title": "The case of the hang when the user changed keyboard layouts",
