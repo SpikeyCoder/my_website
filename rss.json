@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-18T20:39:21.981840Z",
+  "generated_at": "2026-05-18T21:33:55.665622Z",
   "items": [
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "date": "2026-05-18T20:48:21Z",
+      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "Jury Rejects Elon Musk’s Claim Against Sam Altman in Unanimous Verdict",
       "link": "https://www.nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ",
@@ -273,13 +280,6 @@
       "date": "2026-05-12T14:00:00Z",
       "summary": "Last year I said I'd probably never recommend another Bambu Lab printer again . I still use my P1S, but after Bambu Lab started pushing their always-connected cloud solution as the new default: I…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Initialize and print 128-bit integers in C",
-      "link": "https://www.johndcook.com/blog/2026/05/12/c-128-bit-int/",
-      "date": "2026-05-12T12:20:20Z",
-      "summary": "If you look very closely at my previous post, you’ll notice that I initialize a 128-bit integer with a 64-bit value. The 128-bit unsigned integer represents the internal state of a random number…",
-      "source": "johndcook.com"
     }
   ]
 }
