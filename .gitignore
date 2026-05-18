@@ -5,3 +5,8 @@ audits/
 
 # Audit / pentest report artifacts — keep them out of the public site
 *.docx
+
+# Local environment files - must never be committed
+.env
+.env.*
+!.env.example
