@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T03:19:57.590717Z",
+  "generated_at": "2026-05-19T05:31:08.721178Z",
   "items": [
     {
       "title": "[Sponsor] WorkOS: Agents Need Context. Ship the Integrations That Give It to Them.",
@@ -42,6 +42,13 @@
       "date": "2026-05-18T14:51:00Z",
       "summary": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Just shows that nobody cares about debugging the parity flag any more",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260518-00/?p=112334",
+      "date": "2026-05-18T14:00:00Z",
+      "summary": "Reported incorrectly since the day it was written. The post Just shows that nobody cares about debugging the parity flag any more appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Don't call yourself a Software Engineer, you are an AI Enabled Engineer.",
@@ -231,13 +238,6 @@
       "date": "2026-05-14T00:00:00Z",
       "summary": "A small Mechanical Habit today:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "The case of the hang when the user changed keyboard layouts",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260513-00/?p=112318",
-      "date": "2026-05-13T14:00:00Z",
-      "summary": "Keeping things moving. The post The case of the hang when the user changed keyboard layouts appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Stupidly Simple SVG Sparklines",
