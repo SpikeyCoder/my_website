@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-19T22:34:55.865454Z",
+  "generated_at": "2026-05-19T23:32:03.688788Z",
   "items": [
+    {
+      "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+      "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+      "date": "2026-05-19T22:40:25Z",
+      "summary": "Today at Google I/O, Google released Gemini 3.5 Flash . This one skipped the -preview modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Andrej Karpathy Joined Anthropic",
       "link": "https://x.com/karpathy/status/2056753169888334312",
@@ -126,13 +133,6 @@
       "date": "2026-05-17T22:33:32Z",
       "summary": "In 1713, Johann Sebastian Bach sat down at his desk in Weimar and began copying out concertos by Antonio Vivaldi. He transcribed them note for note, in his own hand, working through at least nine of…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
-      "link": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
-      "date": "2026-05-17T15:59:41Z",
-      "summary": "GDS weighs in on the NHS's decision to retreat from Open Source Terence Eden continues his coverage of the NHS' poorly considered decision to close down access to their open source repositories in…",
-      "source": "simonwillison.net"
     },
     {
       "title": "In the Empire's Defense",
