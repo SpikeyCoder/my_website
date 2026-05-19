@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T07:28:23.695699Z",
+  "generated_at": "2026-05-19T09:23:09.154135Z",
   "items": [
     {
-      "title": "A new EDIT tool for LLM agents",
+      "title": "Alternatives for the EDIT tool of LLM agents",
       "link": "http://antirez.com/news/166",
       "date": "2026-05-19T07:26:03Z",
-      "summary": "Right now I'm working to an agent for my DS4 project. Local inference is token-poor, it's a battlefield where optimizations count. I was quite surprised by the fact the EDIT tool everybody is using…",
+      "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting…",
       "source": "antirez.com"
     },
     {
@@ -82,7 +82,7 @@
       "title": "How I Use My Index 01 + Production Update",
       "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
       "date": "2026-05-18T00:00:00Z",
-      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the video for demos! Product design philosophy - why…",
+      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
       "source": "ericmigi.com"
     },
     {
