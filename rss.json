@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-19T11:12:41.392841Z",
+  "generated_at": "2026-05-19T13:22:48.545262Z",
   "items": [
+    {
+      "title": "Approximating Markov’s equation",
+      "link": "https://www.johndcook.com/blog/2026/05/19/zagiers-equation/",
+      "date": "2026-05-19T12:09:54Z",
+      "summary": "Markov numbers are integer solutions to x² + y² + z² = 3xyz. The Wikipedia article on Markov numbers mentions that Don Zagier studied Markov numbers by looking the approximating equation x² + y² + z²…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
+      "date": "2026-05-19T11:34:17Z",
+      "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "Dumb Ways for an Open Source Project to Die",
+      "link": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "date": "2026-05-19T10:00:00Z",
+      "summary": "How your dependencies became Bernies",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Alternatives for the EDIT tool of LLM agents",
       "link": "http://antirez.com/news/166",
@@ -247,20 +268,6 @@
       "source": "matklad.github.io"
     },
     {
-      "title": "Stupidly Simple SVG Sparklines",
-      "link": "https://shkspr.mobi/blog/2026/05/stupidly-simple-svg-sparklines/",
-      "date": "2026-05-13T11:34:01Z",
-      "summary": "A sparkline is a little line-graph with no axes or other unnecessary details. They're useful for getting quick understanding of what the data is showing. They're also really easy to create…",
-      "source": "shkspr.mobi"
-    },
-    {
-      "title": "Showing Our Work",
-      "link": "https://nesbitt.io/2026/05/13/showing-our-work.html",
-      "date": "2026-05-13T10:00:00Z",
-      "summary": "An independent benchmark of the ecosyste.ms Python fund",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "What’s with all the slide decks?",
       "link": "https://dynomight.net/slides/",
       "date": "2026-05-13T00:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-13T00:00:00Z",
       "summary": "In short: I just published Open Link in Unloaded Tab , a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu. In Firefox, you can unload tabs to save system…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "Patch Tuesday, May 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "date": "2026-05-12T21:46:45Z",
-      "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer…",
-      "source": "krebsonsecurity.com"
     }
   ]
 }
