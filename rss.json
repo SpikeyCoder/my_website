@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-19T05:31:08.721178Z",
+  "generated_at": "2026-05-19T07:28:23.695699Z",
   "items": [
+    {
+      "title": "A new EDIT tool for LLM agents",
+      "link": "http://antirez.com/news/166",
+      "date": "2026-05-19T07:26:03Z",
+      "summary": "Right now I'm working to an agent for my DS4 project. Local inference is token-poor, it's a battlefield where optimizations count. I was quite surprised by the fact the EDIT tool everybody is using…",
+      "source": "antirez.com"
+    },
+    {
+      "title": "Pluralistic: There's no such thing as \"age verification\" (19 May 2026)",
+      "link": "https://pluralistic.net/2026/05/19/shes-dead-of-course/",
+      "date": "2026-05-19T07:17:09Z",
+      "summary": "Today's links There's no such thing as \"age verification\": The foreseeable and foreseen consequences of \"something must be done\"/\"there, I've done something.\" Hey look at this: Delights to delectate.…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "[Sponsor] WorkOS: Agents Need Context. Ship the Integrations That Give It to Them.",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
@@ -198,13 +212,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Pluralistic: Kickstarting \"The Reverse Centaur's Guide to Life After AI\" (14 May 2026)",
-      "link": "https://pluralistic.net/2026/05/14/who-it-does-it-for/",
-      "date": "2026-05-14T11:04:43Z",
-      "summary": "Today's links Kickstarting \"The Reverse Centaur's Guide to Life After AI\": How to be a better AI critic. Hey look at this: Delights to delectate. Object permanence: RIP Douglas Adams; R2-trashcan;…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Centrality is not vitality",
       "link": "https://nesbitt.io/2026/05/14/centrality-is-not-vitality.html",
       "date": "2026-05-14T10:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-12T21:46:45Z",
       "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Bambu Lab is abusing the open source social contract",
-      "link": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/",
-      "date": "2026-05-12T14:00:00Z",
-      "summary": "Last year I said I'd probably never recommend another Bambu Lab printer again . I still use my P1S, but after Bambu Lab started pushing their always-connected cloud solution as the new default: I…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
