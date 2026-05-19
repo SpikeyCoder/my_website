@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-19T01:10:26.291884Z",
+  "generated_at": "2026-05-19T03:19:57.590717Z",
   "items": [
+    {
+      "title": "[Sponsor] WorkOS: Agents Need Context. Ship the Integrations That Give It to Them.",
+      "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
+      "date": "2026-05-19T01:27:16Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The last six months in LLMs in five minutes",
+      "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+      "date": "2026-05-19T01:09:44Z",
+      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
@@ -19,13 +33,6 @@
       "title": "‘John Appleseed’",
       "link": "https://om.co/2026/04/20/john-appleseed/",
       "date": "2026-05-18T17:35:49Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Define ‘Boom’ Please",
-      "link": "https://www.nytimes.com/2026/04/21/business/how-apple-became-a-4-trillion-company-under-tim-cook.html?unlocked_article_code=1.jVA.MV8m.0JfUOJOME5WH",
-      "date": "2026-05-18T17:20:43Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -98,13 +105,6 @@
       "date": "2026-05-17T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "Warelay -> OpenClaw",
-      "link": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
-      "date": "2026-05-16T20:23:30Z",
-      "summary": "In preparation for a lightning talk I'm giving at PyCon US this afternoon I decided to figure out how many names OpenClaw has actually had since that first commit back in November. Thanks to this…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Reading List 05/16/26",
