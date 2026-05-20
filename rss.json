@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-20T17:14:20.068189Z",
+  "generated_at": "2026-05-20T18:59:05.168447Z",
   "items": [
+    {
+      "title": "How fast is 10 tokens per second really?",
+      "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
+      "date": "2026-05-20T17:57:45Z",
+      "summary": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Google I/O, Gemini Spark, Antigravity",
       "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
@@ -42,13 +49,6 @@
       "date": "2026-05-19T23:37:31Z",
       "summary": "The previous post derived the identity and said in a footnote that the identity holds at least for x > 1 and y > 1. That’s true, but let’s see why the footnote is necessary. Let’s have Mathematica…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
-      "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
-      "date": "2026-05-19T22:40:25Z",
-      "summary": "Today at Google I/O, Google released Gemini 3.5 Flash . This one skipped the -preview modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Andrej Karpathy Joined Anthropic",
