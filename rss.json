@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T03:19:41.072682Z",
+  "generated_at": "2026-05-20T05:31:29.993284Z",
   "items": [
     {
       "title": "Square root of x² − 1",
@@ -49,6 +49,13 @@
       "date": "2026-05-19T14:00:00Z",
       "summary": "At NAB, I found a demo of Wi-Wi STAMP , a wireless time synchronization protocol that came out of Japan's NICT . Wi-Wi stands for Wireless 2Way interferometry, and it uses the 900 MHz band for…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "What is the history of the ERROR_ARENA_TRASHED error code?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260519-00/?p=112339",
+      "date": "2026-05-19T14:00:00Z",
+      "summary": "The storage control blocks were destroyed. The post What is the history of the <CODE>ERROR_<WBR>ARENA_<WBR>TRASHED</CODE> error code? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Approximating Markov’s equation",
@@ -238,13 +245,6 @@
       "date": "2026-05-14T22:22:45Z",
       "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
       "source": "antirez.com"
-    },
-    {
-      "title": "A constant-space linear-time algorithm for deleting all but the 10 most recent files in a directory",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260514-00/?p=112322",
-      "date": "2026-05-14T14:00:00Z",
-      "summary": "Using data structures you already knew. The post A constant-space linear-time algorithm for deleting all but the 10 most recent files in a directory appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Centrality is not vitality",
