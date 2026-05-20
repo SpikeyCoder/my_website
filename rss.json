@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T07:28:31.453229Z",
+  "generated_at": "2026-05-20T11:10:34.545727Z",
   "items": [
     {
       "title": "Square root of x² − 1",
@@ -7,6 +7,13 @@
       "date": "2026-05-20T00:49:50Z",
       "summary": "How should we define √(z² − 1)? Well, you could square z, subtract 1, and take the square root. What else would you do?! The question turns out to be more subtle than it looks. When x is a…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Prompts are technical debt too",
+      "link": "https://seangoedecke.com/prompts-are-technical-debt-too/",
+      "date": "2026-05-20T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "llm-gemini 0.32",
@@ -189,13 +196,6 @@
       "date": "2026-05-16T08:35:41Z",
       "summary": "Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake \"powerful\" for \"durable.\" Hey look at this: Delights to delectate. Object permanence:…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
-      "link": "https://seangoedecke.com/steering-vectors/",
-      "date": "2026-05-16T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     },
     {
       "title": "Make ZIP files smaller with ZIP Shrinker",
