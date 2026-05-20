@@ -1,11 +1,39 @@
 {
-  "generated_at": "2026-05-19T23:32:03.688788Z",
+  "generated_at": "2026-05-20T01:11:48.245818Z",
   "items": [
+    {
+      "title": "Square root of x² − 1",
+      "link": "https://www.johndcook.com/blog/2026/05/19/square-root-of-x-squared-minus-one/",
+      "date": "2026-05-20T00:49:50Z",
+      "summary": "How should we define √(z² − 1)? Well, you could square z, subtract 1, and take the square root. What else would you do?! The question turns out to be more subtle than it looks. When x is a…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "llm-gemini 0.32",
+      "link": "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+      "date": "2026-05-19T23:46:27Z",
+      "summary": "Release: llm-gemini 0.32 New model gemini-3.5-flash for Gemini 3.5 Flash . See also my notes on Gemini 3.5 Flash , and the pelican I drew using this upgrade to the plugin. Tags: gemini , llm",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Closer look at an identity",
+      "link": "https://www.johndcook.com/blog/2026/05/19/closer-look-at-an-identity/",
+      "date": "2026-05-19T23:37:31Z",
+      "summary": "The previous post derived the identity and said in a footnote that the identity holds at least for x > 1 and y > 1. That’s true, but let’s see why the footnote is necessary. Let’s have Mathematica…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
       "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
       "date": "2026-05-19T22:40:25Z",
       "summary": "Today at Google I/O, Google released Gemini 3.5 Flash . This one skipped the -preview modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-llm-accountant 0.1a4",
+      "link": "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
+      "date": "2026-05-19T20:45:43Z",
+      "summary": "Release: datasette-llm-accountant 0.1a4 Fixed bug tracking chains of responses. Refs datasette-llm#7 Tags: llm , datasette",
       "source": "simonwillison.net"
     },
     {
@@ -65,13 +93,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "The last six months in LLMs in five minutes",
-      "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
-      "date": "2026-05-19T01:09:44Z",
-      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "date": "2026-05-18T20:48:21Z",
@@ -84,13 +105,6 @@
       "date": "2026-05-18T17:53:34Z",
       "summary": "",
       "source": "daringfireball.net"
-    },
-    {
-      "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
-      "link": "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything",
-      "date": "2026-05-18T14:51:00Z",
-      "summary": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Just shows that nobody cares about debugging the parity flag any more",
@@ -198,13 +212,6 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Recovering the state of xorshift128",
-      "link": "https://www.johndcook.com/blog/2026/05/15/xorshift128-state/",
-      "date": "2026-05-15T12:34:29Z",
-      "summary": "I’ve written a couple posts lately about reverse engineering the internal state of a random number generator, first Mersenne Twister then lehmer64. This post will look at xorshift128, implemented…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Language Registries Are Unstable by Default",
       "link": "https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html",
       "date": "2026-05-15T10:00:00Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-14T00:00:00Z",
       "summary": "A small Mechanical Habit today:",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "What’s with all the slide decks?",
-      "link": "https://dynomight.net/slides/",
-      "date": "2026-05-13T00:00:00Z",
-      "summary": "a polycausal theory",
-      "source": "dynomight.net"
     }
   ]
 }
