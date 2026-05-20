@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-20T15:13:11.712845Z",
+  "generated_at": "2026-05-20T17:14:20.068189Z",
   "items": [
+    {
+      "title": "Google I/O, Gemini Spark, Antigravity",
+      "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+      "date": "2026-05-20T15:32:17Z",
+      "summary": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "[RSS Club] Let's meet up AFK",
       "link": "https://shkspr.mobi/blog/2026/05/rss-club-lets-meet-up-afk/",
@@ -41,13 +48,6 @@
       "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
       "date": "2026-05-19T22:40:25Z",
       "summary": "Today at Google I/O, Google released Gemini 3.5 Flash . This one skipped the -preview modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-llm-accountant 0.1a4",
-      "link": "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
-      "date": "2026-05-19T20:45:43Z",
-      "summary": "Release: datasette-llm-accountant 0.1a4 Fixed bug tracking chains of responses. Refs datasette-llm#7 Tags: llm , datasette",
       "source": "simonwillison.net"
     },
     {
