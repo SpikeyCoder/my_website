@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-20T20:51:28.901491Z",
+  "generated_at": "2026-05-20T21:40:32.862760Z",
   "items": [
+    {
+      "title": "NYT: ‘Powered by A.I., Google Changes Its Search Box for the First Time in 25 Years’",
+      "link": "https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&smid=url-share",
+      "date": "2026-05-20T21:20:24Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "‘You Do Not Need Fancy Equipment, You Do Not Need a Degree, to Make Money and to Do This as Your Job’",
+      "link": "https://www.tiktok.com/@brye.shhh/video/7641047549758934285",
+      "date": "2026-05-20T20:53:22Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "How fast is 10 tokens per second really?",
       "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
@@ -107,25 +121,11 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "[Sponsor] WorkOS: Agents Need Context. Ship the Integrations That Give It to Them.",
-      "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
-      "date": "2026-05-19T01:27:16Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "date": "2026-05-18T20:48:21Z",
       "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Jury Rejects Elon Musk’s Claim Against Sam Altman in Unanimous Verdict",
-      "link": "https://www.nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ",
-      "date": "2026-05-18T17:53:34Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Just shows that nobody cares about debugging the parity flag any more",
