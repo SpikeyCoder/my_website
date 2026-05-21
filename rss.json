@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T03:20:38.134727Z",
+  "generated_at": "2026-05-21T05:34:57.199810Z",
   "items": [
     {
       "title": "The Verge: ‘The 13 Biggest Announcements at Google I/O 2026’",
@@ -56,6 +56,13 @@
       "date": "2026-05-20T15:32:17Z",
       "summary": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "The classic TreeView control lets me sort by name or by lParam, but why not both?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260520-00/?p=112343",
+      "date": "2026-05-20T14:00:00Z",
+      "summary": "You need to arrange to get one from the other. The post The classic TreeView control lets me sort by name or by lParam, but why not both? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "[RSS Club] Let's meet up AFK",
@@ -231,13 +238,6 @@
       "date": "2026-05-16T00:00:00Z",
       "summary": "I built ZIP Shrinker, a little browser tool to shrink ZIP files. It also works with formats that are secretly ZIPs underneath, like APK, EPUB, JAR, and many more. Try it out! How does it work? At a…",
       "source": "evanhahn.com"
-    },
-    {
-      "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260515-00/?p=112327",
-      "date": "2026-05-15T14:00:00Z",
-      "summary": "Maybe because it already exists? The post The case of the <CODE>Create­File­Mapping</CODE> that always reported <CODE>ERROR_<WBR>ALREADY_<WBR>EXISTS</CODE> appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: No one wants a permanent gerontocracy (15 May 2026)",
