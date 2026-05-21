@@ -93,28 +93,6 @@
         </div>
       </div>
     </nav>
-    <div class="admin-panel" id="admin-panel" hidden style="display:none;">
-      <div class="admin-card">
-        <div class="admin-header">
-          <h3>Admin Portal</h3>
-          <button class="btn ghost" id="admin-close" type="button">Close</button>
-        </div>
-        <form id="auth-form" class="auth-form">
-          <label>
-            Admin email
-            <input type="email" id="auth-email" required placeholder="you@email.com" />
-          </label>
-          <label>
-            Password
-            <input type="password" id="auth-password" required placeholder="••••••••" />
-          </label>
-          <button class="btn ghost" type="submit">Sign in</button>
-          <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
-          <p class="helper" id="auth-status">Not signed in</p>
-        </form>
-      </div>
-    </div>
-
     <header class="site-header">
       <div class="container hero reveal">
         <div class="hero-main">
@@ -574,6 +552,29 @@
         </div>
       </section>
     </main>
+
+    <div class="admin-panel" id="admin-panel" hidden style="display:none;">
+      <div class="admin-card">
+        <div class="admin-header">
+          <h3>Admin Portal</h3>
+          <button class="btn ghost" id="admin-close" type="button">Close</button>
+        </div>
+        <form id="auth-form" class="auth-form">
+          <label>
+            Admin email
+            <input type="email" id="auth-email" required placeholder="you@email.com" />
+          </label>
+          <label>
+            Password
+            <input type="password" id="auth-password" required placeholder="••••••••" />
+          </label>
+          <button class="btn ghost" type="submit">Sign in</button>
+          <button class="btn ghost" id="auth-logout" type="button">Sign out</button>
+          <p class="helper" id="auth-status">Not signed in</p>
+        </form>
+      </div>
+    </div>
+
 
     <footer class="footer">
       <div class="container footer-content">
