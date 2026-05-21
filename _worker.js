@@ -160,8 +160,51 @@ const SECURITY_HEADERS = {
   'X-Content-Type-Options': 'nosniff',
   'X-Frame-Options': 'DENY',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
-  'Permissions-Policy':
-    'camera=(), microphone=(), geolocation=(), interest-cohort=()',
+  // KA-2026-05-21-01: expanded deny-list. The four legacy directives are
+  // retained; the additions deny modern powerful-feature APIs the site does
+  // not use (Topics API, Attribution Reporting, idle detection, WebUSB /
+  // WebSerial / Web Bluetooth, Payment Request, WebAuthn passkey assertion,
+  // Gamepad, WebXR). Brings parity with the OWASP Secure Headers Project
+  // recommended baseline as of 2026-05.
+  'Permissions-Policy': [
+    'accelerometer=()',
+    'ambient-light-sensor=()',
+    'attribution-reporting=()',
+    'autoplay=()',
+    'battery=()',
+    'bluetooth=()',
+    'browsing-topics=()',
+    'camera=()',
+    'clipboard-read=()',
+    'display-capture=()',
+    'document-domain=()',
+    'encrypted-media=()',
+    'fullscreen=(self)',
+    'gamepad=()',
+    'geolocation=()',
+    'gyroscope=()',
+    'hid=()',
+    'idle-detection=()',
+    'interest-cohort=()',
+    'keyboard-map=()',
+    'local-fonts=()',
+    'magnetometer=()',
+    'microphone=()',
+    'midi=()',
+    'otp-credentials=()',
+    'payment=()',
+    'picture-in-picture=(self)',
+    'publickey-credentials-create=()',
+    'publickey-credentials-get=()',
+    'screen-wake-lock=()',
+    'serial=()',
+    'speaker-selection=()',
+    'storage-access=()',
+    'usb=()',
+    'web-share=(self)',
+    'window-management=()',
+    'xr-spatial-tracking=()',
+  ].join(', '),
   'Cross-Origin-Opener-Policy': 'same-origin',
   // KA-2026-05-13-02: Cross-Origin-Embedder-Policy: credentialless.
   // Pairs with the existing COOP: same-origin to put HTML documents into a
