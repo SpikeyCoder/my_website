@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T05:34:57.199810Z",
+  "generated_at": "2026-05-21T07:32:31.128239Z",
   "items": [
     {
       "title": "The Verge: ‘The 13 Biggest Announcements at Google I/O 2026’",
@@ -21,6 +21,13 @@
       "date": "2026-05-21T01:05:14Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "The famous o3 \"GeoGuessr\" prompt did not work",
+      "link": "https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
     },
     {
       "title": "Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance",
@@ -210,13 +217,6 @@
       "date": "2026-05-17T11:34:30Z",
       "summary": "Within the UK's Civil Service you occasionally hear the expression \"being invited to a meeting without biscuits\". It implies a rather frosty discussion without any of the polite niceties of a normal…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "How I use LLMs as a staff engineer in 2026",
-      "link": "https://seangoedecke.com/how-i-use-llms-in-2026/",
-      "date": "2026-05-17T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     },
     {
       "title": "Reading List 05/16/26",
