@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-21T07:32:31.128239Z",
+  "generated_at": "2026-05-21T13:22:45.734224Z",
   "items": [
+    {
+      "title": "The Rise of Build-to-Rent Housing",
+      "link": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
+      "date": "2026-05-21T12:03:24Z",
+      "summary": "A major shift in the housing market in the last several years is the rapidly increasing popularity of “build-to-rent” homes — single-family homes that are built specifically for the purpose of being…",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Whale Fall",
+      "link": "https://shkspr.mobi/blog/2026/05/whale-fall/",
+      "date": "2026-05-21T11:34:15Z",
+      "summary": "Somewhere, in the endless blue ocean, a gigantic mammal shudders as it takes its last breath. Thanks to science, we know that all dogs go to heaven, but all whales descend through the murky depths…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "RFC: Artificial Contributors to Open Source",
+      "link": "https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html",
+      "date": "2026-05-21T10:00:00Z",
+      "summary": "Intended status: Best Current Practice.",
+      "source": "nesbitt.io"
+    },
     {
       "title": "The Verge: ‘The 13 Biggest Announcements at Google I/O 2026’",
       "link": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik5tNTBSc0hxRXQiLCJwIjoiL3RlY2gvOTMzNDE1L2dvb2dsZS1pby0yMDI2LWJpZ2dlc3QtYW5ub3VuY2VtZW50cy1haS1nZW1pbmkiLCJleHAiOjE3Nzk3NTk5MjQsImlhdCI6MTc3OTMyNzkyNH0.g_JiqbJBfi9YcDT1re8aofzmpb3tcZNwY2jQybgwJL0",
@@ -212,13 +233,6 @@
       "source": "idiallo.com"
     },
     {
-      "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
-      "link": "https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/",
-      "date": "2026-05-17T11:34:30Z",
-      "summary": "Within the UK's Civil Service you occasionally hear the expression \"being invited to a meeting without biscuits\". It implies a rather frosty discussion without any of the polite niceties of a normal…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Reading List 05/16/26",
       "link": "https://www.construction-physics.com/p/reading-list-051626",
       "date": "2026-05-16T12:01:26Z",
@@ -266,20 +280,6 @@
       "date": "2026-05-14T22:22:45Z",
       "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Centrality is not vitality",
-      "link": "https://nesbitt.io/2026/05/14/centrality-is-not-vitality.html",
-      "date": "2026-05-14T10:00:00Z",
-      "summary": "Don't automatically reach for PageRank on dependency graphs",
-      "source": "nesbitt.io"
-    },
-    {
-      "title": "It's funny because it's true",
-      "link": "https://idiallo.com/byte-size/its-funny-because-its-true?src=feed",
-      "date": "2026-05-14T07:13:34Z",
-      "summary": "I made a joke online. Based on Internet upvote points, it was pretty funny. OK, I didn't come up with the joke, but it was a perfectly timed reference. A few days back, Cliff Stoll, of the Klein…",
-      "source": "idiallo.com"
     }
   ]
 }
