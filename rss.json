@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-21T21:37:49.320304Z",
+  "generated_at": "2026-05-21T22:35:58.653929Z",
   "items": [
+    {
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "date": "2026-05-21T21:50:25Z",
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
+      "source": "krebsonsecurity.com"
+    },
     {
       "title": "Apple Sports Expands to More Than 90 New Countries on Cusp of World Cup",
       "link": "https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/",
@@ -100,11 +107,25 @@
       "source": "seangoedecke.com"
     },
     {
+      "title": "\"No way to prevent this\" say users of only package manager where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-art-template/",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
+    },
+    {
       "title": "\"No way to prevent this\" say users of only language where this regularly happens",
       "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45250/",
       "date": "2026-05-21T00:00:00Z",
       "summary": "",
       "source": "xeiaso.net"
+    },
+    {
+      "title": "TIL: Symlinking NixOS Dotfiles",
+      "link": "https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "The standard answer to managing dotfiles on NixOS is home-manager. I've never used it, due to two aesthetic and one practical objection:",
+      "source": "matklad.github.io"
     },
     {
       "title": "Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance",
@@ -259,27 +280,6 @@
       "date": "2026-05-16T08:35:41Z",
       "summary": "Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake \"powerful\" for \"durable.\" Hey look at this: Delights to delectate. Object permanence:…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Make ZIP files smaller with ZIP Shrinker",
-      "link": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
-      "date": "2026-05-16T00:00:00Z",
-      "summary": "I built ZIP Shrinker, a little browser tool to shrink ZIP files. It also works with formats that are secretly ZIPs underneath, like APK, EPUB, JAR, and many more. Try it out! How does it work? At a…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Language Registries Are Unstable by Default",
-      "link": "https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html",
-      "date": "2026-05-15T10:00:00Z",
-      "summary": "apt install -t unstable, but make it your whole personality",
-      "source": "nesbitt.io"
-    },
-    {
-      "title": "Search engine results are truly terrible",
-      "link": "https://maurycyz.com/misc/search/",
-      "date": "2026-05-15T00:00:00Z",
-      "summary": "A few months ago, I had the displeasure of trying to use the modern web without an ad-blocker. Even though it's is ubiquitous among computer nerds, ad blocking is quite rare even in other technical…",
-      "source": "maurycyz.com"
     }
   ]
 }
