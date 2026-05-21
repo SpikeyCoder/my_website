@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-21T01:12:29.572949Z",
+  "generated_at": "2026-05-21T03:20:38.134727Z",
   "items": [
+    {
+      "title": "The Verge: ‘The 13 Biggest Announcements at Google I/O 2026’",
+      "link": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik5tNTBSc0hxRXQiLCJwIjoiL3RlY2gvOTMzNDE1L2dvb2dsZS1pby0yMDI2LWJpZ2dlc3QtYW5ub3VuY2VtZW50cy1haS1nZW1pbmkiLCJleHAiOjE3Nzk3NTk5MjQsImlhdCI6MTc3OTMyNzkyNH0.g_JiqbJBfi9YcDT1re8aofzmpb3tcZNwY2jQybgwJL0",
+      "date": "2026-05-21T01:47:24Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Nobody is destined for greatness.",
+      "link": "https://www.joanwestenberg.com/nobody-is-destined-for-greatness/",
+      "date": "2026-05-21T01:31:20Z",
+      "summary": "Demosthenes lost his first appearance before the Athenian assembly. His voice came out thin and failed him mid-sentence, and the crowd laughed him off the platform. Plutarch tells us he walked home…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "WSJ: ‘Google Unveils New Gemini AI Agent for Personal Tasks’",
       "link": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev",
@@ -26,13 +40,6 @@
       "title": "NYT: ‘Powered by A.I., Google Changes Its Search Box for the First Time in 25 Years’",
       "link": "https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&smid=url-share",
       "date": "2026-05-20T21:20:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "‘You Do Not Need Fancy Equipment, You Do Not Need a Degree, to Make Money and to Do This as Your Job’",
-      "link": "https://www.tiktok.com/@brye.shhh/video/7641047549758934285",
-      "date": "2026-05-20T20:53:22Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -273,13 +280,6 @@
       "date": "2026-05-14T07:13:34Z",
       "summary": "I made a joke online. Based on Internet upvote points, it was pretty funny. OK, I didn't come up with the joke, but it was a perfectly timed reference. A few days back, Cliff Stoll, of the Klein…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Building a clock from salvaged Vacuum Fluorescent Displays",
-      "link": "https://maurycyz.com/projects/tubeclock/",
-      "date": "2026-05-14T00:00:00Z",
-      "summary": "When was disassembling an old calculator (as you do) I found these cool VFD tubes: Normally, a whole display is built into a single flat package, which doesn't look particularly interesting. These…",
-      "source": "maurycyz.com"
     }
   ]
 }
