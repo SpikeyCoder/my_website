@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-20T23:34:36.937778Z",
+  "generated_at": "2026-05-21T01:12:29.572949Z",
   "items": [
+    {
+      "title": "WSJ: ‘Google Unveils New Gemini AI Agent for Personal Tasks’",
+      "link": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev",
+      "date": "2026-05-21T01:05:14Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance",
       "link": "https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/",
@@ -77,13 +84,6 @@
       "date": "2026-05-19T23:37:31Z",
       "summary": "The previous post derived the identity and said in a footnote that the identity holds at least for x > 1 and y > 1. That’s true, but let’s see why the footnote is necessary. Let’s have Mathematica…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "Andrej Karpathy Joined Anthropic",
-      "link": "https://x.com/karpathy/status/2056753169888334312",
-      "date": "2026-05-19T15:45:17Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "Wi-Wi Is Wireless Time Sync at 1 nanosecond",
