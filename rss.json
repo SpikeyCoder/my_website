@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-21T19:38:56.929971Z",
+  "generated_at": "2026-05-21T20:43:36.219062Z",
   "items": [
     {
       "title": "Apple Sports Expands to More Than 90 New Countries on Cusp of World Cup",
       "link": "https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/",
-      "date": "2026-05-21T19:15:27Z",
+      "date": "2026-05-21T20:12:35Z",
       "summary": "",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Datasette Agent",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "date": "2026-05-21T19:52:19Z",
+      "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-agent-sprites 0.1a0",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+      "date": "2026-05-21T18:21:07Z",
+      "summary": "Release: datasette-agent-sprites 0.1a0 A Datasette Agent plugin for running commands in a Fly Sprites sandbox. Tags: sandboxing , datasette , fly , datasette-agent",
+      "source": "simonwillison.net"
     },
     {
       "title": "Couth and uncouth function pairs",
@@ -28,6 +42,13 @@
       "date": "2026-05-21T15:53:56Z",
       "summary": "The difference between a circular function and a hyperbolic function is a rotation or two. For example, cosh(z) = cos(iz). You can read that as saying that to find the hyperbolic cosine of z, first…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "datasette-agent-charts 0.1a2",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+      "date": "2026-05-21T15:15:58Z",
+      "summary": "Release: datasette-agent-charts 0.1a2 \"View SQL query\" buttons below rendered charts. Tags: datasette , datasette-agent",
+      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
@@ -91,27 +112,6 @@
       "date": "2026-05-20T22:36:13Z",
       "summary": "I just finished reading Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance , by my friend Cindy Cohn. It's excellent and you should buy a copy. Cindy is the Executive Director of…",
       "source": "micahflee.com"
-    },
-    {
-      "title": "Quoting SpaceX S-1",
-      "link": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
-      "date": "2026-05-20T22:26:36Z",
-      "summary": "We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "How fast is 10 tokens per second really?",
-      "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-      "date": "2026-05-20T17:57:45Z",
-      "summary": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Google I/O, Gemini Spark, Antigravity",
-      "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
-      "date": "2026-05-20T15:32:17Z",
-      "summary": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The classic TreeView control lets me sort by name or by lParam, but why not both?",
