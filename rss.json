@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-21T15:15:33.780787Z",
+  "generated_at": "2026-05-21T17:03:20.765673Z",
   "items": [
+    {
+      "title": "Google I/O Keynote in 54 Seconds",
+      "link": "https://x.com/ArtemR/status/2056961743142957143",
+      "date": "2026-05-21T16:42:01Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Circular and hyperbolic functions differ by rotations",
+      "link": "https://www.johndcook.com/blog/2026/05/21/circular-hyperbolic-rotations/",
+      "date": "2026-05-21T15:53:56Z",
+      "summary": "The difference between a circular function and a hyperbolic function is a rotation or two. For example, cosh(z) = cos(iz). You can read that as saying that to find the hyperbolic cosine of z, first…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
       "link": "https://pluralistic.net/2026/05/21/purity-culture/",
@@ -51,18 +65,18 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "WSJ: ‘Google Unveils New Gemini AI Agent for Personal Tasks’",
-      "link": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev",
-      "date": "2026-05-21T01:05:14Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "The famous o3 \"GeoGuessr\" prompt did not work",
       "link": "https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
       "date": "2026-05-21T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
+    },
+    {
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45250/",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
     },
     {
       "title": "Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance",
@@ -147,13 +161,6 @@
       "date": "2026-05-19T14:00:00Z",
       "summary": "The storage control blocks were destroyed. The post What is the history of the <CODE>ERROR_<WBR>ARENA_<WBR>TRASHED</CODE> error code? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Approximating Markov’s equation",
-      "link": "https://www.johndcook.com/blog/2026/05/19/zagiers-equation/",
-      "date": "2026-05-19T12:09:54Z",
-      "summary": "Markov numbers are integer solutions to x² + y² + z² = 3xyz. The Wikipedia article on Markov numbers mentions that Don Zagier studied Markov numbers by looking the approximating equation x² + y² + z²…",
-      "source": "johndcook.com"
     },
     {
       "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
@@ -273,13 +280,6 @@
       "date": "2026-05-15T00:00:00Z",
       "summary": "A few months ago, I had the displeasure of trying to use the modern web without an ad-blocker. Even though it's is ubiquitous among computer nerds, ad blocking is quite rare even in other technical…",
       "source": "maurycyz.com"
-    },
-    {
-      "title": "A few words on DS4",
-      "link": "http://antirez.com/news/165",
-      "date": "2026-05-14T22:22:45Z",
-      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
-      "source": "antirez.com"
     }
   ]
 }
