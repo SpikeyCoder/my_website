@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-05-22T21:32:08.389907Z",
+  "generated_at": "2026-05-22T22:29:16.608343Z",
   "items": [
+    {
+      "title": "The memory shortage is causing a repricing of consumer electronics",
+      "link": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "date": "2026-05-22T22:01:31Z",
+      "summary": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "★ The Fonts of the U.S. Federal Courts",
       "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
       "date": "2026-05-22T21:10:28Z",
       "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "News about Raspberry Pi 6 and Microcontroller Development",
+      "link": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
+      "date": "2026-05-22T20:15:00Z",
+      "summary": "On Thursday, three of the lead Raspberry Pi engineers hosted an AMA on the r/engineering subreddit . Raspberry Pi 6 One of the most interesting tidbits was on the Pi 6. Looking back at previous…",
+      "source": "jeffgeerling.com"
     },
     {
       "title": "How to Talk to Your Coworkers",
@@ -37,6 +51,13 @@
       "source": "krebsonsecurity.com"
     },
     {
+      "title": "Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348",
+      "date": "2026-05-22T14:00:00Z",
+      "summary": "You need to pump messages when idle, but maybe you are never idle. The post Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
       "title": "Dependency Pruning",
       "link": "https://nesbitt.io/2026/05/22/dependency-pruning.html",
       "date": "2026-05-22T10:00:00Z",
@@ -62,13 +83,6 @@
       "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
       "date": "2026-05-21T19:52:19Z",
       "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-agent-sprites 0.1a0",
-      "link": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
-      "date": "2026-05-21T18:21:07Z",
-      "summary": "Release: datasette-agent-sprites 0.1a0 A Datasette Agent plugin for running commands in a Fly Sprites sandbox. Tags: sandboxing , datasette , fly , datasette-agent",
       "source": "simonwillison.net"
     },
     {
@@ -205,13 +219,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "What is the history of the ERROR_ARENA_TRASHED error code?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260519-00/?p=112339",
-      "date": "2026-05-19T14:00:00Z",
-      "summary": "The storage control blocks were destroyed. The post What is the history of the <CODE>ERROR_<WBR>ARENA_<WBR>TRASHED</CODE> error code? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
       "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
       "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
       "date": "2026-05-19T11:34:17Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-18T00:00:00Z",
       "summary": "A few tips on 4D-ing your code comprehension skills.",
       "source": "matklad.github.io"
-    },
-    {
-      "title": "How to be inspired without copying",
-      "link": "https://www.joanwestenberg.com/how-to-be-inspired-without-copying/",
-      "date": "2026-05-17T22:33:32Z",
-      "summary": "In 1713, Johann Sebastian Bach sat down at his desk in Weimar and began copying out concertos by Antonio Vivaldi. He transcribed them note for note, in his own hand, working through at least nine of…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
