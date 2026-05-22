@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-22T03:20:36.231563Z",
+  "generated_at": "2026-05-22T05:31:21.309484Z",
   "items": [
+    {
+      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+      "link": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "date": "2026-05-22T04:48:32Z",
+      "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Apple Seeks Supreme Court Review of Contempt Finding and Injunction Scope in Epic Games Case",
       "link": "https://9to5mac.com/2026/05/21/apple-seeks-supreme-court-review-of-contempt-finding-and-injunction-scope-in-epic-games-case/",
@@ -58,18 +65,18 @@
       "source": "johndcook.com"
     },
     {
-      "title": "datasette-agent-charts 0.1a2",
-      "link": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
-      "date": "2026-05-21T15:15:58Z",
-      "summary": "Release: datasette-agent-charts 0.1a2 \"View SQL query\" buttons below rendered charts. Tags: datasette , datasette-agent",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
       "link": "https://pluralistic.net/2026/05/21/purity-culture/",
       "date": "2026-05-21T15:03:37Z",
       "summary": "Today's links Shopping isn't politics: The personal isn't political. Hey look at this: Delights to delectate. Object permanence: Neither arphid nor RFID; Gor novel sex slave cult; Violent economist…",
       "source": "pluralistic.net"
+    },
+    {
+      "title": "How do I use Win32 structures from the Windows Runtime?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260521-00/?p=112345",
+      "date": "2026-05-21T14:00:00Z",
+      "summary": "Trick question: You can't. But maybe you can fake it. The post How do I use Win32 structures from the Windows Runtime? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Rise of Build-to-Rent Housing",
@@ -217,13 +224,6 @@
       "date": "2026-05-18T20:48:21Z",
       "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Just shows that nobody cares about debugging the parity flag any more",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260518-00/?p=112334",
-      "date": "2026-05-18T14:00:00Z",
-      "summary": "Reported incorrectly since the day it was written. The post Just shows that nobody cares about debugging the parity flag any more appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Don't call yourself a Software Engineer, and other Career Advice",
