@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-22T09:17:58.263303Z",
+  "generated_at": "2026-05-22T11:10:13.328376Z",
   "items": [
+    {
+      "title": "Dependency Pruning",
+      "link": "https://nesbitt.io/2026/05/22/dependency-pruning.html",
+      "date": "2026-05-22T10:00:00Z",
+      "summary": "A survey of unused-dependency detectors",
+      "source": "nesbitt.io"
+    },
     {
       "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
       "link": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
@@ -273,13 +280,6 @@
       "date": "2026-05-16T12:01:26Z",
       "summary": "Tokyo’s cheap housing and expensive land, the House response to the Senate housing bill, an IED near an Alabama dam, Fervo’s IPO, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Pluralistic: Making sense of Trump's unscheduled sudden midair disassembly of the American empire (16 May 2026)",
-      "link": "https://pluralistic.net/2026/05/16/technopoly/",
-      "date": "2026-05-16T08:35:41Z",
-      "summary": "Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake \"powerful\" for \"durable.\" Hey look at this: Delights to delectate. Object permanence:…",
-      "source": "pluralistic.net"
     }
   ]
 }
