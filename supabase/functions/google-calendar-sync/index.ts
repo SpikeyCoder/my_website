@@ -2,7 +2,7 @@ import { adminClient } from "../_shared/client.ts";
 import { getWatchState, syncCalendarBookings, upsertWatchState } from "../_shared/calendar_booking_sync.ts";
 import { getGoogleCalendarId } from "../_shared/google_calendar.ts";
 import { optionsResponse } from "../_shared/cors.ts";
-import { jsonResponse } from "../_shared/http.ts";
+import { jsonResponse, sanitiseError } from "../_shared/http.ts";
 import { timingSafeEqual } from "../_shared/timing_safe.ts";
 
 function adminTokenFromRequest(request: Request): string {
@@ -62,7 +62,7 @@ Deno.serve(async (request) => {
     });
   } catch (error) {
     return jsonResponse(request, 500, {
-      error: error instanceof Error ? error.message : "Unknown error",
+      error: sanitiseError(error, "Internal server error"),
     });
   }
 });

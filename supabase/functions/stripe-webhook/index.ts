@@ -1,3 +1,4 @@
+import { sanitiseError } from "../_shared/http.ts";
 import Stripe from "https://esm.sh/stripe@17.7.0?target=deno";
 import { adminClient } from "../_shared/client.ts";
 import { optionsResponse } from "../_shared/cors.ts";
@@ -28,7 +29,8 @@ Deno.serve(async (request) => {
   try {
     event = await stripe.webhooks.constructEventAsync(payload, signature, stripeWebhookSecret);
   } catch (error) {
-    return new Response(`Webhook signature verification failed: ${error instanceof Error ? error.message : "invalid"}`, {
+    sanitiseError(error, "stripe webhook signature verification failed");
+    return new Response("Webhook signature verification failed", {
       status: 400,
     });
   }
@@ -96,7 +98,7 @@ Deno.serve(async (request) => {
       headers: { "Content-Type": "application/json" },
     });
   } catch (error) {
-    return new Response(JSON.stringify({ error: error instanceof Error ? error.message : "Unknown error" }), {
+    return new Response(JSON.stringify({ error: sanitiseError(error, "Internal server error") }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });
