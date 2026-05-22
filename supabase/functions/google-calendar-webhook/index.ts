@@ -7,7 +7,7 @@ import {
   upsertWatchState,
 } from "../_shared/calendar_booking_sync.ts";
 import { optionsResponse } from "../_shared/cors.ts";
-import { jsonResponse } from "../_shared/http.ts";
+import { jsonResponse, sanitiseError } from "../_shared/http.ts";
 import { timingSafeEqual } from "../_shared/timing_safe.ts";
 
 Deno.serve(async (request) => {
@@ -67,7 +67,7 @@ Deno.serve(async (request) => {
     });
   } catch (error) {
     return jsonResponse(request, 500, {
-      error: error instanceof Error ? error.message : "Unknown error",
+      error: sanitiseError(error, "Internal server error"),
     });
   }
 });
