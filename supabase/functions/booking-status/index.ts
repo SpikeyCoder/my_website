@@ -1,7 +1,7 @@
 import { hasEmailBookedInCalendar } from "../_shared/calendar_booking_sync.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { bookingTokenCookie, isValidEmail, normalizeEmail } from "../_shared/booking.ts";
-import { jsonResponse, tokenFromRequest } from "../_shared/http.ts";
+import { jsonResponse, tokenFromRequest, sanitiseError } from "../_shared/http.ts";
 import { createBookingToken, verifyBookingToken } from "../_shared/token.ts";
 
 Deno.serve(async (request) => {
@@ -55,7 +55,11 @@ Deno.serve(async (request) => {
         hasBooked = liveLookup.hasBooked;
         checkedEvents = liveLookup.checkedEvents;
       } catch (error) {
-        syncError = error instanceof Error ? error.message : "Calendar refresh failed";
+        // KA-2026-05-22-02: log full detail server-side, surface a fixed
+        // public-facing string. Calendar/Google API errors can include
+        // OAuth token state and internal endpoint paths.
+        sanitiseError(error, "Calendar refresh failed");
+        syncError = "Calendar refresh failed";
       }
     }
 
@@ -80,7 +84,7 @@ Deno.serve(async (request) => {
     );
   } catch (error) {
     return jsonResponse(request, 500, {
-      error: error instanceof Error ? error.message : "Unknown error",
+      error: sanitiseError(error, "Internal server error"),
     });
   }
 });

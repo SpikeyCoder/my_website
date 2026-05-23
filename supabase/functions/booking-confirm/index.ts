@@ -1,7 +1,7 @@
 import { adminClient } from "../_shared/client.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { bookingTokenCookie, isValidEmail, normalizeEmail } from "../_shared/booking.ts";
-import { jsonResponse, tokenFromRequest } from "../_shared/http.ts";
+import { jsonResponse, tokenFromRequest, sanitiseError } from "../_shared/http.ts";
 import { createBookingToken, verifyBookingToken } from "../_shared/token.ts";
 
 Deno.serve(async (request) => {
@@ -45,7 +45,7 @@ Deno.serve(async (request) => {
       .maybeSingle();
 
     if (existingError) {
-      return jsonResponse(request, 500, { error: existingError.message });
+      return jsonResponse(request, 500, { error: sanitiseError(existingError, "Database operation failed") });
     }
 
     const firstBookedAt = existing?.first_booked_at || now;
@@ -61,7 +61,7 @@ Deno.serve(async (request) => {
       });
 
     if (upsertError) {
-      return jsonResponse(request, 500, { error: upsertError.message });
+      return jsonResponse(request, 500, { error: sanitiseError(upsertError, "Database operation failed") });
     }
 
     const { error: eventError } = await supabase.from("booking_events").insert({
@@ -75,7 +75,7 @@ Deno.serve(async (request) => {
     });
 
     if (eventError) {
-      return jsonResponse(request, 500, { error: eventError.message });
+      return jsonResponse(request, 500, { error: sanitiseError(eventError, "Database operation failed") });
     }
 
     const token = await createBookingToken(email);
@@ -95,7 +95,7 @@ Deno.serve(async (request) => {
     );
   } catch (error) {
     return jsonResponse(request, 500, {
-      error: error instanceof Error ? error.message : "Unknown error",
+      error: sanitiseError(error, "Internal server error"),
     });
   }
 });

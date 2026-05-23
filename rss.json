@@ -1,6 +1,146 @@
 {
-  "generated_at": "2026-05-21T15:15:33.780787Z",
+  "generated_at": "2026-05-23T19:33:34.766132Z",
   "items": [
+    {
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
+      "date": "2026-05-23T16:17:44.886000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "Hilbert transform as an infinite matrix",
+      "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
+      "date": "2026-05-23T15:09:34Z",
+      "summary": "The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Fourier series of its…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Real and imaginary parts",
+      "link": "https://www.johndcook.com/blog/2026/05/23/real-and-imaginary-parts/",
+      "date": "2026-05-23T13:57:21Z",
+      "summary": "The previous post announced some notes I wrote up based on an article by Henry Baker implementing functions of a complex variable in terms of functions of a real variable. That is, it finds functions…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Reading List 05/23/26",
+      "link": "https://www.construction-physics.com/p/reading-list-052326",
+      "date": "2026-05-23T12:02:39Z",
+      "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Which age-gates should be skill-gates and vice-versa?",
+      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
+      "date": "2026-05-23T11:34:31Z",
+      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "This Week in Package Management: 23 May 2026",
+      "link": "https://nesbitt.io/2026/05/23/this-week-in-package-management.html",
+      "date": "2026-05-23T10:00:00Z",
+      "summary": "Releases, advisories, and articles from across the package management world",
+      "source": "nesbitt.io"
+    },
+    {
+      "title": "Building complex functions out of real parts",
+      "link": "https://www.johndcook.com/blog/2026/05/22/complex-functions-real-parts/",
+      "date": "2026-05-23T03:24:10Z",
+      "summary": "A couple months ago I wrote about how to compute the sine and cosine of a complex number using only real functions of real variables using the equations You can do something analogous for all the…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "The commencement speech that shook the world",
+      "link": "https://idiallo.com/blog/the-commencement-speech-that-shook-the-world?src=feed",
+      "date": "2026-05-23T01:14:24Z",
+      "summary": "There he was, the man at the helm of innovation. Eric Schmidt, the former CEO of Google. The man who once said, google doesn't need to record your conversation, it already knows everything about you.…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "The memory shortage is causing a repricing of consumer electronics",
+      "link": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "date": "2026-05-22T22:01:31Z",
+      "summary": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "★ The Fonts of the U.S. Federal Courts",
+      "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
+      "date": "2026-05-22T21:10:28Z",
+      "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "News about Raspberry Pi 6 and Microcontroller Development",
+      "link": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
+      "date": "2026-05-22T20:15:00Z",
+      "summary": "On Thursday, three of the lead Raspberry Pi engineers hosted an AMA on the r/engineering subreddit . Raspberry Pi 6 One of the most interesting tidbits was on the Pi 6. Looking back at previous…",
+      "source": "jeffgeerling.com"
+    },
+    {
+      "title": "How to Talk to Your Coworkers",
+      "link": "https://idiallo.com/blog/how-to-talk-to-your-coworkers?src=feed",
+      "date": "2026-05-22T19:00:00Z",
+      "summary": "You know you explained the same issue before in two or three different places, yet here they are asking again. Why don't they understand you? Why do they ask the same question when you've already…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "The Ninth Circuit Appeal Ruling in ‘Epic v. Apple’ That Apple Is Seeking to Overturn at the Supreme Court (PDF)",
+      "link": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/11/25-2935.pdf",
+      "date": "2026-05-22T17:39:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Zero Sum Problems and Apple Sports",
+      "link": "https://kieranhealy.org/blog/archives/2026/05/21/zero-sum-problems/",
+      "date": "2026-05-22T17:22:32Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "date": "2026-05-22T16:34:24Z",
+      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348",
+      "date": "2026-05-22T14:00:00Z",
+      "summary": "You need to pump messages when idle, but maybe you are never idle. The post Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?…",
+      "source": "devblogs.microsoft.com/oldnewthing"
+    },
+    {
+      "title": "Dependency Pruning",
+      "link": "https://nesbitt.io/2026/05/22/dependency-pruning.html",
+      "date": "2026-05-22T10:00:00Z",
+      "summary": "A survey of unused-dependency detectors",
+      "source": "nesbitt.io"
+    },
+    {
+      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+      "link": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "date": "2026-05-22T04:48:32Z",
+      "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "date": "2026-05-21T21:50:25Z",
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
+      "source": "krebsonsecurity.com"
+    },
+    {
+      "title": "Datasette Agent",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "date": "2026-05-21T19:52:19Z",
+      "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
       "link": "https://pluralistic.net/2026/05/21/purity-culture/",
@@ -9,11 +149,11 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "‘Geography Is Four-Dimensional’",
-      "link": "https://sive.rs/4d",
-      "date": "2026-05-21T14:39:20Z",
-      "summary": "",
-      "source": "daringfireball.net"
+      "title": "How do I use Win32 structures from the Windows Runtime?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260521-00/?p=112345",
+      "date": "2026-05-21T14:00:00Z",
+      "summary": "Trick question: You can't. But maybe you can fake it. The post How do I use Win32 structures from the Windows Runtime? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Rise of Build-to-Rent Housing",
@@ -37,25 +177,11 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "The Verge: ‘The 13 Biggest Announcements at Google I/O 2026’",
-      "link": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik5tNTBSc0hxRXQiLCJwIjoiL3RlY2gvOTMzNDE1L2dvb2dsZS1pby0yMDI2LWJpZ2dlc3QtYW5ub3VuY2VtZW50cy1haS1nZW1pbmkiLCJleHAiOjE3Nzk3NTk5MjQsImlhdCI6MTc3OTMyNzkyNH0.g_JiqbJBfi9YcDT1re8aofzmpb3tcZNwY2jQybgwJL0",
-      "date": "2026-05-21T01:47:24Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Nobody is destined for greatness.",
       "link": "https://www.joanwestenberg.com/nobody-is-destined-for-greatness/",
       "date": "2026-05-21T01:31:20Z",
       "summary": "Demosthenes lost his first appearance before the Athenian assembly. His voice came out thin and failed him mid-sentence, and the crowd laughed him off the platform. Plutarch tells us he walked home…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "WSJ: ‘Google Unveils New Gemini AI Agent for Personal Tasks’",
-      "link": "https://www.wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev",
-      "date": "2026-05-21T01:05:14Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The famous o3 \"GeoGuessr\" prompt did not work",
@@ -65,32 +191,32 @@
       "source": "seangoedecke.com"
     },
     {
+      "title": "\"No way to prevent this\" say users of only package manager where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-art-template/",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45250/",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "",
+      "source": "xeiaso.net"
+    },
+    {
+      "title": "TIL: Symlinking NixOS Dotfiles",
+      "link": "https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html",
+      "date": "2026-05-21T00:00:00Z",
+      "summary": "The standard answer to managing dotfiles on NixOS is home-manager. I've never used it, due to two aesthetic and one practical objection:",
+      "source": "matklad.github.io"
+    },
+    {
       "title": "Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance",
       "link": "https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/",
       "date": "2026-05-20T22:36:13Z",
       "summary": "I just finished reading Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance , by my friend Cindy Cohn. It's excellent and you should buy a copy. Cindy is the Executive Director of…",
       "source": "micahflee.com"
-    },
-    {
-      "title": "Quoting SpaceX S-1",
-      "link": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
-      "date": "2026-05-20T22:26:36Z",
-      "summary": "We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "How fast is 10 tokens per second really?",
-      "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-      "date": "2026-05-20T17:57:45Z",
-      "summary": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Google I/O, Gemini Spark, Antigravity",
-      "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
-      "date": "2026-05-20T15:32:17Z",
-      "summary": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The classic TreeView control lets me sort by name or by lParam, but why not both?",
@@ -107,13 +233,6 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "Square root of x² − 1",
-      "link": "https://www.johndcook.com/blog/2026/05/19/square-root-of-x-squared-minus-one/",
-      "date": "2026-05-20T00:49:50Z",
-      "summary": "How should we define √(z² − 1)? Well, you could square z, subtract 1, and take the square root. What else would you do?! The question turns out to be more subtle than it looks. When x is a…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Prompts are technical debt too",
       "link": "https://seangoedecke.com/prompts-are-technical-debt-too/",
       "date": "2026-05-20T00:00:00Z",
@@ -128,46 +247,11 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "Closer look at an identity",
-      "link": "https://www.johndcook.com/blog/2026/05/19/closer-look-at-an-identity/",
-      "date": "2026-05-19T23:37:31Z",
-      "summary": "The previous post derived the identity and said in a footnote that the identity holds at least for x > 1 and y > 1. That’s true, but let’s see why the footnote is necessary. Let’s have Mathematica…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Wi-Wi Is Wireless Time Sync at 1 nanosecond",
       "link": "https://www.jeffgeerling.com/blog/2026/wi-wi-is-wireless-time-sync-less-than-5ns/",
       "date": "2026-05-19T14:00:00Z",
       "summary": "At NAB, I found a demo of Wi-Wi STAMP , a wireless time synchronization protocol that came out of Japan's NICT . Wi-Wi stands for Wireless 2Way interferometry, and it uses the 900 MHz band for…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "What is the history of the ERROR_ARENA_TRASHED error code?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260519-00/?p=112339",
-      "date": "2026-05-19T14:00:00Z",
-      "summary": "The storage control blocks were destroyed. The post What is the history of the <CODE>ERROR_<WBR>ARENA_<WBR>TRASHED</CODE> error code? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Approximating Markov’s equation",
-      "link": "https://www.johndcook.com/blog/2026/05/19/zagiers-equation/",
-      "date": "2026-05-19T12:09:54Z",
-      "summary": "Markov numbers are integer solutions to x² + y² + z² = 3xyz. The Wikipedia article on Markov numbers mentions that Don Zagier studied Markov numbers by looking the approximating equation x² + y² + z²…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
-      "date": "2026-05-19T11:34:17Z",
-      "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
-      "source": "shkspr.mobi"
-    },
-    {
-      "title": "Dumb Ways for an Open Source Project to Die",
-      "link": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
-      "date": "2026-05-19T10:00:00Z",
-      "summary": "How your dependencies became Bernies",
-      "source": "nesbitt.io"
     },
     {
       "title": "Alternatives for the EDIT tool of LLM agents",
@@ -191,95 +275,11 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "Just shows that nobody cares about debugging the parity flag any more",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260518-00/?p=112334",
-      "date": "2026-05-18T14:00:00Z",
-      "summary": "Reported incorrectly since the day it was written. The post Just shows that nobody cares about debugging the parity flag any more appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Don't call yourself a Software Engineer, you are an AI Enabled Engineer.",
+      "title": "Don't call yourself a Software Engineer, and other Career Advice",
       "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
       "date": "2026-05-18T12:00:00Z",
       "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "How I Use My Index 01 + Production Update",
-      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "Always Be Blaming",
-      "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "A few tips on 4D-ing your code comprehension skills.",
-      "source": "matklad.github.io"
-    },
-    {
-      "title": "How to be inspired without copying",
-      "link": "https://www.joanwestenberg.com/how-to-be-inspired-without-copying/",
-      "date": "2026-05-17T22:33:32Z",
-      "summary": "In 1713, Johann Sebastian Bach sat down at his desk in Weimar and began copying out concertos by Antonio Vivaldi. He transcribed them note for note, in his own hand, working through at least nine of…",
-      "source": "joanwestenberg.com"
-    },
-    {
-      "title": "In the Empire's Defense",
-      "link": "https://idiallo.com/blog/the-empire-won?src=feed",
-      "date": "2026-05-17T12:00:00Z",
-      "summary": "I didn't watch Star Wars when it was released. I wasn't even born. By the time we popped the cassette tape in the VCR, it was at least 15 years old. But I liked the movie all the same. It was not my…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "Reading List 05/16/26",
-      "link": "https://www.construction-physics.com/p/reading-list-051626",
-      "date": "2026-05-16T12:01:26Z",
-      "summary": "Tokyo’s cheap housing and expensive land, the House response to the Senate housing bill, an IED near an Alabama dam, Fervo’s IPO, and more.",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Pluralistic: Making sense of Trump's unscheduled sudden midair disassembly of the American empire (16 May 2026)",
-      "link": "https://pluralistic.net/2026/05/16/technopoly/",
-      "date": "2026-05-16T08:35:41Z",
-      "summary": "Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake \"powerful\" for \"durable.\" Hey look at this: Delights to delectate. Object permanence:…",
-      "source": "pluralistic.net"
-    },
-    {
-      "title": "Make ZIP files smaller with ZIP Shrinker",
-      "link": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
-      "date": "2026-05-16T00:00:00Z",
-      "summary": "I built ZIP Shrinker, a little browser tool to shrink ZIP files. It also works with formats that are secretly ZIPs underneath, like APK, EPUB, JAR, and many more. Try it out! How does it work? At a…",
-      "source": "evanhahn.com"
-    },
-    {
-      "title": "Language Registries Are Unstable by Default",
-      "link": "https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html",
-      "date": "2026-05-15T10:00:00Z",
-      "summary": "apt install -t unstable, but make it your whole personality",
-      "source": "nesbitt.io"
-    },
-    {
-      "title": "Search engine results are truly terrible",
-      "link": "https://maurycyz.com/misc/search/",
-      "date": "2026-05-15T00:00:00Z",
-      "summary": "A few months ago, I had the displeasure of trying to use the modern web without an ad-blocker. Even though it's is ubiquitous among computer nerds, ad blocking is quite rare even in other technical…",
-      "source": "maurycyz.com"
-    },
-    {
-      "title": "A few words on DS4",
-      "link": "http://antirez.com/news/165",
-      "date": "2026-05-14T22:22:45Z",
-      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few…",
-      "source": "antirez.com"
     }
   ]
 }

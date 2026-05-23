@@ -1,7 +1,7 @@
 import { adminClient } from "../_shared/client.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { bookingTokenCookie, isValidEmail, normalizeEmail } from "../_shared/booking.ts";
-import { jsonResponse } from "../_shared/http.ts";
+import { jsonResponse, sanitiseError } from "../_shared/http.ts";
 import { createBookingToken } from "../_shared/token.ts";
 
 Deno.serve(async (request) => {
@@ -28,7 +28,7 @@ Deno.serve(async (request) => {
       .maybeSingle();
 
     if (existingError) {
-      return jsonResponse(request, 500, { error: existingError.message });
+      return jsonResponse(request, 500, { error: sanitiseError(existingError, "Database operation failed") });
     }
 
     if (!existing) {
@@ -41,7 +41,7 @@ Deno.serve(async (request) => {
           updated_at: now,
         });
       if (insertProfileError) {
-        return jsonResponse(request, 500, { error: insertProfileError.message });
+        return jsonResponse(request, 500, { error: sanitiseError(insertProfileError, "Database operation failed") });
       }
     }
 
@@ -55,7 +55,7 @@ Deno.serve(async (request) => {
     });
 
     if (eventError) {
-      return jsonResponse(request, 500, { error: eventError.message });
+      return jsonResponse(request, 500, { error: sanitiseError(eventError, "Database operation failed") });
     }
 
     const token = await createBookingToken(email);
@@ -76,7 +76,7 @@ Deno.serve(async (request) => {
     );
   } catch (error) {
     return jsonResponse(request, 500, {
-      error: error instanceof Error ? error.message : "Unknown error",
+      error: sanitiseError(error, "Internal server error"),
     });
   }
 });

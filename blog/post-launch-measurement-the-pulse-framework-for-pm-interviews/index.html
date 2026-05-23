@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Post-launch measurement: the PULSE framework for PM interviews | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Shipping a feature is the easy part. Proving the launch worked is the next interview question." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Post-launch measurement: the PULSE framework for PM interviews" />
+    <meta property="og:description" content="Shipping a feature is the easy part. Proving the launch worked is the next interview question." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-22T08:18:24.888+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Post-launch measurement: the PULSE framework for PM interviews" />
+    <meta name="twitter:description" content="Shipping a feature is the easy part. Proving the launch worked is the next interview question." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Post-launch measurement: the PULSE framework for PM interviews", "description": "Shipping a feature is the easy part. Proving the launch worked is the next interview question.", "url": "https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/"}, "datePublished": "2026-05-22T08:18:24.888+00:00", "dateModified": "2026-05-22T08:18:24.888+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Post-launch measurement: the PULSE framework for PM interviews</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/" data-share-copy-url="https://kevinarmstrong.io/blog/post-launch-measurement-the-pulse-framework-for-pm-interviews/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Shipping a feature is the easy part. Proving the launch worked is the next interview question.</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 22, 2026 • 5 min read • pm-interviews, post-launch-metrics, product-analytics, go-to-market, retention</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>Most PM candidates can describe a launch plan. Few can describe what happens after the press release. Interviewers know this gap. They probe for the answer. The follow-up question reveals whether you think like a builder or a marketer.</p>
+            <p>A strong answer starts with a framework. Mine is <strong>PULSE</strong>, an acronym with five parts:</p>
+            <ul>
+            <li><strong>P</strong> = Pre-launch baseline</li>
+            </ul>
+            <ul>
+            <li><strong>U</strong> = Usage adoption</li>
+            </ul>
+            <ul>
+            <li><strong>L</strong> = Lift over baseline</li>
+            </ul>
+            <ul>
+            <li><strong>S</strong> = Signal versus noise</li>
+            </ul>
+            <ul>
+            <li><strong>E</strong> = Endurance</li>
+            </ul>
+            <p>Each letter maps to a question on the interviewer&#x27;s checklist. Let me walk through each part with detail aimed at a PM panel.</p>
+            <h3>Pre-launch baseline</h3>
+            <p>You need numbers from the world without your feature before you ship anything. Most candidates skip this step. They jump straight to adoption charts without a control group.</p>
+            <p>A baseline tells you the counterfactual. The baseline accounts for seasonality, market growth, and parallel launches in flight. Without one, every gain looks like your win, and every dip looks like your failure.</p>
+            <p>Pull thirty days of trailing data on three or four existing metrics. Note any spikes or dips so you can explain them later in the review. Sean Ellis, who coined the term &quot;growth hacking,&quot; argues that teams should anchor every test against a measured starting point (Ellis and Brown 47). A panel will reward you for naming that starting point.</p>
+            <h3>Usage adoption</h3>
+            <p>Adoption answers the first question after launch: did anyone use the feature? Build a simple funnel with four stages: exposure, discovery, first use, and return.</p>
+            <p>Each step has a drop-off rate. A poor discovery rate means a placement problem. Low first-use numbers point to onboarding friction. When users do not return, the feature failed to deliver value.</p>
+            <p>Andrew Chen, in <em>The Cold Start Problem</em>, points out that early adoption curves are noisy and often misread by teams hungry for good news (Chen 112). Be careful with day-one numbers. Wait for a stable signal across at least two weeks of cohorts.</p>
+            <h3>Lift over baseline</h3>
+            <p>Once you have adoption, you measure lift. Lift is the change in your target metric compared to your baseline. The question every executive asks: did this move the needle?</p>
+            <p>Lift comes in two flavors. Direct lift is the change in the metric tied to your feature goal. Indirect lift is the change in surrounding metrics across the product. A new checkout flow might raise conversion while lowering average order value.</p>
+            <p>Strong PM answers name both effects. Weak answers cite only the flattering metric.</p>
+            <p>If you ran an A/B test, lift is the delta between treatment and control. For a full rollout, lift is the delta between post-launch and your pre-launch baseline, adjusted for trend. Eric Ries, in <em>The Lean Startup</em>, calls this kind of disciplined comparison &quot;innovation accounting&quot; (Ries 114). Use that phrase in an interview and you will get a nod.</p>
+            <h3>Signal versus noise</h3>
+            <p>Most candidates stumble at this step. They see a 5% bump and call it a win. A senior interviewer will ask whether the bump reflects reality.</p>
+            <p>Signal versus noise means asking whether the change you measured could have happened by chance. For A/B tests, look at sample size, confidence interval, statistical power, and effect size. For full rollouts, compare the change against the normal week-to-week variation in your metric.</p>
+            <p>A 2% lift in a noisy metric with a wide variance band has no meaning. A 2% lift in a stable metric with tight variance might be the win of the quarter. Numbers without context are just decoration.</p>
+            <p>Bring up segmentation at this point. A flat overall result can hide a strong win in one segment with a loss in another segment. Power users might love your new feature while casual users churn from the product. The average misses both stories.</p>
+            <h3>Endurance</h3>
+            <p>The final letter covers the period after novelty. Many features see a spike in week one, then a slow decline back toward baseline. That pattern is called a feature halo, and it can trick a team into early celebration.</p>
+            <p>Endurance is measured with retention curves. Look at the cohort of users who tried the feature in week one. Track how many still use it in week four, then in week eight. A healthy feature has a curve that flattens above zero. A feature halo has a curve that drops to the floor.</p>
+            <p>John Cutler, who writes extensively on product analytics at Amplitude, argues that durable engagement is the truer measure of product-market fit (Cutler). When you talk about endurance in an interview, you show that you think past the launch tweet.</p>
+            <h3>Putting it together in an interview</h3>
+            <p>When a question like &quot;How would you measure the success of feature X?&quot; comes up, walk through the PULSE framework. Start with the baseline. Move to adoption. Show lift. Address signal versus noise. End with endurance.</p>
+            <p>Consider a sample answer about a new search filter. The baseline shows a 4% conversion rate over the prior month. Adoption reaches 35% of monthly active users in the first two weeks. Lift on the treatment group is 8%, with a tight confidence interval. Retention flattens at 22% after week six. A clear walk-through like that takes under three minutes.</p>
+            <p>PULSE turns five questions into one cohesive answer. The framework is the scaffolding. Your judgment about which metrics matter for the specific feature is the part that wins offers.</p>
+            <h3>Works cited</h3>
+            <p>Chen, Andrew. <em>The Cold Start Problem: How to Start and Scale Network Effects</em>. Harper Business, 2021.</p>
+            <p>Cutler, John. &quot;What Real Product-Market Fit Looks Like.&quot; <em>Amplitude Blog</em>, amplitude.com, 2022.</p>
+            <p>Ellis, Sean, and Morgan Brown. <em>Hacking Growth: How Today&#x27;s Fastest-Growing Companies Drive Breakout Success</em>. Currency, 2017.</p>
+            <p>Ries, Eric. <em>The Lean Startup: How Today&#x27;s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</em>. Crown Business, 2011.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
