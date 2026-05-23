@@ -264,6 +264,10 @@ function withSecurityHeaders(response) {
   // Always set HSTS — it's a domain-level signal, not document-specific.
   // CSP and document-only headers gate on isHtmlResponse() to avoid noise.
   const headers = new Headers(response.headers);
+  // WA-2026-05-23-08: strip fingerprinting headers from upstream so we
+  // don't leak Cloudflare/origin stack details.
+  headers.delete('Server');
+  headers.delete('X-Powered-By');
   headers.set(
     'Strict-Transport-Security',
     SECURITY_HEADERS['Strict-Transport-Security'],
