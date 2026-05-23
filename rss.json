@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-23T15:30:56.763039Z",
+  "generated_at": "2026-05-23T16:28:01.091087Z",
   "items": [
+    {
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
+      "date": "2026-05-23T16:17:44.886000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
     {
       "title": "Hilbert transform as an infinite matrix",
       "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
@@ -273,13 +280,6 @@
       "date": "2026-05-18T12:00:00Z",
       "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
