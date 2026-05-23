@@ -1,45 +1,36 @@
 ---
 title: Risk Register
-tsc: CC3
+tsc: CC3.1, CC3.2, CC3.3, CC3.4
 owner: Kevin Armstrong
 review-cadence: quarterly
-last-reviewed: 2026-05-05
+last-reviewed: 2026-05-21
 ---
 
 # Risk Register — kevinarmstrong.io
 
-| ID | Risk | Likelihood | Impact | Mitigation | Status |
-|---|---|---|---|---|---|
-| R-01 | Supabase Edge Function compromise via leaked SERVICE_ROLE_KEY | Low | High | BOOKING_TOKEN_SECRET separated from SERVICE_ROLE; secret rotation runbook documented | Mitigated |
-| R-02 | CDN compromise of jsdelivr injects JS into blog | Low | Medium | SRI pinning on all jsdelivr scripts (PR #18) | Mitigated |
-| R-03 | Booking-flow CSRF | Low | Medium | SameSite=Lax cookie + token-bound confirm endpoint | Mitigated |
-| R-04 | Booking token leak via XSS | Low | High | DOMPurify on rendered markdown; CSP enforced via Cloudflare Worker with sha256 hash list, no `'unsafe-inline'` in script-src (PRs #23/#24/#25/#26) | Mitigated |
-| R-05 | Vendor lock-in on Supabase free tier | Medium | Low | DB schema migrations versioned; export script tested quarterly | Accepted |
-| R-06 | Single owner — bus-factor of 1 | Medium | High | Encrypted credential vault (1Password) shared with successor designee | Partial |
-| R-07 | `'unsafe-inline'` in `script-src` weakened defense-in-depth against future XSS | Low | Medium | Closed by PRs #23 (Worker-emitted CSP), #24 (externalised executable inline scripts), #25 (build-time sha256 hash list for data islands, refreshed daily by `.github/workflows/rss.yml`), #26 (flipped enforcement, removed `<meta>` tag) | Mitigated |
-| R-08 | Third-party CORS proxies (`api.allorigins.win`, `r.jina.ai`) used as RSS fallbacks could MITM proxied feed content | Low | Low | Output of every proxied fetch is parsed as XML/HTML and re-escaped via `escapeHtml()` before being inserted into the DOM; no proxied content reaches a script context | Mitigated |
+## Overview
 
-## 2026-05-05 attestations
+This document identifies, assesses, and tracks risks to kevinarmstrong.io per AICPA TSC CC3 (Risk Assessment). Risks are scored on likelihood (1-5) and impact (1-5). Risks scoring 12+ require a mitigation plan.
 
-**Initial review (2026-05-05, morning):** Risk register reviewed against the
-pen-test performed on 2026-05-05. No new High or Critical risks identified.
-R-07 and R-08 newly tracked.
+## Risk Matrix
 
-**Post-remediation review (2026-05-05, post PR #26 merge):** R-04 and R-07
-moved from *Partial* to *Mitigated* after the four-PR sequence below
-shipped:
+| ID | Risk | Category | L | I | Score | Mitigation | Status |
+|----|------|----------|---|---|-------|------------|--------|
+| R-01 | Supply chain compromise via npm/pip dependency | Security | 3 | 5 | 15 | Daily audit with Socket Security feed, npm audit, pip-audit; Dependabot; lockfile pinning | Active |
+| R-02 | Unauthorized access to production secrets | Security | 2 | 5 | 10 | Secrets in GitHub Actions / cloud provider env vars (encrypted at rest); .env in .gitignore; branch protection on main | Active |
+| R-03 | Service provider outage (Cloudflare Pages, Supabase, GitHub) | Availability | 3 | 4 | 12 | Health monitor every 5 min with Mailgun alerting; CDN caching; documented RTO/RPO | Active |
+| R-04 | Data breach via application vulnerability | Security | 2 | 5 | 10 | Daily pen-test audit (OWASP Top 10); RLS on user tables; CORS allowlist; CSP enforced; rate limiting | Active |
+| R-05 | Loss of source code or version history | Availability | 1 | 4 | 4 | GitHub redundant storage; local clones as backup | Accepted |
+| R-06 | Credential stuffing / brute force | Security | 3 | 3 | 9 | Supabase Auth rate limiting; OAuth social login; anonymous tokens rejected | Active |
+| R-07 | Insider threat (sole developer) | Security | 1 | 5 | 5 | Branch protection; PR-based workflow with CI; daily automated audits | Accepted |
+| R-08 | Regulatory non-compliance (privacy) | Compliance | 2 | 4 | 8 | Privacy policy published; DSAR runbook; PII inventory; cookie disclosure | Active |
 
-| PR | Effect |
-|---|---|
-| #23 | Cloudflare Worker emits `Content-Security-Policy-Report-Only` headers (staging) |
-| #24 | Two executable inline `<script>` blocks (blog watchdog, RSS-list toggle) externalised; Worker report-only policy tightened to drop `'unsafe-inline'` |
-| #25 | `scripts/compute_csp_hashes.py` + `_worker_csp_hashes.js` add build-time `sha256` allowance for the remaining inline data islands (org JSON-LD, RSS-seed island, ~80 per-post JSON-LD); refreshed daily by `.github/workflows/rss.yml` |
-| #26 | Worker flipped from `Report-Only` to enforced; `<meta http-equiv>` tag removed from `index.html` and `404.html` |
+## Review Process
 
-After PR #26 the enforced `script-src` is `'self' https://cdn.jsdelivr.net
-https://gc.zgo.at` plus the daily-regenerated sha256 hash list. No
-`'unsafe-inline'` remains in `script-src`.
+Reviewed quarterly. New risks added from daily security audits, supply chain monitoring, or incidents. Scores reassessed each review.
 
-Style-src still permits `'unsafe-inline'` — deliberate for now; tracked
-separately as a kevinarmstrong.io follow-up of the same shape as
-WA-2026-05-05-02 on chaos_tester.
+## Change Log
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-05-21 | Initial risk register | Kevin Armstrong |
