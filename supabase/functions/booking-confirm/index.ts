@@ -1,3 +1,4 @@
+import Stripe from "https://esm.sh/stripe@17.7.0?target=deno";
 import { adminClient } from "../_shared/client.ts";
 import { optionsResponse } from "../_shared/cors.ts";
 import { bookingTokenCookie, isValidEmail, normalizeEmail } from "../_shared/booking.ts";
@@ -34,6 +35,36 @@ Deno.serve(async (request) => {
 
     const source = String(body?.source || "manual_confirm").slice(0, 120);
     const stripeSessionId = body?.stripeSessionId ? String(body.stripeSessionId).slice(0, 250) : null;
+
+    // WA-2026-05-23-10: when the client supplies a Stripe session id, verify
+    // it really belongs to the authenticated email and is in a paid state
+    // before writing it into the booking_events audit trail. Without this,
+    // a holder of a valid booking token could forge any Stripe session id
+    // (including a competitor's real one) and pollute reconciliation logs.
+    if (stripeSessionId) {
+      const stripeKey = Deno.env.get("STRIPE_SECRET_KEY") || "";
+      if (!stripeKey) {
+        return jsonResponse(request, 503, { error: "Stripe verification unavailable" });
+      }
+      try {
+        const stripe = new Stripe(stripeKey, { apiVersion: "2024-06-20" });
+        const session = await stripe.checkout.sessions.retrieve(stripeSessionId);
+        const stripeEmail = normalizeEmail(
+          session.customer_details?.email
+            || session.customer_email
+            || (typeof session.metadata?.email === "string" ? session.metadata.email : undefined),
+        );
+        if (!stripeEmail || stripeEmail !== email) {
+          return jsonResponse(request, 403, { error: "Stripe session email does not match authenticated token" });
+        }
+        if (session.payment_status !== "paid" && session.payment_status !== "no_payment_required") {
+          return jsonResponse(request, 402, { error: "Stripe session is not paid" });
+        }
+      } catch (err) {
+        // Don't leak Stripe error details; log server-side.
+        return jsonResponse(request, 400, { error: sanitiseError(err, "Stripe session verification failed") });
+      }
+    }
 
     const supabase = adminClient();
     const now = new Date().toISOString();
