@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:31:34.963695Z",
+  "generated_at": "2026-05-23T01:06:47.521352Z",
   "items": [
     {
       "title": "The memory shortage is causing a repricing of consumer electronics",
@@ -121,13 +121,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Whale Fall",
-      "link": "https://shkspr.mobi/blog/2026/05/whale-fall/",
-      "date": "2026-05-21T11:34:15Z",
-      "summary": "Somewhere, in the endless blue ocean, a gigantic mammal shudders as it takes its last breath. Thanks to science, we know that all dogs go to heaven, but all whales descend through the murky depths…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "RFC: Artificial Contributors to Open Source",
       "link": "https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html",
       "date": "2026-05-21T10:00:00Z",
@@ -184,13 +177,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "[RSS Club] Let's meet up AFK",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-lets-meet-up-afk/",
-      "date": "2026-05-20T11:34:04Z",
-      "summary": "Shhhh! This post is only available to RSS subscribers like you 😊 My wife and I are preparing for a big Interrail journey through Europe. Whenever we go on holiday, we like to meet up with friendly…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Square root of x² − 1",
       "link": "https://www.johndcook.com/blog/2026/05/19/square-root-of-x-squared-minus-one/",
       "date": "2026-05-20T00:49:50Z",
@@ -217,13 +203,6 @@
       "date": "2026-05-19T14:00:00Z",
       "summary": "At NAB, I found a demo of Wi-Wi STAMP , a wireless time synchronization protocol that came out of Japan's NICT . Wi-Wi stands for Wireless 2Way interferometry, and it uses the 900 MHz band for…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
-      "date": "2026-05-19T11:34:17Z",
-      "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Dumb Ways for an Open Source Project to Die",
@@ -280,6 +259,27 @@
       "date": "2026-05-18T00:00:00Z",
       "summary": "A few tips on 4D-ing your code comprehension skills.",
       "source": "matklad.github.io"
+    },
+    {
+      "title": "How to be inspired without copying",
+      "link": "https://www.joanwestenberg.com/how-to-be-inspired-without-copying/",
+      "date": "2026-05-17T22:33:32Z",
+      "summary": "In 1713, Johann Sebastian Bach sat down at his desk in Weimar and began copying out concertos by Antonio Vivaldi. He transcribed them note for note, in his own hand, working through at least nine of…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "In the Empire's Defense",
+      "link": "https://idiallo.com/blog/the-empire-won?src=feed",
+      "date": "2026-05-17T12:00:00Z",
+      "summary": "I didn't watch Star Wars when it was released. I wasn't even born. By the time we popped the cassette tape in the VCR, it was at least 15 years old. But I liked the movie all the same. It was not my…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Reading List 05/16/26",
+      "link": "https://www.construction-physics.com/p/reading-list-051626",
+      "date": "2026-05-16T12:01:26Z",
+      "summary": "Tokyo’s cheap housing and expensive land, the House response to the Senate housing bill, an IED near an Alabama dam, Fervo’s IPO, and more.",
+      "source": "construction-physics.com"
     }
   ]
 }
