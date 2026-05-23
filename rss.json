@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-23T13:37:16.016303Z",
+  "generated_at": "2026-05-23T14:38:31.142152Z",
   "items": [
+    {
+      "title": "Real and imaginary parts",
+      "link": "https://www.johndcook.com/blog/2026/05/23/real-and-imaginary-parts/",
+      "date": "2026-05-23T13:57:21Z",
+      "summary": "The previous post announced some notes I wrote up based on an article by Henry Baker implementing functions of a complex variable in terms of functions of a real variable. That is, it finds functions…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Reading List 05/23/26",
       "link": "https://www.construction-physics.com/p/reading-list-052326",
@@ -125,13 +132,6 @@
       "link": "https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/",
       "date": "2026-05-21T17:31:13Z",
       "summary": "“You can’t always get what you want. But sometimes you get what you need.” — The Rolling Stones Circular functions and hyperbolic functions aren’t invertible, but we invert them anyway. These…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Circular and hyperbolic functions differ by rotations",
-      "link": "https://www.johndcook.com/blog/2026/05/21/circular-hyperbolic-rotations/",
-      "date": "2026-05-21T15:53:56Z",
-      "summary": "The difference between a circular function and a hyperbolic function is a rotation or two. For example, cosh(z) = cos(iz). You can read that as saying that to find the hyperbolic cosine of z, first…",
       "source": "johndcook.com"
     },
     {
