@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-23T11:31:49.848084Z",
+  "generated_at": "2026-05-23T12:32:27.300632Z",
   "items": [
+    {
+      "title": "Reading List 05/23/26",
+      "link": "https://www.construction-physics.com/p/reading-list-052326",
+      "date": "2026-05-23T12:02:39Z",
+      "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Which age-gates should be skill-gates and vice-versa?",
+      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
+      "date": "2026-05-23T11:34:31Z",
+      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "This Week in Package Management: 23 May 2026",
       "link": "https://nesbitt.io/2026/05/23/this-week-in-package-management.html",
@@ -233,13 +247,6 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
-      "date": "2026-05-19T11:34:17Z",
-      "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Alternatives for the EDIT tool of LLM agents",
       "link": "http://antirez.com/news/166",
       "date": "2026-05-19T07:26:03Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-18T00:00:00Z",
       "summary": "",
       "source": "seangoedecke.com"
-    },
-    {
-      "title": "How I Use My Index 01 + Production Update",
-      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
-      "source": "ericmigi.com"
     }
   ]
 }
