@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-05-23T20:23:46.698443Z",
+  "generated_at": "2026-05-23T21:24:14.634088Z",
   "items": [
     {
       "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
       "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
-      "date": "2026-05-23T16:17:44.886000Z",
+      "date": "2026-05-23T21:05:28.730000Z",
       "summary": "",
       "source": "righto.com"
+    },
+    {
+      "title": "On the <dl>",
+      "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "date": "2026-05-23T20:24:48Z",
+      "summary": "On the <dl> I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a…",
+      "source": "simonwillison.net"
     },
     {
       "title": "Hilbert transform as an infinite matrix",
@@ -133,13 +140,6 @@
       "date": "2026-05-21T21:50:25Z",
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Datasette Agent",
-      "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
-      "date": "2026-05-21T19:52:19Z",
-      "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
