@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-23T03:17:11.227819Z",
+  "generated_at": "2026-05-23T05:23:01.026444Z",
   "items": [
+    {
+      "title": "Building complex functions out of real parts",
+      "link": "https://www.johndcook.com/blog/2026/05/22/complex-functions-real-parts/",
+      "date": "2026-05-23T03:24:10Z",
+      "summary": "A couple months ago I wrote about how to compute the sine and cosine of a complex number using only real functions of real variables using the equations You can do something analogous for all the…",
+      "source": "johndcook.com"
+    },
     {
       "title": "The commencement speech that shook the world",
       "link": "https://idiallo.com/blog/the-commencement-speech-that-shook-the-world?src=feed",
@@ -196,13 +203,6 @@
       "date": "2026-05-20T11:34:04Z",
       "summary": "Shhhh! This post is only available to RSS subscribers like you 😊 My wife and I are preparing for a big Interrail journey through Europe. Whenever we go on holiday, we like to meet up with friendly…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Square root of x² − 1",
-      "link": "https://www.johndcook.com/blog/2026/05/19/square-root-of-x-squared-minus-one/",
-      "date": "2026-05-20T00:49:50Z",
-      "summary": "How should we define √(z² − 1)? Well, you could square z, subtract 1, and take the square root. What else would you do?! The question turns out to be more subtle than it looks. When x is a…",
-      "source": "johndcook.com"
     },
     {
       "title": "Prompts are technical debt too",
