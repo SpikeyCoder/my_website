@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-23T14:38:31.142152Z",
+  "generated_at": "2026-05-23T15:30:56.763039Z",
   "items": [
+    {
+      "title": "Hilbert transform as an infinite matrix",
+      "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
+      "date": "2026-05-23T15:09:34Z",
+      "summary": "The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Fourier series of its…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Real and imaginary parts",
       "link": "https://www.johndcook.com/blog/2026/05/23/real-and-imaginary-parts/",
@@ -126,13 +133,6 @@
       "date": "2026-05-21T19:52:19Z",
       "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Couth and uncouth function pairs",
-      "link": "https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/",
-      "date": "2026-05-21T17:31:13Z",
-      "summary": "“You can’t always get what you want. But sometimes you get what you need.” — The Rolling Stones Circular functions and hyperbolic functions aren’t invertible, but we invert them anyway. These…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
