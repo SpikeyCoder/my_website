@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-23T10:37:01.936863Z",
+  "generated_at": "2026-05-23T11:31:49.848084Z",
   "items": [
+    {
+      "title": "This Week in Package Management: 23 May 2026",
+      "link": "https://nesbitt.io/2026/05/23/this-week-in-package-management.html",
+      "date": "2026-05-23T10:00:00Z",
+      "summary": "Releases, advisories, and articles from across the package management world",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Building complex functions out of real parts",
       "link": "https://www.johndcook.com/blog/2026/05/22/complex-functions-real-parts/",
@@ -231,13 +238,6 @@
       "date": "2026-05-19T11:34:17Z",
       "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "Dumb Ways for an Open Source Project to Die",
-      "link": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
-      "date": "2026-05-19T10:00:00Z",
-      "summary": "How your dependencies became Bernies",
-      "source": "nesbitt.io"
     },
     {
       "title": "Alternatives for the EDIT tool of LLM agents",
