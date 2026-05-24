@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-24T16:28:39.613762Z",
+  "generated_at": "2026-05-24T17:27:06.634289Z",
   "items": [
+    {
+      "title": "Walking the dog with Claude",
+      "link": "http://xania.org/202605/walking-the-dog?utm_source=feed&utm_medium=rss",
+      "date": "2026-05-24T16:55:00Z",
+      "summary": "An AI interview about explaining hard things simply, conducted on a dog walk",
+      "source": "xania.org"
+    },
     {
       "title": "Signing is for the bad days",
       "link": "https://nesbitt.io/2026/05/24/signing-is-for-the-bad-days.html",
@@ -14,6 +21,13 @@
       "date": "2026-05-24T00:24:18.495000Z",
       "summary": "",
       "source": "righto.com"
+    },
+    {
+      "title": "Building Pi With Pi",
+      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "date": "2026-05-24T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "On the <dl>",
@@ -266,20 +280,6 @@
       "date": "2026-05-19T07:17:09Z",
       "summary": "Today's links There's no such thing as \"age verification\": The foreseeable and foreseen consequences of \"something must be done\"/\"there, I've done something.\" Hey look at this: Delights to delectate.…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "date": "2026-05-18T20:48:21Z",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Don't call yourself a Software Engineer, and other Career Advice",
-      "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
-      "date": "2026-05-18T12:00:00Z",
-      "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
-      "source": "idiallo.com"
     }
   ]
 }
