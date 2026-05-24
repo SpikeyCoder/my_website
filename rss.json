@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-24T10:39:35.408106Z",
+  "generated_at": "2026-05-24T11:34:19.393898Z",
   "items": [
+    {
+      "title": "Signing is for the bad days",
+      "link": "https://nesbitt.io/2026/05/24/signing-is-for-the-bad-days.html",
+      "date": "2026-05-24T10:00:00Z",
+      "summary": "TUF, in-toto, and Sigstore only look pointless while nothing is on fire",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
       "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
@@ -168,13 +175,6 @@
       "date": "2026-05-21T11:34:15Z",
       "summary": "Somewhere, in the endless blue ocean, a gigantic mammal shudders as it takes its last breath. Thanks to science, we know that all dogs go to heaven, but all whales descend through the murky depths…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "RFC: Artificial Contributors to Open Source",
-      "link": "https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html",
-      "date": "2026-05-21T10:00:00Z",
-      "summary": "Intended status: Best Current Practice.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Nobody is destined for greatness.",
