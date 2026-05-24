@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-24T18:31:54.367091Z",
+  "generated_at": "2026-05-24T19:34:46.207768Z",
   "items": [
+    {
+      "title": "Quoting Armin Ronacher",
+      "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "date": "2026-05-24T18:46:53Z",
+      "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Why Steve Kerr Stayed With the Warriors",
       "link": "https://www.espn.com/nba/story/_/id/48686303/steve-kerr-decision-return-coach-golden-state-warriors-steph-curry",
@@ -147,13 +154,6 @@
       "date": "2026-05-22T10:00:00Z",
       "summary": "A survey of unused-dependency detectors",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
-      "link": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
-      "date": "2026-05-22T04:48:32Z",
-      "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
