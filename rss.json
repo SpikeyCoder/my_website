@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T01:12:17.903897Z",
+  "generated_at": "2026-05-24T03:20:14.168990Z",
   "items": [
     {
       "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
@@ -35,13 +35,6 @@
       "date": "2026-05-23T12:02:39Z",
       "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Which age-gates should be skill-gates and vice-versa?",
-      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
-      "date": "2026-05-23T11:34:31Z",
-      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "This Week in Package Management: 23 May 2026",
@@ -163,13 +156,6 @@
       "source": "construction-physics.com"
     },
     {
-      "title": "Whale Fall",
-      "link": "https://shkspr.mobi/blog/2026/05/whale-fall/",
-      "date": "2026-05-21T11:34:15Z",
-      "summary": "Somewhere, in the endless blue ocean, a gigantic mammal shudders as it takes its last breath. Thanks to science, we know that all dogs go to heaven, but all whales descend through the murky depths…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "RFC: Artificial Contributors to Open Source",
       "link": "https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html",
       "date": "2026-05-21T10:00:00Z",
@@ -226,13 +212,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "[RSS Club] Let's meet up AFK",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-lets-meet-up-afk/",
-      "date": "2026-05-20T11:34:04Z",
-      "summary": "Shhhh! This post is only available to RSS subscribers like you 😊 My wife and I are preparing for a big Interrail journey through Europe. Whenever we go on holiday, we like to meet up with friendly…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Prompts are technical debt too",
       "link": "https://seangoedecke.com/prompts-are-technical-debt-too/",
       "date": "2026-05-20T00:00:00Z",
@@ -280,6 +259,27 @@
       "date": "2026-05-18T12:00:00Z",
       "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "The just-say-no engineer was a ZIRP phenomenon",
+      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
+      "date": "2026-05-18T00:00:00Z",
+      "summary": "",
+      "source": "seangoedecke.com"
+    },
+    {
+      "title": "How I Use My Index 01 + Production Update",
+      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
+      "date": "2026-05-18T00:00:00Z",
+      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
+      "source": "ericmigi.com"
+    },
+    {
+      "title": "Always Be Blaming",
+      "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
+      "date": "2026-05-18T00:00:00Z",
+      "summary": "A few tips on 4D-ing your code comprehension skills.",
+      "source": "matklad.github.io"
     }
   ]
 }
