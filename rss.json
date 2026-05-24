@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T07:18:44.433159Z",
+  "generated_at": "2026-05-24T09:01:00.621173Z",
   "items": [
     {
       "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
@@ -107,6 +107,13 @@
       "source": "daringfireball.net"
     },
     {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "date": "2026-05-22T16:34:24Z",
+      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor…",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348",
       "date": "2026-05-22T14:00:00Z",
@@ -126,6 +133,13 @@
       "date": "2026-05-22T04:48:32Z",
       "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "date": "2026-05-21T21:50:25Z",
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
+      "source": "krebsonsecurity.com"
     },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
@@ -254,32 +268,18 @@
       "source": "pluralistic.net"
     },
     {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "date": "2026-05-18T20:48:21Z",
+      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
+      "source": "krebsonsecurity.com"
+    },
+    {
       "title": "Don't call yourself a Software Engineer, and other Career Advice",
       "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
       "date": "2026-05-18T12:00:00Z",
       "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "How I Use My Index 01 + Production Update",
-      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
-      "source": "ericmigi.com"
-    },
-    {
-      "title": "Always Be Blaming",
-      "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "A few tips on 4D-ing your code comprehension skills.",
-      "source": "matklad.github.io"
     }
   ]
 }
