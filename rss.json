@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-25T16:51:02.444105Z",
+  "generated_at": "2026-05-25T17:38:18.141811Z",
   "items": [
+    {
+      "title": "The History of ‘OK’",
+      "link": "https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay",
+      "date": "2026-05-25T17:18:56Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "WorkOS: ‘Agents Need Context. Ship the Integrations That Give It to Them.’",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
@@ -56,13 +63,6 @@
       "date": "2026-05-24T23:52:37Z",
       "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "★ The Fonts of the U.S. Federal Courts",
-      "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
-      "date": "2026-05-24T23:33:09Z",
-      "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
-      "source": "daringfireball.net"
     },
     {
       "title": "datasette-agent 0.1a4",
