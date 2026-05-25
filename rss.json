@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-25T11:30:39.392777Z",
+  "generated_at": "2026-05-25T13:23:18.294640Z",
   "items": [
+    {
+      "title": "PHP - simple way to send HTTP headers before a script ends",
+      "link": "https://shkspr.mobi/blog/2026/05/php-simple-way-to-send-http-headers-before-a-script-ends/",
+      "date": "2026-05-25T11:34:38Z",
+      "summary": "Suppose you want PHP to keep processing after it has sent back an HTTP response. Normally, this doesn't work: <?php header( \"Location: https://example.com/\" ); // Long operation. sleep(10); die();…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "GitHub Actions security in Python packages",
+      "link": "https://nesbitt.io/2026/05/25/github-actions-security-in-python-packages.html",
+      "date": "2026-05-25T10:00:00Z",
+      "summary": "Thank you Dr. Zizmor",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: No honor among (ad-tech) thieves (25 May 2026)",
       "link": "https://pluralistic.net/2026/05/25/lying-spies/",
@@ -163,13 +177,6 @@
       "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
-      "title": "Dependency Pruning",
-      "link": "https://nesbitt.io/2026/05/22/dependency-pruning.html",
-      "date": "2026-05-22T10:00:00Z",
-      "summary": "A survey of unused-dependency detectors",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "date": "2026-05-21T21:50:25Z",
@@ -252,13 +259,6 @@
       "date": "2026-05-20T14:00:00Z",
       "summary": "You need to arrange to get one from the other. The post The classic TreeView control lets me sort by name or by lParam, but why not both? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "[RSS Club] Let's meet up AFK",
-      "link": "https://shkspr.mobi/blog/2026/05/rss-club-lets-meet-up-afk/",
-      "date": "2026-05-20T11:34:04Z",
-      "summary": "Shhhh! This post is only available to RSS subscribers like you 😊 My wife and I are preparing for a big Interrail journey through Europe. Whenever we go on holiday, we like to meet up with friendly…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Prompts are technical debt too",
