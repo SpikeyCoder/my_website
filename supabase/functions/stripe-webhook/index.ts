@@ -46,19 +46,35 @@ Deno.serve(async (request) => {
       const stripeSessionId = session.id;
 
       if (email) {
-        const { data: existing } = await supabase
+        // WA-2026-05-23-09: a completed checkout session is the
+        // authoritative paid-booking signal. Previously this branch only
+        // created an empty `has_booked=false` row, so a paid customer
+        // could remain marked as not-booked if the browser leg of the
+        // confirmation flow never fired (closed tab, ad-blocker, etc.).
+        //
+        // Now we upsert with has_booked=true and preserve the earliest
+        // first_booked_at (idempotent on Stripe replay).
+        const nowIso = new Date().toISOString();
+        const { data: existingRow } = await supabase
           .from("booking_profiles")
-          .select("email_normalized")
+          .select("first_booked_at")
           .eq("email_normalized", email)
           .maybeSingle();
 
-        if (!existing) {
-          await supabase.from("booking_profiles").insert({
-            email_normalized: email,
-            has_booked: false,
-            source: "stripe_webhook",
-          });
-        }
+        const firstBookedAt = existingRow?.first_booked_at || nowIso;
+
+        await supabase
+          .from("booking_profiles")
+          .upsert(
+            {
+              email_normalized: email,
+              has_booked: true,
+              first_booked_at: firstBookedAt,
+              source: "stripe_webhook",
+              updated_at: nowIso,
+            },
+            { onConflict: "email_normalized" },
+          );
       }
 
       await supabase.from("booking_events").insert({
