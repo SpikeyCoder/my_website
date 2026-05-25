@@ -4,15 +4,23 @@
 // allow-listed only when ENVIRONMENT === "development" so they cannot be
 // abused if production ever runs against a misconfigured Deno deployment
 // or shared dev environment. Pen-test 2026-05-07 finding KA-2026-05-07-02.
+// WA-2026-05-23-07: spikeycoder.github.io previously sat in the
+// production allowlist. Combined with Access-Control-Allow-Credentials:
+// true it meant any project page on the personal github.io subdomain
+// could call booking-intake/status/confirm with the user's cookie. If a
+// stale GH-pages branch is ever repurposed or hijacked it becomes a
+// same-credentials attack surface for stealing booking tokens. Move to
+// DEV_ORIGINS — github.io still works for local preview parity but is
+// not honoured in production.
 const PROD_ORIGINS = new Set([
   "https://kevinarmstrong.io",
   "https://www.kevinarmstrong.io",
-  "https://spikeycoder.github.io",
 ]);
 
 const DEV_ORIGINS = new Set([
   "http://localhost:3000",
   "http://localhost:5173",
+  "https://spikeycoder.github.io",
 ]);
 
 function isDev(): boolean {
