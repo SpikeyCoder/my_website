@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-05-24T23:28:23.311011Z",
+  "generated_at": "2026-05-25T01:13:23.565531Z",
   "items": [
     {
-      "title": "Quoting Armin Ronacher",
-      "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
-      "date": "2026-05-24T18:46:53Z",
-      "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the…",
+      "title": "Why I can't stand the word \"driven\"",
+      "link": "https://www.joanwestenberg.com/why-i-cant-stand-the-word-driven/",
+      "date": "2026-05-25T00:08:34Z",
+      "summary": "A man named Harry Readford once stole close to 1,000 head of cattle from Bowen Downs station in central Queensland and drove them south, down through the Channel Country and along the Strzelecki…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "datasette 1.0a30",
+      "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "date": "2026-05-24T23:52:37Z",
+      "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
       "source": "simonwillison.net"
     },
     {
-      "title": "Mad House — Usborne Creepy Computer Games",
-      "link": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
-      "date": "2026-05-24T17:14:11Z",
-      "summary": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my…",
+      "title": "★ The Fonts of the U.S. Federal Courts",
+      "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
+      "date": "2026-05-24T23:33:09Z",
+      "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-agent 0.1a4",
+      "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "date": "2026-05-24T23:19:34Z",
+      "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-fixtures 0.1a0",
+      "link": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "date": "2026-05-24T21:38:32Z",
+      "summary": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Why Steve Kerr Stayed With the Warriors",
+      "link": "https://www.espn.com/nba/story/_/id/48686303/steve-kerr-decision-return-coach-golden-state-warriors-steph-curry",
+      "date": "2026-05-24T18:09:47Z",
+      "summary": "",
+      "source": "daringfireball.net"
     },
     {
       "title": "Walking the dog with Claude",
@@ -42,13 +70,6 @@
       "date": "2026-05-24T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "On the <dl>",
-      "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-      "date": "2026-05-23T20:24:48Z",
-      "summary": "On the <dl> I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Hilbert transform as an infinite matrix",
@@ -112,6 +133,13 @@
       "date": "2026-05-22T19:00:00Z",
       "summary": "You know you explained the same issue before in two or three different places, yet here they are asking again. Why don't they understand you? Why do they ask the same question when you've already…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "The Ninth Circuit Appeal Ruling in ‘Epic v. Apple’ That Apple Is Seeking to Overturn at the Supreme Court (PDF)",
+      "link": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/11/25-2935.pdf",
+      "date": "2026-05-22T17:39:06Z",
+      "summary": "",
+      "source": "daringfireball.net"
     },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
@@ -252,34 +280,6 @@
       "date": "2026-05-19T07:26:03Z",
       "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Pluralistic: There's no such thing as \"age verification\" (19 May 2026)",
-      "link": "https://pluralistic.net/2026/05/19/shes-dead-of-course/",
-      "date": "2026-05-19T07:17:09Z",
-      "summary": "Today's links There's no such thing as \"age verification\": The foreseeable and foreseen consequences of \"something must be done\"/\"there, I've done something.\" Hey look at this: Delights to delectate.…",
-      "source": "pluralistic.net"
-    },
-    {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "date": "2026-05-18T20:48:21Z",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Don't call yourself a Software Engineer, and other Career Advice",
-      "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
-      "date": "2026-05-18T12:00:00Z",
-      "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
