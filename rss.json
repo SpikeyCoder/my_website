@@ -1,6 +1,111 @@
 {
-  "generated_at": "2026-05-23T08:50:41.205620Z",
+  "generated_at": "2026-05-25T03:22:09.967354Z",
   "items": [
+    {
+      "title": "Why I can't stand the word \"driven\"",
+      "link": "https://www.joanwestenberg.com/why-i-cant-stand-the-word-driven/",
+      "date": "2026-05-25T00:08:34Z",
+      "summary": "A man named Harry Readford once stole close to 1,000 head of cattle from Bowen Downs station in central Queensland and drove them south, down through the Channel Country and along the Strzelecki…",
+      "source": "joanwestenberg.com"
+    },
+    {
+      "title": "datasette 1.0a30",
+      "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "date": "2026-05-24T23:52:37Z",
+      "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "★ The Fonts of the U.S. Federal Courts",
+      "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
+      "date": "2026-05-24T23:33:09Z",
+      "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "datasette-agent 0.1a4",
+      "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "date": "2026-05-24T23:19:34Z",
+      "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "datasette-fixtures 0.1a0",
+      "link": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "date": "2026-05-24T21:38:32Z",
+      "summary": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Why Steve Kerr Stayed With the Warriors",
+      "link": "https://www.espn.com/nba/story/_/id/48686303/steve-kerr-decision-return-coach-golden-state-warriors-steph-curry",
+      "date": "2026-05-24T18:09:47Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Walking the dog with Claude",
+      "link": "http://xania.org/202605/walking-the-dog?utm_source=feed&utm_medium=rss",
+      "date": "2026-05-24T16:55:00Z",
+      "summary": "An AI interview about explaining hard things simply, conducted on a dog walk",
+      "source": "xania.org"
+    },
+    {
+      "title": "Signing is for the bad days",
+      "link": "https://nesbitt.io/2026/05/24/signing-is-for-the-bad-days.html",
+      "date": "2026-05-24T10:00:00Z",
+      "summary": "TUF, in-toto, and Sigstore only look pointless while nothing is on fire",
+      "source": "nesbitt.io"
+    },
+    {
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
+      "date": "2026-05-24T00:24:18.495000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "Building Pi With Pi",
+      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "date": "2026-05-24T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
+    },
+    {
+      "title": "Hilbert transform as an infinite matrix",
+      "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
+      "date": "2026-05-23T15:09:34Z",
+      "summary": "The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Fourier series of its…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Real and imaginary parts",
+      "link": "https://www.johndcook.com/blog/2026/05/23/real-and-imaginary-parts/",
+      "date": "2026-05-23T13:57:21Z",
+      "summary": "The previous post announced some notes I wrote up based on an article by Henry Baker implementing functions of a complex variable in terms of functions of a real variable. That is, it finds functions…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Reading List 05/23/26",
+      "link": "https://www.construction-physics.com/p/reading-list-052326",
+      "date": "2026-05-23T12:02:39Z",
+      "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Which age-gates should be skill-gates and vice-versa?",
+      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
+      "date": "2026-05-23T11:34:31Z",
+      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
+      "source": "shkspr.mobi"
+    },
+    {
+      "title": "This Week in Package Management: 23 May 2026",
+      "link": "https://nesbitt.io/2026/05/23/this-week-in-package-management.html",
+      "date": "2026-05-23T10:00:00Z",
+      "summary": "Releases, advisories, and articles from across the package management world",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Building complex functions out of real parts",
       "link": "https://www.johndcook.com/blog/2026/05/22/complex-functions-real-parts/",
@@ -14,20 +119,6 @@
       "date": "2026-05-23T01:14:24Z",
       "summary": "There he was, the man at the helm of innovation. Eric Schmidt, the former CEO of Google. The man who once said, google doesn't need to record your conversation, it already knows everything about you.…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The memory shortage is causing a repricing of consumer electronics",
-      "link": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
-      "date": "2026-05-22T22:01:31Z",
-      "summary": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "★ The Fonts of the U.S. Federal Courts",
-      "link": "https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts",
-      "date": "2026-05-22T21:10:28Z",
-      "summary": "The Supreme Court’s typographic style has been stunningly consistent for — no pun intended — well over a century.",
-      "source": "daringfireball.net"
     },
     {
       "title": "News about Raspberry Pi 6 and Microcontroller Development",
@@ -47,13 +138,6 @@
       "title": "The Ninth Circuit Appeal Ruling in ‘Epic v. Apple’ That Apple Is Seeking to Overturn at the Supreme Court (PDF)",
       "link": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/11/25-2935.pdf",
       "date": "2026-05-22T17:39:06Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Zero Sum Problems and Apple Sports",
-      "link": "https://kieranhealy.org/blog/archives/2026/05/21/zero-sum-problems/",
-      "date": "2026-05-22T17:22:32Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -79,39 +163,11 @@
       "source": "nesbitt.io"
     },
     {
-      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
-      "link": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
-      "date": "2026-05-22T04:48:32Z",
-      "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "date": "2026-05-21T21:50:25Z",
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Datasette Agent",
-      "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
-      "date": "2026-05-21T19:52:19Z",
-      "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Couth and uncouth function pairs",
-      "link": "https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/",
-      "date": "2026-05-21T17:31:13Z",
-      "summary": "“You can’t always get what you want. But sometimes you get what you need.” — The Rolling Stones Circular functions and hyperbolic functions aren’t invertible, but we invert them anyway. These…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Circular and hyperbolic functions differ by rotations",
-      "link": "https://www.johndcook.com/blog/2026/05/21/circular-hyperbolic-rotations/",
-      "date": "2026-05-21T15:53:56Z",
-      "summary": "The difference between a circular function and a hyperbolic function is a rotation or two. For example, cosh(z) = cos(iz). You can read that as saying that to find the hyperbolic cosine of z, first…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: Shopping isn't politics (21 May 2026)",
@@ -140,13 +196,6 @@
       "date": "2026-05-21T11:34:15Z",
       "summary": "Somewhere, in the endless blue ocean, a gigantic mammal shudders as it takes its last breath. Thanks to science, we know that all dogs go to heaven, but all whales descend through the murky depths…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "RFC: Artificial Contributors to Open Source",
-      "link": "https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html",
-      "date": "2026-05-21T10:00:00Z",
-      "summary": "Intended status: Best Current Practice.",
-      "source": "nesbitt.io"
     },
     {
       "title": "Nobody is destined for greatness.",
@@ -226,60 +275,11 @@
       "source": "jeffgeerling.com"
     },
     {
-      "title": "Book Review: Terrible Worlds: Destinations by Adrian Tchaikovsky ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/05/book-review-terrible-worlds-destinations-by-adrian-tchaikovsky/",
-      "date": "2026-05-19T11:34:17Z",
-      "summary": "What's better than one Adrian Tchaikovsky novella? Three Adrian Tchaikovsky novellæ! Or is it \"novellii\"? Either way, a delightful triptych of stories on a common theme. On the surface, they're about…",
-      "source": "shkspr.mobi"
-    },
-    {
-      "title": "Dumb Ways for an Open Source Project to Die",
-      "link": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
-      "date": "2026-05-19T10:00:00Z",
-      "summary": "How your dependencies became Bernies",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Alternatives for the EDIT tool of LLM agents",
       "link": "http://antirez.com/news/166",
       "date": "2026-05-19T07:26:03Z",
       "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting…",
       "source": "antirez.com"
-    },
-    {
-      "title": "Pluralistic: There's no such thing as \"age verification\" (19 May 2026)",
-      "link": "https://pluralistic.net/2026/05/19/shes-dead-of-course/",
-      "date": "2026-05-19T07:17:09Z",
-      "summary": "Today's links There's no such thing as \"age verification\": The foreseeable and foreseen consequences of \"something must be done\"/\"there, I've done something.\" Hey look at this: Delights to delectate.…",
-      "source": "pluralistic.net"
-    },
-    {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "date": "2026-05-18T20:48:21Z",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Don't call yourself a Software Engineer, and other Career Advice",
-      "link": "https://idiallo.com/blog/you-are-an-ai-enabled-engineer-now?src=feed",
-      "date": "2026-05-18T12:00:00Z",
-      "summary": "I can only imagine what it's like learning the skill of programming in this day and age. What does an average college class look like? What is the CS professor teaching? And students, how do you…",
-      "source": "idiallo.com"
-    },
-    {
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "link": "https://seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
-    },
-    {
-      "title": "How I Use My Index 01 + Production Update",
-      "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
-      "date": "2026-05-18T00:00:00Z",
-      "summary": "TL;DR Production Update - behind schedule but on track How I use my Index 01 - watch the [Tick Talk episode]( ) for demos! Product…",
-      "source": "ericmigi.com"
     }
   ]
 }
