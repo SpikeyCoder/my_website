@@ -1,0 +1,118 @@
+name: Weekly Supply Chain Audit
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'   # Every Monday at 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for dependency files
+        id: check-deps
+        run: |
+          echo "Scanning for dependency manifests..."
+          FOUND_DEPS=false
+
+          if [ -f "package.json" ]; then
+            echo "found_npm=true" >> "$GITHUB_OUTPUT"
+            FOUND_DEPS=true
+            echo "Found package.json"
+          else
+            echo "found_npm=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -f "requirements.txt" ]; then
+            echo "found_pip=true" >> "$GITHUB_OUTPUT"
+            FOUND_DEPS=true
+            echo "Found requirements.txt"
+          else
+            echo "found_pip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -f "Gemfile" ]; then
+            echo "found_gem=true" >> "$GITHUB_OUTPUT"
+            FOUND_DEPS=true
+            echo "Found Gemfile"
+          else
+            echo "found_gem=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          echo "found_deps=$FOUND_DEPS" >> "$GITHUB_OUTPUT"
+
+          if [ "$FOUND_DEPS" = "false" ]; then
+            echo "No dependency manifests found — static site is clean."
+          fi
+
+      - name: Audit npm dependencies
+        if: steps.check-deps.outputs.found_npm == 'true'
+        id: npm-audit
+        continue-on-error: true
+        run: |
+          npm install --package-lock-only 2>/dev/null || true
+          npm audit --audit-level=moderate 2>&1 | tee /tmp/npm-audit.txt
+          echo "npm_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Audit pip dependencies
+        if: steps.check-deps.outputs.found_pip == 'true'
+        id: pip-audit
+        continue-on-error: true
+        run: |
+          pip install pip-audit
+          pip-audit -r requirements.txt 2>&1 | tee /tmp/pip-audit.txt
+          echo "pip_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Report clean (no deps)
+        if: steps.check-deps.outputs.found_deps == 'false'
+        run: |
+          echo "✅ No dependency manifests detected. Static site — no supply chain vulnerabilities to report."
+
+      - name: Create issue on failure
+        if: |
+          (steps.npm-audit.outcome == 'failure') ||
+          (steps.pip-audit.outcome == 'failure')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '## Weekly Supply Chain Audit — Vulnerabilities Found\n\n';
+            body += `**Run:** [${context.runId}](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})\n`;
+            body += `**Date:** ${new Date().toISOString().slice(0, 10)}\n\n`;
+
+            try {
+              const npmReport = fs.readFileSync('/tmp/npm-audit.txt', 'utf8');
+              if (npmReport) {
+                body += '### npm audit\n```\n' + npmReport.slice(0, 3000) + '\n```\n\n';
+              }
+            } catch (e) {}
+
+            try {
+              const pipReport = fs.readFileSync('/tmp/pip-audit.txt', 'utf8');
+              if (pipReport) {
+                body += '### pip-audit\n```\n' + pipReport.slice(0, 3000) + '\n```\n\n';
+              }
+            } catch (e) {}
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔒 Supply Chain Vulnerabilities Detected — ${new Date().toISOString().slice(0, 10)}`,
+              body: body,
+              labels: ['security', 'supply-chain']
+            });
+
+      - name: Fail workflow if vulnerabilities found
+        if: |
+          (steps.npm-audit.outcome == 'failure') ||
+          (steps.pip-audit.outcome == 'failure')
+        run: |
+          echo "❌ Supply chain vulnerabilities detected. See created issue for details."
+          exit 1
