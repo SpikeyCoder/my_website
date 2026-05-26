@@ -1,24 +1,45 @@
 {
-  "generated_at": "2026-05-25T19:37:10.693759Z",
+  "generated_at": "2026-05-26T05:17:54.456649Z",
   "items": [
+    {
+      "title": "Amber Alert with Spam URL?",
+      "link": "https://idiallo.com/byte-size/amber-alert-with-spam-link?src=feed",
+      "date": "2026-05-26T03:25:17Z",
+      "summary": "Well that was weird. I just received an Amber Alert and the link led to a spammy looking website. Spam? The link leads to a 3gp file converter which is highly unusual. But the more I look at it, I…",
+      "source": "idiallo.com"
+    },
+    {
+      "title": "Quoting Corey Quinn",
+      "link": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+      "date": "2026-05-26T02:28:54Z",
+      "summary": "I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Notes on Pope Leo XIV's encyclical on AI",
+      "link": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+      "date": "2026-05-25T23:58:17Z",
+      "summary": "Dropped this morning by the Vatican: Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence . This is a very interesting document.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] exe.dev",
+      "link": "https://exe.dev/?df",
+      "date": "2026-05-25T23:57:52Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap",
+      "link": "https://daringfireball.net/linked/2014/01/29/haynes-aapl",
+      "date": "2026-05-25T20:32:38Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Thieves Are Texting Threats to Victims of iPhone Theft in London",
       "link": "https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.lFA.OUt7.VJ_FoDpINr0L",
-      "date": "2026-05-25T19:25:31Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Trump Mobile Website Exposed the Number of Pre-Orders — Both Completed and Abandoned — and the Associated Customer Information",
-      "link": "https://www.theguardian.com/us-news/2026/may/23/trump-mobile-investigating-potential-exposure-of-would-be-customers-personal-information",
-      "date": "2026-05-25T18:54:53Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "The History of ‘OK’",
-      "link": "https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay",
-      "date": "2026-05-25T17:18:56Z",
+      "date": "2026-05-25T20:27:45Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -28,6 +49,13 @@
       "date": "2026-05-25T14:54:59Z",
       "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple…",
       "source": "antirez.com"
+    },
+    {
+      "title": "A hypothetical redesign of System.Diagnostics.Process to avoid confusion over properties that are valid only when you are the one who called Start",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260525-00/?p=112351",
+      "date": "2026-05-25T14:00:00Z",
+      "summary": "Putting them in a place that can access only if you call Start . The post A hypothetical redesign of <CODE>System.<WBR>Diagnostics.<WBR>Process</CODE> to avoid confusion over properties that are…",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -69,20 +97,6 @@
       "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
       "date": "2026-05-24T23:52:37Z",
       "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-agent 0.1a4",
-      "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
-      "date": "2026-05-24T23:19:34Z",
-      "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-fixtures 0.1a0",
-      "link": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
-      "date": "2026-05-24T21:38:32Z",
-      "summary": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database…",
       "source": "simonwillison.net"
     },
     {
@@ -266,20 +280,6 @@
       "date": "2026-05-20T22:36:13Z",
       "summary": "I just finished reading Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance , by my friend Cindy Cohn. It's excellent and you should buy a copy. Cindy is the Executive Director of…",
       "source": "micahflee.com"
-    },
-    {
-      "title": "The classic TreeView control lets me sort by name or by lParam, but why not both?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260520-00/?p=112343",
-      "date": "2026-05-20T14:00:00Z",
-      "summary": "You need to arrange to get one from the other. The post The classic TreeView control lets me sort by name or by lParam, but why not both? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Prompts are technical debt too",
-      "link": "https://seangoedecke.com/prompts-are-technical-debt-too/",
-      "date": "2026-05-20T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
