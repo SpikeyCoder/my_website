@@ -341,7 +341,12 @@ async function applyEventBookings(
   source: string,
 ): Promise<number> {
   if (!event.id || event.status === "cancelled") return 0;
-  if (!eventMatchesAppointmentSet(event)) return 0;
+  // Match events created via Google appointment scheduling OR events
+  // with external attendees (non-owner guests). Previously only
+  // appointment-set events were matched, causing bookings made through
+  // calendar.app.google links to be missed if the appointment set ID
+  // was not in the hardcoded allowlist.
+  if (!eventMatchesAppointmentSet(event) && !hasExternalAttendee(event)) return 0;
 
   const guests = guestEmailsFromEvent(event);
   if (!guests.length) return 0;
