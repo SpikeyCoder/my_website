@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-26T14:00:22.645999Z",
+  "generated_at": "2026-05-26T15:15:20.398319Z",
   "items": [
+    {
+      "title": "Quoting Paul Graham",
+      "link": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+      "date": "2026-05-26T15:02:30Z",
+      "summary": "A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Expected IQ spread on a jury",
+      "link": "https://www.johndcook.com/blog/2026/05/26/expected-iq-spread-on-a-jury/",
+      "date": "2026-05-26T13:50:51Z",
+      "summary": "There’s been some discussion online lately about how a large difference in IQ makes it difficult for two people to communicate. There have been studies that confirm this effect. The difficulty is not…",
+      "source": "johndcook.com"
+    },
     {
       "title": "The Great Depopulation",
       "link": "https://www.theatlantic.com/ideas/2026/05/global-birthrate-decline/687297/?utm_source=feed",
@@ -114,13 +128,6 @@
       "source": "joanwestenberg.com"
     },
     {
-      "title": "datasette 1.0a30",
-      "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
-      "date": "2026-05-24T23:52:37Z",
-      "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "Walking the dog with Claude",
       "link": "http://xania.org/202605/walking-the-dog?utm_source=feed&utm_medium=rss",
       "date": "2026-05-24T16:55:00Z",
@@ -182,13 +189,6 @@
       "date": "2026-05-23T10:00:00Z",
       "summary": "Releases, advisories, and articles from across the package management world",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Building complex functions out of real parts",
-      "link": "https://www.johndcook.com/blog/2026/05/22/complex-functions-real-parts/",
-      "date": "2026-05-23T03:24:10Z",
-      "summary": "A couple months ago I wrote about how to compute the sine and cosine of a complex number using only real functions of real variables using the equations You can do something analogous for all the…",
-      "source": "johndcook.com"
     },
     {
       "title": "The commencement speech that shook the world",
