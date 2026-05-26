@@ -24,6 +24,7 @@ This document identifies, assesses, and tracks risks to kevinarmstrong.io per AI
 | R-06 | Credential stuffing / brute force | Security | 3 | 3 | 9 | Supabase Auth rate limiting; OAuth social login; anonymous tokens rejected | Active |
 | R-07 | Insider threat (sole developer) | Security | 1 | 5 | 5 | Branch protection; PR-based workflow with CI; daily automated audits | Accepted |
 | R-08 | Regulatory non-compliance (privacy) | Compliance | 2 | 4 | 8 | Privacy policy published; DSAR runbook; PII inventory; cookie disclosure | Active |
+| R-09 (F-4) | Overly-permissive RLS on public.posts — any authenticated user could UPDATE/DELETE any row | Security | 3 | 5 | 15 | author_id column + owner-only RLS policies (migration 20260526120000_posts_author_id_rls.sql) | Resolved |
 
 ## Review Process
 
@@ -34,3 +35,4 @@ Reviewed quarterly. New risks added from daily security audits, supply chain mon
 | Date | Change | Author |
 |------|--------|--------|
 | 2026-05-21 | Initial risk register | Kevin Armstrong |
+| 2026-05-26 | Added R-09 (F-4): overly-permissive posts RLS — resolved via author_id migration | Kevin Armstrong |
