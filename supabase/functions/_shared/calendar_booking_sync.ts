@@ -398,6 +398,10 @@ export async function syncCalendarBookings(
 
       if (useFullSync) {
         query.showDeleted = "false";
+        // Only scan events from 2026 onwards to avoid timing out on
+        // years of historical events. The booking feature launched in
+        // 2026; older events are not relevant for has_booked checks.
+        query.timeMin = "2026-01-01T00:00:00Z";
       } else {
         query.showDeleted = "true";
       }
