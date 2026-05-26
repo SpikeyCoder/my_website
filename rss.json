@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T12:52:51.388909Z",
+  "generated_at": "2026-05-26T14:00:22.645999Z",
   "items": [
     {
       "title": "The Great Depopulation",
@@ -28,6 +28,13 @@
       "date": "2026-05-26T02:28:54Z",
       "summary": "I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "Clanker: A Word For The Machine",
+      "link": "https://lucumr.pocoo.org/2026/5/26/clankers/",
+      "date": "2026-05-26T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     },
     {
       "title": "Notes on Pope Leo XIV's encyclical on AI",
@@ -270,13 +277,6 @@
     {
       "title": "\"No way to prevent this\" say users of only package manager where this regularly happens",
       "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-art-template/",
-      "date": "2026-05-21T00:00:00Z",
-      "summary": "",
-      "source": "xeiaso.net"
-    },
-    {
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
-      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2026-45250/",
       "date": "2026-05-21T00:00:00Z",
       "summary": "",
       "source": "xeiaso.net"
