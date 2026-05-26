@@ -1,0 +1,61 @@
+name: Update RSS Cache
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          # PAT_TOKEN is required here because branch protection on main
+          # requires status checks. GITHUB_TOKEN cannot bypass these rules,
+          # so the push step fails with GH013. PAT_TOKEN has admin scope
+          # which allows pushing directly to protected branches.
+          # See: https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Sync with main
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - name: Build RSS cache and blog share routes
+        run: |
+          python scripts/build_rss.py
+          python scripts/build_blog_share_routes.py
+
+      - name: Recompute CSP inline-script hashes
+        # The RSS-seed inline <script type="application/json"> block in
+        # index.html mutates daily as feeds update; its sha256 hash must be
+        # refreshed in _worker_csp_hashes.js so the strict CSP allowlist
+        # tracks reality. Pen-test 2026-05-05 finding KA-2026-05-05-01.
+        run: |
+          python scripts/compute_csp_hashes.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss.json index.html blog goingvegan/blog _worker_csp_hashes.js
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update RSS cache, blog routes, and CSP hashes"
+          git pull --rebase origin main
+          git push
