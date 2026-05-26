@@ -14,4 +14,8 @@ User-agent: Applebot
 Allow: /
 Disallow: /blog/*-????????/
 
+# Internal QA / test pages (also noindex via meta robots)
+User-agent: *
+Disallow: /test.html
+
 Sitemap: https://kevinarmstrong.io/sitemap.xml
