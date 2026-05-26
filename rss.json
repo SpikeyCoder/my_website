@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-26T01:08:05.577239Z",
+  "generated_at": "2026-05-26T03:20:13.796207Z",
   "items": [
+    {
+      "title": "Quoting Corey Quinn",
+      "link": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+      "date": "2026-05-26T02:28:54Z",
+      "summary": "I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Notes on Pope Leo XIV's encyclical on AI",
       "link": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
@@ -76,13 +83,6 @@
       "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
       "date": "2026-05-24T23:52:37Z",
       "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog.…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-agent 0.1a4",
-      "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
-      "date": "2026-05-24T23:19:34Z",
-      "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface…",
       "source": "simonwillison.net"
     },
     {
