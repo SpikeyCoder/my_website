@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:38:59.066384Z",
+  "generated_at": "2026-05-26T21:31:39.238377Z",
   "items": [
     {
       "title": "Calculating the expected range of normal samples",
@@ -28,6 +28,13 @@
       "date": "2026-05-26T15:02:30Z",
       "summary": "A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize…",
       "source": "simonwillison.net"
+    },
+    {
+      "title": "If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=112354",
+      "date": "2026-05-26T14:00:00Z",
+      "summary": "A difference in philosophy. The post If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT? appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Expected IQ spread on a jury",
@@ -245,13 +252,6 @@
       "date": "2026-05-21T15:03:37Z",
       "summary": "Today's links Shopping isn't politics: The personal isn't political. Hey look at this: Delights to delectate. Object permanence: Neither arphid nor RFID; Gor novel sex slave cult; Violent economist…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "How do I use Win32 structures from the Windows Runtime?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260521-00/?p=112345",
-      "date": "2026-05-21T14:00:00Z",
-      "summary": "Trick question: You can't. But maybe you can fake it. The post How do I use Win32 structures from the Windows Runtime? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "The Rise of Build-to-Rent Housing",
