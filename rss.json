@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-26T17:04:38.684327Z",
+  "generated_at": "2026-05-26T18:45:23.371537Z",
   "items": [
+    {
+      "title": "Calculating the expected range of normal samples",
+      "link": "https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/",
+      "date": "2026-05-26T17:59:53Z",
+      "summary": "The previous post looked at the expected IQ range in a jury of 12. This post will look more generally at computing the expected range of n samples from a N(0, 1) random variable. This will give the…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "The Great Depopulation",
+      "link": "https://www.theatlantic.com/ideas/2026/05/global-birthrate-decline/687297/?utm_source=feed",
+      "date": "2026-05-26T16:51:03Z",
+      "summary": "Why is the birth rate declining in every country on Earth?",
+      "source": "derekthompson.org"
+    },
     {
       "title": "Microsoft Copilot Cowork Exfiltrates Files",
       "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
@@ -21,13 +35,6 @@
       "date": "2026-05-26T13:50:51Z",
       "summary": "There’s been some discussion online lately about how a large difference in IQ makes it difficult for two people to communicate. There have been studies that confirm this effect. The difficulty is not…",
       "source": "johndcook.com"
-    },
-    {
-      "title": "The Great Depopulation",
-      "link": "https://www.theatlantic.com/ideas/2026/05/global-birthrate-decline/687297/?utm_source=feed",
-      "date": "2026-05-26T12:16:33Z",
-      "summary": "Why is the birth rate declining in every country on Earth?",
-      "source": "derekthompson.org"
     },
     {
       "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
@@ -167,13 +174,6 @@
       "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
       "date": "2026-05-23T15:09:34Z",
       "summary": "The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Fourier series of its…",
-      "source": "johndcook.com"
-    },
-    {
-      "title": "Real and imaginary parts",
-      "link": "https://www.johndcook.com/blog/2026/05/23/real-and-imaginary-parts/",
-      "date": "2026-05-23T13:57:21Z",
-      "summary": "The previous post announced some notes I wrote up based on an article by Henry Baker implementing functions of a complex variable in terms of functions of a real variable. That is, it finds functions…",
       "source": "johndcook.com"
     },
     {
