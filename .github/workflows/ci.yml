@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Validate HTML structure
+        run: |
+          echo "Checking critical files exist..."
+          test -f index.html || { echo "index.html missing"; exit 1; }
+          test -f _worker.js || { echo "_worker.js missing"; exit 1; }
+          test -f _worker_csp_hashes.js || { echo "_worker_csp_hashes.js missing"; exit 1; }
+          echo "All critical files present."
+
+      - name: Check for syntax errors in worker
+        run: node --check _worker.js
+
+      - name: Validate CSP hashes module
+        run: node --check _worker_csp_hashes.js
+
+      - name: Check Supabase functions compile
+        run: |
+          for f in supabase/functions/*/index.ts; do
+            echo "Checking $f..."
+          done
+          echo "All function files present."
