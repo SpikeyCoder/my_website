@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Defining success for probabilistic features | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Probabilistic features fail when PMs ship them with deterministic metrics. Strong interview candidates show a different toolkit." />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Defining success for probabilistic features" />
+    <meta property="og:description" content="Probabilistic features fail when PMs ship them with deterministic metrics. Strong interview candidates show a different toolkit." />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-07T08:27:58+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Defining success for probabilistic features" />
+    <meta name="twitter:description" content="Probabilistic features fail when PMs ship them with deterministic metrics. Strong interview candidates show a different toolkit." />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Defining success for probabilistic features", "description": "Probabilistic features fail when PMs ship them with deterministic metrics. Strong interview candidates show a different toolkit.", "url": "https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/"}, "datePublished": "2026-05-07T08:27:58+00:00", "dateModified": "2026-05-07T08:27:58+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Defining success for probabilistic features</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/" data-share-copy-url="https://kevinarmstrong.io/blog/defining-success-for-probabilistic-features/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Probabilistic features fail when PMs ship them with deterministic metrics. Strong interview candidates show a different toolkit.</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 7, 2026 • 5 min read • ai pm, product metrics, machine learning, interview prep, probabilistic systems</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>Probabilistic features behave nothing like a checkout button. A search ranker produces different outputs for the same input over time. The same applies to fraud detectors. PM interviewers ask about this because most candidates default to deterministic thinking. Many name CTR or conversion as the success metric and stop at the surface.</p>
+            <p>Strong PM candidates take the next step. A good answer covers the error modes and connects model metrics to user outcomes.</p>
+            <h2>Start with the cost of being wrong</h2>
+            <p>Every probabilistic feature has two failure modes. A false positive happens when the model says yes when the answer should have been no. The reverse case is a false negative: the model says no when the answer should have been yes. Each error type has a different cost.</p>
+            <p>Take a fraud detection system. A false positive blocks a legitimate purchase and frustrates a paying customer. The opposite mistake, a false negative, lets a stolen card through and costs the company money. Which one hurts more depends on the business. Marty Cagan writes that product teams must understand the risks before they build the solution (Cagan).</p>
+            <p>Before picking a metric, ask the interviewer two questions. What happens when we falsely flag something? What happens when we miss something? The answers drive every other decision.</p>
+            <h2>Precision and recall, in plain terms</h2>
+            <p>Precision answers a simple question. Of all the items the model flagged, how many were true positives? A spam filter with 95 percent precision means 95 of every 100 emails it sent to spam really are spam.</p>
+            <p>Recall answers a different question. What share of real positives ended up in the model&#x27;s flagged set? A spam filter with 60 percent recall caught 60 of every 100 real spam emails.</p>
+            <p>Optimize for precision when false positives carry a high cost. Content moderation at scale leans this way. Wrongly removing a creator&#x27;s post damages trust. Recall matters more when false negatives carry a high cost. Cancer screening leans this way. Missing a true case has worse consequences than a follow-up test.</p>
+            <p>The trade-off is a real constraint. Pushing precision up usually drops recall. PMs who skip this nuance get sorted into the &quot;shallow on AI&quot; bucket.</p>
+            <h2>When F1 helps and when it lies</h2>
+            <p>F1 is the harmonic mean of precision and recall. It gives one number when you care about both metrics. Many PMs cite F1 because it has the look of rigor.</p>
+            <p>The metric carries a hidden assumption. Precision and recall get equal weight in the formula. That assumption rarely holds in real products. A better alternative is the F-beta score. F-beta lets you set a weight that favors recall or precision, depending on the beta value. For a fraud system that cares twice as much about catching fraud as blocking good purchases, F2 is more honest than F1.</p>
+            <p>Mention F1 first if the interviewer brings up metrics. Then propose F-beta with the reasoning. That move signals depth.</p>
+            <h2>Task completion rate is the user-facing metric</h2>
+            <p>Model metrics measure the model. Product metrics measure the user. Both matter, but the second one wins debates with leadership.</p>
+            <p>Task completion rate measures whether the user achieved the goal. For a search feature, did the user click a result and stay on the page? In a writing assistant, did the user accept the suggestion or rewrite the text? Lenny Rachitsky has written that the strongest product teams pick one metric that reflects user value and rally the team around it (Rachitsky). Task completion rate forces that discipline.</p>
+            <p>A model can have great F1 and a terrible completion rate. That gap is where most AI products die in production.</p>
+            <p>In an interview, pair a model metric with a user metric. Precision plus completion rate. Recall plus retention. The pairing shows you can connect math to behavior.</p>
+            <h2>Human-in-the-loop metrics matter more than people think</h2>
+            <p>Most production AI systems include a human reviewer at some point. Reviewers approve flagged content. Customer service agents step in when the bot hits its limit. Four metrics matter for these systems.</p>
+            <p><strong>Override rate</strong> captures how often humans reverse the model&#x27;s decision. A high override rate means one of two things. Either the model is calibrated incorrectly, or the human team has lost trust in the system.</p>
+            <p><strong>Time saved per task</strong> captures whether the model cut review time or just shifted the work. If a moderator reviews 200 items in the time it took to review 100, the system is doing its job.</p>
+            <p><strong>Escalation rate</strong> captures the share of cases that need human help. Track it over time. A rising rate signals model regression or input drift.</p>
+            <p><strong>Confidence calibration</strong> measures how well the model&#x27;s stated probabilities match reality. When the model says it is 90 percent confident, the prediction should be right 90 percent of the time.</p>
+            <p>Jeff Gothelf points out that outcomes beat outputs, and the human side of the system is part of the outcome (Gothelf).</p>
+            <h2>How to structure your interview answer</h2>
+            <p>When you get a question like &quot;How would you measure success for this AI feature?&quot;, use a four-part structure.</p>
+            <p>First, name the failure modes and the cost of each error type.</p>
+            <p>Second, pick the model metric that matches the cost asymmetry. F-beta with a stated weight is often more honest than F1.</p>
+            <p>Third, propose a user-facing metric like task completion rate or retention.</p>
+            <p>Fourth, add a human-in-the-loop metric if the system has reviewers.</p>
+            <p>That structure works for fraud detection, search, recommendations, chatbots, content moderation, and most generative features. Practice it on three different products before the interview.</p>
+            <h2>Works cited</h2>
+            <p>Cagan, Marty. <em>Inspired: How to Create Tech Products Customers Love</em>. Wiley, 2017.</p>
+            <p>Gothelf, Jeff, and Josh Seiden. <em>Lean UX: Designing Great Products with Agile Teams</em>. O&#x27;Reilly Media, 2021.</p>
+            <p>Rachitsky, Lenny. &quot;Choosing Your North Star Metric.&quot; <em>Lenny&#x27;s Newsletter</em>, 2022, www.lennysnewsletter.com.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>In-App Payments vs. Payment Processors vs. Rolling Your Own: What I Learned Building PetSafe | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="I spent months exploring how to integrate payments. StoreKit for PetSafe&#x27;s subscription model made the most sense given time constraints. Then I found our Amazon team debate Stripe vs. Adyen in Slack channels. We ended u" />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="In-App Payments vs. Payment Processors vs. Rolling Your Own: What I Learned Building PetSafe" />
+    <meta property="og:description" content="I spent months exploring how to integrate payments. StoreKit for PetSafe&#x27;s subscription model made the most sense given time constraints. Then I found our Amazon team debate Stripe vs. Adyen in Slack channels. We ended u" />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-02-12T03:53:50.576+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="In-App Payments vs. Payment Processors vs. Rolling Your Own: What I Learned Building PetSafe" />
+    <meta name="twitter:description" content="I spent months exploring how to integrate payments. StoreKit for PetSafe&#x27;s subscription model made the most sense given time constraints. Then I found our Amazon team debate Stripe vs. Adyen in Slack channels. We ended u" />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "In-App Payments vs. Payment Processors vs. Rolling Your Own: What I Learned Building PetSafe", "description": "I spent months exploring how to integrate payments. StoreKit for PetSafe's subscription model made the most sense given time constraints. Then I found our Amazon team debate Stripe vs. Adyen in Slack channels. We ended u", "url": "https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/"}, "datePublished": "2026-02-12T03:53:50.576+00:00", "dateModified": "2026-02-12T03:53:50.576+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">In-App Payments vs. Payment Processors vs. Rolling Your Own: What I Learned Building PetSafe</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/" data-share-copy-url="https://kevinarmstrong.io/blog/in-app-payments-vs-payment-processors-vs-rolling-your-own-what-i-learned-building-petsafe/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">I spent months exploring how to integrate payments. StoreKit for PetSafe&#x27;s subscription model made the most sense given time constraints. Then I found our Amazon team debate Stripe vs. Adyen in Slack channels. We ended u</p>
+            <p class="blog-article-meta" id="blog-article-meta">Feb 12, 2026 • 4 min read • iOS, payments</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:22px&quot;&gt;&lt;strong&gt;The Three Paths&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;StoreKit/Google Play Billing: &lt;/strong&gt;Apple and Google own the rails. You pay 15-30%, they handle everything.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Stripe/Adyen: &lt;/strong&gt;Payment processors. You pay 2.9% + $0.30 (roughly), you control more.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Roll your own:&lt;/strong&gt; You pay interchange + processor fees (1.5-2%), you control everything, you also maintain everything.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;&lt;strong&gt;When StoreKit Makes Sense&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;StoreKit isn&#x27;t a choice if you&#x27;re doing iOS subscriptions or consumables—it&#x27;s the only option per App Store guidelines. But even when you have a choice (reader apps, some B2B scenarios), here&#x27;s what you get: &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Pros:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;- Subscription management is handled. Upgrades, downgrades, grace periods, billing retry—all built-in. &lt;span style=&quot;color:#ffffff&quot;&gt;- Users trust the blue payment sheet. No card form UI to build. &lt;span style=&quot;color:#ffffff&quot;&gt;- Family Sharing works out of the box. &lt;span style=&quot;color:#ffffff&quot;&gt;- TestFlight sandbox testing is straightforward.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Cons:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;- 30% cut is brutal (15% for small business program, but that caps at $1M revenue). &lt;span style=&quot;color:#ffffff&quot;&gt;- Receipt validation is arcane. Server-to-server notifications help, but you&#x27;re still dealing with base64-encoded blobs. &lt;span style=&quot;color:#ffffff&quot;&gt;- No direct customer email. You can&#x27;t email users about failed payments. &lt;span style=&quot;color:#ffffff&quot;&gt;- Refunds go through Apple. You have zero control.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;For PetSafe, the 30% hurt, but the alternative was building web-based subscriptions and driving users out of the app. Conversion would&#x27;ve tanked. Sometimes the tax is worth it.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:18px&quot;&gt;&lt;strong&gt;When Stripe/Adyen Work Better&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;If you&#x27;re on web or Android (with alternative billing), processors give you control without building infrastructure. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Stripe wins on:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;- Speed to integrate. &lt;/strong&gt;Checkout, Billing, and Payment Links get you live in days. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;- Documentation&lt;/strong&gt;. Their docs are legitimately good. &lt;strong&gt;- Ecosystem.&lt;/strong&gt; Extensions, plugins, and integrations exist for everything. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;- Startup-friendly pricing. &lt;/strong&gt;2.9% + $0.30 is standard, but negotiable as you scale.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Adyen wins on:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Global payment methods. Ideal, Klarna, Boleto—they&#x27;re native, not bolted on. &lt;span style=&quot;color:#ffffff&quot;&gt;Enterprise pricing. At scale, you&#x27;ll pay less than Stripe (1.5-2% range). &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Platform features. &lt;/strong&gt;If you&#x27;re running a marketplace, their split payment logic is battle-tested.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;Both handle:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;- PCI compliance (you never touch card data). &lt;span style=&quot;color:#ffffff&quot;&gt;- Fraud detection (machine learning models you didn&#x27;t have to train). &lt;span style=&quot;color:#ffffff&quot;&gt;- Failed payment recovery (dunning management that actually works).</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The trade-off is you&#x27;re paying for convenience. Stripe&#x27;s 2.9% is significantly better than Apple&#x27;s 30%, but it&#x27;s still a margin hit. For most startups, this is the right path. You&#x27;re buying time and reliability.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:16px&quot;&gt;Why You Shouldn&#x27;t Roll Your Own (Probably)&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;I&#x27;ve seen the &quot;just integrate with a payment gateway&quot; pitch. Use Braintree&#x27;s SDK, talk directly to card networks, save on fees. Here&#x27;s what that actually means:</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;You&#x27;re responsible for:</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;- PCI DSS compliance (annual audits, quarterly scans, documentation). &lt;span style=&quot;color:#ffffff&quot;&gt;- Tokenization and encryption (do this wrong once and you&#x27;re done). &lt;span style=&quot;color:#ffffff&quot;&gt;- 3D Secure implementation (required in Europe, painful everywhere). &lt;span style=&quot;color:#ffffff&quot;&gt;- Fraud detection (or you&#x27;ll bleed money to chargebacks). &lt;span style=&quot;color:#ffffff&quot;&gt;- Failed payment retry logic (subscriptions die without this). &lt;span style=&quot;color:#ffffff&quot;&gt;- Reconciliation (matching payments to orders at scale is harder than it sounds).</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;You save:&lt;/strong&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;~1% in processing fees at volume (Stripe&#x27;s 2.9% vs. interchange at ~1.8% + gateway fees).</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The math only works if you&#x27;re processing serious volume. Shopify, Netflix, Uber—they have payment teams. You probably don&#x27;t. And even they use processors for some markets. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;The exception:&lt;/strong&gt; if you&#x27;re in a regulated or high-risk industry (crypto, gaming, nutraceuticals), you might not have a choice. Processors will reject you or charge punitive rates. Then you&#x27;re building payment infrastructure whether you want to or not. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;What I&#x27;d Choose Today&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;For a new startup:&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;-Mobile app with subscriptions? &lt;/strong&gt;StoreKit. Eat the 30%, optimize conversion. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;-Web or cross-platform SaaS?&lt;/strong&gt; Stripe. &lt;span style=&quot;color:#ffffff&quot;&gt;Ship fast, iterate on pricing. &lt;span style=&quot;color:#ffffff&quot;&gt;Global product with localized payment methods? Adyen. Conversion rates in APAC and Europe will justify the integration effort. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;High volume B2C (&gt;$10M ARR)? &lt;/strong&gt;Talk to Adyen or Braintree, negotiate rates. &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;-Venture-scale with payment complexity (marketplace, escrow, etc.)? &lt;span style=&quot;color:#ffffff&quot;&gt;&lt;/strong&gt;Still Stripe or Adyen. Build features, not infrastructure.</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The only time I&#x27;d build custom payment infrastructure is if I was in a restricted industry or processing massive volume where 1% margins matter. &lt;span style=&quot;color:#ffffff&quot;&gt;Payment rails are boring infrastructure. Pick the boring option that lets you ship features your customers care about.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Machine Learning in SMB Payments: What’s Actually Working (and What Isn’t) | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="If you’re running payments at an SMB, you’ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here’s what the data from the last three years " />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Machine Learning in SMB Payments: What’s Actually Working (and What Isn’t)" />
+    <meta property="og:description" content="If you’re running payments at an SMB, you’ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here’s what the data from the last three years " />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-02-09T16:04:32.274+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Machine Learning in SMB Payments: What’s Actually Working (and What Isn’t)" />
+    <meta name="twitter:description" content="If you’re running payments at an SMB, you’ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here’s what the data from the last three years " />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Machine Learning in SMB Payments: What\u2019s Actually Working (and What Isn\u2019t)", "description": "If you\u2019re running payments at an SMB, you\u2019ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here\u2019s what the data from the last three years ", "url": "https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/"}, "datePublished": "2026-02-09T16:04:32.274+00:00", "dateModified": "2026-02-09T16:04:32.274+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">Machine Learning in SMB Payments: What’s Actually Working (and What Isn’t)</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/" data-share-copy-url="https://kevinarmstrong.io/blog/machine-learning-in-smb-payments-what-s-actually-working-and-what-isn-t/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">If you’re running payments at an SMB, you’ve probably heard the ML pitch: real-time fraud detection, intelligent routing, predictive analytics. The reality is more nuanced. Here’s what the data from the last three years </p>
+            <p class="blog-article-meta" id="blog-article-meta">Feb 9, 2026 • 4 min read • payments</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>&lt;strong&gt;&lt;span style=&quot;font-size:14px;color:#ffffff&quot;&gt;The Successes: Where ML Delivers&lt;/span&gt;&lt;/strong&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Fraud detection is where ML has genuinely moved the needle. The U.S. Treasury’s Office of Payment Integrity deployed ML-based fraud detection in FY2024 and prevented $4 billion in fraudulent payments, up from $652.7 million the previous year. That’s a 6x improvement, driven largely by their ML models identifying and prioritizing high-risk transactions in real-time.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;For SMBs, this translates to tangible protection. According to a 2023 Alloy report, 57% of UK and US decision-makers faced direct fraud losses of $500K or more, with 25% losing over $1 million. ML systems combat this by analyzing transaction patterns and adapting to evolving fraud tactics—something rule-based systems can’t do. The technical advantage is clear: ML models learn from new data continuously. Stripe’s Radar system, for instance, leverages network effects where each increase in training data creates outsized improvements in model quality. This matters because fraud patterns evolve daily; static rule engines become obsolete within weeks.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Payment optimization is the second proven use case. ML-powered smart routing reduced onboarding time from 11 minutes in 2023 to a projected 8 minutes by 2028—a 30% decrease that saves banks an estimated 29 million digital onboarding hours, according to Juniper Research. For payment service providers, intelligent routing minimizes costs by selecting optimal transaction paths based on real-time analysis of fees, approval rates, and network conditions.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The cost improvements are measurable. In hospitality, instant payment costs dropped from $1.50 to $0.80 per transaction between late 2023 and 2024. Gaming industry tip payments fell from $1.70 to $1.39. These aren’t marginal gains—they’re 40-50% reductions driven by ML-optimized routing and processing.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Transaction categorization for SMBs has also improved. Recent research on UK SME bank transactions shows ML models using synthetic data generation and zero-shot classification can accurately categorize transactions despite noisy, inconsistent descriptions. This solves a critical problem: helping lenders assess cash flow for the £95 billion UK SME finance gap.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Limitations: Where ML Falls Short&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Implementation costs remain prohibitive for many SMBs. 48% of the smallest SMBs still process ad hoc payments manually, with over one-third citing high costs and perceived complexity as barriers ￼, according to PYMNTS research on delayed payments. The investment in AI technologies hit $35 billion in 2023 with projections to reach $97 billion by 2027—resources that SMBs simply don’t have. The data quality problem is fundamental. ML models require clean, structured data at scale. But SMB transaction data is messy: inconsistent naming, abbreviations, unstructured descriptions. Building models that work with this reality requires extensive feature engineering and domain-specific calibration—expertise most SMBs lack.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;Class imbalance creates another technical challenge. Fraudulent transactions represent a tiny fraction of total volume, making it difficult to train models without sophisticated techniques like synthetic oversampling or anomaly detection. Research shows this challenge persists even in 2024, requiring specialized approaches that SMBs can’t easily implement in-house.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;The human capital gap is real. A 2023 survey found 72% of financial companies are developing ML solutions, but SMBs struggle to hire data scientists and ML engineers. Unlike enterprises that can build internal teams, SMBs must rely on third-party solutions—which brings its own integration challenges.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;According to PYMNTS Intelligence, 81% of SMBs are open to adopting integrated payment systems, but on average use 2.2 systems to manage operations, with nearly half relying on multiple solutions for B2B payments . This fragmentation makes ML deployment complex: models need to work across disparate systems, each with different data formats and APIs.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Vendor Dependency Problem&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;SMBs adopting ML-powered payments are essentially outsourcing their fraud detection and optimization logic to providers like Stripe, Square, or Adyen. This works—until it doesn’t. Model opacity means you can’t explain why legitimate transactions get flagged, leading to customer friction. And if your provider’s model degrades, you have limited recourse. The latency-accuracy tradeoff is another practical constraint. A Thai case study showed real-time fraud surveillance achieving 86.67% accuracy with sub-5-minute alerts, but this required significant infrastructure investment. SMBs using off-the-shelf solutions must accept whatever balance their provider strikes.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;span style=&quot;font-size:14px&quot;&gt;&lt;strong&gt;What Actually Makes Sense for SMBs&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;Focus on embedded solutions. The data shows 83% of SMBs want embedded financial services through platforms they already use. This makes sense: ML capabilities packaged into your existing accounting software or payment processor eliminate the integration burden. Prioritize fraud detection over optimization. The ROI is clearest here—prevented fraud is immediate value. Payment optimization matters, but it requires transaction volume and data history that many SMBs don’t have. Expect the ecosystem to improve. Processing costs for instant ad hoc payments dropped 32% in 2024, with integration challenges falling from 19% to 7.5% of respondents reporting issues. As ML becomes commoditized, barriers will continue dropping.&lt;/span&gt;</p>
+            <p>&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14px&quot;&gt;The Bottom Line&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;ML in SMB payments isn’t hype, but it’s not a panacea either. Fraud detection works and delivers measurable value. Payment optimization shows promise but requires scale. The challenge isn’t the technology—it’s the implementation gap between enterprise-grade ML infrastructure and SMB operational realities.&lt;/span&gt; &lt;span style=&quot;color:#ffffff&quot;&gt;The trend is clear: 67% of SMBs are leaning toward FinTechs for payment solutions, betting that specialized providers can deliver ML capabilities without the implementation headaches. That’s probably the right call. Build your core business; let specialists handle the ML.​​​​​​​​​​​​​​​​&lt;/span&gt;</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>

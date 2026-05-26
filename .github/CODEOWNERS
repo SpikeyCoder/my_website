@@ -1,0 +1,11 @@
+# Default reviewer for everything in the repo. GitHub will request review
+# from the owner on every PR. Adjust as the team grows.
+*                              @SpikeyCoder
+
+# Security-sensitive surfaces always require owner approval.
+/SECURITY.md                   @SpikeyCoder
+/compliance/                   @SpikeyCoder
+/.github/                      @SpikeyCoder
+/.well-known/                  @SpikeyCoder
+/supabase/                     @SpikeyCoder
+/_worker.js                    @SpikeyCoder

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- GENERATED_BLOG_ROUTE -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The PM&#x27;s job on an ML team | Live Blog | Kevin Armstrong</title>
+    <meta name="description" content="Most PMs treat their first ML project like a regular feature and ship models they cannot defend in production. The fix is owning the problem, the metric, the operations work, and the policy decisions science teams should" />
+    <link rel="canonical" href="https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The PM&#x27;s job on an ML team" />
+    <meta property="og:description" content="Most PMs treat their first ML project like a regular feature and ship models they cannot defend in production. The fix is owning the problem, the metric, the operations work, and the policy decisions science teams should" />
+    <meta property="og:url" content="https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/" />
+    <meta property="og:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <meta property="article:published_time" content="2026-05-12T08:25:57.484+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The PM&#x27;s job on an ML team" />
+    <meta name="twitter:description" content="Most PMs treat their first ML project like a regular feature and ship models they cannot defend in production. The fix is owning the problem, the metric, the operations work, and the policy decisions science teams should" />
+    <meta name="twitter:image" content="https://kevinarmstrong.io/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://efrkjqbrfsynzdjbgqck.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="stylesheet" href="../../styles.css?v=20260423a" />
+    <link rel="icon" href="../../favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The PM's job on an ML team", "description": "Most PMs treat their first ML project like a regular feature and ship models they cannot defend in production. The fix is owning the problem, the metric, the operations work, and the policy decisions science teams should", "url": "https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/"}, "datePublished": "2026-05-12T08:25:57.484+00:00", "dateModified": "2026-05-12T08:25:57.484+00:00", "author": {"@type": "Person", "name": "Kevin Armstrong", "url": "https://kevinarmstrong.io"}, "publisher": {"@type": "Organization", "name": "Armstrong HoldCo LLC", "logo": {"@type": "ImageObject", "url": "https://kevinarmstrong.io/apple-touch-icon.png"}}, "image": "https://kevinarmstrong.io/apple-touch-icon.png"}</script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.position='static';this.style.width='auto';this.style.height='auto';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';">Skip to content</a>
+    <div class="ambient" aria-hidden="true"></div>
+
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <div class="nav-brand">ARMSTRONG HOLDCO LLC</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#blog">Live Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content" class="blog-article-page">
+      <section class="section">
+        <div class="container reveal blog-article-card">
+          <p class="blog-article-status" id="blog-article-status" hidden>Loading post…</p>
+
+          <div id="blog-article-shell">
+            <div class="blog-article-header">
+              <h1 class="blog-article-title" id="blog-article-title">The PM&#x27;s job on an ML team</h1>
+              <div class="blog-share" id="blog-article-share" data-share-root data-share-url="https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/" data-share-copy-url="https://kevinarmstrong.io/blog/the-pm-s-job-on-an-ml-team/">
+                <button class="blog-share-trigger" type="button" data-share-trigger aria-haspopup="menu" aria-expanded="false" aria-label="Share post">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 16.08a2.94 2.94 0 0 0-1.95.77l-6.32-3.69a2.8 2.8 0 0 0 0-2.32l6.32-3.7A3 3 0 1 0 15 5a2.8 2.8 0 0 0 .05.51l-6.32 3.7a3 3 0 1 0 0 5.58l6.32 3.7A2.8 2.8 0 0 0 15 19a3 3 0 1 0 3-2.92z" fill="currentColor"></path></svg>
+                </button>
+                <div class="share-menu" data-share-menu role="menu" aria-label="Share Post" hidden>
+                  <div class="share-menu-header">
+                    <h2 class="share-menu-title">Share Post</h2>
+                    <button class="share-close" type="button" data-share-close aria-label="Close share menu">×</button>
+                  </div>
+                  <div class="share-menu-items">
+                    <a class="share-menu-item" role="menuitem" data-share-network="linkedin" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V23h-4zM8 8h3.83v2.05h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.09V23h-4v-7.29c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.89-2.79 3.85V23H8z" fill="currentColor"></path></svg>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a class="share-menu-item" role="menuitem" data-share-network="x" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 2H22l-6.8 7.78L23.2 22h-6.27l-4.9-6.93L6.03 22H2.9l7.28-8.32L.6 2h6.43l4.43 6.27zM17.8 20h1.73L6.1 3.9H4.25z" fill="currentColor"></path></svg>
+                      <span>Twitter / X</span>
+                    </a>
+                    <button class="share-menu-item" role="menuitem" type="button" data-share-copy>
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12z" fill="currentColor"></path><path d="M8 5h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v14h12V7z" fill="currentColor"></path></svg>
+                      <span>Copy Link</span>
+                    </button>
+                  </div>
+                </div>
+                <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="blog-article-summary" id="blog-article-summary">Most PMs treat their first ML project like a regular feature and ship models they cannot defend in production. The fix is owning the problem, the metric, the operations work, and the policy decisions science teams should</p>
+            <p class="blog-article-meta" id="blog-article-meta">May 12, 2026 • 5 min read • ai-pm, ml-product-management, pm-interviews, data-teams</p>
+            <article class="blog-article-content" id="blog-article-content">
+            <p>Most PMs treat their first ML project like a regular feature. They write a PRD, set a launch date, and ask the engineering team for an estimate. Three months later, the model ships at 71% precision. The PM has no idea what to do with that number.</p>
+            <p>This post is for PMs who want to be useful partners to their ML team.</p>
+            <h2>Start with the problem, not the model</h2>
+            <p>Applied scientists love to talk about models. Your job is to drag the conversation back to the user. Before any model gets built, get clear on the user, the context, the workaround, and the cost.</p>
+            <p>A weak PM asks, &quot;Can we use a transformer for this?&quot; The strong PM asks, &quot;Right now, our support agents spend 14 minutes per ticket reading old emails. What part of that work can a model do?&quot;</p>
+            <p>Marty Cagan calls this the difference between feature teams and product teams (Cagan 87). Feature teams build to spec. Product teams own outcomes. ML work amplifies the gap. Misframed problems become models that work in the notebook and die in production.</p>
+            <p>When you scope an ML problem, write a one-page problem brief. It should answer: what success looks like for the user, what data exists today, what you would do without ML, and the cost of a wrong prediction. The last question carries the most weight. A false positive on a fraud model means a customer gets locked out of their account. False negatives let thieves walk out with free shoes. These are different problems with different metrics.</p>
+            <h2>Make success measurable before you write any code</h2>
+            <p>Every ML project needs two layers of metrics. Online metrics measure business impact. Offline metrics measure model quality.</p>
+            <p>Online metrics are things like revenue per user, ticket resolution time, daily active users, or click-through rate. Offline metrics include precision, recall, AUC, and mean squared error. Your scientists will optimize the offline metric. The PM&#x27;s job is to make sure the offline metric tracks the online one.</p>
+            <p>This sounds obvious. It is not. I shipped a model that beat offline AUC by four points. Click-through rate dropped 2% in the test. The model got better at predicting clicks on prior purchases. That offline metric was the wrong target.</p>
+            <p>Cassie Kozyrkov writes about this gap between model performance and business value (Kozyrkov). She argues that PMs should define the decision the model supports before anyone trains anything. What action does the prediction trigger? Who acts on it? If you cannot answer those questions, you are not ready for the work.</p>
+            <h2>Get comfortable with probability</h2>
+            <p>ML systems are probabilistic. They are wrong by design. Engineers from deterministic systems struggle with this fact. PMs who pretend not to are worse.</p>
+            <p>In interviews, you might get, &quot;How would you launch a model that is 85% accurate?&quot; The wrong answer is, &quot;Wait until it hits 95%.&quot; A better answer covers confidence thresholds, fallback behavior, human review, and the cost of being wrong.</p>
+            <p>Here is a pattern that works. Route high-confidence predictions to automation. Send low-confidence ones to a human. Log everything for retraining. Audit the human&#x27;s overrides monthly. If a loan application scores below 0.6, send it to an underwriter. Auto-approve scores above 0.95. The PM owns where to draw the line, because that line is a business decision.</p>
+            <h2>Tradeoffs are your job</h2>
+            <p>Every ML system has tradeoffs. Latency versus accuracy. Cost versus freshness. Recall versus precision. Cold-start coverage versus relevance. The science team can show you the curve. Picking the point on the curve is product work.</p>
+            <p>Andrew Ng has argued that data quality often beats model complexity (Ng). For most applied problems, a simple model on clean labels beats a complex one on messy data. When a scientist proposes a state-of-the-art architecture, ask about the baseline. Ask what a logistic regression would do. If nobody has tried it, that is your first ask.</p>
+            <p>Latency budgets matter too. A model that runs in 200ms feels fine in a chatbot. The same model is unusable in an ad-serving pipeline. Productionization questions belong in design review. Bring them up before the last sprint.</p>
+            <h2>Plan for model decay</h2>
+            <p>Every model decays in time. User behavior shifts, data distributions drift, and last quarter&#x27;s training set stops matching this quarter&#x27;s traffic. A launch begins the operations phase. The project keeps running for months.</p>
+            <p>Before you ship, agree on a few operational questions. What metric, when degraded, triggers a retrain? Who owns the retraining pipeline? How will you detect drift in production? If your data team cannot answer those, the model is not ready for users.</p>
+            <p>Lenny Rachitsky has written that the best AI PMs treat evals as a first-class artifact (Rachitsky). Build the eval set on day one. Version the file. Run it on every model candidate. Compare results across runs. An eval set is your regression test suite. Without one, you are shipping in the dark.</p>
+            <h2>Bias and fairness belong in the brief</h2>
+            <p>Fairness review belongs in the design brief. By the time the model is built, you are too late. If your model touches hiring, lending, healthcare, or housing, you have legal exposure and moral weight in the room.</p>
+            <p>Ask your scientists how the training data was collected, who is in it, who is missing, and how labels were assigned. Find out the cost of a wrong prediction for each subgroup. A fraud model with 99% accuracy that flags one group at 5x the rate of another is a broken model.</p>
+            <p>You do not need a PhD in fairness research. Ask, in plain words: who could this hurt and how would you spot the damage?</p>
+            <h2>What this looks like in an interview</h2>
+            <p>When an interviewer asks how you work with ML teams, pick a real project and walk through it. Cover the problem you scoped, the metric you defined, the tradeoff you owned, and one failure along the way. Be specific with numbers. Stay honest about the failure.</p>
+            <p>The PMs who get hired for AI roles do not pretend to be scientists. They know enough to be a useful partner. They own what scientists should not solve alone: the user, the metric, the policy, the rollout.</p>
+            <p>That is the job.</p>
+            <h2>Works Cited</h2>
+            <p>Cagan, Marty. Inspired: How to Create Tech Products Customers Love. 2nd ed., Wiley, 2017.</p>
+            <p>Kozyrkov, Cassie. &quot;Why Businesses Fail at Machine Learning.&quot; Hacker Noon, 2019.</p>
+            <p>Ng, Andrew. &quot;MLOps: From Model-Centric to Data-Centric AI.&quot; DeepLearning.AI, 2021.</p>
+            <p>Rachitsky, Lenny. &quot;How the Best AI PMs Work.&quot; Lenny&#x27;s Newsletter, 2024.</p>
+            </article>
+            <a class="link" id="blog-article-back" href="/#blog">Back to Live Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="../../analytics.js?v=20260302a"></script>
+    <script defer src="../../social.js?v=20260301e"></script>
+  </body>
+</html>
