@@ -3,7 +3,7 @@
 // CSP sha256 hashes for every inline <script> block on the site.
 // Imported by _worker.js and joined into the script-src directive.
 //
-// Last regenerated for 64 unique blocks across the site.
+// Last regenerated for 63 unique blocks across the site.
 //
 // Pen-test 2026-05-05 finding KA-2026-05-05-01.
 
@@ -49,6 +49,7 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-cNcSjbAXJkYtQhGwCRIZKJEZQVsyE6AsmsqEYUAuESY='",
   "'sha256-dflP/WjxEQpY/RBBHbozw4DxdTse5DP4CEEWjYTSQ40='",
   "'sha256-eyeZYPdmdxDqMC3j1F9birPIw1cUCFDebca+bT0bsAE='",
+  "'sha256-f8cueeoAnEtg0mMjbbBMx/pcUL+jz8aIou+dcUJYlA8='",
   "'sha256-fqLqm8nBPkwY9KUwvnA4pDDyhJuFpDoPMhFsHnok85k='",
   "'sha256-gGOikG+M4E5e4mG7wk3LUj/4SwbmXCi2nYWXojjqy30='",
   "'sha256-iKwWmyAQHirbN140oTV3C2QjltdXjnMk8PkbYQiFruI='",
@@ -67,9 +68,7 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-ttEipZi2X5Zve5/yn1hDl0av21lXg0ELV88LHwNueqc='",
   "'sha256-wN1LhYnzGSJh6v9n+0+KmRmrUG2csc3lRQ/kxBbSgRk='",
   "'sha256-x7ZcrYReou80J54AYOtiil5TOOgjDq5ZB4EebZ9Gg4A='",
-  "'sha256-xIynM1riCL3mXPVkD7gxQslsZ1P31koWCEw2YccOzYI='",
   "'sha256-xumAxZ0gU4aOj9SxoP+Ob8D0s8bobxR8IsL0zckni9Y='",
-  "'sha256-yA20SKqLsfAa/V6mxJHf0y63HG7rihMMPuAaCwNmHHM='",
   "'sha256-yC+e79xLrX9HftMKHzks8D20EIdxgjhAeD6aka4lXCg='",
   "'sha256-z0VbXadKGfqC3Ngfu4ucJpsLT5U6w1hWCXvk6LxGrHU='",
 ];
