@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-25T23:31:31.016052Z",
+  "generated_at": "2026-05-26T01:08:05.577239Z",
   "items": [
+    {
+      "title": "Notes on Pope Leo XIV's encyclical on AI",
+      "link": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+      "date": "2026-05-25T23:58:17Z",
+      "summary": "Dropped this morning by the Vatican: Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence . This is a very interesting document.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] exe.dev",
+      "link": "https://exe.dev/?df",
+      "date": "2026-05-25T23:57:52Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
     {
       "title": "Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap",
       "link": "https://daringfireball.net/linked/2014/01/29/haynes-aapl",
@@ -12,13 +26,6 @@
       "title": "Thieves Are Texting Threats to Victims of iPhone Theft in London",
       "link": "https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.lFA.OUt7.VJ_FoDpINr0L",
       "date": "2026-05-25T20:27:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Trump Mobile Website Exposed the Number of Pre-Orders — Both Completed and Abandoned — and the Associated Customer Information",
-      "link": "https://www.theguardian.com/us-news/2026/may/23/trump-mobile-investigating-potential-exposure-of-would-be-customers-personal-information",
-      "date": "2026-05-25T18:54:53Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -76,13 +83,6 @@
       "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
       "date": "2026-05-24T23:19:34Z",
       "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "datasette-fixtures 0.1a0",
-      "link": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
-      "date": "2026-05-24T21:38:32Z",
-      "summary": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database…",
       "source": "simonwillison.net"
     },
     {
