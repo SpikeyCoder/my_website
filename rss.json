@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-27T05:27:20.286734Z",
+  "generated_at": "2026-05-27T07:19:55.632353Z",
   "items": [
+    {
+      "title": "Quoting Kyle Ferrana",
+      "link": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+      "date": "2026-05-27T06:41:43Z",
+      "summary": "PICARD: Data, shields up DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy. [camera shakes] WORF: HULL BREACHES ON NINE…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "I patched iozone for better disk benchmarks on modern macOS",
       "link": "https://www.jeffgeerling.com/blog/2026/i-patched-iozone-for-better-disk-benchmarks-on-modern-macos/",
@@ -41,13 +48,6 @@
       "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
       "date": "2026-05-26T15:36:48Z",
       "summary": "Microsoft Copilot Cowork Exfiltrates Files The biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data. In this case Microsoft…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Quoting Paul Graham",
-      "link": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
-      "date": "2026-05-26T15:02:30Z",
-      "summary": "A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize…",
       "source": "simonwillison.net"
     },
     {
