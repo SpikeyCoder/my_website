@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-27T01:39:44.518718Z",
+  "generated_at": "2026-05-27T03:02:21.290516Z",
   "items": [
+    {
+      "title": "I patched iozone for better disk benchmarks on modern macOS",
+      "link": "https://www.jeffgeerling.com/blog/2026/i-patched-iozone-for-better-disk-benchmarks-on-modern-macos/",
+      "date": "2026-05-27T01:32:00Z",
+      "summary": "A decade ago, I settled on iozone for disk benchmarking on all my systems. Tools like fio ('Flexible IO' tester) are a little more capable for raw disk performance testing, and other tools test…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "How Many Tokens Did You Burn Today",
       "link": "https://idiallo.com/blog/how-many-tokens-did-you-burn-today?src=feed",
@@ -273,13 +280,6 @@
       "date": "2026-05-21T01:31:20Z",
       "summary": "Demosthenes lost his first appearance before the Athenian assembly. His voice came out thin and failed him mid-sentence, and the crowd laughed him off the platform. Plutarch tells us he walked home…",
       "source": "joanwestenberg.com"
-    },
-    {
-      "title": "The famous o3 \"GeoGuessr\" prompt did not work",
-      "link": "https://seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
-      "date": "2026-05-21T00:00:00Z",
-      "summary": "",
-      "source": "seangoedecke.com"
     }
   ]
 }
