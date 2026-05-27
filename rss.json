@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-05-27T15:02:45.315113Z",
+  "generated_at": "2026-05-27T17:01:45.246531Z",
   "items": [
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+      "date": "2026-05-27T16:38:35Z",
+      "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap",
+      "link": "https://daringfireball.net/linked/2014/01/29/haynes-aapl",
+      "date": "2026-05-27T15:43:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "The Meta logo and fitting Besace curves",
+      "link": "https://www.johndcook.com/blog/2026/05/27/the-meta-logo-and-fitting-besace-curves/",
+      "date": "2026-05-27T15:15:51Z",
+      "summary": "I saw a post yesterday saying that the Meta logo is a Besace curve. A Besace curve has the implicit form and the parametric form where t ranges over [0, 2π]. So given a Besace curve, such as the Meta…",
+      "source": "johndcook.com"
+    },
     {
       "title": "Using My Fucking Brain",
       "link": "https://terriblesoftware.org/2026/05/27/using-my-fucking-brain/",
@@ -72,13 +93,6 @@
       "source": "derekthompson.org"
     },
     {
-      "title": "Microsoft Copilot Cowork Exfiltrates Files",
-      "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
-      "date": "2026-05-26T15:36:48Z",
-      "summary": "Microsoft Copilot Cowork Exfiltrates Files The biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data. In this case Microsoft…",
-      "source": "simonwillison.net"
-    },
-    {
       "title": "If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=112354",
       "date": "2026-05-26T14:00:00Z",
@@ -124,13 +138,6 @@
       "title": "[Sponsor] exe.dev",
       "link": "https://exe.dev/?df",
       "date": "2026-05-25T23:57:52Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
-      "title": "Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap",
-      "link": "https://daringfireball.net/linked/2014/01/29/haynes-aapl",
-      "date": "2026-05-25T20:32:38Z",
       "summary": "",
       "source": "daringfireball.net"
     },
@@ -217,13 +224,6 @@
       "date": "2026-05-24T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Hilbert transform as an infinite matrix",
-      "link": "https://www.johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix/",
-      "date": "2026-05-23T15:09:34Z",
-      "summary": "The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Fourier series of its…",
-      "source": "johndcook.com"
     },
     {
       "title": "Reading List 05/23/26",
