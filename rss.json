@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T19:40:12.693558Z",
+  "generated_at": "2026-05-27T20:40:50.205942Z",
   "items": [
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
@@ -21,6 +21,13 @@
       "date": "2026-05-27T15:15:51Z",
       "summary": "I saw a post yesterday saying that the Meta logo is a Besace curve. A Besace curve has the implicit form and the parametric form where t ranges over [0, 2π]. So given a Besace curve, such as the Meta…",
       "source": "johndcook.com"
+    },
+    {
+      "title": "Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260527-00/?p=112361",
+      "date": "2026-05-27T14:00:00Z",
+      "summary": "Caching the result and knowing when the cache is valid. The post Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1 appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Using My Fucking Brain",
@@ -259,13 +266,6 @@
       "date": "2026-05-22T16:34:24Z",
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260522-00/?p=112348",
-      "date": "2026-05-22T14:00:00Z",
-      "summary": "You need to pump messages when idle, but maybe you are never idle. The post Why do you say that a COM STA thread must pump messages if I see sample code creating STA threads and not pumping messages?…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
