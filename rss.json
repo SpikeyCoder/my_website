@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-26T23:23:59.052646Z",
+  "generated_at": "2026-05-27T00:26:16.240514Z",
   "items": [
+    {
+      "title": "The pressure",
+      "link": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "date": "2026-05-26T23:48:45Z",
+      "summary": "The pressure Daniel Stenberg on the unprecedented level of pressure the curl team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported. The rate of…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Calculating the expected range of normal samples",
       "link": "https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/",
@@ -56,13 +63,6 @@
       "date": "2026-05-26T03:25:17Z",
       "summary": "Well that was weird. I just received an Amber Alert and the link led to a spammy looking website. Spam? The link leads to a 3gp file converter which is highly unusual. But the more I look at it, I…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "Quoting Corey Quinn",
-      "link": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
-      "date": "2026-05-26T02:28:54Z",
-      "summary": "I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Is “colorectal cancer” rising in “young people”?",
