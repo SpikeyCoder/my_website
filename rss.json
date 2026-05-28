@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T21:37:01.629804Z",
+  "generated_at": "2026-05-28T22:31:24.216682Z",
   "items": [
     {
       "title": "Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras",
@@ -28,6 +28,13 @@
       "date": "2026-05-28T14:00:00Z",
       "summary": "Pooch from Repkord dropped by my studio while he was in St. Louis, and asked a simple question: Can a 3D printer's heatbed act as an antenna? A fair question, as many an antenna is embedded in a PCB…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260528-00/?p=112365",
+      "date": "2026-05-28T14:00:00Z",
+      "summary": "Just let each person take turns trying. The post Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 2 appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Where Are the Economies of Scale in Homebuilding?",
@@ -217,13 +224,6 @@
       "date": "2026-05-25T14:54:59Z",
       "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple…",
       "source": "antirez.com"
-    },
-    {
-      "title": "A hypothetical redesign of System.Diagnostics.Process to avoid confusion over properties that are valid only when you are the one who called Start",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260525-00/?p=112351",
-      "date": "2026-05-25T14:00:00Z",
-      "summary": "Putting them in a place that can access only if you call Start . The post A hypothetical redesign of <CODE>System.<WBR>Diagnostics.<WBR>Process</CODE> to avoid confusion over properties that are…",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
