@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-27T23:27:13.234635Z",
+  "generated_at": "2026-05-28T00:24:29.604489Z",
   "items": [
+    {
+      "title": "sqlite AGENTS.md",
+      "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+      "date": "2026-05-27T23:44:37Z",
+      "summary": "sqlite AGENTS.md SQLite gained an AGENTS.md file five days ago - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "link": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
@@ -77,13 +84,6 @@
       "date": "2026-05-27T00:31:22Z",
       "summary": "Early in my career, a manager at one of the big firms where I worked made a request so absurd it remains etched in my memory. I walked back to the team, repeated what he had asked, and couldn't…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "The pressure",
-      "link": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
-      "date": "2026-05-26T23:48:45Z",
-      "summary": "The pressure Daniel Stenberg on the unprecedented level of pressure the curl team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported. The rate of…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Calculating the expected range of normal samples",
