@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T03:02:13.805966Z",
+  "generated_at": "2026-05-28T05:22:08.830994Z",
   "items": [
     {
       "title": "Turning K-L divergence into a metric",
@@ -98,6 +98,13 @@
       "date": "2026-05-27T00:31:22Z",
       "summary": "Early in my career, a manager at one of the big firms where I worked made a request so absurd it remains etched in my memory. I walked back to the team, repeated what he had asked, and couldn't…",
       "source": "idiallo.com"
+    },
+    {
+      "title": "Notes on optimizing battery life:",
+      "link": "https://maurycyz.com/misc/battery/",
+      "date": "2026-05-27T00:00:00Z",
+      "summary": "Ok, so you have something with a battery, and you want it to run for a long time. I'll be using the classic CR2023 non-rechargeable lithium \"coin cell\" as an example, but everything here applies to…",
+      "source": "maurycyz.com"
     },
     {
       "title": "Calculating the expected range of normal samples",
@@ -272,13 +279,6 @@
       "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "date": "2026-05-22T16:34:24Z",
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "date": "2026-05-21T21:50:25Z",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
       "source": "krebsonsecurity.com"
     }
   ]
