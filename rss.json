@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-28T13:05:33.991953Z",
+  "generated_at": "2026-05-28T15:04:30.677531Z",
   "items": [
+    {
+      "title": "Researchers Publish Method to Surveil Web Page Visitors by Analyzing Their SSD Activity",
+      "link": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "date": "2026-05-28T14:11:04Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Tuning in FM Radio on a 3D Printer Heatbed",
+      "link": "https://www.jeffgeerling.com/blog/2026/tuning-in-fm-radio-on-a-3d-printer-heatbed/",
+      "date": "2026-05-28T14:00:00Z",
+      "summary": "Pooch from Repkord dropped by my studio while he was in St. Louis, and asked a simple question: Can a 3D printer's heatbed act as an antenna? A fair question, as many an antenna is embedded in a PCB…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "Where Are the Economies of Scale in Homebuilding?",
       "link": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
@@ -184,13 +198,6 @@
       "source": "daringfireball.net"
     },
     {
-      "title": "Thieves Are Texting Threats to Victims of iPhone Theft in London",
-      "link": "https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.lFA.OUt7.VJ_FoDpINr0L",
-      "date": "2026-05-25T20:27:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Distributing LLM inference in DwarfStar",
       "link": "http://antirez.com/news/167",
       "date": "2026-05-25T14:54:59Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-23T01:14:24Z",
       "summary": "There he was, the man at the helm of innovation. Eric Schmidt, the former CEO of Google. The man who once said, google doesn't need to record your conversation, it already knows everything about you.…",
       "source": "idiallo.com"
-    },
-    {
-      "title": "News about Raspberry Pi 6 and Microcontroller Development",
-      "link": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
-      "date": "2026-05-22T20:15:00Z",
-      "summary": "On Thursday, three of the lead Raspberry Pi engineers hosted an AMA on the r/engineering subreddit . Raspberry Pi 6 One of the most interesting tidbits was on the Pi 6. Looking back at previous…",
-      "source": "jeffgeerling.com"
     }
   ]
 }
