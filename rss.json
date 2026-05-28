@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-28T15:04:30.677531Z",
+  "generated_at": "2026-05-28T17:11:02.134908Z",
   "items": [
+    {
+      "title": "Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras",
+      "link": "https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv",
+      "date": "2026-05-28T16:52:07Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Protestware for coding agents",
+      "link": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
+      "date": "2026-05-28T15:00:00Z",
+      "summary": "printMessageForCodingAgents()",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Researchers Publish Method to Surveil Web Page Visitors by Analyzing Their SSD Activity",
       "link": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
@@ -51,6 +65,13 @@
       "source": "joanwestenberg.com"
     },
     {
+      "title": "Dancing mad with sandboxing",
+      "link": "https://xeiaso.net/blog/2026/dancing-mad-sandboxing/",
+      "date": "2026-05-28T00:00:00Z",
+      "summary": "Kefka is a Go-native shell sandbox with coreutils, Python via WebAssembly, and more. Learn the works of madness that went into making this happen!",
+      "source": "xeiaso.net"
+    },
+    {
       "title": "sqlite AGENTS.md",
       "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
       "date": "2026-05-27T23:44:37Z",
@@ -63,13 +84,6 @@
       "date": "2026-05-27T16:38:35Z",
       "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their…",
       "source": "simonwillison.net"
-    },
-    {
-      "title": "Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap",
-      "link": "https://daringfireball.net/linked/2014/01/29/haynes-aapl",
-      "date": "2026-05-27T15:43:45Z",
-      "summary": "",
-      "source": "daringfireball.net"
     },
     {
       "title": "The Meta logo and fitting Besace curves",
@@ -226,13 +240,6 @@
       "source": "shkspr.mobi"
     },
     {
-      "title": "GitHub Actions security in Python packages",
-      "link": "https://nesbitt.io/2026/05/25/github-actions-security-in-python-packages.html",
-      "date": "2026-05-25T10:00:00Z",
-      "summary": "Thank you Dr. Zizmor",
-      "source": "nesbitt.io"
-    },
-    {
       "title": "Why I can't stand the word \"driven\"",
       "link": "https://www.joanwestenberg.com/why-i-cant-stand-the-word-driven/",
       "date": "2026-05-25T00:08:34Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-23T11:34:31Z",
       "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
       "source": "shkspr.mobi"
-    },
-    {
-      "title": "The commencement speech that shook the world",
-      "link": "https://idiallo.com/blog/the-commencement-speech-that-shook-the-world?src=feed",
-      "date": "2026-05-23T01:14:24Z",
-      "summary": "There he was, the man at the helm of innovation. Eric Schmidt, the former CEO of Google. The man who once said, google doesn't need to record your conversation, it already knows everything about you.…",
-      "source": "idiallo.com"
     }
   ]
 }
