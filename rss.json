@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-28T01:33:09.556582Z",
+  "generated_at": "2026-05-28T03:02:13.805966Z",
   "items": [
+    {
+      "title": "Turning K-L divergence into a metric",
+      "link": "https://www.johndcook.com/blog/2026/05/27/jensen-shannon/",
+      "date": "2026-05-28T01:35:54Z",
+      "summary": "Kullback-Leibler divergence Kullback-Leibler divergence is defined for two random variables X and Y by K-L divergence is non-negative, and it’s zero if and only if X and Y have the same distribution.…",
+      "source": "johndcook.com"
+    },
     {
       "title": "The Costco theory of the internet",
       "link": "https://www.joanwestenberg.com/the-costco-theory-of-the-internet/",
@@ -112,13 +119,6 @@
       "date": "2026-05-26T14:00:00Z",
       "summary": "A difference in philosophy. The post If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT? appeared first on The Old New Thing .",
       "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Expected IQ spread on a jury",
-      "link": "https://www.johndcook.com/blog/2026/05/26/expected-iq-spread-on-a-jury/",
-      "date": "2026-05-26T13:50:51Z",
-      "summary": "There’s been some discussion online lately about how a large difference in IQ makes it difficult for two people to communicate. There have been studies that confirm this effect. The difficulty is not…",
-      "source": "johndcook.com"
     },
     {
       "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
