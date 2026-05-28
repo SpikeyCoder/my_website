@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-28T11:09:52.560443Z",
+  "generated_at": "2026-05-28T13:05:33.991953Z",
   "items": [
+    {
+      "title": "Where Are the Economies of Scale in Homebuilding?",
+      "link": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
+      "date": "2026-05-28T12:03:26Z",
+      "summary": "Over the last few months we’ve examined the extent of the construction industry’s productivity problem.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "Pluralistic: Hold on for dear life (28 May 2026)",
+      "link": "https://pluralistic.net/2026/05/28/we-live-in-a-society/",
+      "date": "2026-05-28T11:24:23Z",
+      "summary": "Today's links Hold on for dear life: Not your keys, not your wallet, entirely your problem. Hey look at this: Delights to delectate. Object permanence: Who owns \"Web 2.0\"; EFF saves bloggers'…",
+      "source": "pluralistic.net"
+    },
     {
       "title": "Package managers that package package managers",
       "link": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
@@ -63,6 +77,13 @@
       "date": "2026-05-27T12:38:57Z",
       "summary": "AI is great when it extends your brain. It gets dangerous when it quietly replaces the part that was supposed to think.",
       "source": "terriblesoftware.org"
+    },
+    {
+      "title": "Gadget Review: Chuwi Minibook X N150 + Linux ★★★★☆",
+      "link": "https://shkspr.mobi/blog/2026/05/gadget-review-chuwi-minibook-x-n150-linux/",
+      "date": "2026-05-27T11:34:36Z",
+      "summary": "I needed a small and light laptop to take travelling. Something with a larger screen than my phone so I can use the Big Internet™. Nothing too expensive and something that uses the same USB-C charger…",
+      "source": "shkspr.mobi"
     },
     {
       "title": "CHAOSS Metrics in 2026",
@@ -191,18 +212,18 @@
       "source": "krebsonsecurity.com"
     },
     {
+      "title": "PHP - simple way to send HTTP headers before a script ends",
+      "link": "https://shkspr.mobi/blog/2026/05/php-simple-way-to-send-http-headers-before-a-script-ends/",
+      "date": "2026-05-25T11:34:38Z",
+      "summary": "Suppose you want PHP to keep processing after it has sent back an HTTP response. Normally, this doesn't work: <?php header( \"Location: https://example.com/\" ); // Long operation. sleep(10); die();…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "GitHub Actions security in Python packages",
       "link": "https://nesbitt.io/2026/05/25/github-actions-security-in-python-packages.html",
       "date": "2026-05-25T10:00:00Z",
       "summary": "Thank you Dr. Zizmor",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "Pluralistic: No honor among (ad-tech) thieves (25 May 2026)",
-      "link": "https://pluralistic.net/2026/05/25/lying-spies/",
-      "date": "2026-05-25T08:21:45Z",
-      "summary": "Today's links No honor among (ad-tech) thieves: Including \"and\" and \"the.\" Hey look at this: Delights to delectate. Object permanence: Budweiser nunchuks; GOP vote-suppressor voted illegally; Airbnb…",
-      "source": "pluralistic.net"
     },
     {
       "title": "Why I can't stand the word \"driven\"",
@@ -240,6 +261,13 @@
       "source": "construction-physics.com"
     },
     {
+      "title": "Which age-gates should be skill-gates and vice-versa?",
+      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
+      "date": "2026-05-23T11:34:31Z",
+      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
+      "source": "shkspr.mobi"
+    },
+    {
       "title": "The commencement speech that shook the world",
       "link": "https://idiallo.com/blog/the-commencement-speech-that-shook-the-world?src=feed",
       "date": "2026-05-23T01:14:24Z",
@@ -252,34 +280,6 @@
       "date": "2026-05-22T20:15:00Z",
       "summary": "On Thursday, three of the lead Raspberry Pi engineers hosted an AMA on the r/engineering subreddit . Raspberry Pi 6 One of the most interesting tidbits was on the Pi 6. Looking back at previous…",
       "source": "jeffgeerling.com"
-    },
-    {
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "date": "2026-05-22T16:34:24Z",
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "date": "2026-05-21T21:50:25Z",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
-      "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "The Rise of Build-to-Rent Housing",
-      "link": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
-      "date": "2026-05-21T12:03:24Z",
-      "summary": "A major shift in the housing market in the last several years is the rapidly increasing popularity of “build-to-rent” homes — single-family homes that are built specifically for the purpose of being…",
-      "source": "construction-physics.com"
-    },
-    {
-      "title": "Nobody is destined for greatness.",
-      "link": "https://www.joanwestenberg.com/nobody-is-destined-for-greatness/",
-      "date": "2026-05-21T01:31:20Z",
-      "summary": "Demosthenes lost his first appearance before the Athenian assembly. His voice came out thin and failed him mid-sentence, and the crowd laughed him off the platform. Plutarch tells us he walked home…",
-      "source": "joanwestenberg.com"
     }
   ]
 }
