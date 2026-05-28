@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-28T00:24:29.604489Z",
+  "generated_at": "2026-05-28T01:33:09.556582Z",
   "items": [
+    {
+      "title": "The Costco theory of the internet",
+      "link": "https://www.joanwestenberg.com/the-costco-theory-of-the-internet/",
+      "date": "2026-05-28T01:29:39Z",
+      "summary": "At FedMart, the discount chain Sol Price built in 1950s San Diego, you could buy a can of WD-40 in one size, the big one, and that was the end of the conversation. Anyone who wanted the small can…",
+      "source": "joanwestenberg.com"
+    },
     {
       "title": "sqlite AGENTS.md",
       "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
@@ -273,13 +280,6 @@
       "date": "2026-05-21T21:50:25Z",
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for…",
       "source": "krebsonsecurity.com"
-    },
-    {
-      "title": "The Rise of Build-to-Rent Housing",
-      "link": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
-      "date": "2026-05-21T12:03:24Z",
-      "summary": "A major shift in the housing market in the last several years is the rapidly increasing popularity of “build-to-rent” homes — single-family homes that are built specifically for the purpose of being…",
-      "source": "construction-physics.com"
     }
   ]
 }
