@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T07:13:44.238347Z",
+  "generated_at": "2026-05-29T09:04:16.490381Z",
   "items": [
     {
       "title": "datasette 1.0a31",
@@ -75,7 +75,7 @@
       "title": "Package managers that package package managers",
       "link": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
       "date": "2026-05-28T10:00:00Z",
-      "summary": "brew install pip install poetry add pdm add uv tool install conda",
+      "summary": "brew install spack install conda install cargo install uv tool install pip install poetry add pdm add conan",
       "source": "nesbitt.io"
     },
     {
