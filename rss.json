@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-29T11:02:54.337221Z",
+  "generated_at": "2026-05-29T12:57:38.370344Z",
   "items": [
+    {
+      "title": "Online (one-pass) algorithms",
+      "link": "https://www.johndcook.com/blog/2026/05/29/online-one-pass-algorithms/",
+      "date": "2026-05-29T12:24:30Z",
+      "summary": "Canonical example The variance of a set of numbers is defined as the sum of the squared distances from each point to the mean. So it would seem that you first need to calculate the mean, then go back…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "The UK Government's Low Value Purchase System is a Waste of Time",
+      "link": "https://shkspr.mobi/blog/2026/05/the-uk-governments-low-value-purchase-system-is-a-waste-of-time/",
+      "date": "2026-05-29T11:34:54Z",
+      "summary": "It can be hard running a small business. If you want to sell to a large organisation like the UK Government, there are forms to fill in, checks to comply with, tenders to bid on, and a hundred other…",
+      "source": "shkspr.mobi"
+    },
     {
       "title": "Composer’s dependency policies",
       "link": "https://nesbitt.io/2026/05/29/composer-dependency-policies.html",
@@ -163,13 +177,6 @@
       "source": "maurycyz.com"
     },
     {
-      "title": "Calculating the expected range of normal samples",
-      "link": "https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/",
-      "date": "2026-05-26T17:59:53Z",
-      "summary": "The previous post looked at the expected IQ range in a jury of 12. This post will look more generally at computing the expected range of n samples from a N(0, 1) random variable. This will give the…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "The Great Depopulation",
       "link": "https://www.theatlantic.com/ideas/2026/05/global-birthrate-decline/687297/?utm_source=feed",
       "date": "2026-05-26T16:51:03Z",
@@ -273,13 +280,6 @@
       "date": "2026-05-23T12:02:39Z",
       "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
       "source": "construction-physics.com"
-    },
-    {
-      "title": "Which age-gates should be skill-gates and vice-versa?",
-      "link": "https://shkspr.mobi/blog/2026/05/which-age-gates-should-be-skill-gates-and-vice-versa/",
-      "date": "2026-05-23T11:34:31Z",
-      "summary": "In the UK, it is illegal to buy alcohol if you are under 18. Similarly, in most countries, you cannot vote until you have reached a specific age. These are age-gates. You do not need to prove your…",
-      "source": "shkspr.mobi"
     }
   ]
 }
