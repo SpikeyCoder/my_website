@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-29T14:05:33.693157Z",
+  "generated_at": "2026-05-29T16:17:08.532799Z",
   "items": [
+    {
+      "title": "It's hard to justify buying a Framework 12",
+      "link": "https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/",
+      "date": "2026-05-29T14:00:00Z",
+      "summary": "My nephew just graduated high school, and wants a laptop. When he decides what computer to buy, price (or more precisely, value ) is the most important attribute. Apple's MacBook Neo upended the…",
+      "source": "jeffgeerling.com"
+    },
     {
       "title": "Online (one-pass) algorithms",
       "link": "https://www.johndcook.com/blog/2026/05/29/online-one-pass-algorithms/",
@@ -273,13 +280,6 @@
       "date": "2026-05-24T00:00:00Z",
       "summary": "",
       "source": "lucumr.pocoo.org"
-    },
-    {
-      "title": "Reading List 05/23/26",
-      "link": "https://www.construction-physics.com/p/reading-list-052326",
-      "date": "2026-05-23T12:02:39Z",
-      "summary": "Squatter removal services, Apple finding uses for defective chips, process heat use in California, the brewing Colorado River crisis, and more.",
-      "source": "construction-physics.com"
     }
   ]
 }
