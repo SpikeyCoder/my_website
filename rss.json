@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-05-29T00:28:02.831311Z",
+  "generated_at": "2026-05-29T01:37:18.877855Z",
   "items": [
+    {
+      "title": "Anthropic's run-rate revenue hits $47 billion",
+      "link": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "date": "2026-05-29T01:23:08Z",
+      "summary": "The most interesting thing about Anthropic's $65B Series H announcement is this line (emphasis mine): Since our Series G in February, adoption has continued to grow across global enterprise…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
       "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
       "date": "2026-05-28T23:59:50Z",
       "summary": "Anthropic shipped Claude Opus 4.8 today. My favourite thing about it is this note in the release announcement: Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor.…",
+      "source": "simonwillison.net"
+    },
+    {
+      "title": "llm-anthropic 0.25.1",
+      "link": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+      "date": "2026-05-28T23:54:56Z",
+      "summary": "Release: llm-anthropic 0.25.1 New model: Claude Opus 4.8 ( claude-opus-4.8 ). New -o fast 1 option for fast mode , for organizations with that feature enabled on their account. Default max_tokens for…",
       "source": "simonwillison.net"
     },
     {
@@ -84,20 +98,6 @@
       "date": "2026-05-28T00:00:00Z",
       "summary": "Kefka is a Go-native shell sandbox with coreutils, Python via WebAssembly, and more. Learn the works of madness that went into making this happen!",
       "source": "xeiaso.net"
-    },
-    {
-      "title": "sqlite AGENTS.md",
-      "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
-      "date": "2026-05-27T23:44:37Z",
-      "summary": "sqlite AGENTS.md SQLite gained an AGENTS.md file five days ago - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "link": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
-      "date": "2026-05-27T16:38:35Z",
-      "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their…",
-      "source": "simonwillison.net"
     },
     {
       "title": "The Meta logo and fitting Besace curves",
