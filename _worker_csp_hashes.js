@@ -43,6 +43,7 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-Ro6AH8h8cqTc61PUFsFixTDTlGWQFPwHqPRCBIh8BLs='",
   "'sha256-SrJtYXQp+WeuGSWSDYFLUg5tQD2s2PaXwYr9iNFyhuY='",
   "'sha256-TxNpdMcnjF9Ui76HSyOQLpoJXpig/vfSN+n2Q1jx89k='",
+  "'sha256-YD9t80FcbY/dqAx/wFBcBe5R5by0XKivyfgqlyWr5aU='",
   "'sha256-YG2ASUbt1NpZNctpPcTwOr7/rlZi+8qqQ2mRNh2LB6Q='",
   "'sha256-YjnJSPHiiaOPGA3Oonltyb/w5PsDsOzZ65imUQcDEyg='",
   "'sha256-a/N2aRvhGlqvZvuTl5nrbP068I8rI46k9/vpmcVpn8I='",
@@ -71,5 +72,4 @@ export const CSP_INLINE_SCRIPT_HASHES = [
   "'sha256-xumAxZ0gU4aOj9SxoP+Ob8D0s8bobxR8IsL0zckni9Y='",
   "'sha256-yC+e79xLrX9HftMKHzks8D20EIdxgjhAeD6aka4lXCg='",
   "'sha256-z0VbXadKGfqC3Ngfu4ucJpsLT5U6w1hWCXvk6LxGrHU='",
-  "'sha256-zx+Ddda1VxnIikC8y8uN0gMmKesmlWKb/FhLgJ+M/fY='",
 ];
