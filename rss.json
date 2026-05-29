@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-28T23:28:01.260296Z",
+  "generated_at": "2026-05-29T00:28:02.831311Z",
   "items": [
+    {
+      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+      "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+      "date": "2026-05-28T23:59:50Z",
+      "summary": "Anthropic shipped Claude Opus 4.8 today. My favourite thing about it is this note in the release announcement: Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor.…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras",
       "link": "https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv",
@@ -133,13 +140,6 @@
       "date": "2026-05-27T07:57:41Z",
       "summary": "Today's links AI and a world without migrants: It's solipsism all the way down. Hey look at this: Delights to delectate. Object permanence: Manuscript rabbits; \"What Will Come After\"; Pastejacking;…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Quoting Kyle Ferrana",
-      "link": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
-      "date": "2026-05-27T06:41:43Z",
-      "summary": "PICARD: Data, shields up DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy. [camera shakes] WORF: HULL BREACHES ON NINE…",
-      "source": "simonwillison.net"
     },
     {
       "title": "I patched iozone for better disk benchmarks on modern macOS",
