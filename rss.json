@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-30T10:33:05.588810Z",
+  "generated_at": "2026-05-30T11:28:50.502936Z",
   "items": [
+    {
+      "title": "This Week in Package Management: 30 May 2026",
+      "link": "https://nesbitt.io/2026/05/30/this-week-in-package-management.html",
+      "date": "2026-05-30T10:00:00Z",
+      "summary": "Releases, advisories, and articles from across the package management world",
+      "source": "nesbitt.io"
+    },
     {
       "title": "Pluralistic: Carneyism without Carney (30 May 2026)",
       "link": "https://pluralistic.net/2026/05/30/rupture/",
@@ -119,13 +126,6 @@
       "date": "2026-05-28T11:24:23Z",
       "summary": "Today's links Hold on for dear life: Not your keys, not your wallet, entirely your problem. Hey look at this: Delights to delectate. Object permanence: Who owns \"Web 2.0\"; EFF saves bloggers'…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Package managers that package package managers",
-      "link": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
-      "date": "2026-05-28T10:00:00Z",
-      "summary": "brew install spack install conda install cargo install uv tool install pip install poetry add pdm add conan",
-      "source": "nesbitt.io"
     },
     {
       "title": "Turning K-L divergence into a metric",
