@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-30T20:20:25.706884Z",
+  "generated_at": "2026-05-30T21:19:33.328266Z",
   "items": [
+    {
+      "title": "Spot checking polynomial identities",
+      "link": "https://www.johndcook.com/blog/2026/05/30/schwartz-zippel/",
+      "date": "2026-05-30T21:06:49Z",
+      "summary": "If a polynomial identity holds at a few random points, it’s very like true. We’ll make this statement more precise, but first let’s look at some applications. You may want to test an identity that…",
+      "source": "johndcook.com"
+    },
+    {
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "date": "2026-05-30T21:02:16Z",
+      "summary": "Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "I Am Retiring from Tech to Live Offline",
       "link": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
@@ -12,7 +26,7 @@
       "title": "Quoting Daniel Jalkut",
       "link": "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
       "date": "2026-05-30T17:29:55Z",
-      "summary": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. — Daniel Jalkut , via John Gruber Tags: ai",
+      "summary": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. — Daniel Jalkut , via John Gruber Tags: ai , john-gruber",
       "source": "simonwillison.net"
     },
     {
@@ -65,11 +79,11 @@
       "source": "pluralistic.net"
     },
     {
-      "title": "Notes from May 2026",
-      "link": "https://evanhahn.com/notes-from-may-2026/",
+      "title": "Arp 114:",
+      "link": "https://maurycyz.com/astro/arp114/",
       "date": "2026-05-30T00:00:00Z",
-      "summary": "My blog turned 16 this month! I did nothing to celebrate, but made some little tools and clicked some links about tech ethics. Things from me this month I published four little tools this month: ZIP…",
-      "source": "evanhahn.com"
+      "summary": "North is left. (mirrored). 26x18 arcmin (0.3 arcsec/pixel) dt {color: var(--em-color)} Total exposure time: 393 * 30 seconds = 3.2 hours. (across 2 nights) Exposure used in stack: 241 * 30 seconds =…",
+      "source": "maurycyz.com"
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -93,25 +107,11 @@
       "source": "johndcook.com"
     },
     {
-      "title": "The UK Government's Low Value Purchase System is a Waste of Time",
-      "link": "https://shkspr.mobi/blog/2026/05/the-uk-governments-low-value-purchase-system-is-a-waste-of-time/",
-      "date": "2026-05-29T11:34:54Z",
-      "summary": "It can be hard running a small business. If you want to sell to a large organisation like the UK Government, there are forms to fill in, checks to comply with, tenders to bid on, and a hundred other…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Composer’s dependency policies",
       "link": "https://nesbitt.io/2026/05/29/composer-dependency-policies.html",
       "date": "2026-05-29T10:00:00Z",
       "summary": "uBlock Origin for composer install",
       "source": "nesbitt.io"
-    },
-    {
-      "title": "datasette 1.0a31",
-      "link": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
-      "date": "2026-05-29T03:32:02Z",
-      "summary": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries…",
-      "source": "simonwillison.net"
     },
     {
       "title": "Protestware for coding agents",
@@ -170,13 +170,6 @@
       "source": "xeiaso.net"
     },
     {
-      "title": "The Meta logo and fitting Besace curves",
-      "link": "https://www.johndcook.com/blog/2026/05/27/the-meta-logo-and-fitting-besace-curves/",
-      "date": "2026-05-27T15:15:51Z",
-      "summary": "I saw a post yesterday saying that the Meta logo is a Besace curve. A Besace curve has the implicit form and the parametric form where t ranges over [0, 2π]. So given a Besace curve, such as the Meta…",
-      "source": "johndcook.com"
-    },
-    {
       "title": "Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 1",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260527-00/?p=112361",
       "date": "2026-05-27T14:00:00Z",
@@ -189,13 +182,6 @@
       "date": "2026-05-27T12:38:57Z",
       "summary": "AI is great when it extends your brain. It gets dangerous when it quietly replaces the part that was supposed to think.",
       "source": "terriblesoftware.org"
-    },
-    {
-      "title": "Gadget Review: Chuwi Minibook X N150 + Linux ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/05/gadget-review-chuwi-minibook-x-n150-linux/",
-      "date": "2026-05-27T11:34:36Z",
-      "summary": "I needed a small and light laptop to take travelling. Something with a larger screen than my phone so I can use the Big Internet™. Nothing too expensive and something that uses the same USB-C charger…",
-      "source": "shkspr.mobi"
     },
     {
       "title": "Pluralistic: AI and a world without migrants (27 May 2026)",
@@ -268,18 +254,32 @@
       "source": "krebsonsecurity.com"
     },
     {
-      "title": "PHP - simple way to send HTTP headers before a script ends",
-      "link": "https://shkspr.mobi/blog/2026/05/php-simple-way-to-send-http-headers-before-a-script-ends/",
-      "date": "2026-05-25T11:34:38Z",
-      "summary": "Suppose you want PHP to keep processing after it has sent back an HTTP response. Normally, this doesn't work: <?php header( \"Location: https://example.com/\" ); // Long operation. sleep(10); die();…",
-      "source": "shkspr.mobi"
-    },
-    {
       "title": "Why I can't stand the word \"driven\"",
       "link": "https://www.joanwestenberg.com/why-i-cant-stand-the-word-driven/",
       "date": "2026-05-25T00:08:34Z",
       "summary": "A man named Harry Readford once stole close to 1,000 head of cattle from Bowen Downs station in central Queensland and drove them south, down through the Channel Country and along the Strzelecki…",
       "source": "joanwestenberg.com"
+    },
+    {
+      "title": "Walking the dog with Claude",
+      "link": "http://xania.org/202605/walking-the-dog?utm_source=feed&utm_medium=rss",
+      "date": "2026-05-24T16:55:00Z",
+      "summary": "An AI interview about explaining hard things simply, conducted on a dog walk",
+      "source": "xania.org"
+    },
+    {
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
+      "date": "2026-05-24T00:24:18.495000Z",
+      "summary": "",
+      "source": "righto.com"
+    },
+    {
+      "title": "Building Pi With Pi",
+      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "date": "2026-05-24T00:00:00Z",
+      "summary": "",
+      "source": "lucumr.pocoo.org"
     }
   ]
 }
