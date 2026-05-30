@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-30T11:28:50.502936Z",
+  "generated_at": "2026-05-30T12:20:47.399574Z",
   "items": [
+    {
+      "title": "Reading List 05/30/26",
+      "link": "https://www.construction-physics.com/p/reading-list-053026",
+      "date": "2026-05-30T12:02:52Z",
+      "summary": "A California chemical leak, weapons-grade plutonium for nuclear reactor startups, a startup that will clean your house to get robot training data, Blue Origin’s rocket explosion, and more.",
+      "source": "construction-physics.com"
+    },
     {
       "title": "This Week in Package Management: 30 May 2026",
       "link": "https://nesbitt.io/2026/05/30/this-week-in-package-management.html",
@@ -273,13 +280,6 @@
       "date": "2026-05-24T00:24:18.495000Z",
       "summary": "",
       "source": "righto.com"
-    },
-    {
-      "title": "Building Pi With Pi",
-      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
-      "date": "2026-05-24T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
