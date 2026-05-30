@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T03:01:25.911738Z",
+  "generated_at": "2026-05-30T05:14:40.662253Z",
   "items": [
     {
       "title": "★ What Is a Dickover?",
@@ -21,6 +21,13 @@
       "date": "2026-05-29T14:00:00Z",
       "summary": "My nephew just graduated high school, and wants a laptop. When he decides what computer to buy, price (or more precisely, value ) is the most important attribute. Apple's MacBook Neo upended the…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 3",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260529-00/?p=112368",
+      "date": "2026-05-29T14:00:00Z",
+      "summary": "A variation where we try only once. The post Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 3 appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Online (one-pass) algorithms",
@@ -196,13 +203,6 @@
       "date": "2026-05-26T16:51:03Z",
       "summary": "Why is the birth rate declining in every country on Earth?",
       "source": "derekthompson.org"
-    },
-    {
-      "title": "If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=112354",
-      "date": "2026-05-26T14:00:00Z",
-      "summary": "A difference in philosophy. The post If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
