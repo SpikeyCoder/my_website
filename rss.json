@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-30T17:22:47.279964Z",
+  "generated_at": "2026-05-30T18:19:49.048894Z",
   "items": [
+    {
+      "title": "Quoting Daniel Jalkut",
+      "link": "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
+      "date": "2026-05-30T17:29:55Z",
+      "summary": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. — Daniel Jalkut , via John Gruber Tags: ai",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Microcode inside the Intel 8087 floating-point chip: register exchange",
       "link": "http://www.righto.com/feeds/5917097192784199241/comments/default",
@@ -104,13 +111,6 @@
       "link": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
       "date": "2026-05-29T01:23:08Z",
       "summary": "The most interesting thing about Anthropic's $65B Series H announcement is this line (emphasis mine): Since our Series G in February, adoption has continued to grow across global enterprise…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
-      "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
-      "date": "2026-05-28T23:59:50Z",
-      "summary": "Anthropic shipped Claude Opus 4.8 today. My favourite thing about it is this note in the release announcement: Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor.…",
       "source": "simonwillison.net"
     },
     {
