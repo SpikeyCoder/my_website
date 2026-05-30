@@ -1,12 +1,47 @@
 {
-  "generated_at": "2026-05-30T03:01:25.911738Z",
+  "generated_at": "2026-05-30T15:24:51.220561Z",
   "items": [
     {
       "title": "★ What Is a Dickover?",
       "link": "https://daringfireball.net/2026/05/what_is_a_dickover",
-      "date": "2026-05-30T00:22:29Z",
+      "date": "2026-05-30T13:22:54Z",
       "summary": "dickover — a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g.…",
       "source": "daringfireball.net"
+    },
+    {
+      "title": "Yours Truly on TBPN Yesterday",
+      "link": "https://www.youtube.com/live/sQVwLUxFdMY?t=1997",
+      "date": "2026-05-30T12:28:45Z",
+      "summary": "",
+      "source": "daringfireball.net"
+    },
+    {
+      "title": "Reading List 05/30/26",
+      "link": "https://www.construction-physics.com/p/reading-list-053026",
+      "date": "2026-05-30T12:02:52Z",
+      "summary": "A California chemical leak, weapons-grade plutonium for nuclear reactor startups, a startup that will clean your house to get robot training data, Blue Origin’s rocket explosion, and more.",
+      "source": "construction-physics.com"
+    },
+    {
+      "title": "This Week in Package Management: 30 May 2026",
+      "link": "https://nesbitt.io/2026/05/30/this-week-in-package-management.html",
+      "date": "2026-05-30T10:00:00Z",
+      "summary": "Releases, advisories, and articles from across the package management world",
+      "source": "nesbitt.io"
+    },
+    {
+      "title": "Pluralistic: Carneyism without Carney (30 May 2026)",
+      "link": "https://pluralistic.net/2026/05/30/rupture/",
+      "date": "2026-05-30T09:31:41Z",
+      "summary": "Today's links Carneyism without Carney: Eh? Hey look at this: Delights to delectate. Object permanence: Replacing pharma patents with bounties; USTR v cheap leukemia meds; Plutocrats x wealth…",
+      "source": "pluralistic.net"
+    },
+    {
+      "title": "Notes from May 2026",
+      "link": "https://evanhahn.com/notes-from-may-2026/",
+      "date": "2026-05-30T00:00:00Z",
+      "summary": "My blog turned 16 this month! I did nothing to celebrate, but made some little tools and clicked some links about tech ethics. Things from me this month I published four little tools this month: ZIP…",
+      "source": "evanhahn.com"
     },
     {
       "title": "One Group, Clearly, Is Deranged",
@@ -21,6 +56,13 @@
       "date": "2026-05-29T14:00:00Z",
       "summary": "My nephew just graduated high school, and wants a laptop. When he decides what computer to buy, price (or more precisely, value ) is the most important attribute. Apple's MacBook Neo upended the…",
       "source": "jeffgeerling.com"
+    },
+    {
+      "title": "Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 3",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260529-00/?p=112368",
+      "date": "2026-05-29T14:00:00Z",
+      "summary": "A variation where we try only once. The post Sharing the result of a single Windows Runtime IAsyncOperation among multiple coroutines, part 3 appeared first on The Old New Thing .",
+      "source": "devblogs.microsoft.com/oldnewthing"
     },
     {
       "title": "Online (one-pass) algorithms",
@@ -65,13 +107,6 @@
       "source": "simonwillison.net"
     },
     {
-      "title": "Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras",
-      "link": "https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv",
-      "date": "2026-05-28T16:52:07Z",
-      "summary": "",
-      "source": "daringfireball.net"
-    },
-    {
       "title": "Protestware for coding agents",
       "link": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
       "date": "2026-05-28T15:00:00Z",
@@ -105,13 +140,6 @@
       "date": "2026-05-28T11:24:23Z",
       "summary": "Today's links Hold on for dear life: Not your keys, not your wallet, entirely your problem. Hey look at this: Delights to delectate. Object permanence: Who owns \"Web 2.0\"; EFF saves bloggers'…",
       "source": "pluralistic.net"
-    },
-    {
-      "title": "Package managers that package package managers",
-      "link": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
-      "date": "2026-05-28T10:00:00Z",
-      "summary": "brew install spack install conda install cargo install uv tool install pip install poetry add pdm add conan",
-      "source": "nesbitt.io"
     },
     {
       "title": "Turning K-L divergence into a metric",
@@ -198,20 +226,6 @@
       "source": "derekthompson.org"
     },
     {
-      "title": "If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=112354",
-      "date": "2026-05-26T14:00:00Z",
-      "summary": "A difference in philosophy. The post If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT? appeared first on The Old New Thing .",
-      "source": "devblogs.microsoft.com/oldnewthing"
-    },
-    {
-      "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
-      "link": "https://pluralistic.net/2026/05/26/the-ai-will-continue/",
-      "date": "2026-05-26T09:45:37Z",
-      "summary": "Today's links The AI bubble isn't like the internet bubble: No one had to force-feed the web to workers. Hey look at this: Delights to delectate. Object permanence: Website graveyard; Anti-librarian…",
-      "source": "pluralistic.net"
-    },
-    {
       "title": "Amber Alert sends Spam URL?",
       "link": "https://idiallo.com/byte-size/amber-alert-with-spam-link?src=feed",
       "date": "2026-05-26T03:25:17Z",
@@ -266,20 +280,6 @@
       "date": "2026-05-24T16:55:00Z",
       "summary": "An AI interview about explaining hard things simply, conducted on a dog walk",
       "source": "xania.org"
-    },
-    {
-      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
-      "link": "http://www.righto.com/feeds/872292081485114047/comments/default",
-      "date": "2026-05-24T00:24:18.495000Z",
-      "summary": "",
-      "source": "righto.com"
-    },
-    {
-      "title": "Building Pi With Pi",
-      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
-      "date": "2026-05-24T00:00:00Z",
-      "summary": "",
-      "source": "lucumr.pocoo.org"
     }
   ]
 }
