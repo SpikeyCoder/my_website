@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-30T19:29:08.060196Z",
+  "generated_at": "2026-05-30T20:20:25.706884Z",
   "items": [
+    {
+      "title": "I Am Retiring from Tech to Live Offline",
+      "link": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "date": "2026-05-30T19:39:08Z",
+      "summary": "I Am Retiring from Tech to Live Offline I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is not one of those: Chad Whitacre is taking concrete steps,…",
+      "source": "simonwillison.net"
+    },
     {
       "title": "Quoting Daniel Jalkut",
       "link": "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
@@ -104,13 +111,6 @@
       "link": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
       "date": "2026-05-29T03:32:02Z",
       "summary": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries…",
-      "source": "simonwillison.net"
-    },
-    {
-      "title": "Anthropic's run-rate revenue hits $47 billion",
-      "link": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
-      "date": "2026-05-29T01:23:08Z",
-      "summary": "The most interesting thing about Anthropic's $65B Series H announcement is this line (emphasis mine): Since our Series G in February, adoption has continued to grow across global enterprise…",
       "source": "simonwillison.net"
     },
     {
